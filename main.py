@@ -47,3 +47,4 @@ for gene_row in genes_web_table.find_all('a'):
 
 genes_table = pd.DataFrame(data=genes_dict)
 genes_table.to_csv(r'./exported_data/Ecoli_Genes.csv')
+genes_table.to_excel(r'./exported_data/Ecoli_Genes.xlsx')
