@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='27.0' xml:base='http://BioCyc.org/getxml?ECOLI:G0-8899'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:G0-8899</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='27.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Gene ID='ECOLI:G0-8899' orgid='ECOLI' frameid='G0-8899' detail='full'><parent><Gene resource='getxml?ECOLI:BC-2.2.7' orgid='ECOLI' frameid='BC-2.2.7' class='true'/></parent>
+<parent><Gene resource='getxml?ECOLI:BC-3.1.3.1' orgid='ECOLI' frameid='BC-3.1.3.1' class='true'/></parent>
+<parent><Gene resource='getxml?ECOLI:BC-3.1.3.3' orgid='ECOLI' frameid='BC-3.1.3.3' class='true'/></parent>
+<parent><Gene resource='getxml?ECOLI:BC-3.1.3.6' orgid='ECOLI' frameid='BC-3.1.3.6' class='true'/></parent>
+<replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<product><RNA resource='getxml?ECOLI:IS061-RNA' orgid='ECOLI' frameid='IS061-RNA'/></product>
+<transcription-direction datatype='string'>-</transcription-direction>
+<centisome-position datatype='float' units='CENTISOMES'>30.283594</centisome-position>
+<common-name datatype='string'>mcaS</common-name>
+<citation><Publication ID='ECOLI:PUB-22250746' orgid='ECOLI' frameid='PUB-22250746' detail='full'><year datatype='integer'>2012</year>
+<source datatype='string'>Mol Microbiol 84(1);36-50</source>
+<title datatype='string'>Small regulatory RNAs control the multi-cellular adhesive lifestyle of Escherichia coli.</title>
+<pubmed-id datatype='string'>22250746</pubmed-id>
+<author datatype='string'>Jorgensen MG</author>
+<author datatype='string'>Nielsen JS</author>
+<author datatype='string'>Boysen A</author>
+<author datatype='string'>Franch T</author>
+<author datatype='string'>Moller-Jensen J</author>
+<author datatype='string'>Valentin-Hansen P</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-8839' orgid='ECOLI' frameid='TU0-8839'/></component-of>
+<accession-1 datatype='string'>b4426</accession-1>
+<regulated-by><Regulation ID='ECOLI:REG0-13687' orgid='ECOLI' frameid='REG0-13687' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulated-entity><Gene resource='#ECOLI:G0-8899' orgid='ECOLI' frameid='G0-8899'/></regulated-entity>
+<mode datatype='string'>-</mode>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-228' orgid='ECOLI' frameid='CPLX0-228'/></regulator>
+</Regulation>
+</regulated-by>
+<dblink><dblink-db>REGULONDB</dblink-db>
+<dblink-oid>b4426</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://regulondb.ccg.unam.mx/search?term=b4426&amp;organism=ECK12&amp;type=All</dblink-URL>
+</dblink>
+<dblink><dblink-db>ASAP</dblink-db>
+<dblink-oid>ABE-0047247</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://asap.ahabs.wisc.edu/asap/feature_info.php?FeatureID=ABE-0047247</dblink-URL>
+</dblink>
+<dblink><dblink-db>ECHOBASE</dblink-db>
+<dblink-oid>EB4510</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.york.ac.uk/res/thomas/Gene.cfm?recordID=EB4510</dblink-URL>
+</dblink>
+<left-end-position datatype='integer'>1405658</left-end-position>
+<right-end-position datatype='integer'>1405751</right-end-position>
+<synonym datatype='string'>IS061</synonym>
+<synonym datatype='string'>isrA</synonym>
+<accession-2 datatype='string'>ECK1336</accession-2>
+</Gene>
+</ptools-xml>

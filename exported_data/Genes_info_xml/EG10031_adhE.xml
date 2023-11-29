@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='27.0' xml:base='http://BioCyc.org/getxml?ECOLI:EG10031'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:EG10031</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='27.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Gene ID='ECOLI:EG10031' orgid='ECOLI' frameid='EG10031' detail='full'><parent><Gene resource='getxml?ECOLI:BC-1.3.5' orgid='ECOLI' frameid='BC-1.3.5' class='true'/></parent>
+<replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<knockout-growth-observations><Growth-Observation ID='ECOLI:OBS0-439' orgid='ECOLI' frameid='OBS0-439' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>Luria-Bertani broth</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-49' orgid='ECOLI' frameid='OBS0-49' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>LB Lennox</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-40' orgid='ECOLI' frameid='OBS0-40' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>MOPS medium with 0.4% glucose</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-37' orgid='ECOLI' frameid='OBS0-37' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>MOPS medium with 0.4% glucose</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-33' orgid='ECOLI' frameid='OBS0-33' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>M9 medium with 1% glycerol</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-44' orgid='ECOLI' frameid='OBS0-44' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>LB enriched</with-growth-media>
+</Growth-Observation>
+</knockout-growth-observations>
+<transcription-direction datatype='string'>-</transcription-direction>
+<product><Protein resource='getxml?ECOLI:ADHE-MONOMER' orgid='ECOLI' frameid='ADHE-MONOMER'/></product>
+<centisome-position datatype='float' units='CENTISOMES'>27.90916</centisome-position>
+<common-name datatype='string'>adhE</common-name>
+<citation><Publication ID='ECOLI:PUB-2695398' orgid='ECOLI' frameid='PUB-2695398' detail='full'><year datatype='integer'>1989</year>
+<source datatype='string'>Gene 85(1);209-14</source>
+<title datatype='string'>Cloning and sequence analysis of the fermentative alcohol-dehydrogenase-encoding gene of Escherichia coli.</title>
+<pubmed-id datatype='string'>2695398</pubmed-id>
+<author datatype='string'>Goodlove PE</author>
+<author datatype='string'>Cunningham PR</author>
+<author datatype='string'>Parker J</author>
+<author datatype='string'>Clark DP</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-1744060' orgid='ECOLI' frameid='PUB-1744060' detail='full'><year datatype='integer'>1991</year>
+<source datatype='string'>J Bacteriol 173(24);8009-13</source>
+<title datatype='string'>Regulation of the adhE gene, which encodes ethanol dehydrogenase in Escherichia coli.</title>
+<pubmed-id datatype='string'>1744060</pubmed-id>
+<author datatype='string'>Chen YM</author>
+<author datatype='string'>Lin EC</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8423158' orgid='ECOLI' frameid='PUB-8423158' detail='full'><year datatype='integer'>1993</year>
+<source datatype='string'>J Bacteriol 175(3);870-8</source>
+<title datatype='string'>Anaerobic regulation of the adhE gene, encoding the fermentative alcohol dehydrogenase of Escherichia coli.</title>
+<pubmed-id datatype='string'>8423158</pubmed-id>
+<author datatype='string'>Leonardo MR</author>
+<author datatype='string'>Cunningham PR</author>
+<author datatype='string'>Clark DP</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-10572146' orgid='ECOLI' frameid='PUB-10572146' detail='full'><year datatype='integer'>1999</year>
+<source datatype='string'>J Bacteriol 181(23);7390-3</source>
+<title datatype='string'>Regulation of adhE (encoding ethanol oxidoreductase) by the Fis protein in Escherichia coli.</title>
+<pubmed-id datatype='string'>10572146</pubmed-id>
+<author datatype='string'>Membrillo-Hernandez J</author>
+<author datatype='string'>Kwon O</author>
+<author datatype='string'>De Wulf P</author>
+<author datatype='string'>Finkel SE</author>
+<author datatype='string'>Lin EC</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-10601216' orgid='ECOLI' frameid='PUB-10601216' detail='full'><year datatype='integer'>1999</year>
+<source datatype='string'>J Bacteriol 181(24);7571-9</source>
+<title datatype='string'>Regulation of expression of the adhE gene, encoding ethanol oxidoreductase in Escherichia coli: transcription from a downstream promoter and regulation by fnr and RpoS.</title>
+<pubmed-id datatype='string'>10601216</pubmed-id>
+<author datatype='string'>Membrillo-Hernandez J</author>
+<author datatype='string'>Lin EC</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45181' orgid='ECOLI' frameid='TU0-45181'/><Transcription-Unit resource='getxml?ECOLI:TU546' orgid='ECOLI' frameid='TU546'/><Transcription-Unit resource='getxml?ECOLI:TU00198' orgid='ECOLI' frameid='TU00198'/></component-of>
+<accession-1 datatype='string'>b1241</accession-1>
+<regulated-by><Regulation ID='ECOLI:REG0-16297' orgid='ECOLI' frameid='REG0-16297' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulated-entity><Gene resource='#ECOLI:EG10031' orgid='ECOLI' frameid='EG10031'/></regulated-entity>
+<mode datatype='string'>+</mode>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-3930' orgid='ECOLI' frameid='CPLX0-3930'/></regulator>
+</Regulation>
+<Regulation ID='ECOLI:REG0-16141' orgid='ECOLI' frameid='REG0-16141' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulated-entity><Gene resource='#ECOLI:EG10031' orgid='ECOLI' frameid='EG10031'/></regulated-entity>
+<mode datatype='string'>+</mode>
+<regulator><Protein resource='getxml?ECOLI:G7518-MONOMER' orgid='ECOLI' frameid='G7518-MONOMER'/></regulator>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15388' orgid='ECOLI' frameid='REG0-15388' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulated-entity><Gene resource='#ECOLI:EG10031' orgid='ECOLI' frameid='EG10031'/></regulated-entity>
+<mode datatype='string'>+</mode>
+<regulator><Protein resource='getxml?ECOLI:PD00353' orgid='ECOLI' frameid='PD00353'/></regulator>
+</Regulation>
+<Regulation ID='ECOLI:REG0-14324' orgid='ECOLI' frameid='REG0-14324' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulated-entity><Gene resource='#ECOLI:EG10031' orgid='ECOLI' frameid='EG10031'/></regulated-entity>
+<mode datatype='string'>+</mode>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7797' orgid='ECOLI' frameid='CPLX0-7797'/></regulator>
+</Regulation>
+</regulated-by>
+<dblink><dblink-db>REGULONDB</dblink-db>
+<dblink-oid>b1241</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://regulondb.ccg.unam.mx/search?term=b1241&amp;organism=ECK12&amp;type=All</dblink-URL>
+</dblink>
+<dblink><dblink-db>STRING</dblink-db>
+<dblink-oid>511145.b1241</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://string-db.org/network/511145.b1241</dblink-URL>
+</dblink>
+<dblink><dblink-db>ASAP</dblink-db>
+<dblink-oid>ABE-0004164</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://asap.ahabs.wisc.edu/asap/feature_info.php?FeatureID=ABE-0004164</dblink-URL>
+</dblink>
+<dblink><dblink-db>ECHOBASE</dblink-db>
+<dblink-oid>EB0030</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.york.ac.uk/res/thomas/Gene.cfm?recordID=EB0030</dblink-URL>
+</dblink>
+<dblink><dblink-db>OU-MICROARRAY</dblink-db>
+<dblink-oid>b1241</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>https://genexpdb.okstate.edu/databases/genexpdb/?query=b1241</dblink-URL>
+</dblink>
+<dblink><dblink-db>CGSC</dblink-db>
+<dblink-oid>1041</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://cgsc.biology.yale.edu/Site.php?ID=1041</dblink-URL>
+</dblink>
+<left-end-position datatype='integer'>1295446</left-end-position>
+<right-end-position datatype='integer'>1298121</right-end-position>
+<synonym datatype='string'>adhC</synonym>
+<synonym datatype='string'>ana</synonym>
+<accession-2 datatype='string'>ECK1235</accession-2>
+</Gene>
+</ptools-xml>

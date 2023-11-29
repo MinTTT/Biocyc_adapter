@@ -1,5 +1,8 @@
 # %%
+import time
+
 import requests
+from requests.exceptions import SSLError
 import numpy
 import scipy
 import pandas as pd
@@ -9,6 +12,9 @@ command_lib = {
     'kb-version': 'kb-version?orgid=ECOLI',
     'web_server': 'https://websvc.biocyc.org'
 }
+
+# ====================
+# Find Tables in biocyc: https://biocyc.org/gene-search.shtml
 # %%
 
 
@@ -42,9 +48,42 @@ for gene_row in genes_web_table.find_all('a'):
     gene_href = gene_row.attrs['href']
     gene_id = gene_href.split('=')[-1]
     genes_dict['genes_name'].append(gene_name)
-    genes_dict['genes_href'].append(biocyc_web+gene_href)
+    genes_dict['genes_href'].append(biocyc_web + gene_href)
     genes_dict['genes_id'].append(gene_id)
 
 genes_table = pd.DataFrame(data=genes_dict)
 genes_table.to_csv(r'./exported_data/Ecoli_Genes.csv')
 genes_table.to_excel(r'./exported_data/Ecoli_Genes.xlsx')
+
+# %% Retrieve all gene info
+import time
+from tqdm import tqdm
+from threading import Thread
+
+info_dict = {}
+
+
+def request_info(g_id, save_dict):
+    retrieve_url = f'https://websvc.biocyc.org/getxml?id=ECOLI:{g_id}&detail=full'
+
+    while True:
+        try:
+            save_dict[g_id] = s.get(retrieve_url).text
+            break
+        except requests.exceptions.SSLError:
+            pass
+
+    return None
+
+
+for g_id in tqdm(genes_dict['genes_id']):
+    thread_gene_retrieve = Thread(target=request_info, args=(g_id, info_dict))
+    thread_gene_retrieve.start()
+
+# back up gene info
+    for g_id, g_info in info_dict.items():
+
+        g_name = genes_table[genes_table['genes_id'] == g_id]['genes_name'].tolist()[0]
+        with open(f'./exported_data/Genes_info_xml/{g_id}_{g_name}.xml', 'w') as g_xml:
+
+            g_xml.write(g_info)

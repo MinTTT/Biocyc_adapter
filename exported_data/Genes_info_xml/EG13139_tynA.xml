@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='27.0' xml:base='http://BioCyc.org/getxml?ECOLI:EG13139'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:EG13139</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='27.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Gene ID='ECOLI:EG13139' orgid='ECOLI' frameid='EG13139' detail='full'><parent><Gene resource='getxml?ECOLI:BC-1.1.3' orgid='ECOLI' frameid='BC-1.1.3' class='true'/></parent>
+<parent><Gene resource='getxml?ECOLI:BC-1.1.4' orgid='ECOLI' frameid='BC-1.1.4' class='true'/></parent>
+<parent><Gene resource='getxml?ECOLI:BC-1.7.30' orgid='ECOLI' frameid='BC-1.7.30' class='true'/></parent>
+<replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<knockout-growth-observations><Growth-Observation ID='ECOLI:OBS0-439' orgid='ECOLI' frameid='OBS0-439' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>Luria-Bertani broth</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-49' orgid='ECOLI' frameid='OBS0-49' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>LB Lennox</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-40' orgid='ECOLI' frameid='OBS0-40' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>MOPS medium with 0.4% glucose</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-37' orgid='ECOLI' frameid='OBS0-37' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>MOPS medium with 0.4% glucose</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-33' orgid='ECOLI' frameid='OBS0-33' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>M9 medium with 1% glycerol</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-44' orgid='ECOLI' frameid='OBS0-44' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>LB enriched</with-growth-media>
+</Growth-Observation>
+</knockout-growth-observations>
+<transcription-direction datatype='string'>-</transcription-direction>
+<product><Protein resource='getxml?ECOLI:AMINEOXID-MONOMER' orgid='ECOLI' frameid='AMINEOXID-MONOMER'/></product>
+<centisome-position datatype='float' units='CENTISOMES'>31.21897</centisome-position>
+<common-name datatype='string'>tynA</common-name>
+<citation><Publication ID='ECOLI:PUB-AZAKAMI94' orgid='ECOLI' frameid='PUB-AZAKAMI94' detail='full'><year datatype='integer'>1994</year>
+<source datatype='string'>Journal of Fermentation and Bioengineering 77(3):315-319</source>
+<title datatype='string'>Nucleotide sequence of the gene for monoamine oxidase (maoA) from Escherichia coli</title>
+<author datatype='string'>Azakami H</author>
+<author datatype='string'>Yamashita M</author>
+<author datatype='string'>Roh JH</author>
+<author datatype='string'>Suzuki H</author>
+<author datatype='string'>Kumagai H</author>
+<author datatype='string'>Murooka Y</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8647101' orgid='ECOLI' frameid='PUB-8647101' detail='full'><year datatype='integer'>1996</year>
+<source datatype='string'>Eur J Biochem 237(3);584-91</source>
+<title datatype='string'>Cloning of the maoA gene that encodes aromatic amine oxidase of Escherichia coli W3350 and characterization of the overexpressed enzyme.</title>
+<pubmed-id datatype='string'>8647101</pubmed-id>
+<author datatype='string'>Steinebach V</author>
+<author datatype='string'>Benen JA</author>
+<author datatype='string'>Bader R</author>
+<author datatype='string'>Postma PW</author>
+<author datatype='string'>De Vries S</author>
+<author datatype='string'>Duine JA</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-42552' orgid='ECOLI' frameid='TU0-42552'/></component-of>
+<accession-1 datatype='string'>b1386</accession-1>
+<dblink><dblink-db>REGULONDB</dblink-db>
+<dblink-oid>b1386</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://regulondb.ccg.unam.mx/search?term=b1386&amp;organism=ECK12&amp;type=All</dblink-URL>
+</dblink>
+<dblink><dblink-db>STRING</dblink-db>
+<dblink-oid>511145.b1386</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://string-db.org/network/511145.b1386</dblink-URL>
+</dblink>
+<dblink><dblink-db>ASAP</dblink-db>
+<dblink-oid>ABE-0004639</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://asap.ahabs.wisc.edu/asap/feature_info.php?FeatureID=ABE-0004639</dblink-URL>
+</dblink>
+<dblink><dblink-db>ECHOBASE</dblink-db>
+<dblink-oid>EB2934</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.york.ac.uk/res/thomas/Gene.cfm?recordID=EB2934</dblink-URL>
+</dblink>
+<dblink><dblink-db>OU-MICROARRAY</dblink-db>
+<dblink-oid>b1386</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>https://genexpdb.okstate.edu/databases/genexpdb/?query=b1386</dblink-URL>
+</dblink>
+<dblink><dblink-db>CGSC</dblink-db>
+<dblink-oid>59</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://cgsc.biology.yale.edu/Site.php?ID=59</dblink-URL>
+</dblink>
+<left-end-position datatype='integer'>1449076</left-end-position>
+<right-end-position datatype='integer'>1451349</right-end-position>
+<synonym datatype='string'>feaA</synonym>
+<synonym datatype='string'>maoA</synonym>
+<accession-2 datatype='string'>ECK1383</accession-2>
+</Gene>
+</ptools-xml>

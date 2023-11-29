@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='27.0' xml:base='http://BioCyc.org/getxml?ECOLI:EG10309'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:EG10309</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='27.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Gene ID='ECOLI:EG10309' orgid='ECOLI' frameid='EG10309' detail='full'><parent><Gene resource='getxml?ECOLI:BC-1.6.13' orgid='ECOLI' frameid='BC-1.6.13' class='true'/></parent>
+<parent><Gene resource='getxml?ECOLI:BC-2.1.3' orgid='ECOLI' frameid='BC-2.1.3' class='true'/></parent>
+<parent><Gene resource='getxml?ECOLI:BC-3.1.1' orgid='ECOLI' frameid='BC-3.1.1' class='true'/></parent>
+<parent><Gene resource='getxml?ECOLI:BC-3.3.1' orgid='ECOLI' frameid='BC-3.3.1' class='true'/></parent>
+<parent><Gene resource='getxml?ECOLI:BC-6.5' orgid='ECOLI' frameid='BC-6.5' class='true'/></parent>
+<replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<knockout-growth-observations><Growth-Observation ID='ECOLI:OBS0-439' orgid='ECOLI' frameid='OBS0-439' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>Luria-Bertani broth</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-49' orgid='ECOLI' frameid='OBS0-49' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>LB Lennox</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-37' orgid='ECOLI' frameid='OBS0-37' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>MOPS medium with 0.4% glucose</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-33' orgid='ECOLI' frameid='OBS0-33' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>M9 medium with 1% glycerol</with-growth-media>
+</Growth-Observation>
+</knockout-growth-observations>
+<product><Protein resource='getxml?ECOLI:EG10309-MONOMER' orgid='ECOLI' frameid='EG10309-MONOMER'/></product>
+<transcription-direction datatype='string'>+</transcription-direction>
+<centisome-position datatype='float' units='CENTISOMES'>97.83062</centisome-position>
+<common-name datatype='string'>fimB</common-name>
+<comment datatype='string'>
+&lt;i&gt;fimB&lt;/i&gt; transcription is regulated by growth phase and its repression require the alternative sigma factor, RpoS during enter stationary phase. Although the mechanism by which RpoS achieves negative control is unknown it is possible that the effect on &lt;i&gt;fimB&lt;/i&gt; is exerted indirectly [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/9108285&quot;&gt;Dove97&lt;/a&gt;].
+&lt;p&gt;
+By making use of microarray analysis, Constantinidou et al [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16377617&quot;&gt;Constantinidou06&lt;/a&gt;] concluded that FNR represses  &lt;i&gt;fimB&lt;/i&gt; gene expression, but it is not know which of the three promoters (&lt;i&gt;fimB&lt;/i&gt;p1, &lt;i&gt;fimB&lt;/i&gt;p2, &lt;i&gt;fimB&lt;/i&gt;p3) is affected. They also identified a putative FNR binding site upstream of the gene, but the sequence was not shown.</comment>
+<citation><Publication ID='ECOLI:PUB-9108285' orgid='ECOLI' frameid='PUB-9108285' detail='full'><year datatype='integer'>1997</year>
+<source datatype='string'>Mol Gen Genet 254(1);13-20</source>
+<title datatype='string'>Control of Escherichia coli type 1 fimbrial gene expression in stationary phase: a negative role for RpoS.</title>
+<pubmed-id datatype='string'>9108285</pubmed-id>
+<author datatype='string'>Dove SL</author>
+<author datatype='string'>Smith SG</author>
+<author datatype='string'>Dorman CJ</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU00412' orgid='ECOLI' frameid='TU00412'/><Transcription-Unit resource='getxml?ECOLI:TU00410' orgid='ECOLI' frameid='TU00410'/><Transcription-Unit resource='getxml?ECOLI:TU00409' orgid='ECOLI' frameid='TU00409'/></component-of>
+<accession-1 datatype='string'>b4312</accession-1>
+<regulated-by><Regulation ID='ECOLI:REG0-16217' orgid='ECOLI' frameid='REG0-16217' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulated-entity><Gene resource='#ECOLI:EG10309' orgid='ECOLI' frameid='EG10309'/></regulated-entity>
+<mode datatype='string'>-</mode>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7748' orgid='ECOLI' frameid='CPLX0-7748'/></regulator>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15860' orgid='ECOLI' frameid='REG0-15860' detail='low'><parent><Regulation resource='getxml?ECOLI:RNA-Mediated-Translation-Regulation' orgid='ECOLI' frameid='RNA-Mediated-Translation-Regulation' class='true'/></parent>
+<regulated-entity><Gene resource='#ECOLI:EG10309' orgid='ECOLI' frameid='EG10309'/></regulated-entity>
+<mode datatype='string'>-</mode>
+<regulator><RNA resource='getxml?ECOLI:RNA0-327' orgid='ECOLI' frameid='RNA0-327'/></regulator>
+</Regulation>
+</regulated-by>
+<dblink><dblink-db>REGULONDB</dblink-db>
+<dblink-oid>b4312</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://regulondb.ccg.unam.mx/search?term=b4312&amp;organism=ECK12&amp;type=All</dblink-URL>
+</dblink>
+<dblink><dblink-db>STRING</dblink-db>
+<dblink-oid>511145.b4312</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://string-db.org/network/511145.b4312</dblink-URL>
+</dblink>
+<dblink><dblink-db>ASAP</dblink-db>
+<dblink-oid>ABE-0014141</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://asap.ahabs.wisc.edu/asap/feature_info.php?FeatureID=ABE-0014141</dblink-URL>
+</dblink>
+<dblink><dblink-db>ECHOBASE</dblink-db>
+<dblink-oid>EB0305</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.york.ac.uk/res/thomas/Gene.cfm?recordID=EB0305</dblink-URL>
+</dblink>
+<dblink><dblink-db>OU-MICROARRAY</dblink-db>
+<dblink-oid>b4312</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>https://genexpdb.okstate.edu/databases/genexpdb/?query=b4312</dblink-URL>
+</dblink>
+<dblink><dblink-db>CGSC</dblink-db>
+<dblink-oid>18355</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://cgsc.biology.yale.edu/Site.php?ID=18355</dblink-URL>
+</dblink>
+<left-end-position datatype='integer'>4540957</left-end-position>
+<right-end-position datatype='integer'>4541559</right-end-position>
+<synonym datatype='string'>pil</synonym>
+<accession-2 datatype='string'>ECK4303</accession-2>
+</Gene>
+</ptools-xml>
