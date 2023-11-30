@@ -1,4 +1,5 @@
 # %%
+import os
 import time
 
 import requests
@@ -87,3 +88,24 @@ for g_id in tqdm(genes_dict['genes_id']):
         with open(f'./exported_data/Genes_info_xml/{g_id}_{g_name}.xml', 'w') as g_xml:
 
             g_xml.write(g_info)
+
+
+#%% load gene xlm files
+
+genes_table = pd.read_csv(r'.\exported_data\Ecoli_Genes.csv')
+genes_id = genes_table['genes_id'].to_list()
+info_dict = {}
+
+genes_file = os.scandir(r'./exported_data/Genes_info_xml/')
+for gene_xml in genes_file:
+    if gene_xml.name.split('.')[-1] == 'xml':
+        file_name = gene_xml.name
+        gene_id = file_name.split('_')[0]
+        if gene_id in genes_id:
+            with open(f'./exported_data/Genes_info_xml/{file_name}', 'r') as g_xml:
+                info_dict[gene_id] = g_xml.read()
+
+
+gene_soup = BeautifulSoup(info_dict['EG10001'], 'lxml')
+
+
