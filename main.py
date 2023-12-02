@@ -8,6 +8,7 @@ import numpy
 import scipy
 import pandas as pd
 from bs4 import BeautifulSoup
+from tqdm import tqdm
 
 command_lib = {
     'kb-version': 'kb-version?orgid=ECOLI',
@@ -58,12 +59,12 @@ genes_table.to_csv(r'./exported_data/Ecoli_Genes.csv')
 genes_table.to_excel(r'./exported_data/Ecoli_Genes.xlsx')
 # %% get all RNAs
 genes = s.get(f'{webServer}/ECOLI/class-instances?object=RNAs')
-genes_soup = BeautifulSoup(genes.text, "xml")
+genes_soup = BeautifulSoup(genes.text, "lxml")
 tables = genes_soup.find_all('table')
 for table in tables:
     if 'class' in list(table.attrs.keys()):
         if table.attrs['class'][0] == 'sortableSAQPoutputTable':
-            genes_web_table = table
+            RNAs_web_table = table
 genes_dict = dict(
     genes_name=[],
     genes_id=[],
@@ -73,7 +74,7 @@ genes_dict = dict(
     RNA_href=[],
 )
 
-for gene_row in genes_web_table.find_all('tr'):
+for gene_row in RNAs_web_table.find_all('tr'):
     # gene_row = gene_row.find_all('td')
     td = gene_row.find_all('a')
     if len(td) != 0:
@@ -98,7 +99,6 @@ for gene_row in genes_web_table.find_all('tr'):
         genes_dict['RNA_name'].append(object_name)
         genes_dict['RNA_id'].append(object_id)
         genes_dict['RNA_href'].append(object_href)
-
 
 genes_table = pd.DataFrame(data=genes_dict)
 genes_table.to_csv(r'./exported_data/Ecoli_RNAs.csv')
@@ -169,19 +169,82 @@ def get_gene_info(gene_xml):
 
     """
     gene_soup = BeautifulSoup(gene_xml, 'xml')
-    product = gene_soup.find('product').findChild().name
-    transcription_direction = gene_soup.find('transcription-direction').text
-    left_end_position = int(gene_soup.find('left-end-position').text)
-    right_end_position = int(gene_soup.find('right-end-position').text)
+    try:
+        product = gene_soup.find('product').findChild().name
+    except AttributeError:
+        # some gene have no product or pseudo product.
+        product = gene_soup.find('product').text
+
+    try:
+        transcription_direction = gene_soup.find('transcription-direction').text
+    except:
+        transcription_direction = None
+    try:
+        left_end_position = int(gene_soup.find('left-end-position').text)
+    except:
+        left_end_position = None
+    try:
+        right_end_position = int(gene_soup.find('right-end-position').text)
+    except:
+        right_end_position = None
+    try:
+        name = gene_soup.find('common-name').text
+    except:
+        name = None
+    try:
+        id = gene_soup.find('Gene').attrs['ID']
+    except:
+        id = None
+
     region = (left_end_position, right_end_position)
-    synonym = gene_soup.find('synonym').text
+    synonym = gene_soup.find_all('synonym')
+    if len(synonym) >= 1:
+        synonym = '; '.join([s.text for s in synonym])
+    else:
+        synonym = None
+    regulator = gene_soup.find('regulated-by')
+    if regulator:
+        regulation = regulator.find_all('Regulation')
+        regulation = '; '.join([r.attrs['frameid'] for r in regulation])
+    else:
+        regulation = None
+
+    component = gene_soup.find('component-of')
+    if component:
+        component = component.find_all('Transcription-Unit')
+        component = '; '.join([c.attrs['frameid'] for c in component])
+    else:
+        component = None
+
     info_dict = {
+        'id': id,
+        'name': name,
         'transcription-direction': transcription_direction,
         'product': product,
         'region': region,
-        'synonym': synonym
+        'synonym': synonym,
+        'regulation': regulation,
+        'component': component
     }
     return info_dict
 
 
-get_gene_info(info_dict['EG10001'])
+all_gene_id = list(info_dict.keys())
+gene_id_number = len(all_gene_id)
+genes_dict = {
+    'id': [None] * gene_id_number,
+    'name': [None] * gene_id_number,
+    'transcription-direction': [None] * gene_id_number,
+    'product': [None] * gene_id_number,
+    'region': [None] * gene_id_number,
+    'synonym': [None] * gene_id_number,
+    'regulation': [None] * gene_id_number,
+    'component': [None] * gene_id_number
+}
+for id_i, id in enumerate(tqdm(all_gene_id)):
+    for prop_key, prop in get_gene_info(info_dict[id]).items():
+        genes_dict[prop_key][id_i] = prop
+
+genes_info_table = pd.DataFrame(data=genes_dict)
+genes_info_table.to_csv(r'./exported_data/Ecoli_gene_info.csv')
+genes_info_table.to_excel(r'./exported_data/Ecoli_gene_info.xlsx')
