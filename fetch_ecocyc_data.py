@@ -2,6 +2,7 @@
 import os
 import time
 
+import pylab as p
 import requests
 from requests.exceptions import SSLError
 import numpy
@@ -135,7 +136,7 @@ for g_id in tqdm(genes_dict['genes_id']):
         with open(f'./exported_data/Genes_info_xml/{g_id}_{g_name}.xml', 'w') as g_xml:
             g_xml.write(g_info)
 
-# %% load gene xlm files
+# %% load gene xlm files and extract information
 
 genes_table = pd.read_csv(r'.\exported_data\Ecoli_Genes.csv')
 genes_id = genes_table['genes_id'].to_list()
@@ -248,3 +249,51 @@ for id_i, id in enumerate(tqdm(all_gene_id)):
 genes_info_table = pd.DataFrame(data=genes_dict)
 genes_info_table.to_csv(r'./exported_data/Ecoli_gene_info.csv')
 genes_info_table.to_excel(r'./exported_data/Ecoli_gene_info.xlsx')
+
+# %% get all DNA/RNA sites data
+# https://ecocyc.org/ECOLI/search-query?type=Sites&siteTypes=ATTENUATORS%20CRYPTIC-PROPHAGES%20MRNA-SITES%20ORIGIN%20OTHER-EXTRAGENIC%20PHAGE-SITES%20PROMOTERS%20RECOMB-SITES%20REPEATS%20RIBOSWITCHES%20TERMINATORS%20TF-SITES%20TUS%20TRANSPOSONS
+DNA_RNA_url = "https://ecocyc.org/ECOLI/search-query?type=Sites&siteTypes=ATTENUATORS%20CRYPTIC-PROPHAGES%20MRNA-SITES%20ORIGIN%20OTHER-EXTRAGENIC%20PHAGE-SITES%20PROMOTERS%20RECOMB-SITES%20REPEATS%20RIBOSWITCHES%20TERMINATORS%20TF-SITES%20TUS%20TRANSPOSONS"
+
+data = s.get(DNA_RNA_url).text
+xml_data = BeautifulSoup(data, 'html').find_all('table')
+xml_table = None
+for xml in xml_data:
+    if 'class' in list(xml.attrs.keys()):
+        if xml.attrs['class'][0] == 'sortableSAQPoutputTable':
+            xml_table = xml
+sites = []
+for row in xml_table.find_all('tr')[1:]:
+    hints = row.find_all('td')
+    if len(hints) > 0:
+
+        hit_name = '; '.join([reg.text for reg in hints[0].find_all('a')])
+        hit_id = '; '.join([reg.attrs['href'].split('=')[-1] for reg in hints[0].find_all('a')])
+        hit_type = hints[1].text
+        try:
+            left = int(hints[2].text)
+            right = int(hints[3].text)
+            region = (left, right)
+        except ValueError:
+            region = None
+        strand = hints[4].text
+        regulation = hints[5].find_all('a')
+        if len(regulation) > 0:
+            regulation_name = '; '.join([reg.text for reg in regulation])
+            regulation_id = '; '.join([reg.attrs['href'].split('=')[-1] for reg in regulation])
+        else:
+            regulation_name = None
+            regulation_id = None
+
+        sites.append(dict(site_name=hit_name, site_id=hit_id, site_type=hit_type, region=region,
+                          strand=strand, transcript_name=regulation_name, transcript_id=regulation_id))
+
+sites_number = len(sites)
+all_sites = dict(site_name=[None]*sites_number, site_id=[None]*sites_number, site_type=[None]*sites_number, region=[None]*sites_number,
+                 strand=[None]*sites_number, transcript_name=[None]*sites_number, transcript_id=[None]*sites_number)
+for s_i, site in enumerate(sites):
+    for key, val in site.items():
+        all_sites[key][s_i] = val
+
+DNA_RNA_sites_df = pd.DataFrame(data=all_sites)
+DNA_RNA_sites_df.to_csv(r'./exported_data/Ecoli_sites_info.csv')
+DNA_RNA_sites_df.to_excel(r'./exported_data/Ecoli_sites_info.xlsx')
