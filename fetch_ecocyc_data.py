@@ -90,6 +90,29 @@ fet_dict = pd.DataFrame(data=fet_dict)
 fet_dict.to_csv(r'./exported_data/Ecoli_features.csv')
 fet_dict.to_excel(r'./exported_data/Ecoli_features.xlsx')
 
+# concat features and genes to all_genes
+genes_id = genes_table['genes_id']
+features_id = fet_dict['genes_id']
+
+genes_id_set = set(genes_id)
+features_id_set = set(features_id)
+
+fet_only_id = list(features_id_set - genes_id_set)
+
+fet_only_table = fet_dict[[True if id in fet_only_id else False for id in fet_dict['genes_id']]]
+all_genes_dict = dict()
+for key in ['genes_name', 'genes_id', 'genes_href']:
+    all_genes_dict[key] = genes_table[key].to_list()
+for id in fet_only_id:
+    if id is not None:
+        fet = fet_dict[fet_dict['genes_id'] == id]
+        all_genes_dict['genes_id'].append(fet['genes_id'].values[0])
+        all_genes_dict['genes_name'].append(fet['genes_name'].values[0])
+        href = f'https://biocyc.org/gene?orgid=ECOLI&id={id}'
+        all_genes_dict['genes_href'].append(href)
+all_genes_table = pd.DataFrame(data=all_genes_dict)
+all_genes_table.to_csv(r'./exported_data/Ecoli_all_genes.csv')
+all_genes_table.to_excel(r'./exported_data/Ecoli_all_genes.xlsx')
 # %% get all RNAs
 genes = s.get(f'{webServer}/ECOLI/class-instances?object=RNAs')
 genes_soup = BeautifulSoup(genes.text, "lxml")
@@ -184,9 +207,10 @@ all_id = list(set(genes_id_set | features_id_set))
 #     thread_gene_retrieve = Thread(target=request_info, args=(g_id, info_dict, s))
 #     all_thread.append(thread_gene_retrieve)
 
-
-all_thread = Parallel(n_jobs=5, require='sharedmem')(delayed(request_info)(g_id, info_dict, s)
+process_id = all_id.copy()
+all_thread = Parallel(n_jobs=24, require='sharedmem')(delayed(request_info)(g_id, info_dict, s)
                                                      for g_id in tqdm(all_id))
+
 print(f'Reqired {len(all_id)}, Success {len(info_dict.keys())}')
 # back up gene info
 
@@ -202,7 +226,7 @@ for id_i, id in enumerate(all_id):
 
 # %% load gene xlm files and extract information
 
-genes_table = pd.read_csv(r'.\exported_data\Ecoli_Genes.csv')
+genes_table = pd.read_csv(r'./exported_data/Ecoli_all_genes.csv')
 genes_id = genes_table['genes_id'].to_list()
 info_dict = {}
 
@@ -235,8 +259,12 @@ def get_gene_info(gene_xml):
     try:
         product = gene_soup.find('product').findChild().name
     except AttributeError:
-        # some gene have no product or pseudo product.
-        product = gene_soup.find('product').text
+        try:
+            product = gene_soup.find('product').text
+        except AttributeError:
+            product = None
+        # some gene have no product or pseudo product.\
+
 
     try:
         transcription_direction = gene_soup.find('transcription-direction').text
@@ -257,7 +285,10 @@ def get_gene_info(gene_xml):
     try:
         id = gene_soup.find('Gene').attrs['ID']
     except:
-        id = None
+        try:
+            id = gene_soup.find('Gene-Fragment').attrs['ID']
+        except:
+            id = None
 
     region = (left_end_position, right_end_position)
     synonym = gene_soup.find_all('synonym')
