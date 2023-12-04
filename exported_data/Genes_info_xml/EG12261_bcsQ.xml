@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='27.0' xml:base='http://BioCyc.org/getxml?ECOLI:EG12261'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:EG12261</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='27.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Gene ID='ECOLI:EG12261' orgid='ECOLI' frameid='EG12261' detail='full'><parent><Gene resource='getxml?ECOLI:Interrupted-Genes' orgid='ECOLI' frameid='Interrupted-Genes' class='true'/></parent>
+<replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<knockout-growth-observations><Growth-Observation ID='ECOLI:OBS0-439' orgid='ECOLI' frameid='OBS0-439' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>Luria-Bertani broth</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-49' orgid='ECOLI' frameid='OBS0-49' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>LB Lennox</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-37' orgid='ECOLI' frameid='OBS0-37' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>MOPS medium with 0.4% glucose</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-33' orgid='ECOLI' frameid='OBS0-33' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>M9 medium with 1% glycerol</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-44' orgid='ECOLI' frameid='OBS0-44' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>LB enriched</with-growth-media>
+</Growth-Observation>
+</knockout-growth-observations>
+<transcription-direction datatype='string'>-</transcription-direction>
+<product>cellulose biosynthesis protein</product>
+<centisome-position datatype='float' units='CENTISOMES'>79.6103</centisome-position>
+<common-name datatype='string'>bcsQ</common-name>
+<comment datatype='string'>In the commensal cellulose-producing &lt;i&gt;E. coli&lt;/i&gt; strain 1094, BcsQ is required for cellulose production and localizes to the cell poles [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/19400787&quot;&gt;Le09a&lt;/a&gt;].  
+&lt;p&gt;
+In &lt;i&gt;E. coli&lt;/i&gt; K-12 strains such as W3110 and MG1655, a &quot;domesticating SNP&quot; consists of a point mutation that introduces a stop codon after the first 5 amino acids of the wild-type &lt;i&gt;bcsQ&lt;/i&gt; ORF.  Additionally, the domesticating SNP lowers expression of both &lt;i&gt;bcsQ&lt;/i&gt; and the downstream &lt;i&gt;bcsA&lt;/i&gt; gene.  After repairing the SNP, the resulting &quot;de-domesticated&quot; W3110 derivative produces cellulose and has dramatically altered biofilm morphology.  A &amp;Delta;&lt;i&gt;bcsQ&lt;/i&gt; mutation introduced into this strain leads to loss of cellulose biosynthesis [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/24097954&quot;&gt;Serra13&lt;/a&gt;] (see also [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31604608&quot;&gt;Acheson19&lt;/a&gt;]). 
+&lt;p&gt;
+BcsQ belongs to the ParA family of ATPases which also includes MinD.  The N-terminal predicted ATP-binding domain of BcsQ (in strain 1094) is required for function, but not for the polar localization of the protein, while the C-terminal domain contributes to both localization and function in cellulose biosynthesis [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/19400787&quot;&gt;Le09a&lt;/a&gt;]. In the cellulose producing strain &lt;i&gt;E. coli&lt;/i&gt; 1094, the inner membrane and cytosolic Bcs proteins - BcsA, BcsB, BscQ, BcsG, BcsE, BcsR and BcsF - organize in a multisubunit, stable macrocomplex; two-hybrid assays identified multiple direct interactions between the subunits and a low resolution structure has been obtained [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/29234007&quot;&gt;Krasteva17&lt;/a&gt;] (see also [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/33712813&quot;&gt;Acheson21&lt;/a&gt;]). 
+&lt;p&gt;
+A &lt;i&gt;bcsQ&lt;/i&gt; mutant was seen to exhibit filamentous morphology, heterogeneous cell size, and a defect in chromosome partitioning [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12382054&quot;&gt;Kim02b&lt;/a&gt;], but [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/19400787&quot;&gt;Le09a&lt;/a&gt;] was unable to reproduce these phenotypes.
+&lt;p&gt;
+BcsQ: &quot;&lt;b&gt;b&lt;/b&gt;acterial &lt;b&gt;c&lt;/b&gt;ellulose &lt;b&gt;s&lt;/b&gt;ynthesis&quot;
+&lt;p&gt;
+Related review: [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/26077867&quot;&gt;Romling15&lt;/a&gt;]</comment>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-8366' orgid='ECOLI' frameid='TU0-8366'/></component-of>
+<accession-1 datatype='string'>b3534</accession-1>
+<dblink><dblink-db>ECOLIWIKI</dblink-db>
+<dblink-oid>b3534</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://ecoliwiki.org/colipedia/index.php/b3534</dblink-URL>
+</dblink>
+<dblink><dblink-db>UNIPROT</dblink-db>
+<dblink-oid>P37655</dblink-oid>
+<dblink-relationship>RELATED-TO</dblink-relationship>
+<dblink-URL>https://www.uniprot.org/uniprot/P37655</dblink-URL>
+</dblink>
+<dblink><dblink-db>REGULONDB</dblink-db>
+<dblink-oid>b3534</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://regulondb.ccg.unam.mx/search?term=b3534&amp;organism=ECK12&amp;type=All</dblink-URL>
+</dblink>
+<dblink><dblink-db>ASAP</dblink-db>
+<dblink-oid>ABE-0011549</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://asap.ahabs.wisc.edu/asap/feature_info.php?FeatureID=ABE-0011549</dblink-URL>
+</dblink>
+<dblink><dblink-db>ECHOBASE</dblink-db>
+<dblink-oid>EB2170</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.york.ac.uk/res/thomas/Gene.cfm?recordID=EB2170</dblink-URL>
+</dblink>
+<dblink><dblink-db>OU-MICROARRAY</dblink-db>
+<dblink-oid>b3534</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>https://genexpdb.okstate.edu/databases/genexpdb/?query=b3534</dblink-URL>
+</dblink>
+<left-end-position datatype='integer'>3695233</left-end-position>
+<right-end-position datatype='integer'>3695985</right-end-position>
+<synonym datatype='string'>yhjQ</synonym>
+<accession-2 datatype='string'>ECK3519</accession-2>
+</Gene>
+</ptools-xml>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='27.0' xml:base='http://BioCyc.org/getxml?ECOLI:G0-16667'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:G0-16667</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='27.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Gene ID='ECOLI:G0-16667' orgid='ECOLI' frameid='G0-16667' detail='full'><parent><Gene resource='getxml?ECOLI:Pseudo-Genes' orgid='ECOLI' frameid='Pseudo-Genes' class='true'/></parent>
+<replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<knockout-growth-observations><Growth-Observation ID='ECOLI:OBS0-439' orgid='ECOLI' frameid='OBS0-439' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>Luria-Bertani broth</with-growth-media>
+</Growth-Observation>
+</knockout-growth-observations>
+<centisome-position datatype='float' units='CENTISOMES'>81.19721</centisome-position>
+<common-name datatype='string'>yibW</common-name>
+<comment datatype='string'>Comment in EcoGene: &quot;Pseudogene reconstruction, rhsA-linked.  A frameshift was hypothetically reconstructed by adding an N after codon 28; YibW' is a C-terminal fragment matching the unique C-terminal extension of the S. sonnei Rhs family protein Ss046.&quot;join(3768892..3768975,3768975..3769256)</comment>
+<component-of/><accession-1 datatype='string'>b4651</accession-1>
+<dblink><dblink-db>ASAP</dblink-db>
+<dblink-oid>ABE-0285245</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://asap.ahabs.wisc.edu/asap/feature_info.php?FeatureID=ABE-0285245</dblink-URL>
+</dblink>
+<left-end-position datatype='integer'>3768892</left-end-position>
+<ancestral-product-segment><start-bp datatype='integer'>1</start-bp>
+<end-bp datatype='integer'>84</end-bp>
+</ancestral-product-segment>
+<ancestral-product-segment><start-bp datatype='integer'>84</start-bp>
+<end-bp datatype='integer'>365</end-bp>
+</ancestral-product-segment>
+<right-end-position datatype='integer'>3769256</right-end-position>
+<accession-2 datatype='string'>ECK4450</accession-2>
+</Gene>
+</ptools-xml>

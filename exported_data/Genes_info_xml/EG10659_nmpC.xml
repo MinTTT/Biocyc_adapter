@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='27.0' xml:base='http://BioCyc.org/getxml?ECOLI:EG10659'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:EG10659</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='27.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Gene ID='ECOLI:EG10659' orgid='ECOLI' frameid='EG10659' detail='full'><parent><Gene resource='getxml?ECOLI:Pseudo-Genes' orgid='ECOLI' frameid='Pseudo-Genes' class='true'/></parent>
+<replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<knockout-growth-observations><Growth-Observation ID='ECOLI:OBS0-439' orgid='ECOLI' frameid='OBS0-439' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>Luria-Bertani broth</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-49' orgid='ECOLI' frameid='OBS0-49' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>LB Lennox</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-37' orgid='ECOLI' frameid='OBS0-37' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>MOPS medium with 0.4% glucose</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-33' orgid='ECOLI' frameid='OBS0-33' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>M9 medium with 1% glycerol</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-44' orgid='ECOLI' frameid='OBS0-44' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>LB enriched</with-growth-media>
+</Growth-Observation>
+</knockout-growth-observations>
+<product>DLP12 prophage; putative outer membrane porin NmpC</product>
+<transcription-direction datatype='string'>-</transcription-direction>
+<centisome-position datatype='float' units='CENTISOMES'>12.377684</centisome-position>
+<common-name datatype='string'>nmpC</common-name>
+<citation><Publication ID='ECOLI:PUB-3017988' orgid='ECOLI' frameid='PUB-3017988' detail='full'><year datatype='integer'>1986</year>
+<source datatype='string'>J Biol Chem 1986;261(27);12723-32</source>
+<title datatype='string'>Structure of the lc and nmpC outer membrane porin protein genes of lambdoid bacteriophage.</title>
+<pubmed-id datatype='string'>3017988</pubmed-id>
+<author datatype='string'>Blasband AJ</author>
+<author datatype='string'>Marcotte WR</author>
+<author datatype='string'>Schnaitman CA</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8057841' orgid='ECOLI' frameid='PUB-8057841' detail='full'><year datatype='integer'>1994</year>
+<source datatype='string'>Mol Microbiol 1994;12(1);83-93</source>
+<title datatype='string'>Expression of the nmpC gene of Escherichia coli K-12 is modulated by external pH. Identification of cis-acting regulatory sequences involved in this regulation.</title>
+<pubmed-id datatype='string'>8057841</pubmed-id>
+<author datatype='string'>Coll JL</author>
+<author datatype='string'>Heyde M</author>
+<author datatype='string'>Portalier R</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU356' orgid='ECOLI' frameid='TU356'/></component-of>
+<accession-1 datatype='string'>b0553</accession-1>
+<dblink><dblink-db>ECOLIWIKI</dblink-db>
+<dblink-oid>b0553</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://ecoliwiki.org/colipedia/index.php/b0553</dblink-URL>
+</dblink>
+<dblink><dblink-db>UNIPROT</dblink-db>
+<dblink-oid>P21420</dblink-oid>
+<dblink-relationship>RELATED-TO</dblink-relationship>
+<dblink-URL>https://www.uniprot.org/uniprot/P21420</dblink-URL>
+</dblink>
+<dblink><dblink-db>REGULONDB</dblink-db>
+<dblink-oid>b0553</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://regulondb.ccg.unam.mx/search?term=b0553&amp;organism=ECK12&amp;type=All</dblink-URL>
+</dblink>
+<dblink><dblink-db>ASAP</dblink-db>
+<dblink-oid>ABE-0001888</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://asap.ahabs.wisc.edu/asap/feature_info.php?FeatureID=ABE-0001888</dblink-URL>
+</dblink>
+<dblink><dblink-db>ECHOBASE</dblink-db>
+<dblink-oid>EB0653</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.york.ac.uk/res/thomas/Gene.cfm?recordID=EB0653</dblink-URL>
+</dblink>
+<dblink><dblink-db>OU-MICROARRAY</dblink-db>
+<dblink-oid>b0553</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>https://genexpdb.okstate.edu/databases/genexpdb/?query=b0553</dblink-URL>
+</dblink>
+<dblink><dblink-db>CGSC</dblink-db>
+<dblink-oid>447</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://cgsc.biology.yale.edu/Site.php?ID=447</dblink-URL>
+</dblink>
+<fragment><Gene-Fragment ID='ECOLI:GFRAG0-25' orgid='ECOLI' frameid='GFRAG0-25' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<centisome-position datatype='float' units='CENTISOMES'>12.404764</centisome-position>
+<common-name datatype='string'>nmpC_1</common-name>
+<fragment-of><Gene resource='#ECOLI:EG10659' orgid='ECOLI' frameid='EG10659'/></fragment-of>
+<component-of/><left-end-position datatype='integer'>575786</left-end-position>
+<right-end-position datatype='integer'>576825</right-end-position>
+</Gene-Fragment>
+<Gene-Fragment ID='ECOLI:GFRAG0-26' orgid='ECOLI' frameid='GFRAG0-26' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<centisome-position datatype='float' units='CENTISOMES'>12.377684</centisome-position>
+<common-name datatype='string'>nmpC_2</common-name>
+<fragment-of><Gene resource='#ECOLI:EG10659' orgid='ECOLI' frameid='EG10659'/></fragment-of>
+<component-of/><left-end-position datatype='integer'>574529</left-end-position>
+<right-end-position datatype='integer'>574586</right-end-position>
+</Gene-Fragment>
+</fragment>
+<synonym datatype='string'>phmA</synonym>
+<accession-2 datatype='string'>ECK0544</accession-2>
+</Gene>
+</ptools-xml>

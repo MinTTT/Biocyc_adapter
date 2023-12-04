@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='27.0' xml:base='http://BioCyc.org/getxml?ECOLI:G7557'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:G7557</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='27.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Gene ID='ECOLI:G7557' orgid='ECOLI' frameid='G7557' detail='full'><parent><Gene resource='getxml?ECOLI:Interrupted-Genes' orgid='ECOLI' frameid='Interrupted-Genes' class='true'/></parent>
+<replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<knockout-growth-observations><Growth-Observation ID='ECOLI:OBS0-439' orgid='ECOLI' frameid='OBS0-439' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>Luria-Bertani broth</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-49' orgid='ECOLI' frameid='OBS0-49' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>LB Lennox</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-37' orgid='ECOLI' frameid='OBS0-37' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>MOPS medium with 0.4% glucose</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-33' orgid='ECOLI' frameid='OBS0-33' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>M9 medium with 1% glycerol</with-growth-media>
+</Growth-Observation>
+</knockout-growth-observations>
+<product>putative hydrolase fragment</product>
+<transcription-direction datatype='string'>-</transcription-direction>
+<centisome-position datatype='float' units='CENTISOMES'>67.796036</centisome-position>
+<common-name datatype='string'>yghX</common-name>
+<comment datatype='string'>&lt;i&gt;yghX_1&lt;/i&gt; and &lt;i&gt;yghX_2&lt;/i&gt; are fragments of a probable pseudogene [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12234664&quot;&gt;Homma02&lt;/a&gt;]. A full length gene is found in &lt;i&gt;E. coli&lt;/i&gt; SMS-3-5, &lt;i&gt;E. coli&lt;/i&gt; O157:H7 EDL933 and others and encodes a protein belonging to the dienelactone hydrolase family.
+&lt;p&gt;
+Note from ASAP: A two nucleotide deletion after codon 36 relative to Escherichia coli EDL933 (EHEC) (ASAP:ABH-0028026) results in a frameshift leading to termination after codon 47. There is an additional single nucleotide deletion within the codon that corresponds to position 157 of the full-length version.</comment>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-13821' orgid='ECOLI' frameid='TU0-13821'/></component-of>
+<accession-1 datatype='string'>b4658</accession-1>
+<dblink><dblink-db>REGULONDB</dblink-db>
+<dblink-oid>b2999</dblink-oid>
+<dblink-relationship>RELATED-TO</dblink-relationship>
+<dblink-URL>http://regulondb.ccg.unam.mx/search?term=b2999&amp;organism=ECK12&amp;type=All</dblink-URL>
+</dblink>
+<dblink><dblink-db>OU-MICROARRAY</dblink-db>
+<dblink-oid>b2999</dblink-oid>
+<dblink-relationship>RELATED-TO</dblink-relationship>
+<dblink-URL>https://genexpdb.okstate.edu/databases/genexpdb/?query=b2999</dblink-URL>
+</dblink>
+<dblink><dblink-db>ECHOBASE</dblink-db>
+<dblink-oid>EB2830</dblink-oid>
+<dblink-relationship>RELATED-TO</dblink-relationship>
+<dblink-URL>http://www.york.ac.uk/res/thomas/Gene.cfm?recordID=EB2830</dblink-URL>
+</dblink>
+<dblink><dblink-db>ASAP</dblink-db>
+<dblink-oid>ABE-0009842</dblink-oid>
+<dblink-relationship>RELATED-TO</dblink-relationship>
+<dblink-URL>http://asap.ahabs.wisc.edu/asap/feature_info.php?FeatureID=ABE-0009842</dblink-URL>
+</dblink>
+<dblink><dblink-db>ASAP</dblink-db>
+<dblink-oid>ABE-0285143</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://asap.ahabs.wisc.edu/asap/feature_info.php?FeatureID=ABE-0285143</dblink-URL>
+</dblink>
+<dblink><dblink-db>OU-MICROARRAY</dblink-db>
+<dblink-oid>b3000</dblink-oid>
+<dblink-relationship>RELATED-TO</dblink-relationship>
+<dblink-URL>https://genexpdb.okstate.edu/databases/genexpdb/?query=b3000</dblink-URL>
+</dblink>
+<dblink><dblink-db>ECHOBASE</dblink-db>
+<dblink-oid>EB4362</dblink-oid>
+<dblink-relationship>RELATED-TO</dblink-relationship>
+<dblink-URL>http://www.york.ac.uk/res/thomas/Gene.cfm?recordID=EB4362</dblink-URL>
+</dblink>
+<dblink><dblink-db>STRING</dblink-db>
+<dblink-oid>469008.ECD_02875</dblink-oid>
+<dblink-relationship>RELATED-TO</dblink-relationship>
+<dblink-URL>http://string-db.org/network/469008.ECD_02875</dblink-URL>
+</dblink>
+<dblink><dblink-db>ASAP</dblink-db>
+<dblink-oid>ABE-0009844</dblink-oid>
+<dblink-relationship>RELATED-TO</dblink-relationship>
+<dblink-URL>http://asap.ahabs.wisc.edu/asap/feature_info.php?FeatureID=ABE-0009844</dblink-URL>
+</dblink>
+<dblink><dblink-db>REGULONDB</dblink-db>
+<dblink-oid>b3000</dblink-oid>
+<dblink-relationship>RELATED-TO</dblink-relationship>
+<dblink-URL>http://regulondb.ccg.unam.mx/search?term=b3000&amp;organism=ECK12&amp;type=All</dblink-URL>
+</dblink>
+<dblink><dblink-db>ECOO157CYC</dblink-db>
+<dblink-oid>Z4353</dblink-oid>
+<dblink-relationship>Homolog</dblink-relationship>
+<dblink-URL>http://BioCyc.org/ECOO157/new-image?object=Z4353</dblink-URL>
+</dblink>
+<left-end-position datatype='integer'>3146856</left-end-position>
+<ancestral-product-segment><start-bp datatype='integer'>1</start-bp>
+<end-bp datatype='integer'>420</end-bp>
+</ancestral-product-segment>
+<ancestral-product-segment><start-bp datatype='integer'>420</start-bp>
+<end-bp datatype='integer'>836</end-bp>
+</ancestral-product-segment>
+<right-end-position datatype='integer'>3147691</right-end-position>
+<synonym datatype='string'>b2999</synonym>
+<synonym datatype='string'>yghY</synonym>
+<synonym datatype='string'>b3000</synonym>
+<synonym datatype='string'>ECK2994</synonym>
+<synonym datatype='string'>orf_f136</synonym>
+<accession-2 datatype='string'>ECK2993</accession-2>
+</Gene>
+</ptools-xml>

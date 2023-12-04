@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='27.0' xml:base='http://BioCyc.org/getxml?ECOLI:G0-16657'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:G0-16657</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='27.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Gene ID='ECOLI:G0-16657' orgid='ECOLI' frameid='G0-16657' detail='full'><parent><Gene resource='getxml?ECOLI:Pseudo-Genes' orgid='ECOLI' frameid='Pseudo-Genes' class='true'/></parent>
+<replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<knockout-growth-observations><Growth-Observation ID='ECOLI:OBS0-439' orgid='ECOLI' frameid='OBS0-439' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>Luria-Bertani broth</with-growth-media>
+</Growth-Observation>
+</knockout-growth-observations>
+<centisome-position datatype='float' units='CENTISOMES'>44.539314</centisome-position>
+<common-name datatype='string'>yoeG</common-name>
+<comment datatype='string'>Comment from EcoGene: &quot;Pseudogene reconstruction, CP4-44 putative defective prophage; N-terminal fragment.  Transposase homolog, IS4 family, transposase family 25. Five inframe stop codons were replaced by Xs. A frameshift corrected at codon 146 is marked with an X.&quot;complement(join(2067360..2067458,2067458..2067892))</comment>
+<component-of/><accession-1 datatype='string'>b4640</accession-1>
+<regulated-by><Regulation ID='ECOLI:REG0-15649' orgid='ECOLI' frameid='REG0-15649' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulated-entity><Gene resource='#ECOLI:G0-16657' orgid='ECOLI' frameid='G0-16657'/></regulated-entity>
+<mode datatype='string'>+</mode>
+<regulator><Protein resource='getxml?ECOLI:PD00353' orgid='ECOLI' frameid='PD00353'/></regulator>
+</Regulation>
+</regulated-by>
+<dblink><dblink-db>ASAP</dblink-db>
+<dblink-oid>ABE-0285238</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://asap.ahabs.wisc.edu/asap/feature_info.php?FeatureID=ABE-0285238</dblink-URL>
+</dblink>
+<left-end-position datatype='integer'>2067360</left-end-position>
+<ancestral-product-segment><start-bp datatype='integer'>1</start-bp>
+<end-bp datatype='integer'>435</end-bp>
+</ancestral-product-segment>
+<ancestral-product-segment><start-bp datatype='integer'>435</start-bp>
+<end-bp datatype='integer'>533</end-bp>
+</ancestral-product-segment>
+<right-end-position datatype='integer'>2067892</right-end-position>
+<accession-2 datatype='string'>ECK4451</accession-2>
+</Gene>
+</ptools-xml>

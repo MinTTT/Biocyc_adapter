@@ -10,6 +10,7 @@ import scipy
 import pandas as pd
 from bs4 import BeautifulSoup
 from tqdm import tqdm
+from Bio import SeqIO
 
 command_lib = {
     'kb-version': 'kb-version?orgid=ECOLI',
@@ -58,6 +59,37 @@ for gene_row in genes_web_table.find_all('a'):
 genes_table = pd.DataFrame(data=genes_dict)
 genes_table.to_csv(r'./exported_data/Ecoli_Genes.csv')
 genes_table.to_excel(r'./exported_data/Ecoli_Genes.xlsx')
+
+gb_data = SeqIO.read(r'./exported_data/U00096.3.gb', 'genbank')
+
+fet_dict = dict(genes_name=[], genes_id=[], product=[], locus_tag=[])
+fet_key = dict(genes_name='gene', genes_id='db_xref', product='product', locus_tag='locus_tag')
+for fet in gb_data.features:
+    fet_ecocyc_id = None
+    if 'gene' in fet.qualifiers.keys():
+
+        if 'db_xref' in fet.qualifiers.keys():
+            fet_db = fet.qualifiers['db_xref']
+            fet_db_type = [db.split(':')[0] for db in fet_db]
+            fet_db_number = [db.split(':')[1] for db in fet_db]
+
+            for db_i, db_t in enumerate(fet_db_type):
+                if db_t == 'ECOCYC':
+                    fet_ecocyc_id = fet_db_number[db_i]
+
+        fet_dict['genes_id'].append(fet_ecocyc_id)
+
+        for key, val in fet_key.items():
+            if val != 'db_xref':
+                if val in fet.qualifiers.keys():
+                    fet_dict[key].append(fet.qualifiers[val][0])
+                else:
+                    fet_dict[key].append(None)
+
+fet_dict = pd.DataFrame(data=fet_dict)
+fet_dict.to_csv(r'./exported_data/Ecoli_features.csv')
+fet_dict.to_excel(r'./exported_data/Ecoli_features.xlsx')
+
 # %% get all RNAs
 genes = s.get(f'{webServer}/ECOLI/class-instances?object=RNAs')
 genes_soup = BeautifulSoup(genes.text, "lxml")
@@ -66,7 +98,7 @@ for table in tables:
     if 'class' in list(table.attrs.keys()):
         if table.attrs['class'][0] == 'sortableSAQPoutputTable':
             RNAs_web_table = table
-genes_dict = dict(
+RNAs_dict = dict(
     genes_name=[],
     genes_id=[],
     genes_href=[],
@@ -94,47 +126,79 @@ for gene_row in RNAs_web_table.find_all('tr'):
         object_href = biocyc_web + obj.attrs['href']
         object_id = object_href.split('=')[-1]
 
-        genes_dict['genes_name'].append(gene_name)
-        genes_dict['genes_href'].append(gene_href)
-        genes_dict['genes_id'].append(gene_id)
-        genes_dict['RNA_name'].append(object_name)
-        genes_dict['RNA_id'].append(object_id)
-        genes_dict['RNA_href'].append(object_href)
+        RNAs_dict['genes_name'].append(gene_name)
+        RNAs_dict['genes_href'].append(gene_href)
+        RNAs_dict['genes_id'].append(gene_id)
+        RNAs_dict['RNA_name'].append(object_name)
+        RNAs_dict['RNA_id'].append(object_id)
+        RNAs_dict['RNA_href'].append(object_href)
 
-genes_table = pd.DataFrame(data=genes_dict)
+genes_table = pd.DataFrame(data=RNAs_dict)
 genes_table.to_csv(r'./exported_data/Ecoli_RNAs.csv')
 genes_table.to_excel(r'./exported_data/Ecoli_RNAs.xlsx')
 
 # %% Retrieve all gene info
-import time
+
 from tqdm import tqdm
 from threading import Thread
-
+from joblib import delayed, Parallel
+import time
+import random
 info_dict = {}
 
+s = requests.Session()  # create session
+# Post login credentials to session:
+s.post('https://websvc.biocyc.org/credentials/login/', data={'email': account, 'password': psw})
 
-def request_info(g_id, save_dict):
+
+def request_info(g_id, save_dict, session):
     retrieve_url = f'https://websvc.biocyc.org/getxml?id=ECOLI:{g_id}&detail=full'
 
     while True:
         try:
-            save_dict[g_id] = s.get(retrieve_url).text
+            xml_gene = session.get(retrieve_url).text
+            save_dict[g_id] = xml_gene
             break
         except requests.exceptions.SSLError:
-            pass
-
+            print(g_id, 'try next time')
+        except requests.exceptions.ConnectionError:
+            print(g_id, 'try next time')
+        except requests.exceptions.ChunkedEncodingError:
+            print(g_id, 'try next time')
+        time.sleep(random.random())
     return None
 
 
-for g_id in tqdm(genes_dict['genes_id']):
-    thread_gene_retrieve = Thread(target=request_info, args=(g_id, info_dict))
-    thread_gene_retrieve.start()
+genes_dict = pd.read_excel(r'./exported_data/Ecoli_Genes.xlsx')
+features_dict = pd.read_excel(r'./exported_data/Ecoli_features.xlsx')
+genes_id = genes_dict['genes_id']
+features_id = features_dict['genes_id']
 
-    # back up gene info
-    for g_id, g_info in info_dict.items():
-        g_name = genes_table[genes_table['genes_id'] == g_id]['genes_name'].tolist()[0]
-        with open(f'./exported_data/Genes_info_xml/{g_id}_{g_name}.xml', 'w') as g_xml:
-            g_xml.write(g_info)
+genes_id_set = set(genes_id)
+features_id_set = set(features_id)
+
+all_id = list(set(genes_id_set | features_id_set))
+
+# all_thread = []
+# for g_id in tqdm(all_id):
+#     thread_gene_retrieve = Thread(target=request_info, args=(g_id, info_dict, s))
+#     all_thread.append(thread_gene_retrieve)
+
+
+all_thread = Parallel(n_jobs=5, require='sharedmem')(delayed(request_info)(g_id, info_dict, s)
+                                                     for g_id in tqdm(all_id))
+print(f'Reqired {len(all_id)}, Success {len(info_dict.keys())}')
+# back up gene info
+
+for id_i, id in enumerate(all_id):
+    g_name = None
+    try:
+        g_name = genes_dict[genes_dict['genes_id'] == id]['genes_name'].tolist()[0]
+    except:
+        g_name = features_dict[features_dict['genes_id'] == id]['genes_name'].tolist()[0]
+    print(id, g_name, id_i)
+    with open(f'./exported_data/Genes_info_xml/{id}_{g_name}.xml', 'w', encoding='utf-8') as g_xml:
+        g_xml.write(info_dict[id])
 
 # %% load gene xlm files and extract information
 
@@ -150,8 +214,6 @@ for gene_xml in genes_file:
         if gene_id in genes_id:
             with open(f'./exported_data/Genes_info_xml/{file_name}', 'r') as g_xml:
                 info_dict[gene_id] = g_xml.read()
-
-gene_soup = BeautifulSoup(info_dict['EG10001'], 'xml')
 
 
 def get_gene_info(gene_xml):
@@ -216,6 +278,11 @@ def get_gene_info(gene_xml):
         component = '; '.join([c.attrs['frameid'] for c in component])
     else:
         component = None
+    locus_tage = gene_soup.find('accession-1')
+    if locus_tage:
+        locus_tage = locus_tage.text
+    else:
+        locus_tage = None
 
     info_dict = {
         'id': id,
@@ -225,9 +292,15 @@ def get_gene_info(gene_xml):
         'region': region,
         'synonym': synonym,
         'regulation': regulation,
-        'component': component
+        'component': component,
+        'locus_tag': locus_tage
     }
     return info_dict
+
+
+# test get_gene_info() function
+# get_gene_info(info_dict['EG10001'])
+#
 
 
 all_gene_id = list(info_dict.keys())
@@ -240,7 +313,8 @@ genes_dict = {
     'region': [None] * gene_id_number,
     'synonym': [None] * gene_id_number,
     'regulation': [None] * gene_id_number,
-    'component': [None] * gene_id_number
+    'component': [None] * gene_id_number,
+    'locus_tag': [None] * gene_id_number
 }
 for id_i, id in enumerate(tqdm(all_gene_id)):
     for prop_key, prop in get_gene_info(info_dict[id]).items():
@@ -288,8 +362,10 @@ for row in xml_table.find_all('tr')[1:]:
                           strand=strand, transcript_name=regulation_name, transcript_id=regulation_id))
 
 sites_number = len(sites)
-all_sites = dict(site_name=[None]*sites_number, site_id=[None]*sites_number, site_type=[None]*sites_number, region=[None]*sites_number,
-                 strand=[None]*sites_number, transcript_name=[None]*sites_number, transcript_id=[None]*sites_number)
+all_sites = dict(site_name=[None] * sites_number, site_id=[None] * sites_number, site_type=[None] * sites_number,
+                 region=[None] * sites_number,
+                 strand=[None] * sites_number, transcript_name=[None] * sites_number,
+                 transcript_id=[None] * sites_number)
 for s_i, site in enumerate(sites):
     for key, val in site.items():
         all_sites[key][s_i] = val
