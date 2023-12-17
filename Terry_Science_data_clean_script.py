@@ -88,6 +88,9 @@ terry_data = terry_sci_data.to_numpy()
 terry_data_extended = np.hstack([np.array(eco_number).reshape(-1, 1), terry_data])
 terry_data_extended_pd = pd.DataFrame(data=terry_data_extended, columns=['ECOCYC'] + terry_data_col)
 terry_data_extended_pd.to_excel(r'./transcriptiome_data/terry_sci_data.xlsx')
+
+
+
 # ecocyc_gene_set = set(ecocyc_gene_info['name'].to_list())
 # ecocyc_locus_set = set(ecocyc_gene_info['locus_tag'].to_list())
 # terry_only_set = terry_locus_set - ecocyc_locus_set

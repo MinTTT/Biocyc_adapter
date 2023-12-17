@@ -60,7 +60,8 @@ genes_table = pd.DataFrame(data=genes_dict)
 genes_table.to_csv(r'./exported_data/Ecoli_Genes.csv')
 genes_table.to_excel(r'./exported_data/Ecoli_Genes.xlsx')
 
-gb_data = SeqIO.read(r'./exported_data/U00096.3.gb', 'genbank')
+#%% fetch gene features data
+gb_data = SeqIO.read(r'./exported_data/NC_000913.3.gb', 'genbank')
 
 fet_dict = dict(genes_name=[], genes_id=[], product=[], locus_tag=[])
 fet_key = dict(genes_name='gene', genes_id='db_xref', product='product', locus_tag='locus_tag')
@@ -87,9 +88,9 @@ for fet in gb_data.features:
                     fet_dict[key].append(None)
 
 fet_dict = pd.DataFrame(data=fet_dict)
-fet_dict.to_csv(r'./exported_data/Ecoli_features.csv')
-fet_dict.to_excel(r'./exported_data/Ecoli_features.xlsx')
-
+fet_dict.to_csv(r'./exported_data/Ecoli_features.NC_000913.3.csv')
+fet_dict.to_excel(r'./exported_data/Ecoli_features.NC_000913.3.xlsx')
+#%%
 # concat features and genes to all_genes
 genes_id = genes_table['genes_id']
 features_id = fet_dict['genes_id']
