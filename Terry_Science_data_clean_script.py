@@ -18,6 +18,10 @@ import pandas as pd
 # import numpy as np  # Or any other
 from Bio import SeqIO
 # […]
+def get_simple_name(name):
+    if '_' in name:
+        name = name.split('_')[0]
+    return name
 
 # Own modules
 
@@ -31,49 +35,71 @@ terry_locus_set = set(terry_sci_data['locus'].to_list())
 
 ecocyc_gene_info = pd.read_csv(r'./exported_data/Ecoli_gene_info.csv')
 all_gene_info = pd.read_csv(r'./exported_data/Ecoli_all_genes.csv')
-all_features = pd.read_csv(r'./exported_data/Ecoli_features.csv')
-gb_table = SeqIO.read(r'./exported_data/U00096.3.gb', 'genbank')
+all_features = pd.read_csv(r'./exported_data\Ecoli_features.NC_000913.3.csv')
+gb_table = SeqIO.read(r'.\exported_data\NC_000913.3.gb', 'genbank')
 
 
 eco_number = [None] * len(terry_gene_list)
 no_hit_index = []
 for g_i, g_name in enumerate(terry_gene_list):
     g_locus = terry_locus_list
-    g_id = all_features[all_features['genes_name'] == g_name]['genes_id'].tolist()
+    g_n = get_simple_name(g_name)  # some gene have more than one copy
+    g_id = all_features[all_features['genes_name'] == g_n]['genes_id'].tolist()
     if g_id:
         eco_number[g_i] = g_id[0]
     else:
         no_hit_index.append(g_i)
-        print(g_name)
+        print(f'{g_name}: no record.')
 
 hit_fet = {}
 no_hit_index_r2 = []
 for g_i in no_hit_index:
     g_name = terry_gene_list[g_i]
+    g_n = get_simple_name(g_name)
     g_locus = terry_locus_list[g_i]
     hit = False
     for fet in gb_table.features:
         for key, value in fet.qualifiers.items():
-            if g_name in value:
+            if g_n in value:
                 hit_fet[g_i] = fet
                 hit = True
-                print(g_name, value)
+                print(g_n, value)
                 break
             elif g_locus in value:
                 # if key == 'locus_tag':
                 hit_fet[g_i] = fet
                 hit = True
-                print(g_locus, value, key)
+                print('find gene record via locus tag:', g_locus, value, key)
                 break
         if hit:
             break
     if not hit:
         no_hit_index_r2.append(g_i)
         # pass
+
+# find gene in ecocyc record:
+no_hit_index_r3 = []
 for g_i in no_hit_index_r2:
     g_name = terry_gene_list[g_i]
+    g_n = get_simple_name(g_name)
     g_locus = terry_locus_list[g_i]
-    print(g_name, g_locus)
+    hit = False
+    for recd_i, rcd in ecocyc_gene_info.iterrows():
+        if isinstance(rcd['synonym'], str):
+            syn = rcd['synonym'].split('; ')
+            if g_locus in syn:
+                eco_number[g_i] = rcd['id'].split(':')[-1]
+                hit = True
+                break
+            elif g_n in syn:
+                eco_number[g_i] = rcd['id'].split(':')[-1]
+                hit = True
+                break
+    if hit is False:
+        print(g_name, g_n, g_locus)
+        no_hit_index_r3.append(g_i)
+
+
 
 
 for index, hit in hit_fet.items():
