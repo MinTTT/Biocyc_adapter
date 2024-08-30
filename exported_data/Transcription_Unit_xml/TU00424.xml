@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00424'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00424</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00424' orgid='ECOLI' frameid='TU00424' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>hypBCDE</common-name>
+<synonym datatype='string'>hydBEF</synonym>
+<citation><Publication ID='ECOLI:PUB-1849603' orgid='ECOLI' frameid='PUB-1849603' detail='full'><source datatype='string'>Mol Microbiol 5(1);123-35</source>
+<pubmed-id datatype='string'>1849603</pubmed-id>
+<title datatype='string'>Molecular characterization of an operon (hyp) necessary for the activity of the three hydrogenase isoenzymes in Escherichia coli.</title>
+<year datatype='integer'>1991</year>
+<author datatype='string'>Lutz S</author>
+<author datatype='string'>Jacobi A</author>
+<author datatype='string'>Schlensog V</author>
+<author datatype='string'>Bohm R</author>
+<author datatype='string'>Sawers G</author>
+<author datatype='string'>Bock A</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-1849603' orgid='ECOLI' frameid='PUB-1849603'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Inferred through co-regulation</common-name>
+<comment datatype='string'>Inferred through co-regulation.  A transcription unit is inferred because a set of 
+adjacent genes that are transcribed in the same direction exhibit similar
+expression patterns under a range of environmental conditions.
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1849603' orgid='ECOLI' frameid='PUB-1849603'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1849603' orgid='ECOLI' frameid='PUB-1849603'/></evidence>
+<component><DNA-Binding-Site ID='ECOLI:BS0-4022' orgid='ECOLI' frameid='BS0-4022' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-5094' orgid='ECOLI' frameid='REG0-5094' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7797' orgid='ECOLI' frameid='CPLX0-7797'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM00574' orgid='ECOLI' frameid='PM00574' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>hypBp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2850839</absolute-plus-1-pos>
+<comment datatype='string'>This promoter initiates within the &lt;i&gt;hypA&lt;/i&gt; gene and is only transcribed under nonfermentative conditions, i.e., when the &amp;sigma;&lt;sup&gt;54&lt;/sup&gt; hypAp is silent. It facilitates the formation of hydrogenases 1 and 2 under H2 uptake conditions. It is an internal promoter.</comment>
+<citation><Publication resource='#ECOLI:PUB-1849603' orgid='ECOLI' frameid='PUB-1849603'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1849603' orgid='ECOLI' frameid='PUB-1849603'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-5095' orgid='ECOLI' frameid='REG0-5095' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7797' orgid='ECOLI' frameid='CPLX0-7797'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00574' orgid='ECOLI' frameid='PM00574'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-5094' orgid='ECOLI' frameid='REG0-5094'/></regulated-by>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-8345' orgid='ECOLI' frameid='TU0-8345'/><Transcription-Unit resource='#ECOLI:TU00424' orgid='ECOLI' frameid='TU00424'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<comment datatype='string'>This is an FNR half-site. The activation of &lt;i&gt;hypB&lt;/i&gt; is completely dependent on the site at the  -43.5 position, but two sites (-149.5 and -43.5) are required for maximum induction. It is suggested that tandem FNR half-sites may be features of genes active under anaerobic conditions that are subject to transcription initiation from both &amp;sigma;&lt;sup&gt;54&lt;/sup&gt; and &amp;sigma;&lt;sup&gt;70&lt;/sup&gt; promoters.</comment>
+<citation><Publication ID='ECOLI:PUB-14612240' orgid='ECOLI' frameid='PUB-14612240' detail='full'><source datatype='string'>FEMS Microbiol Lett 228(1);81-6</source>
+<pubmed-id datatype='string'>14612240</pubmed-id>
+<title datatype='string'>FNR-mediated regulation of hyp expression in Escherichia coli.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Messenger SL</author>
+<author datatype='string'>Green J</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-14612240' orgid='ECOLI' frameid='PUB-14612240'/></evidence>
+<abs-center-pos datatype='float'>2850689.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00424' orgid='ECOLI' frameid='TU00424'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Terminator ID='ECOLI:TERM57' orgid='ECOLI' frameid='TERM57' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>2854321</right-end-position>
+<left-end-position datatype='integer'>2854304</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-1849603' orgid='ECOLI' frameid='PUB-1849603'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU00424' orgid='ECOLI' frameid='TU00424'/><Transcription-Unit resource='getxml?ECOLI:TU00154' orgid='ECOLI' frameid='TU00154'/></component-of>
+</Terminator>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS57' orgid='ECOLI' frameid='BS57' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5095' orgid='ECOLI' frameid='REG0-5095'/></involved-in-regulation>
+<comment datatype='string'>This is an FNR half-site. The activation of &lt;i&gt;hypB&lt;/i&gt; is completely dependent on this site at the -43.5 position, but two sites (-149.5 and -43.5) are required for maximum induction. It is suggested that tandem FNR half-sites may be features of genes active under anaerobic conditions and subject to transcription initiation from both &amp;sigma;&lt;sup&gt;54&lt;/sup&gt; and &amp;sigma;&lt;sup&gt;70&lt;/sup&gt; promoters.</comment>
+<citation><Publication resource='#ECOLI:PUB-14612240' orgid='ECOLI' frameid='PUB-14612240'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of cellular extracts</common-name>
+<comment datatype='string'>There exists physical evidence of the binding of cellular extracts containing 
+a regulatory protein to its DNA binding site.  This can be either by 
+footprinting or mobility shift assays.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-14612240' orgid='ECOLI' frameid='PUB-14612240'/></evidence>
+<abs-center-pos datatype='float'>2850795.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00424' orgid='ECOLI' frameid='TU00424'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Promoter resource='#ECOLI:PM00574' orgid='ECOLI' frameid='PM00574'/></component>
+<component><Gene resource='getxml?ECOLI:EG10484' orgid='ECOLI' frameid='EG10484'/></component>
+<component><Gene resource='getxml?ECOLI:EG10485' orgid='ECOLI' frameid='EG10485'/></component>
+<component><Gene resource='getxml?ECOLI:EG10486' orgid='ECOLI' frameid='EG10486'/></component>
+<component><Gene resource='getxml?ECOLI:EG10487' orgid='ECOLI' frameid='EG10487'/></component>
+</Transcription-Unit>
+</ptools-xml>

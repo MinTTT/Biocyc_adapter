@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00060'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00060</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00060' orgid='ECOLI' frameid='TU00060' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>pyrC</common-name>
+<synonym datatype='string'>OP00083</synonym>
+<comment datatype='string'>The primary mechanism of regulation of &lt;i&gt;pyrC&lt;/i&gt; gene expression occurs in the translation-initiation level, when it is controlled by the formation of a hairpin at the 5' end of the transcript. Pyrimidine availability modulates the formation of this hairpin by influencing the site of transcription initiation. On the other hand, the &lt;i&gt;pyrC&lt;/i&gt; gene is expressed, at least, from four start sites [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/1345912&quot;&gt;Wilson92&lt;/a&gt;].
+&lt;p&gt;
+The Fur-DNA interaction is weak, and it is possible that Fur acts with an unknown cellular
+condition or DNA-binding antagonist, such as another protein, a low-molecular-weight ligand,
+or another metal ion [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/10400588&quot;&gt;Bsat99&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/18176545&quot;&gt;Chai07&lt;/a&gt;]. This effect of Fur on &lt;i&gt;pyrC&lt;/i&gt; could occur
+indirectly via PurR, inasmuch as Fur controls &lt;i&gt;purR&lt;/i&gt; expression negatively and PurR also
+represses &lt;i&gt;pyrC&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/18176545&quot;&gt;Chai07&lt;/a&gt;].</comment>
+<component><Promoter ID='ECOLI:PM00083' orgid='ECOLI' frameid='PM00083' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>1122652</minus-10-left>
+<common-name datatype='string'>pyrCp</common-name>
+<minus-35-right datatype='integer'>1122684</minus-35-right>
+<minus-35-left datatype='integer'>1122679</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1122643</absolute-plus-1-pos>
+<comment datatype='string'>pyrCp is primarily expressed under conditions of pyrimidine limitation, in which the CTP and GTP levels are low [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/1345912&quot;&gt;Wilson92&lt;/a&gt;]. On the other hand, under conditions of pyrimidine excess, in which the CTP level is high and similar to that of GTP, &lt;i&gt;pyrC&lt;/i&gt; is also expressed from another transcriptional start site, at a position two bases downstream of pyrCp. Despite that, &lt;i&gt;pyrC&lt;/i&gt; transcripts form a regulatory hairpin at their 5' end, which blocks its own translational initiation, hence preventing translation of the &lt;i&gt;pyrC&lt;/i&gt; cistron. Finally, &lt;i&gt;pyrC&lt;/i&gt; is also expressed in a small percentage from other transcriptional start sites, located one base upstream and one position downstream of the pyrCp promoter [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/1345912&quot;&gt;Wilson92&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-1345912' orgid='ECOLI' frameid='PUB-1345912' detail='full'><source datatype='string'>J Bacteriol 174(2);514-24</source>
+<pubmed-id datatype='string'>1345912</pubmed-id>
+<title datatype='string'>Translational control of pyrC expression mediated by nucleotide-sensitive selection of transcriptional start sites in Escherichia coli.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Wilson HR</author>
+<author datatype='string'>Archer CD</author>
+<author datatype='string'>Liu JK</author>
+<author datatype='string'>Turnbough CL</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1345912' orgid='ECOLI' frameid='PUB-1345912'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1345912' orgid='ECOLI' frameid='PUB-1345912'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-10821' orgid='ECOLI' frameid='REG0-10821' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7639' orgid='ECOLI' frameid='CPLX0-7639'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00083' orgid='ECOLI' frameid='PM00083'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4623' orgid='ECOLI' frameid='REG0-4623' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX-123' orgid='ECOLI' frameid='CPLX-123'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00083' orgid='ECOLI' frameid='PM00083'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>1122657</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00060' orgid='ECOLI' frameid='TU00060'/></component-of>
+</Promoter>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS00189' orgid='ECOLI' frameid='BS00189' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-4623' orgid='ECOLI' frameid='REG0-4623'/></involved-in-regulation>
+<comment datatype='string'>When the CTP level within the cell is high relative to the level of GTP, the &lt;i&gt;pyrC&lt;/i&gt; gene is transcribed from a start site that allows formation of a secondary structure within the 5' end of the mRNA.  This hairpin structure is thought to obscure the Shine-Dalgarno sequence, and it results in poor translation efficiency.  When the CTP level is low relative to the level of GTP, &lt;i&gt;pyrC&lt;/i&gt; is transcribed from an alternate start site.  This shorter mRNA is translated efficiently. The PurR protein, which represses the &lt;i&gt;pyrC&lt;/i&gt; gene, is also regulated by the level of GTP, because this protein is active when GTP is present.</comment>
+<citation><Publication ID='ECOLI:PUB-1971621' orgid='ECOLI' frameid='PUB-1971621' detail='full'><source datatype='string'>J Bacteriol 172(6);3208-13</source>
+<pubmed-id datatype='string'>1971621</pubmed-id>
+<title datatype='string'>Role of the purine repressor in the regulation of pyrimidine gene expression in Escherichia coli K-12.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>Wilson HR</author>
+<author datatype='string'>Turnbough CL</author>
+<doi-id datatype='string'>10.1128/jb.172.6.3208-3213.1990</doi-id>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-1971620' orgid='ECOLI' frameid='PUB-1971620' detail='full'><source datatype='string'>J Bacteriol 172(6);3201-7</source>
+<pubmed-id datatype='string'>1971620</pubmed-id>
+<title datatype='string'>Regulation of Escherichia coli pyrC by the purine regulon repressor protein.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>Choi KY</author>
+<author datatype='string'>Zalkin H</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1971621' orgid='ECOLI' frameid='PUB-1971621'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Site mutation</common-name>
+<comment datatype='string'>A cis-mutation in the DNA sequence of the transcription-factor binding site interferes with the operation of the regulatory function. This is considered  strong evidence for the existence and functional role of the DNA binding site.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1971621' orgid='ECOLI' frameid='PUB-1971621'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication ID='ECOLI:PUB-2885307' orgid='ECOLI' frameid='PUB-2885307' detail='full'><source datatype='string'>J Bacteriol 169(7);3051-8</source>
+<pubmed-id datatype='string'>2885307</pubmed-id>
+<title datatype='string'>Nucleotide sequence and expression of the pyrC gene of Escherichia coli K-12.</title>
+<year datatype='integer'>1987</year>
+<author datatype='string'>Wilson HR</author>
+<author datatype='string'>Chan PT</author>
+<author datatype='string'>Turnbough CL</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1971620' orgid='ECOLI' frameid='PUB-1971620'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' class='true'/><Publication resource='#ECOLI:PUB-1971620' orgid='ECOLI' frameid='PUB-1971620'/></evidence>
+<abs-center-pos datatype='float'>1122666.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00060' orgid='ECOLI' frameid='TU00060'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10806' orgid='ECOLI' frameid='EG10806'/></component>
+</Transcription-Unit>
+</ptools-xml>

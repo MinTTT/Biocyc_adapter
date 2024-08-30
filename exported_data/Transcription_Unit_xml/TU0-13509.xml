@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-13509'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-13509</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-13509' orgid='ECOLI' frameid='TU0-13509' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>yegTUV</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION-NORTHERN' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION-NORTHERN' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' class='true'/></parent>
+<common-name datatype='string'>Northern blot for transcription unit length determination evidence</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0000106</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0000106</dblink-URL>
+</dblink>
+<credits><imported-from-meta><date datatype='date'>2022-10-25</date>
+<Person ID='ECOLI:paley' orgid='ECOLI' frameid='paley' detail='full'><affiliations><Organization ID='ECOLI:SRI' orgid='ECOLI' frameid='SRI' detail='full'><abbrev-name datatype='string'>SRI International</abbrev-name>
+<email datatype='string'>ptools-support@ai.sri.com</email>
+<common-name datatype='string'>SRI International</common-name>
+<url datatype='string'>http://bioinformatics.ai.sri.com/</url>
+</Organization>
+</affiliations>
+<common-name datatype='string'>Suzanne Paley</common-name>
+</Person>
+<Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A type of transcript expression evidence based on electrophoresis and probing to determine the length of a transcription unit using a complementary hybridization probe on the separated RNA samples.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-38257942' orgid='ECOLI' frameid='PUB-38257942' detail='full'><source datatype='string'>Microorganisms 12(1)</source>
+<pubmed-id datatype='string'>38257942</pubmed-id>
+<title datatype='string'>Regulatory Role of GgaR (YegW) for Glycogen Accumulation in  &lt;i&gt;Escherichia coli&lt;/i&gt; K-12.</title>
+<year datatype='integer'>2024</year>
+<author datatype='string'>Saito S</author>
+<author datatype='string'>Kobayashi I</author>
+<author datatype='string'>Hoshina M</author>
+<author datatype='string'>Uenaka E</author>
+<author datatype='string'>Sakurai A</author>
+<author datatype='string'>Imamura S</author>
+<author datatype='string'>Shimada T</author>
+<doi-id datatype='string'>10.3390/microorganisms12010115</doi-id>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-38257942' orgid='ECOLI' frameid='PUB-38257942'/></citation>
+<regulated-by><Regulation ID='ECOLI:REG0-16547' orgid='ECOLI' frameid='REG0-16547' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:G7133-MONOMER' orgid='ECOLI' frameid='G7133-MONOMER'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-13509' orgid='ECOLI' frameid='TU0-13509'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component><Promoter ID='ECOLI:PM0-10079' orgid='ECOLI' frameid='PM0-10079' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>yegTp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2178781</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' orgid='ECOLI' frameid='EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>High-throughput transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified using a high-throughput experimental modified RACE approach.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-19838305' orgid='ECOLI' frameid='PUB-19838305' detail='full'><source datatype='string'>PLoS One 4(10);e7526</source>
+<pubmed-id datatype='string'>19838305</pubmed-id>
+<title datatype='string'>Genome-wide identification of transcription start sites, promoters and transcription factor binding sites in E. coli.</title>
+<year datatype='integer'>2009</year>
+<author datatype='string'>Mendoza-Vargas A</author>
+<author datatype='string'>Olvera L</author>
+<author datatype='string'>Olvera M</author>
+<author datatype='string'>Grande R</author>
+<author datatype='string'>Vega-Alvarado L</author>
+<author datatype='string'>Taboada B</author>
+<author datatype='string'>Jimenez-Jacinto V</author>
+<author datatype='string'>Salgado H</author>
+<author datatype='string'>Juarez K</author>
+<author datatype='string'>Contreras-Moreira B</author>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+<author datatype='string'>Morett E</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-19838305' orgid='ECOLI' frameid='PUB-19838305'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-13509' orgid='ECOLI' frameid='TU0-13509'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:G7132' orgid='ECOLI' frameid='G7132'/></component>
+<component><Gene resource='getxml?ECOLI:G7131' orgid='ECOLI' frameid='G7131'/></component>
+<component><Gene resource='getxml?ECOLI:G7130' orgid='ECOLI' frameid='G7130'/></component>
+</Transcription-Unit>
+</ptools-xml>

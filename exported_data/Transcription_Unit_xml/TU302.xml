@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU302'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU302</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU302' orgid='ECOLI' frameid='TU302' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>tauABCD</common-name>
+<comment datatype='string'>The mRNA produced by  the  &lt;i&gt; tauABCD &lt;/i&gt; operon has been observed mainly in the cellular membrane [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31540875&quot;&gt;Kannaiah19&lt;/a&gt;].
+&lt;p&gt;
+The transcription of  the &lt;i&gt;tauA&lt;/i&gt; gene is induced during the first 24 h after the induction of nitrogen starvation [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/32571968&quot;&gt;Switzer20&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-8808933' orgid='ECOLI' frameid='PUB-8808933' detail='full'><source datatype='string'>J Bacteriol 178(18);5438-46</source>
+<pubmed-id datatype='string'>8808933</pubmed-id>
+<title datatype='string'>Identification of sulfate starvation-regulated genes in Escherichia coli: a gene cluster involved in the utilization of taurine as a sulfur source.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>van der Ploeg JR</author>
+<author datatype='string'>Weiss MA</author>
+<author datatype='string'>Saller E</author>
+<author datatype='string'>Nashimoto H</author>
+<author datatype='string'>Saito N</author>
+<author datatype='string'>Kertesz MA</author>
+<author datatype='string'>Leisinger T</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-15902464' orgid='ECOLI' frameid='PUB-15902464' detail='full'><source datatype='string'>Curr Microbiol 50(4);180-9</source>
+<pubmed-id datatype='string'>15902464</pubmed-id>
+<title datatype='string'>Regulation of the ubiquinone (coenzyme Q) biosynthetic genes ubiCA in Escherichia coli.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Kwon O</author>
+<author datatype='string'>Druce-Hoffman M</author>
+<author datatype='string'>Meganathan R</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8808933' orgid='ECOLI' frameid='PUB-8808933'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15902464' orgid='ECOLI' frameid='PUB-15902464'/></evidence>
+<component><Promoter ID='ECOLI:PM502' orgid='ECOLI' frameid='PM502' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>tauAp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>385205</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-8808933' orgid='ECOLI' frameid='PUB-8808933'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8808933' orgid='ECOLI' frameid='PUB-8808933'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-5111' orgid='ECOLI' frameid='REG0-5111' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-2781' orgid='ECOLI' frameid='CPLX0-2781'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM502' orgid='ECOLI' frameid='PM502'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5110' orgid='ECOLI' frameid='REG0-5110' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-2781' orgid='ECOLI' frameid='CPLX0-2781'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM502' orgid='ECOLI' frameid='PM502'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5109' orgid='ECOLI' frameid='REG0-5109' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-2781' orgid='ECOLI' frameid='CPLX0-2781'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM502' orgid='ECOLI' frameid='PM502'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5108' orgid='ECOLI' frameid='REG0-5108' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:G7071-MONOMER' orgid='ECOLI' frameid='G7071-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM502' orgid='ECOLI' frameid='PM502'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU302' orgid='ECOLI' frameid='TU302'/></component-of>
+</Promoter>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS166' orgid='ECOLI' frameid='BS166' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5108' orgid='ECOLI' frameid='REG0-5108'/></involved-in-regulation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+</evidence>
+<abs-center-pos datatype='integer'>385114</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU302' orgid='ECOLI' frameid='TU302'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS165' orgid='ECOLI' frameid='BS165' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5109' orgid='ECOLI' frameid='REG0-5109'/></involved-in-regulation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/></evidence>
+<abs-center-pos datatype='integer'>385167</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU302' orgid='ECOLI' frameid='TU302'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS164' orgid='ECOLI' frameid='BS164' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5110' orgid='ECOLI' frameid='REG0-5110'/></involved-in-regulation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/></evidence>
+<abs-center-pos datatype='integer'>385112</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU302' orgid='ECOLI' frameid='TU302'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS163' orgid='ECOLI' frameid='BS163' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5111' orgid='ECOLI' frameid='REG0-5111'/></involved-in-regulation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/></evidence>
+<abs-center-pos datatype='integer'>385003</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU302' orgid='ECOLI' frameid='TU302'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG12423' orgid='ECOLI' frameid='EG12423'/></component>
+<component><Gene resource='getxml?ECOLI:G6219' orgid='ECOLI' frameid='G6219'/></component>
+<component><Gene resource='getxml?ECOLI:G6218' orgid='ECOLI' frameid='G6218'/></component>
+<component><Gene resource='getxml?ECOLI:G6217' orgid='ECOLI' frameid='G6217'/></component>
+</Transcription-Unit>
+</ptools-xml>

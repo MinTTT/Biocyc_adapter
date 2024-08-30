@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-12903'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-12903</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-12903' orgid='ECOLI' frameid='TU0-12903' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>yaiO</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><Gene-Fragment ID='ECOLI:G6211' orgid='ECOLI' frameid='G6211' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<accession-2 datatype='string'>ECK0356</accession-2>
+<common-name datatype='string'>yaiX_2</common-name>
+<centisome-position datatype='float' units='CENTISOMES'>8.204924</centisome-position>
+<right-end-position datatype='integer'>381260</right-end-position>
+<fragment-of><Gene resource='getxml?ECOLI:G6214' orgid='ECOLI' frameid='G6214'/></fragment-of>
+<left-end-position datatype='integer'>380844</left-end-position>
+<accession-1 datatype='string'>b0359</accession-1>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-12903' orgid='ECOLI' frameid='TU0-12903'/></component-of>
+</Gene-Fragment>
+</component>
+<component><Gene resource='getxml?ECOLI:G6210' orgid='ECOLI' frameid='G6210'/></component>
+</Transcription-Unit>
+</ptools-xml>

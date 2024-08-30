@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-1161'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-1161</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-1161' orgid='ECOLI' frameid='TU0-1161' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ldcC</common-name>
+<comment datatype='string'>RpoS-dependent expression at stationary phase has been described [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/9692215&quot;&gt;Kikuchi98&lt;/a&gt;].  In addition to RpoS, it appears that &lt;i&gt;ldcC&lt;/i&gt; expression is also induced by another sigma factors, because in the presence of antibiotic and the absence of RpoS, ldcC expression is induced [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/34543694&quot;&gt;Akhova&lt;/a&gt;].  
+&lt;p&gt;
+Fluoroquinolones and -lactams increased &lt;i&gt;ldcC&lt;/i&gt; expression, while an aminoglycoside (amikacin) decreased such expression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/34543694&quot;&gt;Akhova&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-9534244' orgid='ECOLI' frameid='PUB-9534244' detail='full'><source datatype='string'>Microbiology 144 ( Pt 3);751-60</source>
+<pubmed-id datatype='string'>9534244</pubmed-id>
+<title datatype='string'>Expression of the second lysine decarboxylase gene of Escherichia coli.</title>
+<year datatype='integer'>1998</year>
+<author datatype='string'>Lemonnier M</author>
+<author datatype='string'>Lane D</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-9692215' orgid='ECOLI' frameid='PUB-9692215' detail='full'><source datatype='string'>Biosci Biotechnol Biochem 62(6);1267-70</source>
+<pubmed-id datatype='string'>9692215</pubmed-id>
+<title datatype='string'>RpoS-dependent expression of the second lysine decarboxylase gene in Escherichia coli.</title>
+<year datatype='integer'>1998</year>
+<author datatype='string'>Kikuchi Y</author>
+<author datatype='string'>Kurahashi O</author>
+<author datatype='string'>Nagano T</author>
+<author datatype='string'>Kamio Y</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-9339543' orgid='ECOLI' frameid='PUB-9339543' detail='full'><source datatype='string'>Genes Genet Syst 72(3);167-72</source>
+<pubmed-id datatype='string'>9339543</pubmed-id>
+<title datatype='string'>The Escherichia coli ldcC gene encodes another lysine decarboxylase, probably a constitutive enzyme.</title>
+<year datatype='integer'>1997</year>
+<author datatype='string'>Yamamoto Y</author>
+<author datatype='string'>Miwa Y</author>
+<author datatype='string'>Miyoshi K</author>
+<author datatype='string'>Furuyama J</author>
+<author datatype='string'>Ohmori H</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9534244' orgid='ECOLI' frameid='PUB-9534244'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9339543' orgid='ECOLI' frameid='PUB-9339543'/></evidence>
+<component><Gene resource='getxml?ECOLI:G6094' orgid='ECOLI' frameid='G6094'/></component>
+<component><Promoter ID='ECOLI:PM0-1321' orgid='ECOLI' frameid='PM0-1321' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>ldcCp</common-name>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<comment datatype='string'>The &lt;i&gt;ldcC&lt;/i&gt; -35 and -10 promoter sequences have been described in [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/9339543&quot;&gt;Yamamoto97&lt;/a&gt;] and  [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/9692215&quot;&gt;Kikuchi98&lt;/a&gt;] as being close to the translational start site, even though the +1 for transcription has not been determined.  In addition to the experimental evidence, the -10 sequence (TATGAT) in the &lt;i&gt;ldcC&lt;/i&gt; promoter is specific for RpoS (&amp;sigma;&lt;sup&gt;38&lt;/sup&gt;) [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/9692215&quot;&gt;Kikuchi98&lt;/a&gt;].</comment>
+<citation><Publication resource='#ECOLI:PUB-9339543' orgid='ECOLI' frameid='PUB-9339543'/></citation>
+<citation><Publication resource='#ECOLI:PUB-9692215' orgid='ECOLI' frameid='PUB-9692215'/></citation>
+<citation><Publication ID='ECOLI:PUB-9226257' orgid='ECOLI' frameid='PUB-9226257' detail='full'><source datatype='string'>J Bacteriol 179(14);4486-92</source>
+<pubmed-id datatype='string'>9226257</pubmed-id>
+<title datatype='string'>Characterization of a second lysine decarboxylase isolated from Escherichia coli.</title>
+<year datatype='integer'>1997</year>
+<author datatype='string'>Kikuchi Y</author>
+<author datatype='string'>Kojima H</author>
+<author datatype='string'>Tanaka T</author>
+<author datatype='string'>Takatsuka Y</author>
+<author datatype='string'>Kamio Y</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from mutant phenotype</common-name>
+<comment datatype='string'>IMP inferred from mutant phenotype.
+
+&lt;br&gt;
+The assertion was inferred from a mutant phenotype such as
+&lt;ul&gt;
+    &lt;li&gt; Any gene mutation/knockout
+    &lt;li&gt; Overexpression/ectopic expression of wild-type or mutant genes
+    &lt;li&gt; Anti-sense experiments
+    &lt;li&gt; RNA interference experiments
+    &lt;li&gt; Specific protein inhibitors
+    &lt;li&gt; Complementation
+&lt;/ul&gt;&lt;p class=ecocomment&gt;	
+Comment: Inferences made from examining mutations or
+abnormal levels of only the product(s) of the gene of interest are covered by code EV-IMP
+(compare to code EV-IGI). Use this code for experiments that use antibodies 
+or other specific inhibitors of RNA or protein activity, even though no
+gene may be mutated (the rationale is that EV-IMP is used where an
+abnormal situation prevails in a cell or organism).
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9692215' orgid='ECOLI' frameid='PUB-9692215'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-AS-TAS' orgid='ECOLI' frameid='EV-AS-TAS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-AS' orgid='ECOLI' frameid='EV-AS' class='true'/></parent>
+<common-name datatype='string'>Traceable author statement</common-name>
+<comment datatype='string'>Traceable author statement.  The assertion was made in a publication -- such as a review or 
+in another database -- that itself did not describe an experiment supporting the
+assertion.  The statement referenced another publication that supported the assertion,
+but it is unclear whether that publication described an experiment that supported
+the assertion.  The difference between the codes EV-EXP-TAS and EV-AS-TAS 
+is that the former code is used when it is certain that experimental evidence supports the
+assertion, and the latter code is used when there is a possibility that an experiment was
+not done to support the assertion.
+In general, references to the primary literature are preferred,
+but this code can be used when the original article is difficult to locate.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9692215' orgid='ECOLI' frameid='PUB-9692215'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-1161' orgid='ECOLI' frameid='TU0-1161'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

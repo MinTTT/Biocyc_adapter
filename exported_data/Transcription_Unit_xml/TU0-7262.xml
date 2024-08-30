@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-7262'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-7262</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-7262' orgid='ECOLI' frameid='TU0-7262' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>moaBCDE</common-name>
+<component><Gene resource='getxml?ECOLI:EG11598' orgid='ECOLI' frameid='EG11598'/></component>
+<component><Gene resource='getxml?ECOLI:EG11597' orgid='ECOLI' frameid='EG11597'/></component>
+<component><Gene resource='getxml?ECOLI:EG11666' orgid='ECOLI' frameid='EG11666'/></component>
+<component><Gene resource='getxml?ECOLI:EG11596' orgid='ECOLI' frameid='EG11596'/></component>
+<component><Promoter ID='ECOLI:PM0-7602' orgid='ECOLI' frameid='PM0-7602' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>moaBp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>817977</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-15773991' orgid='ECOLI' frameid='PUB-15773991' detail='full'><source datatype='string'>Mol Microbiol 56(1);215-27</source>
+<pubmed-id datatype='string'>15773991</pubmed-id>
+<title datatype='string'>Transcriptional response of Escherichia coli to external copper.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Yamamoto K</author>
+<author datatype='string'>Ishihama A</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15773991' orgid='ECOLI' frameid='PUB-15773991'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-7262' orgid='ECOLI' frameid='TU0-7262'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

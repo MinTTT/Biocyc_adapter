@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU877'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU877</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU877' orgid='ECOLI' frameid='TU877' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rpe-gph-trpS</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-7603433' orgid='ECOLI' frameid='PUB-7603433' detail='full'><source datatype='string'>Mol Gen Genet 247(5);546-54</source>
+<pubmed-id datatype='string'>7603433</pubmed-id>
+<title datatype='string'>Characterization of three genes in the dam-containing operon of Escherichia coli.</title>
+<year datatype='integer'>1995</year>
+<author datatype='string'>Lyngstadaas A</author>
+<author datatype='string'>Lobner-Olesen A</author>
+<author datatype='string'>Boye E</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-10572959' orgid='ECOLI' frameid='PUB-10572959' detail='full'><source datatype='string'>Biochim Biophys Acta 1472(1-2);376-84</source>
+<pubmed-id datatype='string'>10572959</pubmed-id>
+<title datatype='string'>The gene for 2-phosphoglycolate phosphatase (gph) in Escherichia coli is located in the same operon as dam and at least five other diverse genes.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>Lyngstadaas A</author>
+<author datatype='string'>Lobner-Olesen A</author>
+<author datatype='string'>Grelland E</author>
+<author datatype='string'>Boye E</author>
+</Publication>
+</citation>
+<component><Gene resource='getxml?ECOLI:EG11030' orgid='ECOLI' frameid='EG11030'/></component>
+<component><Gene resource='getxml?ECOLI:EG11871' orgid='ECOLI' frameid='EG11871'/></component>
+<component><Gene resource='getxml?ECOLI:M004' orgid='ECOLI' frameid='M004'/></component>
+<component><Promoter ID='ECOLI:PM1037' orgid='ECOLI' frameid='PM1037' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>3515159</minus-10-left>
+<common-name datatype='string'>rpep</common-name>
+<minus-35-right datatype='integer'>3515186</minus-35-right>
+<minus-35-left datatype='integer'>3515181</minus-35-left>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3515153</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-10572959' orgid='ECOLI' frameid='PUB-10572959'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10572959' orgid='ECOLI' frameid='PUB-10572959'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10572959' orgid='ECOLI' frameid='PUB-10572959'/></evidence>
+<minus-10-right datatype='integer'>3515164</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU877' orgid='ECOLI' frameid='TU877'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

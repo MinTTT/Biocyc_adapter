@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00058'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00058</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00058' orgid='ECOLI' frameid='TU00058' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>purMN</common-name>
+<synonym datatype='string'>OP00080</synonym>
+<synonym datatype='string'>purM</synonym>
+<comment datatype='string'>The intergenic region of &lt;i&gt;upp-purMN&lt;/i&gt; protects against bacterial cell death via both type I and type II covalent topoisomerase-DNA cleavage complexes [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/22152010&quot;&gt;Liu11a&lt;/a&gt;]. Deletion of the binding site for FNR and PurR from the intergenic region of &lt;i&gt;upp-purMN&lt;/i&gt; decreases the protective effect, inducing lethality via titration [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/22152010&quot;&gt;Liu11a&lt;/a&gt;].
+&lt;p&gt;
+Based on DNA microarray analysis, the mechanism of bacterial inactivation by carvacrol and citral was studied [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/28644990&quot;&gt;Chueca17&lt;/a&gt;]. Treatment by both compounds caused membrane damage and activated metabolism through the production of nucleotides required for DNA and RNA synthesis and metabolic processes [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/28644990&quot;&gt;Chueca17&lt;/a&gt;]. A total of 76 and 156 genes demonstrated significant transcriptional differences by carvacrol and citral, respectively. Genes upregulated by carvacrol treatment included the multidrug efflux pump genes &lt;i&gt;acrA&lt;/i&gt; and &lt;i&gt;mdtM&lt;/i&gt;, genes related to the phage shock response, &lt;i&gt;pspA, pspB, pspC, pspD, pspF&lt;/i&gt;, and &lt;i&gt;pspG&lt;/i&gt;, and genes whose products are important for biosynthesis of arginine (&lt;i&gt;argC, argG, artJ&lt;/i&gt;) and purine nucleotides (&lt;i&gt;purC, purM&lt;/i&gt;). Genes upregulated by citral treatment included &lt;i&gt;purH&lt;/i&gt;, &lt;i&gt;pyrB&lt;/i&gt;, and &lt;i&gt;pyrI&lt;/i&gt;. On the other hand, mutations in several differentially expressed genes confirmed the roles of &lt;i&gt;ygaV, yjbO, pspC, sdhA, yejG&lt;/i&gt;, and &lt;i&gt;ygaV&lt;/i&gt; in mechanisms of inactivation by carvacrol and citral [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/28644990&quot;&gt;Chueca17&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-3301838' orgid='ECOLI' frameid='PUB-3301838' detail='full'><source datatype='string'>J Biol Chem 262(22);10565-9</source>
+<pubmed-id datatype='string'>3301838</pubmed-id>
+<title datatype='string'>Identification and nucleotide sequence of a gene encoding 5'-phosphoribosylglycinamide transformylase in Escherichia coli K12.</title>
+<year datatype='integer'>1987</year>
+<author datatype='string'>Smith JM</author>
+<author datatype='string'>Daum HA</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-2644189' orgid='ECOLI' frameid='PUB-2644189' detail='full'><source datatype='string'>J Bacteriol 171(1);198-204</source>
+<pubmed-id datatype='string'>2644189</pubmed-id>
+<title datatype='string'>Identification and sequence analysis of Escherichia coli purE and purK genes encoding 5'-phosphoribosyl-5-amino-4-imidazole carboxylase for de novo purine biosynthesis.</title>
+<year datatype='integer'>1989</year>
+<author datatype='string'>Watanabe W</author>
+<author datatype='string'>Sampei G</author>
+<author datatype='string'>Aiba A</author>
+<author datatype='string'>Mizobuchi K</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-1371255' orgid='ECOLI' frameid='PUB-1371255' detail='full'><source datatype='string'>Eur J Biochem 204(1);51-6</source>
+<pubmed-id datatype='string'>1371255</pubmed-id>
+<title datatype='string'>Characterization of the upp gene encoding uracil phosphoribosyltransferase of Escherichia coli K12.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Andersen PS</author>
+<author datatype='string'>Smith JM</author>
+<author datatype='string'>Mygind B</author>
+</Publication>
+</citation>
+<component><DNA-Binding-Site ID='ECOLI:BS0-7023' orgid='ECOLI' frameid='BS0-7023' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-5825' orgid='ECOLI' frameid='REG0-5825' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7797' orgid='ECOLI' frameid='CPLX0-7797'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM00080' orgid='ECOLI' frameid='PM00080' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>2621141</minus-10-left>
+<common-name datatype='string'>purMp</common-name>
+<minus-35-right datatype='integer'>2621122</minus-35-right>
+<minus-35-left datatype='integer'>2621117</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2621153</absolute-plus-1-pos>
+<comment datatype='string'>554 promoter regions from &lt;i&gt;Escherichia coli&lt;/i&gt; were aligned in order to analyze their sequence similarities. Mitchell et al. (2003) [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12907708&quot;&gt;Mitchell03&lt;/a&gt;] focused on conservation, patterns, similarities, and differences between promoters with or without an extended -10 5'-TG-3' element and other conserved elements. They experimentally showed that, for several naturally occurring extended -10 promoters, the 5'-TRTG-3' motif is an important determinant for promoter activity. Eleven promoters were selected for further experimental study. Of those, the seven most active (&lt;i&gt;aroF &gt; ompF &gt; envA &gt; purFp1 &gt; purEF &gt; purMN &gt; gyrA&lt;/i&gt;) were investigated for the contribution of the extended -10 motif by changing the 5'-TG-3'. Promoters with poor matches to the -10 and -35 consensus hexamers are more dependent on the 5'-TG-3' motif, and this plays a similar role on different promoters. The dinucleotide at -17 and ?-6 in aroFp results in similar patterns of activity, suggesting that these bases play a similar role on different promoters [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12907708&quot;&gt;Mitchell03&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-3015935' orgid='ECOLI' frameid='PUB-3015935' detail='full'><source datatype='string'>J Biol Chem 261(23);10632-6</source>
+<pubmed-id datatype='string'>3015935</pubmed-id>
+<title datatype='string'>Nucleotide sequence of the purM gene encoding 5'-phosphoribosyl-5-aminoimidazole synthetase of Escherichia coli K12.</title>
+<year datatype='integer'>1986</year>
+<author datatype='string'>Smith JM</author>
+<author datatype='string'>Daum HA</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-2198266' orgid='ECOLI' frameid='PUB-2198266' detail='full'><source datatype='string'>J Bacteriol 172(8);4555-62</source>
+<pubmed-id datatype='string'>2198266</pubmed-id>
+<title datatype='string'>Genes of the Escherichia coli pur regulon are negatively controlled by a repressor-operator interaction.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>He B</author>
+<author datatype='string'>Shiau A</author>
+<author datatype='string'>Choi KY</author>
+<author datatype='string'>Zalkin H</author>
+<author datatype='string'>Smith JM</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3015935' orgid='ECOLI' frameid='PUB-3015935'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-5826' orgid='ECOLI' frameid='REG0-5826' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX-123' orgid='ECOLI' frameid='CPLX-123'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00080' orgid='ECOLI' frameid='PM00080'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-5825' orgid='ECOLI' frameid='REG0-5825'/></regulated-by>
+<minus-10-right datatype='integer'>2621146</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00058' orgid='ECOLI' frameid='TU00058'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-22152010' orgid='ECOLI' frameid='PUB-22152010' detail='full'><source datatype='string'>BMC Microbiol 11;261</source>
+<pubmed-id datatype='string'>22152010</pubmed-id>
+<title datatype='string'>Resistance to topoisomerase cleavage complex induced lethality in Escherichia coli via titration of transcription regulators PurR and FNR.</title>
+<year datatype='integer'>2011</year>
+<author datatype='string'>Liu IF</author>
+<author datatype='string'>Aedo S</author>
+<author datatype='string'>Tse-Dinh YC</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on similarity to consensus sequences</common-name>
+<comment datatype='string'>A DNA sequence similar to previously known consensus sequences is computationally identified.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-12754220' orgid='ECOLI' frameid='PUB-12754220' detail='full'><source datatype='string'>J Biol Chem 278(32);29837-55</source>
+<pubmed-id datatype='string'>12754220</pubmed-id>
+<title datatype='string'>Global gene expression profiling in Escherichia coli K12. The effects of oxygen availability and FNR.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Salmon K</author>
+<author datatype='string'>Hung SP</author>
+<author datatype='string'>Mekjian K</author>
+<author datatype='string'>Baldi P</author>
+<author datatype='string'>Hatfield GW</author>
+<author datatype='string'>Gunsalus RP</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-22152010' orgid='ECOLI' frameid='PUB-22152010'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Site mutation</common-name>
+<comment datatype='string'>A cis-mutation in the DNA sequence of the transcription-factor binding site interferes with the operation of the regulatory function. This is considered  strong evidence for the existence and functional role of the DNA binding site.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-22152010' orgid='ECOLI' frameid='PUB-22152010'/></evidence>
+<abs-center-pos datatype='float'>2620960.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00058' orgid='ECOLI' frameid='TU00058'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Promoter resource='#ECOLI:PM00080' orgid='ECOLI' frameid='PM00080'/></component>
+<component><DNA-Binding-Site ID='ECOLI:BS00181' orgid='ECOLI' frameid='BS00181' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5826' orgid='ECOLI' frameid='REG0-5826'/></involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-3015935' orgid='ECOLI' frameid='PUB-3015935'/></citation>
+<citation><Publication ID='ECOLI:PUB-2404765' orgid='ECOLI' frameid='PUB-2404765' detail='full'><source datatype='string'>Eur J Biochem 187(2);373-9</source>
+<pubmed-id datatype='string'>2404765</pubmed-id>
+<title datatype='string'>Autoregulation of PurR repressor synthesis and involvement of purR in the regulation of purB, purC, purL, purMN and guaBA expression in Escherichia coli.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>Meng LM</author>
+<author datatype='string'>Kilstrup M</author>
+<author datatype='string'>Nygaard P</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-21572102' orgid='ECOLI' frameid='PUB-21572102' detail='full'><source datatype='string'>Nucleic Acids Res 39(15);6456-64</source>
+<pubmed-id datatype='string'>21572102</pubmed-id>
+<title datatype='string'>The PurR regulon in Escherichia coli K-12 MG1655.</title>
+<year datatype='integer'>2011</year>
+<author datatype='string'>Cho BK</author>
+<author datatype='string'>Federowicz SA</author>
+<author datatype='string'>Embree M</author>
+<author datatype='string'>Park YS</author>
+<author datatype='string'>Kim D</author>
+<author datatype='string'>Palsson BO</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-22152010' orgid='ECOLI' frameid='PUB-22152010'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-21572102' orgid='ECOLI' frameid='PUB-21572102'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-2404765' orgid='ECOLI' frameid='PUB-2404765'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-3015935' orgid='ECOLI' frameid='PUB-3015935'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' class='true'/><Publication resource='#ECOLI:PUB-22152010' orgid='ECOLI' frameid='PUB-22152010'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-22152010' orgid='ECOLI' frameid='PUB-22152010'/></evidence>
+<site-length datatype='integer'>16</site-length>
+<abs-center-pos datatype='float'>2621125.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00058' orgid='ECOLI' frameid='TU00058'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10798' orgid='ECOLI' frameid='EG10798'/></component>
+<component><Gene resource='getxml?ECOLI:EG10799' orgid='ECOLI' frameid='EG10799'/></component>
+</Transcription-Unit>
+</ptools-xml>

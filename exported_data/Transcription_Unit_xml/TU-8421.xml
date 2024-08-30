@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU-8421'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU-8421</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU-8421' orgid='ECOLI' frameid='TU-8421' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>plsB</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+</evidence>
+<component><Gene resource='getxml?ECOLI:EG10740' orgid='ECOLI' frameid='EG10740'/></component>
+<component><Promoter ID='ECOLI:PM-8807' orgid='ECOLI' frameid='PM-8807' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>4256601</minus-10-left>
+<common-name datatype='string'>plsBp1</common-name>
+<minus-35-right datatype='integer'>4256630</minus-35-right>
+<minus-35-left datatype='integer'>4256625</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOE-MONOMER' orgid='ECOLI' frameid='RPOE-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4256598</absolute-plus-1-pos>
+<comment datatype='string'>This promoter appears to be induced in two phases after &amp;sigma;E induction. It is induced during the first 5 minutes following &amp;sigma;E induction, decreased from 5 to 10 minutes, induced from 10 to 15 minutes, and decreased from 15 to 20 minutes [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31992590&quot;&gt;Lacoux20&lt;/a&gt;].
+</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-16336047' orgid='ECOLI' frameid='PUB-16336047' detail='full'><source datatype='string'>PLoS Biol 4(1);e2</source>
+<pubmed-id datatype='string'>16336047</pubmed-id>
+<title datatype='string'>Conserved and variable functions of the sigmaE stress response in related genomes.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Rhodius VA</author>
+<author datatype='string'>Suh WC</author>
+<author datatype='string'>Nonaka G</author>
+<author datatype='string'>West J</author>
+<author datatype='string'>Gross CA</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-21463370' orgid='ECOLI' frameid='PUB-21463370' detail='full'><source datatype='string'>Mol Microbiol 80(5);1260-75</source>
+<pubmed-id datatype='string'>21463370</pubmed-id>
+<title datatype='string'>Antagonistic regulation of dgkA and plsB genes of phospholipid synthesis by multiple stress responses in Escherichia coli.</title>
+<year datatype='integer'>2011</year>
+<author datatype='string'>Wahl A</author>
+<author datatype='string'>My L</author>
+<author datatype='string'>Dumoulin R</author>
+<author datatype='string'>Sturgis JN</author>
+<author datatype='string'>Bouveret E</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16336047' orgid='ECOLI' frameid='PUB-16336047'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference of promoter position</common-name>
+<comment datatype='string'>Automated inference of promoter position relative to the -10 and -35 boxes.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16336047' orgid='ECOLI' frameid='PUB-16336047'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-21463370' orgid='ECOLI' frameid='PUB-21463370'/></evidence>
+<minus-10-right datatype='integer'>4256605</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU-8421' orgid='ECOLI' frameid='TU-8421'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

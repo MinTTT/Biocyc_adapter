@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00251'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00251</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00251' orgid='ECOLI' frameid='TU00251' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>clpPX</common-name>
+<comment datatype='string'>There is a possible factor-dependent transcription terminator downstream of &lt;i&gt;clpP&lt;/i&gt;. &lt;i&gt;clpX&lt;/i&gt; can be expressed independently from &lt;i&gt;clpP&lt;/i&gt; by using its own promoter, but this promoter has not  been clearly identified.
+&lt;p&gt;
+ The expression of the &lt;i&gt;clpP&lt;/i&gt; gene, and probably the expression of the complete &lt;i&gt;clpPX&lt;/i&gt; operon that codes for a protease,  is affected by antibiotic pressure. As the antibiotic (tetracycline) concentration  increases, the gene expression also increases. The role of the induced protease could be the degradation of porins to protect the cell against the antibiotic [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/17426813&quot;&gt;Viveiros07&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-8226770' orgid='ECOLI' frameid='PUB-8226770' detail='full'><source datatype='string'>J Biol Chem 268(30);22618-26</source>
+<pubmed-id datatype='string'>8226770</pubmed-id>
+<title datatype='string'>ClpX, an alternative subunit for the ATP-dependent Clp protease of Escherichia coli. Sequence and in vivo activities.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>Gottesman S</author>
+<author datatype='string'>Clark WP</author>
+<author datatype='string'>de Crecy-Lagard V</author>
+<author datatype='string'>Maurizi MR</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-11073905' orgid='ECOLI' frameid='PUB-11073905' detail='full'><source datatype='string'>J Bacteriol 182(23);6630-7</source>
+<pubmed-id datatype='string'>11073905</pubmed-id>
+<title datatype='string'>Expression of different-size transcripts from the clpP-clpX operon of Escherichia coli during carbon deprivation.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Li C</author>
+<author datatype='string'>Tao YP</author>
+<author datatype='string'>Simon LD</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8226770' orgid='ECOLI' frameid='PUB-8226770'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' class='true'/><Publication resource='#ECOLI:PUB-11073905' orgid='ECOLI' frameid='PUB-11073905'/></evidence>
+<component><Terminator ID='ECOLI:TERM58' orgid='ECOLI' frameid='TERM58' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>458755</right-end-position>
+<left-end-position datatype='integer'>458731</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-8226770' orgid='ECOLI' frameid='PUB-8226770'/></citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-14490' orgid='ECOLI' frameid='TU0-14490'/><Transcription-Unit resource='getxml?ECOLI:TU00419' orgid='ECOLI' frameid='TU00419'/><Transcription-Unit resource='#ECOLI:TU00251' orgid='ECOLI' frameid='TU00251'/></component-of>
+</Terminator>
+</component>
+<component><Promoter ID='ECOLI:PM00339' orgid='ECOLI' frameid='PM00339' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>456565</minus-10-left>
+<common-name datatype='string'>clpPp1</common-name>
+<minus-35-right datatype='integer'>456547</minus-35-right>
+<minus-35-left datatype='integer'>456542</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>456577</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-2197275' orgid='ECOLI' frameid='PUB-2197275' detail='full'><source datatype='string'>J Biol Chem 265(21);12536-45</source>
+<pubmed-id datatype='string'>2197275</pubmed-id>
+<title datatype='string'>Sequence and structure of Clp P, the proteolytic component of the ATP-dependent Clp protease of Escherichia coli.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>Maurizi MR</author>
+<author datatype='string'>Clark WP</author>
+<author datatype='string'>Katayama Y</author>
+<author datatype='string'>Rudikoff S</author>
+<author datatype='string'>Pumphrey J</author>
+<author datatype='string'>Bowers B</author>
+<author datatype='string'>Gottesman S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2197275' orgid='ECOLI' frameid='PUB-2197275'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2197275' orgid='ECOLI' frameid='PUB-2197275'/></evidence>
+<minus-10-right datatype='integer'>456570</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00251' orgid='ECOLI' frameid='TU00251'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10158' orgid='ECOLI' frameid='EG10158'/></component>
+<component><Gene resource='getxml?ECOLI:EG10159' orgid='ECOLI' frameid='EG10159'/></component>
+</Transcription-Unit>
+</ptools-xml>

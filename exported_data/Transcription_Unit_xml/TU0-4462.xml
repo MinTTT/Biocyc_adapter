@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-4462'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-4462</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-4462' orgid='ECOLI' frameid='TU0-4462' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>gudPXD</common-name>
+<comment datatype='string'>A potential RNA G-quadruplex structure, formed by guanine-rich sequences located in the coding sequence region of the gene, was identified  for &lt;i&gt;gudP&lt;/i&gt; . This structure  could regulate the expression of the gene, as observed for &lt;i&gt;hemL&lt;/i&gt; gene expression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31964733&quot;&gt;Shao20&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-10762278' orgid='ECOLI' frameid='PUB-10762278' detail='full'><source datatype='string'>J Bacteriol 182(9);2672-4</source>
+<pubmed-id datatype='string'>10762278</pubmed-id>
+<title datatype='string'>A common regulator for the operons encoding the enzymes involved in D-galactarate, D-glucarate, and D-glycerate utilization in Escherichia coli.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Monterrubio R</author>
+<author datatype='string'>Baldoma L</author>
+<author datatype='string'>Obradors N</author>
+<author datatype='string'>Aguilar J</author>
+<author datatype='string'>Badia J</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10762278' orgid='ECOLI' frameid='PUB-10762278'/></evidence>
+<component><Gene resource='getxml?ECOLI:G7445' orgid='ECOLI' frameid='G7445'/></component>
+<component><Gene resource='getxml?ECOLI:G7446' orgid='ECOLI' frameid='G7446'/></component>
+<component><Gene resource='getxml?ECOLI:G7447' orgid='ECOLI' frameid='G7447'/></component>
+<component><Promoter ID='ECOLI:PM0-4702' orgid='ECOLI' frameid='PM0-4702' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>gudPp</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' detail='full' class='true'><common-name datatype='string'>Inferred by curator</common-name>
+<comment datatype='string'>Inferred by curator.  An assertion was inferred by a curator from relevant
+information such as other assertions in a database.
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10762278' orgid='ECOLI' frameid='PUB-10762278'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-6273' orgid='ECOLI' frameid='REG0-6273' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12335-MONOMER' orgid='ECOLI' frameid='EG12335-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-4702' orgid='ECOLI' frameid='PM0-4702'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4462' orgid='ECOLI' frameid='TU0-4462'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

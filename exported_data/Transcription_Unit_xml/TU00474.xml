@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00474'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00474</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00474' orgid='ECOLI' frameid='TU00474' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>glnB</common-name>
+<comment datatype='string'>The expression of the &lt;i&gt;glnB&lt;/i&gt; gene was increased in mutants for two genes that encode two terminal oxidases, &lt;i&gt;cyoA&lt;/i&gt; and &lt;i&gt;cydB&lt;/i&gt;, and in mutants of two transcriptional regulators, Fnr and Fur. However, it is unknown if the effects of the transcriptional regulators act directly on the gene expression; also, it is unknown which of the three promoters that transcribe the gene could  be regulated by the regulators [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/21272324&quot;&gt;Kumar11&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-8388874' orgid='ECOLI' frameid='PUB-8388874' detail='full'><source datatype='string'>J Bacteriol 175(11);3598-606</source>
+<pubmed-id datatype='string'>8388874</pubmed-id>
+<title datatype='string'>Regulation of Escherichia coli glnB, prsA, and speA by the purine repressor.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>He B</author>
+<author datatype='string'>Choi KY</author>
+<author datatype='string'>Zalkin H</author>
+</Publication>
+</citation>
+<component><Promoter ID='ECOLI:PM00628' orgid='ECOLI' frameid='PM00628' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>glnBp3</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2687526</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-8388874' orgid='ECOLI' frameid='PUB-8388874'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU00474' orgid='ECOLI' frameid='TU00474'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10384' orgid='ECOLI' frameid='EG10384'/></component>
+</Transcription-Unit>
+</ptools-xml>

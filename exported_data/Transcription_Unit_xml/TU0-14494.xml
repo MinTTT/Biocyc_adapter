@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-14494'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-14494</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-14494' orgid='ECOLI' frameid='TU0-14494' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>dksA-yadB</common-name>
+<citation><Publication ID='ECOLI:PUB-2180916' orgid='ECOLI' frameid='PUB-2180916' detail='full'><source datatype='string'>J Bacteriol 172(4);2055-64</source>
+<pubmed-id datatype='string'>2180916</pubmed-id>
+<title datatype='string'>Identification and characterization of a new Escherichia coli gene that is a dosage-dependent suppressor of a dnaK deletion mutation.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>Kang PJ</author>
+<author datatype='string'>Craig EA</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2180916' orgid='ECOLI' frameid='PUB-2180916'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' class='true'/><Publication ID='ECOLI:PUB-15096594' orgid='ECOLI' frameid='PUB-15096594' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 101(20);7530-5</source>
+<pubmed-id datatype='string'>15096594</pubmed-id>
+<title datatype='string'>An aminoacyl-tRNA synthetase-like protein encoded by the Escherichia coli yadB gene glutamylates specifically tRNAAsp.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Dubois DY</author>
+<author datatype='string'>Blaise M</author>
+<author datatype='string'>Becker HD</author>
+<author datatype='string'>Campanacci V</author>
+<author datatype='string'>Keith G</author>
+<author datatype='string'>Giege R</author>
+<author datatype='string'>Cambillau C</author>
+<author datatype='string'>Lapointe J</author>
+<author datatype='string'>Kern D</author>
+</Publication>
+</evidence>
+<component><Gene resource='getxml?ECOLI:EG11362' orgid='ECOLI' frameid='EG11362'/></component>
+<component><Gene resource='getxml?ECOLI:EG10230' orgid='ECOLI' frameid='EG10230'/></component>
+<component><Promoter ID='ECOLI:PM0-9764' orgid='ECOLI' frameid='PM0-9764' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>dksAp1</common-name>
+<synonym datatype='string'>dksAp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>160722</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-16862137' orgid='ECOLI' frameid='PUB-16862137' detail='full'><source datatype='string'>Nat Methods 3(8);623-8</source>
+<pubmed-id datatype='string'>16862137</pubmed-id>
+<title datatype='string'>A comprehensive library of fluorescent transcriptional reporters for Escherichia coli.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Zaslaver A</author>
+<author datatype='string'>Bren A</author>
+<author datatype='string'>Ronen M</author>
+<author datatype='string'>Itzkovitz S</author>
+<author datatype='string'>Kikoin I</author>
+<author datatype='string'>Shavit S</author>
+<author datatype='string'>Liebermeister W</author>
+<author datatype='string'>Surette MG</author>
+<author datatype='string'>Alon U</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-2180916' orgid='ECOLI' frameid='PUB-2180916'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16862137' orgid='ECOLI' frameid='PUB-16862137'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2180916' orgid='ECOLI' frameid='PUB-2180916'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-14494' orgid='ECOLI' frameid='TU0-14494'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

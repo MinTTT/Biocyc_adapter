@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42479'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42479</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42479' orgid='ECOLI' frameid='TU0-42479' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rsmG</common-name>
+<citation><Publication ID='ECOLI:PUB-22337945' orgid='ECOLI' frameid='PUB-22337945' detail='full'><source datatype='string'>RNA 18(4);795-806</source>
+<pubmed-id datatype='string'>22337945</pubmed-id>
+<title datatype='string'>Regulation of expression and catalytic activity of Escherichia coli RsmG methyltransferase.</title>
+<year datatype='integer'>2012</year>
+<author datatype='string'>Benitez-Paez A</author>
+<author datatype='string'>Villarroya M</author>
+<author datatype='string'>Armengod ME</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-22337945' orgid='ECOLI' frameid='PUB-22337945'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG10376' orgid='ECOLI' frameid='EG10376'/></component>
+</Transcription-Unit>
+</ptools-xml>

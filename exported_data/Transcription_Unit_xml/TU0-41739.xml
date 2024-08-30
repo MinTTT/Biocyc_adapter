@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-41739'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-41739</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-41739' orgid='ECOLI' frameid='TU0-41739' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>mpaA</common-name>
+<citation><Publication ID='ECOLI:PUB-23301696' orgid='ECOLI' frameid='PUB-23301696' detail='full'><source datatype='string'>Genes Cells 18(2);123-34</source>
+<pubmed-id datatype='string'>23301696</pubmed-id>
+<title datatype='string'>Novel regulator PgrR for switch control of peptidoglycan recycling in Escherichia coli.</title>
+<year datatype='integer'>2013</year>
+<author datatype='string'>Shimada T</author>
+<author datatype='string'>Yamazaki K</author>
+<author datatype='string'>Ishihama A</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' detail='full' class='true'><common-name datatype='string'>Inferred by curator</common-name>
+<comment datatype='string'>Inferred by curator.  An assertion was inferred by a curator from relevant
+information such as other assertions in a database.
+</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-23301696' orgid='ECOLI' frameid='PUB-23301696'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12513' orgid='ECOLI' frameid='REG0-12513' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:G6664-MONOMER' orgid='ECOLI' frameid='G6664-MONOMER'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-41739' orgid='ECOLI' frameid='TU0-41739'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component><Gene resource='getxml?ECOLI:G6662' orgid='ECOLI' frameid='G6662'/></component>
+</Transcription-Unit>
+</ptools-xml>

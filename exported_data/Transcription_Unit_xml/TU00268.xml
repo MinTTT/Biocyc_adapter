@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00268'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00268</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00268' orgid='ECOLI' frameid='TU00268' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>fdoGHI-fdhE</common-name>
+<comment datatype='string'>The expression of this operon is enhanced during and after the switch from aerobic to anaerobic growth conditions [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/21980479&quot;&gt;Trotter11&lt;/a&gt;].
+&lt;p&gt;
+Based on qRT-PCR, it was found that three selenopolypeptide genes, &lt;i&gt;fdnG, fdoG&lt;/i&gt;, and &lt;i&gt;fdhF&lt;/i&gt;, were induced more than 2-fold by both 0.01 and 5 mM Na&lt;sub&gt;2&lt;/sub&gt;SeO&lt;sub&gt;3&lt;/sub&gt; (sodium selenite) [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/24531660&quot;&gt;Campagne14&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-8346018' orgid='ECOLI' frameid='PUB-8346018' detail='full'><source datatype='string'>Nucleic Acids Res 21(15);3391-8</source>
+<pubmed-id datatype='string'>8346018</pubmed-id>
+<title datatype='string'>Analysis of the Escherichia coli genome. III. DNA sequence of the region from 87.2 to 89.2 minutes.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>Plunkett G</author>
+<author datatype='string'>Burland V</author>
+<author datatype='string'>Daniels DL</author>
+<author datatype='string'>Blattner FR</author>
+</Publication>
+</citation>
+<regulated-by><Regulation ID='ECOLI:REG0-13179' orgid='ECOLI' frameid='REG0-13179' detail='low'><parent><Regulation resource='getxml?ECOLI:RNA-Mediated-Translation-Regulation' orgid='ECOLI' frameid='RNA-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><RNA resource='getxml?ECOLI:RNA0-403' orgid='ECOLI' frameid='RNA0-403'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU00268' orgid='ECOLI' frameid='TU00268'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component><Gene resource='getxml?ECOLI:EG10284' orgid='ECOLI' frameid='EG10284'/></component>
+<component><Gene resource='getxml?ECOLI:EG11856' orgid='ECOLI' frameid='EG11856'/></component>
+<component><Gene resource='getxml?ECOLI:EG11857' orgid='ECOLI' frameid='EG11857'/></component>
+<component><Gene resource='getxml?ECOLI:EG11858' orgid='ECOLI' frameid='EG11858'/></component>
+</Transcription-Unit>
+</ptools-xml>

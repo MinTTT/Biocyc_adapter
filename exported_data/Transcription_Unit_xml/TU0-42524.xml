@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42524'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42524</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42524' orgid='ECOLI' frameid='TU0-42524' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ycjY-ymjDC-mpaA</common-name>
+<comment datatype='string'>The &lt;i&gt;ycjY-ymjD-ymjC-mpaA&lt;/i&gt; operon is derepressed under nutrient starvation for self-generation of amino acids, but it is repressed under high osmotic conditions for maintenance of the rigidity of the peptidoglycan (PG) sacculus, which provides mechanical strength to resist osmotic challenges [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23301696&quot;&gt;Shimada13b&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-23301696' orgid='ECOLI' frameid='PUB-23301696' detail='full'><source datatype='string'>Genes Cells 18(2);123-34</source>
+<pubmed-id datatype='string'>23301696</pubmed-id>
+<title datatype='string'>Novel regulator PgrR for switch control of peptidoglycan recycling in Escherichia coli.</title>
+<year datatype='integer'>2013</year>
+<author datatype='string'>Shimada T</author>
+<author datatype='string'>Yamazaki K</author>
+<author datatype='string'>Ishihama A</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-IC-ADJ-GENES-SAME-BIO-PROCESS' orgid='ECOLI' frameid='EV-IC-ADJ-GENES-SAME-BIO-PROCESS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' class='true'/></parent>
+<common-name datatype='string'>Products of adjacent genes in the same biological process</common-name>
+<comment datatype='string'>A transcription unit is inferred because there is a set of adjacent genes,
+encoded in the same direction, coding for products that participate in the
+same metabolic pathway or biological process. Sometimes, these genes code
+for subunits of the same protein.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-23301696' orgid='ECOLI' frameid='PUB-23301696'/></evidence>
+<component><Gene resource='getxml?ECOLI:G6662' orgid='ECOLI' frameid='G6662'/></component>
+<component><Gene resource='getxml?ECOLI:G0-10446' orgid='ECOLI' frameid='G0-10446'/></component>
+<component><Gene resource='getxml?ECOLI:G0-10645' orgid='ECOLI' frameid='G0-10645'/></component>
+<component><Gene resource='getxml?ECOLI:G6663' orgid='ECOLI' frameid='G6663'/></component>
+<component><Promoter ID='ECOLI:PM0-44865' orgid='ECOLI' frameid='PM0-44865' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>ycjYp6</common-name>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOH-MONOMER' orgid='ECOLI' frameid='RPOH-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1392072</absolute-plus-1-pos>
+<comment datatype='string'>Similarity to the consensus sequence of the set of known functional promoters for this sigma factor with strong experimental evidence: good homology.  Score: 5.045.  P-value: 9.351e-6</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615'/></citation>
+<regulated-by><Regulation ID='ECOLI:REG0-11658' orgid='ECOLI' frameid='REG0-11658' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:G6664-MONOMER' orgid='ECOLI' frameid='G6664-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-44865' orgid='ECOLI' frameid='PM0-44865'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42524' orgid='ECOLI' frameid='TU0-42524'/><Transcription-Unit resource='getxml?ECOLI:TU0-13216' orgid='ECOLI' frameid='TU0-13216'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

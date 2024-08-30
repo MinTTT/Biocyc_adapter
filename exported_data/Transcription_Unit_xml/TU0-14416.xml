@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-14416'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-14416</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-14416' orgid='ECOLI' frameid='TU0-14416' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>hchA</common-name>
+<citation><Publication ID='ECOLI:PUB-16796689' orgid='ECOLI' frameid='PUB-16796689' detail='full'><source datatype='string'>Mol Microbiol 60(6);1576-89</source>
+<pubmed-id datatype='string'>16796689</pubmed-id>
+<title datatype='string'>Regulation of Escherichia coli hchA, a stress-inducible gene encoding molecular chaperone Hsp31.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Mujacic M</author>
+<author datatype='string'>Baneyx F</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16796689' orgid='ECOLI' frameid='PUB-16796689'/></evidence>
+<component><DNA-Binding-Site ID='ECOLI:BS0-7336' orgid='ECOLI' frameid='BS0-7336' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-5415' orgid='ECOLI' frameid='REG0-5415' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00288' orgid='ECOLI' frameid='PD00288'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-9580' orgid='ECOLI' frameid='PM0-9580' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>2035614</minus-10-left>
+<common-name datatype='string'>hchAp2</common-name>
+<minus-35-right datatype='integer'>2035602</minus-35-right>
+<minus-35-left datatype='integer'>2035597</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2035630</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-16796689' orgid='ECOLI' frameid='PUB-16796689'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16796689' orgid='ECOLI' frameid='PUB-16796689'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-5415' orgid='ECOLI' frameid='REG0-5415'/></regulated-by>
+<minus-10-right datatype='integer'>2035624</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-14416' orgid='ECOLI' frameid='TU0-14416'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16796689' orgid='ECOLI' frameid='PUB-16796689'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-14416' orgid='ECOLI' frameid='TU0-14416'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:G7055' orgid='ECOLI' frameid='G7055'/></component>
+<component><Promoter resource='#ECOLI:PM0-9580' orgid='ECOLI' frameid='PM0-9580'/></component>
+</Transcription-Unit>
+</ptools-xml>

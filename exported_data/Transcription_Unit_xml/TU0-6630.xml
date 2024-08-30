@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-6630'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-6630</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-6630' orgid='ECOLI' frameid='TU0-6630' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ytjB-lplA</common-name>
+<synonym datatype='string'>smp</synonym>
+<comment datatype='string'>A potential RNA G-quadruplex structure, formed by guanine-rich sequences located in the coding sequence region of the gene, was identified  for &lt;i&gt;lplA&lt;/i&gt; . This structure  could regulate the expression of the gene, as observed for &lt;i&gt;hemL&lt;/i&gt; gene expression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31964733&quot;&gt;Shao20&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><Gene resource='getxml?ECOLI:EG11796' orgid='ECOLI' frameid='EG11796'/></component>
+<component><Gene resource='getxml?ECOLI:EG10951' orgid='ECOLI' frameid='EG10951'/></component>
+<component><Promoter ID='ECOLI:PM00508' orgid='ECOLI' frameid='PM00508' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>ytjBp</common-name>
+<synonym datatype='string'>smp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4624799</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-2684780' orgid='ECOLI' frameid='PUB-2684780' detail='full'><source datatype='string'>Gene 82(2);219-28</source>
+<pubmed-id datatype='string'>2684780</pubmed-id>
+<title datatype='string'>An Escherichia coli membrane protein with a unique signal sequence.</title>
+<year datatype='integer'>1989</year>
+<author datatype='string'>Neuwald AF</author>
+<author datatype='string'>Stauffer GV</author>
+<doi-id datatype='string'>10.1016/0378-1119(89)90047-4</doi-id>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-2997734' orgid='ECOLI' frameid='PUB-2997734' detail='full'><source datatype='string'>Nucleic Acids Res 13(19);7025-39</source>
+<pubmed-id datatype='string'>2997734</pubmed-id>
+<title datatype='string'>DNA sequence and characterization of the Escherichia coli serB gene.</title>
+<year datatype='integer'>1985</year>
+<author datatype='string'>Neuwald AF</author>
+<author datatype='string'>Stauffer GV</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2997734' orgid='ECOLI' frameid='PUB-2997734'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-6630' orgid='ECOLI' frameid='TU0-6630'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

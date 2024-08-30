@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00361'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00361</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00361' orgid='ECOLI' frameid='TU00361' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>sspAB</common-name>
+<comment datatype='string'>The &lt;i&gt;sspAB&lt;/i&gt; operon is adjacent to the &lt;i&gt;rplM&lt;/i&gt; and &lt;i&gt;rpsI&lt;/i&gt; genes. The  expression of the &lt;i&gt;sspAB&lt;/i&gt; operon is not &lt;i&gt;rpoH&lt;/i&gt; or &lt;i&gt;rpoS&lt;/i&gt; dependent. Experiments are in progress to determine the molecular mechanism of the transcription regulation of the &lt;i&gt;sspAB&lt;/i&gt; operon and the function  of &lt;i&gt;sspA&lt;/i&gt; and &lt;i&gt;sspB&lt;/i&gt;.</comment>
+<citation><Publication ID='ECOLI:PUB-3121585' orgid='ECOLI' frameid='PUB-3121585' detail='full'><source datatype='string'>J Bacteriol 170(1);239-44</source>
+<pubmed-id datatype='string'>3121585</pubmed-id>
+<title datatype='string'>Regulation of expression of genes coding for small, acid-soluble proteins of Bacillus subtilis spores: studies using lacZ gene fusions.</title>
+<year datatype='integer'>1988</year>
+<author datatype='string'>Mason JM</author>
+<author datatype='string'>Hackett RH</author>
+<author datatype='string'>Setlow P</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-1721886' orgid='ECOLI' frameid='PUB-1721886' detail='full'><source datatype='string'>Gene 109(1);21-30</source>
+<pubmed-id datatype='string'>1721886</pubmed-id>
+<title datatype='string'>Null mutation in the stringent starvation protein of Escherichia coli disrupts lytic development of bacteriophage P1.</title>
+<year datatype='integer'>1991</year>
+<author datatype='string'>Williams MD</author>
+<author datatype='string'>Fuchs JA</author>
+<author datatype='string'>Flickinger MC</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8022275' orgid='ECOLI' frameid='PUB-8022275' detail='full'><source datatype='string'>Mol Microbiol 11(6);1029-43</source>
+<pubmed-id datatype='string'>8022275</pubmed-id>
+<title datatype='string'>Starvation-induced expression of SspA and SspB: the effects of a null mutation in sspA on Escherichia coli protein synthesis and survival during growth and prolonged starvation.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Williams MD</author>
+<author datatype='string'>Ouyang TX</author>
+<author datatype='string'>Flickinger MC</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-15126466' orgid='ECOLI' frameid='PUB-15126466' detail='full'><source datatype='string'>J Bacteriol 186(10);3046-55</source>
+<pubmed-id datatype='string'>15126466</pubmed-id>
+<title datatype='string'>Temperature sensitivity caused by mutant release factor 1 is suppressed by mutations that affect 16S rRNA maturation.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Kaczanowska M</author>
+<author datatype='string'>Ryden-Aulin M</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15126466' orgid='ECOLI' frameid='PUB-15126466'/></evidence>
+<component><Terminator ID='ECOLI:TERM0-1079' orgid='ECOLI' frameid='TERM0-1079' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3376277</right-end-position>
+<left-end-position datatype='integer'>3376249</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-1721886' orgid='ECOLI' frameid='PUB-1721886'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU00361' orgid='ECOLI' frameid='TU00361'/></component-of>
+</Terminator>
+</component>
+<component><Promoter ID='ECOLI:PM00641' orgid='ECOLI' frameid='PM00641' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>sspAp</common-name>
+<synonym datatype='string'>Pssp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3377569</absolute-plus-1-pos>
+<comment datatype='string'>The promoter P&lt;i&gt;ssp&lt;/i&gt; is similar to gearbox promoters. These promoters contain the gearbox element CGGCNAGTA. The sequence homology of P&lt;i&gt;ssp&lt;/i&gt; with gearbox promoters and the growth rate dependence of &lt;i&gt;sspA&lt;/i&gt; expression suggest that P&lt;i&gt;ssp&lt;/i&gt; is a  gearbox  promoter [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/8022275&quot;&gt;Williams94&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-3029697' orgid='ECOLI' frameid='PUB-3029697' detail='full'><source datatype='string'>Nucleic Acids Res 15(3);1153-63</source>
+<pubmed-id datatype='string'>3029697</pubmed-id>
+<title datatype='string'>Structure of the gene for the stringent starvation protein of Escherichia coli.</title>
+<year datatype='integer'>1987</year>
+<author datatype='string'>Serizawa H</author>
+<author datatype='string'>Fukuda R</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-8022275' orgid='ECOLI' frameid='PUB-8022275'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU00361' orgid='ECOLI' frameid='TU00361'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10978' orgid='ECOLI' frameid='EG10978'/></component>
+<component><Gene resource='getxml?ECOLI:EG10977' orgid='ECOLI' frameid='EG10977'/></component>
+</Transcription-Unit>
+</ptools-xml>

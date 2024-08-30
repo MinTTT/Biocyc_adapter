@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-12966'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-12966</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-12966' orgid='ECOLI' frameid='TU0-12966' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>sfmA</common-name>
+<comment datatype='string'>Putative promoter islands, which are regions of DNA containing multiple transcription start sites, were found by computational prediction methods in the intergenic region of the &lt;i&gt;folD&lt;/i&gt; and &lt;i&gt;sfmA&lt;/i&gt; genes in &lt;i&gt;E. coli&lt;/i&gt;. These promoter islands are associated with genes acquired horizontally, and they are absent in the same region in &lt;i&gt;Salmonella&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23717391&quot;&gt;Panyukov13&lt;/a&gt;]. In addition, some sites that bind HNS have been predicted in this intergenic region. This protein appears to inactivate the promoter islands [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23717391&quot;&gt;Panyukov13&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><Gene resource='getxml?ECOLI:G6290' orgid='ECOLI' frameid='G6290'/></component>
+</Transcription-Unit>
+</ptools-xml>

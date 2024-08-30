@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-14627'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-14627</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-14627' orgid='ECOLI' frameid='TU0-14627' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>trg</common-name>
+<comment datatype='string'>The &lt;i&gt;trg&lt;/i&gt;p1 and &lt;i&gt;aer&lt;/i&gt;p promoters are the only &lt;i&gt;Escherichia coli&lt;/i&gt; &amp;sigma;&lt;sup&gt;28&lt;/sup&gt; promoters that are activated by CRP [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/19843224&quot;&gt;Hollands10&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' detail='full' class='true'><common-name datatype='string'>Inferred by curator</common-name>
+<comment datatype='string'>Inferred by curator.  An assertion was inferred by a curator from relevant
+information such as other assertions in a database.
+</comment>
+</Evidence-Code>
+</evidence>
+<component><Promoter ID='ECOLI:PM0-10039' orgid='ECOLI' frameid='PM0-10039' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>1492423</minus-10-left>
+<common-name datatype='string'>trgp</common-name>
+<minus-35-right datatype='integer'>1492411</minus-35-right>
+<minus-35-left datatype='integer'>1492404</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:EG11355-MONOMER' orgid='ECOLI' frameid='EG11355-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1492439</absolute-plus-1-pos>
+<comment datatype='string'>The &lt;i&gt;trg&lt;/i&gt; promoter is the only &lt;i&gt;Escherichia coli&lt;/i&gt; &amp;sigma;&lt;sup&gt;28&lt;/sup&gt; promoter that is activated by CRP [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/19843224&quot;&gt;Hollands10&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-19838305' orgid='ECOLI' frameid='PUB-19838305' detail='full'><source datatype='string'>PLoS One 4(10);e7526</source>
+<pubmed-id datatype='string'>19838305</pubmed-id>
+<title datatype='string'>Genome-wide identification of transcription start sites, promoters and transcription factor binding sites in E. coli.</title>
+<year datatype='integer'>2009</year>
+<author datatype='string'>Mendoza-Vargas A</author>
+<author datatype='string'>Olvera L</author>
+<author datatype='string'>Olvera M</author>
+<author datatype='string'>Grande R</author>
+<author datatype='string'>Vega-Alvarado L</author>
+<author datatype='string'>Taboada B</author>
+<author datatype='string'>Jimenez-Jacinto V</author>
+<author datatype='string'>Salgado H</author>
+<author datatype='string'>Juarez K</author>
+<author datatype='string'>Contreras-Moreira B</author>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+<author datatype='string'>Morett E</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-3306678' orgid='ECOLI' frameid='PUB-3306678' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 84(18);6422-4</source>
+<pubmed-id datatype='string'>3306678</pubmed-id>
+<title datatype='string'>DNA sequence analysis suggests that expression of flagellar and chemotaxis genes in Escherichia coli and Salmonella typhimurium is controlled by an alternative sigma factor.</title>
+<year datatype='integer'>1987</year>
+<author datatype='string'>Helmann JD</author>
+<author datatype='string'>Chamberlin MJ</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' orgid='ECOLI' frameid='EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>High-throughput transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified using a high-throughput experimental modified RACE approach.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-19838305' orgid='ECOLI' frameid='PUB-19838305'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3306678' orgid='ECOLI' frameid='PUB-3306678'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-10566' orgid='ECOLI' frameid='REG0-10566' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10039' orgid='ECOLI' frameid='PM0-10039'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10565' orgid='ECOLI' frameid='REG0-10565' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10039' orgid='ECOLI' frameid='PM0-10039'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10564' orgid='ECOLI' frameid='REG0-10564' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10039' orgid='ECOLI' frameid='PM0-10039'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>1492430</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-14627' orgid='ECOLI' frameid='TU0-14627'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11018' orgid='ECOLI' frameid='EG11018'/></component>
+</Transcription-Unit>
+</ptools-xml>

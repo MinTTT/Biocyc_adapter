@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-4444'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-4444</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-4444' orgid='ECOLI' frameid='TU0-4444' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>seqA-pgm</common-name>
+<citation><Publication ID='ECOLI:PUB-8011018' orgid='ECOLI' frameid='PUB-8011018' detail='full'><source datatype='string'>Cell 77(3);413-26</source>
+<pubmed-id datatype='string'>8011018</pubmed-id>
+<title datatype='string'>SeqA: a negative modulator of replication initiation in E. coli.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Lu M</author>
+<author datatype='string'>Campbell JL</author>
+<author datatype='string'>Boye E</author>
+<author datatype='string'>Kleckner N</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8083177' orgid='ECOLI' frameid='PUB-8083177' detail='full'><source datatype='string'>J Bacteriol 176(18);5847-51</source>
+<pubmed-id datatype='string'>8083177</pubmed-id>
+<title datatype='string'>Molecular cloning and characterization of the pgm gene encoding phosphoglucomutase of Escherichia coli.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Lu M</author>
+<author datatype='string'>Kleckner N</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8083177' orgid='ECOLI' frameid='PUB-8083177'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8083177' orgid='ECOLI' frameid='PUB-8083177'/></evidence>
+<component><Terminator ID='ECOLI:TERM0681' orgid='ECOLI' frameid='TERM0681' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>715242</right-end-position>
+<left-end-position datatype='integer'>715211</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-8083177' orgid='ECOLI' frameid='PUB-8083177'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4444' orgid='ECOLI' frameid='TU0-4444'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG12144' orgid='ECOLI' frameid='EG12144'/></component>
+<component><Gene resource='getxml?ECOLI:EG12197' orgid='ECOLI' frameid='EG12197'/></component>
+<component><Promoter ID='ECOLI:PM0-4684' orgid='ECOLI' frameid='PM0-4684' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>seqAp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>712942</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-8011018' orgid='ECOLI' frameid='PUB-8011018'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference of promoter position</common-name>
+<comment datatype='string'>Automated inference of promoter position relative to the -10 and -35 boxes.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8011018' orgid='ECOLI' frameid='PUB-8011018'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-6261' orgid='ECOLI' frameid='REG0-6261' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-2021' orgid='ECOLI' frameid='CPLX0-2021'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-4684' orgid='ECOLI' frameid='PM0-4684'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4444' orgid='ECOLI' frameid='TU0-4444'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

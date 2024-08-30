@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00365'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00365</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00365' orgid='ECOLI' frameid='TU00365' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>thiCEFSGH</common-name>
+<citation><Publication ID='ECOLI:PUB-8432721' orgid='ECOLI' frameid='PUB-8432721' detail='full'><source datatype='string'>J Bacteriol 175(4);982-92</source>
+<pubmed-id datatype='string'>8432721</pubmed-id>
+<title datatype='string'>Structural genes for thiamine biosynthetic enzymes (thiCEFGH) in Escherichia coli K-12.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>Vander Horn PB</author>
+<author datatype='string'>Backstrom AD</author>
+<author datatype='string'>Stewart V</author>
+<author datatype='string'>Begley TP</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-10082377' orgid='ECOLI' frameid='PUB-10082377' detail='full'><source datatype='string'>Protein Sci 7(8);1796-801</source>
+<pubmed-id datatype='string'>10082377</pubmed-id>
+<title datatype='string'>Efficient sequence analysis of the six gene products (7-74 kDa) from the Escherichia coli thiamin biosynthetic operon by tandem high-resolution mass spectrometry.</title>
+<year datatype='integer'>1998</year>
+<author datatype='string'>Kelleher NL</author>
+<author datatype='string'>Taylor SV</author>
+<author datatype='string'>Grannis D</author>
+<author datatype='string'>Kinsland C</author>
+<author datatype='string'>Chiu HJ</author>
+<author datatype='string'>Begley TP</author>
+<author datatype='string'>McLafferty FW</author>
+</Publication>
+</citation>
+<regulated-by><Regulation ID='ECOLI:REG0-10644' orgid='ECOLI' frameid='REG0-10644' detail='low'><parent><Regulation resource='getxml?ECOLI:Compound-Mediated-Translation-Regulation' orgid='ECOLI' frameid='Compound-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><Compound resource='getxml?ECOLI:THIAMINE-PYROPHOSPHATE' orgid='ECOLI' frameid='THIAMINE-PYROPHOSPHATE'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU00365' orgid='ECOLI' frameid='TU00365'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component><Promoter ID='ECOLI:PM0-46460' orgid='ECOLI' frameid='PM0-46460' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>thiCp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4196281</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-28071750' orgid='ECOLI' frameid='PUB-28071750' detail='full'><source datatype='string'>Sci Rep 7;40197</source>
+<pubmed-id datatype='string'>28071750</pubmed-id>
+<title datatype='string'>In-gap corner states in core-shell polygonal quantum rings.</title>
+<year datatype='integer'>2017</year>
+<author datatype='string'>Sitek A</author>
+<author datatype='string'>Tolea M</author>
+<author datatype='string'>Nita M</author>
+<author datatype='string'>Serra L</author>
+<author datatype='string'>Gudmundsson V</author>
+<author datatype='string'>Manolescu A</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-28071750' orgid='ECOLI' frameid='PUB-28071750'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU00365' orgid='ECOLI' frameid='TU00365'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:G1' orgid='ECOLI' frameid='G1'/></component>
+<component><Gene resource='getxml?ECOLI:EG11590' orgid='ECOLI' frameid='EG11590'/></component>
+<component><Gene resource='getxml?ECOLI:EG11589' orgid='ECOLI' frameid='EG11589'/></component>
+<component><Gene resource='getxml?ECOLI:EG11587' orgid='ECOLI' frameid='EG11587'/></component>
+<component><Gene resource='getxml?ECOLI:EG11586' orgid='ECOLI' frameid='EG11586'/></component>
+<component><Gene resource='getxml?ECOLI:EG11585' orgid='ECOLI' frameid='EG11585'/></component>
+</Transcription-Unit>
+</ptools-xml>

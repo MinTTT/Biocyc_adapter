@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00416'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00416</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00416' orgid='ECOLI' frameid='TU00416' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>gltA</common-name>
+<comment datatype='string'>No readthrough transcription into a distal gene(s) was detected.
+&lt;p&gt;
+The expression of the gene &lt;i&gt;gltA&lt;/i&gt; is decreased under acidic growth conditions in microaerobiosis but not in aerobiosis [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23274360&quot;&gt;Marzan13&lt;/a&gt;].
+&lt;p&gt;
+The &lt;i&gt;gltA&lt;/i&gt; gene is downregulated by long-term (8 to 12 h) exposure of &lt;i&gt;E. coli&lt;/i&gt; to some biocides [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/32385082&quot;&gt;Merchel20&lt;/a&gt;].
+&lt;p&gt;
+It has been observed that the transcriptional regulator IHF binds in the intergenic region of the genes &lt;i&gt;gltA&lt;/i&gt; and &lt;i&gt;sdhC&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/34475859&quot;&gt;Kasho21&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-3309132' orgid='ECOLI' frameid='PUB-3309132' detail='full'><source datatype='string'>J Gen Microbiol 132(12);3239-51</source>
+<pubmed-id datatype='string'>3309132</pubmed-id>
+<title datatype='string'>Transcript analysis of the citrate synthase and succinate dehydrogenase genes of Escherichia coli K12.</title>
+<year datatype='integer'>1986</year>
+<author datatype='string'>Wilde RJ</author>
+<author datatype='string'>Guest JR</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-9720032' orgid='ECOLI' frameid='PUB-9720032' detail='full'><source datatype='string'>Microbiology 144 ( Pt 8);2113-23</source>
+<pubmed-id datatype='string'>9720032</pubmed-id>
+<title datatype='string'>Transcription and transcript processing in the sdhCDAB-sucABCD operon of Escherichia coli.</title>
+<year datatype='integer'>1998</year>
+<author datatype='string'>Cunningham L</author>
+<author datatype='string'>Guest JR</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3309132' orgid='ECOLI' frameid='PUB-3309132'/></evidence>
+<component><Terminator ID='ECOLI:TERM0-1220' orgid='ECOLI' frameid='TERM0-1220' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>753163</right-end-position>
+<left-end-position datatype='integer'>753126</left-end-position>
+<citation><Publication ID='ECOLI:PUB-6380576' orgid='ECOLI' frameid='PUB-6380576' detail='full'><source datatype='string'>Biochemistry 23(13);2900-5</source>
+<pubmed-id datatype='string'>6380576</pubmed-id>
+<title datatype='string'>Amino acid sequence of Escherichia coli citrate synthase.</title>
+<year datatype='integer'>1984</year>
+<author datatype='string'>Bhayana V</author>
+<author datatype='string'>Duckworth HW</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU00106' orgid='ECOLI' frameid='TU00106'/><Transcription-Unit resource='#ECOLI:TU00416' orgid='ECOLI' frameid='TU00416'/></component-of>
+</Terminator>
+</component>
+<component><Promoter ID='ECOLI:PM00349' orgid='ECOLI' frameid='PM00349' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>gltAp2</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>754670</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-6383359' orgid='ECOLI' frameid='PUB-6383359' detail='full'><source datatype='string'>Biochem J 222(2);519-34</source>
+<pubmed-id datatype='string'>6383359</pubmed-id>
+<title datatype='string'>Nucleotide sequence encoding the flavoprotein and hydrophobic subunits of the succinate dehydrogenase of Escherichia coli.</title>
+<year datatype='integer'>1984</year>
+<author datatype='string'>Wood D</author>
+<author datatype='string'>Darlison MG</author>
+<author datatype='string'>Wilde RJ</author>
+<author datatype='string'>Guest JR</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8892825' orgid='ECOLI' frameid='PUB-8892825' detail='full'><source datatype='string'>J Bacteriol 178(21);6238-49</source>
+<pubmed-id datatype='string'>8892825</pubmed-id>
+<title datatype='string'>Transcriptional control mediated by the ArcA two-component response regulator protein of Escherichia coli: characterization of DNA binding at target promoters.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Lynch AS</author>
+<author datatype='string'>Lin EC</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8892825' orgid='ECOLI' frameid='PUB-8892825'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6383359' orgid='ECOLI' frameid='PUB-6383359'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU00416' orgid='ECOLI' frameid='TU00416'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10402' orgid='ECOLI' frameid='EG10402'/></component>
+</Transcription-Unit>
+</ptools-xml>

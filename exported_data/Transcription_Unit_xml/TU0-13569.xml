@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-13569'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-13569</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-13569' orgid='ECOLI' frameid='TU0-13569' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>arnBCADTEF</common-name>
+<comment datatype='string'>&lt;i&gt;arnBCAD&lt;/i&gt; transcript levels are increased under growth conditions with low Mg&lt;sup&gt;2+&lt;/sup&gt; concentrations [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/25605366&quot;&gt;Rubin15&lt;/a&gt;].
+&lt;p&gt;
+&lt;i&gt;arnA&lt;/i&gt; gene expression is downregulated upon L-valine addition (isoleucine starvation) in the cellular growth medium [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/32211022&quot;&gt;Gummesson20&lt;/a&gt;]; this effect was observed during the first 5 minutes of the amino acid addition, but then &lt;i&gt;arnA&lt;/i&gt; expression returned to steady-state levels [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/32211022&quot;&gt;Gummesson20&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11577' orgid='ECOLI' frameid='REG0-11577' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-BASR' orgid='ECOLI' frameid='PHOSPHO-BASR'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-13569' orgid='ECOLI' frameid='TU0-13569'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component><Gene resource='getxml?ECOLI:G7171' orgid='ECOLI' frameid='G7171'/></component>
+<component><Gene resource='getxml?ECOLI:G0-10460' orgid='ECOLI' frameid='G0-10460'/></component>
+<component><Gene resource='getxml?ECOLI:G7170' orgid='ECOLI' frameid='G7170'/></component>
+<component><Gene resource='getxml?ECOLI:G7169' orgid='ECOLI' frameid='G7169'/></component>
+<component><Gene resource='getxml?ECOLI:G7168' orgid='ECOLI' frameid='G7168'/></component>
+<component><Gene resource='getxml?ECOLI:G7167' orgid='ECOLI' frameid='G7167'/></component>
+<component><Gene resource='getxml?ECOLI:G7166' orgid='ECOLI' frameid='G7166'/></component>
+</Transcription-Unit>
+</ptools-xml>

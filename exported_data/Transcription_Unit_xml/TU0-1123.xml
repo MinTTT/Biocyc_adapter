@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-1123'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-1123</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-1123' orgid='ECOLI' frameid='TU0-1123' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>moaABCDE</common-name>
+<citation><Publication ID='ECOLI:PUB-9044285' orgid='ECOLI' frameid='PUB-9044285' detail='full'><source datatype='string'>Mol Microbiol 23(3);515-24</source>
+<pubmed-id datatype='string'>9044285</pubmed-id>
+<title datatype='string'>Characterization of the ModE DNA-binding sites in the control regions of modABCD and moaABCDE of Escherichia coli.</title>
+<year datatype='integer'>1997</year>
+<author datatype='string'>McNicholas PM</author>
+<author datatype='string'>Rech SA</author>
+<author datatype='string'>Gunsalus RP</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8361352' orgid='ECOLI' frameid='PUB-8361352' detail='full'><source datatype='string'>Mol Microbiol 8(6);1071-81</source>
+<pubmed-id datatype='string'>8361352</pubmed-id>
+<title datatype='string'>Molecular genetic analysis of the moa operon of Escherichia coli K-12 required for molybdenum cofactor biosynthesis.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>Rivers SL</author>
+<author datatype='string'>McNairn E</author>
+<author datatype='string'>Blasco F</author>
+<author datatype='string'>Giordano G</author>
+<author datatype='string'>Boxer DH</author>
+</Publication>
+</citation>
+<regulated-by><Regulation ID='ECOLI:REG0-12487' orgid='ECOLI' frameid='REG0-12487' detail='low'><parent><Regulation resource='getxml?ECOLI:Protein-Mediated-Translation-Regulation' orgid='ECOLI' frameid='Protein-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG11447-MONOMER' orgid='ECOLI' frameid='EG11447-MONOMER'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-1123' orgid='ECOLI' frameid='TU0-1123'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-12486' orgid='ECOLI' frameid='REG0-12486' detail='low'><parent><Regulation resource='getxml?ECOLI:Protein-Mediated-Translation-Regulation' orgid='ECOLI' frameid='Protein-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG11447-MONOMER' orgid='ECOLI' frameid='EG11447-MONOMER'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-1123' orgid='ECOLI' frameid='TU0-1123'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-9483' orgid='ECOLI' frameid='REG0-9483' detail='low'><parent><Regulation resource='getxml?ECOLI:Compound-Mediated-Translation-Regulation' orgid='ECOLI' frameid='Compound-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><Compound resource='getxml?ECOLI:CPD-4' orgid='ECOLI' frameid='CPD-4'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-1123' orgid='ECOLI' frameid='TU0-1123'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component><DNA-Binding-Site ID='ECOLI:BS0-7136' orgid='ECOLI' frameid='BS0-7136' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6498' orgid='ECOLI' frameid='REG0-6498' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-6' orgid='ECOLI' frameid='CPLX0-6'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-1284' orgid='ECOLI' frameid='PM0-1284' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>moaAp2</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>816914</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-11092866' orgid='ECOLI' frameid='PUB-11092866' detail='full'><source datatype='string'>J Bacteriol 182(24);7035-43</source>
+<pubmed-id datatype='string'>11092866</pubmed-id>
+<title datatype='string'>ModE-dependent molybdate regulation of the molybdenum cofactor operon moa in Escherichia coli.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Anderson LA</author>
+<author datatype='string'>McNairn E</author>
+<author datatype='string'>Lubke T</author>
+<author datatype='string'>Pau RN</author>
+<author datatype='string'>Boxer DH</author>
+<author datatype='string'>Leubke T</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11092866' orgid='ECOLI' frameid='PUB-11092866'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-6498' orgid='ECOLI' frameid='REG0-6498'/></regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-1123' orgid='ECOLI' frameid='TU0-1123'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-9044285' orgid='ECOLI' frameid='PUB-9044285'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9044285' orgid='ECOLI' frameid='PUB-9044285'/></evidence>
+<abs-center-pos datatype='float'>816856.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-1123' orgid='ECOLI' frameid='TU0-1123'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11598' orgid='ECOLI' frameid='EG11598'/></component>
+<component><Gene resource='getxml?ECOLI:EG11597' orgid='ECOLI' frameid='EG11597'/></component>
+<component><Gene resource='getxml?ECOLI:EG11666' orgid='ECOLI' frameid='EG11666'/></component>
+<component><Gene resource='getxml?ECOLI:EG11596' orgid='ECOLI' frameid='EG11596'/></component>
+<component><Gene resource='getxml?ECOLI:EG11595' orgid='ECOLI' frameid='EG11595'/></component>
+<component><Promoter resource='#ECOLI:PM0-1284' orgid='ECOLI' frameid='PM0-1284'/></component>
+</Transcription-Unit>
+</ptools-xml>

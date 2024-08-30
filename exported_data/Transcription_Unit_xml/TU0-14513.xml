@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-14513'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-14513</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-14513' orgid='ECOLI' frameid='TU0-14513' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>cadA</common-name>
+<comment datatype='string'>During acid stress, RavA antagonizes the inhibitory effect of ppGpp on CadA activity [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/21148420&quot;&gt;El10&lt;/a&gt;].
+The mRNA produced by the  &lt;i&gt;cadA&lt;/i&gt; gene has been observed mainly in the poles of the cell [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31540875&quot;&gt;Kannaiah19&lt;/a&gt;].
+&lt;p&gt;
+Fluoroquinolones and -lactams increased &lt;i&gt;cadA&lt;/i&gt; expression, while an aminoglycoside (amikacin) decreased such expression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/34543694&quot;&gt;Akhova&lt;/a&gt;].</comment>
+<regulated-by><Regulation ID='ECOLI:REG0-12651' orgid='ECOLI' frameid='REG0-12651' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Compound resource='getxml?ECOLI:GUANOSINE-5DP-3DP' orgid='ECOLI' frameid='GUANOSINE-5DP-3DP'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-14513' orgid='ECOLI' frameid='TU0-14513'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component><Gene resource='getxml?ECOLI:EG10131' orgid='ECOLI' frameid='EG10131'/></component>
+<component><Promoter ID='ECOLI:PM0-9793' orgid='ECOLI' frameid='PM0-9793' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>cadAp</common-name>
+<citation><Publication ID='ECOLI:PUB-16862137' orgid='ECOLI' frameid='PUB-16862137' detail='full'><source datatype='string'>Nat Methods 3(8);623-8</source>
+<pubmed-id datatype='string'>16862137</pubmed-id>
+<title datatype='string'>A comprehensive library of fluorescent transcriptional reporters for Escherichia coli.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Zaslaver A</author>
+<author datatype='string'>Bren A</author>
+<author datatype='string'>Ronen M</author>
+<author datatype='string'>Itzkovitz S</author>
+<author datatype='string'>Kikoin I</author>
+<author datatype='string'>Shavit S</author>
+<author datatype='string'>Liebermeister W</author>
+<author datatype='string'>Surette MG</author>
+<author datatype='string'>Alon U</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16862137' orgid='ECOLI' frameid='PUB-16862137'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-14513' orgid='ECOLI' frameid='TU0-14513'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

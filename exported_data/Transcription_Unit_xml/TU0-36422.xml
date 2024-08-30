@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-36422'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-36422</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-36422' orgid='ECOLI' frameid='TU0-36422' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>uxaB</common-name>
+<citation><Publication ID='ECOLI:PUB-6296052' orgid='ECOLI' frameid='PUB-6296052' detail='full'><source datatype='string'>J Bacteriol 153(2);747-55</source>
+<pubmed-id datatype='string'>6296052</pubmed-id>
+<title datatype='string'>Construction of hybrid plasmids containing the Escherichia coli uxaB gene: analysis of its regulation and direction of transcription.</title>
+<year datatype='integer'>1983</year>
+<author datatype='string'>Blanco C</author>
+<author datatype='string'>Mata-Gilsinger M</author>
+<author datatype='string'>Ritzenthaler P</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6296052' orgid='ECOLI' frameid='PUB-6296052'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from mutant phenotype</common-name>
+<comment datatype='string'>IMP inferred from mutant phenotype.
+
+&lt;br&gt;
+The assertion was inferred from a mutant phenotype such as
+&lt;ul&gt;
+    &lt;li&gt; Any gene mutation/knockout
+    &lt;li&gt; Overexpression/ectopic expression of wild-type or mutant genes
+    &lt;li&gt; Anti-sense experiments
+    &lt;li&gt; RNA interference experiments
+    &lt;li&gt; Specific protein inhibitors
+    &lt;li&gt; Complementation
+&lt;/ul&gt;&lt;p class=ecocomment&gt;	
+Comment: Inferences made from examining mutations or
+abnormal levels of only the product(s) of the gene of interest are covered by code EV-IMP
+(compare to code EV-IGI). Use this code for experiments that use antibodies 
+or other specific inhibitors of RNA or protein activity, even though no
+gene may be mutated (the rationale is that EV-IMP is used where an
+abnormal situation prevails in a cell or organism).
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6296052' orgid='ECOLI' frameid='PUB-6296052'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG11065' orgid='ECOLI' frameid='EG11065'/></component>
+<component><Promoter ID='ECOLI:PM0-36188' orgid='ECOLI' frameid='PM0-36188' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>1610730</minus-10-left>
+<common-name datatype='string'>uxaBp</common-name>
+<minus-35-right datatype='integer'>1610756</minus-35-right>
+<minus-35-left datatype='integer'>1610751</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1610720</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-3525742' orgid='ECOLI' frameid='PUB-3525742' detail='full'><source datatype='string'>J Gen Microbiol 132(3);697-705</source>
+<pubmed-id datatype='string'>3525742</pubmed-id>
+<title datatype='string'>A DNA sequence containing the control sites for the uxaB gene of Escherichia coli.</title>
+<year datatype='integer'>1986</year>
+<author datatype='string'>Blanco C</author>
+<author datatype='string'>Mata-Gilsinger M</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3525742' orgid='ECOLI' frameid='PUB-3525742'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-16437' orgid='ECOLI' frameid='REG0-16437' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7639' orgid='ECOLI' frameid='CPLX0-7639'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-36188' orgid='ECOLI' frameid='PM0-36188'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-16436' orgid='ECOLI' frameid='REG0-16436' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00260' orgid='ECOLI' frameid='PD00260'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-36188' orgid='ECOLI' frameid='PM0-36188'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10903' orgid='ECOLI' frameid='REG0-10903' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-36188' orgid='ECOLI' frameid='PM0-36188'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10902' orgid='ECOLI' frameid='REG0-10902' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD03270' orgid='ECOLI' frameid='PD03270'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-36188' orgid='ECOLI' frameid='PM0-36188'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>1610735</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-36422' orgid='ECOLI' frameid='TU0-36422'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

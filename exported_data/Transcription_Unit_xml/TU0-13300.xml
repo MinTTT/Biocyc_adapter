@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-13300'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-13300</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-13300' orgid='ECOLI' frameid='TU0-13300' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>tam</common-name>
+<citation><Publication ID='ECOLI:PUB-16862137' orgid='ECOLI' frameid='PUB-16862137' detail='full'><source datatype='string'>Nat Methods 3(8);623-8</source>
+<pubmed-id datatype='string'>16862137</pubmed-id>
+<title datatype='string'>A comprehensive library of fluorescent transcriptional reporters for Escherichia coli.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Zaslaver A</author>
+<author datatype='string'>Bren A</author>
+<author datatype='string'>Ronen M</author>
+<author datatype='string'>Itzkovitz S</author>
+<author datatype='string'>Kikoin I</author>
+<author datatype='string'>Shavit S</author>
+<author datatype='string'>Liebermeister W</author>
+<author datatype='string'>Surette MG</author>
+<author datatype='string'>Alon U</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-21398637' orgid='ECOLI' frameid='PUB-21398637' detail='full'><source datatype='string'>Nucleic Acids Res 39(13);5338-55</source>
+<pubmed-id datatype='string'>21398637</pubmed-id>
+<title datatype='string'>In vitro transcription profiling of the &amp;sigma;S subunit of bacterial RNA polymerase: re-definition of the &amp;sigma;S regulon and identification of &amp;sigma;S-specific promoter sequence elements.</title>
+<year datatype='integer'>2011</year>
+<author datatype='string'>Maciag A</author>
+<author datatype='string'>Peano C</author>
+<author datatype='string'>Pietrelli A</author>
+<author datatype='string'>Egli T</author>
+<author datatype='string'>De Bellis G</author>
+<author datatype='string'>Landini P</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16862137' orgid='ECOLI' frameid='PUB-16862137'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-21398637' orgid='ECOLI' frameid='PUB-21398637'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-13080' orgid='ECOLI' frameid='REG0-13080' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Compound resource='getxml?ECOLI:GUANOSINE-5DP-3DP' orgid='ECOLI' frameid='GUANOSINE-5DP-3DP'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-13300' orgid='ECOLI' frameid='TU0-13300'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component><Promoter ID='ECOLI:PM0-9760' orgid='ECOLI' frameid='PM0-9760' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>1607208</minus-10-left>
+<common-name datatype='string'>tamp</common-name>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1607221</absolute-plus-1-pos>
+<comment datatype='string'>Zaslaver et al. demonstrated in 2006, by means of a library of fluorescent transcription fusions, that this promoter can be transcribed &lt;i&gt;in vitro&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16862137&quot;&gt;Zaslaver06&lt;/a&gt;]. Based on this, a putative promoter was suggested, but the +1 site of the transcription initiation has not been determined, although there exists promoter activity.</comment>
+<citation><Publication resource='#ECOLI:PUB-16862137' orgid='ECOLI' frameid='PUB-16862137'/></citation>
+<citation><Publication resource='#ECOLI:PUB-21398637' orgid='ECOLI' frameid='PUB-21398637'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/><Publication resource='#ECOLI:PUB-16862137' orgid='ECOLI' frameid='PUB-16862137'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' orgid='ECOLI' frameid='EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>High-throughput transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified using a high-throughput experimental modified RACE approach.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-21398637' orgid='ECOLI' frameid='PUB-21398637'/></evidence>
+<minus-10-right datatype='integer'>1607214</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-13300' orgid='ECOLI' frameid='TU0-13300'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:G6806' orgid='ECOLI' frameid='G6806'/></component>
+</Transcription-Unit>
+</ptools-xml>

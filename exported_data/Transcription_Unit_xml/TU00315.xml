@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00315'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00315</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00315' orgid='ECOLI' frameid='TU00315' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>pcnB-folK</common-name>
+<citation><Publication ID='ECOLI:PUB-2537812' orgid='ECOLI' frameid='PUB-2537812' detail='full'><source datatype='string'>J Bacteriol 171(3);1254-61</source>
+<pubmed-id datatype='string'>2537812</pubmed-id>
+<title datatype='string'>Genetics and sequence analysis of the pcnB locus, an Escherichia coli gene involved in plasmid copy number control.</title>
+<year datatype='integer'>1989</year>
+<author datatype='string'>Liu JD</author>
+<author datatype='string'>Parkinson JS</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-1325970' orgid='ECOLI' frameid='PUB-1325970' detail='full'><source datatype='string'>J Bacteriol 174(18);5971-7</source>
+<pubmed-id datatype='string'>1325970</pubmed-id>
+<title datatype='string'>Cloning, sequence analysis, and overexpression of Escherichia coli folK, the gene coding for 7,8-dihydro-6-hydroxymethylpterin-pyrophosphokinase.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Talarico TL</author>
+<author datatype='string'>Ray PH</author>
+<author datatype='string'>Dev IK</author>
+<author datatype='string'>Merrill BM</author>
+<author datatype='string'>Dallas WS</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-7737510' orgid='ECOLI' frameid='PUB-7737510' detail='full'><source datatype='string'>Gene 156(1);151-2</source>
+<pubmed-id datatype='string'>7737510</pubmed-id>
+<title datatype='string'>A new vector-host system for construction of lacZ transcriptional fusions where only low-level gene expression is desirable.</title>
+<year datatype='integer'>1995</year>
+<author datatype='string'>Podkovyrov SM</author>
+<author datatype='string'>Larson TJ</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8876178' orgid='ECOLI' frameid='PUB-8876178' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 93(21);11580-5</source>
+<pubmed-id datatype='string'>8876178</pubmed-id>
+<title datatype='string'>Identification of the coding region for a second poly(A) polymerase in Escherichia coli.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Cao GJ</author>
+<author datatype='string'>Pogliano J</author>
+<author datatype='string'>Sarkar N</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1325970' orgid='ECOLI' frameid='PUB-1325970'/></evidence>
+<component><Promoter ID='ECOLI:PM0-2523' orgid='ECOLI' frameid='PM0-2523' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>159178</minus-10-left>
+<common-name datatype='string'>pcnBp3</common-name>
+<minus-35-right datatype='integer'>159206</minus-35-right>
+<minus-35-left datatype='integer'>159201</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>pcnB</synonym>
+<synonym datatype='string'>pB</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>159171</absolute-plus-1-pos>
+<comment datatype='string'>&lt;i&gt;pcnB&lt;/i&gt;p3 (pB) activity is drastically impaired at the stationary phase of growth, and it is the major promoter of the &lt;i&gt;pcnB-folK&lt;/i&gt; operon under various growth conditions [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/20700605&quot;&gt;NadratowskaWeso10&lt;/a&gt;]. 
+&lt;p&gt;
+&lt;i&gt;pcnB&lt;/i&gt;p3 (pB) can also be weakly recognized by E&amp;sigma;&lt;sup&gt;S&lt;/sup&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/20700605&quot;&gt;NadratowskaWeso10&lt;/a&gt;].
+</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-12068810' orgid='ECOLI' frameid='PUB-12068810' detail='full'><source datatype='string'>Mol Microbiol 44(5);1287-98</source>
+<pubmed-id datatype='string'>12068810</pubmed-id>
+<title datatype='string'>Expression of the Escherichia coli pcnB gene is translationally limited using an inefficient start codon: a second chromosomal example of translation initiated at AUU.</title>
+<year datatype='integer'>2002</year>
+<author datatype='string'>Binns N</author>
+<author datatype='string'>Masters M</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-16330100' orgid='ECOLI' frameid='PUB-16330100' detail='full'><source datatype='string'>Plasmid 55(2):169-72</source>
+<pubmed-id datatype='string'>16330100</pubmed-id>
+<title datatype='string'>Transcription start sites in the promoter region of the Escherichia coli pcnB (plasmid copy number) gene coding for poly(A) polymerase I.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Jasiecki J</author>
+<author datatype='string'>Wegrzyn G</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-20700605' orgid='ECOLI' frameid='PUB-20700605' detail='full'><source datatype='string'>Mol Genet Genomics 284(4);289-305</source>
+<pubmed-id datatype='string'>20700605</pubmed-id>
+<title datatype='string'>Transcription regulation of the Escherichia coli pcnB gene coding for poly(A) polymerase I: roles of ppGpp, DksA and sigma factors.</title>
+<year datatype='integer'>2010</year>
+<author datatype='string'>Nadratowska-Wesolowska B</author>
+<author datatype='string'>Slominska-Wojewodzka M</author>
+<author datatype='string'>Lyzen R</author>
+<author datatype='string'>Wegrzyn A</author>
+<author datatype='string'>Szalewska-Palasz A</author>
+<author datatype='string'>Wegrzyn G</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12068810' orgid='ECOLI' frameid='PUB-12068810'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12068810' orgid='ECOLI' frameid='PUB-12068810'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-16330100' orgid='ECOLI' frameid='PUB-16330100'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-20700605' orgid='ECOLI' frameid='PUB-20700605'/></evidence>
+<minus-10-right datatype='integer'>159183</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00315' orgid='ECOLI' frameid='TU00315'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11374' orgid='ECOLI' frameid='EG11374'/></component>
+<component><Gene resource='getxml?ECOLI:EG10690' orgid='ECOLI' frameid='EG10690'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-6'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-6</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-6' orgid='ECOLI' frameid='TU0-6' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>cysG</common-name>
+<citation><Publication ID='ECOLI:PUB-2200673' orgid='ECOLI' frameid='PUB-2200673' detail='full'><source datatype='string'>Eur J Biochem 191(2);325-31</source>
+<pubmed-id datatype='string'>2200673</pubmed-id>
+<title datatype='string'>Transcriptional control of the cysG gene of Escherichia coli K-12 during aerobic and anaerobic growth.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>Peakman T</author>
+<author datatype='string'>Busby S</author>
+<author datatype='string'>Cole J</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2200673' orgid='ECOLI' frameid='PUB-2200673'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG10188' orgid='ECOLI' frameid='EG10188'/></component>
+<component><Promoter ID='ECOLI:PM0-7' orgid='ECOLI' frameid='PM0-7' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>cysGp2</common-name>
+<synonym datatype='string'>S2</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3497793</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-2200673' orgid='ECOLI' frameid='PUB-2200673'/></citation>
+<citation><Publication ID='ECOLI:PUB-7506529' orgid='ECOLI' frameid='PUB-7506529' detail='full'><source datatype='string'>Biochem J 296 ( Pt 3);851-7</source>
+<pubmed-id datatype='string'>7506529</pubmed-id>
+<title datatype='string'>The Escherichia coli cysG promoter belongs to the 'extended -10' class of bacterial promoters.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>Belyaeva T</author>
+<author datatype='string'>Griffiths L</author>
+<author datatype='string'>Minchin S</author>
+<author datatype='string'>Cole J</author>
+<author datatype='string'>Busby S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2200673' orgid='ECOLI' frameid='PUB-2200673'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-7506529' orgid='ECOLI' frameid='PUB-7506529'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-6' orgid='ECOLI' frameid='TU0-6'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

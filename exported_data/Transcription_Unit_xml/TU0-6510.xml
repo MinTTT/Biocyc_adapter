@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-6510'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-6510</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-6510' orgid='ECOLI' frameid='TU0-6510' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ppc</common-name>
+<comment datatype='string'>The expression of the gene &lt;i&gt;ppc&lt;/i&gt; is increased under acidic growth conditions in microaerobiosis [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23274360&quot;&gt;Marzan13&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><Gene resource='getxml?ECOLI:EG10756' orgid='ECOLI' frameid='EG10756'/></component>
+<component><Promoter ID='ECOLI:PM00491' orgid='ECOLI' frameid='PM00491' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ppcp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4153190</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-3889833' orgid='ECOLI' frameid='PUB-3889833' detail='full'><source datatype='string'>Nucleic Acids Res 13(1);59-71</source>
+<pubmed-id datatype='string'>3889833</pubmed-id>
+<title datatype='string'>Promoter analysis of the phosphoenolpyruvate carboxylase gene of Escherichia coli.</title>
+<year datatype='integer'>1985</year>
+<author datatype='string'>Izui K</author>
+<author datatype='string'>Miwa T</author>
+<author datatype='string'>Kajitani M</author>
+<author datatype='string'>Fujita N</author>
+<author datatype='string'>Sabe H</author>
+<author datatype='string'>Ishihama A</author>
+<author datatype='string'>Katsuki H</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3889833' orgid='ECOLI' frameid='PUB-3889833'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-10897' orgid='ECOLI' frameid='REG0-10897' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PC00061' orgid='ECOLI' frameid='PC00061'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00491' orgid='ECOLI' frameid='PM00491'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-6510' orgid='ECOLI' frameid='TU0-6510'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

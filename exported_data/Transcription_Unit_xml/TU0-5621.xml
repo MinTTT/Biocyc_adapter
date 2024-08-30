@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-5621'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-5621</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-5621' orgid='ECOLI' frameid='TU0-5621' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>arcB</common-name>
+<comment datatype='string'>The expression of &lt;i&gt;arcB&lt;/i&gt; is repressed by ArcA, but as the oxygen concentration decrases, its transcription is enhanced [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/15988767&quot;&gt;ShalelLevanon05&lt;/a&gt;].
+&lt;p&gt;
+A potential RNA G-quadruplex structure, formed by guanine-rich sequences located in the coding sequence region of the gene, was identified  for &lt;i&gt;arcB&lt;/i&gt; . This structure  could regulate the expression of the gene, as observed for &lt;i&gt;hemL&lt;/i&gt; gene expression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31964733&quot;&gt;Shao20&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-12581159' orgid='ECOLI' frameid='PUB-12581159' detail='full'><source datatype='string'>Genes Cells 8(2);179-87</source>
+<pubmed-id datatype='string'>12581159</pubmed-id>
+<title datatype='string'>Instability of sensory histidine kinase mRNAs in Escherichia coli.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Aiso T</author>
+<author datatype='string'>Ohki R</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12581159' orgid='ECOLI' frameid='PUB-12581159'/></evidence>
+<component><Promoter ID='ECOLI:PM0-10133' orgid='ECOLI' frameid='PM0-10133' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>arcBp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3353049</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' orgid='ECOLI' frameid='EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>High-throughput transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified using a high-throughput experimental modified RACE approach.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-19838305' orgid='ECOLI' frameid='PUB-19838305' detail='full'><source datatype='string'>PLoS One 4(10);e7526</source>
+<pubmed-id datatype='string'>19838305</pubmed-id>
+<title datatype='string'>Genome-wide identification of transcription start sites, promoters and transcription factor binding sites in E. coli.</title>
+<year datatype='integer'>2009</year>
+<author datatype='string'>Mendoza-Vargas A</author>
+<author datatype='string'>Olvera L</author>
+<author datatype='string'>Olvera M</author>
+<author datatype='string'>Grande R</author>
+<author datatype='string'>Vega-Alvarado L</author>
+<author datatype='string'>Taboada B</author>
+<author datatype='string'>Jimenez-Jacinto V</author>
+<author datatype='string'>Salgado H</author>
+<author datatype='string'>Juarez K</author>
+<author datatype='string'>Contreras-Moreira B</author>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+<author datatype='string'>Morett E</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-19838305' orgid='ECOLI' frameid='PUB-19838305'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-5621' orgid='ECOLI' frameid='TU0-5621'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10062' orgid='ECOLI' frameid='EG10062'/></component>
+</Transcription-Unit>
+</ptools-xml>

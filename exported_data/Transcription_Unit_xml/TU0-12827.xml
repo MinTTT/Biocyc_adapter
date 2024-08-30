@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-12827'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-12827</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-12827' orgid='ECOLI' frameid='TU0-12827' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>map-glnD-dapD</common-name>
+<comment datatype='string'>Activation of the SoxS and Rob regulators of the &lt;i&gt;map-glnD-dapD&lt;/I&gt; operon was observed after treatment with paraquat and dipyridyl [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12067348&quot;&gt;Martin02&lt;/a&gt;], and activation by MarA was observed after treatment with sodium salicylate [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/11395452&quot;&gt;Pomposiello01&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/18000553&quot;&gt;Blanchard07&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12701' orgid='ECOLI' frameid='REG0-12701' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00406' orgid='ECOLI' frameid='PD00406'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-12827' orgid='ECOLI' frameid='TU0-12827'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-12700' orgid='ECOLI' frameid='REG0-12700' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD04418' orgid='ECOLI' frameid='PD04418'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-12827' orgid='ECOLI' frameid='TU0-12827'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-12699' orgid='ECOLI' frameid='REG0-12699' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00365' orgid='ECOLI' frameid='PD00365'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-12827' orgid='ECOLI' frameid='TU0-12827'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component><Gene resource='getxml?ECOLI:EG10570' orgid='ECOLI' frameid='EG10570'/></component>
+<component><Gene resource='getxml?ECOLI:EG11411' orgid='ECOLI' frameid='EG11411'/></component>
+<component><Gene resource='getxml?ECOLI:EG10207' orgid='ECOLI' frameid='EG10207'/></component>
+</Transcription-Unit>
+</ptools-xml>

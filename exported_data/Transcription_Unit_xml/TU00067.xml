@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00067'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00067</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00067' orgid='ECOLI' frameid='TU00067' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>trpLEDCBA</common-name>
+<synonym datatype='string'>OP00094</synonym>
+<synonym datatype='string'>trp</synonym>
+<comment datatype='string'>The &lt;i&gt;trpLEDCBA&lt;/i&gt; (trp) operon codes for the enzymes of the tryptophan biosynthesis pathway. It is subject to several layers of regulation, including regulation of transcriptional initiation and ribosome-mediated transcriptional attenuation. 
+&lt;p&gt;
+The expression of the &lt;i&gt;trp&lt;/i&gt; operon is repressed 300-fold by TrpR. TrpR binds at the trpLp promoter, possibly directly blocking binding by RNA polymerase [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/3050131&quot;&gt;Klig88&lt;/a&gt;]. The genes within the &lt;i&gt;trp&lt;/i&gt; operon also appear to be targeted for repression during anaerobiosis by the global regulator FNR, although it is still unknown which trp promoter (trpCp or trpLp) is affected and whether the effect is direct or indirect [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12754220&quot;&gt;Salmon03&lt;/a&gt;]. 
+&lt;p&gt;
+WrbA initially appeared to influence the interaction betweenTrpR and the trp operator [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/8516330&quot;&gt;Yang93&lt;/a&gt;]. However, other research indicates that this is a nonspecific effect, with both WrbA and BSA generating an equivalent gel shift result [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/9694845&quot;&gt;Grandori98&lt;/a&gt;]. 
+&lt;p&gt;
+The Trp attenuator regulates transcription through the trp operon in response to the abundance of charged tRNA-Trp in the cell. When charged tRNA-Trp is abundant, mRNA transcription terminates within the leader sequence of the operon. Alternately, when charged tRNA-Trp is not abundant, transcription continues through the length of the operon [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/4578102&quot;&gt;Jackson73&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/4872441&quot;&gt;Imamoto68&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/4586412&quot;&gt;Hiraga73&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/340702&quot;&gt;Bertrand77&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/781269&quot;&gt;Bertrand76&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/781270&quot;&gt;Bertrand76a&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/781271&quot;&gt;Squires76&lt;/a&gt;]. The physical mechanism of transcriptional attenuation involves the close coupling of transcription and translation. In the case of the trp attenuator, the ribosome begins translating the leader peptide, TrpL, as RNA polymerase continues to transcribe the rest of the &lt;i&gt;trp&lt;/i&gt; operon [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/781274&quot;&gt;Platt76&lt;/a&gt;]. This leader peptide contains a key pair of tryptophan codons. When charged tRNA-Trp is scarce, the ribosome stalls at these codons and RNA polymerase proceeds with transcription. Alternately, when charged tRNA-Trp is abundant, the ribosome quickly reads through these codons and RNA transcription terminates in the leader sequence [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/6159477&quot;&gt;Zurawski80&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/366606&quot;&gt;Zurawski78&lt;/a&gt;]. 
+&lt;p&gt;
+Trp attenuation and the required close linking of translation and transcription all depend on the formation of alternate RNA secondary structures. When the ribosome proceeds quickly through the &lt;i&gt;trpL&lt;/i&gt; leader sequence, a hairpin forms in the mRNA that acts as a transcriptional terminator. When the ribosome stalls due to lack of charged tRNA-Trp, an alternate RNA hairpin forms that prevents formation of the transcriptional terminator, allowing transcription of the RNA to continue [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/781274&quot;&gt;Platt76&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/6159477&quot;&gt;Zurawski80&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/366606&quot;&gt;Zurawski78&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/118451&quot;&gt;Oxender79&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/368800&quot;&gt;Stauffer78&lt;/a&gt;]. The close coupling of transcription and translation is achieved through yet another RNA secondary structure. The &lt;i&gt;trpL&lt;/i&gt; leader region has a third alternative hairpin that forms in the absence of the ribosome. This prevents formation of the antiterminator, in turn allowing the terminator to form and stall RNA polymerase. Thus, transcription cannot proceed unless the ribosome is present and charged tRNA-Trp is scarce [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/2409288&quot;&gt;Fisher85&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/6168281&quot;&gt;Winkler81&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/2991886&quot;&gt;Landick85&lt;/a&gt;].
+&lt;p&gt;
+The &lt;i&gt;trpLEDCBA&lt;/i&gt;, &lt;i&gt;aroH&lt;/i&gt;, and &lt;i&gt;trpR&lt;/i&gt; operons are coordinately regulated by the TrpR transcriptional repressor in response to intracellular levels of L-tryptophan ([&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/3315853&quot;&gt;Kumamoto87&lt;/a&gt;] and references therein). TrpR acts differently at each operator and binds to multiple helically stacked sites [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/3315853&quot;&gt;Kumamoto87&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-4866380' orgid='ECOLI' frameid='PUB-4866380' detail='full'><source datatype='string'>Cold Spring Harb Symp Quant Biol 31;235-49</source>
+<pubmed-id datatype='string'>4866380</pubmed-id>
+<title datatype='string'>Polarity in the tryptophan operon of E. coli.</title>
+<year datatype='integer'>1966</year>
+<author datatype='string'>Imamoto F</author>
+<author datatype='string'>Ito J</author>
+<author datatype='string'>Yanofsky C</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-5323613' orgid='ECOLI' frameid='PUB-5323613' detail='full'><source datatype='string'>J Mol Biol 13(1);169-82</source>
+<pubmed-id datatype='string'>5323613</pubmed-id>
+<title datatype='string'>On the transcription of the tryptophan operon in Escherichia coli. 3. Multicistronic messenger RNA and polarity for transcription.</title>
+<year datatype='integer'>1965</year>
+<author datatype='string'>Imamoto F</author>
+<author datatype='string'>Morikawa N</author>
+<author datatype='string'>Sato K</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-5339605' orgid='ECOLI' frameid='PUB-5339605' detail='full'><source datatype='string'>J Mol Biol 21(2);313-34</source>
+<pubmed-id datatype='string'>5339605</pubmed-id>
+<title datatype='string'>Nonsense codons and polarity in the tryptophan operon.</title>
+<year datatype='integer'>1966</year>
+<author datatype='string'>Yanofsky C</author>
+<author datatype='string'>Ito J</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+</evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-13521' orgid='ECOLI' frameid='REG0-13521' detail='low'><parent><Regulation resource='getxml?ECOLI:RNA-Mediated-Translation-Regulation' orgid='ECOLI' frameid='RNA-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><RNA resource='getxml?ECOLI:RNA0-328' orgid='ECOLI' frameid='RNA0-328'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU00067' orgid='ECOLI' frameid='TU00067'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15926' orgid='ECOLI' frameid='REG0-15926' detail='low'><parent><Regulation resource='getxml?ECOLI:RNA-Mediated-Translation-Regulation' orgid='ECOLI' frameid='RNA-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><RNA resource='getxml?ECOLI:GCVB-RNA' orgid='ECOLI' frameid='GCVB-RNA'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU00067' orgid='ECOLI' frameid='TU00067'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component><DNA-Binding-Site ID='ECOLI:BS00206' orgid='ECOLI' frameid='BS00206' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-5538' orgid='ECOLI' frameid='REG0-5538' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX-125' orgid='ECOLI' frameid='CPLX-125'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM00094' orgid='ECOLI' frameid='PM00094' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>1323115</minus-10-left>
+<common-name datatype='string'>trpLp</common-name>
+<minus-35-right datatype='integer'>1323144</minus-35-right>
+<minus-35-left datatype='integer'>1323139</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>trpLEDCBA</synonym>
+<synonym datatype='string'>trp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1323108</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-7012834' orgid='ECOLI' frameid='PUB-7012834' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 77(12);7117-21</source>
+<pubmed-id datatype='string'>7012834</pubmed-id>
+<title datatype='string'>Nucleotide sequence and expression of Escherichia coli trpR, the structural gene for the trp aporepressor.</title>
+<year datatype='integer'>1980</year>
+<author datatype='string'>Gunsalus RP</author>
+<author datatype='string'>Yanofsky C</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-781271' orgid='ECOLI' frameid='PUB-781271' detail='full'><source datatype='string'>J Mol Biol 103(2);351-81</source>
+<pubmed-id datatype='string'>781271</pubmed-id>
+<title datatype='string'>Nucleotide sequence of the 5' end of tryptophan messenger RNA of Escherichia coli.</title>
+<year datatype='integer'>1976</year>
+<author datatype='string'>Squires C</author>
+<author datatype='string'>Lee F</author>
+<author datatype='string'>Bertrand K</author>
+<author datatype='string'>Squires CL</author>
+<author datatype='string'>Bronson MJ</author>
+<author datatype='string'>Yanofsky C</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-32916947' orgid='ECOLI' frameid='PUB-32916947' detail='full'><source datatype='string'>Biomolecules 10(9)</source>
+<pubmed-id datatype='string'>32916947</pubmed-id>
+<title datatype='string'>Control of Transcription Initiation by Biased Thermal Fluctuations on Repetitive Genomic Sequences.</title>
+<year datatype='integer'>2020</year>
+<author datatype='string'>Imashimizu M</author>
+<author datatype='string'>Tokunaga Y</author>
+<author datatype='string'>Afek A</author>
+<author datatype='string'>Takahashi H</author>
+<author datatype='string'>Shimamoto N</author>
+<author datatype='string'>Lukatsky DB</author>
+<doi-id datatype='string'>10.3390/biom10091299</doi-id>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-7012834' orgid='ECOLI' frameid='PUB-7012834'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-781271' orgid='ECOLI' frameid='PUB-781271'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from direct assay</common-name>
+<comment datatype='string'>IDA inferred from direct assay.
+
+&lt;br&gt;
+The assertion was inferred from a direct experimental assay such as
+&lt;ul&gt;
+    &lt;li&gt; Enzyme assays
+    &lt;li&gt; In vitro reconstitution (e.g. transcription)
+    &lt;li&gt; Immunofluorescence
+    &lt;li&gt; Cell fractionation
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-32916947' orgid='ECOLI' frameid='PUB-32916947'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-5538' orgid='ECOLI' frameid='REG0-5538'/><Regulation ID='ECOLI:REG0-5537' orgid='ECOLI' frameid='REG0-5537' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX-125' orgid='ECOLI' frameid='CPLX-125'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00094' orgid='ECOLI' frameid='PM00094'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5536' orgid='ECOLI' frameid='REG0-5536' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX-125' orgid='ECOLI' frameid='CPLX-125'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00094' orgid='ECOLI' frameid='PM00094'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>1323120</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-42510' orgid='ECOLI' frameid='TU0-42510'/><Transcription-Unit resource='#ECOLI:TU00067' orgid='ECOLI' frameid='TU00067'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-3315854' orgid='ECOLI' frameid='PUB-3315854' detail='full'><source datatype='string'>Genes Dev 1(6);565-72</source>
+<pubmed-id datatype='string'>3315854</pubmed-id>
+<title datatype='string'>DNA specificity determinants of Escherichia coli tryptophan repressor binding.</title>
+<year datatype='integer'>1987</year>
+<author datatype='string'>Bass S</author>
+<author datatype='string'>Sugiono P</author>
+<author datatype='string'>Arvidson DN</author>
+<author datatype='string'>Gunsalus RP</author>
+<author datatype='string'>Youderian P</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-3050131' orgid='ECOLI' frameid='PUB-3050131' detail='full'><source datatype='string'>J Mol Biol 202(4);769-77</source>
+<pubmed-id datatype='string'>3050131</pubmed-id>
+<title datatype='string'>trp repressor interactions with the trp aroH and trpR operators. Comparison of repressor binding in vitro and repression in vivo.</title>
+<year datatype='integer'>1988</year>
+<author datatype='string'>Klig LS</author>
+<author datatype='string'>Carey J</author>
+<author datatype='string'>Yanofsky C</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-8613990' orgid='ECOLI' frameid='PUB-8613990' detail='full'><source datatype='string'>J Mol Biol 258(1);37-52</source>
+<pubmed-id datatype='string'>8613990</pubmed-id>
+<title datatype='string'>In vivo and in vitro studies of TrpR-DNA interactions.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Yang J</author>
+<author datatype='string'>Gunasekera A</author>
+<author datatype='string'>Lavoie TA</author>
+<author datatype='string'>Jin L</author>
+<author datatype='string'>Lewis DE</author>
+<author datatype='string'>Carey J</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-8613990' orgid='ECOLI' frameid='PUB-8613990'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication ID='ECOLI:PUB-10518785' orgid='ECOLI' frameid='PUB-10518785' detail='full'><source datatype='string'>Eur J Biochem 265(3);919-28</source>
+<pubmed-id datatype='string'>10518785</pubmed-id>
+<title datatype='string'>Studies of the Escherichia coli Trp repressor binding to its five operators and to variant operator sequences.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>Jeeves M</author>
+<author datatype='string'>Evans PD</author>
+<author datatype='string'>Parslow RA</author>
+<author datatype='string'>Jaseja M</author>
+<author datatype='string'>Hyde EI</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication ID='ECOLI:PUB-3315853' orgid='ECOLI' frameid='PUB-3315853' detail='full'><source datatype='string'>Genes Dev 1(6);556-64</source>
+<pubmed-id datatype='string'>3315853</pubmed-id>
+<title datatype='string'>Escherichia coli tryptophan repressor binds multiple sites within the aroH and trp operators.</title>
+<year datatype='integer'>1987</year>
+<author datatype='string'>Kumamoto AA</author>
+<author datatype='string'>Miller WG</author>
+<author datatype='string'>Gunsalus RP</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Site mutation</common-name>
+<comment datatype='string'>A cis-mutation in the DNA sequence of the transcription-factor binding site interferes with the operation of the regulatory function. This is considered  strong evidence for the existence and functional role of the DNA binding site.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3315853' orgid='ECOLI' frameid='PUB-3315853'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication ID='ECOLI:PUB-33608564' orgid='ECOLI' frameid='PUB-33608564' detail='full'><source datatype='string'>Sci Rep 11(1);4255</source>
+<pubmed-id datatype='string'>33608564</pubmed-id>
+<title datatype='string'>One-dimensional diffusion of TrpR along DNA enhances its affinity for the operator by chemical ratchet mechanism.</title>
+<year datatype='integer'>2021</year>
+<author datatype='string'>Kinebuchi T</author>
+<author datatype='string'>Shimamoto N</author>
+<doi-id datatype='string'>10.1038/s41598-021-83156-6</doi-id>
+</Publication>
+</evidence>
+<abs-center-pos datatype='float'>1323119.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00067' orgid='ECOLI' frameid='TU00067'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-4061' orgid='ECOLI' frameid='BS0-4061' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5537' orgid='ECOLI' frameid='REG0-5537'/></involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-3315854' orgid='ECOLI' frameid='PUB-3315854'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-8613990' orgid='ECOLI' frameid='PUB-8613990'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-8613990' orgid='ECOLI' frameid='PUB-8613990'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-3050131' orgid='ECOLI' frameid='PUB-3050131'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-10518785' orgid='ECOLI' frameid='PUB-10518785'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-3315853' orgid='ECOLI' frameid='PUB-3315853'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' class='true'/><Publication resource='#ECOLI:PUB-3315853' orgid='ECOLI' frameid='PUB-3315853'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-33608564' orgid='ECOLI' frameid='PUB-33608564'/></evidence>
+<abs-center-pos datatype='float'>1323111.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00067' orgid='ECOLI' frameid='TU00067'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-4062' orgid='ECOLI' frameid='BS0-4062' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5536' orgid='ECOLI' frameid='REG0-5536'/></involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-3315854' orgid='ECOLI' frameid='PUB-3315854'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-8613990' orgid='ECOLI' frameid='PUB-8613990'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-8613990' orgid='ECOLI' frameid='PUB-8613990'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-3050131' orgid='ECOLI' frameid='PUB-3050131'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-10518785' orgid='ECOLI' frameid='PUB-10518785'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-3315853' orgid='ECOLI' frameid='PUB-3315853'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' class='true'/><Publication resource='#ECOLI:PUB-3315853' orgid='ECOLI' frameid='PUB-3315853'/></evidence>
+<abs-center-pos datatype='float'>1323127.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00067' orgid='ECOLI' frameid='TU00067'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Terminator ID='ECOLI:TERM0-1154' orgid='ECOLI' frameid='TERM0-1154' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>1316408</right-end-position>
+<left-end-position datatype='integer'>1316383</left-end-position>
+<citation><Publication ID='ECOLI:PUB-3058546' orgid='ECOLI' frameid='PUB-3058546' detail='full'><source datatype='string'>Genetics 120(2);345-58</source>
+<pubmed-id datatype='string'>3058546</pubmed-id>
+<title datatype='string'>Molecular evolution of the Escherichia coli chromosome. I. Analysis of structure and natural variation in a previously uncharacterized region between trp and tonB.</title>
+<year datatype='integer'>1988</year>
+<author datatype='string'>Stoltzfus A</author>
+<author datatype='string'>Leslie JF</author>
+<author datatype='string'>Milkman R</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU00067' orgid='ECOLI' frameid='TU00067'/></component-of>
+</Terminator>
+</component>
+<component><Promoter resource='#ECOLI:PM00094' orgid='ECOLI' frameid='PM00094'/></component>
+<component><Gene resource='getxml?ECOLI:EG11024' orgid='ECOLI' frameid='EG11024'/></component>
+<component><Gene resource='getxml?ECOLI:EG11025' orgid='ECOLI' frameid='EG11025'/></component>
+<component><Gene resource='getxml?ECOLI:EG11026' orgid='ECOLI' frameid='EG11026'/></component>
+<component><Gene resource='getxml?ECOLI:EG11027' orgid='ECOLI' frameid='EG11027'/></component>
+<component><Gene resource='getxml?ECOLI:EG11028' orgid='ECOLI' frameid='EG11028'/></component>
+<component><Gene resource='getxml?ECOLI:EG11274' orgid='ECOLI' frameid='EG11274'/></component>
+</Transcription-Unit>
+</ptools-xml>

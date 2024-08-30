@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-45156'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-45156</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-45156' orgid='ECOLI' frameid='TU0-45156' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rpmE</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SINGLE-DIRECTON' orgid='ECOLI' frameid='EV-COMP-AINF-SINGLE-DIRECTON' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference that a single-gene directon is a transcription unit </common-name>
+<comment datatype='string'>Automated inference of transcription unit based on single-gene directon.  Existence of a single-gene transcription unit 
+for gene G is inferred computationally by the existence of upstream and downstream genes transcribed in the 
+opposite direction of G.</comment>
+</Evidence-Code>
+</evidence>
+<component><Terminator ID='ECOLI:TERM0-1295' orgid='ECOLI' frameid='TERM0-1295' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>4127262</right-end-position>
+<left-end-position datatype='integer'>4127241</left-end-position>
+<citation><Publication ID='ECOLI:PUB-32209634' orgid='ECOLI' frameid='PUB-32209634' detail='full'><source datatype='string'>RNA 26(7);814-826</source>
+<pubmed-id datatype='string'>32209634</pubmed-id>
+<title datatype='string'>Autogenous regulation in vivo of the  &lt;i&gt;rpmE&lt;/i&gt; gene encoding ribosomal protein L31 (bL31), a key component of the protein-protein intersubunit bridge B1b.</title>
+<year datatype='integer'>2020</year>
+<author datatype='string'>Aseev LV</author>
+<author datatype='string'>Koledinskaya LS</author>
+<author datatype='string'>Boni IV</author>
+<doi-id datatype='string'>10.1261/rna.074237.119</doi-id>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-45156' orgid='ECOLI' frameid='TU0-45156'/><Transcription-Unit resource='getxml?ECOLI:TU0-8506' orgid='ECOLI' frameid='TU0-8506'/></component-of>
+</Terminator>
+</component>
+<component><Promoter ID='ECOLI:PM0-46455' orgid='ECOLI' frameid='PM0-46455' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>rpmEp1</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4126854</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-32209634' orgid='ECOLI' frameid='PUB-32209634'/></citation>
+<citation><Publication ID='ECOLI:PUB-25266388' orgid='ECOLI' frameid='PUB-25266388' detail='full'><source datatype='string'>J Bacteriol 197(1);18-28</source>
+<pubmed-id datatype='string'>25266388</pubmed-id>
+<title datatype='string'>Global transcriptional start site mapping using differential RNA sequencing reveals novel antisense RNAs in Escherichia coli.</title>
+<year datatype='integer'>2015</year>
+<author datatype='string'>Thomason MK</author>
+<author datatype='string'>Bischler T</author>
+<author datatype='string'>Eisenbart SK</author>
+<author datatype='string'>Forstner KU</author>
+<author datatype='string'>Zhang A</author>
+<author datatype='string'>Herbig A</author>
+<author datatype='string'>Nieselt K</author>
+<author datatype='string'>Sharma CM</author>
+<author datatype='string'>Storz G</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-25266388' orgid='ECOLI' frameid='PUB-25266388'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from mutant phenotype</common-name>
+<comment datatype='string'>IMP inferred from mutant phenotype.
+
+&lt;br&gt;
+The assertion was inferred from a mutant phenotype such as
+&lt;ul&gt;
+    &lt;li&gt; Any gene mutation/knockout
+    &lt;li&gt; Overexpression/ectopic expression of wild-type or mutant genes
+    &lt;li&gt; Anti-sense experiments
+    &lt;li&gt; RNA interference experiments
+    &lt;li&gt; Specific protein inhibitors
+    &lt;li&gt; Complementation
+&lt;/ul&gt;&lt;p class=ecocomment&gt;	
+Comment: Inferences made from examining mutations or
+abnormal levels of only the product(s) of the gene of interest are covered by code EV-IMP
+(compare to code EV-IGI). Use this code for experiments that use antibodies 
+or other specific inhibitors of RNA or protein activity, even though no
+gene may be mutated (the rationale is that EV-IMP is used where an
+abnormal situation prevails in a cell or organism).
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-32209634' orgid='ECOLI' frameid='PUB-32209634'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-45156' orgid='ECOLI' frameid='TU0-45156'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10889' orgid='ECOLI' frameid='EG10889'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-13451'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-13451</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-13451' orgid='ECOLI' frameid='TU0-13451' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>pgsA</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><Promoter ID='ECOLI:PM0-9771' orgid='ECOLI' frameid='PM0-9771' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>pgsAp</common-name>
+<comment datatype='string'>Zaslaver et al. demonstrated in 2006, by means of a library of fluorescent transcription fusions, that this promoter can be transcribed &lt;i&gt;in vitro&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16862137&quot;&gt;Zaslaver06&lt;/a&gt;]. Based on this, a putative promoter was suggested, but the +1 site of the transcription initiation has not been determined, although there exists promoter activity.</comment>
+<citation><Publication ID='ECOLI:PUB-16862137' orgid='ECOLI' frameid='PUB-16862137' detail='full'><source datatype='string'>Nat Methods 3(8);623-8</source>
+<pubmed-id datatype='string'>16862137</pubmed-id>
+<title datatype='string'>A comprehensive library of fluorescent transcriptional reporters for Escherichia coli.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Zaslaver A</author>
+<author datatype='string'>Bren A</author>
+<author datatype='string'>Ronen M</author>
+<author datatype='string'>Itzkovitz S</author>
+<author datatype='string'>Kikoin I</author>
+<author datatype='string'>Shavit S</author>
+<author datatype='string'>Liebermeister W</author>
+<author datatype='string'>Surette MG</author>
+<author datatype='string'>Alon U</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16862137' orgid='ECOLI' frameid='PUB-16862137'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-13451' orgid='ECOLI' frameid='TU0-13451'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10706' orgid='ECOLI' frameid='EG10706'/></component>
+</Transcription-Unit>
+</ptools-xml>

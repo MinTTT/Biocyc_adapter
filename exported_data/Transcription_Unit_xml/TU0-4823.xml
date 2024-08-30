@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-4823'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-4823</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-4823' orgid='ECOLI' frameid='TU0-4823' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>gabDTP</common-name>
+<comment datatype='string'>This transcription unit is part of a complex operon that contains three promoters, two of which are internal. 
+&lt;p&gt;
+Although [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12446648&quot;&gt;Schneider02&lt;/a&gt;] et al. suggested that the &lt;i&gt;csiR&lt;/i&gt; gene is part of the &lt;i&gt;gabDTP&lt;/i&gt; operon because they saw a polar effect of an insertion in &lt;i&gt;gabT&lt;/i&gt; on &lt;i&gt;gabC&lt;/i&gt;, [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/14731280&quot;&gt;Metzner04&lt;/a&gt;] et al. saw that the presence or absence of the &lt;i&gt;gabD&lt;/i&gt; promoters did not affect the &lt;i&gt;csiR&lt;/i&gt; expression and therefore concluded that the &lt;i&gt;csiR&lt;/i&gt; gene is transcribed in another transcription unit. For this reason, this gene was not included in the operon.
+&lt;p&gt;
+The &lt;i&gt;gabDTP&lt;/i&gt; operon is induced in response to nitrogen starvation [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/30498244&quot;&gt;Knorr18&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-14731280' orgid='ECOLI' frameid='PUB-14731280' detail='full'><source datatype='string'>Mol Microbiol 51(3);799-811</source>
+<pubmed-id datatype='string'>14731280</pubmed-id>
+<title datatype='string'>Multiple stress signal integration in the regulation of the complex sigma S-dependent csiD-ygaF-gabDTP operon in Escherichia coli.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Metzner M</author>
+<author datatype='string'>Germer J</author>
+<author datatype='string'>Hengge R</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Inferred through co-regulation</common-name>
+<comment datatype='string'>Inferred through co-regulation.  A transcription unit is inferred because a set of 
+adjacent genes that are transcribed in the same direction exhibit similar
+expression patterns under a range of environmental conditions.
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-14731280' orgid='ECOLI' frameid='PUB-14731280'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-14731280' orgid='ECOLI' frameid='PUB-14731280'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG11330' orgid='ECOLI' frameid='EG11330'/></component>
+<component><Gene resource='getxml?ECOLI:EG10361' orgid='ECOLI' frameid='EG10361'/></component>
+<component><Gene resource='getxml?ECOLI:EG11329' orgid='ECOLI' frameid='EG11329'/></component>
+<component><Promoter ID='ECOLI:PM0-5063' orgid='ECOLI' frameid='PM0-5063' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>2790893</minus-10-left>
+<common-name datatype='string'>gabDp2</common-name>
+<minus-35-right datatype='integer'>2790880</minus-35-right>
+<minus-35-left datatype='integer'>2790875</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2790912</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-14731280' orgid='ECOLI' frameid='PUB-14731280'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-14731280' orgid='ECOLI' frameid='PUB-14731280'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-14731280' orgid='ECOLI' frameid='PUB-14731280'/></evidence>
+<minus-10-right datatype='integer'>2790903</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4823' orgid='ECOLI' frameid='TU0-4823'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-14681'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-14681</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-14681' orgid='ECOLI' frameid='TU0-14681' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>dksA-yadB</common-name>
+<comment datatype='string'>Based on gene expression analysis, it was shown that &lt;i&gt;dksA&lt;/i&gt; expression is controlled by YqhC [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/20676725&quot;&gt;Turner11&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-2180916' orgid='ECOLI' frameid='PUB-2180916' detail='full'><source datatype='string'>J Bacteriol 172(4);2055-64</source>
+<pubmed-id datatype='string'>2180916</pubmed-id>
+<title datatype='string'>Identification and characterization of a new Escherichia coli gene that is a dosage-dependent suppressor of a dnaK deletion mutation.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>Kang PJ</author>
+<author datatype='string'>Craig EA</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2180916' orgid='ECOLI' frameid='PUB-2180916'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' class='true'/><Publication ID='ECOLI:PUB-15096594' orgid='ECOLI' frameid='PUB-15096594' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 101(20);7530-5</source>
+<pubmed-id datatype='string'>15096594</pubmed-id>
+<title datatype='string'>An aminoacyl-tRNA synthetase-like protein encoded by the Escherichia coli yadB gene glutamylates specifically tRNAAsp.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Dubois DY</author>
+<author datatype='string'>Blaise M</author>
+<author datatype='string'>Becker HD</author>
+<author datatype='string'>Campanacci V</author>
+<author datatype='string'>Keith G</author>
+<author datatype='string'>Giege R</author>
+<author datatype='string'>Cambillau C</author>
+<author datatype='string'>Lapointe J</author>
+<author datatype='string'>Kern D</author>
+</Publication>
+</evidence>
+<component><Gene resource='getxml?ECOLI:EG11362' orgid='ECOLI' frameid='EG11362'/></component>
+<component><Gene resource='getxml?ECOLI:EG10230' orgid='ECOLI' frameid='EG10230'/></component>
+<component><Promoter ID='ECOLI:PM0-10207' orgid='ECOLI' frameid='PM0-10207' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>160665</minus-10-left>
+<common-name datatype='string'>dksAp2</common-name>
+<minus-35-right datatype='integer'>160693</minus-35-right>
+<minus-35-left datatype='integer'>160688</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>160657</absolute-plus-1-pos>
+<comment datatype='string'>Through inhibition of its own transcription, DksA creates a negative feedback loop that keeps its level constant in the cell [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/21496125&quot;&gt;Chandrangsu11&lt;/a&gt;]. Regulation of the &lt;i&gt;dksA&lt;/i&gt;p2 promoter prevents accumulation of DksA in stationary phase [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/21496125&quot;&gt;Chandrangsu11&lt;/a&gt;].
+&lt;p&gt;
+&lt;i&gt;dksA&lt;/i&gt; is also regulated by CsrA, but this effect is masked by autoregulation by DksA [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/21488981&quot;&gt;Edwards11&lt;/a&gt;]. DksA negative autoregulation occurs independently of CsrA regulation [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/21488981&quot;&gt;Edwards11&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-2180916' orgid='ECOLI' frameid='PUB-2180916'/></citation>
+<citation><Publication ID='ECOLI:PUB-21496125' orgid='ECOLI' frameid='PUB-21496125' detail='full'><source datatype='string'>Mol Microbiol 80(5);1337-48</source>
+<pubmed-id datatype='string'>21496125</pubmed-id>
+<title datatype='string'>The dksA promoter is negatively feedback regulated by DksA and ppGpp.</title>
+<year datatype='integer'>2011</year>
+<author datatype='string'>Chandrangsu P</author>
+<author datatype='string'>Lemke JJ</author>
+<author datatype='string'>Gourse RL</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2180916' orgid='ECOLI' frameid='PUB-2180916'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-21496125' orgid='ECOLI' frameid='PUB-21496125'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication ID='ECOLI:PUB-21488981' orgid='ECOLI' frameid='PUB-21488981' detail='full'><source datatype='string'>Mol Microbiol 80(6);1561-80</source>
+<pubmed-id datatype='string'>21488981</pubmed-id>
+<title datatype='string'>Circuitry linking the Csr and stringent response global regulatory systems.</title>
+<year datatype='integer'>2011</year>
+<author datatype='string'>Edwards AN</author>
+<author datatype='string'>Patterson-Fortin LM</author>
+<author datatype='string'>Vakulskas CA</author>
+<author datatype='string'>Mercante JW</author>
+<author datatype='string'>Potrykus K</author>
+<author datatype='string'>Vinella D</author>
+<author datatype='string'>Camacho MI</author>
+<author datatype='string'>Fields JA</author>
+<author datatype='string'>Thompson SA</author>
+<author datatype='string'>Georgellis D</author>
+<author datatype='string'>Cashel M</author>
+<author datatype='string'>Babitzke P</author>
+<author datatype='string'>Romeo T</author>
+</Publication>
+</evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11164' orgid='ECOLI' frameid='REG0-11164' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG10230-MONOMER' orgid='ECOLI' frameid='EG10230-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10207' orgid='ECOLI' frameid='PM0-10207'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11163' orgid='ECOLI' frameid='REG0-11163' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8070' orgid='ECOLI' frameid='CPLX0-8070'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10207' orgid='ECOLI' frameid='PM0-10207'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11162' orgid='ECOLI' frameid='REG0-11162' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Compound resource='getxml?ECOLI:GUANOSINE-5DP-3DP' orgid='ECOLI' frameid='GUANOSINE-5DP-3DP'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10207' orgid='ECOLI' frameid='PM0-10207'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>160670</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-14681' orgid='ECOLI' frameid='TU0-14681'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

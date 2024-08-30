@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-45180'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-45180</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-45180' orgid='ECOLI' frameid='TU0-45180' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>groSL</common-name>
+<synonym datatype='string'>groS, groES</synonym>
+<comment datatype='string'>The expression of the &lt;i&gt;groSL&lt;/i&gt; operon is increased under the stress condition caused by the introduction of the R1-16 plasmid, which encodes the type IV secretion system (T4S machinery) in the cell. The &lt;i&gt;groSL&lt;/i&gt; operon expression is &amp;sigma;&lt;sup&gt;32&lt;/sup&gt; dependent, and it was observed that the expression of the &amp;sigma;&lt;sup&gt;32&lt;/sup&gt; gene is enhanced with the R1-16 plasmid in the cell in a CpxR-dependent way [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16952953&quot;&gt;Zahrl06&lt;/a&gt;].
+&lt;p&gt;
+Transcription of &lt;i&gt;groS&lt;/i&gt; and &lt;i&gt;groL&lt;/i&gt; is increased in thermal adaptation as a result of a natural deletion of 5 bp (TCACC) in the &lt;i&gt;groS&lt;/i&gt;p region localized in the 5'-UTR of the &lt;i&gt;groELS&lt;/i&gt; operon [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/26373241&quot;&gt;Yama15&lt;/a&gt;].
+&lt;p&gt;
+The &lt;i&gt;groSL&lt;/i&gt; operon is upregulated by short-term (30 min) exposure of &lt;i&gt;E. coli&lt;/i&gt; to some biocides [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/32385082&quot;&gt;Merchel20&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-13129951' orgid='ECOLI' frameid='PUB-13129951' detail='full'><source datatype='string'>J Bacteriol 185(19);5800-6</source>
+<pubmed-id datatype='string'>13129951</pubmed-id>
+<title datatype='string'>Sigma 32-dependent promoter activity in vivo: sequence determinants of the groE promoter.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Wang Y</author>
+<author datatype='string'>deHaseth PL</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8674965' orgid='ECOLI' frameid='PUB-8674965' detail='full'><source datatype='string'>FEMS Microbiol Lett 138(1);1-10</source>
+<pubmed-id datatype='string'>8674965</pubmed-id>
+<title datatype='string'>Regulation and organization of the groE and dnaK operons in Eubacteria.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Segal R</author>
+<author datatype='string'>Ron EZ</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-2563997' orgid='ECOLI' frameid='PUB-2563997' detail='full'><source datatype='string'>J Bacteriol 171(3);1379-85</source>
+<pubmed-id datatype='string'>2563997</pubmed-id>
+<title datatype='string'>The groES and groEL heat shock gene products of Escherichia coli are essential for bacterial growth at all temperatures.</title>
+<year datatype='integer'>1989</year>
+<author datatype='string'>Fayet O</author>
+<author datatype='string'>Ziegelhoffer T</author>
+<author datatype='string'>Georgopoulos C</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-6155374' orgid='ECOLI' frameid='PUB-6155374' detail='full'><source datatype='string'>J Bacteriol 142(3);843-51</source>
+<pubmed-id datatype='string'>6155374</pubmed-id>
+<title datatype='string'>Temperature-induced synthesis of specific proteins in Escherichia coli: evidence for transcriptional control.</title>
+<year datatype='integer'>1980</year>
+<author datatype='string'>Yamamori T</author>
+<author datatype='string'>Yura T</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-IC-ADJ-GENES-SAME-BIO-PROCESS' orgid='ECOLI' frameid='EV-IC-ADJ-GENES-SAME-BIO-PROCESS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' class='true'/></parent>
+<common-name datatype='string'>Products of adjacent genes in the same biological process</common-name>
+<comment datatype='string'>A transcription unit is inferred because there is a set of adjacent genes,
+encoded in the same direction, coding for products that participate in the
+same metabolic pathway or biological process. Sometimes, these genes code
+for subunits of the same protein.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2563997' orgid='ECOLI' frameid='PUB-2563997'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG10599' orgid='ECOLI' frameid='EG10599'/></component>
+<component><Gene resource='getxml?ECOLI:EG10600' orgid='ECOLI' frameid='EG10600'/></component>
+<component><Promoter ID='ECOLI:PM0-46477' orgid='ECOLI' frameid='PM0-46477' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>4370600</minus-10-left>
+<common-name datatype='string'>groSp2</common-name>
+<minus-35-right datatype='integer'>4370585</minus-35-right>
+<minus-35-left datatype='integer'>4370580</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOH-MONOMER' orgid='ECOLI' frameid='RPOH-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>mopB</synonym>
+<synonym datatype='string'>groEp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4370616</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-13129951' orgid='ECOLI' frameid='PUB-13129951'/></citation>
+<citation><Publication resource='#ECOLI:PUB-6155374' orgid='ECOLI' frameid='PUB-6155374'/></citation>
+<citation><Publication ID='ECOLI:PUB-3887408' orgid='ECOLI' frameid='PUB-3887408' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 82(9);2679-83</source>
+<pubmed-id datatype='string'>3887408</pubmed-id>
+<title datatype='string'>Consensus sequence for Escherichia coli heat shock gene promoters.</title>
+<year datatype='integer'>1985</year>
+<author datatype='string'>Cowing DW</author>
+<author datatype='string'>Bardwell JC</author>
+<author datatype='string'>Craig EA</author>
+<author datatype='string'>Woolford C</author>
+<author datatype='string'>Hendrix RW</author>
+<author datatype='string'>Gross CA</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-16818608' orgid='ECOLI' frameid='PUB-16818608' detail='full'><source datatype='string'>Genes Dev 20(13);1776-89</source>
+<pubmed-id datatype='string'>16818608</pubmed-id>
+<title datatype='string'>Regulon and promoter analysis of the E. coli heat-shock factor, sigma32, reveals a multifaceted cellular response to heat stress.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Nonaka G</author>
+<author datatype='string'>Blankschien M</author>
+<author datatype='string'>Herman C</author>
+<author datatype='string'>Gross CA</author>
+<author datatype='string'>Rhodius VA</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-16892065' orgid='ECOLI' frameid='PUB-16892065' detail='full'><source datatype='string'>Nat Struct Mol Biol 13(9);806-14</source>
+<pubmed-id datatype='string'>16892065</pubmed-id>
+<title datatype='string'>Extensive functional overlap between sigma factors in Escherichia coli.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Wade JT</author>
+<author datatype='string'>Roa DC</author>
+<author datatype='string'>Grainger DC</author>
+<author datatype='string'>Hurd D</author>
+<author datatype='string'>Busby SJ</author>
+<author datatype='string'>Struhl K</author>
+<author datatype='string'>Nudler E</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference of promoter position</common-name>
+<comment datatype='string'>Automated inference of promoter position relative to the -10 and -35 boxes.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-13129951' orgid='ECOLI' frameid='PUB-13129951'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3887408' orgid='ECOLI' frameid='PUB-3887408'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' class='true'/><Publication resource='#ECOLI:PUB-16818608' orgid='ECOLI' frameid='PUB-16818608'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from direct assay</common-name>
+<comment datatype='string'>IDA inferred from direct assay.
+
+&lt;br&gt;
+The assertion was inferred from a direct experimental assay such as
+&lt;ul&gt;
+    &lt;li&gt; Enzyme assays
+    &lt;li&gt; In vitro reconstitution (e.g. transcription)
+    &lt;li&gt; Immunofluorescence
+    &lt;li&gt; Cell fractionation
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16892065' orgid='ECOLI' frameid='PUB-16892065'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16892065' orgid='ECOLI' frameid='PUB-16892065'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/><Publication ID='ECOLI:PUB-19114495' orgid='ECOLI' frameid='PUB-19114495' detail='full'><source datatype='string'>J Bacteriol 191(5);1695-702</source>
+<pubmed-id datatype='string'>19114495</pubmed-id>
+<title datatype='string'>Growth phase- and cell division-dependent activation and inactivation of the {sigma}32 regulon in Escherichia coli.</title>
+<year datatype='integer'>2009</year>
+<author datatype='string'>Wagner MA</author>
+<author datatype='string'>Zahrl D</author>
+<author datatype='string'>Rieser G</author>
+<author datatype='string'>Koraimann G</author>
+</Publication>
+</evidence>
+<minus-10-right datatype='integer'>4370605</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-45180' orgid='ECOLI' frameid='TU0-45180'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

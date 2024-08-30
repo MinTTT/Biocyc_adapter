@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-4701'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-4701</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-4701' orgid='ECOLI' frameid='TU0-4701' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>lacZYA</common-name>
+<synonym datatype='string'>lacZ</synonym>
+<comment datatype='string'>The &lt;i&gt;lac&lt;/i&gt; operon is controlled by four promoters, P1, which is the principal promoter, P2, and P3 and P4, the weaker promoters [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/1649816&quot;&gt;Xiong91&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/1650341&quot;&gt;Eschenlauer91&lt;/a&gt;]. Transcription of this operon is both negatively and positively regulated. Negative regulation occurs when the &lt;i&gt;lac&lt;/i&gt; repressor (LacI) binds to the operator, preventing transcription by RNA polymerase [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/6259624&quot;&gt;Schmitz81&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/2166165&quot;&gt;Hudson90&lt;/a&gt;]. Positive regulation is mediated by the cAMP receptor protein, CRP (also referred to as the catabolite activator protein, CAP)  [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/1649816&quot;&gt;Xiong91&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/1650341&quot;&gt;Eschenlauer91&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/15385551&quot;&gt;Liu04a&lt;/a&gt;]. 
+&lt;p&gt;
+In the presence of glucose, &lt;i&gt;lac&lt;/i&gt; operon expression is not needed and a control mechanism known as catabolite repression occurs. This refers to the ability of glucose to inhibit expression of the operon. As cellular cAMP levels drop in response to glucose uptake, CRP is not activated and operon expression is inhibited. Under this mechanism, &lt;i&gt;lac&lt;/i&gt; genes are only expressed if lactose is present and glucose is absent.  
+&lt;p&gt;
+In the absence of glucose, the levels of cAMP increase and this metabolite binds to CRP. CRP becomes active and it binds to DNA near the &lt;i&gt;lac&lt;/i&gt; promoter, facilitating transcription [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/6259624&quot;&gt;Schmitz81&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/2166165&quot;&gt;Hudson90&lt;/a&gt;].  Synthesis of the &lt;i&gt;lac&lt;/i&gt; operon proteins is induced when &lt;i&gt;E. coli&lt;/i&gt; is grown on lactose in the absence of glucose. CRP is the principal activator of the &lt;i&gt;lac&lt;/i&gt; operon. CRP interacts with RNA polymerase and stimulates transcription of lacZp1 by increasing the binding of the RNA polymerase and the open complex stabilization [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12881519&quot;&gt;Liu03&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/8735277&quot;&gt;Savery96&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/9737918&quot;&gt;Noel98&lt;/a&gt;]. In the same way, CRP completely overlaps lacZp2 and lacZp3, avoiding RNA polymerase binding and preventing transcription of these promoters [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/2166165&quot;&gt;Hudson90&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/1650341&quot;&gt;Eschenlauer91&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/1649816&quot;&gt;Xiong91&lt;/a&gt;]. 
+&lt;p&gt;
+On the other hand, in the absence of allolactose, the LacI repressor represses the &lt;i&gt;lac&lt;/i&gt; operon [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/2166165&quot;&gt;Hudson90&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/15950160&quot;&gt;Lewis05a&lt;/a&gt;]. In this repression system, LacI binds to two operators centered at positions 10 bp (O1) and -82 bp (O3), and formation of the repressor loop is critical [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/8984648&quot;&gt;Fried96&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/8984647&quot;&gt;Perros96&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/14725772&quot;&gt;Balaeff04&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/2166165&quot;&gt;Hudson90&lt;/a&gt;]. Expression of p1 is also stimulated when LacI binds to O1 [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/2166165&quot;&gt;Hudson90&lt;/a&gt;]. 
+&lt;p&gt;
+Induction occurs when the physiological inducer, allolactose, binds to the &lt;i&gt;lac&lt;/i&gt; repressor, preventing it from binding to the operator [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/2166165&quot;&gt;Hudson90&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/15950160&quot;&gt;Lewis05a&lt;/a&gt;]. Nonphysiological analogs, such as thiogalactosides, can function as inducers too. Activation of the &lt;i&gt;lac&lt;/i&gt; operon can also be partly increased by CRP when it overlaps the O1 site, acting as an antirepressor [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/3315229&quot;&gt;Straney87&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/2166165&quot;&gt;Hudson90&lt;/a&gt;].
+&lt;p&gt;
+The expression of the lac operon is differently regulated in many strains of &lt;i&gt;E. coli&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31719176&quot;&gt;Phillips19&lt;/a&gt;].
+&lt;p&gt;
+</comment>
+<citation><Publication ID='ECOLI:PUB-1702782' orgid='ECOLI' frameid='PUB-1702782' detail='full'><source datatype='string'>J Bacteriol 173(1);28-36</source>
+<pubmed-id datatype='string'>1702782</pubmed-id>
+<title datatype='string'>Transcription and decay of the lac messenger: role of an intergenic terminator.</title>
+<year datatype='integer'>1991</year>
+<author datatype='string'>Murakawa GJ</author>
+<author datatype='string'>Kwan C</author>
+<author datatype='string'>Yamashita J</author>
+<author datatype='string'>Nierlich DP</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-1710346' orgid='ECOLI' frameid='PUB-1710346' detail='full'><source datatype='string'>Nucleic Acids Res 19(10);2767-76</source>
+<pubmed-id datatype='string'>1710346</pubmed-id>
+<title datatype='string'>Intermediates in the degradation of mRNA from the lactose operon of Escherichia coli.</title>
+<year datatype='integer'>1991</year>
+<author datatype='string'>McCormick JR</author>
+<author datatype='string'>Zengel JM</author>
+<author datatype='string'>Lindahl L</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1702782' orgid='ECOLI' frameid='PUB-1702782'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Inferred through co-regulation</common-name>
+<comment datatype='string'>Inferred through co-regulation.  A transcription unit is inferred because a set of 
+adjacent genes that are transcribed in the same direction exhibit similar
+expression patterns under a range of environmental conditions.
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1710346' orgid='ECOLI' frameid='PUB-1710346'/></evidence>
+<component><Terminator ID='ECOLI:TERM0223' orgid='ECOLI' frameid='TERM0223' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>361179</right-end-position>
+<left-end-position datatype='integer'>361140</left-end-position>
+<citation><Publication ID='ECOLI:PUB-3901000' orgid='ECOLI' frameid='PUB-3901000' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 82(19);6414-8</source>
+<pubmed-id datatype='string'>3901000</pubmed-id>
+<title datatype='string'>DNA sequence of the lactose operon: the lacA gene and the transcriptional termination region.</title>
+<year datatype='integer'>1985</year>
+<author datatype='string'>Hediger MA</author>
+<author datatype='string'>Johnson DF</author>
+<author datatype='string'>Nierlich DP</author>
+<author datatype='string'>Zabin I</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-14521' orgid='ECOLI' frameid='TU0-14521'/><Transcription-Unit resource='getxml?ECOLI:TU0-4703' orgid='ECOLI' frameid='TU0-4703'/><Transcription-Unit resource='getxml?ECOLI:TU0-4702' orgid='ECOLI' frameid='TU0-4702'/><Transcription-Unit resource='#ECOLI:TU0-4701' orgid='ECOLI' frameid='TU0-4701'/><Transcription-Unit resource='getxml?ECOLI:TU00036' orgid='ECOLI' frameid='TU00036'/></component-of>
+</Terminator>
+</component>
+<component><Terminator ID='ECOLI:TERM0222' orgid='ECOLI' frameid='TERM0222' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>361236</right-end-position>
+<left-end-position datatype='integer'>361212</left-end-position>
+<citation><Publication ID='ECOLI:PUB-3049588' orgid='ECOLI' frameid='PUB-3049588' detail='full'><source datatype='string'>J Biol Chem 263(29);14769-75</source>
+<pubmed-id datatype='string'>3049588</pubmed-id>
+<title datatype='string'>Characterization of the cyn operon in Escherichia coli K12.</title>
+<year datatype='integer'>1988</year>
+<author datatype='string'>Sung YC</author>
+<author datatype='string'>Fuchs JA</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-14521' orgid='ECOLI' frameid='TU0-14521'/><Transcription-Unit resource='getxml?ECOLI:TU00142' orgid='ECOLI' frameid='TU00142'/><Transcription-Unit resource='getxml?ECOLI:TU0-4703' orgid='ECOLI' frameid='TU0-4703'/><Transcription-Unit resource='getxml?ECOLI:TU0-4702' orgid='ECOLI' frameid='TU0-4702'/><Transcription-Unit resource='#ECOLI:TU0-4701' orgid='ECOLI' frameid='TU0-4701'/><Transcription-Unit resource='getxml?ECOLI:TU00036' orgid='ECOLI' frameid='TU00036'/></component-of>
+</Terminator>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-3622' orgid='ECOLI' frameid='BS0-3622' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6247' orgid='ECOLI' frameid='REG0-6247' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-4942' orgid='ECOLI' frameid='PM0-4942' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>lacZp2</common-name>
+<synonym datatype='string'>lacp2</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>366365</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-8990294' orgid='ECOLI' frameid='PUB-8990294' detail='full'><source datatype='string'>J Bacteriol 179(2);423-9</source>
+<pubmed-id datatype='string'>8990294</pubmed-id>
+<title datatype='string'>The -45 region of the Escherichia coli lac promoter: CAP-dependent and CAP-independent transcription.</title>
+<year datatype='integer'>1997</year>
+<author datatype='string'>Czarniecki D</author>
+<author datatype='string'>Noel RJ</author>
+<author datatype='string'>Reznikoff WS</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-1649816' orgid='ECOLI' frameid='PUB-1649816' detail='full'><source datatype='string'>J Bacteriol 173(15);4570-7</source>
+<pubmed-id datatype='string'>1649816</pubmed-id>
+<title datatype='string'>Downstream deletion analysis of the lac promoter.</title>
+<year datatype='integer'>1991</year>
+<author datatype='string'>Xiong XF</author>
+<author datatype='string'>de la Cruz N</author>
+<author datatype='string'>Reznikoff WS</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8990294' orgid='ECOLI' frameid='PUB-8990294'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-9510' orgid='ECOLI' frameid='REG0-9510' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-4942' orgid='ECOLI' frameid='PM0-4942'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-6247' orgid='ECOLI' frameid='REG0-6247'/></regulated-by>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-4702' orgid='ECOLI' frameid='TU0-4702'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6246' orgid='ECOLI' frameid='REG0-6246' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-4941' orgid='ECOLI' frameid='PM0-4941' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>lacZp3</common-name>
+<synonym datatype='string'>lacp3</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>366358</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-1649816' orgid='ECOLI' frameid='PUB-1649816'/></citation>
+<citation><Publication resource='#ECOLI:PUB-8990294' orgid='ECOLI' frameid='PUB-8990294'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-1649816' orgid='ECOLI' frameid='PUB-1649816'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-9509' orgid='ECOLI' frameid='REG0-9509' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-4941' orgid='ECOLI' frameid='PM0-4941'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-6246' orgid='ECOLI' frameid='REG0-6246'/></regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4701' orgid='ECOLI' frameid='TU0-4701'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4714' orgid='ECOLI' frameid='REG0-4714' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM00045' orgid='ECOLI' frameid='PM00045' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>366350</minus-10-left>
+<common-name datatype='string'>lacZp1</common-name>
+<minus-35-right datatype='integer'>366379</minus-35-right>
+<minus-35-left datatype='integer'>366374</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>lacp1</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>366343</absolute-plus-1-pos>
+<comment datatype='string'>&lt;i&gt;lac&lt;/i&gt; operon expression was studied during diauxic shift; although it was supposed to be under &amp;sigma;&lt;sup&gt;S&lt;/sup&gt; control (as &amp;sigma;&lt;sup&gt;S&lt;/sup&gt; is the main sigma factor for cell adaptation during this change), no &amp;sigma;&lt;sup&gt;S&lt;/sup&gt; site has been found in this promoter, nor is there a reported correlation of &lt;i&gt;lac&lt;/i&gt; expression with &amp;sigma;&lt;sup&gt;S&lt;/sup&gt; WT or deleted [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/9829928&quot;&gt;Fischer98&lt;/a&gt;].
+&lt;p&gt;
+Insulation of the &lt;i&gt;lac&lt;/i&gt; promoter was tested by Sasson et al. in 2012 [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/22633488&quot;&gt;Sasson12&lt;/a&gt;]. In that study, activators showed better insulation at high expression levels and repressors showed better insulation at low expression levels, following Savageau's rule,  in which &lt;i&gt;Escherichia coli&lt;/i&gt; genes that are needed often in the natural environment tend to be regulated by activators and those genes that are rarely needed are regulated by repressors [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/4601590&quot;&gt;Savageau74&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/22633488&quot;&gt;Sasson12&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-2582140' orgid='ECOLI' frameid='PUB-2582140' detail='full'><source datatype='string'>J Mol Biol 182(2);241-8</source>
+<pubmed-id datatype='string'>2582140</pubmed-id>
+<title datatype='string'>The 5' ends of Escherichia coli lac mRNA.</title>
+<year datatype='integer'>1985</year>
+<author datatype='string'>Cannistraro VJ</author>
+<author datatype='string'>Kennell D</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-1649816' orgid='ECOLI' frameid='PUB-1649816'/></citation>
+<citation><Publication resource='#ECOLI:PUB-8990294' orgid='ECOLI' frameid='PUB-8990294'/></citation>
+<citation><Publication ID='ECOLI:PUB-29728462' orgid='ECOLI' frameid='PUB-29728462' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 115(21);E4796-E4805</source>
+<pubmed-id datatype='string'>29728462</pubmed-id>
+<title datatype='string'>Systematic approach for dissecting the molecular mechanisms of transcriptional regulation in bacteria.</title>
+<year datatype='integer'>2018</year>
+<author datatype='string'>Belliveau NM</author>
+<author datatype='string'>Barnes SL</author>
+<author datatype='string'>Ireland WT</author>
+<author datatype='string'>Jones DL</author>
+<author datatype='string'>Sweredoski MJ</author>
+<author datatype='string'>Moradian A</author>
+<author datatype='string'>Hess S</author>
+<author datatype='string'>Kinney JB</author>
+<author datatype='string'>Phillips R</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-1649816' orgid='ECOLI' frameid='PUB-1649816'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-13325' orgid='ECOLI' frameid='REG0-13325' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00365' orgid='ECOLI' frameid='PD00365'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00045' orgid='ECOLI' frameid='PM00045'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-9508' orgid='ECOLI' frameid='REG0-9508' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00045' orgid='ECOLI' frameid='PM00045'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4723' orgid='ECOLI' frameid='REG0-4723' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00763' orgid='ECOLI' frameid='PD00763'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00045' orgid='ECOLI' frameid='PM00045'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4722' orgid='ECOLI' frameid='REG0-4722' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00763' orgid='ECOLI' frameid='PD00763'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00045' orgid='ECOLI' frameid='PM00045'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4721' orgid='ECOLI' frameid='REG0-4721' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00763' orgid='ECOLI' frameid='PD00763'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00045' orgid='ECOLI' frameid='PM00045'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4720' orgid='ECOLI' frameid='REG0-4720' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00288' orgid='ECOLI' frameid='PD00288'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00045' orgid='ECOLI' frameid='PM00045'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4719' orgid='ECOLI' frameid='REG0-4719' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00288' orgid='ECOLI' frameid='PD00288'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00045' orgid='ECOLI' frameid='PM00045'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4718' orgid='ECOLI' frameid='REG0-4718' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00288' orgid='ECOLI' frameid='PD00288'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00045' orgid='ECOLI' frameid='PM00045'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4717' orgid='ECOLI' frameid='REG0-4717' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00288' orgid='ECOLI' frameid='PD00288'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00045' orgid='ECOLI' frameid='PM00045'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4716' orgid='ECOLI' frameid='REG0-4716' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00288' orgid='ECOLI' frameid='PD00288'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00045' orgid='ECOLI' frameid='PM00045'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4715' orgid='ECOLI' frameid='REG0-4715' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00288' orgid='ECOLI' frameid='PD00288'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00045' orgid='ECOLI' frameid='PM00045'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-4714' orgid='ECOLI' frameid='REG0-4714'/></regulated-by>
+<minus-10-right datatype='integer'>366355</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU00036' orgid='ECOLI' frameid='TU00036'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-1569008' orgid='ECOLI' frameid='PUB-1569008' detail='full'><source datatype='string'>J Bacteriol 174(9);2763-70</source>
+<pubmed-id datatype='string'>1569008</pubmed-id>
+<title datatype='string'>Promoter elements required for positive control of transcription of the Escherichia coli uhpT gene.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Merkel TJ</author>
+<author datatype='string'>Nelson DM</author>
+<author datatype='string'>Brauer CL</author>
+<author datatype='string'>Kadner RJ</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-3907860' orgid='ECOLI' frameid='PUB-3907860' detail='full'><source datatype='string'>Cell 43(3 Pt 2);769-76</source>
+<pubmed-id datatype='string'>3907860</pubmed-id>
+<title datatype='string'>Entry of RNA polymerase at the lac promoter.</title>
+<year datatype='integer'>1985</year>
+<author datatype='string'>Meiklejohn AL</author>
+<author datatype='string'>Gralla JD</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-1649816' orgid='ECOLI' frameid='PUB-1649816'/></citation>
+<citation><Publication ID='ECOLI:PUB-15385551' orgid='ECOLI' frameid='PUB-15385551' detail='full'><source datatype='string'>J Biol Chem 279(52);54552-7</source>
+<pubmed-id datatype='string'>15385551</pubmed-id>
+<title datatype='string'>lacP1 promoter with an extended -10 motif. Pleiotropic effects of cyclic AMP protein at different steps of transcription initiation.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Liu M</author>
+<author datatype='string'>Garges S</author>
+<author datatype='string'>Adhya S</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-12881519' orgid='ECOLI' frameid='PUB-12881519' detail='full'><source datatype='string'>J Biol Chem 278(41);39755-61</source>
+<pubmed-id datatype='string'>12881519</pubmed-id>
+<title datatype='string'>Kinetics of transcription initiation at lacP1. Multiple roles of cyclic AMP receptor protein.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Liu M</author>
+<author datatype='string'>Gupte G</author>
+<author datatype='string'>Roy S</author>
+<author datatype='string'>Bandwar RP</author>
+<author datatype='string'>Patel SS</author>
+<author datatype='string'>Garges S</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-9737918' orgid='ECOLI' frameid='PUB-9737918' detail='full'><source datatype='string'>J Mol Biol 282(3);495-504</source>
+<pubmed-id datatype='string'>9737918</pubmed-id>
+<title datatype='string'>CAP, the -45 region, and RNA polymerase: three partners in transcription initiation at lacP1 in Escherichia coli.</title>
+<year datatype='integer'>1998</year>
+<author datatype='string'>Noel RJ</author>
+<author datatype='string'>Reznikoff WS</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-16934214' orgid='ECOLI' frameid='PUB-16934214' detail='full'><source datatype='string'>Arch Biochem Biophys 453(2);217-23</source>
+<pubmed-id datatype='string'>16934214</pubmed-id>
+<title datatype='string'>Effect of salt bridge on transcription activation of CRP-dependent lactose operon in Escherichia coli.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Tutar Y</author>
+<author datatype='string'>Harman JG</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-29728462' orgid='ECOLI' frameid='PUB-29728462'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8990294' orgid='ECOLI' frameid='PUB-8990294'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Site mutation</common-name>
+<comment datatype='string'>A cis-mutation in the DNA sequence of the transcription-factor binding site interferes with the operation of the regulatory function. This is considered  strong evidence for the existence and functional role of the DNA binding site.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1649816' orgid='ECOLI' frameid='PUB-1649816'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16934214' orgid='ECOLI' frameid='PUB-16934214'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-29728462' orgid='ECOLI' frameid='PUB-29728462'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' class='true'/><Publication resource='#ECOLI:PUB-29728462' orgid='ECOLI' frameid='PUB-29728462'/></evidence>
+<abs-center-pos datatype='float'>366404.5</abs-center-pos>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU00036' orgid='ECOLI' frameid='TU00036'/><Transcription-Unit resource='#ECOLI:TU0-4701' orgid='ECOLI' frameid='TU0-4701'/><Transcription-Unit resource='getxml?ECOLI:TU0-4702' orgid='ECOLI' frameid='TU0-4702'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10524' orgid='ECOLI' frameid='EG10524'/></component>
+<component><Gene resource='getxml?ECOLI:EG10526' orgid='ECOLI' frameid='EG10526'/></component>
+<component><Gene resource='getxml?ECOLI:EG10527' orgid='ECOLI' frameid='EG10527'/></component>
+<component><Promoter resource='#ECOLI:PM0-4941' orgid='ECOLI' frameid='PM0-4941'/></component>
+</Transcription-Unit>
+</ptools-xml>

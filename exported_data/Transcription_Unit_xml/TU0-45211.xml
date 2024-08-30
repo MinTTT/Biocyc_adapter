@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-45211'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-45211</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-45211' orgid='ECOLI' frameid='TU0-45211' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>murQP</common-name>
+<comment datatype='string'>&lt;i&gt;murR&lt;/i&gt; and &lt;i&gt;murQ&lt;/i&gt; are divergently orientated and expressed from nonoverlapping face-to-face (convergent) promoters, and their transcripts are complementary at the 5' end. CRP controls positively &lt;i&gt;murQP&lt;/i&gt; expression and it also may affect &lt;i&gt;murR&lt;/i&gt; transcription as a consequence of this unusual promoter arrangement (face-to-face) [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/18723630&quot;&gt;Jaeger08&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-18723630' orgid='ECOLI' frameid='PUB-18723630' detail='full'><source datatype='string'>J Bacteriol 190(20);6598-608</source>
+<pubmed-id datatype='string'>18723630</pubmed-id>
+<title datatype='string'>The transcriptional factors MurR and catabolite activator protein regulate N-acetylmuramic acid catabolism in Escherichia coli.</title>
+<year datatype='integer'>2008</year>
+<author datatype='string'>Jaeger T</author>
+<author datatype='string'>Mayer C</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-IC-ADJ-GENES-SAME-BIO-PROCESS' orgid='ECOLI' frameid='EV-IC-ADJ-GENES-SAME-BIO-PROCESS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' class='true'/></parent>
+<common-name datatype='string'>Products of adjacent genes in the same biological process</common-name>
+<comment datatype='string'>A transcription unit is inferred because there is a set of adjacent genes,
+encoded in the same direction, coding for products that participate in the
+same metabolic pathway or biological process. Sometimes, these genes code
+for subunits of the same protein.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-18723630' orgid='ECOLI' frameid='PUB-18723630'/></evidence>
+<component><Gene resource='getxml?ECOLI:G7264' orgid='ECOLI' frameid='G7264'/></component>
+<component><Gene resource='getxml?ECOLI:G7263' orgid='ECOLI' frameid='G7263'/></component>
+<component><Promoter ID='ECOLI:PM0-46511' orgid='ECOLI' frameid='PM0-46511' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>2545718</minus-10-left>
+<common-name datatype='string'>murQp</common-name>
+<minus-35-right datatype='integer'>2545703</minus-35-right>
+<minus-35-left datatype='integer'>2545698</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2545733</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-18723630' orgid='ECOLI' frameid='PUB-18723630'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-18723630' orgid='ECOLI' frameid='PUB-18723630'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-14969' orgid='ECOLI' frameid='REG0-14969' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7745' orgid='ECOLI' frameid='CPLX0-7745'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46511' orgid='ECOLI' frameid='PM0-46511'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-14968' orgid='ECOLI' frameid='REG0-14968' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46511' orgid='ECOLI' frameid='PM0-46511'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-14967' orgid='ECOLI' frameid='REG0-14967' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7745' orgid='ECOLI' frameid='CPLX0-7745'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46511' orgid='ECOLI' frameid='PM0-46511'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>2545728</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-45211' orgid='ECOLI' frameid='TU0-45211'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

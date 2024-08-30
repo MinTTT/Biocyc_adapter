@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00360'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00360</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00360' orgid='ECOLI' frameid='TU00360' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>speF-potE</common-name>
+<citation><Publication ID='ECOLI:PUB-1939141' orgid='ECOLI' frameid='PUB-1939141' detail='full'><source datatype='string'>J Biol Chem 266(31);20922-7</source>
+<pubmed-id datatype='string'>1939141</pubmed-id>
+<title datatype='string'>Coexistence of the genes for putrescine transport protein and ornithine decarboxylase at 16 min on Escherichia coli chromosome.</title>
+<year datatype='integer'>1991</year>
+<author datatype='string'>Kashiwagi K</author>
+<author datatype='string'>Suzuki T</author>
+<author datatype='string'>Suzuki F</author>
+<author datatype='string'>Furuchi T</author>
+<author datatype='string'>Kobayashi H</author>
+<author datatype='string'>Igarashi K</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1939141' orgid='ECOLI' frameid='PUB-1939141'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-13111' orgid='ECOLI' frameid='REG0-13111' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8285' orgid='ECOLI' frameid='CPLX0-8285'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU00360' orgid='ECOLI' frameid='TU00360'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component><Gene resource='getxml?ECOLI:G0-17074' orgid='ECOLI' frameid='G0-17074'/></component>
+<component><Gene resource='getxml?ECOLI:EG10753' orgid='ECOLI' frameid='EG10753'/></component>
+<component><Gene resource='getxml?ECOLI:EG10964' orgid='ECOLI' frameid='EG10964'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-13618'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-13618</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-13618' orgid='ECOLI' frameid='TU0-13618' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>pdeA</common-name>
+<comment datatype='string'>Base on a &amp;sigma;&lt;sup&gt;S&lt;/sup&gt;-deficient &lt;i&gt;rpoS&lt;/i&gt; mutant background, &lt;i&gt;yfeA&lt;/i&gt; is under the significant negative control of &lt;i&gt;rpoS&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/19332833&quot;&gt;Sommerfeldt09&lt;/a&gt;]. This negative control is most  likely due to increased formation of a vegetative or other alternative RNAP holoenzyme in the absence of competition of &amp;sigma;&lt;sup&gt;S&lt;/sup&gt; with the other sigma factors [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/19332833&quot;&gt;Sommerfeldt09&lt;/a&gt;]. This suggests that &amp;sigma;&lt;sup&gt;S&lt;/sup&gt; might control &lt;i&gt;yfeA&lt;/i&gt; expression indirectly.</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><Gene resource='getxml?ECOLI:EG11145' orgid='ECOLI' frameid='EG11145'/></component>
+</Transcription-Unit>
+</ptools-xml>

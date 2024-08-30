@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-13677'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-13677</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-13677' orgid='ECOLI' frameid='TU0-13677' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>raiAZ</common-name>
+<comment datatype='string'>Analysis of gene expression has proved that under NlpE lipoprotein overexpression, the presence of the protein CpxR causes increased transcription of the &lt;i&gt;raiA&lt;/i&gt; gene; however, no DNA sequence related to the consensus DNA-binding site of CpxR has been identified in the regulatory region of the gene. Therefore, the effect of CpxR on &lt;i&gt;raiA&lt;/i&gt; is probably indirect [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23564175&quot;&gt;Raivio13&lt;/a&gt;].
+&lt;p&gt;
+&lt;i&gt;raiA&lt;/i&gt;p expression is increased during the transition from exponential- to stationary-phase growth [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/2181444&quot;&gt;Wada90&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/11168583&quot;&gt;Maki00&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23475967&quot;&gt;Shimada13&lt;/a&gt;] and decreased after &amp;sigma;E induction, as observed in high-throughput analysis of gene expression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31992590&quot;&gt;Lacoux20&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><Gene resource='getxml?ECOLI:G0-17078' orgid='ECOLI' frameid='G0-17078'/></component>
+<component><Terminator ID='ECOLI:TERM0-1255' orgid='ECOLI' frameid='TERM0-1255' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>2737552</right-end-position>
+<left-end-position datatype='integer'>2737498</left-end-position>
+<citation><Publication ID='ECOLI:PUB-11522828' orgid='ECOLI' frameid='PUB-11522828' detail='full'><source datatype='string'>Nucleic Acids Res 29(17);3583-94</source>
+<pubmed-id datatype='string'>11522828</pubmed-id>
+<title datatype='string'>Prediction of rho-independent transcriptional terminators in Escherichia coli.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Lesnik EA</author>
+<author datatype='string'>Sampath R</author>
+<author datatype='string'>Levene HB</author>
+<author datatype='string'>Henderson TJ</author>
+<author datatype='string'>McNeil JA</author>
+<author datatype='string'>Ecker DJ</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-30247625' orgid='ECOLI' frameid='PUB-30247625' detail='full'><source datatype='string'>Bioinformatics 35(9);1469-1477</source>
+<pubmed-id datatype='string'>30247625</pubmed-id>
+<title datatype='string'>iTerm-PseKNC: a sequence-based tool for predicting bacterial transcriptional terminators.</title>
+<year datatype='integer'>2019</year>
+<author datatype='string'>Feng CQ</author>
+<author datatype='string'>Zhang ZY</author>
+<author datatype='string'>Zhu XJ</author>
+<author datatype='string'>Lin Y</author>
+<author datatype='string'>Chen W</author>
+<author datatype='string'>Tang H</author>
+<author datatype='string'>Lin H</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-13677' orgid='ECOLI' frameid='TU0-13677'/></component-of>
+</Terminator>
+</component>
+<component><Promoter ID='ECOLI:PM0-9839' orgid='ECOLI' frameid='PM0-9839' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>raiAp</common-name>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOH-MONOMER' orgid='ECOLI' frameid='RPOH-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2737104</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-16892065' orgid='ECOLI' frameid='PUB-16892065' detail='full'><source datatype='string'>Nat Struct Mol Biol 13(9);806-14</source>
+<pubmed-id datatype='string'>16892065</pubmed-id>
+<title datatype='string'>Extensive functional overlap between sigma factors in Escherichia coli.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Wade JT</author>
+<author datatype='string'>Roa DC</author>
+<author datatype='string'>Grainger DC</author>
+<author datatype='string'>Hurd D</author>
+<author datatype='string'>Busby SJ</author>
+<author datatype='string'>Struhl K</author>
+<author datatype='string'>Nudler E</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16892065' orgid='ECOLI' frameid='PUB-16892065'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from direct assay</common-name>
+<comment datatype='string'>IDA inferred from direct assay.
+
+&lt;br&gt;
+The assertion was inferred from a direct experimental assay such as
+&lt;ul&gt;
+    &lt;li&gt; Enzyme assays
+    &lt;li&gt; In vitro reconstitution (e.g. transcription)
+    &lt;li&gt; Immunofluorescence
+    &lt;li&gt; Cell fractionation
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16892065' orgid='ECOLI' frameid='PUB-16892065'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11824' orgid='ECOLI' frameid='REG0-11824' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-9839' orgid='ECOLI' frameid='PM0-9839'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-13677' orgid='ECOLI' frameid='TU0-13677'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11151' orgid='ECOLI' frameid='EG11151'/></component>
+</Transcription-Unit>
+</ptools-xml>

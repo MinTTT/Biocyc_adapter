@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-13001'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-13001</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-13001' orgid='ECOLI' frameid='TU0-13001' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>cspE</common-name>
+<comment datatype='string'>The &lt;i&gt;cspE&lt;/i&gt; gene is constitutively expressed at 37&amp;deg;C and is induced about threefold at both the transcript and the protein levels in response to cold shock. &lt;i&gt;cspE&lt;/i&gt; is also regulated at the posttranscriptional level by RNAse E and temperature-dependent UTR secondary structures [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/18177308&quot;&gt;Uppal08&lt;/a&gt;]. 
+&lt;p&gt;
+Previously, &lt;i&gt;cspE&lt;/i&gt; was shown to be involved in the regulation of the expression of some cold-induced genes [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16547039&quot;&gt;Phadtare06&lt;/a&gt;]; in particular, it might play an important role in the early stages of cold adaptation [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/18177308&quot;&gt;Uppal08&lt;/a&gt;].
+&lt;p&gt;
+The mRNA produced by the  &lt;i&gt;cspE&lt;/i&gt; gene has been observed mainly in the poles of the cell [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31540875&quot;&gt;Kannaiah19&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-18177308' orgid='ECOLI' frameid='PUB-18177308' detail='full'><source datatype='string'>FEMS Microbiol Lett 279(1);83-91</source>
+<pubmed-id datatype='string'>18177308</pubmed-id>
+<title datatype='string'>Posttranscriptional regulation of cspE in Escherichia coli: involvement of the short 5'-untranslated region.</title>
+<year datatype='integer'>2008</year>
+<author datatype='string'>Uppal S</author>
+<author datatype='string'>Akkipeddi VS</author>
+<author datatype='string'>Jawali N</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-18177308' orgid='ECOLI' frameid='PUB-18177308'/></evidence>
+<component><Promoter ID='ECOLI:PM0-9885' orgid='ECOLI' frameid='PM0-9885' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>657239</minus-10-left>
+<common-name datatype='string'>cspEp2</common-name>
+<minus-35-right datatype='integer'>657219</minus-35-right>
+<minus-35-left datatype='integer'>657214</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>657250</absolute-plus-1-pos>
+<comment datatype='string'>cspEp2 has two transcription start sites (656472 and 656473, absolute position in the genome), which were identified at 37 and 15&amp;deg;C [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/18177308&quot;&gt;Uppal08&lt;/a&gt;].</comment>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/><Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-18177308' orgid='ECOLI' frameid='PUB-18177308'/></citation>
+<citation><Publication resource='#ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-18177308' orgid='ECOLI' frameid='PUB-18177308'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference of promoter position</common-name>
+<comment datatype='string'>Automated inference of promoter position relative to the -10 and -35 boxes.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11310' orgid='ECOLI' frameid='REG0-11310' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-9885' orgid='ECOLI' frameid='PM0-9885'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>657244</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-13001' orgid='ECOLI' frameid='TU0-13001'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG12179' orgid='ECOLI' frameid='EG12179'/></component>
+</Transcription-Unit>
+</ptools-xml>

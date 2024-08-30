@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-4924'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-4924</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-4924' orgid='ECOLI' frameid='TU0-4924' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>idnR</common-name>
+<comment datatype='string'>The &lt;i&gt;idnR&lt;/i&gt; gene is the last of the &lt;i&gt;idnDOTR&lt;/i&gt; operon. The whole operon is transcribed from a single promoter. However, most of the expression of &lt;i&gt;idnR&lt;/i&gt; comes from its own internal promoter, idnRp, which is constitutive.</comment>
+<citation><Publication ID='ECOLI:PUB-14973046' orgid='ECOLI' frameid='PUB-14973046' detail='full'><source datatype='string'>J Bacteriol 186(5);1388-97</source>
+<pubmed-id datatype='string'>14973046</pubmed-id>
+<title datatype='string'>Transcriptional organization and regulation of the L-idonic acid pathway (GntII system) in Escherichia coli.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Bausch C</author>
+<author datatype='string'>Ramsey M</author>
+<author datatype='string'>Conway T</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-12618441' orgid='ECOLI' frameid='PUB-12618441' detail='full'><source datatype='string'>J Bacteriol 185(6);1783-95</source>
+<pubmed-id datatype='string'>12618441</pubmed-id>
+<title datatype='string'>The activator of GntII genes for gluconate metabolism, GntH, exerts negative control of GntR-regulated GntI genes in Escherichia coli.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Tsunedomi R</author>
+<author datatype='string'>Izu H</author>
+<author datatype='string'>Kawai T</author>
+<author datatype='string'>Matsushita K</author>
+<author datatype='string'>Ferenci T</author>
+<author datatype='string'>Yamada M</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-14973046' orgid='ECOLI' frameid='PUB-14973046'/></evidence>
+<component><Promoter ID='ECOLI:PM0-5164' orgid='ECOLI' frameid='PM0-5164' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>4491187</minus-10-left>
+<common-name datatype='string'>idnRp</common-name>
+<minus-35-right datatype='integer'>4491214</minus-35-right>
+<minus-35-left datatype='integer'>4491209</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4491182</absolute-plus-1-pos>
+<comment datatype='string'>A possible promoter, TTGCACX16TGTGAT, corresponding to -35 and -10 sequences, exists at position 
+48 upstream of the initiation codon (Tsunedomi Y, 2003).</comment>
+<citation><Publication resource='#ECOLI:PUB-12618441' orgid='ECOLI' frameid='PUB-12618441'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference of promoter position</common-name>
+<comment datatype='string'>Automated inference of promoter position relative to the -10 and -35 boxes.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12618441' orgid='ECOLI' frameid='PUB-12618441'/></evidence>
+<minus-10-right datatype='integer'>4491192</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4924' orgid='ECOLI' frameid='TU0-4924'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:G7891' orgid='ECOLI' frameid='G7891'/></component>
+</Transcription-Unit>
+</ptools-xml>

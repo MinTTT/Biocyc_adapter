@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00334'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00334</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00334' orgid='ECOLI' frameid='TU00334' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rph-pyrE</common-name>
+<citation><Publication ID='ECOLI:PUB-1375912' orgid='ECOLI' frameid='PUB-1375912' detail='full'><source datatype='string'>Eur J Biochem 206(2);381-90</source>
+<pubmed-id datatype='string'>1375912</pubmed-id>
+<title datatype='string'>Attenuation in the rph-pyrE operon of Escherichia coli and processing of the dicistronic mRNA.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Andersen JT</author>
+<author datatype='string'>Poulsen P</author>
+<author datatype='string'>Jensen KF</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8501045' orgid='ECOLI' frameid='PUB-8501045' detail='full'><source datatype='string'>J Bacteriol 175(11);3401-7</source>
+<pubmed-id datatype='string'>8501045</pubmed-id>
+<title datatype='string'>The Escherichia coli K-12 &quot;wild types&quot; W3110 and MG1655 have an rph frameshift mutation that leads to pyrimidine starvation due to low pyrE expression levels.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>Jensen KF</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-6207018' orgid='ECOLI' frameid='PUB-6207018' detail='full'><source datatype='string'>EMBO J 3(8);1783-90</source>
+<pubmed-id datatype='string'>6207018</pubmed-id>
+<title datatype='string'>Structure of the Escherichia coli pyrE operon and control of pyrE expression by a UTP modulated intercistronic attentuation.</title>
+<year datatype='integer'>1984</year>
+<author datatype='string'>Poulsen P</author>
+<author datatype='string'>Bonekamp F</author>
+<author datatype='string'>Jensen KF</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Inferred through co-regulation</common-name>
+<comment datatype='string'>Inferred through co-regulation.  A transcription unit is inferred because a set of 
+adjacent genes that are transcribed in the same direction exhibit similar
+expression patterns under a range of environmental conditions.
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6207018' orgid='ECOLI' frameid='PUB-6207018'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1375912' orgid='ECOLI' frameid='PUB-1375912'/></evidence>
+<component><Terminator ID='ECOLI:TERM0-1151' orgid='ECOLI' frameid='TERM0-1151' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3815119</right-end-position>
+<left-end-position datatype='integer'>3815096</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-1375912' orgid='ECOLI' frameid='PUB-1375912'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU00334' orgid='ECOLI' frameid='TU00334'/></component-of>
+</Terminator>
+</component>
+<component><Promoter ID='ECOLI:PM00455' orgid='ECOLI' frameid='PM00455' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>rphp</common-name>
+<synonym datatype='string'>pyrEp1</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3816580</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-6207018' orgid='ECOLI' frameid='PUB-6207018'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6207018' orgid='ECOLI' frameid='PUB-6207018'/></evidence>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-14696' orgid='ECOLI' frameid='TU0-14696'/><Transcription-Unit resource='#ECOLI:TU00334' orgid='ECOLI' frameid='TU00334'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10808' orgid='ECOLI' frameid='EG10808'/></component>
+<component><Gene resource='getxml?ECOLI:EG10863' orgid='ECOLI' frameid='EG10863'/></component>
+</Transcription-Unit>
+</ptools-xml>

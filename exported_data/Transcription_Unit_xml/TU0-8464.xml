@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8464'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8464</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8464' orgid='ECOLI' frameid='TU0-8464' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rplL</common-name>
+<comment datatype='string'>Due to the attenuator identified between the &lt;i&gt;rplL&lt;/i&gt; and &lt;i&gt;rpoB&lt;/i&gt; genes, and its weak promoter, rplLp, the transcription rate of this transciption unit (&lt;i&gt;rpoBC&lt;/i&gt;) is very low  [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/6325390&quot;&gt;Ralling84&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-6325390' orgid='ECOLI' frameid='PUB-6325390' detail='full'><source datatype='string'>J Bacteriol 158(1);279-85</source>
+<pubmed-id datatype='string'>6325390</pubmed-id>
+<title datatype='string'>Relative activities of the transcriptional regulatory sites in the rplKAJLrpoBC gene cluster of Escherichia coli.</title>
+<year datatype='integer'>1984</year>
+<author datatype='string'>Ralling G</author>
+<author datatype='string'>Linn T</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6325390' orgid='ECOLI' frameid='PUB-6325390'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG10873' orgid='ECOLI' frameid='EG10873'/></component>
+<component><Promoter ID='ECOLI:PM0-8900' orgid='ECOLI' frameid='PM0-8900' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rplLp</common-name>
+<comment datatype='string'>rplLp is a weak promoter; it is only 8% as effective as the rplJp promoter [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/6325390&quot;&gt;Ralling84&lt;/a&gt;].</comment>
+<citation><Publication resource='#ECOLI:PUB-6325390' orgid='ECOLI' frameid='PUB-6325390'/></citation>
+<citation><Publication ID='ECOLI:PUB-16862137' orgid='ECOLI' frameid='PUB-16862137' detail='full'><source datatype='string'>Nat Methods 3(8);623-8</source>
+<pubmed-id datatype='string'>16862137</pubmed-id>
+<title datatype='string'>A comprehensive library of fluorescent transcriptional reporters for Escherichia coli.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Zaslaver A</author>
+<author datatype='string'>Bren A</author>
+<author datatype='string'>Ronen M</author>
+<author datatype='string'>Itzkovitz S</author>
+<author datatype='string'>Kikoin I</author>
+<author datatype='string'>Shavit S</author>
+<author datatype='string'>Liebermeister W</author>
+<author datatype='string'>Surette MG</author>
+<author datatype='string'>Alon U</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from mutant phenotype</common-name>
+<comment datatype='string'>IMP inferred from mutant phenotype.
+
+&lt;br&gt;
+The assertion was inferred from a mutant phenotype such as
+&lt;ul&gt;
+    &lt;li&gt; Any gene mutation/knockout
+    &lt;li&gt; Overexpression/ectopic expression of wild-type or mutant genes
+    &lt;li&gt; Anti-sense experiments
+    &lt;li&gt; RNA interference experiments
+    &lt;li&gt; Specific protein inhibitors
+    &lt;li&gt; Complementation
+&lt;/ul&gt;&lt;p class=ecocomment&gt;	
+Comment: Inferences made from examining mutations or
+abnormal levels of only the product(s) of the gene of interest are covered by code EV-IMP
+(compare to code EV-IGI). Use this code for experiments that use antibodies 
+or other specific inhibitors of RNA or protein activity, even though no
+gene may be mutated (the rationale is that EV-IMP is used where an
+abnormal situation prevails in a cell or organism).
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6325390' orgid='ECOLI' frameid='PUB-6325390'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16862137' orgid='ECOLI' frameid='PUB-16862137'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8464' orgid='ECOLI' frameid='TU0-8464'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

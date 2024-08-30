@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-7804'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-7804</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-7804' orgid='ECOLI' frameid='TU0-7804' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rob</common-name>
+<comment datatype='string'>RpoS is involved in the transcription of the &lt;i&gt;rob&lt;/i&gt; gene, but it appears that another &amp;sigma; factor, probably &amp;sigma;&lt;sup&gt;70&lt;/sup&gt; also regulates &lt;i&gt;rob&lt;/i&gt; expression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/7476863&quot;&gt;Kakeda95&lt;/a&gt;]. 
+&lt;p&gt;
+The &lt;i&gt;rob&lt;/i&gt; gene is expressed predominantly in the stationary phase [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/7476863&quot;&gt;Kakeda95&lt;/a&gt;]. In addition, it was proved in an experiment with increasing concentrations of the tetracycline antibiotic that &lt;i&gt;rob&lt;/i&gt; gene expression was induced in low concentrations (1.5 and 4 mg/L) but not in high ones (10 mg/L); this suggests that the product of this gene plays a role under this condition [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/17426813&quot;&gt;Viveiros07&lt;/a&gt;]. The &lt;i&gt;rob&lt;/i&gt; gene  is also induced in the presence of norfloxacin  [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/32561799&quot;&gt;ReyesFernandez20&lt;/a&gt;].
+&lt;p&gt;
+
+Decanoate represses the &lt;i&gt;rob&lt;/i&gt;p promoter independently of Rob [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/22753060&quot;&gt;Chubiz12&lt;/a&gt;]. Rob does not directly bind salicylate; instead, salicylate may regulate Rob at the transcriptional level [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/22753060&quot;&gt;Chubiz12&lt;/a&gt;]. Salicylate activates the &lt;i&gt;rob&lt;/i&gt; promoter independently of the &lt;i&gt;marRAB&lt;/i&gt; operon [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/22753060&quot;&gt;Chubiz12&lt;/a&gt;].
+</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SINGLE-DIRECTON' orgid='ECOLI' frameid='EV-COMP-AINF-SINGLE-DIRECTON' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference that a single-gene directon is a transcription unit </common-name>
+<comment datatype='string'>Automated inference of transcription unit based on single-gene directon.  Existence of a single-gene transcription unit 
+for gene G is inferred computationally by the existence of upstream and downstream genes transcribed in the 
+opposite direction of G.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-16478729' orgid='ECOLI' frameid='PUB-16478729' detail='full'><source datatype='string'>J Biol Chem 281(15);10049-55</source>
+<pubmed-id datatype='string'>16478729</pubmed-id>
+<title datatype='string'>MarA-mediated transcriptional repression of the rob promoter.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Schneiders T</author>
+<author datatype='string'>Levy SB</author>
+<doi-id datatype='string'>10.1074/jbc.M512097200</doi-id>
+</Publication>
+</evidence>
+<component><DNA-Binding-Site ID='ECOLI:BS-7077' orgid='ECOLI' frameid='BS-7077' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6065' orgid='ECOLI' frameid='REG0-6065' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00365' orgid='ECOLI' frameid='PD00365'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-8184' orgid='ECOLI' frameid='PM0-8184' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>robp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4635353</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-16478729' orgid='ECOLI' frameid='PUB-16478729'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16478729' orgid='ECOLI' frameid='PUB-16478729'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11567' orgid='ECOLI' frameid='REG0-11567' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00406' orgid='ECOLI' frameid='PD00406'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-8184' orgid='ECOLI' frameid='PM0-8184'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11566' orgid='ECOLI' frameid='REG0-11566' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD04418' orgid='ECOLI' frameid='PD04418'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-8184' orgid='ECOLI' frameid='PM0-8184'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-6065' orgid='ECOLI' frameid='REG0-6065'/></regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-7804' orgid='ECOLI' frameid='TU0-7804'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<comment datatype='string'>MarA represses &lt;i&gt;rob&lt;/i&gt; by steric hindrance [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/20453091&quot;&gt;McMurry10&lt;/a&gt;]. This mar box has a backward orientation [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/20453091&quot;&gt;McMurry10&lt;/a&gt;].</comment>
+<citation><Publication resource='#ECOLI:PUB-16478729' orgid='ECOLI' frameid='PUB-16478729'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16478729' orgid='ECOLI' frameid='PUB-16478729'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16478729' orgid='ECOLI' frameid='PUB-16478729'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Site mutation</common-name>
+<comment datatype='string'>A cis-mutation in the DNA sequence of the transcription-factor binding site interferes with the operation of the regulatory function. This is considered  strong evidence for the existence and functional role of the DNA binding site.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16478729' orgid='ECOLI' frameid='PUB-16478729'/></evidence>
+<abs-center-pos datatype='integer'>4635373</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-7804' orgid='ECOLI' frameid='TU0-7804'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11366' orgid='ECOLI' frameid='EG11366'/></component>
+<component><Promoter resource='#ECOLI:PM0-8184' orgid='ECOLI' frameid='PM0-8184'/></component>
+</Transcription-Unit>
+</ptools-xml>

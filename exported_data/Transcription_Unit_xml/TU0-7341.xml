@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-7341'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-7341</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-7341' orgid='ECOLI' frameid='TU0-7341' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rpiA</common-name>
+<comment datatype='string'>A potential RNA G-quadruplex structure, formed by guanine-rich sequences located in the coding sequence region of the gene, was identified  for &lt;i&gt;rpiA&lt;/i&gt;. This structure  could regulate the expression of the gene, as observed for &lt;i&gt;hemL&lt;/i&gt; gene expression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31964733&quot;&gt;Shao20&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-8366047' orgid='ECOLI' frameid='PUB-8366047' detail='full'><source datatype='string'>J Bacteriol 175(17);5628-35</source>
+<pubmed-id datatype='string'>8366047</pubmed-id>
+<title datatype='string'>Escherichia coli rpiA gene encoding ribose phosphate isomerase A.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>Hove-Jensen B</author>
+<author datatype='string'>Maigaard M</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8366047' orgid='ECOLI' frameid='PUB-8366047'/></evidence>
+<component><Terminator ID='ECOLI:TERM0661' orgid='ECOLI' frameid='TERM0661' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Dependent-Terminators' orgid='ECOLI' frameid='Rho-Dependent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3058660</right-end-position>
+<left-end-position datatype='integer'>3058644</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-8366047' orgid='ECOLI' frameid='PUB-8366047'/></citation>
+<citation><Publication ID='ECOLI:PUB-29669055' orgid='ECOLI' frameid='PUB-29669055' detail='full'><source datatype='string'>Nucleic Acids Res 46(13);6797-6805</source>
+<pubmed-id datatype='string'>29669055</pubmed-id>
+<title datatype='string'>High-resolution RNA 3'-ends mapping of bacterial Rho-dependent transcripts.</title>
+<year datatype='integer'>2018</year>
+<author datatype='string'>Dar D</author>
+<author datatype='string'>Sorek R</author>
+<doi-id datatype='string'>10.1093/nar/gky274</doi-id>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-7341' orgid='ECOLI' frameid='TU0-7341'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11443' orgid='ECOLI' frameid='EG11443'/></component>
+<component><Promoter ID='ECOLI:PM0-7681' orgid='ECOLI' frameid='PM0-7681' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>rpiAp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3059353</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-8366047' orgid='ECOLI' frameid='PUB-8366047'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8366047' orgid='ECOLI' frameid='PUB-8366047'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-7341' orgid='ECOLI' frameid='TU0-7341'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

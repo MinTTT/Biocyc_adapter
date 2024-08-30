@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-4562'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-4562</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-4562' orgid='ECOLI' frameid='TU0-4562' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>dcuB-fumB</common-name>
+<comment datatype='string'>Cross-regulation of &lt;i&gt;dcuB&lt;/i&gt; occurs also on the level of transcriptional regulation of the target operons, as expression of &lt;i&gt;dcuB&lt;/i&gt;, encoding the fumarate:succinate antiporter, is activated by both TtdR and DcuR, in response to L-tartrate and fumarate respectively [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/19661178&quot;&gt;Kim09&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/22101843&quot;&gt;Scheu12&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-14996819' orgid='ECOLI' frameid='PUB-14996819' detail='full'><source datatype='string'>J Bacteriol 186(6);1879-89</source>
+<pubmed-id datatype='string'>14996819</pubmed-id>
+<title datatype='string'>DNA interaction and phosphotransfer of the C4-dicarboxylate-responsive DcuS-DcuR two-component regulatory system from Escherichia coli.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Abo-Amer AE</author>
+<author datatype='string'>Munn J</author>
+<author datatype='string'>Jackson K</author>
+<author datatype='string'>Aktas M</author>
+<author datatype='string'>Golby P</author>
+<author datatype='string'>Kelly DJ</author>
+<author datatype='string'>Andrews SC</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-9852003' orgid='ECOLI' frameid='PUB-9852003' detail='full'><source datatype='string'>J Bacteriol 180(24);6586-96</source>
+<pubmed-id datatype='string'>9852003</pubmed-id>
+<title datatype='string'>Transcriptional regulation and organization of the dcuA and dcuB genes, encoding homologous anaerobic C4-dicarboxylate transporters in Escherichia coli.</title>
+<year datatype='integer'>1998</year>
+<author datatype='string'>Golby P</author>
+<author datatype='string'>Kelly DJ</author>
+<author datatype='string'>Guest JR</author>
+<author datatype='string'>Andrews SC</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+</evidence>
+<component><Terminator ID='ECOLI:TERM64' orgid='ECOLI' frameid='TERM64' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>4345650</right-end-position>
+<left-end-position datatype='integer'>4345631</left-end-position>
+<citation><Publication ID='ECOLI:PUB-2656658' orgid='ECOLI' frameid='PUB-2656658' detail='full'><source datatype='string'>J Bacteriol 171(6);3494-503</source>
+<pubmed-id datatype='string'>2656658</pubmed-id>
+<title datatype='string'>Nucleotide sequence of the FNR-regulated fumarase gene (fumB) of Escherichia coli K-12.</title>
+<year datatype='integer'>1989</year>
+<author datatype='string'>Bell PJ</author>
+<author datatype='string'>Andrews SC</author>
+<author datatype='string'>Sivak MN</author>
+<author datatype='string'>Guest JR</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU00468' orgid='ECOLI' frameid='TU00468'/><Transcription-Unit resource='#ECOLI:TU0-4562' orgid='ECOLI' frameid='TU0-4562'/><Transcription-Unit resource='getxml?ECOLI:TU00159' orgid='ECOLI' frameid='TU00159'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10357' orgid='ECOLI' frameid='EG10357'/></component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-3441' orgid='ECOLI' frameid='BS0-3441' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6229' orgid='ECOLI' frameid='REG0-6229' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7721' orgid='ECOLI' frameid='CPLX0-7721'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-4802' orgid='ECOLI' frameid='PM0-4802' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>dcuBp2</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4349091</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-14996819' orgid='ECOLI' frameid='PUB-14996819'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-14996819' orgid='ECOLI' frameid='PUB-14996819'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-9589' orgid='ECOLI' frameid='REG0-9589' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7721' orgid='ECOLI' frameid='CPLX0-7721'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-4802' orgid='ECOLI' frameid='PM0-4802'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-6229' orgid='ECOLI' frameid='REG0-6229'/></regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4562' orgid='ECOLI' frameid='TU0-4562'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-14996819' orgid='ECOLI' frameid='PUB-14996819'/></citation>
+<citation><Publication ID='ECOLI:PUB-15073297' orgid='ECOLI' frameid='PUB-15073297' detail='full'><source datatype='string'>Microbiology 150(Pt 4);877-83</source>
+<pubmed-id datatype='string'>15073297</pubmed-id>
+<title datatype='string'>Phosphorylation and DNA binding of the regulator DcuR of the fumarate-responsive two-component system DcuSR of Escherichia coli.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Janausch IG</author>
+<author datatype='string'>Garcia-Moreno I</author>
+<author datatype='string'>Lehnen D</author>
+<author datatype='string'>Zeuner Y</author>
+<author datatype='string'>Unden G</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15073297' orgid='ECOLI' frameid='PUB-15073297'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-14996819' orgid='ECOLI' frameid='PUB-14996819'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication ID='ECOLI:PUB-22101843' orgid='ECOLI' frameid='PUB-22101843' detail='full'><source datatype='string'>J Bacteriol 194(3);636-45</source>
+<pubmed-id datatype='string'>22101843</pubmed-id>
+<title datatype='string'>CitA/CitB two-component system regulating citrate fermentation in Escherichia coli and its relation to the DcuS/DcuR system in vivo.</title>
+<year datatype='integer'>2012</year>
+<author datatype='string'>Scheu PD</author>
+<author datatype='string'>Witan J</author>
+<author datatype='string'>Rauschmeier M</author>
+<author datatype='string'>Graf S</author>
+<author datatype='string'>Liao YF</author>
+<author datatype='string'>Ebert-Jung A</author>
+<author datatype='string'>Basche T</author>
+<author datatype='string'>Erker W</author>
+<author datatype='string'>Unden G</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS-EMSA' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS-EMSA' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS' class='true'/></parent>
+<common-name datatype='string'>Electrophoretic mobility shift assay with cellular extracts evidence</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0000096</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0000096</dblink-URL>
+</dblink>
+<credits><imported-from-meta><date datatype='date'>2022-10-25</date>
+<Person ID='ECOLI:paley' orgid='ECOLI' frameid='paley' detail='full'><affiliations><Organization ID='ECOLI:SRI' orgid='ECOLI' frameid='SRI' detail='full'><abbrev-name datatype='string'>SRI International</abbrev-name>
+<email datatype='string'>ptools-support@ai.sri.com</email>
+<common-name datatype='string'>SRI International</common-name>
+<url datatype='string'>http://bioinformatics.ai.sri.com/</url>
+</Organization>
+</affiliations>
+<common-name datatype='string'>Suzanne Paley</common-name>
+</Person>
+<Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A type of affinity evidence based on an electrophoretic mobility shift of macromolecules, where cellular extracts, nucleic acids, or both are combined and the resulting mixtures 
+are electrophoresed under native conditions through polyacrylamide or agarose gel to detect interactions/complexes between proteins and/or nucleic acid.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-35862816' orgid='ECOLI' frameid='PUB-35862816' detail='full'><source datatype='string'>mSphere 7(4);e0023522</source>
+<pubmed-id datatype='string'>35862816</pubmed-id>
+<title datatype='string'>Tight Complex Formation of the Fumarate Sensing DcuS-DcuR Two-Component System at the Membrane and Target Promoter Search by Free DcuR Diffusion.</title>
+<year datatype='integer'>2022</year>
+<author datatype='string'>Gencheva S</author>
+<author datatype='string'>Dersch S</author>
+<author datatype='string'>Surmann K</author>
+<author datatype='string'>Wernet M</author>
+<author datatype='string'>Antelo L</author>
+<author datatype='string'>Hammer E</author>
+<author datatype='string'>Graumann PL</author>
+<author datatype='string'>Hellmann N</author>
+<author datatype='string'>Unden G</author>
+<doi-id datatype='string'>10.1128/msphere.00235-22</doi-id>
+</Publication>
+</evidence>
+<abs-center-pos datatype='integer'>4349132</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4562' orgid='ECOLI' frameid='TU0-4562'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10006' orgid='ECOLI' frameid='EG10006'/></component>
+<component><Promoter resource='#ECOLI:PM0-4802' orgid='ECOLI' frameid='PM0-4802'/></component>
+</Transcription-Unit>
+</ptools-xml>

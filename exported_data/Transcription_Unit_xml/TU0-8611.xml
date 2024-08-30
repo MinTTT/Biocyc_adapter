@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8611'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8611</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8611' orgid='ECOLI' frameid='TU0-8611' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>queG</common-name>
+<synonym datatype='string'>yjeS</synonym>
+<citation><Publication ID='ECOLI:PUB-8830270' orgid='ECOLI' frameid='PUB-8830270' detail='full'><source datatype='string'>Mol Microbiol 1996;19(5);1137-47</source>
+<pubmed-id datatype='string'>8830270</pubmed-id>
+<title datatype='string'>A novel DnaA protein-binding site at 94.7 min on the Escherichia coli chromosome.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Kitagawa R</author>
+<author datatype='string'>Mitsuki H</author>
+<author datatype='string'>Okazaki T</author>
+<author datatype='string'>Ogawa T</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SINGLE-DIRECTON' orgid='ECOLI' frameid='EV-COMP-AINF-SINGLE-DIRECTON' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference that a single-gene directon is a transcription unit </common-name>
+<comment datatype='string'>Automated inference of transcription unit based on single-gene directon.  Existence of a single-gene transcription unit 
+for gene G is inferred computationally by the existence of upstream and downstream genes transcribed in the 
+opposite direction of G.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8830270' orgid='ECOLI' frameid='PUB-8830270'/></evidence>
+<component><Promoter ID='ECOLI:PM0-10356' orgid='ECOLI' frameid='PM0-10356' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>queGp</common-name>
+<synonym datatype='string'>yjeSp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4394092</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-8830270' orgid='ECOLI' frameid='PUB-8830270'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8830270' orgid='ECOLI' frameid='PUB-8830270'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8611' orgid='ECOLI' frameid='TU0-8611'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:G7843' orgid='ECOLI' frameid='G7843'/></component>
+</Transcription-Unit>
+</ptools-xml>

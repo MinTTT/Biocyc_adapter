@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8522'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8522</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8522' orgid='ECOLI' frameid='TU0-8522' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>chiX</common-name>
+<synonym datatype='string'>sroB</synonym>
+<synonym datatype='string'>rybC</synonym>
+<synonym datatype='string'>micM</synonym>
+<comment datatype='string'>The RNA produced by the  &lt;i&gt;chiX&lt;/i&gt; gene has been observed mainly in the poles of the cell [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31540875&quot;&gt;Kannaiah19&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-14602901' orgid='ECOLI' frameid='PUB-14602901' detail='full'><source datatype='string'>Nucleic Acids Res 31(22);6435-43</source>
+<pubmed-id datatype='string'>14602901</pubmed-id>
+<title datatype='string'>RNomics in Escherichia coli detects new sRNA species and indicates parallel transcriptional output in bacteria.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Vogel J</author>
+<author datatype='string'>Bartels V</author>
+<author datatype='string'>Tang TH</author>
+<author datatype='string'>Churakov G</author>
+<author datatype='string'>Slagter-Jager JG</author>
+<author datatype='string'>Huttenhofer A</author>
+<author datatype='string'>Wagner EG</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SINGLE-DIRECTON' orgid='ECOLI' frameid='EV-COMP-AINF-SINGLE-DIRECTON' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference that a single-gene directon is a transcription unit </common-name>
+<comment datatype='string'>Automated inference of transcription unit based on single-gene directon.  Existence of a single-gene transcription unit 
+for gene G is inferred computationally by the existence of upstream and downstream genes transcribed in the 
+opposite direction of G.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-14602901' orgid='ECOLI' frameid='PUB-14602901'/></evidence>
+<component><Terminator ID='ECOLI:TERM0-1114' orgid='ECOLI' frameid='TERM0-1114' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>507287</right-end-position>
+<left-end-position datatype='integer'>507260</left-end-position>
+<citation><Publication ID='ECOLI:PUB-19426207' orgid='ECOLI' frameid='PUB-19426207' detail='full'><source datatype='string'>Mol Microbiol 72(3);551-65</source>
+<pubmed-id datatype='string'>19426207</pubmed-id>
+<title datatype='string'>A genetic approach for finding small RNAs regulators of genes of interest identifies RybC as regulating the DpiA/DpiB two-component system.</title>
+<year datatype='integer'>2009</year>
+<author datatype='string'>Mandin P</author>
+<author datatype='string'>Gottesman S</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8522' orgid='ECOLI' frameid='TU0-8522'/></component-of>
+</Terminator>
+</component>
+<component><Promoter ID='ECOLI:PM0-9627' orgid='ECOLI' frameid='PM0-9627' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>507192</minus-10-left>
+<common-name datatype='string'>chiXp</common-name>
+<minus-35-right datatype='integer'>507174</minus-35-right>
+<minus-35-left datatype='integer'>507169</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>sroBp</synonym>
+<synonym datatype='string'>rybCp</synonym>
+<synonym datatype='string'>micMp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>507204</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-14602901' orgid='ECOLI' frameid='PUB-14602901'/></citation>
+<citation><Publication resource='#ECOLI:PUB-19426207' orgid='ECOLI' frameid='PUB-19426207'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-14602901' orgid='ECOLI' frameid='PUB-14602901'/></evidence>
+<minus-10-right datatype='integer'>507197</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8522' orgid='ECOLI' frameid='TU0-8522'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:G0-9382' orgid='ECOLI' frameid='G0-9382'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU401'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU401</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU401' orgid='ECOLI' frameid='TU401' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>glpEGR</common-name>
+<comment datatype='string'>An increase in the expression of  &lt;i&gt;glpE&lt;/i&gt; has been observed when CysB is highly overexpressed [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31823602&quot;&gt;Liu20&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-8955387' orgid='ECOLI' frameid='PUB-8955387' detail='full'><source datatype='string'>J Bacteriol 178(24);7080-9</source>
+<pubmed-id datatype='string'>8955387</pubmed-id>
+<title datatype='string'>Repressor for the sn-glycerol 3-phosphate regulon of Escherichia coli K-12: primary structure and identification of the DNA-binding domain.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Zeng G</author>
+<author datatype='string'>Ye S</author>
+<author datatype='string'>Larson TJ</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-1846566' orgid='ECOLI' frameid='PUB-1846566' detail='full'><source datatype='string'>Biochim Biophys Acta 1088(1);31-5</source>
+<pubmed-id datatype='string'>1846566</pubmed-id>
+<title datatype='string'>Regulation of glpD and glpE gene expression by a cyclic AMP-cAMP receptor protein (cAMP-CRP) complex in Escherichia coli.</title>
+<year datatype='integer'>1991</year>
+<author datatype='string'>Choi YL</author>
+<author datatype='string'>Kawase S</author>
+<author datatype='string'>Kawamukai M</author>
+<author datatype='string'>Sakai H</author>
+<author datatype='string'>Komano T</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8955387' orgid='ECOLI' frameid='PUB-8955387'/></evidence>
+<component><DNA-Binding-Site ID='ECOLI:BS541' orgid='ECOLI' frameid='BS541' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-5015' orgid='ECOLI' frameid='REG0-5015' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM503' orgid='ECOLI' frameid='PM503' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>glpEp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3561849</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-1846566' orgid='ECOLI' frameid='PUB-1846566'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1846566' orgid='ECOLI' frameid='PUB-1846566'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-5015' orgid='ECOLI' frameid='REG0-5015'/></regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU401' orgid='ECOLI' frameid='TU401'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4686' orgid='ECOLI' frameid='REG0-4686' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM00038' orgid='ECOLI' frameid='PM00038' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>3561958</minus-10-left>
+<common-name datatype='string'>glpDp</common-name>
+<minus-35-right datatype='integer'>3561940</minus-35-right>
+<minus-35-left datatype='integer'>3561935</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3561971</absolute-plus-1-pos>
+<comment datatype='string'>In a gene expression analysis, RpoS positively regulated the &lt;i&gt;glpD&lt;/i&gt; gene in the stationary phase. Its effect could be indirect [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/8593953&quot;&gt;BeckerHapak95&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-3045087' orgid='ECOLI' frameid='PUB-3045087' detail='full'><source datatype='string'>J Bacteriol 170(9);4209-15</source>
+<pubmed-id datatype='string'>3045087</pubmed-id>
+<title datatype='string'>Structures of the promoter and operator of the glpD gene encoding aerobic sn-glycerol-3-phosphate dehydrogenase of Escherichia coli K-12.</title>
+<year datatype='integer'>1988</year>
+<author datatype='string'>Ye SZ</author>
+<author datatype='string'>Larson TJ</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8955388' orgid='ECOLI' frameid='PUB-8955388' detail='full'><source datatype='string'>J Bacteriol 178(24);7090-8</source>
+<pubmed-id datatype='string'>8955388</pubmed-id>
+<title datatype='string'>Action at a distance for negative control of transcription of the glpD gene encoding sn-glycerol 3-phosphate dehydrogenase of Escherichia coli K-12.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Yang B</author>
+<author datatype='string'>Larson TJ</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-3045087' orgid='ECOLI' frameid='PUB-3045087'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-4691' orgid='ECOLI' frameid='REG0-4691' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator>DNA-binding transcriptional repressor GlpR</regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00038' orgid='ECOLI' frameid='PM00038'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4690' orgid='ECOLI' frameid='REG0-4690' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator>DNA-binding transcriptional repressor GlpR</regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00038' orgid='ECOLI' frameid='PM00038'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4688' orgid='ECOLI' frameid='REG0-4688' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator>DNA-binding transcriptional repressor GlpR</regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00038' orgid='ECOLI' frameid='PM00038'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4687' orgid='ECOLI' frameid='REG0-4687' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator>DNA-binding transcriptional repressor GlpR</regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00038' orgid='ECOLI' frameid='PM00038'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-4686' orgid='ECOLI' frameid='REG0-4686'/></regulated-by>
+<minus-10-right datatype='integer'>3561963</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU00031' orgid='ECOLI' frameid='TU00031'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-3045087' orgid='ECOLI' frameid='PUB-3045087'/></citation>
+<citation><Publication resource='#ECOLI:PUB-8955388' orgid='ECOLI' frameid='PUB-8955388'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3045087' orgid='ECOLI' frameid='PUB-3045087'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3045087' orgid='ECOLI' frameid='PUB-3045087'/></evidence>
+<abs-center-pos datatype='float'>3561907.5</abs-center-pos>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU00031' orgid='ECOLI' frameid='TU00031'/><Transcription-Unit resource='#ECOLI:TU401' orgid='ECOLI' frameid='TU401'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Terminator ID='ECOLI:TERM121' orgid='ECOLI' frameid='TERM121' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3559831</right-end-position>
+<left-end-position datatype='integer'>3559754</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-8955387' orgid='ECOLI' frameid='PUB-8955387'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU401' orgid='ECOLI' frameid='TU401'/><Transcription-Unit resource='getxml?ECOLI:TU402' orgid='ECOLI' frameid='TU402'/><Transcription-Unit resource='getxml?ECOLI:TU403' orgid='ECOLI' frameid='TU403'/><Transcription-Unit resource='getxml?ECOLI:TU404' orgid='ECOLI' frameid='TU404'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10400' orgid='ECOLI' frameid='EG10400'/></component>
+<component><Gene resource='getxml?ECOLI:EG10397' orgid='ECOLI' frameid='EG10397'/></component>
+<component><Gene resource='getxml?ECOLI:EG10395' orgid='ECOLI' frameid='EG10395'/></component>
+<component><Promoter resource='#ECOLI:PM503' orgid='ECOLI' frameid='PM503'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-1441'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-1441</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-1441' orgid='ECOLI' frameid='TU0-1441' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>fliLMNOPQR</common-name>
+<comment datatype='string'>In a study where it was shown that the L-tryptophan eradicated persister cells, it was observed that the exogenous amino acid downregulated the expression of &lt;i&gt; fliLMOPQR &lt;/i&gt; as well as other flagellar genes [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31271063&quot;&gt;Li19&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-8157599' orgid='ECOLI' frameid='PUB-8157599' detail='full'><source datatype='string'>J Bacteriol 176(8);2308-11</source>
+<pubmed-id datatype='string'>8157599</pubmed-id>
+<title datatype='string'>Characterization of the fliL gene in the flagellar regulon of Escherichia coli and Salmonella typhimurium.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Raha M</author>
+<author datatype='string'>Sockett H</author>
+<author datatype='string'>Macnab RM</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8282695' orgid='ECOLI' frameid='PUB-8282695' detail='full'><source datatype='string'>J Bacteriol 176(1);189-97</source>
+<pubmed-id datatype='string'>8282695</pubmed-id>
+<title datatype='string'>Molecular characterization, nucleotide sequence, and expression of the fliO, fliP, fliQ, and fliR genes of Escherichia coli.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Malakooti J</author>
+<author datatype='string'>Ely B</author>
+<author datatype='string'>Matsumura P</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-IC-ADJ-GENES-SAME-BIO-PROCESS' orgid='ECOLI' frameid='EV-IC-ADJ-GENES-SAME-BIO-PROCESS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' class='true'/></parent>
+<common-name datatype='string'>Products of adjacent genes in the same biological process</common-name>
+<comment datatype='string'>A transcription unit is inferred because there is a set of adjacent genes,
+encoded in the same direction, coding for products that participate in the
+same metabolic pathway or biological process. Sometimes, these genes code
+for subunits of the same protein.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8282695' orgid='ECOLI' frameid='PUB-8282695'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG11977' orgid='ECOLI' frameid='EG11977'/></component>
+<component><Gene resource='getxml?ECOLI:EG11976' orgid='ECOLI' frameid='EG11976'/></component>
+<component><Gene resource='getxml?ECOLI:EG11975' orgid='ECOLI' frameid='EG11975'/></component>
+<component><Gene resource='getxml?ECOLI:EG11224' orgid='ECOLI' frameid='EG11224'/></component>
+<component><Gene resource='getxml?ECOLI:EG10324' orgid='ECOLI' frameid='EG10324'/></component>
+<component><Gene resource='getxml?ECOLI:EG10323' orgid='ECOLI' frameid='EG10323'/></component>
+<component><Gene resource='getxml?ECOLI:EG10322' orgid='ECOLI' frameid='EG10322'/></component>
+<component><Promoter ID='ECOLI:PM165' orgid='ECOLI' frameid='PM165' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>2019581</minus-10-left>
+<common-name datatype='string'>fliLp2</common-name>
+<minus-35-right datatype='integer'>2019566</minus-35-right>
+<minus-35-left datatype='integer'>2019562</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:EG11355-MONOMER' orgid='ECOLI' frameid='EG11355-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2019595</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-8866483' orgid='ECOLI' frameid='PUB-8866483' detail='full'><source datatype='string'>Mol Microbiol 21(3);613-20</source>
+<pubmed-id datatype='string'>8866483</pubmed-id>
+<title datatype='string'>Differential regulation of multiple overlapping promoters in flagellar class II operons in Escherichia coli.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Liu X</author>
+<author datatype='string'>Matsumura P</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-10586520' orgid='ECOLI' frameid='PUB-10586520' detail='full'><source datatype='string'>Genes Genet Syst 74(3);113-6</source>
+<pubmed-id datatype='string'>10586520</pubmed-id>
+<title datatype='string'>Reevaluation of the promoter structure of the class 3 flagellar operons of Escherichia coli and Salmonella.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>Ide N</author>
+<author datatype='string'>Ikebe T</author>
+<author datatype='string'>Kutsukake K</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-11104815' orgid='ECOLI' frameid='PUB-11104815' detail='full'><source datatype='string'>Microbiol Mol Biol Rev 64(4);694-708</source>
+<pubmed-id datatype='string'>11104815</pubmed-id>
+<title datatype='string'>Coupling of flagellar gene expression to flagellar assembly in Salmonella enterica serovar typhimurium and Escherichia coli.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Chilcott GS</author>
+<author datatype='string'>Hughes KT</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-2644646' orgid='ECOLI' frameid='PUB-2644646' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 86(3);830-4</source>
+<pubmed-id datatype='string'>2644646</pubmed-id>
+<title datatype='string'>Secondary sigma factor controls transcription of flagellar and chemotaxis genes in Escherichia coli.</title>
+<year datatype='integer'>1989</year>
+<author datatype='string'>Arnosti DN</author>
+<author datatype='string'>Chamberlin MJ</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-3306678' orgid='ECOLI' frameid='PUB-3306678' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 84(18);6422-4</source>
+<pubmed-id datatype='string'>3306678</pubmed-id>
+<title datatype='string'>DNA sequence analysis suggests that expression of flagellar and chemotaxis genes in Escherichia coli and Salmonella typhimurium is controlled by an alternative sigma factor.</title>
+<year datatype='integer'>1987</year>
+<author datatype='string'>Helmann JD</author>
+<author datatype='string'>Chamberlin MJ</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8866483' orgid='ECOLI' frameid='PUB-8866483'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10586520' orgid='ECOLI' frameid='PUB-10586520'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-2644646' orgid='ECOLI' frameid='PUB-2644646'/></evidence>
+<minus-10-right datatype='integer'>2019588</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-1441' orgid='ECOLI' frameid='TU0-1441'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

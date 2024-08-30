@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00527'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00527</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00527' orgid='ECOLI' frameid='TU00527' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>pykF</common-name>
+<comment datatype='string'>There is no evidence in the literature of &lt;i&gt;pykF&lt;/i&gt; forming a transcription unit with the downstream &lt;i&gt;lpp&lt;/i&gt; gene, which is in the same orientation but 311 bp downstream.  The upstream gene, &lt;i&gt;fumD&lt;/i&gt;, is oriented in the opposite direction.  So, the &lt;i&gt;pykF&lt;/i&gt; gene is defined as an isolated gene.
+&lt;p&gt;
+Under nitrogen-rich growth conditions, the expression of the &lt;i&gt;pykF&lt;/i&gt; gene increased in mutants for two genes that encode two terminal oxidases, &lt;i&gt;cyoA&lt;/i&gt; and &lt;i&gt;cydB&lt;/i&gt;, and in mutants for two transcriptional regulators, Fnr and Fur. However, under nitrogen-limited growth conditions, gene expression was decreased in the Fnr mutant.  It is unknown if the effects of the transcriptional regulators act directly on gene expression; also, it is unknown which of the four promoters that transcribe the gene could  be regulated by the regulators [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/21272324&quot;&gt;Kumar11&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-8550429' orgid='ECOLI' frameid='PUB-8550429' detail='full'><source datatype='string'>J Bacteriol 178(1);280-3</source>
+<pubmed-id datatype='string'>8550429</pubmed-id>
+<title datatype='string'>Frur mediates catabolite activation of pyruvate kinase (pykF) gene expression in Escherichia coli.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Bledig SA</author>
+<author datatype='string'>Ramseier TM</author>
+<author datatype='string'>Saier MH</author>
+</Publication>
+</citation>
+<component><Promoter ID='ECOLI:PM00585' orgid='ECOLI' frameid='PM00585' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>1755456</minus-10-left>
+<common-name datatype='string'>pykFp</common-name>
+<minus-35-right datatype='integer'>1755437</minus-35-right>
+<minus-35-left datatype='integer'>1755432</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1755467</absolute-plus-1-pos>
+<comment datatype='string'>Although the evidence for the promoter is only sequence similarity, a mutation at the &lt;i&gt;cis&lt;/i&gt;-site for the binding of FruR clearly shows repression of activity of &lt;i&gt;pykF&lt;/i&gt; gene [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/7559366&quot;&gt;Ponce95&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-8550429' orgid='ECOLI' frameid='PUB-8550429'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8550429' orgid='ECOLI' frameid='PUB-8550429'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-5386' orgid='ECOLI' frameid='REG0-5386' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PC00061' orgid='ECOLI' frameid='PC00061'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00585' orgid='ECOLI' frameid='PM00585'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>1755461</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00527' orgid='ECOLI' frameid='TU00527'/></component-of>
+</Promoter>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS00799' orgid='ECOLI' frameid='BS00799' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5386' orgid='ECOLI' frameid='REG0-5386'/></involved-in-regulation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-29394395' orgid='ECOLI' frameid='PUB-29394395' detail='full'><source datatype='string'>Nucleic Acids Res 46(6);2901-2917</source>
+<pubmed-id datatype='string'>29394395</pubmed-id>
+<title datatype='string'>Systems assessment of transcriptional regulation on central carbon metabolism by Cra and CRP.</title>
+<year datatype='integer'>2018</year>
+<author datatype='string'>Kim D</author>
+<author datatype='string'>Seo SW</author>
+<author datatype='string'>Gao Y</author>
+<author datatype='string'>Nam H</author>
+<author datatype='string'>Guzman GI</author>
+<author datatype='string'>Cho BK</author>
+<author datatype='string'>Palsson BO</author>
+<doi-id datatype='string'>10.1093/nar/gky069</doi-id>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-CHIP-EXO' orgid='ECOLI' frameid='EV-EXP-CHIP-EXO' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-HTP-HDA-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-HTP-HDA-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>High-throughput ChIP-exo evidence</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0001806</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0001806</dblink-URL>
+</dblink>
+<credits><imported-from-meta><date datatype='date'>2018-03-05</date>
+<Person ID='ECOLI:paley' orgid='ECOLI' frameid='paley' detail='full'><affiliations><Organization ID='ECOLI:SRI' orgid='ECOLI' frameid='SRI' detail='full'><abbrev-name datatype='string'>SRI International</abbrev-name>
+<email datatype='string'>ptools-support@ai.sri.com</email>
+<common-name datatype='string'>SRI International</common-name>
+<url datatype='string'>http://bioinformatics.ai.sri.com/</url>
+</Organization>
+</affiliations>
+<common-name datatype='string'>Suzanne Paley</common-name>
+</Person>
+<Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A type of chromatin immunoprecipation evidence that uses gamma-exonuclease to digest transcription-factor-unbound DNA after ChIP for the identification of transcription factor binding site locations with high-resolution data. This evidence can be used to probe the binding of proteins, such as transcription factors or RNA polymerase, to DNA.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-29394395' orgid='ECOLI' frameid='PUB-29394395'/></evidence>
+<citation><Publication resource='#ECOLI:PUB-8550429' orgid='ECOLI' frameid='PUB-8550429'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of cellular extracts</common-name>
+<comment datatype='string'>There exists physical evidence of the binding of cellular extracts containing 
+a regulatory protein to its DNA binding site.  This can be either by 
+footprinting or mobility shift assays.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8550429' orgid='ECOLI' frameid='PUB-8550429'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Site mutation</common-name>
+<comment datatype='string'>A cis-mutation in the DNA sequence of the transcription-factor binding site interferes with the operation of the regulatory function. This is considered  strong evidence for the existence and functional role of the DNA binding site.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8550429' orgid='ECOLI' frameid='PUB-8550429'/></evidence>
+<abs-center-pos datatype='float'>1755484.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00527' orgid='ECOLI' frameid='TU00527'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10804' orgid='ECOLI' frameid='EG10804'/></component>
+</Transcription-Unit>
+</ptools-xml>

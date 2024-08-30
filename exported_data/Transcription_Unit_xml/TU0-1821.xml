@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-1821'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-1821</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-1821' orgid='ECOLI' frameid='TU0-1821' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>cusCFBA</common-name>
+<synonym datatype='string'>ylcBCD-ybdE</synonym>
+<comment datatype='string'>&lt;i&gt;cusCFBA&lt;/i&gt; expression is induced under Zn excess in a CusR-dependent way [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31586033&quot;&gt;Xu19&lt;/a&gt;].
+&lt;p&gt;
+This transcription unit may even include the &lt;i&gt;pheP&lt;/i&gt; gene that is downstream of the &lt;i&gt;cusA&lt;/i&gt; gene. 
+&lt;p&gt;
+&lt;i&gt;cusB&lt;/i&gt; expression is increased at least 5-fold by indole [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/15686558&quot;&gt;Hirakawa05&lt;/a&gt;].
+&lt;p&gt;
+The mRNA that contains the  &lt;i&gt;cusA&lt;/i&gt; gene has been observed mainly in the cellular membrane [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31540875&quot;&gt;Kannaiah19&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-11283292' orgid='ECOLI' frameid='PUB-11283292' detail='full'><source datatype='string'>Microbiology 147(Pt 4);965-72</source>
+<pubmed-id datatype='string'>11283292</pubmed-id>
+<title datatype='string'>The product of the ybdE gene of the Escherichia coli chromosome is involved in detoxification of silver ions.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Franke S</author>
+<author datatype='string'>Grass G</author>
+<author datatype='string'>Nies DH</author>
+</Publication>
+</citation>
+<component><DNA-Binding-Site ID='ECOLI:BS0-3353' orgid='ECOLI' frameid='BS0-3353' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6399' orgid='ECOLI' frameid='REG0-6399' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:MONOMER0-4180' orgid='ECOLI' frameid='MONOMER0-4180'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-2002' orgid='ECOLI' frameid='PM0-2002' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>595469</minus-10-left>
+<common-name datatype='string'>cusRp</common-name>
+<minus-35-right datatype='integer'>595496</minus-35-right>
+<minus-35-left datatype='integer'>595491</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>ylcAp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>595462</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-11283292' orgid='ECOLI' frameid='PUB-11283292'/></citation>
+<citation><Publication ID='ECOLI:PUB-15773991' orgid='ECOLI' frameid='PUB-15773991' detail='full'><source datatype='string'>Mol Microbiol 56(1);215-27</source>
+<pubmed-id datatype='string'>15773991</pubmed-id>
+<title datatype='string'>Transcriptional response of Escherichia coli to external copper.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Yamamoto K</author>
+<author datatype='string'>Ishihama A</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11283292' orgid='ECOLI' frameid='PUB-11283292'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11283292' orgid='ECOLI' frameid='PUB-11283292'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12231' orgid='ECOLI' frameid='REG0-12231' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:MONOMER0-4341' orgid='ECOLI' frameid='MONOMER0-4341'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-2002' orgid='ECOLI' frameid='PM0-2002'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11645' orgid='ECOLI' frameid='REG0-11645' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-PHOB' orgid='ECOLI' frameid='PHOSPHO-PHOB'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-2002' orgid='ECOLI' frameid='PM0-2002'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-6399' orgid='ECOLI' frameid='REG0-6399'/></regulated-by>
+<minus-10-right datatype='integer'>595474</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-1822' orgid='ECOLI' frameid='TU0-1822'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6398' orgid='ECOLI' frameid='REG0-6398' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:MONOMER0-4180' orgid='ECOLI' frameid='MONOMER0-4180'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-2001' orgid='ECOLI' frameid='PM0-2001' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>595561</minus-10-left>
+<common-name datatype='string'>cusCp</common-name>
+<minus-35-right datatype='integer'>595539</minus-35-right>
+<minus-35-left datatype='integer'>595534</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>ylcBp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>595573</absolute-plus-1-pos>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/><Publication resource='#ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615'/></evidence>
+<citation><Publication resource='#ECOLI:PUB-11283292' orgid='ECOLI' frameid='PUB-11283292'/></citation>
+<citation><Publication resource='#ECOLI:PUB-15773991' orgid='ECOLI' frameid='PUB-15773991'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' class='true'/><Publication resource='#ECOLI:PUB-11283292' orgid='ECOLI' frameid='PUB-11283292'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-11283292' orgid='ECOLI' frameid='PUB-11283292'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12232' orgid='ECOLI' frameid='REG0-12232' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:MONOMER0-4341' orgid='ECOLI' frameid='MONOMER0-4341'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-2001' orgid='ECOLI' frameid='PM0-2001'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11644' orgid='ECOLI' frameid='REG0-11644' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-PHOB' orgid='ECOLI' frameid='PHOSPHO-PHOB'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-2001' orgid='ECOLI' frameid='PM0-2001'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-6398' orgid='ECOLI' frameid='REG0-6398'/></regulated-by>
+<minus-10-right datatype='integer'>595566</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-1821' orgid='ECOLI' frameid='TU0-1821'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-11004187' orgid='ECOLI' frameid='PUB-11004187' detail='full'><source datatype='string'>J Bacteriol 182(20);5864-71</source>
+<pubmed-id datatype='string'>11004187</pubmed-id>
+<title datatype='string'>Identification of a copper-responsive two-component system on the chromosome of Escherichia coli K-12.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Munson GP</author>
+<author datatype='string'>Lam DL</author>
+<author datatype='string'>Outten FW</author>
+<author datatype='string'>O'Halloran TV</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-15773991' orgid='ECOLI' frameid='PUB-15773991'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11004187' orgid='ECOLI' frameid='PUB-11004187'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15773991' orgid='ECOLI' frameid='PUB-15773991'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication ID='ECOLI:PUB-25568260' orgid='ECOLI' frameid='PUB-25568260' detail='full'><source datatype='string'>Microbiology 161(Pt 4);729-38</source>
+<pubmed-id datatype='string'>25568260</pubmed-id>
+<title datatype='string'>Cooperative regulation of the common target genes between H2O2-sensing YedVW and Cu2+-sensing CusSR in Escherichia coli.</title>
+<year datatype='integer'>2015</year>
+<author datatype='string'>Urano H</author>
+<author datatype='string'>Umezawa Y</author>
+<author datatype='string'>Yamamoto K</author>
+<author datatype='string'>Ishihama A</author>
+<author datatype='string'>Ogasawara H</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication ID='ECOLI:PUB-27983483' orgid='ECOLI' frameid='PUB-27983483' detail='full'><source datatype='string'>Microbiology 163(2);243-252</source>
+<pubmed-id datatype='string'>27983483</pubmed-id>
+<title datatype='string'>Cross-regulation between two common ancestral response regulators, HprR and CusR, in Escherichia coli.</title>
+<year datatype='integer'>2017</year>
+<author datatype='string'>Urano H</author>
+<author datatype='string'>Yoshida M</author>
+<author datatype='string'>Ogawa A</author>
+<author datatype='string'>Yamamoto K</author>
+<author datatype='string'>Ishihama A</author>
+<author datatype='string'>Ogasawara H</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-CHIP-PCR-MANUAL' orgid='ECOLI' frameid='EV-EXP-CHIP-PCR-MANUAL' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-CHIP-PCR' orgid='ECOLI' frameid='EV-EXP-CHIP-PCR' class='true'/></parent>
+<common-name datatype='string'>ChIP-PCR evidence used in manual assertion</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0005620</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0005620</dblink-URL>
+</dblink>
+<credits><imported-from-meta><date datatype='date'>2018-03-05</date>
+<Person ID='ECOLI:paley' orgid='ECOLI' frameid='paley' detail='full'><affiliations><Organization ID='ECOLI:SRI' orgid='ECOLI' frameid='SRI' detail='full'><abbrev-name datatype='string'>SRI International</abbrev-name>
+<email datatype='string'>ptools-support@ai.sri.com</email>
+<common-name datatype='string'>SRI International</common-name>
+<url datatype='string'>http://bioinformatics.ai.sri.com/</url>
+</Organization>
+</affiliations>
+<common-name datatype='string'>Suzanne Paley</common-name>
+</Person>
+<Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A type of chromatin immunoprecipation-PCR evidence that is used in a manual assertion.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-37453610' orgid='ECOLI' frameid='PUB-37453610' detail='full'><source datatype='string'>Biosystems 231;104980</source>
+<pubmed-id datatype='string'>37453610</pubmed-id>
+<title datatype='string'>A critical role of the periplasm in copper homeostasis in Gram-negative bacteria.</title>
+<year datatype='integer'>2023</year>
+<author datatype='string'>Ishihara JI</author>
+<author datatype='string'>Mekubo T</author>
+<author datatype='string'>Kusaka C</author>
+<author datatype='string'>Kondo S</author>
+<author datatype='string'>Oiko R</author>
+<author datatype='string'>Igarashi K</author>
+<author datatype='string'>Aiba H</author>
+<author datatype='string'>Ishikawa S</author>
+<author datatype='string'>Ogasawara N</author>
+<author datatype='string'>Oshima T</author>
+<author datatype='string'>Takahashi H</author>
+<doi-id datatype='string'>10.1016/j.biosystems.2023.104980</doi-id>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-CHIP-CHIP-MANUAL' orgid='ECOLI' frameid='EV-EXP-CHIP-CHIP-MANUAL' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-CHIP-CHIP' orgid='ECOLI' frameid='EV-EXP-CHIP-CHIP' class='true'/></parent>
+<common-name datatype='string'>ChIP-chip evidence used in manual assertion</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0006007</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0006007</dblink-URL>
+</dblink>
+<credits><imported-from-meta><date datatype='date'>2018-03-05</date>
+<Person resource='#ECOLI:paley' orgid='ECOLI' frameid='paley'/><Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A type of chromatin immunoprecipation-chip evidence that is used in a manual assertion.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-37453610' orgid='ECOLI' frameid='PUB-37453610'/></evidence>
+<site-length datatype='integer'>16</site-length>
+<abs-center-pos datatype='float'>595519.5</abs-center-pos>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-1822' orgid='ECOLI' frameid='TU0-1822'/><Transcription-Unit resource='#ECOLI:TU0-1821' orgid='ECOLI' frameid='TU0-1821'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG12367' orgid='ECOLI' frameid='EG12367'/></component>
+<component><Gene resource='getxml?ECOLI:G6322' orgid='ECOLI' frameid='G6322'/></component>
+<component><Gene resource='getxml?ECOLI:G6321' orgid='ECOLI' frameid='G6321'/></component>
+<component><Gene resource='getxml?ECOLI:G6320' orgid='ECOLI' frameid='G6320'/></component>
+<component><Promoter resource='#ECOLI:PM0-2001' orgid='ECOLI' frameid='PM0-2001'/></component>
+</Transcription-Unit>
+</ptools-xml>

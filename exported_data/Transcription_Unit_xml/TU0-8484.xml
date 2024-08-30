@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8484'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8484</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8484' orgid='ECOLI' frameid='TU0-8484' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>napFDAGHBC</common-name>
+<comment datatype='string'>Based on ChIP-chip and consensus sequences (Virtual Footprint), a site of NsrR upstream of the &lt;i&gt;napF&lt;/i&gt; gene was identified [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/19656291&quot;&gt;Partridge09&lt;/a&gt;]. However, this gene exerts its control from three promoters, and it is not known which of them is negatively controlled by NsrR.</comment>
+<component><DNA-Binding-Site ID='ECOLI:BS0-7166' orgid='ECOLI' frameid='BS0-7166' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6523' orgid='ECOLI' frameid='REG0-6523' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:G7326-MONOMER' orgid='ECOLI' frameid='G7326-MONOMER'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-8920' orgid='ECOLI' frameid='PM0-8920' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>napFp3</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2303695</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-16677314' orgid='ECOLI' frameid='PUB-16677314' detail='full'><source datatype='string'>Mol Microbiol 60(4);1058-75</source>
+<pubmed-id datatype='string'>16677314</pubmed-id>
+<title datatype='string'>IscR-dependent gene expression links iron-sulphur cluster assembly to the control of O-regulated genes in Escherichia coli.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Giel JL</author>
+<author datatype='string'>Rodionov D</author>
+<author datatype='string'>Liu M</author>
+<author datatype='string'>Blattner FR</author>
+<author datatype='string'>Kiley PJ</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16677314' orgid='ECOLI' frameid='PUB-16677314'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-6523' orgid='ECOLI' frameid='REG0-6523'/></regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8484' orgid='ECOLI' frameid='TU0-8484'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-16677314' orgid='ECOLI' frameid='PUB-16677314'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16677314' orgid='ECOLI' frameid='PUB-16677314'/></evidence>
+<abs-center-pos datatype='integer'>2303689</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8484' orgid='ECOLI' frameid='TU0-8484'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG12060' orgid='ECOLI' frameid='EG12060'/></component>
+<component><Gene resource='getxml?ECOLI:EG12061' orgid='ECOLI' frameid='EG12061'/></component>
+<component><Gene resource='getxml?ECOLI:EG12062' orgid='ECOLI' frameid='EG12062'/></component>
+<component><Gene resource='getxml?ECOLI:EG12064' orgid='ECOLI' frameid='EG12064'/></component>
+<component><Gene resource='getxml?ECOLI:EG12067' orgid='ECOLI' frameid='EG12067'/></component>
+<component><Gene resource='getxml?ECOLI:EG12143' orgid='ECOLI' frameid='EG12143'/></component>
+<component><Gene resource='getxml?ECOLI:EG12068' orgid='ECOLI' frameid='EG12068'/></component>
+<component><Promoter resource='#ECOLI:PM0-8920' orgid='ECOLI' frameid='PM0-8920'/></component>
+</Transcription-Unit>
+</ptools-xml>

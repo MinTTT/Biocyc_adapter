@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-13710'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-13710</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-13710' orgid='ECOLI' frameid='TU0-13710' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ygaVP</common-name>
+<comment datatype='string'>The &lt;i&gt;ygaVP&lt;/i&gt; operon is activated by TBT (TriBuTyltin) and it is likely autoregulated by YgaV. In the absence of TBT, YgaV acts as a repressor, whereas the presence of TBT abolishes YgaV-mediated repression. TBT is not the natural inducer of the &lt;i&gt;ygaVP&lt;/i&gt; operon, since it is a human-made compound [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/18245262&quot;&gt;Gueune08&lt;/a&gt;].
+&lt;p&gt;
+Based on DNA microarray analysis, the mechanism of bacterial inactivation by carvacrol and citral was studied [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/28644990&quot;&gt;Chueca17&lt;/a&gt;]. Treatment by both compounds caused membrane damage and activated metabolism through the production of nucleotides required for DNA and RNA synthesis and metabolic processes [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/28644990&quot;&gt;Chueca17&lt;/a&gt;]. A total of 76 and 156 genes demonstrated significant transcriptional differences by carvacrol and citral, respectively. Genes upregulated by carvacrol treatment included the multidrug efflux pump genes &lt;i&gt;acrA&lt;/i&gt; and &lt;i&gt;mdtM&lt;/i&gt;, genes related to the phage shock response, &lt;i&gt;pspA, pspB, pspC, pspD, pspF&lt;/i&gt;, and &lt;i&gt;pspG&lt;/i&gt;, and genes whose products are important for biosynthesis of arginine (&lt;i&gt;argC, argG, artJ&lt;i&gt;) and purine nucleotides (&lt;i&gt;purC, purM&lt;/i&gt;). Genes upregulated by citral treatment included &lt;i&gt;purH&lt;/i&gt;, &lt;i&gt;pyrB&lt;/i&gt;, and &lt;i&gt;pyrI&lt;/i&gt;. On the other hand, mutations in several differentially expressed genes confirmed the roles of &lt;i&gt;ygaV, yjbO, pspC, sdhA, yejG&lt;/i&gt;, and &lt;i&gt;ygaV&lt;/i&gt; in mechanisms of inactivation by carvacrol and citral [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/28644990&quot;&gt;Chueca17&lt;/a&gt;].
+</comment>
+<citation><Publication ID='ECOLI:PUB-18245262' orgid='ECOLI' frameid='PUB-18245262' detail='full'><source datatype='string'>Appl Environ Microbiol 74(6);1954-8</source>
+<pubmed-id datatype='string'>18245262</pubmed-id>
+<title datatype='string'>The ygaVP genes of Escherichia coli form a tributyltin-inducible operon.</title>
+<year datatype='integer'>2008</year>
+<author datatype='string'>Gueune H</author>
+<author datatype='string'>Durand MJ</author>
+<author datatype='string'>Thouand G</author>
+<author datatype='string'>DuBow MS</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-IC-ADJ-GENES-SAME-BIO-PROCESS' orgid='ECOLI' frameid='EV-IC-ADJ-GENES-SAME-BIO-PROCESS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' class='true'/></parent>
+<common-name datatype='string'>Products of adjacent genes in the same biological process</common-name>
+<comment datatype='string'>A transcription unit is inferred because there is a set of adjacent genes,
+encoded in the same direction, coding for products that participate in the
+same metabolic pathway or biological process. Sometimes, these genes code
+for subunits of the same protein.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-18245262' orgid='ECOLI' frameid='PUB-18245262'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Inferred through co-regulation</common-name>
+<comment datatype='string'>Inferred through co-regulation.  A transcription unit is inferred because a set of 
+adjacent genes that are transcribed in the same direction exhibit similar
+expression patterns under a range of environmental conditions.
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-18245262' orgid='ECOLI' frameid='PUB-18245262'/></evidence>
+<component><Gene resource='getxml?ECOLI:G7398' orgid='ECOLI' frameid='G7398'/></component>
+<component><Gene resource='getxml?ECOLI:G7397' orgid='ECOLI' frameid='G7397'/></component>
+</Transcription-Unit>
+</ptools-xml>

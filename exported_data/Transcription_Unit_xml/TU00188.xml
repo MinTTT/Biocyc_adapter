@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00188'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00188</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00188' orgid='ECOLI' frameid='TU00188' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>fpr</common-name>
+<synonym datatype='string'>OP00261</synonym>
+<citation><Publication ID='ECOLI:PUB-8449868' orgid='ECOLI' frameid='PUB-8449868' detail='full'><source datatype='string'>J Bacteriol 175(6);1590-5</source>
+<pubmed-id datatype='string'>8449868</pubmed-id>
+<title datatype='string'>Escherichia coli ferredoxin NADP+ reductase: activation of E. coli anaerobic ribonucleotide reduction, cloning of the gene (fpr), and overexpression of the protein.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>Bianchi V</author>
+<author datatype='string'>Reichard P</author>
+<author datatype='string'>Eliasson R</author>
+<author datatype='string'>Pontis E</author>
+<author datatype='string'>Krook M</author>
+<author datatype='string'>Jornvall H</author>
+<author datatype='string'>Haggard-Ljungquist E</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8522515' orgid='ECOLI' frameid='PUB-8522515' detail='full'><source datatype='string'>J Bacteriol 177(24);7100-4</source>
+<pubmed-id datatype='string'>8522515</pubmed-id>
+<title datatype='string'>Purification and regulatory properties of MarA protein, a transcriptional activator of Escherichia coli multiple antibiotic and superoxide resistance promoters.</title>
+<year datatype='integer'>1995</year>
+<author datatype='string'>Jair KW</author>
+<author datatype='string'>Martin RG</author>
+<author datatype='string'>Rosner JL</author>
+<author datatype='string'>Fujita N</author>
+<author datatype='string'>Ishihama A</author>
+<author datatype='string'>Wolf RE</author>
+</Publication>
+</citation>
+<component><Promoter ID='ECOLI:PM00262' orgid='ECOLI' frameid='PM00262' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>4114500</minus-10-left>
+<common-name datatype='string'>fprp</common-name>
+<minus-35-right datatype='integer'>4114532</minus-35-right>
+<minus-35-left datatype='integer'>4114527</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4114499</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-10564485' orgid='ECOLI' frameid='PUB-10564485' detail='full'><source datatype='string'>Mol Microbiol 34(3);431-41</source>
+<pubmed-id datatype='string'>10564485</pubmed-id>
+<title datatype='string'>Structural requirements for marbox function in transcriptional activation of mar/sox/rob regulon promoters in Escherichia coli: sequence, orientation and spatial relationship to the core promoter.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>Martin RG</author>
+<author datatype='string'>Gillette WK</author>
+<author datatype='string'>Rhee S</author>
+<author datatype='string'>Rosner JL</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10564485' orgid='ECOLI' frameid='PUB-10564485'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-5172' orgid='ECOLI' frameid='REG0-5172' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00406' orgid='ECOLI' frameid='PD00406'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00262' orgid='ECOLI' frameid='PM00262'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5171' orgid='ECOLI' frameid='REG0-5171' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00365' orgid='ECOLI' frameid='PD00365'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00262' orgid='ECOLI' frameid='PM00262'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>4114505</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00188' orgid='ECOLI' frameid='TU00188'/></component-of>
+</Promoter>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS00451' orgid='ECOLI' frameid='BS00451' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5171' orgid='ECOLI' frameid='REG0-5171'/></involved-in-regulation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on similarity to consensus sequences</common-name>
+<comment datatype='string'>A DNA sequence similar to previously known consensus sequences is computationally identified.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-11321589' orgid='ECOLI' frameid='PUB-11321589' detail='full'><source datatype='string'>J Mol Microbiol Biotechnol 3(2);319-24</source>
+<pubmed-id datatype='string'>11321589</pubmed-id>
+<title datatype='string'>Comparative approach to analysis of regulation in complete genomes: multidrug resistance systems in gamma-proteobacteria.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Rodionov DA</author>
+<author datatype='string'>Gelfand MS</author>
+<author datatype='string'>Mironov AA</author>
+<author datatype='string'>Rakhmaninova AB</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-21097628' orgid='ECOLI' frameid='PUB-21097628' detail='full'><source datatype='string'>J Bacteriol 193(2);506-15</source>
+<pubmed-id datatype='string'>21097628</pubmed-id>
+<title datatype='string'>Promoter discrimination at class I MarA regulon promoters mediated by glutamic acid 89 of the MarA transcriptional activator of Escherichia coli.</title>
+<year datatype='integer'>2011</year>
+<author datatype='string'>Martin RG</author>
+<author datatype='string'>Rosner JL</author>
+</Publication>
+</evidence>
+<abs-center-pos datatype='float'>4114557.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00188' orgid='ECOLI' frameid='TU00188'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS00510' orgid='ECOLI' frameid='BS00510' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5172' orgid='ECOLI' frameid='REG0-5172'/></involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-8522515' orgid='ECOLI' frameid='PUB-8522515'/></citation>
+<citation><Publication resource='#ECOLI:PUB-21097628' orgid='ECOLI' frameid='PUB-21097628'/></citation>
+<citation><Publication ID='ECOLI:PUB-26279566' orgid='ECOLI' frameid='PUB-26279566' detail='full'><source datatype='string'>Cell Rep 12(8);1289-99</source>
+<pubmed-id datatype='string'>26279566</pubmed-id>
+<title datatype='string'>Genome-wide Reconstruction of OxyR and SoxRS Transcriptional Regulatory Networks under Oxidative Stress in Escherichia coli K-12 MG1655.</title>
+<year datatype='integer'>2015</year>
+<author datatype='string'>Seo SW</author>
+<author datatype='string'>Kim D</author>
+<author datatype='string'>Szubin R</author>
+<author datatype='string'>Palsson BO</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-8522515' orgid='ECOLI' frameid='PUB-8522515'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-21097628' orgid='ECOLI' frameid='PUB-21097628'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-CHIP-EXO-MANUAL' orgid='ECOLI' frameid='EV-EXP-CHIP-EXO-MANUAL' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-CHIP-EXO' orgid='ECOLI' frameid='EV-EXP-CHIP-EXO' class='true'/></parent>
+<common-name datatype='string'>ChIP-exo evidence used in manual assertion</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0006008</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0006008</dblink-URL>
+</dblink>
+<credits><imported-from-meta><date datatype='date'>2018-03-05</date>
+<Person ID='ECOLI:paley' orgid='ECOLI' frameid='paley' detail='full'><affiliations><Organization ID='ECOLI:SRI' orgid='ECOLI' frameid='SRI' detail='full'><abbrev-name datatype='string'>SRI International</abbrev-name>
+<email datatype='string'>ptools-support@ai.sri.com</email>
+<common-name datatype='string'>SRI International</common-name>
+<url datatype='string'>http://bioinformatics.ai.sri.com/</url>
+</Organization>
+</affiliations>
+<common-name datatype='string'>Suzanne Paley</common-name>
+</Person>
+<Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A type of chromatin immunoprecipation-exonuclease evidence that is used in a manual assertion.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-26279566' orgid='ECOLI' frameid='PUB-26279566'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred by a human based on computational evidence</common-name>
+<comment datatype='string'>Human inference.  A curator or author inferred this assertion after review of one or more possible types 
+of computational evidence such as sequence similarity, recognized motifs or consensus sequence, etc.  
+When the inference was made by a computer in an automated fashion, use EV-AINF.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-26279566' orgid='ECOLI' frameid='PUB-26279566'/></evidence>
+<abs-center-pos datatype='float'>4114555.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00188' orgid='ECOLI' frameid='TU00188'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10628' orgid='ECOLI' frameid='EG10628'/></component>
+</Transcription-Unit>
+</ptools-xml>

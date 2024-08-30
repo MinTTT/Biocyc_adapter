@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42492'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42492</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42492' orgid='ECOLI' frameid='TU0-42492' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>yhjX</common-name>
+<comment datatype='string'>Expression levels of &lt;i&gt;cspI&lt;/i&gt;, &lt;i&gt;ypjB&lt;/i&gt;, and &lt;i&gt;yhjX&lt;/i&gt; genes were repressed by overproduction of YehT [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/22685278&quot;&gt;Kraxenberger12&lt;/a&gt;]. Insomuch as all of these genes lack any LytTR-like sequence motif, it is probable that the effect of YehT on these genes is indirect [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/22685278&quot;&gt;Kraxenberger12&lt;/a&gt;].
+&lt;p&gt;
+A functional link between the two systems provides positive feedback between YpdA/YhjX and &lt;i&gt;yjiY&lt;/i&gt; transcription, while &lt;i&gt;yhjX&lt;/i&gt; is negatively regulated by BtsS/YjiY activity [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/24659770&quot;&gt;Behr14&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/28796832&quot;&gt;Behr17&lt;/a&gt;].
+&lt;p&gt;
+Based on genomic SELEX (gSELEX) screening it was demonstrated that in the presence of a high concentration of pyruvate, PyrSR regulates at least eight novel targets, including the &lt;i&gt;yhjX&lt;/i&gt; gene, which encodes a protein with as-yet-unidentified function   [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/30624637&quot;&gt;Miyake19&lt;/a&gt;]. 
+&lt;p&gt;
+The &lt;i&gt;yhjX&lt;/i&gt; gene is more highly expressed during exponential growth than stationary phase and it is the major target of PyrR [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/30624637&quot;&gt;Miyake19&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-23222720' orgid='ECOLI' frameid='PUB-23222720' detail='full'><source datatype='string'>J Bacteriol 195(4);807-15</source>
+<pubmed-id datatype='string'>23222720</pubmed-id>
+<title datatype='string'>Identification of a Target Gene and Activating Stimulus for the YpdA/YpdB Histidine Kinase/Response Regulator System in Escherichia coli.</title>
+<year datatype='integer'>2013</year>
+<author datatype='string'>Fried L</author>
+<author datatype='string'>Behr S</author>
+<author datatype='string'>Jung K</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-23222720' orgid='ECOLI' frameid='PUB-23222720'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG12268' orgid='ECOLI' frameid='EG12268'/></component>
+<component><Promoter ID='ECOLI:PM0-46200' orgid='ECOLI' frameid='PM0-46200' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>3712052</minus-10-left>
+<common-name datatype='string'>yhjXp</common-name>
+<minus-35-right datatype='integer'>3712084</minus-35-right>
+<minus-35-left datatype='integer'>3712079</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3712043</absolute-plus-1-pos>
+<comment datatype='string'>The transcription start site for &lt;i&gt;yhjX&lt;/i&gt;p was determined by 5-RACE; however, the experimental data were not provided in the report [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/22685278&quot;&gt;Kraxenberger12&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-22685278' orgid='ECOLI' frameid='PUB-22685278' detail='full'><source datatype='string'>J Bacteriol 194(16);4272-84</source>
+<pubmed-id datatype='string'>22685278</pubmed-id>
+<title datatype='string'>First insights into the unexplored two-component system YehU/YehT in Escherichia coli.</title>
+<year datatype='integer'>2012</year>
+<author datatype='string'>Kraxenberger T</author>
+<author datatype='string'>Fried L</author>
+<author datatype='string'>Behr S</author>
+<author datatype='string'>Jung K</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-23222720' orgid='ECOLI' frameid='PUB-23222720'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-22685278' orgid='ECOLI' frameid='PUB-22685278'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11657' orgid='ECOLI' frameid='REG0-11657' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8309' orgid='ECOLI' frameid='CPLX0-8309'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46200' orgid='ECOLI' frameid='PM0-46200'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11656' orgid='ECOLI' frameid='REG0-11656' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8309' orgid='ECOLI' frameid='CPLX0-8309'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46200' orgid='ECOLI' frameid='PM0-46200'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>3712057</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42492' orgid='ECOLI' frameid='TU0-42492'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

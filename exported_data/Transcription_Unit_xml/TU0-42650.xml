@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42650'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42650</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42650' orgid='ECOLI' frameid='TU0-42650' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>hcp-hcr-poxB</common-name>
+<comment datatype='string'>Based on transcriptome analysis and findings with an &lt;i&gt;nrsR&lt;/i&gt; mutant, &lt;i&gt;poxB&lt;/i&gt; was identified as an NsrR target due to readthrough transcription from the &lt;i&gt;hcp-hcr&lt;/i&gt; genes [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/26239124&quot;&gt;Chhabra15&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-26239124' orgid='ECOLI' frameid='PUB-26239124' detail='full'><source datatype='string'>Microbiology 161(10);2029-38</source>
+<pubmed-id datatype='string'>26239124</pubmed-id>
+<title datatype='string'>Inefficient translation of nsrR constrains behaviour of the NsrR regulon in Escherichia coli.</title>
+<year datatype='integer'>2015</year>
+<author datatype='string'>Chhabra S</author>
+<author datatype='string'>Spiro S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Inferred through co-regulation</common-name>
+<comment datatype='string'>Inferred through co-regulation.  A transcription unit is inferred because a set of 
+adjacent genes that are transcribed in the same direction exhibit similar
+expression patterns under a range of environmental conditions.
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-26239124' orgid='ECOLI' frameid='PUB-26239124'/></evidence>
+<component><Promoter ID='ECOLI:PM0-7361' orgid='ECOLI' frameid='PM0-7361' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>913854</minus-10-left>
+<common-name datatype='string'>hcpp1</common-name>
+<minus-35-right datatype='integer'>913882</minus-35-right>
+<minus-35-left datatype='integer'>913877</minus-35-left>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>913845</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-15667305' orgid='ECOLI' frameid='PUB-15667305' detail='full'><source datatype='string'>Biochem Soc Trans 33(Pt 1);195-7</source>
+<pubmed-id datatype='string'>15667305</pubmed-id>
+<title datatype='string'>Transcriptional regulation of a hybrid cluster (prismane) protein.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Filenko NA</author>
+<author datatype='string'>Browning DF</author>
+<author datatype='string'>Cole JA</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15667305' orgid='ECOLI' frameid='PUB-15667305'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11503' orgid='ECOLI' frameid='REG0-11503' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00214' orgid='ECOLI' frameid='PD00214'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-7361' orgid='ECOLI' frameid='PM0-7361'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-8944' orgid='ECOLI' frameid='REG0-8944' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7756' orgid='ECOLI' frameid='CPLX0-7756'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-7361' orgid='ECOLI' frameid='PM0-7361'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6114' orgid='ECOLI' frameid='REG0-6114' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7797' orgid='ECOLI' frameid='CPLX0-7797'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-7361' orgid='ECOLI' frameid='PM0-7361'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6113' orgid='ECOLI' frameid='REG0-6113' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-NARL' orgid='ECOLI' frameid='PHOSPHO-NARL'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-7361' orgid='ECOLI' frameid='PM0-7361'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6112' orgid='ECOLI' frameid='REG0-6112' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-NARP' orgid='ECOLI' frameid='PHOSPHO-NARP'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-7361' orgid='ECOLI' frameid='PM0-7361'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6111' orgid='ECOLI' frameid='REG0-6111' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-NARL' orgid='ECOLI' frameid='PHOSPHO-NARL'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-7361' orgid='ECOLI' frameid='PM0-7361'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6110' orgid='ECOLI' frameid='REG0-6110' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-NARP' orgid='ECOLI' frameid='PHOSPHO-NARP'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-7361' orgid='ECOLI' frameid='PM0-7361'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>913859</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42650' orgid='ECOLI' frameid='TU0-42650'/><Transcription-Unit resource='getxml?ECOLI:TU0-7021' orgid='ECOLI' frameid='TU0-7021'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10754' orgid='ECOLI' frameid='EG10754'/></component>
+<component><Gene resource='getxml?ECOLI:G6456' orgid='ECOLI' frameid='G6456'/></component>
+<component><Gene resource='getxml?ECOLI:G6457' orgid='ECOLI' frameid='G6457'/></component>
+</Transcription-Unit>
+</ptools-xml>

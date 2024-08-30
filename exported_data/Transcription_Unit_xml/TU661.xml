@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU661'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU661</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU661' orgid='ECOLI' frameid='TU661' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>polA</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><DNA-Binding-Site ID='ECOLI:BS641' orgid='ECOLI' frameid='BS641' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-4922' orgid='ECOLI' frameid='REG0-4922' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:MONOMER0-160' orgid='ECOLI' frameid='MONOMER0-160'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM761' orgid='ECOLI' frameid='PM761' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>4046929</minus-10-left>
+<common-name datatype='string'>polAp</common-name>
+<minus-35-right datatype='integer'>4046914</minus-35-right>
+<minus-35-left datatype='integer'>4046909</minus-35-left>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4046940</absolute-plus-1-pos>
+<comment datatype='string'>The activity of this promoter appears to be decreased in the presence of &amp;sigma;E. It is repressed during the first 5 minutes following &amp;sigma;E induction and decreased from 5 to 10 minutes and from 10 to 20 minutes after induction of the &amp;sigma; factor [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31992590&quot;&gt;Lacoux20&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-9106210' orgid='ECOLI' frameid='PUB-9106210' detail='full'><source datatype='string'>Mol Microbiol 23(6);1193-202</source>
+<pubmed-id datatype='string'>9106210</pubmed-id>
+<title datatype='string'>DnaA protein stimulates polA gene expression in Escherichia coli.</title>
+<year datatype='integer'>1997</year>
+<author datatype='string'>Quinones A</author>
+<author datatype='string'>Wandt G</author>
+<author datatype='string'>Kleinstauber S</author>
+<author datatype='string'>Messer W</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9106210' orgid='ECOLI' frameid='PUB-9106210'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-4922' orgid='ECOLI' frameid='REG0-4922'/></regulated-by>
+<minus-10-right datatype='integer'>4046934</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU661' orgid='ECOLI' frameid='TU661'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+</evidence>
+<abs-center-pos datatype='integer'>4046839</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU661' orgid='ECOLI' frameid='TU661'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10746' orgid='ECOLI' frameid='EG10746'/></component>
+<component><Promoter resource='#ECOLI:PM761' orgid='ECOLI' frameid='PM761'/></component>
+</Transcription-Unit>
+</ptools-xml>

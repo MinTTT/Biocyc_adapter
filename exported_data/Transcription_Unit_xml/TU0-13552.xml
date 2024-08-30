@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-13552'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-13552</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-13552' orgid='ECOLI' frameid='TU0-13552' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>yejABEF</common-name>
+<citation><Publication ID='ECOLI:PUB-15618228' orgid='ECOLI' frameid='PUB-15618228' detail='full'><source datatype='string'>J Biol Chem 280(9);7901-8</source>
+<pubmed-id datatype='string'>15618228</pubmed-id>
+<title datatype='string'>A small bacterial RNA regulates a putative ABC transporter.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Antal M</author>
+<author datatype='string'>Bordeau V</author>
+<author datatype='string'>Douchin V</author>
+<author datatype='string'>Felden B</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15618228' orgid='ECOLI' frameid='PUB-15618228'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG12041' orgid='ECOLI' frameid='EG12041'/></component>
+<component><Gene resource='getxml?ECOLI:EG12040' orgid='ECOLI' frameid='EG12040'/></component>
+<component><Gene resource='getxml?ECOLI:EG12038' orgid='ECOLI' frameid='EG12038'/></component>
+<component><Gene resource='getxml?ECOLI:EG12037' orgid='ECOLI' frameid='EG12037'/></component>
+</Transcription-Unit>
+</ptools-xml>

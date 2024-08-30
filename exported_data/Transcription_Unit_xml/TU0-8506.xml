@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8506'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8506</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8506' orgid='ECOLI' frameid='TU0-8506' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rpmE</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SINGLE-DIRECTON' orgid='ECOLI' frameid='EV-COMP-AINF-SINGLE-DIRECTON' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference that a single-gene directon is a transcription unit </common-name>
+<comment datatype='string'>Automated inference of transcription unit based on single-gene directon.  Existence of a single-gene transcription unit 
+for gene G is inferred computationally by the existence of upstream and downstream genes transcribed in the 
+opposite direction of G.</comment>
+</Evidence-Code>
+</evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-13474' orgid='ECOLI' frameid='REG0-13474' detail='low'><parent><Regulation resource='getxml?ECOLI:Protein-Mediated-Translation-Regulation' orgid='ECOLI' frameid='Protein-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG10889-MONOMER' orgid='ECOLI' frameid='EG10889-MONOMER'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-8506' orgid='ECOLI' frameid='TU0-8506'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component><Terminator ID='ECOLI:TERM0-1295' orgid='ECOLI' frameid='TERM0-1295' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>4127262</right-end-position>
+<left-end-position datatype='integer'>4127241</left-end-position>
+<citation><Publication ID='ECOLI:PUB-32209634' orgid='ECOLI' frameid='PUB-32209634' detail='full'><source datatype='string'>RNA 26(7);814-826</source>
+<pubmed-id datatype='string'>32209634</pubmed-id>
+<title datatype='string'>Autogenous regulation in vivo of the  &lt;i&gt;rpmE&lt;/i&gt; gene encoding ribosomal protein L31 (bL31), a key component of the protein-protein intersubunit bridge B1b.</title>
+<year datatype='integer'>2020</year>
+<author datatype='string'>Aseev LV</author>
+<author datatype='string'>Koledinskaya LS</author>
+<author datatype='string'>Boni IV</author>
+<doi-id datatype='string'>10.1261/rna.074237.119</doi-id>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45156' orgid='ECOLI' frameid='TU0-45156'/><Transcription-Unit resource='#ECOLI:TU0-8506' orgid='ECOLI' frameid='TU0-8506'/></component-of>
+</Terminator>
+</component>
+<component><Promoter ID='ECOLI:PM0-9844' orgid='ECOLI' frameid='PM0-9844' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>rpmEp2</common-name>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOH-MONOMER' orgid='ECOLI' frameid='RPOH-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4126908</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-19838305' orgid='ECOLI' frameid='PUB-19838305' detail='full'><source datatype='string'>PLoS One 4(10);e7526</source>
+<pubmed-id datatype='string'>19838305</pubmed-id>
+<title datatype='string'>Genome-wide identification of transcription start sites, promoters and transcription factor binding sites in E. coli.</title>
+<year datatype='integer'>2009</year>
+<author datatype='string'>Mendoza-Vargas A</author>
+<author datatype='string'>Olvera L</author>
+<author datatype='string'>Olvera M</author>
+<author datatype='string'>Grande R</author>
+<author datatype='string'>Vega-Alvarado L</author>
+<author datatype='string'>Taboada B</author>
+<author datatype='string'>Jimenez-Jacinto V</author>
+<author datatype='string'>Salgado H</author>
+<author datatype='string'>Juarez K</author>
+<author datatype='string'>Contreras-Moreira B</author>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+<author datatype='string'>Morett E</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-16892065' orgid='ECOLI' frameid='PUB-16892065' detail='full'><source datatype='string'>Nat Struct Mol Biol 13(9);806-14</source>
+<pubmed-id datatype='string'>16892065</pubmed-id>
+<title datatype='string'>Extensive functional overlap between sigma factors in Escherichia coli.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Wade JT</author>
+<author datatype='string'>Roa DC</author>
+<author datatype='string'>Grainger DC</author>
+<author datatype='string'>Hurd D</author>
+<author datatype='string'>Busby SJ</author>
+<author datatype='string'>Struhl K</author>
+<author datatype='string'>Nudler E</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-32209634' orgid='ECOLI' frameid='PUB-32209634'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' orgid='ECOLI' frameid='EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>High-throughput transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified using a high-throughput experimental modified RACE approach.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-19838305' orgid='ECOLI' frameid='PUB-19838305'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from direct assay</common-name>
+<comment datatype='string'>IDA inferred from direct assay.
+
+&lt;br&gt;
+The assertion was inferred from a direct experimental assay such as
+&lt;ul&gt;
+    &lt;li&gt; Enzyme assays
+    &lt;li&gt; In vitro reconstitution (e.g. transcription)
+    &lt;li&gt; Immunofluorescence
+    &lt;li&gt; Cell fractionation
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16892065' orgid='ECOLI' frameid='PUB-16892065'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16892065' orgid='ECOLI' frameid='PUB-16892065'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/><Publication resource='#ECOLI:PUB-32209634' orgid='ECOLI' frameid='PUB-32209634'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12993' orgid='ECOLI' frameid='REG0-12993' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Compound resource='getxml?ECOLI:GUANOSINE-5DP-3DP' orgid='ECOLI' frameid='GUANOSINE-5DP-3DP'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-9844' orgid='ECOLI' frameid='PM0-9844'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8506' orgid='ECOLI' frameid='TU0-8506'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10889' orgid='ECOLI' frameid='EG10889'/></component>
+</Transcription-Unit>
+</ptools-xml>

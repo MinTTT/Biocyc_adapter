@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00409'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00409</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00409' orgid='ECOLI' frameid='TU00409' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>fimB</common-name>
+<comment datatype='string'>Transcription of the genes &lt;i&gt;fimA&lt;/i&gt;, &lt;i&gt;fimB&lt;/i&gt;, and &lt;i&gt;fimE&lt;/i&gt; appears to be indirectly repressed by the protein GadE under low pH. The proteins GadW and GadX and also CRP seem to regulate the three &lt;i&gt;fim&lt;/i&gt; genes, but it has not been determined if this regulation is direct [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/35316170&quot;&gt;Schwan22&lt;/a&gt;]. During stationary phase, RpoS causes a negative effect on transcription of the &lt;i&gt;fimA&lt;/i&gt; and &lt;i&gt;fimB&lt;/i&gt; genes but not &lt;i&gt;fimE&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/35316170&quot;&gt;Schwan22&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-8121417' orgid='ECOLI' frameid='PUB-8121417' detail='full'><source datatype='string'>Mol Gen Genet 242(5);623-30</source>
+<pubmed-id datatype='string'>8121417</pubmed-id>
+<title datatype='string'>Analysis of the fimB promoter region involved in type 1 pilus phase variation in Escherichia coli.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Schwan WR</author>
+<author datatype='string'>Seifert HS</author>
+<author datatype='string'>Duncan JL</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-1348054' orgid='ECOLI' frameid='PUB-1348054' detail='full'><source datatype='string'>J Bacteriol 174(7);2367-75</source>
+<pubmed-id datatype='string'>1348054</pubmed-id>
+<title datatype='string'>Growth conditions mediate differential transcription of fim genes involved in phase variation of type 1 pili.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Schwan WR</author>
+<author datatype='string'>Seifert HS</author>
+<author datatype='string'>Duncan JL</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1348054' orgid='ECOLI' frameid='PUB-1348054'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11717' orgid='ECOLI' frameid='REG0-11717' detail='low'><parent><Regulation resource='getxml?ECOLI:RNA-Mediated-Translation-Regulation' orgid='ECOLI' frameid='RNA-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><RNA resource='getxml?ECOLI:SRAD-RNA' orgid='ECOLI' frameid='SRAD-RNA'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU00409' orgid='ECOLI' frameid='TU00409'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component><DNA-Binding-Site ID='ECOLI:BS0-7139' orgid='ECOLI' frameid='BS0-7139' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-5102' orgid='ECOLI' frameid='REG0-5102' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00288' orgid='ECOLI' frameid='PD00288'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM00559' orgid='ECOLI' frameid='PM00559' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>4540797</minus-10-left>
+<common-name datatype='string'>fimBp1</common-name>
+<minus-35-right datatype='integer'>4540779</minus-35-right>
+<minus-35-left datatype='integer'>4540774</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4540809</absolute-plus-1-pos>
+<comment datatype='string'>Baljinder et al. showed that NanR, NagC, and IHF activate &lt;i&gt;fimB&lt;/i&gt;gene expression, but they could not determine which of the three promoters (fimBp1, fimBp2, fimBp3) is affected [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/17238917&quot;&gt;Sohanpal07&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/15534208&quot;&gt;Sohanpal04&lt;/a&gt;], and none could demonstrate which is the transcription activation mechanism. They concluded that the activation from NagC and IHF could be indirect, altering the DNA structure of the intergenic region between &lt;i&gt;fimB&lt;/i&gt; and &lt;i&gt;nanC&lt;/i&gt;. Another possibility of activating the system is through direct contact of NagC with RNA polymerase [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/17238917&quot;&gt;Sohanpal07&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/15534208&quot;&gt;Sohanpal04&lt;/a&gt;]. 
+&lt;p&gt;
+There are three potential transcription start sites.   Transcription starting from two of the sites (P1 and P2) would  produce an mRNA that approximates the transcript size of &lt;i&gt;fimB&lt;/i&gt; previously detected by Northern blot hybridizations.</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-8121417' orgid='ECOLI' frameid='PUB-8121417'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8121417' orgid='ECOLI' frameid='PUB-8121417'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-5102' orgid='ECOLI' frameid='REG0-5102'/></regulated-by>
+<minus-10-right datatype='integer'>4540802</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00409' orgid='ECOLI' frameid='TU00409'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-9352908' orgid='ECOLI' frameid='PUB-9352908' detail='full'><source datatype='string'>J Bacteriol 179(21);6618-25</source>
+<pubmed-id datatype='string'>9352908</pubmed-id>
+<title datatype='string'>Promoter-specific repression of fimB expression by the Escherichia coli nucleoid-associated protein H-NS.</title>
+<year datatype='integer'>1997</year>
+<author datatype='string'>Donato GM</author>
+<author datatype='string'>Lelivelt MJ</author>
+<author datatype='string'>Kawula TH</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication ID='ECOLI:PUB-9595659' orgid='ECOLI' frameid='PUB-9595659' detail='full'><source datatype='string'>FEMS Microbiol Lett 162(1);17-23</source>
+<pubmed-id datatype='string'>9595659</pubmed-id>
+<title datatype='string'>Differential temperature modulation by H-NS of the fimB and fimE recombinase genes which control the orientation of the type 1 fimbrial phase switch.</title>
+<year datatype='integer'>1998</year>
+<author datatype='string'>Olsen PB</author>
+<author datatype='string'>Schembri MA</author>
+<author datatype='string'>Gally DL</author>
+<author datatype='string'>Klemm P</author>
+</Publication>
+</evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU00409' orgid='ECOLI' frameid='TU00409'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Promoter resource='#ECOLI:PM00559' orgid='ECOLI' frameid='PM00559'/></component>
+<component><Gene resource='getxml?ECOLI:EG10309' orgid='ECOLI' frameid='EG10309'/></component>
+</Transcription-Unit>
+</ptools-xml>

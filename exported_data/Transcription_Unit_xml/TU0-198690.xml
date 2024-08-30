@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-198690'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-198690</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-198690' orgid='ECOLI' frameid='TU0-198690' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>stfZ</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION-NORTHERN' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION-NORTHERN' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' class='true'/></parent>
+<common-name datatype='string'>Northern blot for transcription unit length determination evidence</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0000106</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0000106</dblink-URL>
+</dblink>
+<credits><imported-from-meta><date datatype='date'>2022-10-25</date>
+<Person ID='ECOLI:paley' orgid='ECOLI' frameid='paley' detail='full'><affiliations><Organization ID='ECOLI:SRI' orgid='ECOLI' frameid='SRI' detail='full'><abbrev-name datatype='string'>SRI International</abbrev-name>
+<email datatype='string'>ptools-support@ai.sri.com</email>
+<common-name datatype='string'>SRI International</common-name>
+<url datatype='string'>http://bioinformatics.ai.sri.com/</url>
+</Organization>
+</affiliations>
+<common-name datatype='string'>Suzanne Paley</common-name>
+</Person>
+<Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A type of transcript expression evidence based on electrophoresis and probing to determine the length of a transcription unit using a complementary hybridization probe on the separated RNA samples.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-36338044' orgid='ECOLI' frameid='PUB-36338044' detail='full'><source datatype='string'>Front Microbiol 13;920117</source>
+<pubmed-id datatype='string'>36338044</pubmed-id>
+<title datatype='string'>Complete identity and expression of StfZ, the  &lt;i&gt;cis&lt;/i&gt; -antisense RNA to the mRNA of the cell division gene  &lt;i&gt;ftsZ&lt;/i&gt;, in  &lt;i&gt;Escherichia coli&lt;/i&gt;.</title>
+<year datatype='integer'>2022</year>
+<author datatype='string'>Anand D</author>
+<author datatype='string'>Jakkala K</author>
+<author datatype='string'>Nair RR</author>
+<author datatype='string'>Sharan D</author>
+<author datatype='string'>Pradhan A</author>
+<author datatype='string'>Mukkayyan N</author>
+<author datatype='string'>Ajitkumar P</author>
+<doi-id datatype='string'>10.3389/fmicb.2022.920117</doi-id>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-36338044' orgid='ECOLI' frameid='PUB-36338044'/></evidence>
+<citation><Publication resource='#ECOLI:PUB-36338044' orgid='ECOLI' frameid='PUB-36338044'/></citation>
+<component><Promoter ID='ECOLI:PM0-46601' orgid='ECOLI' frameid='PM0-46601' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>105321</minus-10-left>
+<common-name datatype='string'>stfZp1</common-name>
+<minus-35-right datatype='integer'>105346</minus-35-right>
+<minus-35-left datatype='integer'>105341</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>105313</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING-PRIMER-EXTENSION-TSS' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING-PRIMER-EXTENSION-TSS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/></parent>
+<common-name datatype='string'>Primer extension assay for transcription start site determination</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0001819</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0001819</dblink-URL>
+</dblink>
+<credits><imported-from-meta><date datatype='date'>2022-10-25</date>
+<Person resource='#ECOLI:paley' orgid='ECOLI' frameid='paley'/><Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A type of transcript expression evidence used to determine the 5' end of the mRNA where a labeled synthetic oligonucleotide primer is annealed to mRNA downstream of the presumed transcription start site of a gene. The mRNA is extended with reverse transcriptase, producing cDNA which is electrophoresed, and the band size enables determination of the 5' end of the mRNA (the transcription start site). [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23378648&quot;&gt;7&lt;/a&gt;]</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-36338044' orgid='ECOLI' frameid='PUB-36338044'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from mutant phenotype</common-name>
+<comment datatype='string'>IMP inferred from mutant phenotype.
+
+&lt;br&gt;
+The assertion was inferred from a mutant phenotype such as
+&lt;ul&gt;
+    &lt;li&gt; Any gene mutation/knockout
+    &lt;li&gt; Overexpression/ectopic expression of wild-type or mutant genes
+    &lt;li&gt; Anti-sense experiments
+    &lt;li&gt; RNA interference experiments
+    &lt;li&gt; Specific protein inhibitors
+    &lt;li&gt; Complementation
+&lt;/ul&gt;&lt;p class=ecocomment&gt;	
+Comment: Inferences made from examining mutations or
+abnormal levels of only the product(s) of the gene of interest are covered by code EV-IMP
+(compare to code EV-IGI). Use this code for experiments that use antibodies 
+or other specific inhibitors of RNA or protein activity, even though no
+gene may be mutated (the rationale is that EV-IMP is used where an
+abnormal situation prevails in a cell or organism).
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-36338044' orgid='ECOLI' frameid='PUB-36338044'/></evidence>
+<citation><Publication resource='#ECOLI:PUB-36338044' orgid='ECOLI' frameid='PUB-36338044'/></citation>
+<minus-10-right datatype='integer'>105326</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-198690' orgid='ECOLI' frameid='TU0-198690'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:G0-17120' orgid='ECOLI' frameid='G0-17120'/></component>
+</Transcription-Unit>
+</ptools-xml>

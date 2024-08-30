@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-4'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-4</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-4' orgid='ECOLI' frameid='TU0-4' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>yggN</common-name>
+<synonym datatype='string'>ecfF</synonym>
+<component><Gene resource='getxml?ECOLI:EG12705' orgid='ECOLI' frameid='EG12705'/></component>
+<component><Promoter ID='ECOLI:PM0-5' orgid='ECOLI' frameid='PM0-5' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>yggNp2b</common-name>
+<synonym datatype='string'>ecfFp2b</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3101640</absolute-plus-1-pos>
+<comment datatype='string'>The transcription initiation of ecfFp2 was determined by S1 mapping by [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16159766&quot;&gt;Yamamoto05a&lt;/a&gt;] and it was 104 nucleotides downstream from site previously identified by [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/11274153&quot;&gt;Dartigalongue01&lt;/a&gt;]; and therefore we considered that it is a different promoter and we have re-named as ecfFp2b.
+ecfFp2b promoter was induced by zinc in a microarray analysis [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16159766&quot;&gt;Yamamoto05a&lt;/a&gt;].
+</comment>
+<citation><Publication ID='ECOLI:PUB-16159766' orgid='ECOLI' frameid='PUB-16159766' detail='full'><source datatype='string'>J Bacteriol 187(18);6333-40</source>
+<pubmed-id datatype='string'>16159766</pubmed-id>
+<title datatype='string'>Transcriptional response of Escherichia coli to external zinc.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Yamamoto K</author>
+<author datatype='string'>Ishihama A</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16159766' orgid='ECOLI' frameid='PUB-16159766'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4' orgid='ECOLI' frameid='TU0-4'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

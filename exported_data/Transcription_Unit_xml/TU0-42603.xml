@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42603'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42603</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42603' orgid='ECOLI' frameid='TU0-42603' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>accBC</common-name>
+<comment datatype='string'>A potential RNA G-quadruplex structure, formed by guanine-rich sequences located in the coding sequence region of the gene, was identified  for &lt;i&gt;accC&lt;/i&gt; . This structure  could regulate the expression of the gene, as observed for &lt;i&gt;hemL&lt;/i&gt; gene expression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31964733&quot;&gt;Shao20&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-25802297' orgid='ECOLI' frameid='PUB-25802297' detail='full'><source datatype='string'>J Bacteriol 197(11);1862-72</source>
+<pubmed-id datatype='string'>25802297</pubmed-id>
+<title datatype='string'>Reassessment of the Genetic Regulation of Fatty Acid Synthesis in Escherichia coli: Global Positive Control by the Dual Functional Regulator FadR.</title>
+<year datatype='integer'>2015</year>
+<author datatype='string'>My L</author>
+<author datatype='string'>Ghandour Achkar N</author>
+<author datatype='string'>Viala JP</author>
+<author datatype='string'>Bouveret E</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8226664' orgid='ECOLI' frameid='PUB-8226664' detail='full'><source datatype='string'>J Bacteriol 175(22);7178-88</source>
+<pubmed-id datatype='string'>8226664</pubmed-id>
+<title datatype='string'>Cotranscription of two genes necessary for ribosomal protein L11 methylation (prmA) and pantothenate transport (panF) in Escherichia coli K-12.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>Vanet A</author>
+<author datatype='string'>Plumbridge JA</author>
+<author datatype='string'>Alix JH</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-25802297' orgid='ECOLI' frameid='PUB-25802297'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' class='true'/><Publication resource='#ECOLI:PUB-8226664' orgid='ECOLI' frameid='PUB-8226664'/></evidence>
+<component><Terminator ID='ECOLI:ACCCT1' orgid='ECOLI' frameid='ACCCT1' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3407302</right-end-position>
+<left-end-position datatype='integer'>3407286</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-8226664' orgid='ECOLI' frameid='PUB-8226664'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42603' orgid='ECOLI' frameid='TU0-42603'/><Transcription-Unit resource='getxml?ECOLI:TU00231' orgid='ECOLI' frameid='TU00231'/></component-of>
+</Terminator>
+</component>
+<component><Promoter ID='ECOLI:PM0-46357' orgid='ECOLI' frameid='PM0-46357' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>accBp2</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3405172</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-25802297' orgid='ECOLI' frameid='PUB-25802297'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-25802297' orgid='ECOLI' frameid='PUB-25802297'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12322' orgid='ECOLI' frameid='REG0-12322' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD01520' orgid='ECOLI' frameid='PD01520'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46357' orgid='ECOLI' frameid='PM0-46357'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42603' orgid='ECOLI' frameid='TU0-42603'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10276' orgid='ECOLI' frameid='EG10276'/></component>
+<component><Gene resource='getxml?ECOLI:EG10275' orgid='ECOLI' frameid='EG10275'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8760'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8760</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8760' orgid='ECOLI' frameid='TU0-8760' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>abgR</common-name>
+<comment datatype='string'>The transcription of  the &lt;i&gt;abgR&lt;/i&gt; gene is induced during the first 24 h after the induction of nitrogen starvation [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/32571968&quot;&gt;Switzer20&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SINGLE-DIRECTON' orgid='ECOLI' frameid='EV-COMP-AINF-SINGLE-DIRECTON' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference that a single-gene directon is a transcription unit </common-name>
+<comment datatype='string'>Automated inference of transcription unit based on single-gene directon.  Existence of a single-gene transcription unit 
+for gene G is inferred computationally by the existence of upstream and downstream genes transcribed in the 
+opposite direction of G.</comment>
+</Evidence-Code>
+</evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-13313' orgid='ECOLI' frameid='REG0-13313' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-8760' orgid='ECOLI' frameid='TU0-8760'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-13132' orgid='ECOLI' frameid='REG0-13132' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:G7072-MONOMER' orgid='ECOLI' frameid='G7072-MONOMER'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-8760' orgid='ECOLI' frameid='TU0-8760'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component><Terminator ID='ECOLI:TERM0-1162' orgid='ECOLI' frameid='TERM0-1162' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>1405693</right-end-position>
+<left-end-position datatype='integer'>1405662</left-end-position>
+<citation><Publication ID='ECOLI:PUB-22289118' orgid='ECOLI' frameid='PUB-22289118' detail='full'><source datatype='string'>Mol Microbiol 84(1);17-35</source>
+<pubmed-id datatype='string'>22289118</pubmed-id>
+<title datatype='string'>A small RNA that regulates motility and biofilm formation in response to changes in nutrient availability in Escherichia coli.</title>
+<year datatype='integer'>2012</year>
+<author datatype='string'>Thomason MK</author>
+<author datatype='string'>Fontaine F</author>
+<author datatype='string'>De Lay N</author>
+<author datatype='string'>Storz G</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8760' orgid='ECOLI' frameid='TU0-8760'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:G6671' orgid='ECOLI' frameid='G6671'/></component>
+</Transcription-Unit>
+</ptools-xml>

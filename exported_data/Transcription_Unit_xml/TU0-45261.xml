@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-45261'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-45261</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-45261' orgid='ECOLI' frameid='TU0-45261' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>lapAB</common-name>
+<comment datatype='string'>The &lt;i&gt;lapAB&lt;/i&gt; operon is subject to heat shock [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/24722986&quot;&gt;Klein14&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-24722986' orgid='ECOLI' frameid='PUB-24722986' detail='full'><source datatype='string'>J Biol Chem 289(21);14829-53</source>
+<pubmed-id datatype='string'>24722986</pubmed-id>
+<title datatype='string'>Assembly of lipopolysaccharide in Escherichia coli requires the essential LapB heat shock protein.</title>
+<year datatype='integer'>2014</year>
+<author datatype='string'>Klein G</author>
+<author datatype='string'>Kobylak N</author>
+<author datatype='string'>Lindner B</author>
+<author datatype='string'>Stupak A</author>
+<author datatype='string'>Raina S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-IC-ADJ-GENES-SAME-BIO-PROCESS' orgid='ECOLI' frameid='EV-IC-ADJ-GENES-SAME-BIO-PROCESS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' class='true'/></parent>
+<common-name datatype='string'>Products of adjacent genes in the same biological process</common-name>
+<comment datatype='string'>A transcription unit is inferred because there is a set of adjacent genes,
+encoded in the same direction, coding for products that participate in the
+same metabolic pathway or biological process. Sometimes, these genes code
+for subunits of the same protein.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-24722986' orgid='ECOLI' frameid='PUB-24722986'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Inferred through co-regulation</common-name>
+<comment datatype='string'>Inferred through co-regulation.  A transcription unit is inferred because a set of 
+adjacent genes that are transcribed in the same direction exhibit similar
+expression patterns under a range of environmental conditions.
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-24722986' orgid='ECOLI' frameid='PUB-24722986'/></evidence>
+<component><Promoter ID='ECOLI:PM0-46564' orgid='ECOLI' frameid='PM0-46564' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>1340118</minus-10-left>
+<common-name datatype='string'>lapAp</common-name>
+<minus-35-right datatype='integer'>1340106</minus-35-right>
+<minus-35-left datatype='integer'>1340100</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOH-MONOMER' orgid='ECOLI' frameid='RPOH-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>yciSpl</synonym>
+<synonym datatype='string'>P2</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1340135</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-24722986' orgid='ECOLI' frameid='PUB-24722986'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred by a human based on computational evidence</common-name>
+<comment datatype='string'>Human inference.  A curator or author inferred this assertion after review of one or more possible types 
+of computational evidence such as sequence similarity, recognized motifs or consensus sequence, etc.  
+When the inference was made by a computer in an automated fashion, use EV-AINF.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-24722986' orgid='ECOLI' frameid='PUB-24722986'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/><Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-16818608' orgid='ECOLI' frameid='PUB-16818608' detail='full'><source datatype='string'>Genes Dev 20(13);1776-89</source>
+<pubmed-id datatype='string'>16818608</pubmed-id>
+<title datatype='string'>Regulon and promoter analysis of the E. coli heat-shock factor, sigma32, reveals a multifaceted cellular response to heat stress.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Nonaka G</author>
+<author datatype='string'>Blankschien M</author>
+<author datatype='string'>Herman C</author>
+<author datatype='string'>Gross CA</author>
+<author datatype='string'>Rhodius VA</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-16892065' orgid='ECOLI' frameid='PUB-16892065' detail='full'><source datatype='string'>Nat Struct Mol Biol 13(9);806-14</source>
+<pubmed-id datatype='string'>16892065</pubmed-id>
+<title datatype='string'>Extensive functional overlap between sigma factors in Escherichia coli.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Wade JT</author>
+<author datatype='string'>Roa DC</author>
+<author datatype='string'>Grainger DC</author>
+<author datatype='string'>Hurd D</author>
+<author datatype='string'>Busby SJ</author>
+<author datatype='string'>Struhl K</author>
+<author datatype='string'>Nudler E</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-24722986' orgid='ECOLI' frameid='PUB-24722986'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16818608' orgid='ECOLI' frameid='PUB-16818608'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference of promoter position</common-name>
+<comment datatype='string'>Automated inference of promoter position relative to the -10 and -35 boxes.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16818608' orgid='ECOLI' frameid='PUB-16818608'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from direct assay</common-name>
+<comment datatype='string'>IDA inferred from direct assay.
+
+&lt;br&gt;
+The assertion was inferred from a direct experimental assay such as
+&lt;ul&gt;
+    &lt;li&gt; Enzyme assays
+    &lt;li&gt; In vitro reconstitution (e.g. transcription)
+    &lt;li&gt; Immunofluorescence
+    &lt;li&gt; Cell fractionation
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16892065' orgid='ECOLI' frameid='PUB-16892065'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/><Publication resource='#ECOLI:PUB-16892065' orgid='ECOLI' frameid='PUB-16892065'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-24722986' orgid='ECOLI' frameid='PUB-24722986'/></evidence>
+<minus-10-right datatype='integer'>1340123</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45262' orgid='ECOLI' frameid='TU0-45262'/><Transcription-Unit resource='#ECOLI:TU0-45261' orgid='ECOLI' frameid='TU0-45261'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG12691' orgid='ECOLI' frameid='EG12691'/></component>
+<component><Gene resource='getxml?ECOLI:G6637' orgid='ECOLI' frameid='G6637'/></component>
+</Transcription-Unit>
+</ptools-xml>

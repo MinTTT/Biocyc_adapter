@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-7002'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-7002</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-7002' orgid='ECOLI' frameid='TU0-7002' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rpoBC</common-name>
+<comment datatype='string'>A potential RNA G-quadruplex structure, formed by guanine-rich sequences located in the coding sequence region of the gene, was identified  for &lt;i&gt;rpoB&lt;/i&gt;. This structure  could regulate the expression of the gene, as observed for &lt;i&gt;hemL&lt;/i&gt; gene expression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31964733&quot;&gt;Shao20&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-6296152' orgid='ECOLI' frameid='PUB-6296152' detail='full'><source datatype='string'>J Biol Chem 258(4);2720-8</source>
+<pubmed-id datatype='string'>6296152</pubmed-id>
+<title datatype='string'>Mechanism of the rifampicin induction of RNA polymerase beta and beta' subunit synthesis in Escherichia coli.</title>
+<year datatype='integer'>1983</year>
+<author datatype='string'>Fukuda R</author>
+<author datatype='string'>Nagasawa-Fujimori H</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-6158044' orgid='ECOLI' frameid='PUB-6158044' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 77(6);3331-5</source>
+<pubmed-id datatype='string'>6158044</pubmed-id>
+<title datatype='string'>Attenuation and processing of RNA from the rplJL--rpoBC transcription unit of Escherichia coli.</title>
+<year datatype='integer'>1980</year>
+<author datatype='string'>Barry G</author>
+<author datatype='string'>Squires C</author>
+<author datatype='string'>Squires CL</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+</evidence>
+<component><Terminator ID='ECOLI:TERM82' orgid='ECOLI' frameid='TERM82' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>4189613</right-end-position>
+<left-end-position datatype='integer'>4189599</left-end-position>
+<citation><Publication ID='ECOLI:PUB-6278450' orgid='ECOLI' frameid='PUB-6278450' detail='full'><source datatype='string'>Nucleic Acids Res 9(24);6827-40</source>
+<pubmed-id datatype='string'>6278450</pubmed-id>
+<title datatype='string'>Nucleotide sequence at the end of the gene for the RNA polymerase beta' subunit (rpoC).</title>
+<year datatype='integer'>1981</year>
+<author datatype='string'>Squires C</author>
+<author datatype='string'>Krainer A</author>
+<author datatype='string'>Barry G</author>
+<author datatype='string'>Shen WF</author>
+<author datatype='string'>Squires CL</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-6512' orgid='ECOLI' frameid='TU0-6512'/><Transcription-Unit resource='#ECOLI:TU0-7002' orgid='ECOLI' frameid='TU0-7002'/><Transcription-Unit resource='getxml?ECOLI:TU00335' orgid='ECOLI' frameid='TU00335'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10895' orgid='ECOLI' frameid='EG10895'/></component>
+<component><Gene resource='getxml?ECOLI:EG10894' orgid='ECOLI' frameid='EG10894'/></component>
+<component><Promoter ID='ECOLI:PM00498' orgid='ECOLI' frameid='PM00498' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>rpoBp</common-name>
+<synonym datatype='string'>rpoB</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4181063</absolute-plus-1-pos>
+<comment datatype='string'>The rpoBp promoter is very weak; as a matter of fact, Ralling and Linn [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/6325390&quot;&gt;Ralling84&lt;/a&gt;] did not find evidence for it. Therefore, it can be concluded that even if it does exist, it might not be very efficient.</comment>
+<citation><Publication resource='#ECOLI:PUB-6296152' orgid='ECOLI' frameid='PUB-6296152'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6296152' orgid='ECOLI' frameid='PUB-6296152'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-AS-NAS' orgid='ECOLI' frameid='EV-AS-NAS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-AS' orgid='ECOLI' frameid='EV-AS' class='true'/></parent>
+<common-name datatype='string'>Non-traceable author statement</common-name>
+<comment datatype='string'>Non-traceable author statement.  The assertion was made in a publication such as a review, a meeting abstract, 
+or another database without a reference to a publication describing an experiment that supports the assertion.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-6285178' orgid='ECOLI' frameid='PUB-6285178' detail='full'><source datatype='string'>Mol Biol (Mosk) 16(3);575-80</source>
+<pubmed-id datatype='string'>6285178</pubmed-id>
+<title datatype='string'>[Cloning of the promoter of the RNA polymerase operon located before the structural gene of the beta-subunit]</title>
+<author datatype='string'>Bass IA</author>
+<author datatype='string'>Kurenova EV</author>
+<author datatype='string'>Mekhedov SL</author>
+</Publication>
+</evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-7002' orgid='ECOLI' frameid='TU0-7002'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00180'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00180</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00180' orgid='ECOLI' frameid='TU00180' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>umuDC</common-name>
+<synonym datatype='string'>OP00250</synonym>
+<comment datatype='string'>&lt;i&gt;umuDC&lt;/i&gt;, among other genes that form the SOS response regulon, belong to the most abundant class of upregulated genes in two MG1655 lysogens carrying closely related Stx2a phages O104 and PA8 [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31208335&quot;&gt;Berger19&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-8755866' orgid='ECOLI' frameid='PUB-8755866' detail='full'><source datatype='string'>J Bacteriol 178(15);4400-11</source>
+<pubmed-id datatype='string'>8755866</pubmed-id>
+<title datatype='string'>The genetic requirements for UmuDC-mediated cold sensitivity are distinct from those for SOS mutagenesis.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Opperman T</author>
+<author datatype='string'>Murli S</author>
+<author datatype='string'>Walker GC</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-10760155' orgid='ECOLI' frameid='PUB-10760155' detail='full'><source datatype='string'>Mol Microbiol 35(6);1560-72</source>
+<pubmed-id datatype='string'>10760155</pubmed-id>
+<title datatype='string'>Identification of additional genes belonging to the LexA regulon in Escherichia coli.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Fernandez De Henestrosa AR</author>
+<author datatype='string'>Ogi T</author>
+<author datatype='string'>Aoyagi S</author>
+<author datatype='string'>Chafin D</author>
+<author datatype='string'>Hayes JJ</author>
+<author datatype='string'>Ohmori H</author>
+<author datatype='string'>Woodgate R</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10760155' orgid='ECOLI' frameid='PUB-10760155'/></evidence>
+<component><DNA-Binding-Site ID='ECOLI:BS0-24' orgid='ECOLI' frameid='BS0-24' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-5569' orgid='ECOLI' frameid='REG0-5569' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PC00010' orgid='ECOLI' frameid='PC00010'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM00251' orgid='ECOLI' frameid='PM00251' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>1230728</minus-10-left>
+<common-name datatype='string'>umuDp</common-name>
+<minus-35-right datatype='integer'>1230710</minus-35-right>
+<minus-35-left datatype='integer'>1230705</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>umuDC</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1230738</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-2989817' orgid='ECOLI' frameid='PUB-2989817' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 82(13);4336-40</source>
+<pubmed-id datatype='string'>2989817</pubmed-id>
+<title datatype='string'>Structural analysis of the umu operon required for inducible mutagenesis in Escherichia coli.</title>
+<year datatype='integer'>1985</year>
+<author datatype='string'>Kitagawa Y</author>
+<author datatype='string'>Akaboshi E</author>
+<author datatype='string'>Shinagawa H</author>
+<author datatype='string'>Horii T</author>
+<author datatype='string'>Ogawa H</author>
+<author datatype='string'>Kato T</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2989817' orgid='ECOLI' frameid='PUB-2989817'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2989817' orgid='ECOLI' frameid='PUB-2989817'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-5570' orgid='ECOLI' frameid='REG0-5570' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PC00010' orgid='ECOLI' frameid='PC00010'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00251' orgid='ECOLI' frameid='PM00251'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-5569' orgid='ECOLI' frameid='REG0-5569'/></regulated-by>
+<minus-10-right datatype='integer'>1230733</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00180' orgid='ECOLI' frameid='TU00180'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-2989817' orgid='ECOLI' frameid='PUB-2989817'/></citation>
+<citation><Publication ID='ECOLI:PUB-8057377' orgid='ECOLI' frameid='PUB-8057377' detail='full'><source datatype='string'>J Mol Biol 241(4);507-23</source>
+<pubmed-id datatype='string'>8057377</pubmed-id>
+<title datatype='string'>Identification of high affinity binding sites for LexA which define new DNA damage-inducible genes in Escherichia coli.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Lewis LK</author>
+<author datatype='string'>Harlow GR</author>
+<author datatype='string'>Gregg-Jolly LA</author>
+<author datatype='string'>Mount DW</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2989817' orgid='ECOLI' frameid='PUB-2989817'/></evidence>
+<abs-center-pos datatype='float'>1230737.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00180' orgid='ECOLI' frameid='TU00180'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Promoter resource='#ECOLI:PM00251' orgid='ECOLI' frameid='PM00251'/></component>
+<component><DNA-Binding-Site ID='ECOLI:BS00437' orgid='ECOLI' frameid='BS00437' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5570' orgid='ECOLI' frameid='REG0-5570'/></involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-8729576' orgid='ECOLI' frameid='PUB-8729576' detail='full'><source datatype='string'>J Theor Biol 178(2);183-204</source>
+<pubmed-id datatype='string'>8729576</pubmed-id>
+<title datatype='string'>Evolution of transcriptional regulation system through promiscuous coupling of regulatory proteins with operons; suggestion from protein sequence similarities in Escherichia coli.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Otsuka J</author>
+<author datatype='string'>Watanabe H</author>
+<author datatype='string'>Mori KT</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-2989817' orgid='ECOLI' frameid='PUB-2989817'/></citation>
+<citation><Publication resource='#ECOLI:PUB-8057377' orgid='ECOLI' frameid='PUB-8057377'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2989817' orgid='ECOLI' frameid='PUB-2989817'/></evidence>
+<abs-center-pos datatype='float'>1230717.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00180' orgid='ECOLI' frameid='TU00180'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11057' orgid='ECOLI' frameid='EG11057'/></component>
+<component><Gene resource='getxml?ECOLI:EG11056' orgid='ECOLI' frameid='EG11056'/></component>
+</Transcription-Unit>
+</ptools-xml>

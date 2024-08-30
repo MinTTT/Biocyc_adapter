@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00249'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00249</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00249' orgid='ECOLI' frameid='TU00249' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>chaBC</common-name>
+<citation><Publication ID='ECOLI:PUB-8496184' orgid='ECOLI' frameid='PUB-8496184' detail='full'><source datatype='string'>J Biol Chem 268(15);11296-303</source>
+<pubmed-id datatype='string'>8496184</pubmed-id>
+<title datatype='string'>Cloning and characterization of a putative Ca2+/H+ antiporter gene from Escherichia coli upon functional complementation of Na+/H+ antiporter-deficient strains by the overexpressed gene.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>Ivey DM</author>
+<author datatype='string'>Guffanti AA</author>
+<author datatype='string'>Zemsky J</author>
+<author datatype='string'>Pinner E</author>
+<author datatype='string'>Karpel R</author>
+<author datatype='string'>Padan E</author>
+<author datatype='string'>Schuldiner S</author>
+<author datatype='string'>Krulwich TA</author>
+</Publication>
+</citation>
+<regulated-by><Regulation ID='ECOLI:REG0-13376' orgid='ECOLI' frameid='REG0-13376' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12386-MONOMER' orgid='ECOLI' frameid='EG12386-MONOMER'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU00249' orgid='ECOLI' frameid='TU00249'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component><Gene resource='getxml?ECOLI:EG12402' orgid='ECOLI' frameid='EG12402'/></component>
+<component><Gene resource='getxml?ECOLI:EG12403' orgid='ECOLI' frameid='EG12403'/></component>
+</Transcription-Unit>
+</ptools-xml>

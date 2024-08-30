@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-3501'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-3501</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-3501' orgid='ECOLI' frameid='TU0-3501' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>argR</common-name>
+<synonym datatype='string'>OP00009</synonym>
+<synonym datatype='string'>TU00007</synonym>
+<synonym datatype='string'>argR_carAB</synonym>
+<citation><Publication ID='ECOLI:PUB-6348703' orgid='ECOLI' frameid='PUB-6348703' detail='full'><source datatype='string'>Nucleic Acids Res 11(15);5007-19</source>
+<pubmed-id datatype='string'>6348703</pubmed-id>
+<title datatype='string'>Molecular basis for modulated regulation of gene expression in the arginine regulon of Escherichia coli K-12.</title>
+<year datatype='integer'>1983</year>
+<author datatype='string'>Cunin R</author>
+<author datatype='string'>Eckhardt T</author>
+<author datatype='string'>Piette J</author>
+<author datatype='string'>Boyen A</author>
+<author datatype='string'>Pierard A</author>
+<author datatype='string'>Glansdorff N</author>
+</Publication>
+</citation>
+<component><Gene resource='getxml?ECOLI:EG10070' orgid='ECOLI' frameid='EG10070'/></component>
+<component><Promoter ID='ECOLI:PM00442' orgid='ECOLI' frameid='PM00442' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>argRp2</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3384602</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-3116542' orgid='ECOLI' frameid='PUB-3116542' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 84(19);6697-701</source>
+<pubmed-id datatype='string'>3116542</pubmed-id>
+<title datatype='string'>Nucleotide sequence of the argR gene of Escherichia coli K-12 and isolation of its product, the arginine repressor.</title>
+<year datatype='integer'>1987</year>
+<author datatype='string'>Lim DB</author>
+<author datatype='string'>Oppenheim JD</author>
+<author datatype='string'>Eckhardt T</author>
+<author datatype='string'>Maas WK</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3116542' orgid='ECOLI' frameid='PUB-3116542'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-3501' orgid='ECOLI' frameid='TU0-3501'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

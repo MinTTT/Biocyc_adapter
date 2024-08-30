@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00313'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00313</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00313' orgid='ECOLI' frameid='TU00313' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>panBC</common-name>
+<comment datatype='string'>A potential RNA G-quadruplex structure, formed by guanine-rich sequences located in the coding sequence region of the gene, was identified  for &lt;i&gt;panC&lt;/i&gt; . This structure  could regulate the expression of the gene, as observed for &lt;i&gt;hemL&lt;/i&gt; gene expression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31964733&quot;&gt;Shao20&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-2995306' orgid='ECOLI' frameid='PUB-2995306' detail='full'><source datatype='string'>J Bacteriol 164(1);136-42</source>
+<pubmed-id datatype='string'>2995306</pubmed-id>
+<title datatype='string'>Isolation and characterization of Escherichia coli pantothenate permease (panF) mutants.</title>
+<year datatype='integer'>1985</year>
+<author datatype='string'>Vallari DS</author>
+<author datatype='string'>Rock CO</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8837478' orgid='ECOLI' frameid='PUB-8837478' detail='full'><source datatype='string'>FEMS Microbiol Lett 143(2-3);247-52</source>
+<pubmed-id datatype='string'>8837478</pubmed-id>
+<title datatype='string'>Characterization and sequence of the Escherichia coli panBCD gene cluster.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Merkel WK</author>
+<author datatype='string'>Nichols BP</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8096212' orgid='ECOLI' frameid='PUB-8096212' detail='full'><source datatype='string'>J Bacteriol 175(7);2125-30</source>
+<pubmed-id datatype='string'>8096212</pubmed-id>
+<title datatype='string'>Cloning and sequencing of the Escherichia coli panB gene, which encodes ketopantoate hydroxymethyltransferase, and overexpression of the enzyme.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>Jones CE</author>
+<author datatype='string'>Brook JM</author>
+<author datatype='string'>Buck D</author>
+<author datatype='string'>Abell C</author>
+<author datatype='string'>Smith AG</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8096212' orgid='ECOLI' frameid='PUB-8096212'/></evidence>
+<component><Promoter ID='ECOLI:PM0-10209' orgid='ECOLI' frameid='PM0-10209' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>149638</minus-10-left>
+<common-name datatype='string'>panBp</common-name>
+<minus-35-right datatype='integer'>149665</minus-35-right>
+<minus-35-left datatype='integer'>149660</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>149630</absolute-plus-1-pos>
+<comment datatype='string'>We assigned a putative transcriptional start site to this promoter based on the observation that the majority of the promoters, whose transcriptional start sites were determined experimentally, present a distance of 6 nucleotides between the transcriptional start site and the -10 box [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/3550697&quot;&gt;Harley87&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-8096212' orgid='ECOLI' frameid='PUB-8096212'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8096212' orgid='ECOLI' frameid='PUB-8096212'/></evidence>
+<minus-10-right datatype='integer'>149643</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00313' orgid='ECOLI' frameid='TU00313'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11746' orgid='ECOLI' frameid='EG11746'/></component>
+<component><Gene resource='getxml?ECOLI:EG11675' orgid='ECOLI' frameid='EG11675'/></component>
+</Transcription-Unit>
+</ptools-xml>

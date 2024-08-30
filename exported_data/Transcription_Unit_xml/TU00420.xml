@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00420'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00420</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00420' orgid='ECOLI' frameid='TU00420' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>glgS</common-name>
+<comment datatype='string'>&lt;i&gt;glgS&lt;/i&gt; maps at 66.6 min (3,247 kb) on the chromosome and constitutes a monocistronic operon. It is preceded by a perfect ribosome-binding site (SD) followed by a typical rho-independent stem-and-loop terminator sequence [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/1324388&quot;&gt;HenggeAronis92&lt;/a&gt;].
+</comment>
+<citation><Publication ID='ECOLI:PUB-1324388' orgid='ECOLI' frameid='PUB-1324388' detail='full'><source datatype='string'>Mol Microbiol 1992;6(14);1877-86</source>
+<pubmed-id datatype='string'>1324388</pubmed-id>
+<title datatype='string'>Identification and molecular analysis of glgS, a novel growth-phase-regulated and rpoS-dependent gene involved in glycogen synthesis in Escherichia coli.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Hengge-Aronis R</author>
+<author datatype='string'>Fischer D</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1324388' orgid='ECOLI' frameid='PUB-1324388'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SINGLE-DIRECTON' orgid='ECOLI' frameid='EV-COMP-AINF-SINGLE-DIRECTON' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference that a single-gene directon is a transcription unit </common-name>
+<comment datatype='string'>Automated inference of transcription unit based on single-gene directon.  Existence of a single-gene transcription unit 
+for gene G is inferred computationally by the existence of upstream and downstream genes transcribed in the 
+opposite direction of G.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1324388' orgid='ECOLI' frameid='PUB-1324388'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-10952' orgid='ECOLI' frameid='REG0-10952' detail='low'><parent><Regulation resource='getxml?ECOLI:Protein-Mediated-Translation-Regulation' orgid='ECOLI' frameid='Protein-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7956' orgid='ECOLI' frameid='CPLX0-7956'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU00420' orgid='ECOLI' frameid='TU00420'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component><Terminator ID='ECOLI:TERM0-1050' orgid='ECOLI' frameid='TERM0-1050' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3191735</right-end-position>
+<left-end-position datatype='integer'>3191716</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-1324388' orgid='ECOLI' frameid='PUB-1324388'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU00420' orgid='ECOLI' frameid='TU00420'/><Transcription-Unit resource='getxml?ECOLI:TU00279' orgid='ECOLI' frameid='TU00279'/></component-of>
+</Terminator>
+</component>
+<component><Promoter ID='ECOLI:PM00568' orgid='ECOLI' frameid='PM00568' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>3192010</minus-10-left>
+<common-name datatype='string'>glgSp2</common-name>
+<minus-35-right datatype='integer'>3192039</minus-35-right>
+<minus-35-left datatype='integer'>3192034</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3192002</absolute-plus-1-pos>
+<comment datatype='string'>Two transcriptional start sites were mapped in the upstream regulatory region of &lt;i&gt;glgS&lt;/i&gt;. An &lt;i&gt;rpoS&lt;/i&gt; mutant did not synthesize the glgSp2 transcript. Two shorter fragments visible for the wild type and the &lt;i&gt;rpoS&lt;/i&gt; mutant might be incompletely synthesized reverse transcripts, but they might  also represent genuine transcriptional start sites, indicative of a third and fourth promoter. If so, these promoters would be dependent on cAMP, since these transcripts are not found in the &lt;i&gt;cya&lt;/i&gt; strain.  glgSp2 is inactive in a &lt;i&gt;rpoS&lt;/i&gt; background. Although transcription from glgSp2 requires &amp;sigma;&lt;sup&gt;S&lt;/sup&gt;, this promoter does not show similarity to the putative consensus derived from the comparison of the &lt;i&gt;katE, xthA&lt;/i&gt;, and &lt;i&gt;bolA&lt;/i&gt; promoters. This indicates that either this latter group of promoters or glgSp2 are under the indirect control of RpoS, involving an unknown secondary regulatory protein [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/1324388&quot;&gt;HenggeAronis92&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-1324388' orgid='ECOLI' frameid='PUB-1324388'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1324388' orgid='ECOLI' frameid='PUB-1324388'/></evidence>
+<minus-10-right datatype='integer'>3192020</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00420' orgid='ECOLI' frameid='TU00420'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11381' orgid='ECOLI' frameid='EG11381'/></component>
+</Transcription-Unit>
+</ptools-xml>

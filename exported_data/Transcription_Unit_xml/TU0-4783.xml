@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-4783'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-4783</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-4783' orgid='ECOLI' frameid='TU0-4783' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>nrdDG</common-name>
+<comment datatype='string'>FNR is responsible for anaerobic activation of the &lt;i&gt;nrdDG&lt;/i&gt; operon. Both sites of FNR (-64.5 and -33.5) have an additive effect in coordinating &lt;i&gt;nrdDG&lt;/i&gt; operon expression in response to shifting oxygen concentrations [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/18683632&quot;&gt;Roca08&lt;/a&gt;].
+&lt;p&gt;
+The &lt;i&gt;nrdD&lt;/i&gt; gene is upregulated by long-term (8 to 12 h) exposure of &lt;i&gt;E. coli&lt;/i&gt;  to some biocides [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/32385082&quot;&gt;Merchel20&lt;/a&gt;].
+&lt;p&gt;
+
+H-NS represses expression of the class Ia (&lt;i&gt;nrdAB&lt;/i&gt; operon) and class III (&lt;i&gt;nrdDG&lt;/i&gt; operon) ribonucleotide reductases (RNRs) both in aerobically and in anaerobically growing cells. Under aerobic conditions, repression occurs during the exponential phase of growth as well as at the transition from the exponential to the stationary phase, a period when no dNTPs are needed. Under anoxic conditions, repression occurs mainly in exponentially growing cells [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23873909&quot;&gt;Cendra13&lt;/a&gt;].
+</comment>
+<citation><Publication ID='ECOLI:PUB-8954104' orgid='ECOLI' frameid='PUB-8954104' detail='full'><source datatype='string'>Biochem Biophys Res Commun 229(1);189-92</source>
+<pubmed-id datatype='string'>8954104</pubmed-id>
+<title datatype='string'>nrdD and nrdG genes are essential for strict anaerobic growth of Escherichia coli.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Garriga X</author>
+<author datatype='string'>Eliasson R</author>
+<author datatype='string'>Torrents E</author>
+<author datatype='string'>Jordan A</author>
+<author datatype='string'>Barbe J</author>
+<author datatype='string'>Gibert I</author>
+<author datatype='string'>Reichard P</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Inferred through co-regulation</common-name>
+<comment datatype='string'>Inferred through co-regulation.  A transcription unit is inferred because a set of 
+adjacent genes that are transcribed in the same direction exhibit similar
+expression patterns under a range of environmental conditions.
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8954104' orgid='ECOLI' frameid='PUB-8954104'/></evidence>
+<component><DNA-Binding-Site ID='ECOLI:BS0-3662' orgid='ECOLI' frameid='BS0-3662' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6248' orgid='ECOLI' frameid='REG0-6248' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7797' orgid='ECOLI' frameid='CPLX0-7797'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-5023' orgid='ECOLI' frameid='PM0-5023' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>4462846</minus-10-left>
+<common-name datatype='string'>nrdDp</common-name>
+<minus-35-right datatype='integer'>4462878</minus-35-right>
+<minus-35-left datatype='integer'>4462873</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4462838</absolute-plus-1-pos>
+<comment datatype='string'>
+ 
+</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-12923108' orgid='ECOLI' frameid='PUB-12923108' detail='full'><source datatype='string'>J Bacteriol 185(17);5310-3</source>
+<pubmed-id datatype='string'>12923108</pubmed-id>
+<title datatype='string'>FNR-mediated oxygen-responsive regulation of the nrdDG operon of Escherichia coli.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Boston T</author>
+<author datatype='string'>Atlung T</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12923108' orgid='ECOLI' frameid='PUB-12923108'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11892' orgid='ECOLI' frameid='REG0-11892' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00288' orgid='ECOLI' frameid='PD00288'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-5023' orgid='ECOLI' frameid='PM0-5023'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-9043' orgid='ECOLI' frameid='REG0-9043' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8061' orgid='ECOLI' frameid='CPLX0-8061'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-5023' orgid='ECOLI' frameid='PM0-5023'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-9042' orgid='ECOLI' frameid='REG0-9042' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8061' orgid='ECOLI' frameid='CPLX0-8061'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-5023' orgid='ECOLI' frameid='PM0-5023'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6249' orgid='ECOLI' frameid='REG0-6249' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7797' orgid='ECOLI' frameid='CPLX0-7797'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-5023' orgid='ECOLI' frameid='PM0-5023'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-6248' orgid='ECOLI' frameid='REG0-6248'/></regulated-by>
+<minus-10-right datatype='integer'>4462851</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4783' orgid='ECOLI' frameid='TU0-4783'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-12923108' orgid='ECOLI' frameid='PUB-12923108'/></citation>
+<citation><Publication ID='ECOLI:PUB-18683632' orgid='ECOLI' frameid='PUB-18683632' detail='full'><source datatype='string'>Int Microbiol 11(1);49-56</source>
+<pubmed-id datatype='string'>18683632</pubmed-id>
+<title datatype='string'>Fumarate and nitrate reduction (FNR) dependent activation of the Escherichia coli anaerobic ribonucleotide reductase nrdDG promoter.</title>
+<year datatype='integer'>2008</year>
+<author datatype='string'>Roca I</author>
+<author datatype='string'>Ballana E</author>
+<author datatype='string'>Panosa A</author>
+<author datatype='string'>Torrents E</author>
+<author datatype='string'>Gibert I</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12923108' orgid='ECOLI' frameid='PUB-12923108'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-18683632' orgid='ECOLI' frameid='PUB-18683632'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Site mutation</common-name>
+<comment datatype='string'>A cis-mutation in the DNA sequence of the transcription-factor binding site interferes with the operation of the regulatory function. This is considered  strong evidence for the existence and functional role of the DNA binding site.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-18683632' orgid='ECOLI' frameid='PUB-18683632'/></evidence>
+<abs-center-pos datatype='float'>4462871.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4783' orgid='ECOLI' frameid='TU0-4783'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-3661' orgid='ECOLI' frameid='BS0-3661' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-6249' orgid='ECOLI' frameid='REG0-6249'/></involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-12923108' orgid='ECOLI' frameid='PUB-12923108'/></citation>
+<citation><Publication resource='#ECOLI:PUB-18683632' orgid='ECOLI' frameid='PUB-18683632'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-12923108' orgid='ECOLI' frameid='PUB-12923108'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-18683632' orgid='ECOLI' frameid='PUB-18683632'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' class='true'/><Publication resource='#ECOLI:PUB-18683632' orgid='ECOLI' frameid='PUB-18683632'/></evidence>
+<abs-center-pos datatype='float'>4462902.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4783' orgid='ECOLI' frameid='TU0-4783'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:G812' orgid='ECOLI' frameid='G812'/></component>
+<component><Gene resource='getxml?ECOLI:EG11417' orgid='ECOLI' frameid='EG11417'/></component>
+<component><Promoter resource='#ECOLI:PM0-5023' orgid='ECOLI' frameid='PM0-5023'/></component>
+</Transcription-Unit>
+</ptools-xml>

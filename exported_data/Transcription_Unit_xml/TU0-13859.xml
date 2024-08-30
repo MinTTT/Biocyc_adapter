@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-13859'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-13859</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-13859' orgid='ECOLI' frameid='TU0-13859' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>alx</common-name>
+<citation><Publication ID='ECOLI:PUB-19933154' orgid='ECOLI' frameid='PUB-19933154' detail='full'><source datatype='string'>Genes Dev 23(22);2650-62</source>
+<pubmed-id datatype='string'>19933154</pubmed-id>
+<title datatype='string'>A pH-responsive riboregulator.</title>
+<year datatype='integer'>2009</year>
+<author datatype='string'>Nechooshtan G</author>
+<author datatype='string'>Elgrably-Weiss M</author>
+<author datatype='string'>Sheaffer A</author>
+<author datatype='string'>Westhof E</author>
+<author datatype='string'>Altuvia S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Inferred through co-regulation</common-name>
+<comment datatype='string'>Inferred through co-regulation.  A transcription unit is inferred because a set of 
+adjacent genes that are transcribed in the same direction exhibit similar
+expression patterns under a range of environmental conditions.
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-19933154' orgid='ECOLI' frameid='PUB-19933154'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12742' orgid='ECOLI' frameid='REG0-12742' detail='low'><parent><Regulation resource='getxml?ECOLI:Compound-Mediated-Translation-Regulation' orgid='ECOLI' frameid='Compound-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><Compound resource='getxml?ECOLI:MN+2' orgid='ECOLI' frameid='MN+2'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-13859' orgid='ECOLI' frameid='TU0-13859'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10790' orgid='ECOLI' frameid='REG0-10790' detail='low'><parent><Regulation resource='getxml?ECOLI:Regulation-of-Translation' orgid='ECOLI' frameid='Regulation-of-Translation' class='true'/></parent>
+<regulator><Compound resource='getxml?ECOLI:PROTON' orgid='ECOLI' frameid='PROTON'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-13859' orgid='ECOLI' frameid='TU0-13859'/></regulated-entity>
+</Regulation>
+</regulated-by>
+<component><Gene resource='getxml?ECOLI:G7607' orgid='ECOLI' frameid='G7607'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8530'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8530</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8530' orgid='ECOLI' frameid='TU0-8530' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>torT</common-name>
+<comment datatype='string'>IscR represses expression of  the &lt;i&gt;torT&lt;/i&gt; operon, a TMAO-responsive signaling system, through oxygen  [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/29502970&quot;&gt;Carey18&lt;/a&gt;].</comment>
+<regulated-by><Regulation ID='ECOLI:REG0-12937' orgid='ECOLI' frameid='REG0-12937' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8083' orgid='ECOLI' frameid='CPLX0-8083'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-8530' orgid='ECOLI' frameid='TU0-8530'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component><Gene resource='getxml?ECOLI:G6515' orgid='ECOLI' frameid='G6515'/></component>
+</Transcription-Unit>
+</ptools-xml>

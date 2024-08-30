@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8856'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8856</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8856' orgid='ECOLI' frameid='TU0-8856' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>pheM</common-name>
+<comment datatype='string'>The &lt;i&gt;pheM&lt;/i&gt; ORF codes for the leader peptide that controls &lt;i&gt;pheMST&lt;/i&gt; operon expression in response to phenylalanine availability, through an attenuation mechanism [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/6317866&quot;&gt;Springer83&lt;/a&gt;]. Therefore, the transcription sometimes ends behind &lt;i&gt;pheM&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/6317865&quot;&gt;Fayat83&lt;/a&gt;].
+&lt;p&gt;
+The RNA produced by the  &lt;i&gt;pheM&lt;/i&gt; gene has been observed mainly in the poles of the cell [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31540875&quot;&gt;Kannaiah19&lt;/a&gt;].
+&lt;p&gt;
+
+</comment>
+<citation><Publication ID='ECOLI:PUB-6317865' orgid='ECOLI' frameid='PUB-6317865' detail='full'><source datatype='string'>J Mol Biol 171(3);239-61</source>
+<pubmed-id datatype='string'>6317865</pubmed-id>
+<title datatype='string'>Escherichia coli phenylalanyl-tRNA synthetase operon region. Evidence for an attenuation mechanism. Identification of the gene for the ribosomal protein L20.</title>
+<year datatype='integer'>1983</year>
+<author datatype='string'>Fayat G</author>
+<author datatype='string'>Mayaux JF</author>
+<author datatype='string'>Sacerdot C</author>
+<author datatype='string'>Fromant M</author>
+<author datatype='string'>Springer M</author>
+<author datatype='string'>Grunberg-Manago M</author>
+<author datatype='string'>Blanquet S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6317865' orgid='ECOLI' frameid='PUB-6317865'/></evidence>
+<component><Terminator ID='ECOLI:PHEM-T3' orgid='ECOLI' frameid='PHEM-T3' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<regulated-by><Regulation ID='ECOLI:REG0-9088' orgid='ECOLI' frameid='REG0-9088' detail='low'><parent><Regulation resource='getxml?ECOLI:Ribosome-Mediated-Attenuation' orgid='ECOLI' frameid='Ribosome-Mediated-Attenuation' class='true'/></parent>
+<regulator><RNA resource='getxml?ECOLI:Charged-PHE-tRNAs' orgid='ECOLI' frameid='Charged-PHE-tRNAs' class='true'/></regulator>
+<regulated-entity><Terminator resource='#ECOLI:PHEM-T3' orgid='ECOLI' frameid='PHEM-T3'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<right-end-position datatype='integer'>1799176</right-end-position>
+<left-end-position datatype='integer'>1799161</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-6317865' orgid='ECOLI' frameid='PUB-6317865'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8856' orgid='ECOLI' frameid='TU0-8856'/><Transcription-Unit resource='getxml?ECOLI:TU0-8855' orgid='ECOLI' frameid='TU0-8855'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11272' orgid='ECOLI' frameid='EG11272'/></component>
+<component><Promoter ID='ECOLI:PM00374' orgid='ECOLI' frameid='PM00374' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>pheMp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1799301</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-6317865' orgid='ECOLI' frameid='PUB-6317865'/></citation>
+<citation><Publication resource='#ECOLI:PUB-6317865' orgid='ECOLI' frameid='PUB-6317865'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6317865' orgid='ECOLI' frameid='PUB-6317865'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-3158742' orgid='ECOLI' frameid='PUB-3158742' detail='full'><source datatype='string'>J Mol Biol 181(4);467-78</source>
+<pubmed-id datatype='string'>3158742</pubmed-id>
+<title datatype='string'>Attenuation control of the Escherichia coli phenylalanyl-tRNA synthetase operon.</title>
+<year datatype='integer'>1985</year>
+<author datatype='string'>Springer M</author>
+<author datatype='string'>Mayaux JF</author>
+<author datatype='string'>Fayat G</author>
+<author datatype='string'>Plumbridge JA</author>
+<author datatype='string'>Graffe M</author>
+<author datatype='string'>Blanquet S</author>
+<author datatype='string'>Grunberg-Manago M</author>
+</Publication>
+</evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8856' orgid='ECOLI' frameid='TU0-8856'/><Transcription-Unit resource='getxml?ECOLI:TU0-6626' orgid='ECOLI' frameid='TU0-6626'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

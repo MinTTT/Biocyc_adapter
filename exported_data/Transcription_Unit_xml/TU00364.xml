@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00364'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00364</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00364' orgid='ECOLI' frameid='TU00364' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>tehAB</common-name>
+<comment datatype='string'>The expression of the &lt;i&gt;tehA&lt;/i&gt; gene, and probably the expression of the complete &lt;i&gt;tehAB&lt;/i&gt; operon, is affected by antibiotic pressure.  An increase in &lt;i&gt;tehA&lt;/i&gt; expression is maintained during exposure to increasing concentrations of the antibiotic tetracycline [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/17426813&quot;&gt;Viveiros07&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-2060788' orgid='ECOLI' frameid='PUB-2060788' detail='full'><source datatype='string'>Gene 101(1);1-7</source>
+<pubmed-id datatype='string'>2060788</pubmed-id>
+<title datatype='string'>Nucleotide sequence and overexpression of the tellurite-resistance determinant from the IncHII plasmid pHH1508a.</title>
+<year datatype='integer'>1991</year>
+<author datatype='string'>Walter EG</author>
+<author datatype='string'>Weiner JH</author>
+<author datatype='string'>Taylor DE</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-TAS' orgid='ECOLI' frameid='EV-EXP-TAS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Traceable author statement to experimental support</common-name>
+<comment datatype='string'>Traceable author statement to experimental support.  The assertion was made in a publication -- such as a review or 
+in another database -- that itself did not describe an experiment supporting the
+assertion.  However, the statement did reference another publication describing an experiment 
+that supports the assertion.  The difference between the codes EV-EXP-TAS and EV-AS-TAS 
+is that the former code is used when it is certain that experimental evidence supports the
+assertion, and the latter code is used when there is a possibility that an experiment was
+not done to support the assertion.
+In general, references to the primary literature are preferred,
+but this code can be used when the original article is difficult to locate.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2060788' orgid='ECOLI' frameid='PUB-2060788'/></evidence>
+<component><DNA-Binding-Site ID='ECOLI:BS-7086' orgid='ECOLI' frameid='BS-7086' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6593' orgid='ECOLI' frameid='REG0-6593' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7756' orgid='ECOLI' frameid='CPLX0-7756'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM-8830' orgid='ECOLI' frameid='PM-8830' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>tehAp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1500536</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-16428390' orgid='ECOLI' frameid='PUB-16428390' detail='full'><source datatype='string'>J Bacteriol 188(3);874-81</source>
+<pubmed-id datatype='string'>16428390</pubmed-id>
+<title datatype='string'>The yjeB (nsrR) gene of Escherichia coli encodes a nitric oxide-sensitive transcriptional regulator.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Bodenmiller DM</author>
+<author datatype='string'>Spiro S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16428390' orgid='ECOLI' frameid='PUB-16428390'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-10493' orgid='ECOLI' frameid='REG0-10493' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7756' orgid='ECOLI' frameid='CPLX0-7756'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM-8830' orgid='ECOLI' frameid='PM-8830'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-6593' orgid='ECOLI' frameid='REG0-6593'/></regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU00364' orgid='ECOLI' frameid='TU00364'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<comment datatype='string'>NsrR  has only a small effect on tehAp promoter activity [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16428390&quot;&gt;Bodenmiller06&lt;/a&gt;].</comment>
+<citation><Publication resource='#ECOLI:PUB-16428390' orgid='ECOLI' frameid='PUB-16428390'/></citation>
+<citation><Publication ID='ECOLI:PUB-19656291' orgid='ECOLI' frameid='PUB-19656291' detail='full'><source datatype='string'>Mol Microbiol 73(4);680-94</source>
+<pubmed-id datatype='string'>19656291</pubmed-id>
+<title datatype='string'>NsrR targets in the Escherichia coli genome: new insights into DNA sequence requirements for binding and a role for NsrR in the regulation of motility.</title>
+<year datatype='integer'>2009</year>
+<author datatype='string'>Partridge JD</author>
+<author datatype='string'>Bodenmiller DM</author>
+<author datatype='string'>Humphrys MS</author>
+<author datatype='string'>Spiro S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on similarity to consensus sequences</common-name>
+<comment datatype='string'>A DNA sequence similar to previously known consensus sequences is computationally identified.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16428390' orgid='ECOLI' frameid='PUB-16428390'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-19656291' orgid='ECOLI' frameid='PUB-19656291'/></evidence>
+<abs-center-pos datatype='integer'>1500535</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00364' orgid='ECOLI' frameid='TU00364'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Promoter resource='#ECOLI:PM-8830' orgid='ECOLI' frameid='PM-8830'/></component>
+<component><Gene resource='getxml?ECOLI:EG11883' orgid='ECOLI' frameid='EG11883'/></component>
+<component><Gene resource='getxml?ECOLI:EG11884' orgid='ECOLI' frameid='EG11884'/></component>
+</Transcription-Unit>
+</ptools-xml>

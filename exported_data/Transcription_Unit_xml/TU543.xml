@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU543'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU543</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU543' orgid='ECOLI' frameid='TU543' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rnpB</common-name>
+<comment datatype='string'>Fis activates &lt;i&gt;rnpB&lt;/i&gt; transcription most effectively at moderate salt concentrations [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/15879709&quot;&gt;Choi05&lt;/a&gt;].
+&lt;p&gt;
+A potential RNA G-quadruplex structure, formed by guanine-rich sequences located in the coding sequence region of the gene, was identified  for &lt;i&gt;rnpB&lt;/i&gt;. This structure  could regulate the expression of the gene, as observed for &lt;i&gt;hemL&lt;/i&gt; gene expression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31964733&quot;&gt;Shao20&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-7489504' orgid='ECOLI' frameid='PUB-7489504' detail='full'><source datatype='string'>RNA 1(3);327-34</source>
+<pubmed-id datatype='string'>7489504</pubmed-id>
+<title datatype='string'>Processing of the precursor to the catalytic RNA subunit of RNase P from Escherichia coli.</title>
+<year datatype='integer'>1995</year>
+<author datatype='string'>Lundberg U</author>
+<author datatype='string'>Altman S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-7489504' orgid='ECOLI' frameid='PUB-7489504'/></evidence>
+<component><DNA-Binding-Site ID='ECOLI:BS0-6998' orgid='ECOLI' frameid='BS0-6998' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-4958' orgid='ECOLI' frameid='REG0-4958' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM643' orgid='ECOLI' frameid='PM643' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>rnpBp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3270592</absolute-plus-1-pos>
+<comment datatype='string'>Based on mutational analysis, a short sequence, up to 7 bp downstream of the -10 region, is involved in the stringent response of the &lt;i&gt;rnpB&lt;/i&gt; promoter [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/18677095&quot;&gt;Choi08&lt;/a&gt;].
+&lt;p&gt;
+Primer extension analysis shows that rnpBp initiates not only at the +1 G position (70% efficiency) [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/7489504&quot;&gt;Lundberg95&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/2466843&quot;&gt;Lee89&lt;/a&gt;] but also at the -1 C position (30% efficiency) [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/18677095&quot;&gt;Choi08&lt;/a&gt;].</comment>
+<citation><Publication resource='#ECOLI:PUB-7489504' orgid='ECOLI' frameid='PUB-7489504'/></citation>
+<citation><Publication ID='ECOLI:PUB-2466843' orgid='ECOLI' frameid='PUB-2466843' detail='full'><source datatype='string'>J Biol Chem 264(9);5098-103</source>
+<pubmed-id datatype='string'>2466843</pubmed-id>
+<title datatype='string'>Sites of initiation and pausing in the Escherichia coli rnpB (M1 RNA) transcript.</title>
+<year datatype='integer'>1989</year>
+<author datatype='string'>Lee Y</author>
+<author datatype='string'>Ramamoorthy R</author>
+<author datatype='string'>Park CU</author>
+<author datatype='string'>Schmidt FJ</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-18677095' orgid='ECOLI' frameid='PUB-18677095' detail='full'><source datatype='string'>Mol Cells 26(2);212-5</source>
+<pubmed-id datatype='string'>18677095</pubmed-id>
+<title datatype='string'>Effects of base changes at the transcription start site on stringent control of rnpB in Escherichia coli.</title>
+<year datatype='integer'>2008</year>
+<author datatype='string'>Choi HS</author>
+<author datatype='string'>Park JW</author>
+<author datatype='string'>Hong SK</author>
+<author datatype='string'>Lee K</author>
+<author datatype='string'>Lee Y</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-7489504' orgid='ECOLI' frameid='PUB-7489504'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-18677095' orgid='ECOLI' frameid='PUB-18677095'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-4958' orgid='ECOLI' frameid='REG0-4958'/><Regulation ID='ECOLI:REG0-4957' orgid='ECOLI' frameid='REG0-4957' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM643' orgid='ECOLI' frameid='PM643'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4956' orgid='ECOLI' frameid='REG0-4956' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM643' orgid='ECOLI' frameid='PM643'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4955' orgid='ECOLI' frameid='REG0-4955' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM643' orgid='ECOLI' frameid='PM643'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU543' orgid='ECOLI' frameid='TU543'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-15879709' orgid='ECOLI' frameid='PUB-15879709' detail='full'><source datatype='string'>Mol Cells 19(2);239-45</source>
+<pubmed-id datatype='string'>15879709</pubmed-id>
+<title datatype='string'>Effects of FIS protein on rnpB transcription in Escherichia coli.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Choi HS</author>
+<author datatype='string'>Kim KS</author>
+<author datatype='string'>Park JW</author>
+<author datatype='string'>Jung YH</author>
+<author datatype='string'>Lee Y</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15879709' orgid='ECOLI' frameid='PUB-15879709'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15879709' orgid='ECOLI' frameid='PUB-15879709'/></evidence>
+<abs-center-pos datatype='integer'>3270582</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU543' orgid='ECOLI' frameid='TU543'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-6997' orgid='ECOLI' frameid='BS0-6997' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-4955' orgid='ECOLI' frameid='REG0-4955'/></involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-15879709' orgid='ECOLI' frameid='PUB-15879709'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-15879709' orgid='ECOLI' frameid='PUB-15879709'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-15879709' orgid='ECOLI' frameid='PUB-15879709'/></evidence>
+<abs-center-pos datatype='integer'>3270642</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU543' orgid='ECOLI' frameid='TU543'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-6996' orgid='ECOLI' frameid='BS0-6996' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-4956' orgid='ECOLI' frameid='REG0-4956'/></involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-15879709' orgid='ECOLI' frameid='PUB-15879709'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-15879709' orgid='ECOLI' frameid='PUB-15879709'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-15879709' orgid='ECOLI' frameid='PUB-15879709'/></evidence>
+<abs-center-pos datatype='integer'>3270710</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU543' orgid='ECOLI' frameid='TU543'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-6995' orgid='ECOLI' frameid='BS0-6995' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-4957' orgid='ECOLI' frameid='REG0-4957'/></involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-15879709' orgid='ECOLI' frameid='PUB-15879709'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-15879709' orgid='ECOLI' frameid='PUB-15879709'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-15879709' orgid='ECOLI' frameid='PUB-15879709'/></evidence>
+<abs-center-pos datatype='integer'>3270748</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU543' orgid='ECOLI' frameid='TU543'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Terminator ID='ECOLI:TERM0281' orgid='ECOLI' frameid='TERM0281' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3269975</right-end-position>
+<left-end-position datatype='integer'>3269962</left-end-position>
+<citation><Publication ID='ECOLI:PUB-9175883' orgid='ECOLI' frameid='PUB-9175883' detail='full'><source datatype='string'>FEBS Lett 407(3);353-6</source>
+<pubmed-id datatype='string'>9175883</pubmed-id>
+<title datatype='string'>Function of the repeated sequence in the 3' flanking region of the Escherichia coli rnpB gene on transcription termination and RNA processing.</title>
+<year datatype='integer'>1997</year>
+<author datatype='string'>Kim S</author>
+<author datatype='string'>Lee Y</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU543' orgid='ECOLI' frameid='TU543'/></component-of>
+</Terminator>
+</component>
+<component><Terminator ID='ECOLI:TERM0282' orgid='ECOLI' frameid='TERM0282' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3270088</right-end-position>
+<left-end-position datatype='integer'>3270075</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-9175883' orgid='ECOLI' frameid='PUB-9175883'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU543' orgid='ECOLI' frameid='TU543'/></component-of>
+</Terminator>
+</component>
+<component><Terminator ID='ECOLI:TERM0283' orgid='ECOLI' frameid='TERM0283' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3270201</right-end-position>
+<left-end-position datatype='integer'>3270188</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-9175883' orgid='ECOLI' frameid='PUB-9175883'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU543' orgid='ECOLI' frameid='TU543'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG30069' orgid='ECOLI' frameid='EG30069'/></component>
+<component><Promoter resource='#ECOLI:PM643' orgid='ECOLI' frameid='PM643'/></component>
+</Transcription-Unit>
+</ptools-xml>

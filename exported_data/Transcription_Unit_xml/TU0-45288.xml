@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-45288'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-45288</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-45288' orgid='ECOLI' frameid='TU0-45288' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>hemF</common-name>
+<citation><Publication ID='ECOLI:PUB-8300522' orgid='ECOLI' frameid='PUB-8300522' detail='full'><source datatype='string'>J Bacteriol 176(3);673-80</source>
+<pubmed-id datatype='string'>8300522</pubmed-id>
+<title datatype='string'>Isolation of the hemF operon containing the gene for the Escherichia coli aerobic coproporphyrinogen III oxidase by in vivo complementation of a yeast HEM13 mutant.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Troup B</author>
+<author datatype='string'>Jahn M</author>
+<author datatype='string'>Hungerer C</author>
+<author datatype='string'>Jahn D</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8300522' orgid='ECOLI' frameid='PUB-8300522'/></evidence>
+<component><Promoter ID='ECOLI:PM0-46591' orgid='ECOLI' frameid='PM0-46591' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>hemFp2</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2552982</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-25664592' orgid='ECOLI' frameid='PUB-25664592' detail='full'><source datatype='string'>Mol Microbiol 96(4);744-63</source>
+<pubmed-id datatype='string'>25664592</pubmed-id>
+<title datatype='string'>The induction of two biosynthetic enzymes helps Escherichia coli sustain heme synthesis and activate catalase during hydrogen peroxide stress.</title>
+<year datatype='integer'>2015</year>
+<author datatype='string'>Mancini S</author>
+<author datatype='string'>Imlay JA</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-25664592' orgid='ECOLI' frameid='PUB-25664592'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-45288' orgid='ECOLI' frameid='TU0-45288'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG12189' orgid='ECOLI' frameid='EG12189'/></component>
+</Transcription-Unit>
+</ptools-xml>

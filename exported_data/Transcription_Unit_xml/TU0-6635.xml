@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-6635'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-6635</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-6635' orgid='ECOLI' frameid='TU0-6635' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>atpBEFHAGDC</common-name>
+<comment datatype='string'>FNR represses &lt;i&gt;atpB&lt;/i&gt; gene expression under anaerobiosis [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12754220&quot;&gt;Salmon03&lt;/a&gt;]. Under nitrogen-rich growth conditions, the expression of the &lt;i&gt;atpA&lt;/i&gt; gene increased in a mutant for the transcriptional regulator Fnr. However, under nitrogen-limited growth conditions, the gene expression was decreased.  Under both nitrogen-limited and nitrogen-rich growth conditions, the expression of &lt;i&gt;atpA&lt;/i&gt; increased  in the mutants for &lt;i&gt;cyoA&lt;/i&gt; and Fur. However, it is unknown if the effects of the transcriptional regulators act directly on the gene expression; also, it is unknown which of the three promoters that transcribe the gene could  be regulated by the regulators [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/21272324&quot;&gt;Kumar11&lt;/a&gt;].
+&lt;p&gt;
+The &lt;i&gt;atpB&lt;/i&gt; mRNA is the most unstable region within the &lt;i&gt;atp&lt;/i&gt; operon, mainly in the residues 93-171.  This instability causes a toxic phenotype in the cell [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12860393&quot;&gt;Arechaga03&lt;/a&gt;].
+&lt;p&gt;
+&lt;i&gt;atpB&lt;/i&gt; is upregulated and downregulated in response to chlortetracycline (CTC) and nalidixic acid (NA), respectively, in parallel and in the opposite direction with &lt;i&gt;ompC&lt;/i&gt; gene [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/22960566&quot;&gt;Lin12&lt;/a&gt;]; these changes are regulated by CpxR [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/22960566&quot;&gt;Lin12&lt;/a&gt;].
+&lt;p&gt;
+The expression of the gene &lt;i&gt;atpA&lt;/i&gt; is increased under acidic growth conditions in either aerobiosis or microaerobiosis [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23274360&quot;&gt;Marzan13&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-6318052' orgid='ECOLI' frameid='PUB-6318052' detail='full'><source datatype='string'>Mol Gen Genet 193(1);64-71</source>
+<pubmed-id datatype='string'>6318052</pubmed-id>
+<title datatype='string'>The promoters of the atp operon of Escherichia coli K12.</title>
+<year datatype='integer'>1984</year>
+<author datatype='string'>Nielsen J</author>
+<author datatype='string'>Jorgensen BB</author>
+<author datatype='string'>van Meyenburg KV</author>
+<author datatype='string'>Hansen FG</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-6193097' orgid='ECOLI' frameid='PUB-6193097' detail='full'><source datatype='string'>J Bacteriol 155(3);1279-87</source>
+<pubmed-id datatype='string'>6193097</pubmed-id>
+<title datatype='string'>In vivo 5' terminus and length of the mRNA for the proton-translocating ATPase (unc) operon of Escherichia coli.</title>
+<year datatype='integer'>1983</year>
+<author datatype='string'>Jones HM</author>
+<author datatype='string'>Brajkovich CM</author>
+<author datatype='string'>Gunsalus RP</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-35831865' orgid='ECOLI' frameid='PUB-35831865' detail='full'><source datatype='string'>Microb Cell Fact 21(1);139</source>
+<pubmed-id datatype='string'>35831865</pubmed-id>
+<title datatype='string'>Polar mutagenesis of polycistronic bacterial transcriptional units using Cas12a.</title>
+<year datatype='integer'>2022</year>
+<author datatype='string'>Graffeuil A</author>
+<author datatype='string'>Guerrero-Castro J</author>
+<author datatype='string'>Assefa A</author>
+<author datatype='string'>Uhlin BE</author>
+<author datatype='string'>Cisneros DA</author>
+<doi-id datatype='string'>10.1186/s12934-022-01844-y</doi-id>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-6318052' orgid='ECOLI' frameid='PUB-6318052'/></citation>
+<citation><Publication resource='#ECOLI:PUB-6193097' orgid='ECOLI' frameid='PUB-6193097'/></citation>
+<component><Terminator ID='ECOLI:TERM70' orgid='ECOLI' frameid='TERM70' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3915530</right-end-position>
+<left-end-position datatype='integer'>3915508</left-end-position>
+<citation><Publication ID='ECOLI:PUB-6395859' orgid='ECOLI' frameid='PUB-6395859' detail='full'><source datatype='string'>Biochem J 224(3);799-815</source>
+<pubmed-id datatype='string'>6395859</pubmed-id>
+<title datatype='string'>DNA sequence around the Escherichia coli unc operon. Completion of the sequence of a 17 kilobase segment containing asnA, oriC, unc, glmS and phoS.</title>
+<year datatype='integer'>1984</year>
+<author datatype='string'>Walker JE</author>
+<author datatype='string'>Gay NJ</author>
+<author datatype='string'>Saraste M</author>
+<author datatype='string'>Eberle AN</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-6636' orgid='ECOLI' frameid='TU0-6636'/><Transcription-Unit resource='#ECOLI:TU0-6635' orgid='ECOLI' frameid='TU0-6635'/><Transcription-Unit resource='getxml?ECOLI:TU00243' orgid='ECOLI' frameid='TU00243'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10100' orgid='ECOLI' frameid='EG10100'/></component>
+<component><Gene resource='getxml?ECOLI:EG10101' orgid='ECOLI' frameid='EG10101'/></component>
+<component><Gene resource='getxml?ECOLI:EG10104' orgid='ECOLI' frameid='EG10104'/></component>
+<component><Gene resource='getxml?ECOLI:EG10098' orgid='ECOLI' frameid='EG10098'/></component>
+<component><Gene resource='getxml?ECOLI:EG10105' orgid='ECOLI' frameid='EG10105'/></component>
+<component><Gene resource='getxml?ECOLI:EG10103' orgid='ECOLI' frameid='EG10103'/></component>
+<component><Gene resource='getxml?ECOLI:EG10102' orgid='ECOLI' frameid='EG10102'/></component>
+<component><Gene resource='getxml?ECOLI:EG10099' orgid='ECOLI' frameid='EG10099'/></component>
+<component><Promoter ID='ECOLI:PM00472' orgid='ECOLI' frameid='PM00472' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>atpBp1</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3922270</absolute-plus-1-pos>
+<comment datatype='string'>atpBp1 is a weak promoter, and therefore it cannot  be excluded that the transcriptional start site represents  a cleavage artifact [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/6318052&quot;&gt;Nielsen84&lt;/a&gt;].</comment>
+<citation><Publication resource='#ECOLI:PUB-6318052' orgid='ECOLI' frameid='PUB-6318052'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6318052' orgid='ECOLI' frameid='PUB-6318052'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-6635' orgid='ECOLI' frameid='TU0-6635'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

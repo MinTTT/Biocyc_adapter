@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00335'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00335</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00335' orgid='ECOLI' frameid='TU00335' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rplJL-rpoBC</common-name>
+<comment datatype='string'>There has been identified an attenuator that stops 70%  of the transcription starts. It is located between the &lt;i&gt;rplL&lt;/i&gt; and &lt;i&gt;rpoB&lt;/i&gt; genes  [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/377281&quot;&gt;Post79&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/6325390&quot;&gt;Ralling84&lt;/a&gt;].
+&lt;p&gt;
+A potential RNA G-quadruplex structure, formed by guanine-rich sequences located in the coding sequence region of the gene, was identified  for &lt;i&gt;rpoB&lt;/i&gt;. This structure  could regulate the expression of the gene, as observed for &lt;i&gt;hemL&lt;/i&gt; gene expression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31964733&quot;&gt;Shao20&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-6158044' orgid='ECOLI' frameid='PUB-6158044' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 77(6);3331-5</source>
+<pubmed-id datatype='string'>6158044</pubmed-id>
+<title datatype='string'>Attenuation and processing of RNA from the rplJL--rpoBC transcription unit of Escherichia coli.</title>
+<year datatype='integer'>1980</year>
+<author datatype='string'>Barry G</author>
+<author datatype='string'>Squires C</author>
+<author datatype='string'>Squires CL</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-6292159' orgid='ECOLI' frameid='PUB-6292159' detail='full'><source datatype='string'>J Bacteriol 152(3);1022-32</source>
+<pubmed-id datatype='string'>6292159</pubmed-id>
+<title datatype='string'>Insertions of transposon Tn5 into ribosomal protein PNA polymerase operons.</title>
+<year datatype='integer'>1982</year>
+<author datatype='string'>Hui I</author>
+<author datatype='string'>Maltman K</author>
+<author datatype='string'>Little R</author>
+<author datatype='string'>Hastrup S</author>
+<author datatype='string'>Johnsen M</author>
+<author datatype='string'>Fiil N</author>
+<author datatype='string'>Dennis P</author>
+</Publication>
+</evidence>
+<component><Terminator ID='ECOLI:TERM82' orgid='ECOLI' frameid='TERM82' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>4189613</right-end-position>
+<left-end-position datatype='integer'>4189599</left-end-position>
+<citation><Publication ID='ECOLI:PUB-6278450' orgid='ECOLI' frameid='PUB-6278450' detail='full'><source datatype='string'>Nucleic Acids Res 9(24);6827-40</source>
+<pubmed-id datatype='string'>6278450</pubmed-id>
+<title datatype='string'>Nucleotide sequence at the end of the gene for the RNA polymerase beta' subunit (rpoC).</title>
+<year datatype='integer'>1981</year>
+<author datatype='string'>Squires C</author>
+<author datatype='string'>Krainer A</author>
+<author datatype='string'>Barry G</author>
+<author datatype='string'>Shen WF</author>
+<author datatype='string'>Squires CL</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-6512' orgid='ECOLI' frameid='TU0-6512'/><Transcription-Unit resource='getxml?ECOLI:TU0-7002' orgid='ECOLI' frameid='TU0-7002'/><Transcription-Unit resource='#ECOLI:TU00335' orgid='ECOLI' frameid='TU00335'/></component-of>
+</Terminator>
+</component>
+<component><Promoter ID='ECOLI:PM00497' orgid='ECOLI' frameid='PM00497' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>rplJp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4179623</absolute-plus-1-pos>
+<comment datatype='string'>Promoters rplJp and rplKp were identified using in vitro experiments that assign possible start sites [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/377281&quot;&gt;Post79&lt;/a&gt;]. They appear to be the major promoters within the rplKLJL-rpoBC operon, although rplKp is 35 % stronger than rplJp [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/6325390&quot;&gt;Ralling84&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-377281' orgid='ECOLI' frameid='PUB-377281' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 76(4);1697-701</source>
+<pubmed-id datatype='string'>377281</pubmed-id>
+<title datatype='string'>Nucleotide sequence of the ribosomal protein gene cluster adjacent to the gene for RNA polymerase subunit beta in Escherichia coli.</title>
+<year datatype='integer'>1979</year>
+<author datatype='string'>Post LE</author>
+<author datatype='string'>Strycharz GD</author>
+<author datatype='string'>Nomura M</author>
+<author datatype='string'>Lewis H</author>
+<author datatype='string'>Dennis PP</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-377281' orgid='ECOLI' frameid='PUB-377281'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-377281' orgid='ECOLI' frameid='PUB-377281'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from mutant phenotype</common-name>
+<comment datatype='string'>IMP inferred from mutant phenotype.
+
+&lt;br&gt;
+The assertion was inferred from a mutant phenotype such as
+&lt;ul&gt;
+    &lt;li&gt; Any gene mutation/knockout
+    &lt;li&gt; Overexpression/ectopic expression of wild-type or mutant genes
+    &lt;li&gt; Anti-sense experiments
+    &lt;li&gt; RNA interference experiments
+    &lt;li&gt; Specific protein inhibitors
+    &lt;li&gt; Complementation
+&lt;/ul&gt;&lt;p class=ecocomment&gt;	
+Comment: Inferences made from examining mutations or
+abnormal levels of only the product(s) of the gene of interest are covered by code EV-IMP
+(compare to code EV-IGI). Use this code for experiments that use antibodies 
+or other specific inhibitors of RNA or protein activity, even though no
+gene may be mutated (the rationale is that EV-IMP is used where an
+abnormal situation prevails in a cell or organism).
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-377281' orgid='ECOLI' frameid='PUB-377281'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-377281' orgid='ECOLI' frameid='PUB-377281'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11180' orgid='ECOLI' frameid='REG0-11180' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8070' orgid='ECOLI' frameid='CPLX0-8070'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00497' orgid='ECOLI' frameid='PM00497'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU00335' orgid='ECOLI' frameid='TU00335'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10871' orgid='ECOLI' frameid='EG10871'/></component>
+<component><Gene resource='getxml?ECOLI:EG10873' orgid='ECOLI' frameid='EG10873'/></component>
+<component><Gene resource='getxml?ECOLI:EG10894' orgid='ECOLI' frameid='EG10894'/></component>
+<component><Gene resource='getxml?ECOLI:EG10895' orgid='ECOLI' frameid='EG10895'/></component>
+</Transcription-Unit>
+</ptools-xml>

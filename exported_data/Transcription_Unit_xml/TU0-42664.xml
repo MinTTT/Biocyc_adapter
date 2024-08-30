@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42664'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42664</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42664' orgid='ECOLI' frameid='TU0-42664' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ymdAB-clsC</common-name>
+<comment datatype='string'>The  &lt;i&gt;ymdAB-clsC&lt;/i&gt; operon participates in the regulation of biofilm formation and in the control of apramycin susceptibility via a &lt;i&gt;sucA&lt;/i&gt;-mediated pathway, and the promoters are sensitive to cold shock in the following order: &lt;i&gt;ymdA&lt;/i&gt;p &gt; &lt;i&gt;clsC&lt;/i&gt;p &gt; &lt;i&gt;ymdB&lt;/i&gt;p [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/28582517&quot;&gt;Kim17a&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-28582517' orgid='ECOLI' frameid='PUB-28582517' detail='full'><source datatype='string'>FEMS Microbiol Lett 364(13)</source>
+<pubmed-id datatype='string'>28582517</pubmed-id>
+<title datatype='string'>Stress-responsively modulated ymdAB-clsC operon plays a role in biofilm formation and apramycin susceptibility in Escherichia coli.</title>
+<year datatype='integer'>2017</year>
+<author datatype='string'>Kim M</author>
+<author datatype='string'>Kim KS</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-28582517' orgid='ECOLI' frameid='PUB-28582517'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-28582517' orgid='ECOLI' frameid='PUB-28582517'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-16016' orgid='ECOLI' frameid='REG0-16016' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-3930' orgid='ECOLI' frameid='CPLX0-3930'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-42664' orgid='ECOLI' frameid='TU0-42664'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component><Promoter ID='ECOLI:PM0-46384' orgid='ECOLI' frameid='PM0-46384' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>ymdAp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1105201</absolute-plus-1-pos>
+<comment datatype='string'>&lt;i&gt;ymdA&lt;/i&gt; is expressed only during the exponential phase [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/28582517&quot;&gt;Kim17a&lt;/a&gt;]. It seems that activation of &lt;i&gt;ymdA&lt;/i&gt; is necessary when bacteria are recovering from cold-induced damage [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/28582517&quot;&gt;Kim17a&lt;/a&gt;]. Two TSS were identified at -213C and -211G upstream of the &lt;i&gt;ymdA&lt;/i&gt; translation star site [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/28582517&quot;&gt;Kim17a&lt;/a&gt;].</comment>
+<citation><Publication resource='#ECOLI:PUB-28582517' orgid='ECOLI' frameid='PUB-28582517'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-28582517' orgid='ECOLI' frameid='PUB-28582517'/></evidence>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-13122' orgid='ECOLI' frameid='TU0-13122'/><Transcription-Unit resource='getxml?ECOLI:TU0-42668' orgid='ECOLI' frameid='TU0-42668'/><Transcription-Unit resource='#ECOLI:TU0-42664' orgid='ECOLI' frameid='TU0-42664'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:G6551' orgid='ECOLI' frameid='G6551'/></component>
+<component><Gene resource='getxml?ECOLI:G6550' orgid='ECOLI' frameid='G6550'/></component>
+<component><Gene resource='getxml?ECOLI:G6549' orgid='ECOLI' frameid='G6549'/></component>
+</Transcription-Unit>
+</ptools-xml>

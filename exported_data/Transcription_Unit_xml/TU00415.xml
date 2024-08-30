@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00415'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00415</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00415' orgid='ECOLI' frameid='TU00415' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>fliAZY</common-name>
+<synonym datatype='string'>fliA</synonym>
+<comment datatype='string'>Based on gene expression analysis, [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/17213678&quot;&gt;Kato07&lt;/a&gt;] determined that &lt;i&gt;fliA&lt;/i&gt; (flagellum-specific &amp;sigma; factor) is under positive control of ArcA. However, they did not mention which of the two promoters of &lt;i&gt;fliA&lt;/i&gt; is controlled by ArcA. ArcB does not seem to be involved in this process and perhaps ArcA is regulated by another histidine kinase.
+&lt;p&gt;
+&lt;i&gt;fliAZY&lt;/i&gt; expression is enhanced by AtoSC in the presence of acetoacetate [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/22083893&quot;&gt;Theodorou12&lt;/a&gt;].
+&lt;p&gt;
+RpoS (&amp;sigma;&lt;sup&gt;38&lt;/sup&gt;) indirectly inhibits the transcription of the flagellar sigma factor FliA (&amp;sigma;&lt;sup&gt;28&lt;/sup&gt;), in the exponential growth phase through CsgD, which is RpoS promoter dependent [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/24272779&quot;&gt;Dudin14&lt;/a&gt;].
+&lt;p&gt;
+&lt;i&gt;tynA&lt;/i&gt;, &lt;i&gt;feaB&lt;/i&gt;, and &lt;i&gt;fliA&lt;/i&gt; promoters are strongly repressed when the &lt;i&gt;nsrR&lt;/i&gt; start codon from the wild-type GUG is changed to AUG  [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/26239124&quot;&gt;Chhabra15&lt;/a&gt;].
+&lt;p&gt;
+Based on glucose system and gene expression analyses, it was determined that CRP activates &lt;i&gt;fliA&lt;/i&gt; expression, while on the other hand IHF represses &lt;i&gt;fliA&lt;/i&gt; expression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/29196655&quot;&gt;Amores17&lt;/a&gt;].
+&lt;p&gt;
+In a study where it was shown that the L-tryptophan eradicated persister cells, it was observed that the exogenous amino acid downregulated the expression of &lt;i&gt; fliA &lt;/i&gt; as well as other flagellar genes [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31271063&quot;&gt;Li19&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-8071234' orgid='ECOLI' frameid='PUB-8071234' detail='full'><source datatype='string'>J Bacteriol 176(17);5537-40</source>
+<pubmed-id datatype='string'>8071234</pubmed-id>
+<title datatype='string'>The H-NS protein is involved in the biogenesis of flagella in Escherichia coli.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Bertin P</author>
+<author datatype='string'>Terao E</author>
+<author datatype='string'>Lee EH</author>
+<author datatype='string'>Lejeune P</author>
+<author datatype='string'>Colson C</author>
+<author datatype='string'>Danchin A</author>
+<author datatype='string'>Collatz E</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8550423' orgid='ECOLI' frameid='PUB-8550423' detail='full'><source datatype='string'>J Bacteriol 178(1);24-34</source>
+<pubmed-id datatype='string'>8550423</pubmed-id>
+<title datatype='string'>Escherichia coli fliAZY operon.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Mytelka DS</author>
+<author datatype='string'>Chamberlin MJ</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8550423' orgid='ECOLI' frameid='PUB-8550423'/></evidence>
+<component><DNA-Binding-Site ID='ECOLI:BS0-1283' orgid='ECOLI' frameid='BS0-1283' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-5262' orgid='ECOLI' frameid='REG0-5262' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-3930' orgid='ECOLI' frameid='CPLX0-3930'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM00563' orgid='ECOLI' frameid='PM00563' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>2001826</minus-10-left>
+<common-name datatype='string'>fliAp1</common-name>
+<minus-35-right datatype='integer'>2001852</minus-35-right>
+<minus-35-left datatype='integer'>2001847</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>PF</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2001819</absolute-plus-1-pos>
+<comment datatype='string'>The activity of the fliAp1 promoter is dependent on FlhDC, but it has been observed that flhDC expression is not a guarantee that fliAp is activated. Rather, spontaneous on-off switching occurs in the promoter [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/32076637&quot;&gt;Kim20&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-8071234' orgid='ECOLI' frameid='PUB-8071234'/></citation>
+<citation><Publication resource='#ECOLI:PUB-8550423' orgid='ECOLI' frameid='PUB-8550423'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8550423' orgid='ECOLI' frameid='PUB-8550423'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12843' orgid='ECOLI' frameid='REG0-12843' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PC00027' orgid='ECOLI' frameid='PC00027'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00563' orgid='ECOLI' frameid='PM00563'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-12842' orgid='ECOLI' frameid='REG0-12842' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PC00027' orgid='ECOLI' frameid='PC00027'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00563' orgid='ECOLI' frameid='PM00563'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-12153' orgid='ECOLI' frameid='REG0-12153' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:G6745-MONOMER' orgid='ECOLI' frameid='G6745-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00563' orgid='ECOLI' frameid='PM00563'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-12009' orgid='ECOLI' frameid='REG0-12009' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD01379' orgid='ECOLI' frameid='PD01379'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00563' orgid='ECOLI' frameid='PM00563'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11501' orgid='ECOLI' frameid='REG0-11501' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:G6165-MONOMER' orgid='ECOLI' frameid='G6165-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00563' orgid='ECOLI' frameid='PM00563'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10505' orgid='ECOLI' frameid='REG0-10505' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7756' orgid='ECOLI' frameid='CPLX0-7756'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00563' orgid='ECOLI' frameid='PM00563'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10464' orgid='ECOLI' frameid='REG0-10464' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7756' orgid='ECOLI' frameid='CPLX0-7756'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00563' orgid='ECOLI' frameid='PM00563'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5263' orgid='ECOLI' frameid='REG0-5263' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00288' orgid='ECOLI' frameid='PD00288'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00563' orgid='ECOLI' frameid='PM00563'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-5262' orgid='ECOLI' frameid='REG0-5262'/></regulated-by>
+<minus-10-right datatype='integer'>2001831</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00415' orgid='ECOLI' frameid='TU00415'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-8866483' orgid='ECOLI' frameid='PUB-8866483' detail='full'><source datatype='string'>Mol Microbiol 21(3);613-20</source>
+<pubmed-id datatype='string'>8866483</pubmed-id>
+<title datatype='string'>Differential regulation of multiple overlapping promoters in flagellar class II operons in Escherichia coli.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Liu X</author>
+<author datatype='string'>Matsumura P</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-7961507' orgid='ECOLI' frameid='PUB-7961507' detail='full'><source datatype='string'>J Bacteriol 176(23);7345-51</source>
+<pubmed-id datatype='string'>7961507</pubmed-id>
+<title datatype='string'>The FlhD/FlhC complex, a transcriptional activator of the Escherichia coli flagellar class II operons.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Liu X</author>
+<author datatype='string'>Matsumura P</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-15941987' orgid='ECOLI' frameid='PUB-15941987' detail='full'><source datatype='string'>Microbiology 151(Pt 6);1779-88</source>
+<pubmed-id datatype='string'>15941987</pubmed-id>
+<title datatype='string'>Binding and transcriptional activation of non-flagellar genes by the Escherichia coli flagellar master regulator FlhD2C2.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Stafford GP</author>
+<author datatype='string'>Ogi T</author>
+<author datatype='string'>Hughes C</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication ID='ECOLI:PUB-10650844' orgid='ECOLI' frameid='PUB-10650844' detail='full'><source datatype='string'>Genes Genet Syst 74(4);179-83</source>
+<pubmed-id datatype='string'>10650844</pubmed-id>
+<title datatype='string'>Promoter analysis of the class 2 flagellar operons of Salmonella.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>Ikebe T</author>
+<author datatype='string'>Iyoda S</author>
+<author datatype='string'>Kutsukake K</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Site mutation</common-name>
+<comment datatype='string'>A cis-mutation in the DNA sequence of the transcription-factor binding site interferes with the operation of the regulatory function. This is considered  strong evidence for the existence and functional role of the DNA binding site.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-21685294' orgid='ECOLI' frameid='PUB-21685294' detail='full'><source datatype='string'>J Bacteriol 193(16);4057-68</source>
+<pubmed-id datatype='string'>21685294</pubmed-id>
+<title datatype='string'>Refining the Binding of the Escherichia coli Flagellar Master Regulator, FlhD4C2, on a Base-Specific Level.</title>
+<year datatype='integer'>2011</year>
+<author datatype='string'>Lee YY</author>
+<author datatype='string'>Barker CS</author>
+<author datatype='string'>Matsumura P</author>
+<author datatype='string'>Belas R</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-21685294' orgid='ECOLI' frameid='PUB-21685294'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-CHIP-SEQ-MANUAL' orgid='ECOLI' frameid='EV-EXP-CHIP-SEQ-MANUAL' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-CHIP-SEQ' orgid='ECOLI' frameid='EV-EXP-CHIP-SEQ' class='true'/></parent>
+<common-name datatype='string'>ChIP-seq evidence used in manual assertion</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0006009</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0006009</dblink-URL>
+</dblink>
+<credits><imported-from-meta><date datatype='date'>2018-03-05</date>
+<Person ID='ECOLI:paley' orgid='ECOLI' frameid='paley' detail='full'><affiliations><Organization ID='ECOLI:SRI' orgid='ECOLI' frameid='SRI' detail='full'><abbrev-name datatype='string'>SRI International</abbrev-name>
+<email datatype='string'>ptools-support@ai.sri.com</email>
+<common-name datatype='string'>SRI International</common-name>
+<url datatype='string'>http://bioinformatics.ai.sri.com/</url>
+</Organization>
+</affiliations>
+<common-name datatype='string'>Suzanne Paley</common-name>
+</Person>
+<Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A type of chromatin immunoprecipation-seq evidence that is used in a manual assertion.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-25275371' orgid='ECOLI' frameid='PUB-25275371' detail='full'><source datatype='string'>PLoS Genet 10(10);e1004649</source>
+<pubmed-id datatype='string'>25275371</pubmed-id>
+<title datatype='string'>Comprehensive mapping of the Escherichia coli flagellar regulatory network.</title>
+<year datatype='integer'>2014</year>
+<author datatype='string'>Fitzgerald DM</author>
+<author datatype='string'>Bonocora RP</author>
+<author datatype='string'>Wade JT</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-CHIP-PCR-MANUAL' orgid='ECOLI' frameid='EV-EXP-CHIP-PCR-MANUAL' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-CHIP-PCR' orgid='ECOLI' frameid='EV-EXP-CHIP-PCR' class='true'/></parent>
+<common-name datatype='string'>ChIP-PCR evidence used in manual assertion</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0005620</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0005620</dblink-URL>
+</dblink>
+<credits><imported-from-meta><date datatype='date'>2018-03-05</date>
+<Person resource='#ECOLI:paley' orgid='ECOLI' frameid='paley'/><Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A type of chromatin immunoprecipation-PCR evidence that is used in a manual assertion.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-25275371' orgid='ECOLI' frameid='PUB-25275371'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-GSELEX' orgid='ECOLI' frameid='EV-EXP-GSELEX' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-HTP-HDA-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-HTP-HDA-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>High-throughput genomic SELEX-chip evidence</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0001812</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0001812</dblink-URL>
+</dblink>
+<credits><imported-from-meta><date datatype='date'>2018-03-05</date>
+<Person resource='#ECOLI:paley' orgid='ECOLI' frameid='paley'/><Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A type of systematic evolution of ligands by exponential amplification evidence based on a restricted genomic DNA library to identify naturally occurring genomic aptamers and RNA-protein interaction networks with RNA-binding protein as bait and high-throughput sequencing. This evidence can be used to probe the binding of proteins, such as transcription factors or RNA polymerase, to DNA.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-36835109' orgid='ECOLI' frameid='PUB-36835109' detail='full'><source datatype='string'>Int J Mol Sci 24(4)</source>
+<pubmed-id datatype='string'>36835109</pubmed-id>
+<title datatype='string'>Genomic SELEX Reveals Pervasive Role of the Flagella Master Regulator FlhDC in Carbon Metabolism.</title>
+<year datatype='integer'>2023</year>
+<author datatype='string'>Takada H</author>
+<author datatype='string'>Kijima K</author>
+<author datatype='string'>Ishiguro A</author>
+<author datatype='string'>Ishihama A</author>
+<author datatype='string'>Shimada T</author>
+<doi-id datatype='string'>10.3390/ijms24043696</doi-id>
+</Publication>
+</evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-36835109' orgid='ECOLI' frameid='PUB-36835109'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS-EMSA' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS-EMSA' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/></parent>
+<common-name datatype='string'>Electrophoretic mobility shift assay with purified protein evidence</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0000096</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0000096</dblink-URL>
+</dblink>
+<credits><imported-from-meta><date datatype='date'>2022-10-25</date>
+<Person resource='#ECOLI:paley' orgid='ECOLI' frameid='paley'/><Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A type of affinity evidence based on an electrophoretic mobility shift of macromolecules, where purified proteins, nucleic acids, or both are combined and the resulting mixtures 
+are electrophoresed under native conditions through polyacrylamide or agarose gel to detect interactions/complexes between proteins and/or nucleic acid.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-36835109' orgid='ECOLI' frameid='PUB-36835109'/></evidence>
+<site-length datatype='integer'>46</site-length>
+<abs-center-pos datatype='float'>2001871.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00415' orgid='ECOLI' frameid='TU00415'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Terminator ID='ECOLI:TERM42' orgid='ECOLI' frameid='TERM42' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>1999571</right-end-position>
+<left-end-position datatype='integer'>1999541</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-8550423' orgid='ECOLI' frameid='PUB-8550423'/></citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-14515' orgid='ECOLI' frameid='TU0-14515'/><Transcription-Unit resource='#ECOLI:TU00415' orgid='ECOLI' frameid='TU00415'/><Transcription-Unit resource='getxml?ECOLI:TU00471' orgid='ECOLI' frameid='TU00471'/></component-of>
+</Terminator>
+</component>
+<component><Promoter resource='#ECOLI:PM00563' orgid='ECOLI' frameid='PM00563'/></component>
+<component><Gene resource='getxml?ECOLI:G7039' orgid='ECOLI' frameid='G7039'/></component>
+<component><Gene resource='getxml?ECOLI:EG11356' orgid='ECOLI' frameid='EG11356'/></component>
+<component><Gene resource='getxml?ECOLI:EG11355' orgid='ECOLI' frameid='EG11355'/></component>
+</Transcription-Unit>
+</ptools-xml>

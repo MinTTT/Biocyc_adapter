@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-14691'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-14691</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-14691' orgid='ECOLI' frameid='TU0-14691' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>yfaXWVU</common-name>
+<citation><Publication ID='ECOLI:PUB-18754693' orgid='ECOLI' frameid='PUB-18754693' detail='full'><source datatype='string'>Biochemistry 47(38);9944-54</source>
+<pubmed-id datatype='string'>18754693</pubmed-id>
+<title datatype='string'>Evolution of enzymatic activities in the enolase superfamily: L-rhamnonate dehydratase.</title>
+<year datatype='integer'>2008</year>
+<author datatype='string'>Rakus JF</author>
+<author datatype='string'>Fedorov AA</author>
+<author datatype='string'>Fedorov EV</author>
+<author datatype='string'>Glasner ME</author>
+<author datatype='string'>Hubbard BK</author>
+<author datatype='string'>Delli JD</author>
+<author datatype='string'>Babbitt PC</author>
+<author datatype='string'>Almo SC</author>
+<author datatype='string'>Gerlt JA</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-AS-HYPO' orgid='ECOLI' frameid='EV-AS-HYPO' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-AS' orgid='ECOLI' frameid='EV-AS' class='true'/></parent>
+<common-name datatype='string'>Author hypothesis</common-name>
+<comment datatype='string'>Author hypothesis. The hypothesis is in a publication, but it was clearly indicated in the
+publication that there was no experimental evidence, or limited evidence, supporting the 
+hypothesis. This code can be used, for example, for &quot;paper chemistry&quot; metabolic pathways, 
+which are pathways drawn from the author's best estimation.
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-18754693' orgid='ECOLI' frameid='PUB-18754693'/></evidence>
+<component><Gene resource='getxml?ECOLI:G7158' orgid='ECOLI' frameid='G7158'/></component>
+<component><Gene resource='getxml?ECOLI:G7159' orgid='ECOLI' frameid='G7159'/></component>
+<component><Gene resource='getxml?ECOLI:G7160' orgid='ECOLI' frameid='G7160'/></component>
+<component><Gene resource='getxml?ECOLI:G7161' orgid='ECOLI' frameid='G7161'/></component>
+</Transcription-Unit>
+</ptools-xml>

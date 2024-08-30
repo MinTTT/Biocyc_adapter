@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-14676'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-14676</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-14676' orgid='ECOLI' frameid='TU0-14676' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>artPIQM</common-name>
+<citation><Publication ID='ECOLI:PUB-8801422' orgid='ECOLI' frameid='PUB-8801422' detail='full'><source datatype='string'>Mol Microbiol 17(4);675-86</source>
+<pubmed-id datatype='string'>8801422</pubmed-id>
+<title datatype='string'>A third periplasmic transport system for L-arginine in Escherichia coli: molecular characterization of the artPIQMJ genes, arginine binding and transport.</title>
+<year datatype='integer'>1995</year>
+<author datatype='string'>Wissenbach U</author>
+<author datatype='string'>Six S</author>
+<author datatype='string'>Bongaerts J</author>
+<author datatype='string'>Ternes D</author>
+<author datatype='string'>Steinwachs S</author>
+<author datatype='string'>Unden G</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8801422' orgid='ECOLI' frameid='PUB-8801422'/></evidence>
+<component><Terminator ID='ECOLI:TERM0981' orgid='ECOLI' frameid='TERM0981' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Dependent-Terminators' orgid='ECOLI' frameid='Rho-Dependent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>900725</right-end-position>
+<left-end-position datatype='integer'>900695</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-8801422' orgid='ECOLI' frameid='PUB-8801422'/></citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-14678' orgid='ECOLI' frameid='TU0-14678'/><Transcription-Unit resource='getxml?ECOLI:TU0-14677' orgid='ECOLI' frameid='TU0-14677'/><Transcription-Unit resource='#ECOLI:TU0-14676' orgid='ECOLI' frameid='TU0-14676'/><Transcription-Unit resource='getxml?ECOLI:TU00240' orgid='ECOLI' frameid='TU00240'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11627' orgid='ECOLI' frameid='EG11627'/></component>
+<component><Gene resource='getxml?ECOLI:EG11626' orgid='ECOLI' frameid='EG11626'/></component>
+<component><Gene resource='getxml?ECOLI:EG11625' orgid='ECOLI' frameid='EG11625'/></component>
+<component><Gene resource='getxml?ECOLI:EG11624' orgid='ECOLI' frameid='EG11624'/></component>
+<component><Promoter ID='ECOLI:PM0-10201' orgid='ECOLI' frameid='PM0-10201' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>903820</minus-10-left>
+<common-name datatype='string'>artPp1</common-name>
+<minus-35-right datatype='integer'>903847</minus-35-right>
+<minus-35-left datatype='integer'>903842</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>903815</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-15489429' orgid='ECOLI' frameid='PUB-15489429' detail='full'><source datatype='string'>J Bacteriol 186(21);7186-95</source>
+<pubmed-id datatype='string'>15489429</pubmed-id>
+<title datatype='string'>SigmaS-dependent gene expression at the onset of stationary phase in Escherichia coli: function of sigmaS-dependent genes and identification of their promoter sequences.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Lacour S</author>
+<author datatype='string'>Landini P</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15489429' orgid='ECOLI' frameid='PUB-15489429'/></evidence>
+<minus-10-right datatype='integer'>903830</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-14676' orgid='ECOLI' frameid='TU0-14676'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-4742'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-4742</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-4742' orgid='ECOLI' frameid='TU0-4742' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ompA</common-name>
+<comment datatype='string'>FNR represses &lt;i&gt;ompA&lt;/i&gt; gene expression under anaerobiosis, but it is still unknown which of the two promoters (ompAp1 or ompAp2) is affected, or whether this regulation is direct or indirect [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12754220&quot;&gt;Salmon03&lt;/a&gt;]. 
+&lt;p&gt;
+It was proved in an experiment with increasing concentrations of the antibiotic tetracycline that the &lt;i&gt;ompA&lt;/i&gt; gene expression is induced in low concentrations (1.5 and 4 mg/L), but not in high ones (10 mg/L); this suggests that the product of this gene plays a role under this condition [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/17426813&quot;&gt;Viveiros07&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-7001445' orgid='ECOLI' frameid='PUB-7001445' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 77(7);3845-9</source>
+<pubmed-id datatype='string'>7001445</pubmed-id>
+<title datatype='string'>Regulatory region of the gene for the ompA protein, a major outer membrane protein of Escherichia coli.</title>
+<year datatype='integer'>1980</year>
+<author datatype='string'>Movva NR</author>
+<author datatype='string'>Nakamura K</author>
+<author datatype='string'>Inouye M</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-6253901' orgid='ECOLI' frameid='PUB-6253901' detail='full'><source datatype='string'>Nucleic Acids Res 8(13);3011-27</source>
+<pubmed-id datatype='string'>6253901</pubmed-id>
+<title datatype='string'>Nucleotide sequence of the gene ompA coding the outer membrane protein II of Escherichia coli K-12.</title>
+<year datatype='integer'>1980</year>
+<author datatype='string'>Beck E</author>
+<author datatype='string'>Bremer E</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-7001445' orgid='ECOLI' frameid='PUB-7001445'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6253901' orgid='ECOLI' frameid='PUB-6253901'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12356' orgid='ECOLI' frameid='REG0-12356' detail='low'><parent><Regulation resource='getxml?ECOLI:RNA-Mediated-Translation-Regulation' orgid='ECOLI' frameid='RNA-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><RNA resource='getxml?ECOLI:RNA0-327' orgid='ECOLI' frameid='RNA0-327'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-4742' orgid='ECOLI' frameid='TU0-4742'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10689' orgid='ECOLI' frameid='REG0-10689' detail='low'><parent><Regulation resource='getxml?ECOLI:RNA-Mediated-Translation-Regulation' orgid='ECOLI' frameid='RNA-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><RNA resource='getxml?ECOLI:SRAD-RNA' orgid='ECOLI' frameid='SRAD-RNA'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-4742' orgid='ECOLI' frameid='TU0-4742'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component><Gene resource='getxml?ECOLI:EG10669' orgid='ECOLI' frameid='EG10669'/></component>
+<component><Promoter ID='ECOLI:PM00357' orgid='ECOLI' frameid='PM00357' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>ompAp2</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1020187</absolute-plus-1-pos>
+<comment datatype='string'>The TSS in &lt;i&gt;ompA&lt;/i&gt;p2 identified by Liu et al. (2018) using Capping-RACE differs by 1 bp from that identified by Cole et al. (1982) [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/30107543&quot;&gt;Liu18&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-6298577' orgid='ECOLI' frameid='PUB-6298577' detail='full'><source datatype='string'>Mol Gen Genet 188(3);472-9</source>
+<pubmed-id datatype='string'>6298577</pubmed-id>
+<title datatype='string'>Characterisation of the promoters for the ompA gene which encodes a major outer membrane protein of Escherichia coli.</title>
+<year datatype='integer'>1982</year>
+<author datatype='string'>Cole ST</author>
+<author datatype='string'>Bremer E</author>
+<author datatype='string'>Hindennach I</author>
+<author datatype='string'>Henning U</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-30107543' orgid='ECOLI' frameid='PUB-30107543' detail='full'><source datatype='string'>Nucleic Acids Res 46(21);e129</source>
+<pubmed-id datatype='string'>30107543</pubmed-id>
+<title datatype='string'>Capping-RACE: a simple, accurate, and sensitive 5' RACE method for use in prokaryotes.</title>
+<year datatype='integer'>2018</year>
+<author datatype='string'>Liu F</author>
+<author datatype='string'>Zheng K</author>
+<author datatype='string'>Chen HC</author>
+<author datatype='string'>Liu ZF</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6298577' orgid='ECOLI' frameid='PUB-6298577'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' orgid='ECOLI' frameid='EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>High-throughput transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified using a high-throughput experimental modified RACE approach.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-30107543' orgid='ECOLI' frameid='PUB-30107543'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4742' orgid='ECOLI' frameid='TU0-4742'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

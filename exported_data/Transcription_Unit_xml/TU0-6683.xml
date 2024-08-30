@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-6683'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-6683</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-6683' orgid='ECOLI' frameid='TU0-6683' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ptrA</common-name>
+<extent-unknown datatype='boolean'>true</extent-unknown>
+<comment datatype='string'>The transcript of &lt;i&gt;ptrA&lt;/i&gt; is increased after &amp;sigma;E induction, as observed in high-throughput analysis of gene expression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31992590&quot;&gt;Lacoux20&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-3308636' orgid='ECOLI' frameid='PUB-3308636' detail='full'><source datatype='string'>Gene 54(2-3);185-95</source>
+<pubmed-id datatype='string'>3308636</pubmed-id>
+<title datatype='string'>Analysis of the regulatory region of the protease III (ptr) gene of Escherichia coli K-12.</title>
+<year datatype='integer'>1987</year>
+<author datatype='string'>Claverie-Martin F</author>
+<author datatype='string'>Diaz-Torres MR</author>
+<author datatype='string'>Kushner SR</author>
+</Publication>
+</citation>
+<component><Gene resource='getxml?ECOLI:EG10786' orgid='ECOLI' frameid='EG10786'/></component>
+<component><Promoter ID='ECOLI:PM00428' orgid='ECOLI' frameid='PM00428' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>2959017</minus-10-left>
+<common-name datatype='string'>ptrAp</common-name>
+<minus-35-right datatype='integer'>2959045</minus-35-right>
+<minus-35-left datatype='integer'>2959040</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>ptrp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2959011</absolute-plus-1-pos>
+<comment datatype='string'>A potential &amp;sigma;&lt;sup&gt;54&lt;/sup&gt; or putative nitrogen-regulated (CTGGCAGATGATTTGCG) promoter is located downstream from the -35 and -10 regions of &lt;i&gt;ptrA&lt;/i&gt;p [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/3308636&quot;&gt;ClaverieMartin87&lt;/a&gt;]. However, whether this promoter is functional &lt;i&gt;in vivo&lt;/i&gt; has not been determined [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/3308636&quot;&gt;ClaverieMartin87&lt;/a&gt;].</comment>
+<citation><Publication resource='#ECOLI:PUB-3308636' orgid='ECOLI' frameid='PUB-3308636'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3308636' orgid='ECOLI' frameid='PUB-3308636'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11831' orgid='ECOLI' frameid='REG0-11831' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PC00010' orgid='ECOLI' frameid='PC00010'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00428' orgid='ECOLI' frameid='PM00428'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>2959022</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-13744' orgid='ECOLI' frameid='TU0-13744'/><Transcription-Unit resource='#ECOLI:TU0-6683' orgid='ECOLI' frameid='TU0-6683'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

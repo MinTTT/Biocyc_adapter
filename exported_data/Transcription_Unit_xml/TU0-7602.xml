@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-7602'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-7602</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-7602' orgid='ECOLI' frameid='TU0-7602' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>allS</common-name>
+<citation><Publication ID='ECOLI:PUB-12460564' orgid='ECOLI' frameid='PUB-12460564' detail='full'><source datatype='string'>J Mol Biol 324(4);599-610</source>
+<pubmed-id datatype='string'>12460564</pubmed-id>
+<title datatype='string'>Regulation of the Escherichia coli allantoin regulon: coordinated function of the repressor AllR and the activator AllS.</title>
+<year datatype='integer'>2002</year>
+<author datatype='string'>Rintoul MR</author>
+<author datatype='string'>Cusa E</author>
+<author datatype='string'>Baldoma L</author>
+<author datatype='string'>Badia J</author>
+<author datatype='string'>Reitzer L</author>
+<author datatype='string'>Aguilar J</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12460564' orgid='ECOLI' frameid='PUB-12460564'/></evidence>
+<component><DNA-Binding-Site ID='ECOLI:BS0-6381' orgid='ECOLI' frameid='BS0-6381' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6079' orgid='ECOLI' frameid='REG0-6079' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8071' orgid='ECOLI' frameid='CPLX0-8071'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-7982' orgid='ECOLI' frameid='PM0-7982' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>allSp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>532300</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-12460564' orgid='ECOLI' frameid='PUB-12460564'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12460564' orgid='ECOLI' frameid='PUB-12460564'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-6079' orgid='ECOLI' frameid='REG0-6079'/></regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-7602' orgid='ECOLI' frameid='TU0-7602'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6077' orgid='ECOLI' frameid='REG0-6077' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8071' orgid='ECOLI' frameid='CPLX0-8071'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-7981' orgid='ECOLI' frameid='PM0-7981' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>allAp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>532390</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-12460564' orgid='ECOLI' frameid='PUB-12460564'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-12460564' orgid='ECOLI' frameid='PUB-12460564'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-6077' orgid='ECOLI' frameid='REG0-6077'/></regulated-by>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-7601' orgid='ECOLI' frameid='TU0-7601'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-12460564' orgid='ECOLI' frameid='PUB-12460564'/></citation>
+<citation><Publication ID='ECOLI:PUB-18957590' orgid='ECOLI' frameid='PUB-18957590' detail='full'><source datatype='string'>Microbiology 154(Pt 11);3366-78</source>
+<pubmed-id datatype='string'>18957590</pubmed-id>
+<title datatype='string'>The transcription regulator AllR senses both allantoin and glyoxylate and controls a set of genes for degradation and reutilization of purines.</title>
+<year datatype='integer'>2008</year>
+<author datatype='string'>Hasegawa A</author>
+<author datatype='string'>Ogasawara H</author>
+<author datatype='string'>Kori A</author>
+<author datatype='string'>Teramoto J</author>
+<author datatype='string'>Ishihama A</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of cellular extracts</common-name>
+<comment datatype='string'>There exists physical evidence of the binding of cellular extracts containing 
+a regulatory protein to its DNA binding site.  This can be either by 
+footprinting or mobility shift assays.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12460564' orgid='ECOLI' frameid='PUB-12460564'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Site mutation</common-name>
+<comment datatype='string'>A cis-mutation in the DNA sequence of the transcription-factor binding site interferes with the operation of the regulatory function. This is considered  strong evidence for the existence and functional role of the DNA binding site.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12460564' orgid='ECOLI' frameid='PUB-12460564'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-18957590' orgid='ECOLI' frameid='PUB-18957590'/></evidence>
+<abs-center-pos datatype='integer'>532337</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-7602' orgid='ECOLI' frameid='TU0-7602'/><Transcription-Unit resource='getxml?ECOLI:TU0-7601' orgid='ECOLI' frameid='TU0-7601'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:G6274' orgid='ECOLI' frameid='G6274'/></component>
+<component><Promoter resource='#ECOLI:PM0-7982' orgid='ECOLI' frameid='PM0-7982'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42604'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42604</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42604' orgid='ECOLI' frameid='TU0-42604' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>fabI</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><Promoter ID='ECOLI:PM0-46358' orgid='ECOLI' frameid='PM0-46358' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>fabIp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1351121</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-25802297' orgid='ECOLI' frameid='PUB-25802297' detail='full'><source datatype='string'>J Bacteriol 197(11);1862-72</source>
+<pubmed-id datatype='string'>25802297</pubmed-id>
+<title datatype='string'>Reassessment of the Genetic Regulation of Fatty Acid Synthesis in Escherichia coli: Global Positive Control by the Dual Functional Regulator FadR.</title>
+<year datatype='integer'>2015</year>
+<author datatype='string'>My L</author>
+<author datatype='string'>Ghandour Achkar N</author>
+<author datatype='string'>Viala JP</author>
+<author datatype='string'>Bouveret E</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-25802297' orgid='ECOLI' frameid='PUB-25802297'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12320' orgid='ECOLI' frameid='REG0-12320' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD01520' orgid='ECOLI' frameid='PD01520'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46358' orgid='ECOLI' frameid='PM0-46358'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42604' orgid='ECOLI' frameid='TU0-42604'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11528' orgid='ECOLI' frameid='EG11528'/></component>
+</Transcription-Unit>
+</ptools-xml>

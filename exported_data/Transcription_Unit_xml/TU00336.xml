@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00336'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00336</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00336' orgid='ECOLI' frameid='TU00336' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rplM-rpsI</common-name>
+<citation><Publication ID='ECOLI:PUB-3884974' orgid='ECOLI' frameid='PUB-3884974' detail='full'><source datatype='string'>Mol Gen Genet 198(2);279-82</source>
+<pubmed-id datatype='string'>3884974</pubmed-id>
+<title datatype='string'>Cloning and nucleotide sequencing of the genes for ribosomal proteins S9 (rpsI) and L13 (rplM) of Escherichia coli.</title>
+<year datatype='integer'>1985</year>
+<author datatype='string'>Isono S</author>
+<author datatype='string'>Thamm S</author>
+<author datatype='string'>Kitakawa M</author>
+<author datatype='string'>Isono K</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-15126466' orgid='ECOLI' frameid='PUB-15126466' detail='full'><source datatype='string'>J Bacteriol 186(10);3046-55</source>
+<pubmed-id datatype='string'>15126466</pubmed-id>
+<title datatype='string'>Temperature sensitivity caused by mutant release factor 1 is suppressed by mutations that affect 16S rRNA maturation.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Kaczanowska M</author>
+<author datatype='string'>Ryden-Aulin M</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-31188443' orgid='ECOLI' frameid='PUB-31188443' detail='full'><source datatype='string'>Nucleic Acids Res 47(15);8193-8206</source>
+<pubmed-id datatype='string'>31188443</pubmed-id>
+<title datatype='string'>A DEAD-box protein regulates ribosome assembly through control of ribosomal protein synthesis.</title>
+<year datatype='integer'>2019</year>
+<author datatype='string'>Iost I</author>
+<author datatype='string'>Jain C</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' class='true'/><Publication resource='#ECOLI:PUB-15126466' orgid='ECOLI' frameid='PUB-15126466'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-31188443' orgid='ECOLI' frameid='PUB-31188443'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-13533' orgid='ECOLI' frameid='REG0-13533' detail='low'><parent><Regulation resource='getxml?ECOLI:Protein-Mediated-Attenuation' orgid='ECOLI' frameid='Protein-Mediated-Attenuation' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG10975-MONOMER' orgid='ECOLI' frameid='EG10975-MONOMER'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU00336' orgid='ECOLI' frameid='TU00336'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-12527' orgid='ECOLI' frameid='REG0-12527' detail='low'><parent><Regulation resource='getxml?ECOLI:Protein-Mediated-Translation-Regulation' orgid='ECOLI' frameid='Protein-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG10874-MONOMER' orgid='ECOLI' frameid='EG10874-MONOMER'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU00336' orgid='ECOLI' frameid='TU00336'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component><DNA-Binding-Site ID='ECOLI:BS0-6182' orgid='ECOLI' frameid='BS0-6182' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-5049' orgid='ECOLI' frameid='REG0-5049' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7797' orgid='ECOLI' frameid='CPLX0-7797'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM404' orgid='ECOLI' frameid='PM404' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>3378678</minus-10-left>
+<common-name datatype='string'>rplMp</common-name>
+<minus-35-right datatype='integer'>3378705</minus-35-right>
+<minus-35-left datatype='integer'>3378700</minus-35-left>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3378808</absolute-plus-1-pos>
+<comment datatype='string'>A hairpin-loop  structure that regulates &lt;i&gt;rplM-rpsI&lt;/i&gt; is formed at the beginning of the transcript of this operon. The transcriptional start site is part of that RNA regulatory structure [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31188443&quot;&gt;Iost19&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-25266388' orgid='ECOLI' frameid='PUB-25266388' detail='full'><source datatype='string'>J Bacteriol 197(1);18-28</source>
+<pubmed-id datatype='string'>25266388</pubmed-id>
+<title datatype='string'>Global transcriptional start site mapping using differential RNA sequencing reveals novel antisense RNAs in Escherichia coli.</title>
+<year datatype='integer'>2015</year>
+<author datatype='string'>Thomason MK</author>
+<author datatype='string'>Bischler T</author>
+<author datatype='string'>Eisenbart SK</author>
+<author datatype='string'>Forstner KU</author>
+<author datatype='string'>Zhang A</author>
+<author datatype='string'>Herbig A</author>
+<author datatype='string'>Nieselt K</author>
+<author datatype='string'>Sharma CM</author>
+<author datatype='string'>Storz G</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-25266388' orgid='ECOLI' frameid='PUB-25266388'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12550' orgid='ECOLI' frameid='REG0-12550' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8070' orgid='ECOLI' frameid='CPLX0-8070'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM404' orgid='ECOLI' frameid='PM404'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11825' orgid='ECOLI' frameid='REG0-11825' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM404' orgid='ECOLI' frameid='PM404'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10856' orgid='ECOLI' frameid='REG0-10856' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM404' orgid='ECOLI' frameid='PM404'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-5049' orgid='ECOLI' frameid='REG0-5049'/></regulated-by>
+<minus-10-right datatype='integer'>3378683</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00336' orgid='ECOLI' frameid='TU00336'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on similarity to consensus sequences</common-name>
+<comment datatype='string'>A DNA sequence similar to previously known consensus sequences is computationally identified.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-12754220' orgid='ECOLI' frameid='PUB-12754220' detail='full'><source datatype='string'>J Biol Chem 278(32);29837-55</source>
+<pubmed-id datatype='string'>12754220</pubmed-id>
+<title datatype='string'>Global gene expression profiling in Escherichia coli K12. The effects of oxygen availability and FNR.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Salmon K</author>
+<author datatype='string'>Hung SP</author>
+<author datatype='string'>Mekjian K</author>
+<author datatype='string'>Baldi P</author>
+<author datatype='string'>Hatfield GW</author>
+<author datatype='string'>Gunsalus RP</author>
+</Publication>
+</evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU00336' orgid='ECOLI' frameid='TU00336'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Terminator ID='ECOLI:TERM0641' orgid='ECOLI' frameid='TERM0641' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3377782</right-end-position>
+<left-end-position datatype='integer'>3377756</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-15126466' orgid='ECOLI' frameid='PUB-15126466'/></citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-42202' orgid='ECOLI' frameid='TU0-42202'/><Transcription-Unit resource='#ECOLI:TU00336' orgid='ECOLI' frameid='TU00336'/></component-of>
+</Terminator>
+</component>
+<component><Promoter resource='#ECOLI:PM404' orgid='ECOLI' frameid='PM404'/></component>
+<component><Gene resource='getxml?ECOLI:EG10908' orgid='ECOLI' frameid='EG10908'/></component>
+<component><Gene resource='getxml?ECOLI:EG10874' orgid='ECOLI' frameid='EG10874'/></component>
+</Transcription-Unit>
+</ptools-xml>

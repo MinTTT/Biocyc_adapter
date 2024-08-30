@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-14798'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-14798</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-14798' orgid='ECOLI' frameid='TU0-14798' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>selD-topB</common-name>
+<citation><Publication ID='ECOLI:PUB-1650339' orgid='ECOLI' frameid='PUB-1650339' detail='full'><source datatype='string'>J Bacteriol 173(16);4983-93</source>
+<pubmed-id datatype='string'>1650339</pubmed-id>
+<title datatype='string'>Expression and operon structure of the sel genes of Escherichia coli and identification of a third selenium-containing formate dehydrogenase isoenzyme.</title>
+<year datatype='integer'>1991</year>
+<author datatype='string'>Sawers G</author>
+<author datatype='string'>Heider J</author>
+<author datatype='string'>Zehelein E</author>
+<author datatype='string'>Bock A</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1650339' orgid='ECOLI' frameid='PUB-1650339'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1650339' orgid='ECOLI' frameid='PUB-1650339'/></evidence>
+<component><Terminator ID='ECOLI:TERM0-1144' orgid='ECOLI' frameid='TERM0-1144' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>1844959</right-end-position>
+<left-end-position datatype='integer'>1844937</left-end-position>
+<citation><Publication ID='ECOLI:PUB-2553698' orgid='ECOLI' frameid='PUB-2553698' detail='full'><source datatype='string'>J Biol Chem 264(30);17924-30</source>
+<pubmed-id datatype='string'>2553698</pubmed-id>
+<title datatype='string'>Molecular cloning and DNA sequence analysis of Escherichia coli topB, the gene encoding topoisomerase III.</title>
+<year datatype='integer'>1989</year>
+<author datatype='string'>DiGate RJ</author>
+<author datatype='string'>Marians KJ</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-14798' orgid='ECOLI' frameid='TU0-14798'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11014' orgid='ECOLI' frameid='EG11014'/></component>
+<component><Gene resource='getxml?ECOLI:EG10943' orgid='ECOLI' frameid='EG10943'/></component>
+<component><Promoter ID='ECOLI:PM0-10512' orgid='ECOLI' frameid='PM0-10512' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>selDp2</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1848029</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-1650339' orgid='ECOLI' frameid='PUB-1650339'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1650339' orgid='ECOLI' frameid='PUB-1650339'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-14798' orgid='ECOLI' frameid='TU0-14798'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

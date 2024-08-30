@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-12999'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-12999</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-12999' orgid='ECOLI' frameid='TU0-12999' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>citCDEFXG</common-name>
+<comment datatype='string'>Transcription of the &lt;i&gt;citCDEFXG&lt;/i&gt; operon is dependent on CitB when &lt;i&gt;E. coli&lt;/i&gt; is grown in the presence of citrate and the absence of nitrate and oxygen [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/22101843&quot;&gt;Scheu12&lt;/a&gt;]. Yamamoto et al. in 2008 showed that CitB (DpiA), in the presence of citrate, activates the transcription of three promoters, &lt;i&gt;citC&lt;/i&gt;p2, &lt;i&gt;citC&lt;/i&gt;p1, and &lt;i&gt;citA&lt;/i&gt;p (&lt;i&gt;dpiB&lt;/i&gt;p), in the intergenic region located between the &lt;i&gt;citC&lt;/i&gt; and &lt;i&gt;citA&lt;/i&gt; genes (&lt;i&gt;dpiB&lt;/i&gt;) [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/18997424&quot;&gt;Yamamoto08a&lt;/a&gt;]. But they have not shown the mechanism of action of CitB in the activation of the divergent operons.</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-IC-ADJ-GENES-SAME-BIO-PROCESS' orgid='ECOLI' frameid='EV-IC-ADJ-GENES-SAME-BIO-PROCESS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' class='true'/></parent>
+<common-name datatype='string'>Products of adjacent genes in the same biological process</common-name>
+<comment datatype='string'>A transcription unit is inferred because there is a set of adjacent genes,
+encoded in the same direction, coding for products that participate in the
+same metabolic pathway or biological process. Sometimes, these genes code
+for subunits of the same protein.</comment>
+</Evidence-Code>
+</evidence>
+<component><Promoter ID='ECOLI:PM0-9889' orgid='ECOLI' frameid='PM0-9889' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>citCp1</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>651952</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-18997424' orgid='ECOLI' frameid='PUB-18997424' detail='full'><source datatype='string'>Biosci Biotechnol Biochem 72(11);3011-4</source>
+<pubmed-id datatype='string'>18997424</pubmed-id>
+<title datatype='string'>Anaerobic regulation of citrate fermentation by CitAB in Escherichia coli.</title>
+<year datatype='integer'>2008</year>
+<author datatype='string'>Yamamoto K</author>
+<author datatype='string'>Matsumoto F</author>
+<author datatype='string'>Oshima T</author>
+<author datatype='string'>Fujita N</author>
+<author datatype='string'>Ogasawara N</author>
+<author datatype='string'>Ishihama A</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-18997424' orgid='ECOLI' frameid='PUB-18997424'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11375' orgid='ECOLI' frameid='REG0-11375' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-DPIA' orgid='ECOLI' frameid='PHOSPHO-DPIA'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-9889' orgid='ECOLI' frameid='PM0-9889'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11374' orgid='ECOLI' frameid='REG0-11374' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-DPIA' orgid='ECOLI' frameid='PHOSPHO-DPIA'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-9889' orgid='ECOLI' frameid='PM0-9889'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11366' orgid='ECOLI' frameid='REG0-11366' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-ARCA' orgid='ECOLI' frameid='PHOSPHO-ARCA'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-9889' orgid='ECOLI' frameid='PM0-9889'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-9400' orgid='ECOLI' frameid='REG0-9400' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-DPIA' orgid='ECOLI' frameid='PHOSPHO-DPIA'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-9889' orgid='ECOLI' frameid='PM0-9889'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-12999' orgid='ECOLI' frameid='TU0-12999'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:G6344' orgid='ECOLI' frameid='G6344'/></component>
+<component><Gene resource='getxml?ECOLI:G6343' orgid='ECOLI' frameid='G6343'/></component>
+<component><Gene resource='getxml?ECOLI:G6342' orgid='ECOLI' frameid='G6342'/></component>
+<component><Gene resource='getxml?ECOLI:G6341' orgid='ECOLI' frameid='G6341'/></component>
+<component><Gene resource='getxml?ECOLI:G6340' orgid='ECOLI' frameid='G6340'/></component>
+<component><Gene resource='getxml?ECOLI:G6339' orgid='ECOLI' frameid='G6339'/></component>
+</Transcription-Unit>
+</ptools-xml>

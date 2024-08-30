@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00179'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00179</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00179' orgid='ECOLI' frameid='TU00179' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>leuLABCD</common-name>
+<synonym datatype='string'>OP00249</synonym>
+<synonym datatype='string'>leu</synonym>
+<synonym datatype='string'>leuABCD</synonym>
+<comment datatype='string'>The &lt;i&gt;leuLABCD&lt;/i&gt; operon encodes the enzymes reponsible for the biosynthesis of leucine from valine. It contains
+a terminator region following &lt;i&gt;leuL&lt;/i&gt; at which transcription
+terminates &lt;i&gt;in vitro&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/6171647&quot;&gt;Wessler81&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/6195343&quot;&gt;Gemmill83&lt;/a&gt;].
+This is presumed to be a component of leucine-based
+attenuation control of this operon, as the leader peptide contains
+a quartet of leucines, and insertions within the leader
+disrupt transcription of &lt;i&gt;leuLABCD&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/1646790&quot;&gt;Vartak91&lt;/a&gt;].
+&lt;p&gt;
+Lrp was previously reported to regulate this operon [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/1532173&quot;&gt;Lin92a&lt;/a&gt;], but a later study showed that any Lrp effect 
+was indirect [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/10515950&quot;&gt;Landgraf99&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-4570778' orgid='ECOLI' frameid='PUB-4570778' detail='full'><source datatype='string'>J Bacteriol 113(3);1268-72</source>
+<pubmed-id datatype='string'>4570778</pubmed-id>
+<title datatype='string'>Genetic fine structure of the leucine operon of Escherichia coli K-12.</title>
+<year datatype='integer'>1973</year>
+<author datatype='string'>Somers JM</author>
+<author datatype='string'>Amzallag A</author>
+<author datatype='string'>Middleton RB</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-IC-ADJ-GENES-SAME-BIO-PROCESS' orgid='ECOLI' frameid='EV-IC-ADJ-GENES-SAME-BIO-PROCESS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' class='true'/></parent>
+<common-name datatype='string'>Products of adjacent genes in the same biological process</common-name>
+<comment datatype='string'>A transcription unit is inferred because there is a set of adjacent genes,
+encoded in the same direction, coding for products that participate in the
+same metabolic pathway or biological process. Sometimes, these genes code
+for subunits of the same protein.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-4570778' orgid='ECOLI' frameid='PUB-4570778'/></evidence>
+<component><Promoter ID='ECOLI:PM00250' orgid='ECOLI' frameid='PM00250' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>83743</minus-10-left>
+<common-name datatype='string'>leuLp1</common-name>
+<minus-35-right datatype='integer'>83771</minus-35-right>
+<minus-35-left datatype='integer'>83766</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>leuLABCD</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>83735</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-6171647' orgid='ECOLI' frameid='PUB-6171647' detail='full'><source datatype='string'>J Mol Biol 149(4);579-97</source>
+<pubmed-id datatype='string'>6171647</pubmed-id>
+<title datatype='string'>Control of leu operon expression in Escherichia coli by a transcription attenuation mechanism.</title>
+<year datatype='integer'>1981</year>
+<author datatype='string'>Wessler SR</author>
+<author datatype='string'>Calvo JM</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-22295907' orgid='ECOLI' frameid='PUB-22295907' detail='full'><source datatype='string'>Mol Microbiol 83(6);1109-23</source>
+<pubmed-id datatype='string'>22295907</pubmed-id>
+<title datatype='string'>RcsB-BglJ activates the Escherichia coli leuO gene, encoding an H-NS antagonist and pleiotropic regulator of virulence determinants.</title>
+<year datatype='integer'>2012</year>
+<author datatype='string'>Stratmann T</author>
+<author datatype='string'>Pul U</author>
+<author datatype='string'>Wurm R</author>
+<author datatype='string'>Wagner R</author>
+<author datatype='string'>Schnetz K</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-4570778' orgid='ECOLI' frameid='PUB-4570778'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-6195343' orgid='ECOLI' frameid='PUB-6195343' detail='full'><source datatype='string'>J Mol Biol 170(1);39-59</source>
+<pubmed-id datatype='string'>6195343</pubmed-id>
+<title datatype='string'>Transcription initiation sites of the leucine operons of Salmonella typhimurium and Escherichia coli.</title>
+<year datatype='integer'>1983</year>
+<author datatype='string'>Gemmill RM</author>
+<author datatype='string'>Jones JW</author>
+<author datatype='string'>Haughn GW</author>
+<author datatype='string'>Calvo JM</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-4570778' orgid='ECOLI' frameid='PUB-4570778'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-22295907' orgid='ECOLI' frameid='PUB-22295907'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12620' orgid='ECOLI' frameid='REG0-12620' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Compound resource='getxml?ECOLI:GUANOSINE-5DP-3DP' orgid='ECOLI' frameid='GUANOSINE-5DP-3DP'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00250' orgid='ECOLI' frameid='PM00250'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5568' orgid='ECOLI' frameid='REG0-5568' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00519' orgid='ECOLI' frameid='PD00519'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00250' orgid='ECOLI' frameid='PM00250'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>83748</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-42508' orgid='ECOLI' frameid='TU0-42508'/><Transcription-Unit resource='#ECOLI:TU00179' orgid='ECOLI' frameid='TU00179'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11575' orgid='ECOLI' frameid='EG11575'/></component>
+<component><Gene resource='getxml?ECOLI:EG11576' orgid='ECOLI' frameid='EG11576'/></component>
+<component><Gene resource='getxml?ECOLI:EG11577' orgid='ECOLI' frameid='EG11577'/></component>
+<component><Gene resource='getxml?ECOLI:EG11226' orgid='ECOLI' frameid='EG11226'/></component>
+<component><Gene resource='getxml?ECOLI:EG11280' orgid='ECOLI' frameid='EG11280'/></component>
+</Transcription-Unit>
+</ptools-xml>

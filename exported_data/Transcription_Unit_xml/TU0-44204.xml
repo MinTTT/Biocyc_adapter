@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-44204'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-44204</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-44204' orgid='ECOLI' frameid='TU0-44204' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>mngB</common-name>
+<citation><Publication ID='ECOLI:PUB-30536865' orgid='ECOLI' frameid='PUB-30536865' detail='full'><source datatype='string'>J Am Geriatr Soc 66(12);2437-2438</source>
+<pubmed-id datatype='string'>30536865</pubmed-id>
+<title datatype='string'>Courses and Conferences.</title>
+<year datatype='integer'>2018</year>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-30536865' orgid='ECOLI' frameid='PUB-30536865'/></evidence>
+<component><Promoter ID='ECOLI:PM0-46427' orgid='ECOLI' frameid='PM0-46427' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>mngBp2</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>767795</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-30536865' orgid='ECOLI' frameid='PUB-30536865'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-30536865' orgid='ECOLI' frameid='PUB-30536865'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-RNA-SEQ' orgid='ECOLI' frameid='EV-EXP-IEP-RNA-SEQ' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-HTP-HEP' orgid='ECOLI' frameid='EV-HTP-HEP' class='true'/></parent>
+<common-name datatype='string'>High-throughput RNA-seq evidence</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0000295</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0000295</dblink-URL>
+</dblink>
+<credits><imported-from-meta><date datatype='date'>2018-03-05</date>
+<Person ID='ECOLI:paley' orgid='ECOLI' frameid='paley' detail='full'><affiliations><Organization ID='ECOLI:SRI' orgid='ECOLI' frameid='SRI' detail='full'><abbrev-name datatype='string'>SRI International</abbrev-name>
+<email datatype='string'>ptools-support@ai.sri.com</email>
+<common-name datatype='string'>SRI International</common-name>
+<url datatype='string'>http://bioinformatics.ai.sri.com/</url>
+</Organization>
+</affiliations>
+<common-name datatype='string'>Suzanne Paley</common-name>
+</Person>
+<Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A type of transcript evidence based on high-throughput sequencing of fragmented cDNA molecules.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-30536865' orgid='ECOLI' frameid='PUB-30536865'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-44204' orgid='ECOLI' frameid='TU0-44204'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG13236' orgid='ECOLI' frameid='EG13236'/></component>
+</Transcription-Unit>
+</ptools-xml>

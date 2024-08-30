@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42589'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42589</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42589' orgid='ECOLI' frameid='TU0-42589' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>relA</common-name>
+<citation><Publication ID='ECOLI:PUB-24947454' orgid='ECOLI' frameid='PUB-24947454' detail='full'><source datatype='string'>Nat Commun 5;4115</source>
+<pubmed-id datatype='string'>24947454</pubmed-id>
+<title datatype='string'>Nitrogen stress response and stringent response are coupled in Escherichia coli.</title>
+<year datatype='integer'>2014</year>
+<author datatype='string'>Brown DR</author>
+<author datatype='string'>Barton G</author>
+<author datatype='string'>Pan Z</author>
+<author datatype='string'>Buck M</author>
+<author datatype='string'>Wigneshweraraj S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-24947454' orgid='ECOLI' frameid='PUB-24947454'/></evidence>
+<component><Promoter ID='ECOLI:PM0-46331' orgid='ECOLI' frameid='PM0-46331' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>relAp3</common-name>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPON-MONOMER' orgid='ECOLI' frameid='RPON-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2913700</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-24947454' orgid='ECOLI' frameid='PUB-24947454'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-24947454' orgid='ECOLI' frameid='PUB-24947454'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42589' orgid='ECOLI' frameid='TU0-42589'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10835' orgid='ECOLI' frameid='EG10835'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00461'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00461</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00461' orgid='ECOLI' frameid='TU00461' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>appA</common-name>
+<citation><Publication ID='ECOLI:PUB-8071219' orgid='ECOLI' frameid='PUB-8071219' detail='full'><source datatype='string'>J Bacteriol 176(17);5414-22</source>
+<pubmed-id datatype='string'>8071219</pubmed-id>
+<title datatype='string'>Role of the transcriptional activator AppY in regulation of the cyx appA operon of Escherichia coli by anaerobiosis, phosphate starvation, and growth phase.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Atlung T</author>
+<author datatype='string'>Brondsted L</author>
+</Publication>
+</citation>
+<component><Promoter ID='ECOLI:PM00616' orgid='ECOLI' frameid='PM00616' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>1040586</minus-10-left>
+<common-name datatype='string'>appAp</common-name>
+<minus-35-right datatype='integer'>1040567</minus-35-right>
+<minus-35-left datatype='integer'>1040562</minus-35-left>
+<synonym datatype='string'>PappA</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1040599</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-1658595' orgid='ECOLI' frameid='PUB-1658595' detail='full'><source datatype='string'>Mol Gen Genet 229(3);341-52</source>
+<pubmed-id datatype='string'>1658595</pubmed-id>
+<title datatype='string'>A new oxygen-regulated operon in Escherichia coli comprises the genes for a putative third cytochrome oxidase and for pH 2.5 acid phosphatase (appA)</title>
+<year datatype='integer'>1991</year>
+<author datatype='string'>Dassa J</author>
+<author datatype='string'>Fsihi H</author>
+<author datatype='string'>Marck C</author>
+<author datatype='string'>Dion M</author>
+<author datatype='string'>Kieffer-Bontemps M</author>
+<author datatype='string'>Boquet PL</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1658595' orgid='ECOLI' frameid='PUB-1658595'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1658595' orgid='ECOLI' frameid='PUB-1658595'/></evidence>
+<minus-10-right datatype='integer'>1040591</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00461' orgid='ECOLI' frameid='TU00461'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10049' orgid='ECOLI' frameid='EG10049'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42599'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42599</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42599' orgid='ECOLI' frameid='TU0-42599' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ascB</common-name>
+<comment datatype='string'>Modifications (duplications of 10 nt) in the intergenic regions between &lt;i&gt;ascF&lt;/i&gt; and &lt;i&gt;ascB&lt;/i&gt; modulate transcription of &lt;i&gt;ascB&lt;/i&gt; and the growth rate on cellobiose minimal medium [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/26121029&quot;&gt;Parisutham15&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/10829079&quot;&gt;Datsenko00&lt;/a&gt;]. Sequence similarities suggest that the &lt;i&gt;asc&lt;/i&gt; operon is probably a duplication of the &lt;i&gt;bgl&lt;/i&gt; operon [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/1630307&quot;&gt;Hall92a&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-26121029' orgid='ECOLI' frameid='PUB-26121029' detail='full'><source datatype='string'>PLoS One 10(6);e0131928</source>
+<pubmed-id datatype='string'>26121029</pubmed-id>
+<title datatype='string'>Novel Functions and Regulation of Cryptic Cellobiose Operons in Escherichia coli.</title>
+<year datatype='integer'>2015</year>
+<author datatype='string'>Parisutham V</author>
+<author datatype='string'>Lee SK</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-26121029' orgid='ECOLI' frameid='PUB-26121029'/></evidence>
+<component><Promoter ID='ECOLI:PM0-46347' orgid='ECOLI' frameid='PM0-46347' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>ascBp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2840942</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-26121029' orgid='ECOLI' frameid='PUB-26121029'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-26121029' orgid='ECOLI' frameid='PUB-26121029'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42599' orgid='ECOLI' frameid='TU0-42599'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10085' orgid='ECOLI' frameid='EG10085'/></component>
+</Transcription-Unit>
+</ptools-xml>

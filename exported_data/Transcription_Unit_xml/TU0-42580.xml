@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42580'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42580</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42580' orgid='ECOLI' frameid='TU0-42580' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>galE</common-name>
+<citation><Publication ID='ECOLI:PUB-18374359' orgid='ECOLI' frameid='PUB-18374359' detail='full'><source datatype='string'>J Mol Biol 378(2);318-27</source>
+<pubmed-id datatype='string'>18374359</pubmed-id>
+<title datatype='string'>Establishment of an mRNA gradient depends on the promoter: an investigation of polarity in gene expression.</title>
+<year datatype='integer'>2008</year>
+<author datatype='string'>Lee HJ</author>
+<author datatype='string'>Jeon HJ</author>
+<author datatype='string'>Ji SC</author>
+<author datatype='string'>Yun SH</author>
+<author datatype='string'>Lim HM</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-24794565' orgid='ECOLI' frameid='PUB-24794565' detail='full'><source datatype='string'>J Bacteriol 196(14);2598-606</source>
+<pubmed-id datatype='string'>24794565</pubmed-id>
+<title datatype='string'>Expression of each cistron in the gal operon can be regulated by transcription termination and generation of a galk-specific mRNA, mK2.</title>
+<year datatype='integer'>2014</year>
+<author datatype='string'>Wang X</author>
+<author datatype='string'>Ji SC</author>
+<author datatype='string'>Yun SH</author>
+<author datatype='string'>Jeon HJ</author>
+<author datatype='string'>Kim SW</author>
+<author datatype='string'>Lim HM</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-18374359' orgid='ECOLI' frameid='PUB-18374359'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' class='true'/><Publication resource='#ECOLI:PUB-24794565' orgid='ECOLI' frameid='PUB-24794565'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG10362' orgid='ECOLI' frameid='EG10362'/></component>
+<component><Promoter ID='ECOLI:PM00033' orgid='ECOLI' frameid='PM00033' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>792093</minus-10-left>
+<common-name datatype='string'>galEp2</common-name>
+<minus-35-right datatype='integer'>792122</minus-35-right>
+<minus-35-left datatype='integer'>792117</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>galp2</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>792086</absolute-plus-1-pos>
+<comment datatype='string'>The &lt;i&gt;galETKM&lt;/i&gt; operon is transcribed from three promoters, &lt;i&gt;galE&lt;/i&gt;p1, &lt;i&gt;galE&lt;/i&gt;p2, and &lt;i&gt;galE&lt;/i&gt;p3. 
+&lt;p&gt;
+&lt;i&gt;galE&lt;/i&gt;p2 is predominantly expressed when cAMP-CRP is absent, leading to expression of the &lt;i&gt;galE&lt;/i&gt; gene and very little &lt;i&gt;galK&lt;/i&gt; (natural polarity) [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/20923764&quot;&gt;Horvath10&lt;/a&gt;]. On the other hand, in the presence of cAMP-CRP, the &lt;i&gt;galE&lt;/i&gt;p1 promoter leads to equimolar expression of all the structural genes, while &lt;i&gt;galE&lt;/i&gt;p2 transcription is inhibited [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/6092868&quot;&gt;GuidiRontani84&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/226959&quot;&gt;Ullmann79&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/20923764&quot;&gt;Horvath10&lt;/a&gt;].
+&lt;p&gt;
+It appears that the &lt;i&gt;galE&lt;/i&gt;p2 transcript may serve anabolic requirements, while &lt;i&gt;galE&lt;/i&gt;p1 may provide for catabolism of D-galactose as a carbon source [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/20923764&quot;&gt;Horvath10&lt;/a&gt;].
+&lt;p&gt;
+Repression of &lt;i&gt;galE&lt;/i&gt;p2 requires tetramerization of GalR, which is mediated by HU forming a complex called a repressome [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/19007420&quot;&gt;El09&lt;/a&gt;]and references therein|.
+&lt;p&gt;
+&lt;i&gt;galE&lt;/i&gt;p2 is the main promoter during stationary phase, since it produces 70% of the total &lt;i&gt;galE&lt;/i&gt; transcripts [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/21445255&quot;&gt;Ji11&lt;/a&gt;].
+&lt;p&gt;
+&lt;i&gt;galE&lt;/i&gt;p1 transcription is downregulated earlier than &lt;i&gt;galE&lt;/i&gt;p2 transcription at the end of the exponential growth phase [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/21445255&quot;&gt;Ji11&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-10760580' orgid='ECOLI' frameid='PUB-10760580' detail='full'><source datatype='string'>Biochim Biophys Acta 1491(1-3);185-95</source>
+<pubmed-id datatype='string'>10760580</pubmed-id>
+<title datatype='string'>Reiterative transcription initiation from galP2 promoter of Escherichia coli.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Rostoks N</author>
+<author datatype='string'>Park S</author>
+<author datatype='string'>Choy HE</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-10781573' orgid='ECOLI' frameid='PUB-10781573' detail='full'><source datatype='string'>J Bacteriol 182(10);2982-4</source>
+<pubmed-id datatype='string'>10781573</pubmed-id>
+<title datatype='string'>Positioning of region 4 of the Escherichia coli RNA polymerase sigma(70) subunit by a transcription activator.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Bown JA</author>
+<author datatype='string'>Kolb A</author>
+<author datatype='string'>Meares CF</author>
+<author datatype='string'>Ishihama A</author>
+<author datatype='string'>Minchin SD</author>
+<author datatype='string'>Busby SJ</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-6271763' orgid='ECOLI' frameid='PUB-6271763' detail='full'><source datatype='string'>J Biol Chem 256(22);11905-10</source>
+<pubmed-id datatype='string'>6271763</pubmed-id>
+<title datatype='string'>Evidence for two functional gal promoters in intact Escherichia coli cells.</title>
+<year datatype='integer'>1981</year>
+<author datatype='string'>Aiba H</author>
+<author datatype='string'>Adhya S</author>
+<author datatype='string'>de Crombrugghe B</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-6408264' orgid='ECOLI' frameid='PUB-6408264' detail='full'><source datatype='string'>J Mol Biol 167(2);259-74</source>
+<pubmed-id datatype='string'>6408264</pubmed-id>
+<title datatype='string'>Deletion mutagenesis of the Escherichia coli galactose operon promoter region.</title>
+<year datatype='integer'>1983</year>
+<author datatype='string'>Busby S</author>
+<author datatype='string'>Kotlarz D</author>
+<author datatype='string'>Buc H</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-11298753' orgid='ECOLI' frameid='PUB-11298753' detail='full'><source datatype='string'>Eur J Biochem 268(8);2344-50</source>
+<pubmed-id datatype='string'>11298753</pubmed-id>
+<title datatype='string'>A novel RNA polymerase binding site upstream of the galactose promoter in Escherichia coli exhibits promoter-like activity.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Sur R</author>
+<author datatype='string'>Debnath D</author>
+<author datatype='string'>Mukhopadhyay J</author>
+<author datatype='string'>Parrack P</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-RNA-POLYMERASE-FOOTPRINTING' orgid='ECOLI' frameid='EV-EXP-IDA-RNA-POLYMERASE-FOOTPRINTING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>RNA polymerase footprinting</common-name>
+<comment datatype='string'>The binding of RNA polymerase to a DNA region (the promoter) is shown by footprinting.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11298753' orgid='ECOLI' frameid='PUB-11298753'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-4666' orgid='ECOLI' frameid='REG0-4666' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD03028' orgid='ECOLI' frameid='PD03028'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00033' orgid='ECOLI' frameid='PM00033'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4665' orgid='ECOLI' frameid='REG0-4665' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00033' orgid='ECOLI' frameid='PM00033'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4664' orgid='ECOLI' frameid='REG0-4664' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-2021' orgid='ECOLI' frameid='CPLX0-2021'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00033' orgid='ECOLI' frameid='PM00033'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4663' orgid='ECOLI' frameid='REG0-4663' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00261' orgid='ECOLI' frameid='PD00261'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00033' orgid='ECOLI' frameid='PM00033'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4662' orgid='ECOLI' frameid='REG0-4662' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD03028' orgid='ECOLI' frameid='PD03028'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00033' orgid='ECOLI' frameid='PM00033'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4661' orgid='ECOLI' frameid='REG0-4661' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00261' orgid='ECOLI' frameid='PD00261'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00033' orgid='ECOLI' frameid='PM00033'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4660' orgid='ECOLI' frameid='REG0-4660' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:MONOMER-52' orgid='ECOLI' frameid='MONOMER-52'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00033' orgid='ECOLI' frameid='PM00033'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4659' orgid='ECOLI' frameid='REG0-4659' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:MONOMER-53' orgid='ECOLI' frameid='MONOMER-53'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00033' orgid='ECOLI' frameid='PM00033'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>792098</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-42584' orgid='ECOLI' frameid='TU0-42584'/><Transcription-Unit resource='getxml?ECOLI:TU0-42582' orgid='ECOLI' frameid='TU0-42582'/><Transcription-Unit resource='#ECOLI:TU0-42580' orgid='ECOLI' frameid='TU0-42580'/><Transcription-Unit resource='getxml?ECOLI:TU00026' orgid='ECOLI' frameid='TU00026'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

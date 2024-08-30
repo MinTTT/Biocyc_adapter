@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8121'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8121</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8121' orgid='ECOLI' frameid='TU0-8121' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>talB</common-name>
+<comment datatype='string'>The expression of the gene &lt;i&gt;talB&lt;/i&gt; is increased under acidic growth conditions in either aerobiosis or microaerobiosis [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23274360&quot;&gt;Marzan13&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-7592346' orgid='ECOLI' frameid='PUB-7592346' detail='full'><source datatype='string'>J Bacteriol 177(20);5930-6</source>
+<pubmed-id datatype='string'>7592346</pubmed-id>
+<title datatype='string'>Transaldolase B of Escherichia coli K-12: cloning of its gene, talB, and characterization of the enzyme from recombinant strains.</title>
+<year datatype='integer'>1995</year>
+<author datatype='string'>Sprenger GA</author>
+<author datatype='string'>Schorken U</author>
+<author datatype='string'>Sprenger G</author>
+<author datatype='string'>Sahm H</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-7592346' orgid='ECOLI' frameid='PUB-7592346'/></evidence>
+<component><Promoter ID='ECOLI:PM0-9956' orgid='ECOLI' frameid='PM0-9956' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>talBp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>8191</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' orgid='ECOLI' frameid='EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>High-throughput transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified using a high-throughput experimental modified RACE approach.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-19838305' orgid='ECOLI' frameid='PUB-19838305' detail='full'><source datatype='string'>PLoS One 4(10);e7526</source>
+<pubmed-id datatype='string'>19838305</pubmed-id>
+<title datatype='string'>Genome-wide identification of transcription start sites, promoters and transcription factor binding sites in E. coli.</title>
+<year datatype='integer'>2009</year>
+<author datatype='string'>Mendoza-Vargas A</author>
+<author datatype='string'>Olvera L</author>
+<author datatype='string'>Olvera M</author>
+<author datatype='string'>Grande R</author>
+<author datatype='string'>Vega-Alvarado L</author>
+<author datatype='string'>Taboada B</author>
+<author datatype='string'>Jimenez-Jacinto V</author>
+<author datatype='string'>Salgado H</author>
+<author datatype='string'>Juarez K</author>
+<author datatype='string'>Contreras-Moreira B</author>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+<author datatype='string'>Morett E</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-19838305' orgid='ECOLI' frameid='PUB-19838305'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8121' orgid='ECOLI' frameid='TU0-8121'/></component-of>
+</Promoter>
+</component>
+<component><Terminator ID='ECOLI:TERM0941' orgid='ECOLI' frameid='TERM0941' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Dependent-Terminators' orgid='ECOLI' frameid='Rho-Dependent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>9226</right-end-position>
+<left-end-position datatype='integer'>9199</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-7592346' orgid='ECOLI' frameid='PUB-7592346'/></citation>
+<citation><Publication ID='ECOLI:PUB-29669055' orgid='ECOLI' frameid='PUB-29669055' detail='full'><source datatype='string'>Nucleic Acids Res 46(13);6797-6805</source>
+<pubmed-id datatype='string'>29669055</pubmed-id>
+<title datatype='string'>High-resolution RNA 3'-ends mapping of bacterial Rho-dependent transcripts.</title>
+<year datatype='integer'>2018</year>
+<author datatype='string'>Dar D</author>
+<author datatype='string'>Sorek R</author>
+<doi-id datatype='string'>10.1093/nar/gky274</doi-id>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8121' orgid='ECOLI' frameid='TU0-8121'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11556' orgid='ECOLI' frameid='EG11556'/></component>
+</Transcription-Unit>
+</ptools-xml>

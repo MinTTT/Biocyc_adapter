@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42462'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42462</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42462' orgid='ECOLI' frameid='TU0-42462' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ddpXABCDF</common-name>
+<citation><Publication ID='ECOLI:PUB-9751644' orgid='ECOLI' frameid='PUB-9751644' detail='full'><source datatype='string'>Chem Biol 5(9);489-504</source>
+<pubmed-id datatype='string'>9751644</pubmed-id>
+<title datatype='string'>Homologs of the vancomycin resistance D-Ala-D-Ala dipeptidase VanX in Streptomyces toyocaensis, Escherichia coli and Synechocystis: attributes of catalytic efficiency, stereoselectivity and regulation with implications for function.</title>
+<year datatype='integer'>1998</year>
+<author datatype='string'>Lessard IA</author>
+<author datatype='string'>Pratt SD</author>
+<author datatype='string'>McCafferty DG</author>
+<author datatype='string'>Bussiere DE</author>
+<author datatype='string'>Hutchins C</author>
+<author datatype='string'>Wanner BL</author>
+<author datatype='string'>Katz L</author>
+<author datatype='string'>Walsh CT</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-IC-ADJ-GENES-SAME-BIO-PROCESS' orgid='ECOLI' frameid='EV-IC-ADJ-GENES-SAME-BIO-PROCESS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' class='true'/></parent>
+<common-name datatype='string'>Products of adjacent genes in the same biological process</common-name>
+<comment datatype='string'>A transcription unit is inferred because there is a set of adjacent genes,
+encoded in the same direction, coding for products that participate in the
+same metabolic pathway or biological process. Sometimes, these genes code
+for subunits of the same protein.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9751644' orgid='ECOLI' frameid='PUB-9751644'/></evidence>
+<component><Gene resource='getxml?ECOLI:G6777' orgid='ECOLI' frameid='G6777'/></component>
+<component><Gene resource='getxml?ECOLI:G6778' orgid='ECOLI' frameid='G6778'/></component>
+<component><Gene resource='getxml?ECOLI:G6779' orgid='ECOLI' frameid='G6779'/></component>
+<component><Gene resource='getxml?ECOLI:G6780' orgid='ECOLI' frameid='G6780'/></component>
+<component><Gene resource='getxml?ECOLI:G6781' orgid='ECOLI' frameid='G6781'/></component>
+<component><Gene resource='getxml?ECOLI:G6782' orgid='ECOLI' frameid='G6782'/></component>
+<component><Promoter ID='ECOLI:PM0-46159' orgid='ECOLI' frameid='PM0-46159' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>1563208</minus-10-left>
+<common-name datatype='string'>ddpXp2</common-name>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1563201</absolute-plus-1-pos>
+<comment datatype='string'>We assigned a putative transcription start site to this promoter based on the observation that the majority of the promoters, whose transcription start sites were determined experimentally, present a distance of 6 nucleotides between the transcription start site  and the -10 box.</comment>
+<citation><Publication resource='#ECOLI:PUB-9751644' orgid='ECOLI' frameid='PUB-9751644'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9751644' orgid='ECOLI' frameid='PUB-9751644'/></evidence>
+<minus-10-right datatype='integer'>1563214</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42462' orgid='ECOLI' frameid='TU0-42462'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

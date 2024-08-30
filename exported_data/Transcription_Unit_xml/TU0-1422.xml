@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-1422'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-1422</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-1422' orgid='ECOLI' frameid='TU0-1422' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ftsAZ</common-name>
+<citation><Publication ID='ECOLI:PUB-10564486' orgid='ECOLI' frameid='PUB-10564486' detail='full'><source datatype='string'>Mol Microbiol 34(3);442-50</source>
+<pubmed-id datatype='string'>10564486</pubmed-id>
+<title datatype='string'>Regulation of Escherichia coli cell division genes ftsA and ftsZ by the two-component system rcsC-rcsB.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>Carballes F</author>
+<author datatype='string'>Bertrand C</author>
+<author datatype='string'>Bouche JP</author>
+<author datatype='string'>Cam K</author>
+</Publication>
+</citation>
+<component><DNA-Binding-Site ID='ECOLI:BS0-1261' orgid='ECOLI' frameid='BS0-1261' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6442' orgid='ECOLI' frameid='REG0-6442' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-RCSB' orgid='ECOLI' frameid='PHOSPHO-RCSB'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-1582' orgid='ECOLI' frameid='PM0-1582' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>103548</minus-10-left>
+<common-name datatype='string'>ftsAp1</common-name>
+<minus-35-right datatype='integer'>103530</minus-35-right>
+<minus-35-left datatype='integer'>103525</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>ftsA1p</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>103561</absolute-plus-1-pos>
+<comment datatype='string'>ftsAp1 contributes about 1% of the &lt;i&gt;ftsZ&lt;/i&gt; transcription.</comment>
+<citation><Publication resource='#ECOLI:PUB-10564486' orgid='ECOLI' frameid='PUB-10564486'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10564486' orgid='ECOLI' frameid='PUB-10564486'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10564486' orgid='ECOLI' frameid='PUB-10564486'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-6442' orgid='ECOLI' frameid='REG0-6442'/></regulated-by>
+<minus-10-right datatype='integer'>103553</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-1422' orgid='ECOLI' frameid='TU0-1422'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10564486' orgid='ECOLI' frameid='PUB-10564486'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Site mutation</common-name>
+<comment datatype='string'>A cis-mutation in the DNA sequence of the transcription-factor binding site interferes with the operation of the regulatory function. This is considered  strong evidence for the existence and functional role of the DNA binding site.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10564486' orgid='ECOLI' frameid='PUB-10564486'/></evidence>
+<abs-center-pos datatype='float'>103517.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-1422' orgid='ECOLI' frameid='TU0-1422'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10347' orgid='ECOLI' frameid='EG10347'/></component>
+<component><Gene resource='getxml?ECOLI:EG10339' orgid='ECOLI' frameid='EG10339'/></component>
+<component><Promoter resource='#ECOLI:PM0-1582' orgid='ECOLI' frameid='PM0-1582'/></component>
+</Transcription-Unit>
+</ptools-xml>

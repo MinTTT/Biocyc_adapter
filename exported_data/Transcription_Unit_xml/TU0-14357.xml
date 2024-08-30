@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-14357'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-14357</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-14357' orgid='ECOLI' frameid='TU0-14357' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>clpS</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred by a human based on computational evidence</common-name>
+<comment datatype='string'>Human inference.  A curator or author inferred this assertion after review of one or more possible types 
+of computational evidence such as sequence similarity, recognized motifs or consensus sequence, etc.  
+When the inference was made by a computer in an automated fashion, use EV-AINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><Promoter ID='ECOLI:PM0-46400' orgid='ECOLI' frameid='PM0-46400' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>clpSp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>922751</absolute-plus-1-pos>
+<comment datatype='string'>The transcription start site for &lt;i&gt;clpS&lt;/i&gt;p was associated with a base pair on the TSS identified on &lt;i&gt;Salmonella enterica&lt;/i&gt; serovar Typhimurium [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/27564394&quot;&gt;Colgan16&lt;/a&gt;].
+</comment>
+<citation><Publication ID='ECOLI:PUB-29686082' orgid='ECOLI' frameid='PUB-29686082' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 115(19);E4483-E4492</source>
+<pubmed-id datatype='string'>29686082</pubmed-id>
+<title datatype='string'>Reduction in adaptor amounts establishes degradation hierarchy among protease substrates.</title>
+<year datatype='integer'>2018</year>
+<author datatype='string'>Yeom J</author>
+<author datatype='string'>Gao X</author>
+<author datatype='string'>Groisman EA</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' detail='full' class='true'><common-name datatype='string'>Inferred by curator</common-name>
+<comment datatype='string'>Inferred by curator.  An assertion was inferred by a curator from relevant
+information such as other assertions in a database.
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-29686082' orgid='ECOLI' frameid='PUB-29686082'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12953' orgid='ECOLI' frameid='REG0-12953' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-PHOP' orgid='ECOLI' frameid='PHOSPHO-PHOP'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46400' orgid='ECOLI' frameid='PM0-46400'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-14357' orgid='ECOLI' frameid='TU0-14357'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:G6463' orgid='ECOLI' frameid='G6463'/></component>
+</Transcription-Unit>
+</ptools-xml>

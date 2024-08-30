@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-7361'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-7361</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-7361' orgid='ECOLI' frameid='TU0-7361' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ves</common-name>
+<citation><Publication ID='ECOLI:PUB-11873911' orgid='ECOLI' frameid='PUB-11873911' detail='full'><source datatype='string'>J Mol Microbiol Biotechnol 4(2);163-9</source>
+<pubmed-id datatype='string'>11873911</pubmed-id>
+<title datatype='string'>Characterization of the ves gene, which is expressed at a low temperature in Escherichia coli.</title>
+<year datatype='integer'>2002</year>
+<author datatype='string'>Yamada M</author>
+<author datatype='string'>Nagamitsu H</author>
+<author datatype='string'>Izu H</author>
+<author datatype='string'>Nakamura K</author>
+<author datatype='string'>Talukder AA</author>
+</Publication>
+</citation>
+<component><Gene resource='getxml?ECOLI:G6938' orgid='ECOLI' frameid='G6938'/></component>
+<component><Promoter ID='ECOLI:PM0-7701' orgid='ECOLI' frameid='PM0-7701' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>1824991</minus-10-left>
+<common-name datatype='string'>vesp</common-name>
+<minus-35-right datatype='integer'>1825018</minus-35-right>
+<minus-35-left datatype='integer'>1825014</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:EG11355-MONOMER' orgid='ECOLI' frameid='EG11355-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1824984</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-11873911' orgid='ECOLI' frameid='PUB-11873911'/></citation>
+<citation><Publication ID='ECOLI:PUB-17576668' orgid='ECOLI' frameid='PUB-17576668' detail='full'><source datatype='string'>Nucleic Acids Res 35(13);4441-52</source>
+<pubmed-id datatype='string'>17576668</pubmed-id>
+<title datatype='string'>Adaptation in bacterial flagellar and motility systems: from regulon members to 'foraging'-like behavior in E. coli.</title>
+<year datatype='integer'>2007</year>
+<author datatype='string'>Zhao K</author>
+<author datatype='string'>Liu M</author>
+<author datatype='string'>Burgess RR</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11873911' orgid='ECOLI' frameid='PUB-11873911'/></evidence>
+<minus-10-right datatype='integer'>1824998</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-7361' orgid='ECOLI' frameid='TU0-7361'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

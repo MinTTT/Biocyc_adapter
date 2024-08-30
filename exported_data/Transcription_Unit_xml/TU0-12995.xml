@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-12995'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-12995</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-12995' orgid='ECOLI' frameid='TU0-12995' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<comment datatype='string'>Expression of &lt;i&gt;dsbG&lt;/i&gt; is activated by OxyR. This is also true for the expression of the divergently transcribed &lt;i&gt;ahpC&lt;/i&gt;. The intergenic region between &lt;i&gt;dsbG&lt;/i&gt; and &lt;i&gt;ahpC&lt;/i&gt; carries two binding sites for OxyR, a &lt;i&gt;dsbG&lt;/i&gt;-proximal site, located 54 bp upstream of the &lt;i&gt;dsbG&lt;/i&gt; start codon, and an &lt;i&gt;ahpC&lt;/i&gt;-proximal site, located 290 bp upstream of the &lt;i&gt;dsbG&lt;/i&gt; start codon [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/11443092&quot;&gt;Zheng01a&lt;/a&gt;]. 
+&lt;p&gt;
+Northern blotting and primer extension assays showed that OxyR binding to the &lt;i&gt;ahpC&lt;/i&gt;-proximal site leads to the induction of both &lt;i&gt;dsbG&lt;/i&gt; and &lt;i&gt;ahpC&lt;/i&gt; transcripts, while OxyR binding to the &lt;i&gt;dsbG&lt;/i&gt;-proximal site leads to the induction of a second &lt;i&gt;ahpC&lt;/i&gt; transcript. This transcript of &lt;i&gt;ahpC&lt;/i&gt; and the transcript of &lt;i&gt;dsbG&lt;/i&gt; overlap by over 100 nucleotides [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/11443092&quot;&gt;Zheng01a&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><Promoter ID='ECOLI:PM0-10406' orgid='ECOLI' frameid='PM0-10406' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>dsbGp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>638800</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-11443092' orgid='ECOLI' frameid='PUB-11443092' detail='full'><source datatype='string'>J Bacteriol 183(15);4571-9</source>
+<pubmed-id datatype='string'>11443092</pubmed-id>
+<title datatype='string'>Computation-directed identification of OxyR DNA binding sites in Escherichia coli.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Zheng M</author>
+<author datatype='string'>Wang X</author>
+<author datatype='string'>Doan B</author>
+<author datatype='string'>Lewis KA</author>
+<author datatype='string'>Schneider TD</author>
+<author datatype='string'>Storz G</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11443092' orgid='ECOLI' frameid='PUB-11443092'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-10675' orgid='ECOLI' frameid='REG0-10675' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00214' orgid='ECOLI' frameid='PD00214'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10406' orgid='ECOLI' frameid='PM0-10406'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10459' orgid='ECOLI' frameid='REG0-10459' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00214' orgid='ECOLI' frameid='PD00214'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10406' orgid='ECOLI' frameid='PM0-10406'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-12995' orgid='ECOLI' frameid='TU0-12995'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:G6333' orgid='ECOLI' frameid='G6333'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42652'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42652</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42652' orgid='ECOLI' frameid='TU0-42652' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>leuV</common-name>
+<comment datatype='string'>Based on results of nuclease protection and primer extension assays, &lt;i&gt;leuV&lt;/i&gt;, &lt;i&gt;argT&lt;/i&gt;, &lt;i&gt;metT&lt;/i&gt;, and &lt;i&gt;leuX&lt;/i&gt; were determined to be involved in the stringent response induced by serine hydroxamate  [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/7680341&quot;&gt;Rowley93&lt;/a&gt;].</comment>
+<regulated-by><Regulation ID='ECOLI:REG0-12697' orgid='ECOLI' frameid='REG0-12697' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Compound resource='getxml?ECOLI:GUANOSINE-5DP-3DP' orgid='ECOLI' frameid='GUANOSINE-5DP-3DP'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-42652' orgid='ECOLI' frameid='TU0-42652'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component><Gene resource='getxml?ECOLI:EG30051' orgid='ECOLI' frameid='EG30051'/></component>
+</Transcription-Unit>
+</ptools-xml>

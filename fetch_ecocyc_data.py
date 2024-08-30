@@ -408,3 +408,31 @@ for s_i, site in enumerate(sites):
 DNA_RNA_sites_df = pd.DataFrame(data=all_sites)
 DNA_RNA_sites_df.to_csv(r'./exported_data/Ecoli_sites_info.csv')
 DNA_RNA_sites_df.to_excel(r'./exported_data/Ecoli_sites_info.xlsx')
+
+#%% get all regulation features
+
+# get all Transcription_Unit
+gene_info_table = pd.read_csv(r'./exported_data/Ecoli_gene_info.csv')
+trans_unit_list = []
+for value in gene_info_table['component']:
+    if value is not None:
+        value = str(value)
+        components = value.split('; ')
+        trans_unit_list += components
+trans_unit_list = list(set(trans_unit_list))
+#%
+trans_unit_xml_dict = {}
+for trans_unit in tqdm(trans_unit_list):
+    # trans_unit_id = 'TU0-13264'
+    query_url = f'https://biocyc.org/getxml?ECOLI:{trans_unit}&detail=full'
+
+    data = s.get(query_url).text
+
+    trans_unit_xml_dict[trans_unit] = data
+#%% save all transcription unit xml
+
+for id, content in trans_unit_xml_dict.items():
+    with open(f'./exported_data/Transcription_Unit_xml/{id}.xml', 'w', encoding='utf-8') as xml_file:
+        xml_file.write(content)
+
+# %%

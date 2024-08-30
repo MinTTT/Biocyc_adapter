@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42608'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42608</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42608' orgid='ECOLI' frameid='TU0-42608' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>yqaE-kbp</common-name>
+<citation><Publication ID='ECOLI:PUB-25422305' orgid='ECOLI' frameid='PUB-25422305' detail='full'><source datatype='string'>J Bacteriol 197(3);603-14</source>
+<pubmed-id datatype='string'>25422305</pubmed-id>
+<title datatype='string'>The Cpx Envelope Stress Response Modifies Peptidoglycan Cross-Linking via the l,d-Transpeptidase LdtD and the Novel Protein YgaU.</title>
+<year datatype='integer'>2015</year>
+<author datatype='string'>Bernal-Cabas M</author>
+<author datatype='string'>Ayala JA</author>
+<author datatype='string'>Raivio TL</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-25422305' orgid='ECOLI' frameid='PUB-25422305'/></evidence>
+<component><Promoter ID='ECOLI:PM0-10299' orgid='ECOLI' frameid='PM0-10299' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>yqaEp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2797085</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-18978044' orgid='ECOLI' frameid='PUB-18978044' detail='full'><source datatype='string'>J Bacteriol 191(2);461-76</source>
+<pubmed-id datatype='string'>18978044</pubmed-id>
+<title datatype='string'>The Crp-activated small noncoding regulatory RNA CyaR (RyeE) links nutritional status to group behavior.</title>
+<year datatype='integer'>2009</year>
+<author datatype='string'>De Lay N</author>
+<author datatype='string'>Gottesman S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-18978044' orgid='ECOLI' frameid='PUB-18978044'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11811' orgid='ECOLI' frameid='REG0-11811' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7748' orgid='ECOLI' frameid='CPLX0-7748'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10299' orgid='ECOLI' frameid='PM0-10299'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42608' orgid='ECOLI' frameid='TU0-42608'/><Transcription-Unit resource='getxml?ECOLI:TU0-13709' orgid='ECOLI' frameid='TU0-13709'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:G7395' orgid='ECOLI' frameid='G7395'/></component>
+<component><Gene resource='getxml?ECOLI:G7396' orgid='ECOLI' frameid='G7396'/></component>
+</Transcription-Unit>
+</ptools-xml>

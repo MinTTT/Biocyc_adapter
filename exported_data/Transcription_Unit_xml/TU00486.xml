@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00486'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00486</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00486' orgid='ECOLI' frameid='TU00486' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rcsA</common-name>
+<comment datatype='string'>Both &lt;i&gt;sdiA&lt;/i&gt; and &lt;i&gt;rcsA&lt;/i&gt; are involved in acyl-homoserine lactone (AHL)-mediated induction of the prophage process, and this induction is RecA independent [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/19783745&quot;&gt;Ghosh09&lt;/a&gt;]. Based on analysis with mutants, &lt;i&gt;sdiA&lt;/i&gt; does not have any direct negative or positive regulatory role in &lt;i&gt;rcsA&lt;/i&gt; expression, and the data suggest that intermediate transducers are involved in carrying the AHL-SdiA-mediated signal to activate &lt;i&gt;rcsA&lt;/i&gt; for prophage induction [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/19783745&quot;&gt;Ghosh09&lt;/a&gt;].
+&lt;p&gt;
+The expression of the gene &lt;i&gt;rcsA&lt;/i&gt; is increased when colicin (at 30 ng/ml) is added to the medium [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23421615&quot;&gt;Kamensek13&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-9882673' orgid='ECOLI' frameid='PUB-9882673' detail='full'><source datatype='string'>J Bacteriol 181(2);577-84</source>
+<pubmed-id datatype='string'>9882673</pubmed-id>
+<title datatype='string'>Escherichia coli RcsA, a positive activator of colanic acid capsular polysaccharide synthesis, functions To activate its own expression.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>Ebel W</author>
+<author datatype='string'>Trempy JE</author>
+</Publication>
+</citation>
+<component><DNA-Binding-Site ID='ECOLI:BS0-19' orgid='ECOLI' frameid='BS0-19' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-5672' orgid='ECOLI' frameid='REG0-5672' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PC00084' orgid='ECOLI' frameid='PC00084'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM00636' orgid='ECOLI' frameid='PM00636' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>2023825</minus-10-left>
+<common-name datatype='string'>rcsAp</common-name>
+<minus-35-right datatype='integer'>2023806</minus-35-right>
+<minus-35-left datatype='integer'>2023801</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2023836</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-7534408' orgid='ECOLI' frameid='PUB-7534408' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 92(6);2003-7</source>
+<pubmed-id datatype='string'>7534408</pubmed-id>
+<title datatype='string'>A small RNA acts as an antisilencer of the H-NS-silenced rcsA gene of Escherichia coli.</title>
+<year datatype='integer'>1995</year>
+<author datatype='string'>Sledjeski D</author>
+<author datatype='string'>Gottesman S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-7534408' orgid='ECOLI' frameid='PUB-7534408'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-7534408' orgid='ECOLI' frameid='PUB-7534408'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-5675' orgid='ECOLI' frameid='REG0-5675' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00288' orgid='ECOLI' frameid='PD00288'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00636' orgid='ECOLI' frameid='PM00636'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5674' orgid='ECOLI' frameid='REG0-5674' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PC00084' orgid='ECOLI' frameid='PC00084'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00636' orgid='ECOLI' frameid='PM00636'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5673' orgid='ECOLI' frameid='REG0-5673' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG11544-MONOMER' orgid='ECOLI' frameid='EG11544-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00636' orgid='ECOLI' frameid='PM00636'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-5672' orgid='ECOLI' frameid='REG0-5672'/></regulated-by>
+<minus-10-right datatype='integer'>2023830</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00486' orgid='ECOLI' frameid='TU00486'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-9882673' orgid='ECOLI' frameid='PUB-9882673'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on similarity to consensus sequences</common-name>
+<comment datatype='string'>A DNA sequence similar to previously known consensus sequences is computationally identified.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9882673' orgid='ECOLI' frameid='PUB-9882673'/></evidence>
+<abs-center-pos datatype='integer'>2023664</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00486' orgid='ECOLI' frameid='TU00486'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-3804' orgid='ECOLI' frameid='BS0-3804' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5673' orgid='ECOLI' frameid='REG0-5673'/></involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-14702398' orgid='ECOLI' frameid='PUB-14702398' detail='full'><source datatype='string'>Microbiology 150(Pt 1);61-72</source>
+<pubmed-id datatype='string'>14702398</pubmed-id>
+<title datatype='string'>GadE (YhiE): a novel activator involved in the response to acid environment in Escherichia coli.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Hommais F</author>
+<author datatype='string'>Krin E</author>
+<author datatype='string'>Coppee JY</author>
+<author datatype='string'>Lacroix C</author>
+<author datatype='string'>Yeramian E</author>
+<author datatype='string'>Danchin A</author>
+<author datatype='string'>Bertin P</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-14702398' orgid='ECOLI' frameid='PUB-14702398'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU00486' orgid='ECOLI' frameid='TU00486'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Promoter resource='#ECOLI:PM00636' orgid='ECOLI' frameid='PM00636'/></component>
+<component><DNA-Binding-Site ID='ECOLI:BS00761' orgid='ECOLI' frameid='BS00761' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5674' orgid='ECOLI' frameid='REG0-5674'/></involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-10702265' orgid='ECOLI' frameid='PUB-10702265' detail='full'><source datatype='string'>J Biol Chem 275(10);7013-20</source>
+<pubmed-id datatype='string'>10702265</pubmed-id>
+<title datatype='string'>The RcsAB box. Characterization of a new operator essential for the regulation of exopolysaccharide biosynthesis in enteric bacteria.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Wehland M</author>
+<author datatype='string'>Bernhard F</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of cellular extracts</common-name>
+<comment datatype='string'>There exists physical evidence of the binding of cellular extracts containing 
+a regulatory protein to its DNA binding site.  This can be either by 
+footprinting or mobility shift assays.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Site mutation</common-name>
+<comment datatype='string'>A cis-mutation in the DNA sequence of the transcription-factor binding site interferes with the operation of the regulatory function. This is considered  strong evidence for the existence and functional role of the DNA binding site.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10702265' orgid='ECOLI' frameid='PUB-10702265'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-10702265' orgid='ECOLI' frameid='PUB-10702265'/></evidence>
+<abs-center-pos datatype='integer'>2023711</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00486' orgid='ECOLI' frameid='TU00486'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS00762' orgid='ECOLI' frameid='BS00762' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5675' orgid='ECOLI' frameid='REG0-5675'/></involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-7534408' orgid='ECOLI' frameid='PUB-7534408'/></citation>
+<citation><Publication resource='#ECOLI:PUB-9882673' orgid='ECOLI' frameid='PUB-9882673'/></citation>
+<citation><Publication ID='ECOLI:PUB-30087827' orgid='ECOLI' frameid='PUB-30087827' detail='full'><source datatype='string'>FEBS Open Bio 8(8);1209-1218</source>
+<pubmed-id datatype='string'>30087827</pubmed-id>
+<title datatype='string'>A putative curved DNA region upstream of  &lt;i&gt;rcsA&lt;/i&gt; in  &lt;i&gt;Escherichia coli&lt;/i&gt; plays a key role in transcriptional regulation by H-NS.</title>
+<year datatype='integer'>2018</year>
+<author datatype='string'>Meenakshi S</author>
+<author datatype='string'>Karthik M</author>
+<author datatype='string'>Munavar MH</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/><Publication resource='#ECOLI:PUB-30087827' orgid='ECOLI' frameid='PUB-30087827'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU00486' orgid='ECOLI' frameid='TU00486'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10820' orgid='ECOLI' frameid='EG10820'/></component>
+</Transcription-Unit>
+</ptools-xml>

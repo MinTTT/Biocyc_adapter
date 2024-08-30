@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-3304'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-3304</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-3304' orgid='ECOLI' frameid='TU0-3304' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>infC</common-name>
+<comment datatype='string'>We do not know all of the genes contained in this transcription unit; we are only sure that it contains the first gene downstream of an identified promoter.</comment>
+<citation><Publication ID='ECOLI:PUB-2191140' orgid='ECOLI' frameid='PUB-2191140' detail='full'><source datatype='string'>J Mol Biol 213(3);465-75</source>
+<pubmed-id datatype='string'>2191140</pubmed-id>
+<title datatype='string'>Translated translational operator in Escherichia coli. Auto-regulation in the infC-rpmI-rplT operon.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>Lesage P</author>
+<author datatype='string'>Truong HN</author>
+<author datatype='string'>Graffe M</author>
+<author datatype='string'>Dondon J</author>
+<author datatype='string'>Springer M</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2191140' orgid='ECOLI' frameid='PUB-2191140'/></evidence>
+<component><Terminator ID='ECOLI:TERM0-1257' orgid='ECOLI' frameid='TERM0-1257' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>1800091</right-end-position>
+<left-end-position datatype='integer'>1800035</left-end-position>
+<citation><Publication ID='ECOLI:PUB-11522828' orgid='ECOLI' frameid='PUB-11522828' detail='full'><source datatype='string'>Nucleic Acids Res 29(17);3583-94</source>
+<pubmed-id datatype='string'>11522828</pubmed-id>
+<title datatype='string'>Prediction of rho-independent transcriptional terminators in Escherichia coli.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Lesnik EA</author>
+<author datatype='string'>Sampath R</author>
+<author datatype='string'>Levene HB</author>
+<author datatype='string'>Henderson TJ</author>
+<author datatype='string'>McNeil JA</author>
+<author datatype='string'>Ecker DJ</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-30247625' orgid='ECOLI' frameid='PUB-30247625' detail='full'><source datatype='string'>Bioinformatics 35(9);1469-1477</source>
+<pubmed-id datatype='string'>30247625</pubmed-id>
+<title datatype='string'>iTerm-PseKNC: a sequence-based tool for predicting bacterial transcriptional terminators.</title>
+<year datatype='integer'>2019</year>
+<author datatype='string'>Feng CQ</author>
+<author datatype='string'>Zhang ZY</author>
+<author datatype='string'>Zhu XJ</author>
+<author datatype='string'>Lin Y</author>
+<author datatype='string'>Chen W</author>
+<author datatype='string'>Tang H</author>
+<author datatype='string'>Lin H</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU00366' orgid='ECOLI' frameid='TU00366'/><Transcription-Unit resource='#ECOLI:TU0-3304' orgid='ECOLI' frameid='TU0-3304'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10506' orgid='ECOLI' frameid='EG10506'/></component>
+<component><Promoter ID='ECOLI:PM00376' orgid='ECOLI' frameid='PM00376' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>infCp1</common-name>
+<synonym datatype='string'>infCpO, infCPI1</synonym>
+<synonym datatype='string'>p0, PI1</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1801346</absolute-plus-1-pos>
+<comment datatype='string'>Although there are only 3 bp in the intergenic region between &lt;i&gt;thrS&lt;/i&gt; and &lt;i&gt;infC&lt;/i&gt;, &lt;i&gt;infC&lt;/i&gt; expression is independent from &lt;i&gt;thrS&lt;/i&gt; since its expression is controlled by three promoters which depend on several physiological conditions [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/2838394&quot;&gt;Wertheimer88&lt;/a&gt;].
+</comment>
+<citation><Publication ID='ECOLI:PUB-6353409' orgid='ECOLI' frameid='PUB-6353409' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 80(20);6152-6</source>
+<pubmed-id datatype='string'>6353409</pubmed-id>
+<title datatype='string'>Structural and transcriptional evidence for related thrS and infC expression.</title>
+<year datatype='integer'>1983</year>
+<author datatype='string'>Mayaux JF</author>
+<author datatype='string'>Fayat G</author>
+<author datatype='string'>Fromant M</author>
+<author datatype='string'>Springer M</author>
+<author datatype='string'>Grunberg-Manago M</author>
+<author datatype='string'>Blanquet S</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-2438418' orgid='ECOLI' frameid='PUB-2438418' detail='full'><source datatype='string'>J Mol Biol 192(4);767-80</source>
+<pubmed-id datatype='string'>2438418</pubmed-id>
+<title datatype='string'>Escherichia coli protein synthesis initiation factor IF3 controls its own gene expression at the translational level in vivo.</title>
+<year datatype='integer'>1986</year>
+<author datatype='string'>Butler JS</author>
+<author datatype='string'>Springer M</author>
+<author datatype='string'>Dondon J</author>
+<author datatype='string'>Graffe M</author>
+<author datatype='string'>Grunberg-Manago M</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-2838394' orgid='ECOLI' frameid='PUB-2838394' detail='full'><source datatype='string'>Gene 63(2);309-20</source>
+<pubmed-id datatype='string'>2838394</pubmed-id>
+<title datatype='string'>Transcriptional patterns for the thrS-infC-rplT operon of Escherichia coli.</title>
+<year datatype='integer'>1988</year>
+<author datatype='string'>Wertheimer SJ</author>
+<author datatype='string'>Klotsky RA</author>
+<author datatype='string'>Schwartz I</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-2050639' orgid='ECOLI' frameid='PUB-2050639' detail='full'><source datatype='string'>J Bacteriol 173(12);3888-93</source>
+<pubmed-id datatype='string'>2050639</pubmed-id>
+<title datatype='string'>Growth rate regulation of translation initiation factor IF3 biosynthesis in Escherichia coli.</title>
+<year datatype='integer'>1991</year>
+<author datatype='string'>Liveris D</author>
+<author datatype='string'>Klotsky RA</author>
+<author datatype='string'>Schwartz I</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6353409' orgid='ECOLI' frameid='PUB-6353409'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference of promoter position</common-name>
+<comment datatype='string'>Automated inference of promoter position relative to the -10 and -35 boxes.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6353409' orgid='ECOLI' frameid='PUB-6353409'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-2438418' orgid='ECOLI' frameid='PUB-2438418'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-2838394' orgid='ECOLI' frameid='PUB-2838394'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11176' orgid='ECOLI' frameid='REG0-11176' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8070' orgid='ECOLI' frameid='CPLX0-8070'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00376' orgid='ECOLI' frameid='PM00376'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-3304' orgid='ECOLI' frameid='TU0-3304'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

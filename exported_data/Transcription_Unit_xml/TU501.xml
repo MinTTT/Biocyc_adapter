@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU501'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU501</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU501' orgid='ECOLI' frameid='TU501' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>feaR</common-name>
+<synonym datatype='string'>maoB</synonym>
+<citation><Publication ID='ECOLI:PUB-8631685' orgid='ECOLI' frameid='PUB-8631685' detail='full'><source datatype='string'>J Bacteriol 178(10);2941-7</source>
+<pubmed-id datatype='string'>8631685</pubmed-id>
+<title datatype='string'>maoB, a gene that encodes a positive regulator of the monoamine oxidase gene (maoA) in Escherichia coli.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Yamashita M</author>
+<author datatype='string'>Azakami H</author>
+<author datatype='string'>Yokoro N</author>
+<author datatype='string'>Roh JH</author>
+<author datatype='string'>Suzuki H</author>
+<author datatype='string'>Kumagai H</author>
+<author datatype='string'>Murooka Y</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8631685' orgid='ECOLI' frameid='PUB-8631685'/></evidence>
+<component><Gene resource='getxml?ECOLI:G6706' orgid='ECOLI' frameid='G6706'/></component>
+<component><Promoter ID='ECOLI:PM601' orgid='ECOLI' frameid='PM601' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>feaRp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1447367</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-9109378' orgid='ECOLI' frameid='PUB-9109378' detail='full'><source datatype='string'>FEBS Lett 406(1-2);23-7</source>
+<pubmed-id datatype='string'>9109378</pubmed-id>
+<title datatype='string'>Molecular characterization of PadA, a phenylacetaldehyde dehydrogenase from Escherichia coli.</title>
+<year datatype='integer'>1997</year>
+<author datatype='string'>Ferrandez A</author>
+<author datatype='string'>Prieto MA</author>
+<author datatype='string'>Garcia JL</author>
+<author datatype='string'>Diaz E</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9109378' orgid='ECOLI' frameid='PUB-9109378'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU501' orgid='ECOLI' frameid='TU501'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

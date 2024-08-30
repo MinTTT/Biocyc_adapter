@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42529'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42529</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42529' orgid='ECOLI' frameid='TU0-42529' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>agrA</common-name>
+<citation><Publication ID='ECOLI:PUB-23408903' orgid='ECOLI' frameid='PUB-23408903' detail='full'><source datatype='string'>PLoS Genet 9(2);e1003260</source>
+<pubmed-id datatype='string'>23408903</pubmed-id>
+<title datatype='string'>Single Transmembrane Peptide DinQ Modulates Membrane-Dependent Activities.</title>
+<year datatype='integer'>2013</year>
+<author datatype='string'>Weel-Sneve R</author>
+<author datatype='string'>Kristiansen KI</author>
+<author datatype='string'>Odsbu I</author>
+<author datatype='string'>Dalhus B</author>
+<author datatype='string'>Booth J</author>
+<author datatype='string'>Rognes T</author>
+<author datatype='string'>Skarstad K</author>
+<author datatype='string'>Bjoras M</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-23408903' orgid='ECOLI' frameid='PUB-23408903'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-23408903' orgid='ECOLI' frameid='PUB-23408903'/></evidence>
+<component><Terminator ID='ECOLI:TERM0-1175' orgid='ECOLI' frameid='TERM0-1175' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3648144</right-end-position>
+<left-end-position datatype='integer'>3648117</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-23408903' orgid='ECOLI' frameid='PUB-23408903'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42529' orgid='ECOLI' frameid='TU0-42529'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:G0-10751' orgid='ECOLI' frameid='G0-10751'/></component>
+<component><Promoter ID='ECOLI:PM0-46267' orgid='ECOLI' frameid='PM0-46267' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>3648050</minus-10-left>
+<common-name datatype='string'>agrAp</common-name>
+<minus-35-right datatype='integer'>3648032</minus-35-right>
+<minus-35-left datatype='integer'>3648027</minus-35-left>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3648063</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-23408903' orgid='ECOLI' frameid='PUB-23408903'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-23408903' orgid='ECOLI' frameid='PUB-23408903'/></evidence>
+<minus-10-right datatype='integer'>3648055</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42529' orgid='ECOLI' frameid='TU0-42529'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

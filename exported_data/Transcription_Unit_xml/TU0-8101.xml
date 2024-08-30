@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8101'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8101</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8101' orgid='ECOLI' frameid='TU0-8101' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>pgl</common-name>
+<citation><Publication ID='ECOLI:PUB-15576773' orgid='ECOLI' frameid='PUB-15576773' detail='full'><source datatype='string'>J Bacteriol 186(24);8248-53</source>
+<pubmed-id datatype='string'>15576773</pubmed-id>
+<title datatype='string'>Identification of the Escherichia coli K-12 ybhE gene as pgl, encoding 6-phosphogluconolactonase.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Thomason LC</author>
+<author datatype='string'>Court DL</author>
+<author datatype='string'>Datta AR</author>
+<author datatype='string'>Khanna R</author>
+<author datatype='string'>Rosner JL</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-15766779' orgid='ECOLI' frameid='PUB-15766779' detail='full'><source datatype='string'>FEMS Microbiol Lett 244(2);275-80</source>
+<pubmed-id datatype='string'>15766779</pubmed-id>
+<title datatype='string'>Escherichia coli ORF ybhE is pgl gene encoding 6-phosphogluconolactonase (EC 3.1.1.31) that has no homology with known 6PGLs from other organisms.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Zimenkov D</author>
+<author datatype='string'>Gulevich A</author>
+<author datatype='string'>Skorokhodova A</author>
+<author datatype='string'>Biriukova I</author>
+<author datatype='string'>Kozlov Y</author>
+<author datatype='string'>Mashko S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SINGLE-DIRECTON' orgid='ECOLI' frameid='EV-COMP-AINF-SINGLE-DIRECTON' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference that a single-gene directon is a transcription unit </common-name>
+<comment datatype='string'>Automated inference of transcription unit based on single-gene directon.  Existence of a single-gene transcription unit 
+for gene G is inferred computationally by the existence of upstream and downstream genes transcribed in the 
+opposite direction of G.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15576773' orgid='ECOLI' frameid='PUB-15576773'/></evidence>
+<component><Gene resource='getxml?ECOLI:G6397' orgid='ECOLI' frameid='G6397'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00161'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00161</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00161' orgid='ECOLI' frameid='TU00161' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>fruBKA</common-name>
+<synonym datatype='string'>OP00220</synonym>
+<synonym datatype='string'>fruBMH</synonym>
+<comment datatype='string'>A potential RNA G-quadruplex structure, formed by guanine-rich sequences located in the coding sequence region of the gene, was identified  for &lt;i&gt;fruA&lt;/i&gt; . This structure  could regulate the expression of the gene, as observed for &lt;i&gt;hemL&lt;/i&gt; gene expression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31964733&quot;&gt;Shao20&lt;/a&gt;].
+&lt;p&gt;
+By using ChIP-Seq analysis, it was observed that the protein PdeL binds in the intergenic region of &lt;i&gt;fruB&lt;/i&gt;  and &lt;i&gt;setB&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/34903045&quot;&gt;Sellner21&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-8013873' orgid='ECOLI' frameid='PUB-8013873' detail='full'><source datatype='string'>FEMS Microbiol Lett 118(1-2);159-62</source>
+<pubmed-id datatype='string'>8013873</pubmed-id>
+<title datatype='string'>Sequence of the fruB gene of Escherichia coli encoding the diphosphoryl transfer protein (DTP) of the phosphoenolpyruvate: sugar phosphotransferase system.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Reizer J</author>
+<author datatype='string'>Reizer A</author>
+<author datatype='string'>Kornberg HL</author>
+<author datatype='string'>Saier MH</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-7721070' orgid='ECOLI' frameid='PUB-7721070' detail='full'><source datatype='string'>Genetika 31(2);276-7</source>
+<pubmed-id datatype='string'>7721070</pubmed-id>
+<title datatype='string'>[Determination of the direction of transcription of Escherichia coli K-12 structural genes of the fructose regulon in vivo]</title>
+<year datatype='integer'>1995</year>
+<author datatype='string'>Dobrynina OIu</author>
+<author datatype='string'>Bol'shakova TN</author>
+<author datatype='string'>Umiarov AM</author>
+<author datatype='string'>Gershanovich VN</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-AS-TAS' orgid='ECOLI' frameid='EV-AS-TAS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-AS' orgid='ECOLI' frameid='EV-AS' class='true'/></parent>
+<common-name datatype='string'>Traceable author statement</common-name>
+<comment datatype='string'>Traceable author statement.  The assertion was made in a publication -- such as a review or 
+in another database -- that itself did not describe an experiment supporting the
+assertion.  The statement referenced another publication that supported the assertion,
+but it is unclear whether that publication described an experiment that supported
+the assertion.  The difference between the codes EV-EXP-TAS and EV-AS-TAS 
+is that the former code is used when it is certain that experimental evidence supports the
+assertion, and the latter code is used when there is a possibility that an experiment was
+not done to support the assertion.
+In general, references to the primary literature are preferred,
+but this code can be used when the original article is difficult to locate.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-7721070' orgid='ECOLI' frameid='PUB-7721070'/></evidence>
+<component><Promoter ID='ECOLI:PM00221' orgid='ECOLI' frameid='PM00221' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>2263603</minus-10-left>
+<common-name datatype='string'>fruBp</common-name>
+<minus-35-right datatype='integer'>2263632</minus-35-right>
+<minus-35-left datatype='integer'>2263627</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>fruBMHK</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2263597</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference of promoter position</common-name>
+<comment datatype='string'>Automated inference of promoter position relative to the -10 and -35 boxes.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-10898' orgid='ECOLI' frameid='REG0-10898' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX-127' orgid='ECOLI' frameid='CPLX-127'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00221' orgid='ECOLI' frameid='PM00221'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5412' orgid='ECOLI' frameid='REG0-5412' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX-127' orgid='ECOLI' frameid='CPLX-127'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00221' orgid='ECOLI' frameid='PM00221'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>2263608</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00161' orgid='ECOLI' frameid='TU00161'/></component-of>
+</Promoter>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS00388' orgid='ECOLI' frameid='BS00388' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5412' orgid='ECOLI' frameid='REG0-5412'/></involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-8230205' orgid='ECOLI' frameid='PUB-8230205' detail='full'><source datatype='string'>J Mol Biol 234(1);28-44</source>
+<pubmed-id datatype='string'>8230205</pubmed-id>
+<title datatype='string'>In vitro binding of the pleiotropic transcriptional regulatory protein, FruR, to the fru, pps, ace, pts and icd operons of Escherichia coli and Salmonella typhimurium.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>Ramseier TM</author>
+<author datatype='string'>Negre D</author>
+<author datatype='string'>Cortay JC</author>
+<author datatype='string'>Scarabel M</author>
+<author datatype='string'>Cozzone AJ</author>
+<author datatype='string'>Saier MH</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-GSELEX' orgid='ECOLI' frameid='EV-EXP-GSELEX' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-HTP-HDA-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-HTP-HDA-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>High-throughput genomic SELEX-chip evidence</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0001812</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0001812</dblink-URL>
+</dblink>
+<credits><imported-from-meta><date datatype='date'>2018-03-05</date>
+<Person ID='ECOLI:paley' orgid='ECOLI' frameid='paley' detail='full'><affiliations><Organization ID='ECOLI:SRI' orgid='ECOLI' frameid='SRI' detail='full'><abbrev-name datatype='string'>SRI International</abbrev-name>
+<email datatype='string'>ptools-support@ai.sri.com</email>
+<common-name datatype='string'>SRI International</common-name>
+<url datatype='string'>http://bioinformatics.ai.sri.com/</url>
+</Organization>
+</affiliations>
+<common-name datatype='string'>Suzanne Paley</common-name>
+</Person>
+<Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A type of systematic evolution of ligands by exponential amplification evidence based on a restricted genomic DNA library to identify naturally occurring genomic aptamers and RNA-protein interaction networks with RNA-binding protein as bait and high-throughput sequencing. This evidence can be used to probe the binding of proteins, such as transcription factors or RNA polymerase, to DNA.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-21115656' orgid='ECOLI' frameid='PUB-21115656' detail='full'><source datatype='string'>J Bacteriol 193(3);649-59</source>
+<pubmed-id datatype='string'>21115656</pubmed-id>
+<title datatype='string'>Novel members of the Cra regulon involved in carbon metabolism in Escherichia coli.</title>
+<year datatype='integer'>2011</year>
+<author datatype='string'>Shimada T</author>
+<author datatype='string'>Yamamoto K</author>
+<author datatype='string'>Ishihama A</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-AS-NAS' orgid='ECOLI' frameid='EV-AS-NAS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-AS' orgid='ECOLI' frameid='EV-AS' class='true'/></parent>
+<common-name datatype='string'>Non-traceable author statement</common-name>
+<comment datatype='string'>Non-traceable author statement.  The assertion was made in a publication such as a review, a meeting abstract, 
+or another database without a reference to a publication describing an experiment that supports the assertion.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8230205' orgid='ECOLI' frameid='PUB-8230205'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on similarity to consensus sequences</common-name>
+<comment datatype='string'>A DNA sequence similar to previously known consensus sequences is computationally identified.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-21115656' orgid='ECOLI' frameid='PUB-21115656'/></evidence>
+<abs-center-pos datatype='float'>2263590.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00161' orgid='ECOLI' frameid='TU00161'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10336' orgid='ECOLI' frameid='EG10336'/></component>
+<component><Gene resource='getxml?ECOLI:EG10337' orgid='ECOLI' frameid='EG10337'/></component>
+<component><Gene resource='getxml?ECOLI:G7990' orgid='ECOLI' frameid='G7990'/></component>
+</Transcription-Unit>
+</ptools-xml>

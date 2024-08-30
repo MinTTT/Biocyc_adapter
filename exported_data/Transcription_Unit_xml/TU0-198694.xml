@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-198694'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-198694</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-198694' orgid='ECOLI' frameid='TU0-198694' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>mazEF</common-name>
+<citation><Publication ID='ECOLI:PUB-35012340' orgid='ECOLI' frameid='PUB-35012340' detail='full'><source datatype='string'>mBio 13(1);e0344321</source>
+<pubmed-id datatype='string'>35012340</pubmed-id>
+<title datatype='string'>An Antisense RNA Fine-Tunes Gene Expression of the Type II MazEF Toxin-Antitoxin System.</title>
+<year datatype='integer'>2022</year>
+<author datatype='string'>Van Gundy T</author>
+<author datatype='string'>Martin E</author>
+<author datatype='string'>Bono J</author>
+<author datatype='string'>Hatton O</author>
+<author datatype='string'>Lybecker MC</author>
+<doi-id datatype='string'>10.1128/mbio.03443-21</doi-id>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION-NORTHERN' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION-NORTHERN' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' class='true'/></parent>
+<common-name datatype='string'>Northern blot for transcription unit length determination evidence</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0000106</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0000106</dblink-URL>
+</dblink>
+<credits><imported-from-meta><date datatype='date'>2022-10-25</date>
+<Person ID='ECOLI:paley' orgid='ECOLI' frameid='paley' detail='full'><affiliations><Organization ID='ECOLI:SRI' orgid='ECOLI' frameid='SRI' detail='full'><abbrev-name datatype='string'>SRI International</abbrev-name>
+<email datatype='string'>ptools-support@ai.sri.com</email>
+<common-name datatype='string'>SRI International</common-name>
+<url datatype='string'>http://bioinformatics.ai.sri.com/</url>
+</Organization>
+</affiliations>
+<common-name datatype='string'>Suzanne Paley</common-name>
+</Person>
+<Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A type of transcript expression evidence based on electrophoresis and probing to determine the length of a transcription unit using a complementary hybridization probe on the separated RNA samples.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-35012340' orgid='ECOLI' frameid='PUB-35012340'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-16167' orgid='ECOLI' frameid='REG0-16167' detail='low'><parent><Regulation resource='getxml?ECOLI:RNA-Mediated-Translation-Regulation' orgid='ECOLI' frameid='RNA-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><RNA resource='getxml?ECOLI:RNA0-440' orgid='ECOLI' frameid='RNA0-440'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-198694' orgid='ECOLI' frameid='TU0-198694'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component><Gene resource='getxml?ECOLI:EG11249' orgid='ECOLI' frameid='EG11249'/></component>
+<component><Gene resource='getxml?ECOLI:EG10571' orgid='ECOLI' frameid='EG10571'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-13726'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-13726</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-13726' orgid='ECOLI' frameid='TU0-13726' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>cas3</common-name>
+<comment datatype='string'>Glycine, serine, N5,N10-methylene tetrahydrofolate  (N5,N10-mTHF),  cAMP, CRP, or the presence of the gcvTHP operon is able to induce the expression of the &lt;i&gt;cas3&lt;/i&gt; gene. The gcvTHP operon produces the enzyme to degrade glycine. A product of degradation of glycine or serine is N5,N10-mTHF, which appears to affect the production of cAMP, the effector of the transcriptional regulator CRP [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31941083&quot;&gt;Yang20&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><Promoter ID='ECOLI:PM0-46454' orgid='ECOLI' frameid='PM0-46454' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>2887251</minus-10-left>
+<common-name datatype='string'>cas3p</common-name>
+<minus-35-right datatype='integer'>2887275</minus-35-right>
+<minus-35-left datatype='integer'>2887270</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<citation><Publication ID='ECOLI:PUB-31941083' orgid='ECOLI' frameid='PUB-31941083' detail='full'><source datatype='string'>Viruses 12(1)</source>
+<pubmed-id datatype='string'>31941083</pubmed-id>
+<title datatype='string'>Glycine Cleavage System and cAMP Receptor Protein Co-Regulate CRISPR/ &lt;i&gt;cas3&lt;/i&gt; Expression to Resist Bacteriophage.</title>
+<year datatype='integer'>2020</year>
+<author datatype='string'>Yang D</author>
+<author datatype='string'>Wang Z</author>
+<author datatype='string'>Ma J</author>
+<author datatype='string'>Fu Q</author>
+<author datatype='string'>Wu L</author>
+<author datatype='string'>Wang H</author>
+<author datatype='string'>Wang S</author>
+<author datatype='string'>Yan Y</author>
+<author datatype='string'>Sun J</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred by a human based on computational evidence</common-name>
+<comment datatype='string'>Human inference.  A curator or author inferred this assertion after review of one or more possible types 
+of computational evidence such as sequence similarity, recognized motifs or consensus sequence, etc.  
+When the inference was made by a computer in an automated fashion, use EV-AINF.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-31941083' orgid='ECOLI' frameid='PUB-31941083'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-13455' orgid='ECOLI' frameid='REG0-13455' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46454' orgid='ECOLI' frameid='PM0-46454'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>2887256</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-13726' orgid='ECOLI' frameid='TU0-13726'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG12634' orgid='ECOLI' frameid='EG12634'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-41793'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-41793</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-41793' orgid='ECOLI' frameid='TU0-41793' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>gadC</common-name>
+<comment datatype='string'>The expression of the gene &lt;i&gt;gadC&lt;/i&gt; is increased under acidic growth conditions in either aerobiosis or microaerobiosis [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23274360&quot;&gt;Marzan13&lt;/a&gt;]. The increased expression under aerobiosis appears to be caused by the transcription factor PhoB [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23274360&quot;&gt;Marzan13&lt;/a&gt;], but it is not known which promoter, of four transcribing &lt;i&gt;gadC&lt;/i&gt;, is affected by PhoB.</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' detail='full' class='true'><common-name datatype='string'>Inferred by curator</common-name>
+<comment datatype='string'>Inferred by curator.  An assertion was inferred by a curator from relevant
+information such as other assertions in a database.
+</comment>
+</Evidence-Code>
+</evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-13063' orgid='ECOLI' frameid='REG0-13063' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Compound resource='getxml?ECOLI:GUANOSINE-5DP-3DP' orgid='ECOLI' frameid='GUANOSINE-5DP-3DP'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-41793' orgid='ECOLI' frameid='TU0-41793'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component><Terminator ID='ECOLI:TERM102' orgid='ECOLI' frameid='TERM102' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>1568930</right-end-position>
+<left-end-position datatype='integer'>1568904</left-end-position>
+<citation><Publication ID='ECOLI:PUB-10383761' orgid='ECOLI' frameid='PUB-10383761' detail='full'><source datatype='string'>Mol Microbiol 32(6);1198-211</source>
+<pubmed-id datatype='string'>10383761</pubmed-id>
+<title datatype='string'>The response to stationary-phase stress conditions in Escherichia coli: role and regulation of the glutamic acid decarboxylase system.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>De Biase D</author>
+<author datatype='string'>Tramonti A</author>
+<author datatype='string'>Bossa F</author>
+<author datatype='string'>Visca P</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45231' orgid='ECOLI' frameid='TU0-45231'/><Transcription-Unit resource='#ECOLI:TU0-41793' orgid='ECOLI' frameid='TU0-41793'/><Transcription-Unit resource='getxml?ECOLI:TU369' orgid='ECOLI' frameid='TU369'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:G6786' orgid='ECOLI' frameid='G6786'/></component>
+</Transcription-Unit>
+</ptools-xml>

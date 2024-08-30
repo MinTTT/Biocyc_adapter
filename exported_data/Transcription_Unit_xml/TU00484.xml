@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00484'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00484</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00484' orgid='ECOLI' frameid='TU00484' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>pyrLBI</common-name>
+<comment datatype='string'>The &lt;i&gt;pyrLBI&lt;/i&gt; operon is regulated primarily by attenuation in response to pyrimidine availability. 
+&lt;p&gt;
+The &lt;i&gt;pyrLBI&lt;/i&gt; operon is controlled by an attenuator that responds to the abundance of UTP by a polymerase-pausing mechanism. &lt;i&gt;pyrL&lt;/i&gt;, the gene coding for the PyrL leader peptide, contains a transcriptional terminator preceded by a poly(T) sequence. When UTP levels are low, transcriptional pausing occurs at this poly(T) sequence [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/6300835&quot;&gt;Turnbough83&lt;/a&gt;]. More generally, this sequence leads to UTP-responsive transcriptional control, as transcription terminates there when UTP is abundant and proceeds when UTP levels are low, in a manner that depends on the presence of the terminator [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/2991885&quot;&gt;Levin85&lt;/a&gt;]. The poly(T) tract is also absolutely required for transcriptional termination [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/2656651&quot;&gt;Liu89&lt;/a&gt;]. 
+&lt;p&gt;
+The proposed model for the &lt;i&gt;pyrLBI&lt;/i&gt; attenuator is that of polymerase pausing, in which the RNA polymerase may pause at the poly(T) sequence when UTP is lacking, giving the following ribosome a chance to catch up. The proximity of the ribosome then prevents formation of the terminator and premature termination of transcription. In contrast, when UTP is abundant the polymerase races ahead of the ribosome, allowing the terminator hairpin to form and terminating transcription. Partial confirmation of this model comes from the fact that in strains with mutated, slow-moving ribosomes, &lt;i&gt;pyrLBI&lt;/i&gt; transcription is far more effectively inhibited by UTP [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/3044790&quot;&gt;Jensen88&lt;/a&gt;]. In addition, although pyrimidine levels have little effect on translation of PyrL, translation of the leader peptide is required for proper regulation by attenuation. Mutatations that block translation of PyrL disrupt attenuation at &lt;i&gt;pyrLBI&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/3928602&quot;&gt;Roland85&lt;/a&gt;]. Transcriptional pausing within &lt;i&gt;pyrL&lt;/i&gt; is enhanced by NusA [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/7517939&quot;&gt;Donahue94&lt;/a&gt;]. In addition to attenuation, there is evidence of another transcription regulation mechanism, but its participating  elements have not been identified [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/2656651&quot;&gt;Liu89&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-7517939' orgid='ECOLI' frameid='PUB-7517939' detail='full'><source datatype='string'>J Biol Chem 1994;269(27);18185-91</source>
+<pubmed-id datatype='string'>7517939</pubmed-id>
+<title datatype='string'>Nucleotide-specific transcriptional pausing in the pyrBI leader region of Escherichia coli K-12.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Donahue JP</author>
+<author datatype='string'>Turnbough CL</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Inferred through co-regulation</common-name>
+<comment datatype='string'>Inferred through co-regulation.  A transcription unit is inferred because a set of 
+adjacent genes that are transcribed in the same direction exhibit similar
+expression patterns under a range of environmental conditions.
+</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-6294470' orgid='ECOLI' frameid='PUB-6294470' detail='full'><source datatype='string'>Mol Gen Genet 187(3);391-400</source>
+<pubmed-id datatype='string'>6294470</pubmed-id>
+<title datatype='string'>The organization and regulation of the pyrBI operon in E. coli includes a rho-independent attenuator sequence.</title>
+<year datatype='integer'>1982</year>
+<author datatype='string'>Roof WD</author>
+<author datatype='string'>Foltermann KF</author>
+<author datatype='string'>Wild JR</author>
+</Publication>
+</evidence>
+<component><Terminator ID='ECOLI:TERM0-1081' orgid='ECOLI' frameid='TERM0-1081' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<regulated-by><Regulation ID='ECOLI:REG0-9565' orgid='ECOLI' frameid='REG0-9565' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcriptional-Attenuation' orgid='ECOLI' frameid='Transcriptional-Attenuation' class='true'/></parent>
+<regulator><Compound resource='getxml?ECOLI:UTP' orgid='ECOLI' frameid='UTP'/></regulator>
+<regulated-entity><Terminator resource='#ECOLI:TERM0-1081' orgid='ECOLI' frameid='TERM0-1081'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<right-end-position datatype='integer'>4472445</right-end-position>
+<left-end-position datatype='integer'>4472426</left-end-position>
+<citation><Publication ID='ECOLI:PUB-6300835' orgid='ECOLI' frameid='PUB-6300835' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 80(2);368-72</source>
+<pubmed-id datatype='string'>6300835</pubmed-id>
+<title datatype='string'>Attenuation control of pyrBI operon expression in Escherichia coli K-12.</title>
+<year datatype='integer'>1983</year>
+<author datatype='string'>Turnbough CL</author>
+<author datatype='string'>Hicks KL</author>
+<author datatype='string'>Donahue JP</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU00485' orgid='ECOLI' frameid='TU00485'/><Transcription-Unit resource='#ECOLI:TU00484' orgid='ECOLI' frameid='TU00484'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11279' orgid='ECOLI' frameid='EG11279'/></component>
+<component><Promoter ID='ECOLI:PM00503' orgid='ECOLI' frameid='PM00503' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>4472559</minus-10-left>
+<common-name datatype='string'>pyrLp2</common-name>
+<minus-35-right datatype='integer'>4472586</minus-35-right>
+<minus-35-left datatype='integer'>4472581</minus-35-left>
+<synonym datatype='string'>pyrBp2</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4472553</absolute-plus-1-pos>
+<comment datatype='string'>pyrLp2 is the physiologically important promoter of the &lt;i&gt;pyrLBI&lt;/i&gt; operon, with 99% of the transcription starting here [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/8468295&quot;&gt;Liu93b&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-1699940' orgid='ECOLI' frameid='PUB-1699940' detail='full'><source datatype='string'>J Biol Chem 1990;265(31);19091-9</source>
+<pubmed-id datatype='string'>1699940</pubmed-id>
+<title datatype='string'>Characterization of transcriptional initiation from promoters P1 and P2 of the pyrBI operon of Escherichia coli K12.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>Donahue JP</author>
+<author datatype='string'>Turnbough CL</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-7517939' orgid='ECOLI' frameid='PUB-7517939'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1699940' orgid='ECOLI' frameid='PUB-1699940'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1699940' orgid='ECOLI' frameid='PUB-1699940'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' class='true'/><Publication ID='ECOLI:PUB-8468295' orgid='ECOLI' frameid='PUB-8468295' detail='full'><source datatype='string'>J Bacteriol 175(8);2363-9</source>
+<pubmed-id datatype='string'>8468295</pubmed-id>
+<title datatype='string'>Genetic evidence that promoter P2 is the physiologically significant promoter for the pyrBI operon of Escherichia coli K-12.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>Liu C</author>
+<author datatype='string'>Donahue JP</author>
+<author datatype='string'>Heath LS</author>
+<author datatype='string'>Turnbough CL</author>
+</Publication>
+</evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11130' orgid='ECOLI' frameid='REG0-11130' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Compound resource='getxml?ECOLI:GUANOSINE-5DP-3DP' orgid='ECOLI' frameid='GUANOSINE-5DP-3DP'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00503' orgid='ECOLI' frameid='PM00503'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>4472564</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00484' orgid='ECOLI' frameid='TU00484'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10811' orgid='ECOLI' frameid='EG10811'/></component>
+<component><Gene resource='getxml?ECOLI:EG10805' orgid='ECOLI' frameid='EG10805'/></component>
+</Transcription-Unit>
+</ptools-xml>

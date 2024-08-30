@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00401'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00401</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00401' orgid='ECOLI' frameid='TU00401' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>htpG</common-name>
+<comment datatype='string'>The &lt;i&gt;htpG&lt;/i&gt; gene is upregulated by short-term (30 min) exposure of &lt;i&gt;E. coli&lt;/i&gt; to some biocides [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/32385082&quot;&gt;Merchel20&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-3299380' orgid='ECOLI' frameid='PUB-3299380' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 84(15);5177-81</source>
+<pubmed-id datatype='string'>3299380</pubmed-id>
+<title datatype='string'>Eukaryotic Mr 83,000 heat shock protein has a homologue in Escherichia coli.</title>
+<year datatype='integer'>1987</year>
+<author datatype='string'>Bardwell JC</author>
+<author datatype='string'>Craig EA</author>
+</Publication>
+</citation>
+<component><Terminator ID='ECOLI:TERM61' orgid='ECOLI' frameid='TERM61' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Dependent-Terminators' orgid='ECOLI' frameid='Rho-Dependent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>497029</right-end-position>
+<left-end-position datatype='integer'>496998</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-3299380' orgid='ECOLI' frameid='PUB-3299380'/></citation>
+<citation><Publication ID='ECOLI:PUB-29669055' orgid='ECOLI' frameid='PUB-29669055' detail='full'><source datatype='string'>Nucleic Acids Res 46(13);6797-6805</source>
+<pubmed-id datatype='string'>29669055</pubmed-id>
+<title datatype='string'>High-resolution RNA 3'-ends mapping of bacterial Rho-dependent transcripts.</title>
+<year datatype='integer'>2018</year>
+<author datatype='string'>Dar D</author>
+<author datatype='string'>Sorek R</author>
+<doi-id datatype='string'>10.1093/nar/gky274</doi-id>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU00402' orgid='ECOLI' frameid='TU00402'/><Transcription-Unit resource='#ECOLI:TU00401' orgid='ECOLI' frameid='TU00401'/></component-of>
+</Terminator>
+</component>
+<component><Promoter ID='ECOLI:PM00340' orgid='ECOLI' frameid='PM00340' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>495061</minus-10-left>
+<common-name datatype='string'>htpGp1</common-name>
+<minus-35-right datatype='integer'>495046</minus-35-right>
+<minus-35-left datatype='integer'>495041</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOH-MONOMER' orgid='ECOLI' frameid='RPOH-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>495075</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-3887408' orgid='ECOLI' frameid='PUB-3887408' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 82(9);2679-83</source>
+<pubmed-id datatype='string'>3887408</pubmed-id>
+<title datatype='string'>Consensus sequence for Escherichia coli heat shock gene promoters.</title>
+<year datatype='integer'>1985</year>
+<author datatype='string'>Cowing DW</author>
+<author datatype='string'>Bardwell JC</author>
+<author datatype='string'>Craig EA</author>
+<author datatype='string'>Woolford C</author>
+<author datatype='string'>Hendrix RW</author>
+<author datatype='string'>Gross CA</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-3299380' orgid='ECOLI' frameid='PUB-3299380'/></citation>
+<citation><Publication ID='ECOLI:PUB-2900239' orgid='ECOLI' frameid='PUB-2900239' detail='full'><source datatype='string'>J Bacteriol 170(8);3640-9</source>
+<pubmed-id datatype='string'>2900239</pubmed-id>
+<title datatype='string'>Isolation and characterization of Escherichia coli mutants that lack the heat shock sigma factor sigma 32.</title>
+<year datatype='integer'>1988</year>
+<author datatype='string'>Zhou YN</author>
+<author datatype='string'>Kusukawa N</author>
+<author datatype='string'>Erickson JW</author>
+<author datatype='string'>Gross CA</author>
+<author datatype='string'>Yura T</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-16818608' orgid='ECOLI' frameid='PUB-16818608' detail='full'><source datatype='string'>Genes Dev 20(13);1776-89</source>
+<pubmed-id datatype='string'>16818608</pubmed-id>
+<title datatype='string'>Regulon and promoter analysis of the E. coli heat-shock factor, sigma32, reveals a multifaceted cellular response to heat stress.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Nonaka G</author>
+<author datatype='string'>Blankschien M</author>
+<author datatype='string'>Herman C</author>
+<author datatype='string'>Gross CA</author>
+<author datatype='string'>Rhodius VA</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-16892065' orgid='ECOLI' frameid='PUB-16892065' detail='full'><source datatype='string'>Nat Struct Mol Biol 13(9);806-14</source>
+<pubmed-id datatype='string'>16892065</pubmed-id>
+<title datatype='string'>Extensive functional overlap between sigma factors in Escherichia coli.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Wade JT</author>
+<author datatype='string'>Roa DC</author>
+<author datatype='string'>Grainger DC</author>
+<author datatype='string'>Hurd D</author>
+<author datatype='string'>Busby SJ</author>
+<author datatype='string'>Struhl K</author>
+<author datatype='string'>Nudler E</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3887408' orgid='ECOLI' frameid='PUB-3887408'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3887408' orgid='ECOLI' frameid='PUB-3887408'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference of promoter position</common-name>
+<comment datatype='string'>Automated inference of promoter position relative to the -10 and -35 boxes.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16818608' orgid='ECOLI' frameid='PUB-16818608'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from direct assay</common-name>
+<comment datatype='string'>IDA inferred from direct assay.
+
+&lt;br&gt;
+The assertion was inferred from a direct experimental assay such as
+&lt;ul&gt;
+    &lt;li&gt; Enzyme assays
+    &lt;li&gt; In vitro reconstitution (e.g. transcription)
+    &lt;li&gt; Immunofluorescence
+    &lt;li&gt; Cell fractionation
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16892065' orgid='ECOLI' frameid='PUB-16892065'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16892065' orgid='ECOLI' frameid='PUB-16892065'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-2900239' orgid='ECOLI' frameid='PUB-2900239'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' class='true'/><Publication resource='#ECOLI:PUB-3299380' orgid='ECOLI' frameid='PUB-3299380'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-10479' orgid='ECOLI' frameid='REG0-10479' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG10087-MONOMER' orgid='ECOLI' frameid='EG10087-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00340' orgid='ECOLI' frameid='PM00340'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>495066</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00401' orgid='ECOLI' frameid='TU00401'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10461' orgid='ECOLI' frameid='EG10461'/></component>
+</Transcription-Unit>
+</ptools-xml>

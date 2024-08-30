@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-1546'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-1546</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-1546' orgid='ECOLI' frameid='TU0-1546' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>aer</common-name>
+<comment datatype='string'>The &lt;i&gt;trg&lt;/i&gt;p1 and &lt;i&gt;aer&lt;/i&gt;p promoters are the only &lt;i&gt;Escherichia coli&lt;/i&gt; &amp;sigma;&lt;sup&gt;28&lt;/sup&gt; promoters that are activated by CRP [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/19843224&quot;&gt;Hollands10&lt;/a&gt;].
+&lt;p&gt;
+J. Oberto in 2010 identified a possible binding site for NagC, GTTAATTATCTTGCCCAAAAATC, in the intergenic region of the divergent genes &lt;i&gt;aer&lt;/i&gt; and &lt;i&gt;patA&lt;/i&gt;. This demonstration was based on different statistical methods [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/21070640&quot;&gt;Oberto10&lt;/a&gt;], but it is not known if NagC regulates transcription in both directions.</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SINGLE-DIRECTON' orgid='ECOLI' frameid='EV-COMP-AINF-SINGLE-DIRECTON' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference that a single-gene directon is a transcription unit </common-name>
+<comment datatype='string'>Automated inference of transcription unit based on single-gene directon.  Existence of a single-gene transcription unit 
+for gene G is inferred computationally by the existence of upstream and downstream genes transcribed in the 
+opposite direction of G.</comment>
+</Evidence-Code>
+</evidence>
+<component><DNA-Binding-Site ID='ECOLI:BS0-7152' orgid='ECOLI' frameid='BS0-7152' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6415' orgid='ECOLI' frameid='REG0-6415' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7797' orgid='ECOLI' frameid='CPLX0-7797'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-1727' orgid='ECOLI' frameid='PM0-1727' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>3219126</minus-10-left>
+<common-name datatype='string'>aerp</common-name>
+<minus-35-right datatype='integer'>3219152</minus-35-right>
+<minus-35-left datatype='integer'>3219148</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:EG11355-MONOMER' orgid='ECOLI' frameid='EG11355-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3219120</absolute-plus-1-pos>
+<comment datatype='string'>The conservation of the spacing between the DNA site for CRP and the  -10 and  -35 elements at the &lt;i&gt;aer&lt;/i&gt; and &lt;i&gt;trg&lt;/i&gt; promoters suggests that the mechanisms of transcription activation at the two promoters are similar [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/19843224&quot;&gt;Hollands10&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-11520622' orgid='ECOLI' frameid='PUB-11520622' detail='full'><source datatype='string'>FEMS Microbiol Lett 202(2);243-50</source>
+<pubmed-id datatype='string'>11520622</pubmed-id>
+<title datatype='string'>Novel sigmaF-dependent genes of Escherichia coli found using a specified promoter consensus.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Park K</author>
+<author datatype='string'>Choi S</author>
+<author datatype='string'>Ko M</author>
+<author datatype='string'>Park C</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-11104815' orgid='ECOLI' frameid='PUB-11104815' detail='full'><source datatype='string'>Microbiol Mol Biol Rev 64(4);694-708</source>
+<pubmed-id datatype='string'>11104815</pubmed-id>
+<title datatype='string'>Coupling of flagellar gene expression to flagellar assembly in Salmonella enterica serovar typhimurium and Escherichia coli.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Chilcott GS</author>
+<author datatype='string'>Hughes KT</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-19843224' orgid='ECOLI' frameid='PUB-19843224' detail='full'><source datatype='string'>Mol Microbiol 75(5);1098-111</source>
+<pubmed-id datatype='string'>19843224</pubmed-id>
+<title datatype='string'>Activation of sigma 28-dependent transcription in Escherichia coli by the cyclic AMP receptor protein requires an unusual promoter organization.</title>
+<year datatype='integer'>2010</year>
+<author datatype='string'>Hollands K</author>
+<author datatype='string'>Lee DJ</author>
+<author datatype='string'>Lloyd GS</author>
+<author datatype='string'>Busby SJ</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11520622' orgid='ECOLI' frameid='PUB-11520622'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-19843224' orgid='ECOLI' frameid='PUB-19843224'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-9049' orgid='ECOLI' frameid='REG0-9049' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-1727' orgid='ECOLI' frameid='PM0-1727'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-6415' orgid='ECOLI' frameid='REG0-6415'/></regulated-by>
+<minus-10-right datatype='integer'>3219133</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-1546' orgid='ECOLI' frameid='TU0-1546'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-16377617' orgid='ECOLI' frameid='PUB-16377617' detail='full'><source datatype='string'>J Biol Chem 281(8);4802-15</source>
+<pubmed-id datatype='string'>16377617</pubmed-id>
+<title datatype='string'>A reassessment of the FNR regulon and transcriptomic analysis of the effects of nitrate, nitrite, NarXL, and NarQP as Escherichia coli K12 adapts from aerobic to anaerobic growth.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Constantinidou C</author>
+<author datatype='string'>Hobman JL</author>
+<author datatype='string'>Griffiths L</author>
+<author datatype='string'>Patel MD</author>
+<author datatype='string'>Penn CW</author>
+<author datatype='string'>Cole JA</author>
+<author datatype='string'>Overton TW</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on similarity to consensus sequences</common-name>
+<comment datatype='string'>A DNA sequence similar to previously known consensus sequences is computationally identified.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16377617' orgid='ECOLI' frameid='PUB-16377617'/></evidence>
+<abs-center-pos datatype='float'>3219169.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-1546' orgid='ECOLI' frameid='TU0-1546'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:G7595' orgid='ECOLI' frameid='G7595'/></component>
+<component><Promoter resource='#ECOLI:PM0-1727' orgid='ECOLI' frameid='PM0-1727'/></component>
+</Transcription-Unit>
+</ptools-xml>

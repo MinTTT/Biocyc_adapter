@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42454'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42454</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42454' orgid='ECOLI' frameid='TU0-42454' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>appY</common-name>
+<comment datatype='string'>appY is positively regulated by RpoS and ArcA in anaerobiosis and also is induced by phosphate starvation and during entry into stationary phase [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/9079897&quot;&gt;Atlung97&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/8626281&quot;&gt;Brondsted96&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-21398637' orgid='ECOLI' frameid='PUB-21398637' detail='full'><source datatype='string'>Nucleic Acids Res 39(13);5338-55</source>
+<pubmed-id datatype='string'>21398637</pubmed-id>
+<title datatype='string'>In vitro transcription profiling of the &amp;sigma;S subunit of bacterial RNA polymerase: re-definition of the &amp;sigma;S regulon and identification of &amp;sigma;S-specific promoter sequence elements.</title>
+<year datatype='integer'>2011</year>
+<author datatype='string'>Maciag A</author>
+<author datatype='string'>Peano C</author>
+<author datatype='string'>Pietrelli A</author>
+<author datatype='string'>Egli T</author>
+<author datatype='string'>De Bellis G</author>
+<author datatype='string'>Landini P</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-21398637' orgid='ECOLI' frameid='PUB-21398637'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG10050' orgid='ECOLI' frameid='EG10050'/></component>
+<component><Promoter ID='ECOLI:PM0-46131' orgid='ECOLI' frameid='PM0-46131' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>583640</minus-10-left>
+<common-name datatype='string'>appYp2</common-name>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>583656</absolute-plus-1-pos>
+<comment datatype='string'>Based on ChIP-microarray analysis, it was shown that StpA binds to the promoter region in &lt;i&gt;appY&lt;/i&gt;p2 [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/8655536&quot;&gt;Atlung96&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/19151137&quot;&gt;Uyar09&lt;/a&gt;]. qRT-PCR revealed a strong 75-fold repression of &lt;i&gt;appY&lt;/i&gt; by H-NS and more than 1,000-fold repression by H-NS/StpA [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/29424946&quot;&gt;Rangarajan18&lt;/a&gt;].
+&lt;p&gt;
+Transcription directed across H-NS binding regions relieves H-NS-mediated (and H-NS/StpA-mediated) repression of promoters such as &lt;i&gt;proV&lt;/i&gt;p3, &lt;i&gt;pdeL&lt;/i&gt;p3, and &lt;i&gt;appY&lt;/i&gt;p2, and there is a correlation between transcription across the H-NS-bound region and derepression where RNA polymerase is able to remodel the H-NS complex and/or dislodge H-NS from the DNA and thus relieve repression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/29424946&quot;&gt;Rangarajan18&lt;/a&gt;].
+</comment>
+<citation><Publication resource='#ECOLI:PUB-21398637' orgid='ECOLI' frameid='PUB-21398637'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' orgid='ECOLI' frameid='EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>High-throughput transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified using a high-throughput experimental modified RACE approach.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-21398637' orgid='ECOLI' frameid='PUB-21398637'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12698' orgid='ECOLI' frameid='REG0-12698' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-ARCA' orgid='ECOLI' frameid='PHOSPHO-ARCA'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46131' orgid='ECOLI' frameid='PM0-46131'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>583650</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42454' orgid='ECOLI' frameid='TU0-42454'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

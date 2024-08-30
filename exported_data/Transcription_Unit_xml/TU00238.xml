@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00238'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00238</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00238' orgid='ECOLI' frameid='TU00238' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ansA-pncA</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-2670682' orgid='ECOLI' frameid='PUB-2670682' detail='full'><source datatype='string'>Gene 78(1);37-46</source>
+<pubmed-id datatype='string'>2670682</pubmed-id>
+<title datatype='string'>Structure and expression in Escherichia coli K-12 of the L-asparaginase I-encoding ansA gene and its flanking regions.</title>
+<year datatype='integer'>1989</year>
+<author datatype='string'>Jerlstrom PG</author>
+<author datatype='string'>Bezjak DA</author>
+<author datatype='string'>Jennings MP</author>
+<author datatype='string'>Beacham IR</author>
+</Publication>
+</citation>
+<component><Gene resource='getxml?ECOLI:EG11135' orgid='ECOLI' frameid='EG11135'/></component>
+<component><Gene resource='getxml?ECOLI:EG10045' orgid='ECOLI' frameid='EG10045'/></component>
+</Transcription-Unit>
+</ptools-xml>

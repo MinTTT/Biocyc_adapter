@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00224'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00224</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00224' orgid='ECOLI' frameid='TU00224' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>serA</common-name>
+<synonym datatype='string'>OP00315</synonym>
+<comment datatype='string'>The &lt;i&gt;serA&lt;/i&gt; gene codes for 3-phosphoglycerate dehydrogenase, which catalyzes the first step in the biosynthesis of serine from glucose [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/3017965&quot;&gt;Tobey86&lt;/a&gt;]. It was observed that the &lt;i&gt;serA&lt;/i&gt; gene is repressed by the Nac protein and that there are two Nac-binding sites overlapping the serAp1 promoter [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12123449&quot;&gt;Blauwkamp02&lt;/a&gt;]. Therefore, we linked this regulation to the serAp1 promoter; however, the serAp2 promoter could be also affected by Nac. [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12123449&quot;&gt;Blauwkamp02&lt;/a&gt;] et al. hypothesized that Nac represses serine biosynthesis, through the repression of &lt;i&gt;serA&lt;/i&gt;, as part of a cellular mechanism to reduce metabolism when cells become starved for nitrogen. On the other hand, there is indirect evidence of Lrp regulating &lt;i&gt;serA&lt;/i&gt; transcription (gene expression analysis) [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/2165479&quot;&gt;Tuan90&lt;/a&gt;], but no further studies have been done to prove a direct interaction.
+&lt;p&gt;
+Based on genome-wide analysis, 472 single-gene knockouts were studied to determine their anaerobic fermentation products, based on the control of redox reactions. It was determined that the combined knockout of the &lt;i&gt;guaB&lt;/i&gt;, &lt;i&gt;pyrD&lt;/i&gt;, &lt;i&gt;serA&lt;/i&gt;, &lt;i&gt;fnr&lt;/i&gt;, &lt;i&gt;arcA&lt;/i&gt;, and &lt;i&gt;arcB&lt;/i&gt; genes enhanced D-lactate overproduction [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23563322&quot;&gt;Kim13b&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-3017965' orgid='ECOLI' frameid='PUB-3017965' detail='full'><source datatype='string'>J Biol Chem 261(26);12179-83</source>
+<pubmed-id datatype='string'>3017965</pubmed-id>
+<title datatype='string'>The nucleotide sequence of the serA gene of Escherichia coli and the amino acid sequence of the encoded protein, D-3-phosphoglycerate dehydrogenase.</title>
+<year datatype='integer'>1986</year>
+<author datatype='string'>Tobey KL</author>
+<author datatype='string'>Grant GA</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-2165479' orgid='ECOLI' frameid='PUB-2165479' detail='full'><source datatype='string'>J Bacteriol 172(8);4529-35</source>
+<pubmed-id datatype='string'>2165479</pubmed-id>
+<title datatype='string'>The leucine regulon of Escherichia coli K-12: a mutation in rblA alters expression of L-leucine-dependent metabolic operons.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>Tuan LR</author>
+<author datatype='string'>D'Ari R</author>
+<author datatype='string'>Newman EB</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-7968922' orgid='ECOLI' frameid='PUB-7968922' detail='full'><source datatype='string'>Microbiol Rev 58(3);466-90</source>
+<pubmed-id datatype='string'>7968922</pubmed-id>
+<title datatype='string'>The leucine-responsive regulatory protein, a global regulator of metabolism in Escherichia coli.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Calvo JM</author>
+<author datatype='string'>Matthews RG</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3017965' orgid='ECOLI' frameid='PUB-3017965'/></evidence>
+<component><DNA-Binding-Site ID='ECOLI:BS0-7230' orgid='ECOLI' frameid='BS0-7230' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-5565' orgid='ECOLI' frameid='REG0-5565' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:G7072-MONOMER' orgid='ECOLI' frameid='G7072-MONOMER'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM00308' orgid='ECOLI' frameid='PM00308' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>3058463</minus-10-left>
+<common-name datatype='string'>serAp1</common-name>
+<minus-35-right datatype='integer'>3058490</minus-35-right>
+<minus-35-left datatype='integer'>3058485</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3058456</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-11985712' orgid='ECOLI' frameid='PUB-11985712' detail='full'><source datatype='string'>Mol Microbiol 2002;43(2);323-33</source>
+<pubmed-id datatype='string'>11985712</pubmed-id>
+<title datatype='string'>Structure of the Lrp-regulated serA promoter of Escherichia coli K-12.</title>
+<year datatype='integer'>2002</year>
+<author datatype='string'>Yang L</author>
+<author datatype='string'>Lin RT</author>
+<author datatype='string'>Newman EB</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11985712' orgid='ECOLI' frameid='PUB-11985712'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11985712' orgid='ECOLI' frameid='PUB-11985712'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from mutant phenotype</common-name>
+<comment datatype='string'>IMP inferred from mutant phenotype.
+
+&lt;br&gt;
+The assertion was inferred from a mutant phenotype such as
+&lt;ul&gt;
+    &lt;li&gt; Any gene mutation/knockout
+    &lt;li&gt; Overexpression/ectopic expression of wild-type or mutant genes
+    &lt;li&gt; Anti-sense experiments
+    &lt;li&gt; RNA interference experiments
+    &lt;li&gt; Specific protein inhibitors
+    &lt;li&gt; Complementation
+&lt;/ul&gt;&lt;p class=ecocomment&gt;	
+Comment: Inferences made from examining mutations or
+abnormal levels of only the product(s) of the gene of interest are covered by code EV-IMP
+(compare to code EV-IGI). Use this code for experiments that use antibodies 
+or other specific inhibitors of RNA or protein activity, even though no
+gene may be mutated (the rationale is that EV-IMP is used where an
+abnormal situation prevails in a cell or organism).
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11985712' orgid='ECOLI' frameid='PUB-11985712'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-5566' orgid='ECOLI' frameid='REG0-5566' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:G7072-MONOMER' orgid='ECOLI' frameid='G7072-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00308' orgid='ECOLI' frameid='PM00308'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-5565' orgid='ECOLI' frameid='REG0-5565'/><Regulation ID='ECOLI:REG0-5564' orgid='ECOLI' frameid='REG0-5564' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00353' orgid='ECOLI' frameid='PD00353'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00308' orgid='ECOLI' frameid='PM00308'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>3058468</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00224' orgid='ECOLI' frameid='TU00224'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-12123449' orgid='ECOLI' frameid='PUB-12123449' detail='full'><source datatype='string'>Mol Microbiol 45(2);351-63</source>
+<pubmed-id datatype='string'>12123449</pubmed-id>
+<title datatype='string'>Nac-mediated repression of the serA promoter of Escherichia coli.</title>
+<year datatype='integer'>2002</year>
+<author datatype='string'>Blauwkamp TA</author>
+<author datatype='string'>Ninfa AJ</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12123449' orgid='ECOLI' frameid='PUB-12123449'/></evidence>
+<abs-center-pos datatype='integer'>3058486</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00224' orgid='ECOLI' frameid='TU00224'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-7229' orgid='ECOLI' frameid='BS0-7229' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5566' orgid='ECOLI' frameid='REG0-5566'/></involved-in-regulation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-PATTERN-DISCOVERY' orgid='ECOLI' frameid='EV-COMP-AINF-PATTERN-DISCOVERY' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on sequence pattern discovery</common-name>
+<credits><imported-from-meta><date datatype='date'>2018-03-07</date>
+<Person ID='ECOLI:paley' orgid='ECOLI' frameid='paley' detail='full'><affiliations><Organization ID='ECOLI:SRI' orgid='ECOLI' frameid='SRI' detail='full'><abbrev-name datatype='string'>SRI International</abbrev-name>
+<email datatype='string'>ptools-support@ai.sri.com</email>
+<common-name datatype='string'>SRI International</common-name>
+<url datatype='string'>http://bioinformatics.ai.sri.com/</url>
+</Organization>
+</affiliations>
+<common-name datatype='string'>Suzanne Paley</common-name>
+</Person>
+<Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A sequence found by pattern discovery using computational methods.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-28061857' orgid='ECOLI' frameid='PUB-28061857' detail='full'><source datatype='string'>BMC Syst Biol 11(1);1</source>
+<pubmed-id datatype='string'>28061857</pubmed-id>
+<title datatype='string'>Coordinated regulation of acid resistance in Escherichia coli.</title>
+<year datatype='integer'>2017</year>
+<author datatype='string'>Aquino P</author>
+<author datatype='string'>Honda B</author>
+<author datatype='string'>Jaini S</author>
+<author datatype='string'>Lyubetskaya A</author>
+<author datatype='string'>Hosur K</author>
+<author datatype='string'>Chiu JG</author>
+<author datatype='string'>Ekladious I</author>
+<author datatype='string'>Hu D</author>
+<author datatype='string'>Jin L</author>
+<author datatype='string'>Sayeg MK</author>
+<author datatype='string'>Stettner AI</author>
+<author datatype='string'>Wang J</author>
+<author datatype='string'>Wong BG</author>
+<author datatype='string'>Wong WS</author>
+<author datatype='string'>Alexander SL</author>
+<author datatype='string'>Ba C</author>
+<author datatype='string'>Bensussen SI</author>
+<author datatype='string'>Bernstein DB</author>
+<author datatype='string'>Braff D</author>
+<author datatype='string'>Cha S</author>
+<author datatype='string'>Cheng DI</author>
+<author datatype='string'>Cho JH</author>
+<author datatype='string'>Chou K</author>
+<author datatype='string'>Chuang J</author>
+<author datatype='string'>Gastler DE</author>
+<author datatype='string'>Grasso DJ</author>
+<author datatype='string'>Greifenberger JS</author>
+<author datatype='string'>Guo C</author>
+<author datatype='string'>Hawes AK</author>
+<author datatype='string'>Israni DV</author>
+<author datatype='string'>Jain SR</author>
+<author datatype='string'>Kim J</author>
+<author datatype='string'>Lei J</author>
+<author datatype='string'>Li H</author>
+<author datatype='string'>Li D</author>
+<author datatype='string'>Li Q</author>
+<author datatype='string'>Mancuso CP</author>
+<author datatype='string'>Mao N</author>
+<author datatype='string'>Masud SF</author>
+<author datatype='string'>Meisel CL</author>
+<author datatype='string'>Mi J</author>
+<author datatype='string'>Nykyforchyn CS</author>
+<author datatype='string'>Park M</author>
+<author datatype='string'>Peterson HM</author>
+<author datatype='string'>Ramirez AK</author>
+<author datatype='string'>Reynolds DS</author>
+<author datatype='string'>Rim NG</author>
+<author datatype='string'>Saffie JC</author>
+<author datatype='string'>Su H</author>
+<author datatype='string'>Su WR</author>
+<author datatype='string'>Su Y</author>
+<author datatype='string'>Sun M</author>
+<author datatype='string'>Thommes MM</author>
+<author datatype='string'>Tu T</author>
+<author datatype='string'>Varongchayakul N</author>
+<author datatype='string'>Wagner TE</author>
+<author datatype='string'>Weinberg BH</author>
+<author datatype='string'>Yang R</author>
+<author datatype='string'>Yaroslavsky A</author>
+<author datatype='string'>Yoon C</author>
+<author datatype='string'>Zhao Y</author>
+<author datatype='string'>Zollinger AJ</author>
+<author datatype='string'>Stringer AM</author>
+<author datatype='string'>Foster JW</author>
+<author datatype='string'>Wade J</author>
+<author datatype='string'>Raman S</author>
+<author datatype='string'>Broude N</author>
+<author datatype='string'>Wong WW</author>
+<author datatype='string'>Galagan JE</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-CHIP-SEQ' orgid='ECOLI' frameid='EV-EXP-CHIP-SEQ' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-HTP-HDA-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-HTP-HDA-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>High-throughput ChIP-seq evidence</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0000229</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0000229</dblink-URL>
+</dblink>
+<comment datatype='string'>A type of chromatin immunoprecipation evidence that uses high-throughput sequencing where immunoprecipitated DNA fragments are funnelled into a massively parallel sequencer to produce multiple short reads for locating binding sites of DNA-associated proteins. This evidence can be used to probe the binding of proteins, such as transcription factors or RNA polymerase, to DNA.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-28061857' orgid='ECOLI' frameid='PUB-28061857'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-12123449' orgid='ECOLI' frameid='PUB-12123449'/></evidence>
+<abs-center-pos datatype='integer'>3058475</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00224' orgid='ECOLI' frameid='TU00224'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Promoter resource='#ECOLI:PM00308' orgid='ECOLI' frameid='PM00308'/></component>
+<component><DNA-Binding-Site ID='ECOLI:BS00536' orgid='ECOLI' frameid='BS00536' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5564' orgid='ECOLI' frameid='REG0-5564'/></involved-in-regulation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-CHIP-SEQ' orgid='ECOLI' frameid='EV-EXP-CHIP-SEQ' class='true'/><Publication ID='ECOLI:PUB-30420454' orgid='ECOLI' frameid='PUB-30420454' detail='full'><source datatype='string'>J Bacteriol 201(3)</source>
+<pubmed-id datatype='string'>30420454</pubmed-id>
+<title datatype='string'>&lt;i&gt;Escherichia coli&lt;/i&gt; Lrp Regulates One-Third of the Genome via Direct, Cooperative, and Indirect Routes.</title>
+<year datatype='integer'>2019</year>
+<author datatype='string'>Kroner GM</author>
+<author datatype='string'>Wolfe MB</author>
+<author datatype='string'>Freddolino PL</author>
+<doi-id datatype='string'>10.1128/JB.00411-18</doi-id>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+</evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU00224' orgid='ECOLI' frameid='TU00224'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10944' orgid='ECOLI' frameid='EG10944'/></component>
+</Transcription-Unit>
+</ptools-xml>

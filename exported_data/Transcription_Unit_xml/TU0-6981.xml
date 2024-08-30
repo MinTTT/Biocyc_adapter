@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-6981'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-6981</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-6981' orgid='ECOLI' frameid='TU0-6981' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>cspI</common-name>
+<comment datatype='string'>The &lt;i&gt;cspI&lt;/i&gt; gene was significantly upregulated in bacterial cells associated with lettuce roots in a microarray analysis [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/22830299&quot;&gt;Hou12&lt;/a&gt;].
+&lt;p&gt;
+In spite of showing a match to the consensus CRP, &lt;i&gt;cspB, cspG,&lt;/i&gt; and &lt;i&gt;cspI&lt;/i&gt; are regulated indirectly by CRP-cAMP during growth at 37&lt;sup&gt;o&lt;/sup&gt;C as well as 15&lt;sup&gt;o&lt;/sup&gt;C  [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/25637299&quot;&gt;Uppal15&lt;/a&gt;]. It is probable that putative sites in these genes have become degenerate and have lost the binding function during the evolutionary process [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/25637299&quot;&gt;Uppal15&lt;/a&gt;].
+&lt;p&gt;
+The &lt;i&gt;cspI&lt;/i&gt; gene is highly expressed in long-term stationary phase (LTSP)  [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/32753505&quot;&gt;Kram20&lt;/a&gt;].
+&lt;p&gt;
+It was determined by Genomic SELEX screening that the upstream region of the gene &lt;i&gt;cspI&lt;/i&gt; is a target of the transcriptional factor CusR  [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/34220787&quot;&gt;Shimada21a&lt;/a&gt;].
+&lt;p&gt;
+</comment>
+<component><Gene resource='getxml?ECOLI:G6825' orgid='ECOLI' frameid='G6825'/></component>
+<component><Promoter ID='ECOLI:PM0-7321' orgid='ECOLI' frameid='PM0-7321' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>cspIp1</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1638812</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-10049393' orgid='ECOLI' frameid='PUB-10049393' detail='full'><source datatype='string'>J Bacteriol 181(5);1603-9</source>
+<pubmed-id datatype='string'>10049393</pubmed-id>
+<title datatype='string'>CspI, the ninth member of the CspA family of Escherichia coli, is induced upon cold shock.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>Wang N</author>
+<author datatype='string'>Yamanaka K</author>
+<author datatype='string'>Inouye M</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10049393' orgid='ECOLI' frameid='PUB-10049393'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11582' orgid='ECOLI' frameid='REG0-11582' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-BASR' orgid='ECOLI' frameid='PHOSPHO-BASR'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-7321' orgid='ECOLI' frameid='PM0-7321'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-9355' orgid='ECOLI' frameid='REG0-9355' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-7321' orgid='ECOLI' frameid='PM0-7321'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-9354' orgid='ECOLI' frameid='REG0-9354' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-7321' orgid='ECOLI' frameid='PM0-7321'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-9353' orgid='ECOLI' frameid='REG0-9353' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-7321' orgid='ECOLI' frameid='PM0-7321'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-9352' orgid='ECOLI' frameid='REG0-9352' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-7321' orgid='ECOLI' frameid='PM0-7321'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-9351' orgid='ECOLI' frameid='REG0-9351' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-7321' orgid='ECOLI' frameid='PM0-7321'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-9350' orgid='ECOLI' frameid='REG0-9350' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-7321' orgid='ECOLI' frameid='PM0-7321'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-6981' orgid='ECOLI' frameid='TU0-6981'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

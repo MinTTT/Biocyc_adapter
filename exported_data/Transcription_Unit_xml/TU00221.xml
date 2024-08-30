@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00221'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00221</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00221' orgid='ECOLI' frameid='TU00221' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>lysU</common-name>
+<synonym datatype='string'>OP00312</synonym>
+<comment datatype='string'>It is probable that &lt;i&gt;lysU&lt;/i&gt; constitutes an operon with the gene immediately 5' upstream.  Further study is needed to clarify the nature of the transcripts containing the LysU message and to define their regulation. The &lt;i&gt;lysU&lt;/i&gt; gene is usually silently expressed.</comment>
+<citation><Publication ID='ECOLI:PUB-2188953' orgid='ECOLI' frameid='PUB-2188953' detail='full'><source datatype='string'>J Bacteriol 172(6);3237-43</source>
+<pubmed-id datatype='string'>2188953</pubmed-id>
+<title datatype='string'>Roles of the two lysyl-tRNA synthetases of Escherichia coli: analysis of nucleotide sequences and mutant behavior.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>Clark RL</author>
+<author datatype='string'>Neidhardt FC</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-1744045' orgid='ECOLI' frameid='PUB-1744045' detail='full'><source datatype='string'>J Bacteriol 173(24);7903-10</source>
+<pubmed-id datatype='string'>1744045</pubmed-id>
+<title datatype='string'>Control of Escherichia coli lysyl-tRNA synthetase expression by anaerobiosis.</title>
+<year datatype='integer'>1991</year>
+<author datatype='string'>Leveque F</author>
+<author datatype='string'>Gazeau M</author>
+<author datatype='string'>Fromant M</author>
+<author datatype='string'>Blanquet S</author>
+<author datatype='string'>Plateau P</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-7603430' orgid='ECOLI' frameid='PUB-7603430' detail='full'><source datatype='string'>Mol Gen Genet 247(5);521-8</source>
+<pubmed-id datatype='string'>7603430</pubmed-id>
+<title datatype='string'>Regulation of lrp gene expression by H-NS and Lrp proteins in Escherichia coli: dominant negative mutations in lrp.</title>
+<year datatype='integer'>1995</year>
+<author datatype='string'>Oshima T</author>
+<author datatype='string'>Ito K</author>
+<author datatype='string'>Kabayama H</author>
+<author datatype='string'>Nakamura Y</author>
+</Publication>
+</citation>
+<component><Promoter ID='ECOLI:PM00305' orgid='ECOLI' frameid='PM00305' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>4354807</minus-10-left>
+<common-name datatype='string'>lysUp1</common-name>
+<minus-35-right datatype='integer'>4354839</minus-35-right>
+<minus-35-left datatype='integer'>4354834</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4354805</absolute-plus-1-pos>
+<comment datatype='string'>The putative promoter sequence immediately 5' to the &lt;i&gt;lysU&lt;/i&gt; coding sequence is dissimilar to the sequences of known heat shock promoters and the heat shock promoter consensus sequence; its similarity  is greater to sequences of strong &amp;sigma;&lt;sup&gt;70&lt;/sup&gt; promoters. This region has a score of 59 as a &amp;sigma;&lt;sup&gt;70&lt;/sup&gt; promoter when evaluated by the method of Mulligan et al. By this criterion it is a strong promoter.</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-2188953' orgid='ECOLI' frameid='PUB-2188953'/></citation>
+<citation><Publication resource='#ECOLI:PUB-1744045' orgid='ECOLI' frameid='PUB-1744045'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2188953' orgid='ECOLI' frameid='PUB-2188953'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1744045' orgid='ECOLI' frameid='PUB-1744045'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-5989' orgid='ECOLI' frameid='REG0-5989' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00353' orgid='ECOLI' frameid='PD00353'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00305' orgid='ECOLI' frameid='PM00305'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>4354812</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00221' orgid='ECOLI' frameid='TU00221'/></component-of>
+</Promoter>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS00531' orgid='ECOLI' frameid='BS00531' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5989' orgid='ECOLI' frameid='REG0-5989'/></involved-in-regulation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-CHIP-SEQ' orgid='ECOLI' frameid='EV-EXP-CHIP-SEQ' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-HTP-HDA-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-HTP-HDA-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>High-throughput ChIP-seq evidence</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0000229</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0000229</dblink-URL>
+</dblink>
+<comment datatype='string'>A type of chromatin immunoprecipation evidence that uses high-throughput sequencing where immunoprecipitated DNA fragments are funnelled into a massively parallel sequencer to produce multiple short reads for locating binding sites of DNA-associated proteins. This evidence can be used to probe the binding of proteins, such as transcription factors or RNA polymerase, to DNA.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-30420454' orgid='ECOLI' frameid='PUB-30420454' detail='full'><source datatype='string'>J Bacteriol 201(3)</source>
+<pubmed-id datatype='string'>30420454</pubmed-id>
+<title datatype='string'>&lt;i&gt;Escherichia coli&lt;/i&gt; Lrp Regulates One-Third of the Genome via Direct, Cooperative, and Indirect Routes.</title>
+<year datatype='integer'>2019</year>
+<author datatype='string'>Kroner GM</author>
+<author datatype='string'>Wolfe MB</author>
+<author datatype='string'>Freddolino PL</author>
+<doi-id datatype='string'>10.1128/JB.00411-18</doi-id>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Site mutation</common-name>
+<comment datatype='string'>A cis-mutation in the DNA sequence of the transcription-factor binding site interferes with the operation of the regulatory function. This is considered  strong evidence for the existence and functional role of the DNA binding site.</comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-1532173' orgid='ECOLI' frameid='PUB-1532173' detail='full'><source datatype='string'>J Bacteriol 174(6);1948-55</source>
+<pubmed-id datatype='string'>1532173</pubmed-id>
+<title datatype='string'>Lambda placMu insertions in genes of the leucine regulon: extension of the regulon to genes not regulated by leucine.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Lin R</author>
+<author datatype='string'>D'Ari R</author>
+<author datatype='string'>Newman EB</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-7603430' orgid='ECOLI' frameid='PUB-7603430'/></citation>
+<citation><Publication ID='ECOLI:PUB-8521047' orgid='ECOLI' frameid='PUB-8521047' detail='full'><source datatype='string'>Comput Appl Biosci 11(4);379-87</source>
+<pubmed-id datatype='string'>8521047</pubmed-id>
+<title datatype='string'>Identification of common motifs in unaligned DNA sequences: application to Escherichia coli Lrp regulon.</title>
+<year datatype='integer'>1995</year>
+<author datatype='string'>Fraenkel YM</author>
+<author datatype='string'>Mandel Y</author>
+<author datatype='string'>Friedberg D</author>
+<author datatype='string'>Margalit H</author>
+</Publication>
+</citation>
+<abs-center-pos datatype='integer'>4354863</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00221' orgid='ECOLI' frameid='TU00221'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10553' orgid='ECOLI' frameid='EG10553'/></component>
+</Transcription-Unit>
+</ptools-xml>

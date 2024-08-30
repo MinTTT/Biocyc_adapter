@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00435'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00435</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00435' orgid='ECOLI' frameid='TU00435' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rpsU-dnaG-rpoD</common-name>
+<comment datatype='string'>The unusual &lt;i&gt;rpsU&lt;/i&gt;-&lt;i&gt;dnaG&lt;/i&gt;-&lt;i&gt;rpoD&lt;/i&gt; operon, conserved in different gram-negative bacteria, participates in macromolecular synthesis [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/8316085&quot;&gt;Versalovic93&lt;/a&gt;]. The &lt;i&gt;rpsU&lt;/i&gt; gene encodes the S21 protein, which is a component of the 30S subunit of the ribosome, the &lt;i&gt;dnaG&lt;/i&gt; gene encodes a DNA primase that catalyzes the synthesis of RNA primers on single-stranded template DNA, and the &lt;i&gt;rpoD&lt;/i&gt; gene encodes the primary &amp;sigma; factor that plays the most important role in promoter regulation during exponential growth (&amp;sigma;&lt;sup&gt;70&lt;/sup&gt;). As it can be seen, this operon comprises three essential genes, whose products represent each of the three different main cellular molecules (RNA, DNA, and protein). In this way, this operon comprises three existing information fluxes of the central dogma of molecular biology, and its products participate in indispensable functions: in the initiation of protein synthesis (S21) and RNA synthesis from different templates (DNA primase, single strand; &amp;sigma;&lt;sup&gt;70&lt;/sup&gt;, double strand) [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/8316085&quot;&gt;Versalovic93&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/6186393&quot;&gt;Burton83&lt;/a&gt;]. 
+&lt;p&gt;
+The coordinated expression of this operon is dependent on three tandem promoters, P1, P2, and P3, which are activated under different conditions [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/6206376&quot;&gt;Lupski84&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/2848013&quot;&gt;Nesin88&lt;/a&gt;]. However, the expression of individual &lt;i&gt;rpsU&lt;/i&gt; and &lt;i&gt;rpoD&lt;/i&gt; genes can be independently regulated by their own promoters. About the end of the operon, there are two terminators, an internal terminator (T1) in the intergenic region between the &lt;i&gt;rpsU&lt;/i&gt; gene and &lt;i&gt;dnaG&lt;/i&gt; gene and a rho-independent terminator at the end of the operon (T2). The internal terminator might respond to antitermination by the lambda phage N gene product.</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-6186393' orgid='ECOLI' frameid='PUB-6186393' detail='full'><source datatype='string'>Cell 32(2);335-49</source>
+<pubmed-id datatype='string'>6186393</pubmed-id>
+<title datatype='string'>The operon that encodes the sigma subunit of RNA polymerase also encodes ribosomal protein S21 and DNA primase in E. coli K12.</title>
+<year datatype='integer'>1983</year>
+<author datatype='string'>Burton ZF</author>
+<author datatype='string'>Gross CA</author>
+<author datatype='string'>Watanabe KK</author>
+<author datatype='string'>Burgess RR</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-6222240' orgid='ECOLI' frameid='PUB-6222240' detail='full'><source datatype='string'>Mol Gen Genet 189(1);48-57</source>
+<pubmed-id datatype='string'>6222240</pubmed-id>
+<title datatype='string'>Regulation of the rpsU-dnaG-rpoD macromolecular synthesis operon and the initiation of DNA replication in Escherichia coli K-12.</title>
+<year datatype='integer'>1983</year>
+<author datatype='string'>Lupski JR</author>
+<author datatype='string'>Smiley BL</author>
+<author datatype='string'>Godson GN</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-6206376' orgid='ECOLI' frameid='PUB-6206376' detail='full'><source datatype='string'>Mol Gen Genet 195(3);391-401</source>
+<pubmed-id datatype='string'>6206376</pubmed-id>
+<title datatype='string'>Promotion, termination, and anti-termination in the rpsU-dnaG-rpoD macromolecular synthesis operon of E. coli K-12.</title>
+<year datatype='integer'>1984</year>
+<author datatype='string'>Lupski JR</author>
+<author datatype='string'>Ruiz AA</author>
+<author datatype='string'>Godson GN</author>
+</Publication>
+</citation>
+<component><Terminator ID='ECOLI:TERM72' orgid='ECOLI' frameid='TERM72' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3214962</right-end-position>
+<left-end-position datatype='integer'>3214943</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-6186393' orgid='ECOLI' frameid='PUB-6186393'/></citation>
+<citation><Publication ID='ECOLI:PUB-6269063' orgid='ECOLI' frameid='PUB-6269063' detail='full'><source datatype='string'>Nucleic Acids Res 9(12);2889-903</source>
+<pubmed-id datatype='string'>6269063</pubmed-id>
+<title datatype='string'>The nucleotide sequence of the cloned rpoD gene for the RNA polymerase sigma subunit from E coli K12.</title>
+<year datatype='integer'>1981</year>
+<author datatype='string'>Burton Z</author>
+<author datatype='string'>Burgess RR</author>
+<author datatype='string'>Lin J</author>
+<author datatype='string'>Moore D</author>
+<author datatype='string'>Holder S</author>
+<author datatype='string'>Gross CA</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-6222240' orgid='ECOLI' frameid='PUB-6222240'/></citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU00438' orgid='ECOLI' frameid='TU00438'/><Transcription-Unit resource='getxml?ECOLI:TU00437' orgid='ECOLI' frameid='TU00437'/><Transcription-Unit resource='getxml?ECOLI:TU00436' orgid='ECOLI' frameid='TU00436'/><Transcription-Unit resource='#ECOLI:TU00435' orgid='ECOLI' frameid='TU00435'/><Transcription-Unit resource='getxml?ECOLI:TU00434' orgid='ECOLI' frameid='TU00434'/><Transcription-Unit resource='getxml?ECOLI:TU00352' orgid='ECOLI' frameid='TU00352'/></component-of>
+</Terminator>
+</component>
+<component><Promoter ID='ECOLI:PM00583' orgid='ECOLI' frameid='PM00583' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>3210723</minus-10-left>
+<common-name datatype='string'>rpsUp3</common-name>
+<minus-35-right datatype='integer'>3210713</minus-35-right>
+<minus-35-left datatype='integer'>3210705</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3210735</absolute-plus-1-pos>
+<comment datatype='string'>Transcription initiation from rpsUp2 and rpsUp3 allows for greater readthrough at the internal terminator, thus increasing the relative ratio of &lt;i&gt;dnaG&lt;/i&gt; and &lt;i&gt;rpoD&lt;/i&gt;. rpsUp2 overlaps rpsUp3. The rpsUp3 promoter is SOS inducible.</comment>
+<citation><Publication resource='#ECOLI:PUB-6222240' orgid='ECOLI' frameid='PUB-6222240'/></citation>
+<citation><Publication ID='ECOLI:PUB-21398637' orgid='ECOLI' frameid='PUB-21398637' detail='full'><source datatype='string'>Nucleic Acids Res 39(13);5338-55</source>
+<pubmed-id datatype='string'>21398637</pubmed-id>
+<title datatype='string'>In vitro transcription profiling of the &amp;sigma;S subunit of bacterial RNA polymerase: re-definition of the &amp;sigma;S regulon and identification of &amp;sigma;S-specific promoter sequence elements.</title>
+<year datatype='integer'>2011</year>
+<author datatype='string'>Maciag A</author>
+<author datatype='string'>Peano C</author>
+<author datatype='string'>Pietrelli A</author>
+<author datatype='string'>Egli T</author>
+<author datatype='string'>De Bellis G</author>
+<author datatype='string'>Landini P</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6222240' orgid='ECOLI' frameid='PUB-6222240'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' orgid='ECOLI' frameid='EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>High-throughput transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified using a high-throughput experimental modified RACE approach.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-21398637' orgid='ECOLI' frameid='PUB-21398637'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from mutant phenotype</common-name>
+<comment datatype='string'>IMP inferred from mutant phenotype.
+
+&lt;br&gt;
+The assertion was inferred from a mutant phenotype such as
+&lt;ul&gt;
+    &lt;li&gt; Any gene mutation/knockout
+    &lt;li&gt; Overexpression/ectopic expression of wild-type or mutant genes
+    &lt;li&gt; Anti-sense experiments
+    &lt;li&gt; RNA interference experiments
+    &lt;li&gt; Specific protein inhibitors
+    &lt;li&gt; Complementation
+&lt;/ul&gt;&lt;p class=ecocomment&gt;	
+Comment: Inferences made from examining mutations or
+abnormal levels of only the product(s) of the gene of interest are covered by code EV-IMP
+(compare to code EV-IGI). Use this code for experiments that use antibodies 
+or other specific inhibitors of RNA or protein activity, even though no
+gene may be mutated (the rationale is that EV-IMP is used where an
+abnormal situation prevails in a cell or organism).
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6222240' orgid='ECOLI' frameid='PUB-6222240'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-5384' orgid='ECOLI' frameid='REG0-5384' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PC00010' orgid='ECOLI' frameid='PC00010'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00583' orgid='ECOLI' frameid='PM00583'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>3210728</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00435' orgid='ECOLI' frameid='TU00435'/></component-of>
+</Promoter>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS00652' orgid='ECOLI' frameid='BS00652' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5384' orgid='ECOLI' frameid='REG0-5384'/></involved-in-regulation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of cellular extracts</common-name>
+<comment datatype='string'>There exists physical evidence of the binding of cellular extracts containing 
+a regulatory protein to its DNA binding site.  This can be either by 
+footprinting or mobility shift assays.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Site mutation</common-name>
+<comment datatype='string'>A cis-mutation in the DNA sequence of the transcription-factor binding site interferes with the operation of the regulatory function. This is considered  strong evidence for the existence and functional role of the DNA binding site.</comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-6222240' orgid='ECOLI' frameid='PUB-6222240'/></citation>
+<citation><Publication resource='#ECOLI:PUB-6206376' orgid='ECOLI' frameid='PUB-6206376'/></citation>
+<abs-center-pos datatype='float'>3210738.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00435' orgid='ECOLI' frameid='TU00435'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10920' orgid='ECOLI' frameid='EG10920'/></component>
+<component><Gene resource='getxml?ECOLI:EG10239' orgid='ECOLI' frameid='EG10239'/></component>
+<component><Gene resource='getxml?ECOLI:EG10896' orgid='ECOLI' frameid='EG10896'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-6515'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-6515</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-6515' orgid='ECOLI' frameid='TU0-6515' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ung</common-name>
+<citation><Publication ID='ECOLI:PUB-2836397' orgid='ECOLI' frameid='PUB-2836397' detail='full'><source datatype='string'>J Biol Chem 263(16);7776-84</source>
+<pubmed-id datatype='string'>2836397</pubmed-id>
+<title datatype='string'>Sequence analysis, expression, and conservation of Escherichia coli uracil DNA glycosylase and its gene (ung).</title>
+<year datatype='integer'>1988</year>
+<author datatype='string'>Varshney U</author>
+<author datatype='string'>Hutcheon T</author>
+<author datatype='string'>van de Sande JH</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2836397' orgid='ECOLI' frameid='PUB-2836397'/></evidence>
+<component><DNA-Binding-Site ID='ECOLI:BS0-6081' orgid='ECOLI' frameid='BS0-6081' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6136' orgid='ECOLI' frameid='REG0-6136' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7748' orgid='ECOLI' frameid='CPLX0-7748'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM00417' orgid='ECOLI' frameid='PM00417' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>ungp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2716738</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-2836397' orgid='ECOLI' frameid='PUB-2836397'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2836397' orgid='ECOLI' frameid='PUB-2836397'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2836397' orgid='ECOLI' frameid='PUB-2836397'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-6136' orgid='ECOLI' frameid='REG0-6136'/></regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-6515' orgid='ECOLI' frameid='TU0-6515'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-15576781' orgid='ECOLI' frameid='PUB-15576781' detail='full'><source datatype='string'>J Bacteriol 186(24);8317-25</source>
+<pubmed-id datatype='string'>15576781</pubmed-id>
+<title datatype='string'>Negative regulation of DNA repair gene (ung) expression by the CpxR/CpxA two-component system in Escherichia coli K-12 and induction of mutations by increased expression of CpxR.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Ogasawara H</author>
+<author datatype='string'>Teramoto J</author>
+<author datatype='string'>Hirao K</author>
+<author datatype='string'>Yamamoto K</author>
+<author datatype='string'>Ishihama A</author>
+<author datatype='string'>Utsumi R</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of cellular extracts</common-name>
+<comment datatype='string'>There exists physical evidence of the binding of cellular extracts containing 
+a regulatory protein to its DNA binding site.  This can be either by 
+footprinting or mobility shift assays.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15576781' orgid='ECOLI' frameid='PUB-15576781'/></evidence>
+<site-length datatype='integer'>15</site-length>
+<abs-center-pos datatype='integer'>2716657</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-6515' orgid='ECOLI' frameid='TU0-6515'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11058' orgid='ECOLI' frameid='EG11058'/></component>
+<component><Promoter resource='#ECOLI:PM00417' orgid='ECOLI' frameid='PM00417'/></component>
+</Transcription-Unit>
+</ptools-xml>

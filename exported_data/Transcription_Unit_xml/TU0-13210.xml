@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-13210'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-13210</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-13210' orgid='ECOLI' frameid='TU0-13210' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>puuDRCBE</common-name>
+<comment datatype='string'>PuuR repress the expression of &lt;i&gt;puuD&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/15590624&quot;&gt;Kurihara05&lt;/a&gt;].
+&lt;p&gt;
+The expression of &lt;i&gt;puuD&lt;/i&gt; is induced by putrescine and O&lt;sub&gt;2&lt;/sub&gt;; and reduced by succinate or NH&lt;sub&gt;4&lt;/sub&gt;Cl [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16499623&quot;&gt;Kurihara06&lt;/a&gt;].
+&lt;p&gt;
+The expression of &lt;i&gt;puuD&lt;/i&gt; is repressed at the exponential phase [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16499623&quot;&gt;Kurihara06&lt;/a&gt;] and in an anaerobic environment [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/15659690&quot;&gt;Kang05a&lt;/a&gt;],; and it is induced at the stationary phase [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16499623&quot;&gt;Kurihara06&lt;/a&gt;].
+&lt;p&gt;
+The curator has determined that the binding sites of PuuR may have a length of 20 nucleotides with an inverted repeated symmetry (ATGGaCAATATATTGaCCAT). The sequence proposed by Nemoto et al. in 2012 was included in these regions [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/22522900&quot;&gt;Nemoto12&lt;/a&gt;]. Nemoto et al. proposed binding sites that are 15 nucleotides long, with an asymmetric recognition sequence, AAAATATAATGAACA [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/22522900&quot;&gt;Nemoto12&lt;/a&gt;].
+&lt;p&gt;
+A novel strain that overexpresses &lt;i&gt;puuC&lt;/i&gt; under the control of a strong promoter led to lower rates of glycerol accumulation and higher 3-hydroxypropionic acid (3-HP) production. The PuuR transcription factor was also inactivated, producing the same results. Combined, these strategies further improved 3-HP yield with a concomitant reduction in glycerol accumulation, and the engineered strain, JHS_&amp;Delta;gypr-PT7, produced 53.7 g/L 3-HP and 1.5 g/L glycerol [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31864087&quot;&gt;Lee20&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-22522900' orgid='ECOLI' frameid='PUB-22522900' detail='full'><source datatype='string'>J Bacteriol 194(13);3437-47</source>
+<pubmed-id datatype='string'>22522900</pubmed-id>
+<title datatype='string'>Mechanism for regulation of the putrescine utilization pathway by the transcription factor PuuR in Escherichia coli K-12.</title>
+<year datatype='integer'>2012</year>
+<author datatype='string'>Nemoto N</author>
+<author datatype='string'>Kurihara S</author>
+<author datatype='string'>Kitahara Y</author>
+<author datatype='string'>Asada K</author>
+<author datatype='string'>Kato K</author>
+<author datatype='string'>Suzuki H</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-22522900' orgid='ECOLI' frameid='PUB-22522900'/></evidence>
+<component><Gene resource='getxml?ECOLI:G6646' orgid='ECOLI' frameid='G6646'/></component>
+<component><Gene resource='getxml?ECOLI:EG11822' orgid='ECOLI' frameid='EG11822'/></component>
+<component><Gene resource='getxml?ECOLI:EG10036' orgid='ECOLI' frameid='EG10036'/></component>
+<component><Promoter ID='ECOLI:PM0-10033' orgid='ECOLI' frameid='PM0-10033' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>1361040</minus-10-left>
+<common-name datatype='string'>puuDp</common-name>
+<minus-35-right datatype='integer'>1361022</minus-35-right>
+<minus-35-left datatype='integer'>1361017</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1361052</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-19838305' orgid='ECOLI' frameid='PUB-19838305' detail='full'><source datatype='string'>PLoS One 4(10);e7526</source>
+<pubmed-id datatype='string'>19838305</pubmed-id>
+<title datatype='string'>Genome-wide identification of transcription start sites, promoters and transcription factor binding sites in E. coli.</title>
+<year datatype='integer'>2009</year>
+<author datatype='string'>Mendoza-Vargas A</author>
+<author datatype='string'>Olvera L</author>
+<author datatype='string'>Olvera M</author>
+<author datatype='string'>Grande R</author>
+<author datatype='string'>Vega-Alvarado L</author>
+<author datatype='string'>Taboada B</author>
+<author datatype='string'>Jimenez-Jacinto V</author>
+<author datatype='string'>Salgado H</author>
+<author datatype='string'>Juarez K</author>
+<author datatype='string'>Contreras-Moreira B</author>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+<author datatype='string'>Morett E</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-22522900' orgid='ECOLI' frameid='PUB-22522900'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' orgid='ECOLI' frameid='EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>High-throughput transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified using a high-throughput experimental modified RACE approach.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-19838305' orgid='ECOLI' frameid='PUB-19838305'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-22522900' orgid='ECOLI' frameid='PUB-22522900'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from mutant phenotype</common-name>
+<comment datatype='string'>IMP inferred from mutant phenotype.
+
+&lt;br&gt;
+The assertion was inferred from a mutant phenotype such as
+&lt;ul&gt;
+    &lt;li&gt; Any gene mutation/knockout
+    &lt;li&gt; Overexpression/ectopic expression of wild-type or mutant genes
+    &lt;li&gt; Anti-sense experiments
+    &lt;li&gt; RNA interference experiments
+    &lt;li&gt; Specific protein inhibitors
+    &lt;li&gt; Complementation
+&lt;/ul&gt;&lt;p class=ecocomment&gt;	
+Comment: Inferences made from examining mutations or
+abnormal levels of only the product(s) of the gene of interest are covered by code EV-IMP
+(compare to code EV-IGI). Use this code for experiments that use antibodies 
+or other specific inhibitors of RNA or protein activity, even though no
+gene may be mutated (the rationale is that EV-IMP is used where an
+abnormal situation prevails in a cell or organism).
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-22522900' orgid='ECOLI' frameid='PUB-22522900'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11813' orgid='ECOLI' frameid='REG0-11813' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10033' orgid='ECOLI' frameid='PM0-10033'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11699' orgid='ECOLI' frameid='REG0-11699' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12431-MONOMER' orgid='ECOLI' frameid='EG12431-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10033' orgid='ECOLI' frameid='PM0-10033'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11698' orgid='ECOLI' frameid='REG0-11698' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12431-MONOMER' orgid='ECOLI' frameid='EG12431-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10033' orgid='ECOLI' frameid='PM0-10033'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11697' orgid='ECOLI' frameid='REG0-11697' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12431-MONOMER' orgid='ECOLI' frameid='EG12431-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10033' orgid='ECOLI' frameid='PM0-10033'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11695' orgid='ECOLI' frameid='REG0-11695' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12431-MONOMER' orgid='ECOLI' frameid='EG12431-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10033' orgid='ECOLI' frameid='PM0-10033'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10388' orgid='ECOLI' frameid='REG0-10388' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-ARCA' orgid='ECOLI' frameid='PHOSPHO-ARCA'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10033' orgid='ECOLI' frameid='PM0-10033'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>1361045</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-13210' orgid='ECOLI' frameid='TU0-13210'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG12431' orgid='ECOLI' frameid='EG12431'/></component>
+<component><Gene resource='getxml?ECOLI:G6645' orgid='ECOLI' frameid='G6645'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-1545'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-1545</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-1545' orgid='ECOLI' frameid='TU0-1545' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>flgK</common-name>
+<comment datatype='string'>&lt;i&gt;flgKL&lt;/i&gt; expression is enhanced by AtoSC in the presence of acetoacetate [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/22083893&quot;&gt;Theodorou12&lt;/a&gt;].
+&lt;p&gt;
+In a study where it was shown that the L-tryptophan eradicated persister cells, it was observed that the exogenous amino acid downregulated the expression of &lt;i&gt; flgK &lt;/i&gt; as well as other flagellar genes [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31271063&quot;&gt;Li19&lt;/a&gt;].</comment>
+<component><Gene resource='getxml?ECOLI:G0-17101' orgid='ECOLI' frameid='G0-17101'/></component>
+<component><Gene resource='getxml?ECOLI:EG11545' orgid='ECOLI' frameid='EG11545'/></component>
+<component><Gene resource='getxml?ECOLI:EG11967' orgid='ECOLI' frameid='EG11967'/></component>
+<component><Promoter ID='ECOLI:PM0-1726' orgid='ECOLI' frameid='PM0-1726' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>1138337</minus-10-left>
+<common-name datatype='string'>flgKp</common-name>
+<minus-35-right datatype='integer'>1138322</minus-35-right>
+<minus-35-left datatype='integer'>1138318</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:EG11355-MONOMER' orgid='ECOLI' frameid='EG11355-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1138351</absolute-plus-1-pos>
+<comment datatype='string'>The sequence of this promoter has been defined, by computational analyses, from the consensus sequence of the &amp;sigma;&lt;sup&gt;28&lt;/sup&gt; (&amp;sigma;&lt;sup&gt;F&lt;/sup&gt;)  promoters: TAAAGTTT in the -35 box and GCCGATAA in the -10 box [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/11520622&quot;&gt;Park01&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/11031114&quot;&gt;Ko00&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/10586520&quot;&gt;Ide99&lt;/a&gt;]. Therefore, we assigned a putative transcription start site for this promoter based on the observation that the majority of the &amp;sigma;&lt;sup&gt;28&lt;/sup&gt; promoters, determined experimentally, present an important -10 motif (5'-CGA-3') at the positions -12 to -10 and a distance of 6 nucleotides between the transcription start site and the -10 box  [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16855242&quot;&gt;Yu06a&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16997971&quot;&gt;Yu06&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/11520622&quot;&gt;Park01&lt;/a&gt;]. 
+&lt;p&gt;
+Kundu et al. showed in 1997 that transcription of &lt;i&gt;flgK&lt;/i&gt; is highly dependent on alternative sigma factor &amp;sigma;&lt;sup&gt;F&lt;/sup&gt; and can be transcribed by RNA polymerase &amp;sigma;&lt;sup&gt;28&lt;/sup&gt; &lt;i&gt;in vitro&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/9209042&quot;&gt;Kundu97&lt;/a&gt;].
+&lt;p&gt;
+In a cell-free expression system, the activation of &lt;i&gt;flgK&lt;/i&gt; was strongly increased in the presence of &amp;sigma;&lt;sup&gt;28&lt;/sup&gt; and slightly activated by FlhDC [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/27186988&quot;&gt;Maddalena16&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-11520622' orgid='ECOLI' frameid='PUB-11520622' detail='full'><source datatype='string'>FEMS Microbiol Lett 202(2);243-50</source>
+<pubmed-id datatype='string'>11520622</pubmed-id>
+<title datatype='string'>Novel sigmaF-dependent genes of Escherichia coli found using a specified promoter consensus.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Park K</author>
+<author datatype='string'>Choi S</author>
+<author datatype='string'>Ko M</author>
+<author datatype='string'>Park C</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-11031114' orgid='ECOLI' frameid='PUB-11031114' detail='full'><source datatype='string'>J Mol Biol 303(3);371-82</source>
+<pubmed-id datatype='string'>11031114</pubmed-id>
+<title datatype='string'>Two novel flagellar components and H-NS are involved in the motor function of Escherichia coli.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Ko M</author>
+<author datatype='string'>Park C</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-9209042' orgid='ECOLI' frameid='PUB-9209042' detail='full'><source datatype='string'>J Bacteriol 179(13);4264-9</source>
+<pubmed-id datatype='string'>9209042</pubmed-id>
+<title datatype='string'>Promoter selectivity of Escherichia coli RNA polymerase sigmaF holoenzyme involved in transcription of flagellar and chemotaxis genes.</title>
+<year datatype='integer'>1997</year>
+<author datatype='string'>Kundu TK</author>
+<author datatype='string'>Kusano S</author>
+<author datatype='string'>Ishihama A</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-11104815' orgid='ECOLI' frameid='PUB-11104815' detail='full'><source datatype='string'>Microbiol Mol Biol Rev 64(4);694-708</source>
+<pubmed-id datatype='string'>11104815</pubmed-id>
+<title datatype='string'>Coupling of flagellar gene expression to flagellar assembly in Salmonella enterica serovar typhimurium and Escherichia coli.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Chilcott GS</author>
+<author datatype='string'>Hughes KT</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11031114' orgid='ECOLI' frameid='PUB-11031114'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' class='true'/><Publication ID='ECOLI:PUB-10586520' orgid='ECOLI' frameid='PUB-10586520' detail='full'><source datatype='string'>Genes Genet Syst 74(3);113-6</source>
+<pubmed-id datatype='string'>10586520</pubmed-id>
+<title datatype='string'>Reevaluation of the promoter structure of the class 3 flagellar operons of Escherichia coli and Salmonella.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>Ide N</author>
+<author datatype='string'>Ikebe T</author>
+<author datatype='string'>Kutsukake K</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' class='true'/><Publication resource='#ECOLI:PUB-11520622' orgid='ECOLI' frameid='PUB-11520622'/></evidence>
+<minus-10-right datatype='integer'>1138344</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-1545' orgid='ECOLI' frameid='TU0-1545'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

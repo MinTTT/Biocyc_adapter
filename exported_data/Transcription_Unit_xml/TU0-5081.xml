@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-5081'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-5081</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-5081' orgid='ECOLI' frameid='TU0-5081' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>uidABC</common-name>
+<citation><Publication ID='ECOLI:PUB-6276362' orgid='ECOLI' frameid='PUB-6276362' detail='full'><source datatype='string'>J Bacteriol 149(2);587-94</source>
+<pubmed-id datatype='string'>6276362</pubmed-id>
+<title datatype='string'>Cloning and endonuclease restriction analysis of uidA and uidR genes in Escherichia coli K-12: determination of transcription direction for the uidA gene.</title>
+<year datatype='integer'>1982</year>
+<author datatype='string'>Blanco C</author>
+<author datatype='string'>Ritzenthaler P</author>
+<author datatype='string'>Mata-Gilsinger M</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-9278503' orgid='ECOLI' frameid='PUB-9278503' detail='full'><source datatype='string'>Science 277(5331);1453-74</source>
+<pubmed-id datatype='string'>9278503</pubmed-id>
+<title datatype='string'>The complete genome sequence of Escherichia coli K-12.</title>
+<year datatype='integer'>1997</year>
+<author datatype='string'>Blattner FR</author>
+<author datatype='string'>Plunkett G</author>
+<author datatype='string'>Bloch CA</author>
+<author datatype='string'>Perna NT</author>
+<author datatype='string'>Burland V</author>
+<author datatype='string'>Riley M</author>
+<author datatype='string'>Collado-Vides J</author>
+<author datatype='string'>Glasner JD</author>
+<author datatype='string'>Rode CK</author>
+<author datatype='string'>Mayhew GF</author>
+<author datatype='string'>Gregor J</author>
+<author datatype='string'>Davis NW</author>
+<author datatype='string'>Kirkpatrick HA</author>
+<author datatype='string'>Goeden MA</author>
+<author datatype='string'>Rose DJ</author>
+<author datatype='string'>Mau B</author>
+<author datatype='string'>Shao Y</author>
+</Publication>
+</citation>
+<component><Gene resource='getxml?ECOLI:G6866' orgid='ECOLI' frameid='G6866'/></component>
+<component><Gene resource='getxml?ECOLI:EG11658' orgid='ECOLI' frameid='EG11658'/></component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-3944' orgid='ECOLI' frameid='BS0-3944' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6187' orgid='ECOLI' frameid='REG0-6187' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-5321' orgid='ECOLI' frameid='PM0-5321' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>uidAp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1696152</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-2823062' orgid='ECOLI' frameid='PUB-2823062' detail='full'><source datatype='string'>Mol Gen Genet 208(3);490-8</source>
+<pubmed-id datatype='string'>2823062</pubmed-id>
+<title datatype='string'>Transcriptional and translational signals of the uidA gene in Escherichia coli K12.</title>
+<year datatype='integer'>1987</year>
+<author datatype='string'>Blanco C</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2823062' orgid='ECOLI' frameid='PUB-2823062'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-6189' orgid='ECOLI' frameid='REG0-6189' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:G6867-MONOMER' orgid='ECOLI' frameid='G6867-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-5321' orgid='ECOLI' frameid='PM0-5321'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6188' orgid='ECOLI' frameid='REG0-6188' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG20249-MONOMER' orgid='ECOLI' frameid='EG20249-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-5321' orgid='ECOLI' frameid='PM0-5321'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-6187' orgid='ECOLI' frameid='REG0-6187'/></regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-5081' orgid='ECOLI' frameid='TU0-5081'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-3934044' orgid='ECOLI' frameid='PUB-3934044' detail='full'><source datatype='string'>Gene 36(1-2);159-67</source>
+<pubmed-id datatype='string'>3934044</pubmed-id>
+<title datatype='string'>The use of gene fusions to study the expression of uidR, a negative regulatory gene of Escherichia coli K-12.</title>
+<year datatype='integer'>1985</year>
+<author datatype='string'>Blanco C</author>
+<author datatype='string'>Mata-Gilsinger M</author>
+<author datatype='string'>Ritzenthaler P</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-11115104' orgid='ECOLI' frameid='PUB-11115104' detail='full'><source datatype='string'>Mol Microbiol 38(4);673-83</source>
+<pubmed-id datatype='string'>11115104</pubmed-id>
+<title datatype='string'>Transcriptional regulation of transport and utilization systems for hexuronides, hexuronates and hexonates in gamma purple bacteria.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Rodionov DA</author>
+<author datatype='string'>Mironov AA</author>
+<author datatype='string'>Rakhmaninova AB</author>
+<author datatype='string'>Gelfand MS</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-29343727' orgid='ECOLI' frameid='PUB-29343727' detail='full'><source datatype='string'>Sci Rep 8(1);951</source>
+<pubmed-id datatype='string'>29343727</pubmed-id>
+<title datatype='string'>PredCRP: predicting and analysing the regulatory roles of CRP from its binding sites in Escherichia coli.</title>
+<year datatype='integer'>2018</year>
+<author datatype='string'>Tsai MJ</author>
+<author datatype='string'>Wang JR</author>
+<author datatype='string'>Yang CD</author>
+<author datatype='string'>Kao KC</author>
+<author datatype='string'>Huang WL</author>
+<author datatype='string'>Huang HY</author>
+<author datatype='string'>Tseng CP</author>
+<author datatype='string'>Huang HD</author>
+<author datatype='string'>Ho SY</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11115104' orgid='ECOLI' frameid='PUB-11115104'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on similarity to consensus sequences</common-name>
+<comment datatype='string'>A DNA sequence similar to previously known consensus sequences is computationally identified.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-29343727' orgid='ECOLI' frameid='PUB-29343727'/></evidence>
+<site-length datatype='integer'>22</site-length>
+<abs-center-pos datatype='float'>1696241.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-5081' orgid='ECOLI' frameid='TU0-5081'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-3943' orgid='ECOLI' frameid='BS0-3943' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-6188' orgid='ECOLI' frameid='REG0-6188'/></involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-3934044' orgid='ECOLI' frameid='PUB-3934044'/></citation>
+<citation><Publication resource='#ECOLI:PUB-11115104' orgid='ECOLI' frameid='PUB-11115104'/></citation>
+<citation><Publication resource='#ECOLI:PUB-2823062' orgid='ECOLI' frameid='PUB-2823062'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-11115104' orgid='ECOLI' frameid='PUB-11115104'/></evidence>
+<abs-center-pos datatype='float'>1696124.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-5081' orgid='ECOLI' frameid='TU0-5081'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-3942' orgid='ECOLI' frameid='BS0-3942' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-6189' orgid='ECOLI' frameid='REG0-6189'/></involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-3934044' orgid='ECOLI' frameid='PUB-3934044'/></citation>
+<citation><Publication resource='#ECOLI:PUB-2823062' orgid='ECOLI' frameid='PUB-2823062'/></citation>
+<abs-center-pos datatype='float'>1696305.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-5081' orgid='ECOLI' frameid='TU0-5081'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11055' orgid='ECOLI' frameid='EG11055'/></component>
+<component><Promoter resource='#ECOLI:PM0-5321' orgid='ECOLI' frameid='PM0-5321'/></component>
+</Transcription-Unit>
+</ptools-xml>

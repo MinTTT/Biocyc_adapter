@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-4802'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-4802</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-4802' orgid='ECOLI' frameid='TU0-4802' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>bglGFB</common-name>
+<comment datatype='string'>The &lt;i&gt;bglGFB&lt;/i&gt; operon codes for one of four &amp;beta;-glucoside utilization systems in &lt;i&gt;E. coli&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12081976&quot;&gt;Moorthy02&lt;/a&gt;].  It codes for the autoregulatory antiterminator BglG, the EII glucoside transporter BglF, and the glucosidase BglB [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/3034860&quot;&gt;Schnetz87&lt;/a&gt;].  This operon is silent in wild-type cells grown in the lab due to the transcriptional regulator HNS [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/1452042&quot;&gt;Yasuzawa92&lt;/a&gt;], but it can be activated by insertion of an IS element upstream of the operon, as well as by point mutations within the CRP-binding site or within &lt;i&gt;gyrA&lt;/i&gt; or &lt;i&gt;gyrB&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/1311089&quot;&gt;Schnetz92&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/6270569&quot;&gt;Reynolds81&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/3025456&quot;&gt;Reynolds86&lt;/a&gt;]. The &lt;i&gt; bglGFB&lt;/i&gt;  operon is repressed when H-NS binds to two sites (the sequences of such sites have not been identified), one upstream and another one downstream of the &lt;i&gt;bglG&lt;/i&gt; gene, forming a repressor DNA loop via oligomerization [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/36420159&quot;&gt;Lam22&lt;/a&gt;]. 
+&lt;p&gt;
+Once the operon is released from its silent state, it can be activated by Crp and repressed by Fis [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/10792463&quot;&gt;Gulati00&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/10760165&quot;&gt;Caramel00&lt;/a&gt;].  The &lt;i&gt;bgl&lt;/i&gt; promoter is controlled by &amp;sigma;&lt;sup&gt;S&lt;/sup&gt;, whose effect is mediated by Crl [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12081976&quot;&gt;Moorthy02&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12177351&quot;&gt;Schnetz02&lt;/a&gt;].  Once silencing ceases, &lt;i&gt;bglGFB&lt;/i&gt; expression is controlled by the aromatic &amp;beta;-glucosides salicin and arbutin via an mRNA antitermination mechanism [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/2846278&quot;&gt;Schnetz88&lt;/a&gt;].  BglG is activated by phosphorylation by HPr (or FPr) but is inactivated by additional phosphorylation by BglF at a different site [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/10369677&quot;&gt;Gorke99&lt;/a&gt;].  BglG is both phosphorylated and dephosphorylated by BglF, the enzyme II component of the Bgl sugar-transporting phosphotransferase system.  The phosphorylation state of BglG at the BglF site is controlled by one of the &amp;beta;-glucoside inducers.  In the absence of &amp;beta;-glucoside, BglG associates with and is phosphorylated by BglF in the cytoplasmic membrane.  Addition of the inducer leads to dephosphorylation of BglG at the BglF site, and its localization to the cytoplasm where it forms homodimers and its transcriptional antitermination activity allows transcription of the &lt;i&gt;bgl&lt;/i&gt; operon.  The doubly phosphorylated form of BglG is unable to dimerize and bind to the target mRNA and does not have antiterminator activity [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/1382312&quot;&gt;AmsterChoder92&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/2195546&quot;&gt;Schnetz90&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/2200123&quot;&gt;AmsterChoder90&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/2673534&quot;&gt;AmsterChoder89&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12771379&quot;&gt;Lopian03&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/15769463&quot;&gt;BenZeev05&lt;/a&gt;]. 
+&lt;p&gt;
+In the absence of the activated BglG homodimer, transcription from the &lt;i&gt;bgl&lt;/i&gt; promoter is terminated at one of two rho-independent terminators.  The first is located in the leader region of the &lt;i&gt;bgl&lt;/i&gt; mRNA at a site immediately upstream of the &lt;i&gt;bglG&lt;/i&gt; translation start site, and the second lies between &lt;i&gt;bglG&lt;/i&gt; and &lt;i&gt;bglF&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/3034860&quot;&gt;Schnetz87&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/3301003&quot;&gt;Mahadevan87&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/2846278&quot;&gt;Schnetz88&lt;/a&gt;].  BglG is able to bind to a site in the &lt;i&gt;bgl&lt;/i&gt; mRNA which partially overlaps the rho-independent terminators, possibly blocking the formation of the terminator secondary structure and allowing transcription [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/1698125&quot;&gt;Houman90&lt;/a&gt;].  BlgG binding stabilizes the 5' end of the &lt;i&gt;bgl&lt;/i&gt; mRNA [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/11426055&quot;&gt;Gulati01&lt;/a&gt;].  BglG also binds the &amp;beta;-subunit of RNA polymerase [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/10200263&quot;&gt;NussbaumShochat99&lt;/a&gt;]. It is worth mentioning that terminators flanking the &lt;i&gt;bglG&lt;/i&gt; gene are not involved in the silencing of the &lt;i&gt;bgl&lt;/i&gt; operon [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/36420159&quot;&gt;Lam22&lt;/a&gt;]. 
+&lt;p&gt;
+In addition to these well-established forms of transcriptional regulation, the &lt;i&gt;bgl&lt;/i&gt; operon expression is also affected by StpA, Hfq, LeO, and BglJ, but their specific mechanisms remain to be determined [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/9473058&quot;&gt;Free98&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/7984093&quot;&gt;Tsui94&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/9422614&quot;&gt;Ueguchi98&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/8725214&quot;&gt;Giel96&lt;/a&gt;]. If the TFs BglJ and LeuO are overexpressed they compete for H-NS binding, derepressing partially the operon [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/36420159&quot;&gt;Lam22&lt;/a&gt;]. 
+&lt;p&gt;
+Repression of the &lt;i&gt;bglGFB&lt;/i&gt; operon by StpA occurs only in the presence of the N-terminal H-NS protein domain, which comprises the core for dimerization [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/18245262&quot;&gt;Gueune08&lt;/a&gt;].
+&lt;p&gt;
+The mRNA produced by  the  &lt;i&gt;bglGFB&lt;/i&gt; operon has been observed mainly in the cellular membrane [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31540875&quot;&gt;Kannaiah19&lt;/a&gt;].
+&lt;p&gt;
+The BglG protein appears to be involved in the increased rate of mutation that activates the &lt;i&gt;bgl&lt;/i&gt; operon, because overexpression of &lt;i&gt;bglG&lt;/i&gt; in the presence of aromatic &amp;beta;-glucosides enhanced the frequency of mutations, mainly IS insertion mutations [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/35163427&quot;&gt;Zhang22&lt;/a&gt;]. The N-terminal domain of BglG that binds to mRNA seems to be necessary to activate such mutations [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/35163427&quot;&gt;Zhang22&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-5335893' orgid='ECOLI' frameid='PUB-5335893' detail='full'><source datatype='string'>J Bacteriol 93(1);264-72</source>
+<pubmed-id datatype='string'>5335893</pubmed-id>
+<title datatype='string'>Inducible system for the utilization of beta-glucosides in Escherichia coli. II. Description of mutant types and genetic analysis.</title>
+<year datatype='integer'>1967</year>
+<author datatype='string'>Schaefler S</author>
+<author datatype='string'>Maas WK</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-5335892' orgid='ECOLI' frameid='PUB-5335892' detail='full'><source datatype='string'>J Bacteriol 93(1);254-63</source>
+<pubmed-id datatype='string'>5335892</pubmed-id>
+<title datatype='string'>Inducible system for the utilization of beta-glucosides in Escherichia coli. I. Active transport and utilization of beta-glucosides.</title>
+<year datatype='integer'>1967</year>
+<author datatype='string'>Schaefler S</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-12081976' orgid='ECOLI' frameid='PUB-12081976' detail='full'><source datatype='string'>J Bacteriol 184(14);4033-8</source>
+<pubmed-id datatype='string'>12081976</pubmed-id>
+<title datatype='string'>Differential spectrum of mutations that activate the Escherichia coli bgl operon in an rpoS genetic background.</title>
+<year datatype='integer'>2002</year>
+<author datatype='string'>Moorthy S</author>
+<author datatype='string'>Mahadevan S</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-3034860' orgid='ECOLI' frameid='PUB-3034860' detail='full'><source datatype='string'>J Bacteriol 169(6);2579-90</source>
+<pubmed-id datatype='string'>3034860</pubmed-id>
+<title datatype='string'>Beta-glucoside (bgl) operon of Escherichia coli K-12: nucleotide sequence, genetic organization, and possible evolutionary relationship to regulatory components of two Bacillus subtilis genes.</title>
+<year datatype='integer'>1987</year>
+<author datatype='string'>Schnetz K</author>
+<author datatype='string'>Toloczyki C</author>
+<author datatype='string'>Rak B</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-1452042' orgid='ECOLI' frameid='PUB-1452042' detail='full'><source datatype='string'>Gene 122(1);9-15</source>
+<pubmed-id datatype='string'>1452042</pubmed-id>
+<title datatype='string'>Histone-like proteins are required for cell growth and constraint of supercoils in DNA.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Yasuzawa K</author>
+<author datatype='string'>Hayashi N</author>
+<author datatype='string'>Goshima N</author>
+<author datatype='string'>Kohno K</author>
+<author datatype='string'>Imamoto F</author>
+<author datatype='string'>Kano Y</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-10792463' orgid='ECOLI' frameid='PUB-10792463' detail='full'><source datatype='string'>Genes Cells 5(4);239-50</source>
+<pubmed-id datatype='string'>10792463</pubmed-id>
+<title datatype='string'>Mechanism of catabolite repression in the bgl operon of Escherichia coli: involvement of the anti-terminator BglG, CRP-cAMP and EIIAGlc in mediating glucose effect downstream of transcription initiation.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Gulati A</author>
+<author datatype='string'>Mahadevan S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3034860' orgid='ECOLI' frameid='PUB-3034860'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+</evidence>
+<component><DNA-Binding-Site ID='ECOLI:BS0-3745' orgid='ECOLI' frameid='BS0-3745' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-11992' orgid='ECOLI' frameid='REG0-11992' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-46317' orgid='ECOLI' frameid='PM0-46317' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>bglGp2</common-name>
+<synonym datatype='string'>P2blg</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3906717</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-24335284' orgid='ECOLI' frameid='PUB-24335284' detail='full'><source datatype='string'>Nucleic Acids Res 42(5);2999-3008</source>
+<pubmed-id datatype='string'>24335284</pubmed-id>
+<title datatype='string'>Transcriptional regulation by BglJ-RcsB, a pleiotropic heteromeric activator in Escherichia coli.</title>
+<year datatype='integer'>2014</year>
+<author datatype='string'>Salscheider SL</author>
+<author datatype='string'>Jahn A</author>
+<author datatype='string'>Schnetz K</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-24335284' orgid='ECOLI' frameid='PUB-24335284'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11993' orgid='ECOLI' frameid='REG0-11993' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7916' orgid='ECOLI' frameid='CPLX0-7916'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46317' orgid='ECOLI' frameid='PM0-46317'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-11992' orgid='ECOLI' frameid='REG0-11992'/></regulated-by>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-42564' orgid='ECOLI' frameid='TU0-42564'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6250' orgid='ECOLI' frameid='REG0-6250' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-5042' orgid='ECOLI' frameid='PM0-5042' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>bglGp1</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3906697</absolute-plus-1-pos>
+<comment datatype='string'>Induction of the &lt;i&gt;pstB-phoU&lt;/i&gt; operon partially relieves repression of the &lt;i&gt;bgl&lt;/i&gt;p promoter by H-NS [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/29424946&quot;&gt;Rangarajan18&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-3025456' orgid='ECOLI' frameid='PUB-3025456' detail='full'><source datatype='string'>J Mol Biol 191(1);85-95</source>
+<pubmed-id datatype='string'>3025456</pubmed-id>
+<title datatype='string'>Enhancement of bacterial gene expression by insertion elements or by mutation in a CAP-cAMP binding site.</title>
+<year datatype='integer'>1986</year>
+<author datatype='string'>Reynolds AE</author>
+<author datatype='string'>Mahadevan S</author>
+<author datatype='string'>LeGrice SF</author>
+<author datatype='string'>Wright A</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-12081976' orgid='ECOLI' frameid='PUB-12081976'/></citation>
+<citation><Publication ID='ECOLI:PUB-12177351' orgid='ECOLI' frameid='PUB-12177351' detail='full'><source datatype='string'>Microbiology 148(Pt 8);2573-8</source>
+<pubmed-id datatype='string'>12177351</pubmed-id>
+<title datatype='string'>Silencing of the Escherichia coli bgl operon by RpoS requires Crl.</title>
+<year datatype='integer'>2002</year>
+<author datatype='string'>Schnetz K</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-3025456' orgid='ECOLI' frameid='PUB-3025456'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11479' orgid='ECOLI' frameid='REG0-11479' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00519' orgid='ECOLI' frameid='PD00519'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-5042' orgid='ECOLI' frameid='PM0-5042'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-9471' orgid='ECOLI' frameid='REG0-9471' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG11554-MONOMER' orgid='ECOLI' frameid='EG11554-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-5042' orgid='ECOLI' frameid='PM0-5042'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-9421' orgid='ECOLI' frameid='REG0-9421' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7916' orgid='ECOLI' frameid='CPLX0-7916'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-5042' orgid='ECOLI' frameid='PM0-5042'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-9418' orgid='ECOLI' frameid='REG0-9418' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00519' orgid='ECOLI' frameid='PD00519'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-5042' orgid='ECOLI' frameid='PM0-5042'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6253' orgid='ECOLI' frameid='REG0-6253' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-5042' orgid='ECOLI' frameid='PM0-5042'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6252' orgid='ECOLI' frameid='REG0-6252' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-5042' orgid='ECOLI' frameid='PM0-5042'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6251' orgid='ECOLI' frameid='REG0-6251' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00288' orgid='ECOLI' frameid='PD00288'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-5042' orgid='ECOLI' frameid='PM0-5042'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-6250' orgid='ECOLI' frameid='REG0-6250'/></regulated-by>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-42515' orgid='ECOLI' frameid='TU0-42515'/><Transcription-Unit resource='#ECOLI:TU0-4802' orgid='ECOLI' frameid='TU0-4802'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-15520470' orgid='ECOLI' frameid='PUB-15520470' detail='full'><source datatype='string'>Nucleic Acids Res 32(19);5874-93</source>
+<pubmed-id datatype='string'>15520470</pubmed-id>
+<title datatype='string'>Identification of the CRP regulon using in vitro and in vivo transcriptional profiling.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Zheng D</author>
+<author datatype='string'>Constantinidou C</author>
+<author datatype='string'>Hobman JL</author>
+<author datatype='string'>Minchin SD</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-20952573' orgid='ECOLI' frameid='PUB-20952573' detail='full'><source datatype='string'>J Bacteriol 192(24);6456-64</source>
+<pubmed-id datatype='string'>20952573</pubmed-id>
+<title datatype='string'>BglJ-RcsB heterodimers relieve repression of the Escherichia coli bgl operon by H-NS.</title>
+<year datatype='integer'>2010</year>
+<author datatype='string'>Venkatesh GR</author>
+<author datatype='string'>Kembou Koungni FC</author>
+<author datatype='string'>Paukner A</author>
+<author datatype='string'>Stratmann T</author>
+<author datatype='string'>Blissenbach B</author>
+<author datatype='string'>Schnetz K</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10792463' orgid='ECOLI' frameid='PUB-10792463'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Site mutation</common-name>
+<comment datatype='string'>A cis-mutation in the DNA sequence of the transcription-factor binding site interferes with the operation of the regulatory function. This is considered  strong evidence for the existence and functional role of the DNA binding site.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10792463' orgid='ECOLI' frameid='PUB-10792463'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on similarity to consensus sequences</common-name>
+<comment datatype='string'>A DNA sequence similar to previously known consensus sequences is computationally identified.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10792463' orgid='ECOLI' frameid='PUB-10792463'/></evidence>
+<abs-center-pos datatype='float'>3906758.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4802' orgid='ECOLI' frameid='TU0-4802'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Terminator ID='ECOLI:TERM0564' orgid='ECOLI' frameid='TERM0564' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<regulated-by><Regulation ID='ECOLI:REG0-9241' orgid='ECOLI' frameid='REG0-9241' detail='low'><parent><Regulation resource='getxml?ECOLI:Protein-Mediated-Attenuation' orgid='ECOLI' frameid='Protein-Mediated-Attenuation' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8117' orgid='ECOLI' frameid='CPLX0-8117'/></regulator>
+<regulated-entity><Terminator resource='#ECOLI:TERM0564' orgid='ECOLI' frameid='TERM0564'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<right-end-position datatype='integer'>3906634</right-end-position>
+<left-end-position datatype='integer'>3906593</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-3034860' orgid='ECOLI' frameid='PUB-3034860'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4802' orgid='ECOLI' frameid='TU0-4802'/></component-of>
+</Terminator>
+</component>
+<component><Terminator ID='ECOLI:TERM0563' orgid='ECOLI' frameid='TERM0563' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3902292</right-end-position>
+<left-end-position datatype='integer'>3902249</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-3034860' orgid='ECOLI' frameid='PUB-3034860'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4802' orgid='ECOLI' frameid='TU0-4802'/></component-of>
+</Terminator>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-3744' orgid='ECOLI' frameid='BS0-3744' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-6252' orgid='ECOLI' frameid='REG0-6252'/></involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-10760165' orgid='ECOLI' frameid='PUB-10760165' detail='full'><source datatype='string'>Mol Microbiol 36(1);85-92</source>
+<pubmed-id datatype='string'>10760165</pubmed-id>
+<title datatype='string'>Antagonistic control of the Escherichia coli bgl promoter by FIS and CAP in vitro.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Caramel A</author>
+<author datatype='string'>Schnetz K</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-10760165' orgid='ECOLI' frameid='PUB-10760165'/></evidence>
+<abs-center-pos datatype='integer'>3906749</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4802' orgid='ECOLI' frameid='TU0-4802'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-3743' orgid='ECOLI' frameid='BS0-3743' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-6253' orgid='ECOLI' frameid='REG0-6253'/></involved-in-regulation>
+<comment datatype='string'>FIS-site II overlaps the -35 box.</comment>
+<citation><Publication resource='#ECOLI:PUB-10760165' orgid='ECOLI' frameid='PUB-10760165'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-10760165' orgid='ECOLI' frameid='PUB-10760165'/></evidence>
+<abs-center-pos datatype='integer'>3906724</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4802' orgid='ECOLI' frameid='TU0-4802'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-3742' orgid='ECOLI' frameid='BS0-3742' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-6251' orgid='ECOLI' frameid='REG0-6251'/></involved-in-regulation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication ID='ECOLI:PUB-15066043' orgid='ECOLI' frameid='PUB-15066043' detail='full'><source datatype='string'>Mol Microbiol 52(2);589-600</source>
+<pubmed-id datatype='string'>15066043</pubmed-id>
+<title datatype='string'>The histone-like nucleoid structuring protein H-NS represses the Escherichia coli bgl operon downstream of the promoter.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Dole S</author>
+<author datatype='string'>Nagarajavel V</author>
+<author datatype='string'>Schnetz K</author>
+</Publication>
+</evidence>
+<abs-center-pos datatype='integer'>3906018</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4802' orgid='ECOLI' frameid='TU0-4802'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10114' orgid='ECOLI' frameid='EG10114'/></component>
+<component><Gene resource='getxml?ECOLI:EG10115' orgid='ECOLI' frameid='EG10115'/></component>
+<component><Gene resource='getxml?ECOLI:EG10116' orgid='ECOLI' frameid='EG10116'/></component>
+<component><Promoter resource='#ECOLI:PM0-5042' orgid='ECOLI' frameid='PM0-5042'/></component>
+</Transcription-Unit>
+</ptools-xml>

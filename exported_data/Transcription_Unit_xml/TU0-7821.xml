@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-7821'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-7821</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-7821' orgid='ECOLI' frameid='TU0-7821' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>pagP</common-name>
+<synonym datatype='string'>crcA</synonym>
+<comment datatype='string'>&lt;i&gt;pagP&lt;/i&gt; is induced by increases in osmolarity in mature bioifilms in an RcsB-dependent manner and it also requires the GadE auxiliary regulator; its induction is not observed under planktonic conditions. Formation of a RcsB-GadE complex occurs independently of the RcsB phosphorylation cascade [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/30131361&quot;&gt;Szczesny18&lt;/a&gt;].
+&lt;p&gt;
+Based on gene expression analysis, it was shown that &lt;i&gt;pagP&lt;/i&gt; expression is repressed by H-NS [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/30131361&quot;&gt;Szczesny18&lt;/a&gt;].
+&lt;p&gt;
+SlyA,  a DNA-binding protein that inhibits H-NS activity, activates &lt;i&gt;pagP&lt;/i&gt; transcription in mature biofilms [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/30013537&quot;&gt;Klitgaard18&lt;/a&gt;].
+&lt;p&gt;
+The expression of the &lt;i&gt;pagP&lt;/i&gt; gene appears to be indirectly regulated by the transcription factor PhoP in avian pathogenic &lt;i&gt;E. coli&lt;/i&gt; (APEC) [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31326704&quot;&gt;Song19&lt;/a&gt;].
+</comment>
+<component><DNA-Binding-Site ID='ECOLI:BS0-6541' orgid='ECOLI' frameid='BS0-6541' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6068' orgid='ECOLI' frameid='REG0-6068' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-PHOP' orgid='ECOLI' frameid='PHOSPHO-PHOP'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-8201' orgid='ECOLI' frameid='PM0-8201' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>pagPp</common-name>
+<synonym datatype='string'>P crcA</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>656526</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-15126461' orgid='ECOLI' frameid='PUB-15126461' detail='full'><source datatype='string'>J Bacteriol 186(10);3006-14</source>
+<pubmed-id datatype='string'>15126461</pubmed-id>
+<title datatype='string'>Signal transduction cascade between EvgA/EvgS and PhoP/PhoQ two-component systems of Escherichia coli.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Eguchi Y</author>
+<author datatype='string'>Okada T</author>
+<author datatype='string'>Minagawa S</author>
+<author datatype='string'>Oshima T</author>
+<author datatype='string'>Mori H</author>
+<author datatype='string'>Yamamoto K</author>
+<author datatype='string'>Ishihama A</author>
+<author datatype='string'>Utsumi R</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15126461' orgid='ECOLI' frameid='PUB-15126461'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-13045' orgid='ECOLI' frameid='REG0-13045' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8563' orgid='ECOLI' frameid='CPLX0-8563'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-8201' orgid='ECOLI' frameid='PM0-8201'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-13044' orgid='ECOLI' frameid='REG0-13044' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8563' orgid='ECOLI' frameid='CPLX0-8563'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-8201' orgid='ECOLI' frameid='PM0-8201'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-13043' orgid='ECOLI' frameid='REG0-13043' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8563' orgid='ECOLI' frameid='CPLX0-8563'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-8201' orgid='ECOLI' frameid='PM0-8201'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-6068' orgid='ECOLI' frameid='REG0-6068'/></regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-7821' orgid='ECOLI' frameid='TU0-7821'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-15126461' orgid='ECOLI' frameid='PUB-15126461'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15126461' orgid='ECOLI' frameid='PUB-15126461'/></evidence>
+<abs-center-pos datatype='integer'>656494</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-7821' orgid='ECOLI' frameid='TU0-7821'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG12180' orgid='ECOLI' frameid='EG12180'/></component>
+<component><Promoter resource='#ECOLI:PM0-8201' orgid='ECOLI' frameid='PM0-8201'/></component>
+</Transcription-Unit>
+</ptools-xml>

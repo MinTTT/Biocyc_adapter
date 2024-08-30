@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-14515'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-14515</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-14515' orgid='ECOLI' frameid='TU0-14515' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>tcyJ</common-name>
+<synonym datatype='string'>fliY</synonym>
+<citation><Publication ID='ECOLI:PUB-16862137' orgid='ECOLI' frameid='PUB-16862137' detail='full'><source datatype='string'>Nat Methods 3(8);623-8</source>
+<pubmed-id datatype='string'>16862137</pubmed-id>
+<title datatype='string'>A comprehensive library of fluorescent transcriptional reporters for Escherichia coli.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Zaslaver A</author>
+<author datatype='string'>Bren A</author>
+<author datatype='string'>Ronen M</author>
+<author datatype='string'>Itzkovitz S</author>
+<author datatype='string'>Kikoin I</author>
+<author datatype='string'>Shavit S</author>
+<author datatype='string'>Liebermeister W</author>
+<author datatype='string'>Surette MG</author>
+<author datatype='string'>Alon U</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16862137' orgid='ECOLI' frameid='PUB-16862137'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-26350134' orgid='ECOLI' frameid='PUB-26350134' detail='full'><source datatype='string'>J Bacteriol 197(23);3629-44</source>
+<pubmed-id datatype='string'>26350134</pubmed-id>
+<title datatype='string'>Physiological Roles and Adverse Effects of the Two Cystine Importers of Escherichia coli.</title>
+<year datatype='integer'>2015</year>
+<author datatype='string'>Chonoles Imlay KR</author>
+<author datatype='string'>Korshunov S</author>
+<author datatype='string'>Imlay JA</author>
+</Publication>
+</evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-13202' orgid='ECOLI' frameid='REG0-13202' detail='low'><parent><Regulation resource='getxml?ECOLI:RNA-Mediated-Translation-Regulation' orgid='ECOLI' frameid='RNA-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><RNA resource='getxml?ECOLI:GCVB-RNA' orgid='ECOLI' frameid='GCVB-RNA'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-14515' orgid='ECOLI' frameid='TU0-14515'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component><Terminator ID='ECOLI:TERM42' orgid='ECOLI' frameid='TERM42' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>1999571</right-end-position>
+<left-end-position datatype='integer'>1999541</left-end-position>
+<citation><Publication ID='ECOLI:PUB-8550423' orgid='ECOLI' frameid='PUB-8550423' detail='full'><source datatype='string'>J Bacteriol 178(1);24-34</source>
+<pubmed-id datatype='string'>8550423</pubmed-id>
+<title datatype='string'>Escherichia coli fliAZY operon.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Mytelka DS</author>
+<author datatype='string'>Chamberlin MJ</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-14515' orgid='ECOLI' frameid='TU0-14515'/><Transcription-Unit resource='getxml?ECOLI:TU00415' orgid='ECOLI' frameid='TU00415'/><Transcription-Unit resource='getxml?ECOLI:TU00471' orgid='ECOLI' frameid='TU00471'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:G7039' orgid='ECOLI' frameid='G7039'/></component>
+<component><Promoter ID='ECOLI:PM0-9795' orgid='ECOLI' frameid='PM0-9795' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>tcyJp</common-name>
+<synonym datatype='string'>fliYp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2000410</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-16862137' orgid='ECOLI' frameid='PUB-16862137'/></citation>
+<citation><Publication resource='#ECOLI:PUB-26350134' orgid='ECOLI' frameid='PUB-26350134'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16862137' orgid='ECOLI' frameid='PUB-16862137'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-26350134' orgid='ECOLI' frameid='PUB-26350134'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12375' orgid='ECOLI' frameid='REG0-12375' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PC00040' orgid='ECOLI' frameid='PC00040'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-9795' orgid='ECOLI' frameid='PM0-9795'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-14515' orgid='ECOLI' frameid='TU0-14515'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

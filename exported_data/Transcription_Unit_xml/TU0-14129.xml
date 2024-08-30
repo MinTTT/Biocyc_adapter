@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-14129'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-14129</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-14129' orgid='ECOLI' frameid='TU0-14129' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>yjcS</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><Promoter ID='ECOLI:PM0-9379' orgid='ECOLI' frameid='PM0-9379' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>yjcSp</common-name>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:EG11355-MONOMER' orgid='ECOLI' frameid='EG11355-MONOMER'/></binds-sigma-factor>
+<comment datatype='string'>Yu et al. in 2006 showed that transcription of &lt;i&gt;yjcS&lt;/i&gt; is highly dependent on alternative factor &amp;sigma;&lt;sup&gt;28&lt;/sup&gt; and can be transcribed by RNA polymerase &amp;sigma;&lt;sup&gt;28&lt;/sup&gt; &lt;i&gt;in vitro&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16997971&quot;&gt;Yu06&lt;/a&gt;]. Although experimental evidence exists, the +1 site of the transcription initiation has not been determined. 
+&lt;p&gt;
+The sequence of this promoter has been defined, by computational analyses, from the consensus sequence of the &amp;sigma;&lt;sup&gt;28&lt;/sup&gt; (&amp;sigma;&lt;sup&gt;F&lt;/sup&gt;)  promoters TAAAGTTT in the -35 box and GCCGATAA in the -10 box  [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16997971&quot;&gt;Yu06&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-16997971' orgid='ECOLI' frameid='PUB-16997971' detail='full'><source datatype='string'>J Bacteriol 188(23);8206-8212</source>
+<pubmed-id datatype='string'>16997971</pubmed-id>
+<title datatype='string'>In Silico Prediction and Functional Validation of {sigma}28-Regulated Genes in Chlamydia and Escherichia coli.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Yu HH</author>
+<author datatype='string'>Kibler D</author>
+<author datatype='string'>Tan M</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16997971' orgid='ECOLI' frameid='PUB-16997971'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-14129' orgid='ECOLI' frameid='TU0-14129'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11955' orgid='ECOLI' frameid='EG11955'/></component>
+</Transcription-Unit>
+</ptools-xml>

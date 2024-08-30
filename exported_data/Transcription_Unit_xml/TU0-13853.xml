@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-13853'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-13853</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-13853' orgid='ECOLI' frameid='TU0-13853' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>fadH</common-name>
+<comment datatype='string'>Repression of &lt;i&gt;fadH&lt;/i&gt; transcription by the ArcAB system is additive to FadR repression under anaerobic conditions [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/20622065&quot;&gt;Feng10&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><Promoter ID='ECOLI:PM0-36147' orgid='ECOLI' frameid='PM0-36147' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>fadHp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3231624</absolute-plus-1-pos>
+<comment datatype='string'>The CRP-cAMP complex activates the &lt;i&gt;fadH&lt;/i&gt; promoter; however, the absence of CRP-cAMP reduces the repression of &lt;i&gt;fadH&lt;/i&gt; expression by FadR and ArcA-ArcB. This suggests that HipB may regulate &lt;i&gt;fadH&lt;/i&gt; expression in cooperation with other DNA-binding proteins [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/24089053&quot;&gt;Lin13&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-20622065' orgid='ECOLI' frameid='PUB-20622065' detail='full'><source datatype='string'>J Bacteriol 192(17);4289-99</source>
+<pubmed-id datatype='string'>20622065</pubmed-id>
+<title datatype='string'>Overlapping repressor binding sites result in additive regulation of Escherichia coli FadH by FadR and ArcA.</title>
+<year datatype='integer'>2010</year>
+<author datatype='string'>Feng Y</author>
+<author datatype='string'>Cronan JE</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-20622065' orgid='ECOLI' frameid='PUB-20622065'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12004' orgid='ECOLI' frameid='REG0-12004' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG10442-MONOMER' orgid='ECOLI' frameid='EG10442-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-36147' orgid='ECOLI' frameid='PM0-36147'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10825' orgid='ECOLI' frameid='REG0-10825' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-36147' orgid='ECOLI' frameid='PM0-36147'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10824' orgid='ECOLI' frameid='REG0-10824' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-ARCA' orgid='ECOLI' frameid='PHOSPHO-ARCA'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-36147' orgid='ECOLI' frameid='PM0-36147'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10823' orgid='ECOLI' frameid='REG0-10823' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD01520' orgid='ECOLI' frameid='PD01520'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-36147' orgid='ECOLI' frameid='PM0-36147'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-13853' orgid='ECOLI' frameid='TU0-13853'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:G36' orgid='ECOLI' frameid='G36'/></component>
+</Transcription-Unit>
+</ptools-xml>

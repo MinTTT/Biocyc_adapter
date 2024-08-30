@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU-8387'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU-8387</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU-8387' orgid='ECOLI' frameid='TU-8387' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>qseBC</common-name>
+<citation><Publication ID='ECOLI:PUB-11929534' orgid='ECOLI' frameid='PUB-11929534' detail='full'><source datatype='string'>Mol Microbiol 43(3);809-21</source>
+<pubmed-id datatype='string'>11929534</pubmed-id>
+<title datatype='string'>Quorum sensing Escherichia coli regulators B and C (QseBC): a novel two-component regulatory system involved in the regulation of flagella and motility by quorum sensing in E. coli.</title>
+<year datatype='integer'>2002</year>
+<author datatype='string'>Sperandio V</author>
+<author datatype='string'>Torres AG</author>
+<author datatype='string'>Kaper JB</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-16194231' orgid='ECOLI' frameid='PUB-16194231' detail='full'><source datatype='string'>Mol Microbiol 58(2);441-55</source>
+<pubmed-id datatype='string'>16194231</pubmed-id>
+<title datatype='string'>Transcriptional autoregulation by quorum sensing Escherichia coli regulators B and C (QseBC) in enterohaemorrhagic E. coli (EHEC).</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Clarke MB</author>
+<author datatype='string'>Sperandio V</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Inferred through co-regulation</common-name>
+<comment datatype='string'>Inferred through co-regulation.  A transcription unit is inferred because a set of 
+adjacent genes that are transcribed in the same direction exhibit similar
+expression patterns under a range of environmental conditions.
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16194231' orgid='ECOLI' frameid='PUB-16194231'/></evidence>
+<component><DNA-Binding-Site ID='ECOLI:BS-7049' orgid='ECOLI' frameid='BS-7049' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6546' orgid='ECOLI' frameid='REG0-6546' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:MONOMER0-2741' orgid='ECOLI' frameid='MONOMER0-2741'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-45592' orgid='ECOLI' frameid='PM0-45592' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>qseBp2</common-name>
+<synonym datatype='string'>ygiWp6</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3169749</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-32916947' orgid='ECOLI' frameid='PUB-32916947' detail='full'><source datatype='string'>Biomolecules 10(9)</source>
+<pubmed-id datatype='string'>32916947</pubmed-id>
+<title datatype='string'>Control of Transcription Initiation by Biased Thermal Fluctuations on Repetitive Genomic Sequences.</title>
+<year datatype='integer'>2020</year>
+<author datatype='string'>Imashimizu M</author>
+<author datatype='string'>Tokunaga Y</author>
+<author datatype='string'>Afek A</author>
+<author datatype='string'>Takahashi H</author>
+<author datatype='string'>Shimamoto N</author>
+<author datatype='string'>Lukatsky DB</author>
+<doi-id datatype='string'>10.3390/biom10091299</doi-id>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from direct assay</common-name>
+<comment datatype='string'>IDA inferred from direct assay.
+
+&lt;br&gt;
+The assertion was inferred from a direct experimental assay such as
+&lt;ul&gt;
+    &lt;li&gt; Enzyme assays
+    &lt;li&gt; In vitro reconstitution (e.g. transcription)
+    &lt;li&gt; Immunofluorescence
+    &lt;li&gt; Cell fractionation
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-32916947' orgid='ECOLI' frameid='PUB-32916947'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-6546' orgid='ECOLI' frameid='REG0-6546'/><Regulation ID='ECOLI:REG0-6547' orgid='ECOLI' frameid='REG0-6547' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:MONOMER0-2741' orgid='ECOLI' frameid='MONOMER0-2741'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-45592' orgid='ECOLI' frameid='PM0-45592'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11939' orgid='ECOLI' frameid='REG0-11939' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-BASR' orgid='ECOLI' frameid='PHOSPHO-BASR'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-45592' orgid='ECOLI' frameid='PM0-45592'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU-8387' orgid='ECOLI' frameid='TU-8387'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-16135237' orgid='ECOLI' frameid='PUB-16135237' detail='full'><source datatype='string'>Mol Microbiol 57(6);1734-49</source>
+<pubmed-id datatype='string'>16135237</pubmed-id>
+<title datatype='string'>Transcriptional regulation of flhDC by QseBC and sigma (FliA) in enterohaemorrhagic Escherichia coli.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Clarke MB</author>
+<author datatype='string'>Sperandio V</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-16194231' orgid='ECOLI' frameid='PUB-16194231'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16194231' orgid='ECOLI' frameid='PUB-16194231'/></evidence>
+<abs-center-pos datatype='integer'>3169287</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU-8387' orgid='ECOLI' frameid='TU-8387'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS-7048' orgid='ECOLI' frameid='BS-7048' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-6547' orgid='ECOLI' frameid='REG0-6547'/></involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-16194231' orgid='ECOLI' frameid='PUB-16194231'/></citation>
+<citation><Publication resource='#ECOLI:PUB-16135237' orgid='ECOLI' frameid='PUB-16135237'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-16194231' orgid='ECOLI' frameid='PUB-16194231'/></evidence>
+<abs-center-pos datatype='integer'>3169754</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU-8387' orgid='ECOLI' frameid='TU-8387'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG12658' orgid='ECOLI' frameid='EG12658'/></component>
+<component><Gene resource='getxml?ECOLI:G7575' orgid='ECOLI' frameid='G7575'/></component>
+<component><Promoter resource='#ECOLI:PM0-45592' orgid='ECOLI' frameid='PM0-45592'/></component>
+</Transcription-Unit>
+</ptools-xml>

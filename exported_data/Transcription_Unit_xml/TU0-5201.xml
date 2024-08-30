@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-5201'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-5201</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-5201' orgid='ECOLI' frameid='TU0-5201' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>pdxA-rsmA-apaGH</common-name>
+<synonym datatype='string'>pdxA-ksgA-apaG-apaH</synonym>
+<citation><Publication ID='ECOLI:PUB-11844765' orgid='ECOLI' frameid='PUB-11844765' detail='full'><source datatype='string'>J Bacteriol 184(5);1359-69</source>
+<pubmed-id datatype='string'>11844765</pubmed-id>
+<title datatype='string'>Positive growth rate-dependent regulation of the pdxA, ksgA, and pdxB genes of Escherichia coli K-12.</title>
+<year datatype='integer'>2002</year>
+<author datatype='string'>Pease AJ</author>
+<author datatype='string'>Roa BR</author>
+<author datatype='string'>Luo W</author>
+<author datatype='string'>Winkler ME</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11844765' orgid='ECOLI' frameid='PUB-11844765'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG10048' orgid='ECOLI' frameid='EG10048'/></component>
+<component><Gene resource='getxml?ECOLI:EG10047' orgid='ECOLI' frameid='EG10047'/></component>
+<component><Gene resource='getxml?ECOLI:EG10523' orgid='ECOLI' frameid='EG10523'/></component>
+<component><Gene resource='getxml?ECOLI:EG10691' orgid='ECOLI' frameid='EG10691'/></component>
+<component><Promoter ID='ECOLI:PM0-5441' orgid='ECOLI' frameid='PM0-5441' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>pdxAp</common-name>
+<citation><Publication resource='#ECOLI:PUB-11844765' orgid='ECOLI' frameid='PUB-11844765'/></citation>
+<citation><Publication ID='ECOLI:PUB-2670894' orgid='ECOLI' frameid='PUB-2670894' detail='full'><source datatype='string'>J Bacteriol 171(9);4767-77</source>
+<pubmed-id datatype='string'>2670894</pubmed-id>
+<title datatype='string'>Overlap between pdxA and ksgA in the complex pdxA-ksgA-apaG-apaH operon of Escherichia coli K-12.</title>
+<year datatype='integer'>1989</year>
+<author datatype='string'>Roa BB</author>
+<author datatype='string'>Connolly DM</author>
+<author datatype='string'>Winkler ME</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-AS-NAS' orgid='ECOLI' frameid='EV-AS-NAS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-AS' orgid='ECOLI' frameid='EV-AS' class='true'/></parent>
+<common-name datatype='string'>Non-traceable author statement</common-name>
+<comment datatype='string'>Non-traceable author statement.  The assertion was made in a publication such as a review, a meeting abstract, 
+or another database without a reference to a publication describing an experiment that supports the assertion.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11844765' orgid='ECOLI' frameid='PUB-11844765'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-TAS' orgid='ECOLI' frameid='EV-EXP-TAS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Traceable author statement to experimental support</common-name>
+<comment datatype='string'>Traceable author statement to experimental support.  The assertion was made in a publication -- such as a review or 
+in another database -- that itself did not describe an experiment supporting the
+assertion.  However, the statement did reference another publication describing an experiment 
+that supports the assertion.  The difference between the codes EV-EXP-TAS and EV-AS-TAS 
+is that the former code is used when it is certain that experimental evidence supports the
+assertion, and the latter code is used when there is a possibility that an experiment was
+not done to support the assertion.
+In general, references to the primary literature are preferred,
+but this code can be used when the original article is difficult to locate.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2670894' orgid='ECOLI' frameid='PUB-2670894'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-6199' orgid='ECOLI' frameid='REG0-6199' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-5441' orgid='ECOLI' frameid='PM0-5441'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-5221' orgid='ECOLI' frameid='TU0-5221'/><Transcription-Unit resource='#ECOLI:TU0-5201' orgid='ECOLI' frameid='TU0-5201'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

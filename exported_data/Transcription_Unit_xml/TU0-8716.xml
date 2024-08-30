@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8716'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8716</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8716' orgid='ECOLI' frameid='TU0-8716' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>yecF</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SINGLE-DIRECTON' orgid='ECOLI' frameid='EV-COMP-AINF-SINGLE-DIRECTON' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference that a single-gene directon is a transcription unit </common-name>
+<comment datatype='string'>Automated inference of transcription unit based on single-gene directon.  Existence of a single-gene transcription unit 
+for gene G is inferred computationally by the existence of upstream and downstream genes transcribed in the 
+opposite direction of G.</comment>
+</Evidence-Code>
+</evidence>
+<component><Terminator ID='ECOLI:TERM0-1291' orgid='ECOLI' frameid='TERM0-1291' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>1996088</right-end-position>
+<left-end-position datatype='integer'>1996034</left-end-position>
+<citation><Publication ID='ECOLI:PUB-11522828' orgid='ECOLI' frameid='PUB-11522828' detail='full'><source datatype='string'>Nucleic Acids Res 29(17);3583-94</source>
+<pubmed-id datatype='string'>11522828</pubmed-id>
+<title datatype='string'>Prediction of rho-independent transcriptional terminators in Escherichia coli.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Lesnik EA</author>
+<author datatype='string'>Sampath R</author>
+<author datatype='string'>Levene HB</author>
+<author datatype='string'>Henderson TJ</author>
+<author datatype='string'>McNeil JA</author>
+<author datatype='string'>Ecker DJ</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-30247625' orgid='ECOLI' frameid='PUB-30247625' detail='full'><source datatype='string'>Bioinformatics 35(9);1469-1477</source>
+<pubmed-id datatype='string'>30247625</pubmed-id>
+<title datatype='string'>iTerm-PseKNC: a sequence-based tool for predicting bacterial transcriptional terminators.</title>
+<year datatype='integer'>2019</year>
+<author datatype='string'>Feng CQ</author>
+<author datatype='string'>Zhang ZY</author>
+<author datatype='string'>Zhu XJ</author>
+<author datatype='string'>Lin Y</author>
+<author datatype='string'>Chen W</author>
+<author datatype='string'>Tang H</author>
+<author datatype='string'>Lin H</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8716' orgid='ECOLI' frameid='TU0-8716'/></component-of>
+</Terminator>
+</component>
+<component><Promoter ID='ECOLI:PM0-9377' orgid='ECOLI' frameid='PM0-9377' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>1995703</minus-10-left>
+<common-name datatype='string'>yecFp</common-name>
+<minus-35-right datatype='integer'>1995688</minus-35-right>
+<minus-35-left datatype='integer'>1995684</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:EG11355-MONOMER' orgid='ECOLI' frameid='EG11355-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1995717</absolute-plus-1-pos>
+<comment datatype='string'>Yu et al. showed in 2006 that transcription of &lt;i&gt;yecF&lt;/i&gt; is highly dependent on alternative factor &amp;sigma;&lt;sup&gt;F&lt;/sup&gt; and can be transcribed by RNA polymerase &amp;sigma;&lt;sup&gt;28&lt;/sup&gt; &lt;i&gt;in vitro&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16997971&quot;&gt;Yu06&lt;/a&gt;]. 
+&lt;p&gt;
+The sequence of this promoter has been defined, by computational analyses, from the consensus sequence of the &amp;sigma;&lt;sup&gt;28&lt;/sup&gt; (&amp;sigma;&lt;sup&gt;F&lt;/sup&gt;)  promoters: TAAAGTTT in the -35 box and GCCGATAA in the -10 box [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16997971&quot;&gt;Yu06&lt;/a&gt;]. Therefore, we assigned a putative transcription start site for this promoter based on the observation that the majority of the &amp;sigma;&lt;sup&gt;28&lt;/sup&gt; promoters, determined experimentally, present an important -10 motif (5'-CGA-3') at the positions -12 to -10 and a distance of 6 nucleotides between the transcription start site and the -10 box  [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16855242&quot;&gt;Yu06a&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16997971&quot;&gt;Yu06&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/11520622&quot;&gt;Park01&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-16997971' orgid='ECOLI' frameid='PUB-16997971' detail='full'><source datatype='string'>J Bacteriol 188(23);8206-8212</source>
+<pubmed-id datatype='string'>16997971</pubmed-id>
+<title datatype='string'>In Silico Prediction and Functional Validation of {sigma}28-Regulated Genes in Chlamydia and Escherichia coli.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Yu HH</author>
+<author datatype='string'>Kibler D</author>
+<author datatype='string'>Tan M</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16997971' orgid='ECOLI' frameid='PUB-16997971'/></evidence>
+<minus-10-right datatype='integer'>1995710</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8716' orgid='ECOLI' frameid='TU0-8716'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG12861' orgid='ECOLI' frameid='EG12861'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42573'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42573</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42573' orgid='ECOLI' frameid='TU0-42573' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>lapAB</common-name>
+<citation><Publication ID='ECOLI:PUB-24722986' orgid='ECOLI' frameid='PUB-24722986' detail='full'><source datatype='string'>J Biol Chem 289(21);14829-53</source>
+<pubmed-id datatype='string'>24722986</pubmed-id>
+<title datatype='string'>Assembly of lipopolysaccharide in Escherichia coli requires the essential LapB heat shock protein.</title>
+<year datatype='integer'>2014</year>
+<author datatype='string'>Klein G</author>
+<author datatype='string'>Kobylak N</author>
+<author datatype='string'>Lindner B</author>
+<author datatype='string'>Stupak A</author>
+<author datatype='string'>Raina S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-IC-ADJ-GENES-SAME-BIO-PROCESS' orgid='ECOLI' frameid='EV-IC-ADJ-GENES-SAME-BIO-PROCESS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' class='true'/></parent>
+<common-name datatype='string'>Products of adjacent genes in the same biological process</common-name>
+<comment datatype='string'>A transcription unit is inferred because there is a set of adjacent genes,
+encoded in the same direction, coding for products that participate in the
+same metabolic pathway or biological process. Sometimes, these genes code
+for subunits of the same protein.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-24722986' orgid='ECOLI' frameid='PUB-24722986'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Inferred through co-regulation</common-name>
+<comment datatype='string'>Inferred through co-regulation.  A transcription unit is inferred because a set of 
+adjacent genes that are transcribed in the same direction exhibit similar
+expression patterns under a range of environmental conditions.
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-24722986' orgid='ECOLI' frameid='PUB-24722986'/></evidence>
+<component><Promoter ID='ECOLI:PM0-46325' orgid='ECOLI' frameid='PM0-46325' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>1340175</minus-10-left>
+<common-name datatype='string'>lapAp2</common-name>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>P3</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1340186</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred by a human based on computational evidence</common-name>
+<comment datatype='string'>Human inference.  A curator or author inferred this assertion after review of one or more possible types 
+of computational evidence such as sequence similarity, recognized motifs or consensus sequence, etc.  
+When the inference was made by a computer in an automated fashion, use EV-AINF.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-24722986' orgid='ECOLI' frameid='PUB-24722986'/></evidence>
+<citation><Publication resource='#ECOLI:PUB-24722986' orgid='ECOLI' frameid='PUB-24722986'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-24722986' orgid='ECOLI' frameid='PUB-24722986'/></evidence>
+<minus-10-right datatype='integer'>1340180</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42573' orgid='ECOLI' frameid='TU0-42573'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG12691' orgid='ECOLI' frameid='EG12691'/></component>
+<component><Gene resource='getxml?ECOLI:G6637' orgid='ECOLI' frameid='G6637'/></component>
+</Transcription-Unit>
+</ptools-xml>

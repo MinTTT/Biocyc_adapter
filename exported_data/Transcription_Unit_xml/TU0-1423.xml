@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-1423'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-1423</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-1423' orgid='ECOLI' frameid='TU0-1423' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ftsZ</common-name>
+<citation><Publication ID='ECOLI:PUB-9220001' orgid='ECOLI' frameid='PUB-9220001' detail='full'><source datatype='string'>Mol Microbiol 24(5);927-36</source>
+<pubmed-id datatype='string'>9220001</pubmed-id>
+<title datatype='string'>Contribution of individual promoters in the ddlB-ftsZ region to the transcription of the essential cell-division gene ftsZ in Escherichia coli.</title>
+<year datatype='integer'>1997</year>
+<author datatype='string'>Flardh K</author>
+<author datatype='string'>Garrido T</author>
+<author datatype='string'>Vicente M</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9220001' orgid='ECOLI' frameid='PUB-9220001'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG10347' orgid='ECOLI' frameid='EG10347'/></component>
+<component><Promoter ID='ECOLI:PM00608' orgid='ECOLI' frameid='PM00608' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ftsZp2</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>105045</absolute-plus-1-pos>
+<comment datatype='string'>The  ftsZp2 promoter is an internal promoter of the &lt;i&gt;ftsQAZ&lt;/i&gt; operon, and it appears to be weak.</comment>
+<citation><Publication ID='ECOLI:PUB-1698623' orgid='ECOLI' frameid='PUB-1698623' detail='full'><source datatype='string'>EMBO J 9(11);3787-94</source>
+<pubmed-id datatype='string'>1698623</pubmed-id>
+<title datatype='string'>Division genes in Escherichia coli are expressed coordinately to cell septum requirements by gearbox promoters.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>Aldea M</author>
+<author datatype='string'>Garrido T</author>
+<author datatype='string'>Pla J</author>
+<author datatype='string'>Vicente M</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-9791185' orgid='ECOLI' frameid='PUB-9791185' detail='full'><source datatype='string'>Mol Microbiol 30(2);419-30</source>
+<pubmed-id datatype='string'>9791185</pubmed-id>
+<title datatype='string'>The ftsQ1p gearbox promoter of Escherichia coli is a major sigma S-dependent promoter in the ddlB-ftsA region.</title>
+<year datatype='integer'>1998</year>
+<author datatype='string'>Ballesteros M</author>
+<author datatype='string'>Kusano S</author>
+<author datatype='string'>Ishihama A</author>
+<author datatype='string'>Vicente M</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-9220001' orgid='ECOLI' frameid='PUB-9220001'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1698623' orgid='ECOLI' frameid='PUB-1698623'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1698623' orgid='ECOLI' frameid='PUB-1698623'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-1423' orgid='ECOLI' frameid='TU0-1423'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

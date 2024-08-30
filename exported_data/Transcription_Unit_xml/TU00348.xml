@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00348'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00348</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00348' orgid='ECOLI' frameid='TU00348' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rpsLG-fusA-tufA</common-name>
+<comment datatype='string'>FNR represses &lt;i&gt;tufA&lt;/i&gt; gene expression under anaerobiosis, but it is not known which transcription unit is affected, or even if this regulation is direct or indirect [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12754220&quot;&gt;Salmon03&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-1398129' orgid='ECOLI' frameid='PUB-1398129' detail='full'><source datatype='string'>Gene 120(1);93-8</source>
+<pubmed-id datatype='string'>1398129</pubmed-id>
+<title datatype='string'>Comparison of the complete sequence of the str operon in Salmonella typhimurium and Escherichia coli.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Johanson U</author>
+<author datatype='string'>Hughes D</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-7507167' orgid='ECOLI' frameid='PUB-7507167' detail='full'><source datatype='string'>J Mol Biol 235(1);111-24</source>
+<pubmed-id datatype='string'>7507167</pubmed-id>
+<title datatype='string'>Post-transcriptional regulation of the str operon in Escherichia coli. Ribosomal protein S7 inhibits coupled translation of S7 but not its independent translation.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Saito K</author>
+<author datatype='string'>Mattheakis LC</author>
+<author datatype='string'>Nomura M</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-151587' orgid='ECOLI' frameid='PUB-151587' detail='full'><source datatype='string'>Cell 15(1);215-29</source>
+<pubmed-id datatype='string'>151587</pubmed-id>
+<title datatype='string'>DNA sequences of promoter regions for the str and spc ribosomal protein operons in E. coli.</title>
+<year datatype='integer'>1978</year>
+<author datatype='string'>Post LE</author>
+<author datatype='string'>Arfsten AE</author>
+<author datatype='string'>Reusser F</author>
+<author datatype='string'>Nomura M</author>
+</Publication>
+</citation>
+<regulated-by><Regulation ID='ECOLI:REG0-10836' orgid='ECOLI' frameid='REG0-10836' detail='low'><parent><Regulation resource='getxml?ECOLI:Protein-Mediated-Translation-Regulation' orgid='ECOLI' frameid='Protein-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG10906-MONOMER' orgid='ECOLI' frameid='EG10906-MONOMER'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU00348' orgid='ECOLI' frameid='TU00348'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component><Promoter ID='ECOLI:PM00445' orgid='ECOLI' frameid='PM00445' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rpsLp</common-name>
+<synonym datatype='string'>str</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3474621</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-359165' orgid='ECOLI' frameid='PUB-359165' detail='full'><source datatype='string'>Cell 15(1);231-6</source>
+<pubmed-id datatype='string'>359165</pubmed-id>
+<title datatype='string'>Isolation and characterization of a promoter mutant in the str ribosomal protein operon in E. coli.</title>
+<year datatype='integer'>1978</year>
+<author datatype='string'>Post LE</author>
+<author datatype='string'>Arfsten AE</author>
+<author datatype='string'>Nomura M</author>
+<author datatype='string'>Jaskunas SR</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-RNA-POLYMERASE-FOOTPRINTING' orgid='ECOLI' frameid='EV-EXP-IDA-RNA-POLYMERASE-FOOTPRINTING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>RNA polymerase footprinting</common-name>
+<comment datatype='string'>The binding of RNA polymerase to a DNA region (the promoter) is shown by footprinting.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-151587' orgid='ECOLI' frameid='PUB-151587'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11169' orgid='ECOLI' frameid='REG0-11169' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8070' orgid='ECOLI' frameid='CPLX0-8070'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00445' orgid='ECOLI' frameid='PM00445'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU00348' orgid='ECOLI' frameid='TU00348'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11036' orgid='ECOLI' frameid='EG11036'/></component>
+<component><Gene resource='getxml?ECOLI:EG10360' orgid='ECOLI' frameid='EG10360'/></component>
+<component><Gene resource='getxml?ECOLI:EG10906' orgid='ECOLI' frameid='EG10906'/></component>
+<component><Gene resource='getxml?ECOLI:EG10911' orgid='ECOLI' frameid='EG10911'/></component>
+</Transcription-Unit>
+</ptools-xml>

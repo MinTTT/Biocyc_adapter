@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-7301'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-7301</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-7301' orgid='ECOLI' frameid='TU0-7301' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>kdgK</common-name>
+<citation><Publication ID='ECOLI:PUB-4359651' orgid='ECOLI' frameid='PUB-4359651' detail='full'><source datatype='string'>J Bacteriol 117(2);641-51</source>
+<pubmed-id datatype='string'>4359651</pubmed-id>
+<title datatype='string'>Genetic control of the 2-keto-3-deoxy-d-gluconate metabolism in Escherichia coli K-12: kdg regulon.</title>
+<year datatype='integer'>1974</year>
+<author datatype='string'>Pouyssegur J</author>
+<author datatype='string'>Stoeber F</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8346018' orgid='ECOLI' frameid='PUB-8346018' detail='full'><source datatype='string'>Nucleic Acids Res 21(15);3391-8</source>
+<pubmed-id datatype='string'>8346018</pubmed-id>
+<title datatype='string'>Analysis of the Escherichia coli genome. III. DNA sequence of the region from 87.2 to 89.2 minutes.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>Plunkett G</author>
+<author datatype='string'>Burland V</author>
+<author datatype='string'>Daniels DL</author>
+<author datatype='string'>Blattner FR</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-9278503' orgid='ECOLI' frameid='PUB-9278503' detail='full'><source datatype='string'>Science 277(5331);1453-74</source>
+<pubmed-id datatype='string'>9278503</pubmed-id>
+<title datatype='string'>The complete genome sequence of Escherichia coli K-12.</title>
+<year datatype='integer'>1997</year>
+<author datatype='string'>Blattner FR</author>
+<author datatype='string'>Plunkett G</author>
+<author datatype='string'>Bloch CA</author>
+<author datatype='string'>Perna NT</author>
+<author datatype='string'>Burland V</author>
+<author datatype='string'>Riley M</author>
+<author datatype='string'>Collado-Vides J</author>
+<author datatype='string'>Glasner JD</author>
+<author datatype='string'>Rode CK</author>
+<author datatype='string'>Mayhew GF</author>
+<author datatype='string'>Gregor J</author>
+<author datatype='string'>Davis NW</author>
+<author datatype='string'>Kirkpatrick HA</author>
+<author datatype='string'>Goeden MA</author>
+<author datatype='string'>Rose DJ</author>
+<author datatype='string'>Mau B</author>
+<author datatype='string'>Shao Y</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SINGLE-DIRECTON' orgid='ECOLI' frameid='EV-COMP-AINF-SINGLE-DIRECTON' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference that a single-gene directon is a transcription unit </common-name>
+<comment datatype='string'>Automated inference of transcription unit based on single-gene directon.  Existence of a single-gene transcription unit 
+for gene G is inferred computationally by the existence of upstream and downstream genes transcribed in the 
+opposite direction of G.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8346018' orgid='ECOLI' frameid='PUB-8346018'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG12253' orgid='ECOLI' frameid='EG12253'/></component>
+</Transcription-Unit>
+</ptools-xml>

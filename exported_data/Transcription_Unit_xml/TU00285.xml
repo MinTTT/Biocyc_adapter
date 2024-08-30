@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00285'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00285</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00285' orgid='ECOLI' frameid='TU00285' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>hisLGDCBHAFI</common-name>
+<comment datatype='string'>The &lt;I&gt;hisLGDCBHAFI&lt;/i&gt; operon codes for the enzymes of the histidine
+biosynthesis pathway. It is controlled by attenuation in response to
+histidine availability. When histidine is abundant, the ribosome quickly
+translates through a stretch of seven histidine codons in the &lt;i&gt;hisL&lt;/i&gt;
+leader region, allowing formation of the transcriptional terminator between &lt;i&gt;hisL&lt;/i&gt;
+and &lt;i&gt;hisG&lt;/i&gt;. In contrast, when histidine is not available, the
+ribosome stalls within the leader region and the terminator will not form,
+allowing transcription to continue [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/360215&quot;&gt;Di78&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/6170941&quot;&gt;Verde81&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/6166940&quot;&gt;Frunzio81&lt;/a&gt;].
+&lt;p&gt;
+This operon appears to be positively regulated by a not-yet-characterized small protein that binds to the operator, altering the RNA secondary structure and affecting the attenuation of the operon [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/36920032&quot;&gt;Babina23&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-1592835' orgid='ECOLI' frameid='PUB-1592835' detail='full'><source datatype='string'>J Bacteriol 174(11);3830-1</source>
+<pubmed-id datatype='string'>1592835</pubmed-id>
+<title datatype='string'>Location of the hisGDCBHAFI operon on the physical map of Escherichia coli.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Alifano P</author>
+<author datatype='string'>Carlomagno MS</author>
+<author datatype='string'>Bruni CB</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1592835' orgid='ECOLI' frameid='PUB-1592835'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Inferred through co-regulation</common-name>
+<comment datatype='string'>Inferred through co-regulation.  A transcription unit is inferred because a set of 
+adjacent genes that are transcribed in the same direction exhibit similar
+expression patterns under a range of environmental conditions.
+</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-4934197' orgid='ECOLI' frameid='PUB-4934197' detail='full'><source datatype='string'>Genetics 66(2);219-29</source>
+<pubmed-id datatype='string'>4934197</pubmed-id>
+<title datatype='string'>Genetic analysis of the histidine operon in Escherichia coli K12.</title>
+<year datatype='integer'>1970</year>
+<author datatype='string'>Goldschmidt EP</author>
+<author datatype='string'>Cater MS</author>
+<author datatype='string'>Matney TS</author>
+<author datatype='string'>Butler MA</author>
+<author datatype='string'>Greene A</author>
+</Publication>
+</evidence>
+<component><Gene resource='getxml?ECOLI:EG11269' orgid='ECOLI' frameid='EG11269'/></component>
+<component><Promoter ID='ECOLI:PM0-7141' orgid='ECOLI' frameid='PM0-7141' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>hisLp</common-name>
+<synonym datatype='string'>hisGp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2089965</absolute-plus-1-pos>
+<comment datatype='string'>Guanosine tetraphosphate (ppGpp) increases the transcription of the hisLp promoter. In contrast, ppGpp reduces the transcription of other promoters, such as  argTp and rrnBp1.</comment>
+<citation><Publication ID='ECOLI:PUB-6170941' orgid='ECOLI' frameid='PUB-6170941' detail='full'><source datatype='string'>Nucleic Acids Res 9(9);2075-86</source>
+<pubmed-id datatype='string'>6170941</pubmed-id>
+<title datatype='string'>Identification, nucleotide sequence and expression of the regulatory region of the histidine operon of Escherichia coli K-12.</title>
+<year datatype='integer'>1981</year>
+<author datatype='string'>Verde P</author>
+<author datatype='string'>Frunzio R</author>
+<author datatype='string'>di Nocera PP</author>
+<author datatype='string'>Blasi F</author>
+<author datatype='string'>Bruni CB</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6170941' orgid='ECOLI' frameid='PUB-6170941'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-RNA-POLYMERASE-FOOTPRINTING' orgid='ECOLI' frameid='EV-EXP-IDA-RNA-POLYMERASE-FOOTPRINTING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>RNA polymerase footprinting</common-name>
+<comment datatype='string'>The binding of RNA polymerase to a DNA region (the promoter) is shown by footprinting.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6170941' orgid='ECOLI' frameid='PUB-6170941'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11388' orgid='ECOLI' frameid='REG0-11388' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8070' orgid='ECOLI' frameid='CPLX0-8070'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-7141' orgid='ECOLI' frameid='PM0-7141'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-42511' orgid='ECOLI' frameid='TU0-42511'/><Transcription-Unit resource='#ECOLI:TU00285' orgid='ECOLI' frameid='TU00285'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10449' orgid='ECOLI' frameid='EG10449'/></component>
+<component><Gene resource='getxml?ECOLI:EG10447' orgid='ECOLI' frameid='EG10447'/></component>
+<component><Gene resource='getxml?ECOLI:EG10446' orgid='ECOLI' frameid='EG10446'/></component>
+<component><Gene resource='getxml?ECOLI:EG10445' orgid='ECOLI' frameid='EG10445'/></component>
+<component><Gene resource='getxml?ECOLI:EG10450' orgid='ECOLI' frameid='EG10450'/></component>
+<component><Gene resource='getxml?ECOLI:EG10444' orgid='ECOLI' frameid='EG10444'/></component>
+<component><Gene resource='getxml?ECOLI:EG10448' orgid='ECOLI' frameid='EG10448'/></component>
+<component><Gene resource='getxml?ECOLI:EG10451' orgid='ECOLI' frameid='EG10451'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00324'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00324</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00324' orgid='ECOLI' frameid='TU00324' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>prfB-lysS</common-name>
+<citation><Publication ID='ECOLI:PUB-2456575' orgid='ECOLI' frameid='PUB-2456575' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 85(15);5620-4</source>
+<pubmed-id datatype='string'>2456575</pubmed-id>
+<title datatype='string'>Chromosomal location and structure of the operon encoding peptide-chain-release factor 2 of Escherichia coli.</title>
+<year datatype='integer'>1988</year>
+<author datatype='string'>Kawakami K</author>
+<author datatype='string'>Jonsson YH</author>
+<author datatype='string'>Bjork GR</author>
+<author datatype='string'>Ikeda H</author>
+<author datatype='string'>Nakamura Y</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-2183178' orgid='ECOLI' frameid='PUB-2183178' detail='full'><source datatype='string'>Nucleic Acids Res 18(2);305-12</source>
+<pubmed-id datatype='string'>2183178</pubmed-id>
+<title datatype='string'>Homology of lysS and lysU, the two Escherichia coli genes encoding distinct lysyl-tRNA synthetase species.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>Leveque F</author>
+<author datatype='string'>Plateau P</author>
+<author datatype='string'>Dessen P</author>
+<author datatype='string'>Blanquet S</author>
+</Publication>
+</citation>
+<regulated-by><Regulation ID='ECOLI:REG0-12994' orgid='ECOLI' frameid='REG0-12994' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Compound resource='getxml?ECOLI:GUANOSINE-5DP-3DP' orgid='ECOLI' frameid='GUANOSINE-5DP-3DP'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU00324' orgid='ECOLI' frameid='TU00324'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component><Gene resource='getxml?ECOLI:EG10552' orgid='ECOLI' frameid='EG10552'/></component>
+<component><Gene resource='getxml?ECOLI:EG10762' orgid='ECOLI' frameid='EG10762'/></component>
+</Transcription-Unit>
+</ptools-xml>

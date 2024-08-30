@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8367'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8367</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8367' orgid='ECOLI' frameid='TU0-8367' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rssAB</common-name>
+<comment datatype='string'>&lt;i&gt;rssAB&lt;/i&gt; operon expression is induced when  cells enter the stationary phase [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/11566997&quot;&gt;Ruiz01&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-11566997' orgid='ECOLI' frameid='PUB-11566997' detail='full'><source datatype='string'>J Bacteriol 183(20);5974-81</source>
+<pubmed-id datatype='string'>11566997</pubmed-id>
+<title datatype='string'>RpoS-dependent transcriptional control of sprE: regulatory feedback loop.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Ruiz N</author>
+<author datatype='string'>Peterson CN</author>
+<author datatype='string'>Silhavy TJ</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11566997' orgid='ECOLI' frameid='PUB-11566997'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG12121' orgid='ECOLI' frameid='EG12121'/></component>
+<component><Gene resource='getxml?ECOLI:EG12120' orgid='ECOLI' frameid='EG12120'/></component>
+<component><Promoter ID='ECOLI:PM0-8749' orgid='ECOLI' frameid='PM0-8749' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>1289088</minus-10-left>
+<common-name datatype='string'>rssAp</common-name>
+<minus-35-right datatype='integer'>1289075</minus-35-right>
+<minus-35-left datatype='integer'>1289070</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>rssp1</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1289106</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-11566997' orgid='ECOLI' frameid='PUB-11566997'/></citation>
+<citation><Publication ID='ECOLI:PUB-12354235' orgid='ECOLI' frameid='PUB-12354235' detail='full'><source datatype='string'>Mol Microbiol 45(6);1701-13</source>
+<pubmed-id datatype='string'>12354235</pubmed-id>
+<title datatype='string'>The cellular level of the recognition factor RssB is rate-limiting for sigmaS proteolysis: implications for RssB regulation and signal transduction in sigmaS turnover in Escherichia coli.</title>
+<year datatype='integer'>2002</year>
+<author datatype='string'>Pruteanu M</author>
+<author datatype='string'>Hengge-Aronis R</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from mutant phenotype</common-name>
+<comment datatype='string'>IMP inferred from mutant phenotype.
+
+&lt;br&gt;
+The assertion was inferred from a mutant phenotype such as
+&lt;ul&gt;
+    &lt;li&gt; Any gene mutation/knockout
+    &lt;li&gt; Overexpression/ectopic expression of wild-type or mutant genes
+    &lt;li&gt; Anti-sense experiments
+    &lt;li&gt; RNA interference experiments
+    &lt;li&gt; Specific protein inhibitors
+    &lt;li&gt; Complementation
+&lt;/ul&gt;&lt;p class=ecocomment&gt;	
+Comment: Inferences made from examining mutations or
+abnormal levels of only the product(s) of the gene of interest are covered by code EV-IMP
+(compare to code EV-IGI). Use this code for experiments that use antibodies 
+or other specific inhibitors of RNA or protein activity, even though no
+gene may be mutated (the rationale is that EV-IMP is used where an
+abnormal situation prevails in a cell or organism).
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11566997' orgid='ECOLI' frameid='PUB-11566997'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12354235' orgid='ECOLI' frameid='PUB-12354235'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/><Publication resource='#ECOLI:PUB-12354235' orgid='ECOLI' frameid='PUB-12354235'/></evidence>
+<minus-10-right datatype='integer'>1289098</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8367' orgid='ECOLI' frameid='TU0-8367'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

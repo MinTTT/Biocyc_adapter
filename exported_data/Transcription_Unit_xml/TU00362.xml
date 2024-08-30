@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00362'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00362</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00362' orgid='ECOLI' frameid='TU00362' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>surA-pdxA-rsmA-apaGH</common-name>
+<synonym datatype='string'>surA-pdxA-ksgA-apaGH</synonym>
+<citation><Publication ID='ECOLI:PUB-2165476' orgid='ECOLI' frameid='PUB-2165476' detail='full'><source datatype='string'>J Bacteriol 172(8);4339-47</source>
+<pubmed-id datatype='string'>2165476</pubmed-id>
+<title datatype='string'>surA, an Escherichia coli gene essential for survival in stationary phase.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>Tormo A</author>
+<author datatype='string'>Almiron M</author>
+<author datatype='string'>Kolter R</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-2670894' orgid='ECOLI' frameid='PUB-2670894' detail='full'><source datatype='string'>J Bacteriol 171(9);4767-77</source>
+<pubmed-id datatype='string'>2670894</pubmed-id>
+<title datatype='string'>Overlap between pdxA and ksgA in the complex pdxA-ksgA-apaG-apaH operon of Escherichia coli K-12.</title>
+<year datatype='integer'>1989</year>
+<author datatype='string'>Roa BB</author>
+<author datatype='string'>Connolly DM</author>
+<author datatype='string'>Winkler ME</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2165476' orgid='ECOLI' frameid='PUB-2165476'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2670894' orgid='ECOLI' frameid='PUB-2670894'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG10048' orgid='ECOLI' frameid='EG10048'/></component>
+<component><Promoter ID='ECOLI:PM191' orgid='ECOLI' frameid='PM191' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>surAp</common-name>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOE-MONOMER' orgid='ECOLI' frameid='RPOE-MONOMER'/></binds-sigma-factor>
+<citation><Publication ID='ECOLI:PUB-11844765' orgid='ECOLI' frameid='PUB-11844765' detail='full'><source datatype='string'>J Bacteriol 184(5);1359-69</source>
+<pubmed-id datatype='string'>11844765</pubmed-id>
+<title datatype='string'>Positive growth rate-dependent regulation of the pdxA, ksgA, and pdxB genes of Escherichia coli K-12.</title>
+<year datatype='integer'>2002</year>
+<author datatype='string'>Pease AJ</author>
+<author datatype='string'>Roa BR</author>
+<author datatype='string'>Luo W</author>
+<author datatype='string'>Winkler ME</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-2670894' orgid='ECOLI' frameid='PUB-2670894'/></citation>
+<citation><Publication resource='#ECOLI:PUB-2165476' orgid='ECOLI' frameid='PUB-2165476'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-AS-NAS' orgid='ECOLI' frameid='EV-AS-NAS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-AS' orgid='ECOLI' frameid='EV-AS' class='true'/></parent>
+<common-name datatype='string'>Non-traceable author statement</common-name>
+<comment datatype='string'>Non-traceable author statement.  The assertion was made in a publication such as a review, a meeting abstract, 
+or another database without a reference to a publication describing an experiment that supports the assertion.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11844765' orgid='ECOLI' frameid='PUB-11844765'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-TAS' orgid='ECOLI' frameid='EV-EXP-TAS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Traceable author statement to experimental support</common-name>
+<comment datatype='string'>Traceable author statement to experimental support.  The assertion was made in a publication -- such as a review or 
+in another database -- that itself did not describe an experiment supporting the
+assertion.  However, the statement did reference another publication describing an experiment 
+that supports the assertion.  The difference between the codes EV-EXP-TAS and EV-AS-TAS 
+is that the former code is used when it is certain that experimental evidence supports the
+assertion, and the latter code is used when there is a possibility that an experiment was
+not done to support the assertion.
+In general, references to the primary literature are preferred,
+but this code can be used when the original article is difficult to locate.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2670894' orgid='ECOLI' frameid='PUB-2670894'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-TAS' orgid='ECOLI' frameid='EV-EXP-TAS' class='true'/><Publication resource='#ECOLI:PUB-2165476' orgid='ECOLI' frameid='PUB-2165476'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU00362' orgid='ECOLI' frameid='TU00362'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10047' orgid='ECOLI' frameid='EG10047'/></component>
+<component><Gene resource='getxml?ECOLI:EG10523' orgid='ECOLI' frameid='EG10523'/></component>
+<component><Gene resource='getxml?ECOLI:EG10691' orgid='ECOLI' frameid='EG10691'/></component>
+<component><Gene resource='getxml?ECOLI:EG10985' orgid='ECOLI' frameid='EG10985'/></component>
+</Transcription-Unit>
+</ptools-xml>
