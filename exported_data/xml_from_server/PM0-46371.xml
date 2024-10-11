@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM0-46371'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM0-46371</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM0-46371' orgid='ECOLI' frameid='PM0-46371' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>1996903</minus-10-left>
+<common-name datatype='string'>sdsNp1</common-name>
+<minus-35-right datatype='integer'>1996890</minus-35-right>
+<minus-35-left datatype='integer'>1996885</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1996921</absolute-plus-1-pos>
+<comment datatype='string'>When &amp;sigma;&lt;sup&gt;S&lt;/sup&gt; is deleted, expression from the sdsNp1 promoter is significantly reduced; however, this promoter contains a sequence that partially matches the consensus &amp;sigma;&lt;sup&gt;S&lt;/sup&gt; promoter sequence. The protein CRL, which stimulates &amp;sigma;&lt;sup&gt;S&lt;/sup&gt; binding to RNA polymerase, appears to influence expression from this promoter [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/27166377&quot;&gt;Hao16&lt;/a&gt;]
+&lt;p&gt;
+Another transcription start site (TSS) was mapped, by high-throughput RNA-seq, to 15 nt upstream of the TSS of this promoter [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/21665928&quot;&gt;Raghavan11&lt;/a&gt;].  A putative promoter &amp;sigma;&lt;sup&gt;70&lt;/sup&gt; was predicted upstream of this TSS [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12069726&quot;&gt;Chen02&lt;/a&gt;], but the promoter was a little further away, 32 nt, from the TSS.</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred by a human based on computational evidence</common-name>
+<comment datatype='string'>Human inference.  A curator or author inferred this assertion after review of one or more possible types 
+of computational evidence such as sequence similarity, recognized motifs or consensus sequence, etc.  
+When the inference was made by a computer in an automated fashion, use EV-AINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-27166377' orgid='ECOLI' frameid='PUB-27166377' detail='full'><source datatype='string'>Nucleic Acids Res 44(14);6935-48</source>
+<pubmed-id datatype='string'>27166377</pubmed-id>
+<title datatype='string'>Protection against deleterious nitrogen compounds: role of &amp;sigma;S-dependent small RNAs encoded adjacent to sdiA.</title>
+<year datatype='integer'>2016</year>
+<author datatype='string'>Hao Y</author>
+<author datatype='string'>Updegrove TB</author>
+<author datatype='string'>Livingston NN</author>
+<author datatype='string'>Storz G</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-27166377' orgid='ECOLI' frameid='PUB-27166377'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-27166377' orgid='ECOLI' frameid='PUB-27166377'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-27166377' orgid='ECOLI' frameid='PUB-27166377'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-27166377' orgid='ECOLI' frameid='PUB-27166377'/></evidence>
+<minus-10-right datatype='integer'>1996916</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-42630' orgid='ECOLI' frameid='TU0-42630'/></component-of>
+</Promoter>
+</ptools-xml>

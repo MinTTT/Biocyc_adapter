@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-45147'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-45147</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-45147' orgid='ECOLI' frameid='TU0-45147' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>oppBCDF</common-name>
+<comment datatype='string'>In addition to the transcriptional start site (TSS) of the &lt;i&gt;appB&lt;/i&gt;p promoter, two more TSSs have been reported downstream of the ATG of &lt;i&gt; appB&lt;/i&gt;; these could be the beginning of a transcript of &lt;i&gt;appC&lt;/i&gt;  and downstream genes, although they are too far from &lt;i&gt;appC&lt;/i&gt;  [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31704256&quot;&gt;Masulis19&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-3080404' orgid='ECOLI' frameid='PUB-3080404' detail='full'><source datatype='string'>J Bacteriol 165(2);434-42</source>
+<pubmed-id datatype='string'>3080404</pubmed-id>
+<title datatype='string'>opp-lac Operon fusions and transcriptional regulation of the Escherichia coli trp-linked oligopeptide permease.</title>
+<year datatype='integer'>1986</year>
+<author datatype='string'>Andrews JC</author>
+<author datatype='string'>Short SA</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-31704256' orgid='ECOLI' frameid='PUB-31704256' detail='full'><source datatype='string'>Res Microbiol </source>
+<pubmed-id datatype='string'>31704256</pubmed-id>
+<title datatype='string'>Between Computational Predictions and High-Throughput Transcriptional Profiling: in Depth Expression Analysis of the OppB Trans-Membrane Subunit of E. coli OppABCDF Oligopeptide Transporter.</title>
+<year datatype='integer'>2019</year>
+<author datatype='string'>Masulis IS</author>
+<author datatype='string'>Sukharycheva NA</author>
+<author datatype='string'>Kiselev SS</author>
+<author datatype='string'>Andreeva ZS</author>
+<author datatype='string'>Ozoline ON</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-31704256' orgid='ECOLI' frameid='PUB-31704256'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Inferred through co-regulation</common-name>
+<comment datatype='string'>Inferred through co-regulation.  A transcription unit is inferred because a set of 
+adjacent genes that are transcribed in the same direction exhibit similar
+expression patterns under a range of environmental conditions.
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3080404' orgid='ECOLI' frameid='PUB-3080404'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' detail='full' class='true'><common-name datatype='string'>Inferred by curator</common-name>
+<comment datatype='string'>Inferred by curator.  An assertion was inferred by a curator from relevant
+information such as other assertions in a database.
+</comment>
+</Evidence-Code>
+</evidence>
+<component><Promoter ID='ECOLI:PM0-46450' orgid='ECOLI' frameid='PM0-46450' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>oppBp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1302806</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-31704256' orgid='ECOLI' frameid='PUB-31704256'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-31704256' orgid='ECOLI' frameid='PUB-31704256'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-45147' orgid='ECOLI' frameid='TU0-45147'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10678' orgid='ECOLI' frameid='EG10678'/></component>
+<component><Gene resource='getxml?ECOLI:EG10677' orgid='ECOLI' frameid='EG10677'/></component>
+<component><Gene resource='getxml?ECOLI:EG10676' orgid='ECOLI' frameid='EG10676'/></component>
+<component><Gene resource='getxml?ECOLI:EG10675' orgid='ECOLI' frameid='EG10675'/></component>
+</Transcription-Unit>
+</ptools-xml>

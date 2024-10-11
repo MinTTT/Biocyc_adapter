@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU490'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU490</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU490' orgid='ECOLI' frameid='TU490' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>hupB</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-2187099' orgid='ECOLI' frameid='PUB-2187099' detail='full'><source datatype='string'>J Mol Biol 213(1);27-36</source>
+<pubmed-id datatype='string'>2187099</pubmed-id>
+<title datatype='string'>Promoters and autogenous control of the Escherichia coli hupA and hupB genes.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>Kohno K</author>
+<author datatype='string'>Wada M</author>
+<author datatype='string'>Kano Y</author>
+<author datatype='string'>Imamoto F</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8913296' orgid='ECOLI' frameid='PUB-8913296' detail='full'><source datatype='string'>J Mol Biol 263(2);126-39</source>
+<pubmed-id datatype='string'>8913296</pubmed-id>
+<title datatype='string'>Regulation of HU alpha and HU beta by CRP and FIS in Escherichia coli.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Claret L</author>
+<author datatype='string'>Rouviere-Yaniv J</author>
+</Publication>
+</citation>
+<component><Terminator ID='ECOLI:TERM163' orgid='ECOLI' frameid='TERM163' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>461742</right-end-position>
+<left-end-position datatype='integer'>461730</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-2187099' orgid='ECOLI' frameid='PUB-2187099'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU490' orgid='ECOLI' frameid='TU490'/><Transcription-Unit resource='getxml?ECOLI:TU489' orgid='ECOLI' frameid='TU489'/><Transcription-Unit resource='getxml?ECOLI:TU488' orgid='ECOLI' frameid='TU488'/><Transcription-Unit resource='getxml?ECOLI:TU487' orgid='ECOLI' frameid='TU487'/></component-of>
+</Terminator>
+</component>
+<component><Terminator ID='ECOLI:TERM164' orgid='ECOLI' frameid='TERM164' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>461778</right-end-position>
+<left-end-position datatype='integer'>461759</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-2187099' orgid='ECOLI' frameid='PUB-2187099'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU490' orgid='ECOLI' frameid='TU490'/><Transcription-Unit resource='getxml?ECOLI:TU489' orgid='ECOLI' frameid='TU489'/><Transcription-Unit resource='getxml?ECOLI:TU488' orgid='ECOLI' frameid='TU488'/><Transcription-Unit resource='getxml?ECOLI:TU487' orgid='ECOLI' frameid='TU487'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10467' orgid='ECOLI' frameid='EG10467'/></component>
+<component><Promoter ID='ECOLI:PM590' orgid='ECOLI' frameid='PM590' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>hupBp4</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>461305</absolute-plus-1-pos>
+<comment datatype='string'>This promoter is much weaker than hupBp2 and hupBp3.</comment>
+<citation><Publication resource='#ECOLI:PUB-8913296' orgid='ECOLI' frameid='PUB-8913296'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8913296' orgid='ECOLI' frameid='PUB-8913296'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU490' orgid='ECOLI' frameid='TU490'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM0-46337'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM0-46337</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM0-46337' orgid='ECOLI' frameid='PM0-46337' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>1147564</minus-10-left>
+<common-name datatype='string'>plsXp</common-name>
+<minus-35-right datatype='integer'>1147545</minus-35-right>
+<minus-35-left datatype='integer'>1147540</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1147577</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred by a human based on computational evidence</common-name>
+<comment datatype='string'>Human inference.  A curator or author inferred this assertion after review of one or more possible types 
+of computational evidence such as sequence similarity, recognized motifs or consensus sequence, etc.  
+When the inference was made by a computer in an automated fashion, use EV-AINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-25266388' orgid='ECOLI' frameid='PUB-25266388' detail='full'><source datatype='string'>J Bacteriol 197(1);18-28</source>
+<pubmed-id datatype='string'>25266388</pubmed-id>
+<title datatype='string'>Global transcriptional start site mapping using differential RNA sequencing reveals novel antisense RNAs in Escherichia coli.</title>
+<year datatype='integer'>2015</year>
+<author datatype='string'>Thomason MK</author>
+<author datatype='string'>Bischler T</author>
+<author datatype='string'>Eisenbart SK</author>
+<author datatype='string'>Forstner KU</author>
+<author datatype='string'>Zhang A</author>
+<author datatype='string'>Herbig A</author>
+<author datatype='string'>Nieselt K</author>
+<author datatype='string'>Sharma CM</author>
+<author datatype='string'>Storz G</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-25266388' orgid='ECOLI' frameid='PUB-25266388'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-25266388' orgid='ECOLI' frameid='PUB-25266388'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-25266388' orgid='ECOLI' frameid='PUB-25266388'/></evidence>
+<minus-10-right datatype='integer'>1147569</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-5' orgid='ECOLI' frameid='TU0-5'/></component-of>
+</Promoter>
+</ptools-xml>

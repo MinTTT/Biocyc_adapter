@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8475'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8475</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8475' orgid='ECOLI' frameid='TU0-8475' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>yciZT</common-name>
+<synonym datatype='string'>yciT</synonym>
+<synonym datatype='string'>deoT</synonym>
+<citation><Publication ID='ECOLI:PUB-21398637' orgid='ECOLI' frameid='PUB-21398637' detail='full'><source datatype='string'>Nucleic Acids Res 39(13);5338-55</source>
+<pubmed-id datatype='string'>21398637</pubmed-id>
+<title datatype='string'>In vitro transcription profiling of the &amp;sigma;S subunit of bacterial RNA polymerase: re-definition of the &amp;sigma;S regulon and identification of &amp;sigma;S-specific promoter sequence elements.</title>
+<year datatype='integer'>2011</year>
+<author datatype='string'>Maciag A</author>
+<author datatype='string'>Peano C</author>
+<author datatype='string'>Pietrelli A</author>
+<author datatype='string'>Egli T</author>
+<author datatype='string'>De Bellis G</author>
+<author datatype='string'>Landini P</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Inferred through co-regulation</common-name>
+<comment datatype='string'>Inferred through co-regulation.  A transcription unit is inferred because a set of 
+adjacent genes that are transcribed in the same direction exhibit similar
+expression patterns under a range of environmental conditions.
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-21398637' orgid='ECOLI' frameid='PUB-21398637'/></evidence>
+<component><Gene resource='getxml?ECOLI:G0-10591' orgid='ECOLI' frameid='G0-10591'/></component>
+<component><Gene resource='getxml?ECOLI:G6638' orgid='ECOLI' frameid='G6638'/></component>
+<component><Promoter ID='ECOLI:PM0-8911' orgid='ECOLI' frameid='PM0-8911' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>1344641</minus-10-left>
+<common-name datatype='string'>yciZp</common-name>
+<minus-35-right datatype='integer'>1344668</minus-35-right>
+<minus-35-left datatype='integer'>1344663</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>deoTp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1344638</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-16451192' orgid='ECOLI' frameid='PUB-16451192' detail='full'><source datatype='string'>FEMS Microbiol Lett 254(1);141-148</source>
+<pubmed-id datatype='string'>16451192</pubmed-id>
+<title datatype='string'>DeoT, a DeoR-type transcriptional regulator of multiple target genes.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Elgrably-Weiss M</author>
+<author datatype='string'>Schlosser-Silverman E</author>
+<author datatype='string'>Rosenshine I</author>
+<author datatype='string'>Altuvia S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16451192' orgid='ECOLI' frameid='PUB-16451192'/></evidence>
+<minus-10-right datatype='integer'>1344651</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8475' orgid='ECOLI' frameid='TU0-8475'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-1547'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-1547</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-1547' orgid='ECOLI' frameid='TU0-1547' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>tar-tap-cheRBYZ</common-name>
+<comment datatype='string'>A transcript that contains &lt;i&gt;cheY&lt;/i&gt; is increased after &amp;sigma;E induction, as observed in high-throughput analysis of gene expression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31992590&quot;&gt;Lacoux20&lt;/a&gt;].
+&lt;p&gt;
+The mRNA produced by the  &lt;i&gt;tar-tap-cheRBYZ &lt;/i&gt; operon has been observed mainly in the poles of the cell [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31540875&quot;&gt;Kannaiah19&lt;/a&gt;].
+&lt;p&gt;
+The &lt;i&gt;cheYZ&lt;/i&gt; genes are downregulated by long-term (8 to 12 h) exposure of &lt;i&gt;E. coli&lt;/i&gt; to some biocides [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/32385082&quot;&gt;Merchel20&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-9209042' orgid='ECOLI' frameid='PUB-9209042' detail='full'><source datatype='string'>J Bacteriol 179(13);4264-9</source>
+<pubmed-id datatype='string'>9209042</pubmed-id>
+<title datatype='string'>Promoter selectivity of Escherichia coli RNA polymerase sigmaF holoenzyme involved in transcription of flagellar and chemotaxis genes.</title>
+<year datatype='integer'>1997</year>
+<author datatype='string'>Kundu TK</author>
+<author datatype='string'>Kusano S</author>
+<author datatype='string'>Ishihama A</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-2644646' orgid='ECOLI' frameid='PUB-2644646' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 86(3);830-4</source>
+<pubmed-id datatype='string'>2644646</pubmed-id>
+<title datatype='string'>Secondary sigma factor controls transcription of flagellar and chemotaxis genes in Escherichia coli.</title>
+<year datatype='integer'>1989</year>
+<author datatype='string'>Arnosti DN</author>
+<author datatype='string'>Chamberlin MJ</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-6307970' orgid='ECOLI' frameid='PUB-6307970' detail='full'><source datatype='string'>J Bacteriol 155(2);565-77</source>
+<pubmed-id datatype='string'>6307970</pubmed-id>
+<title datatype='string'>Genetics of methyl-accepting chemotaxis proteins in Escherichia coli: organization of the tar region.</title>
+<year datatype='integer'>1983</year>
+<author datatype='string'>Slocum MK</author>
+<author datatype='string'>Parkinson JS</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-7045071' orgid='ECOLI' frameid='PUB-7045071' detail='full'><source datatype='string'>J Bacteriol 151(1);106-13</source>
+<pubmed-id datatype='string'>7045071</pubmed-id>
+<title datatype='string'>Isolation and behavior of Escherichia coli deletion mutants lacking chemotaxis functions.</title>
+<year datatype='integer'>1982</year>
+<author datatype='string'>Parkinson JS</author>
+<author datatype='string'>Houts SE</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-353036' orgid='ECOLI' frameid='PUB-353036' detail='full'><source datatype='string'>J Bacteriol 135(1);45-53</source>
+<pubmed-id datatype='string'>353036</pubmed-id>
+<title datatype='string'>Complementation analysis and deletion mapping of Escherichia coli mutants defective in chemotaxis.</title>
+<year datatype='integer'>1978</year>
+<author datatype='string'>Parkinson JS</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6307970' orgid='ECOLI' frameid='PUB-6307970'/></evidence>
+<component><DNA-Binding-Site ID='ECOLI:BS0-7188' orgid='ECOLI' frameid='BS0-7188' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6416' orgid='ECOLI' frameid='REG0-6416' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7797' orgid='ECOLI' frameid='CPLX0-7797'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-1728' orgid='ECOLI' frameid='PM0-1728' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>1972723</minus-10-left>
+<common-name datatype='string'>tarp</common-name>
+<minus-35-right datatype='integer'>1972749</minus-35-right>
+<minus-35-left datatype='integer'>1972745</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:EG11355-MONOMER' orgid='ECOLI' frameid='EG11355-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1972716</absolute-plus-1-pos>
+<comment datatype='string'>Kundu et al. showed in 1997 that transcription of &lt;i&gt;tar&lt;/i&gt; is highly dependent on alternative factor &amp;sigma;&lt;sup&gt;F&lt;/sup&gt; and can be transcribed by RNA polymerase &amp;sigma;&lt;sup&gt;28&lt;/sup&gt; &lt;i&gt;in vitro&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/9209042&quot;&gt;Kundu97&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-11031114' orgid='ECOLI' frameid='PUB-11031114' detail='full'><source datatype='string'>J Mol Biol 303(3);371-82</source>
+<pubmed-id datatype='string'>11031114</pubmed-id>
+<title datatype='string'>Two novel flagellar components and H-NS are involved in the motor function of Escherichia coli.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Ko M</author>
+<author datatype='string'>Park C</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-7590326' orgid='ECOLI' frameid='PUB-7590326' detail='full'><source datatype='string'>Gene 164(1);81-4</source>
+<pubmed-id datatype='string'>7590326</pubmed-id>
+<title datatype='string'>An alternative sigma factor controls transcription of flagellar class-III operons in Escherichia coli: gene sequence, overproduction, purification and characterization.</title>
+<year datatype='integer'>1995</year>
+<author datatype='string'>Liu X</author>
+<author datatype='string'>Matsumura P</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-2644646' orgid='ECOLI' frameid='PUB-2644646'/></citation>
+<citation><Publication resource='#ECOLI:PUB-9209042' orgid='ECOLI' frameid='PUB-9209042'/></citation>
+<citation><Publication ID='ECOLI:PUB-10586520' orgid='ECOLI' frameid='PUB-10586520' detail='full'><source datatype='string'>Genes Genet Syst 74(3);113-6</source>
+<pubmed-id datatype='string'>10586520</pubmed-id>
+<title datatype='string'>Reevaluation of the promoter structure of the class 3 flagellar operons of Escherichia coli and Salmonella.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>Ide N</author>
+<author datatype='string'>Ikebe T</author>
+<author datatype='string'>Kutsukake K</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-3306678' orgid='ECOLI' frameid='PUB-3306678' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 84(18);6422-4</source>
+<pubmed-id datatype='string'>3306678</pubmed-id>
+<title datatype='string'>DNA sequence analysis suggests that expression of flagellar and chemotaxis genes in Escherichia coli and Salmonella typhimurium is controlled by an alternative sigma factor.</title>
+<year datatype='integer'>1987</year>
+<author datatype='string'>Helmann JD</author>
+<author datatype='string'>Chamberlin MJ</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10586520' orgid='ECOLI' frameid='PUB-10586520'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2644646' orgid='ECOLI' frameid='PUB-2644646'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-6416' orgid='ECOLI' frameid='REG0-6416'/></regulated-by>
+<minus-10-right datatype='integer'>1972730</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-1547' orgid='ECOLI' frameid='TU0-1547'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<comment datatype='string'>By making use of microarray analyses, Constantinidou et al. [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16377617&quot;&gt;Constantinidou06&lt;/a&gt;] concluded that FNR activates &lt;i&gt;tar-tap-cheRBYZ&lt;/i&gt; operon expression. They also identified a putative FNR-binding site upstream of the operon, but the sequence was not reported.</comment>
+<citation><Publication ID='ECOLI:PUB-16377617' orgid='ECOLI' frameid='PUB-16377617' detail='full'><source datatype='string'>J Biol Chem 281(8);4802-15</source>
+<pubmed-id datatype='string'>16377617</pubmed-id>
+<title datatype='string'>A reassessment of the FNR regulon and transcriptomic analysis of the effects of nitrate, nitrite, NarXL, and NarQP as Escherichia coli K12 adapts from aerobic to anaerobic growth.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Constantinidou C</author>
+<author datatype='string'>Hobman JL</author>
+<author datatype='string'>Griffiths L</author>
+<author datatype='string'>Patel MD</author>
+<author datatype='string'>Penn CW</author>
+<author datatype='string'>Cole JA</author>
+<author datatype='string'>Overton TW</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on similarity to consensus sequences</common-name>
+<comment datatype='string'>A DNA sequence similar to previously known consensus sequences is computationally identified.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16377617' orgid='ECOLI' frameid='PUB-16377617'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-1547' orgid='ECOLI' frameid='TU0-1547'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10151' orgid='ECOLI' frameid='EG10151'/></component>
+<component><Gene resource='getxml?ECOLI:EG10150' orgid='ECOLI' frameid='EG10150'/></component>
+<component><Gene resource='getxml?ECOLI:EG10147' orgid='ECOLI' frameid='EG10147'/></component>
+<component><Gene resource='getxml?ECOLI:EG10148' orgid='ECOLI' frameid='EG10148'/></component>
+<component><Gene resource='getxml?ECOLI:EG10987' orgid='ECOLI' frameid='EG10987'/></component>
+<component><Gene resource='getxml?ECOLI:EG10988' orgid='ECOLI' frameid='EG10988'/></component>
+<component><Promoter resource='#ECOLI:PM0-1728' orgid='ECOLI' frameid='PM0-1728'/></component>
+</Transcription-Unit>
+</ptools-xml>

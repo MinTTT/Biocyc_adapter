@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-14528'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-14528</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-14528' orgid='ECOLI' frameid='TU0-14528' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rrlB-rrfB</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-IC-ADJ-GENES-SAME-BIO-PROCESS' orgid='ECOLI' frameid='EV-IC-ADJ-GENES-SAME-BIO-PROCESS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' class='true'/></parent>
+<common-name datatype='string'>Products of adjacent genes in the same biological process</common-name>
+<comment datatype='string'>A transcription unit is inferred because there is a set of adjacent genes,
+encoded in the same direction, coding for products that participate in the
+same metabolic pathway or biological process. Sometimes, these genes code
+for subunits of the same protein.</comment>
+</Evidence-Code>
+</evidence>
+<component><Terminator ID='ECOLI:TERM0-1115' orgid='ECOLI' frameid='TERM0-1115' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>4171803</right-end-position>
+<left-end-position datatype='integer'>4171760</left-end-position>
+<citation><Publication ID='ECOLI:PUB-7028991' orgid='ECOLI' frameid='PUB-7028991' detail='full'><source datatype='string'>J Mol Biol 148(2);107-27</source>
+<pubmed-id datatype='string'>7028991</pubmed-id>
+<title datatype='string'>Gene organization and primary structure of a ribosomal RNA operon from Escherichia coli.</title>
+<year datatype='integer'>1981</year>
+<author datatype='string'>Brosius J</author>
+<author datatype='string'>Dull TJ</author>
+<author datatype='string'>Sleeter DD</author>
+<author datatype='string'>Noller HF</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45275' orgid='ECOLI' frameid='TU0-45275'/><Transcription-Unit resource='#ECOLI:TU0-14528' orgid='ECOLI' frameid='TU0-14528'/><Transcription-Unit resource='getxml?ECOLI:TU0-3364' orgid='ECOLI' frameid='TU0-3364'/><Transcription-Unit resource='getxml?ECOLI:TU0-1182' orgid='ECOLI' frameid='TU0-1182'/></component-of>
+</Terminator>
+</component>
+<component><Terminator ID='ECOLI:TERM0-1116' orgid='ECOLI' frameid='TERM0-1116' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>4171962</right-end-position>
+<left-end-position datatype='integer'>4171935</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-7028991' orgid='ECOLI' frameid='PUB-7028991'/></citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45275' orgid='ECOLI' frameid='TU0-45275'/><Transcription-Unit resource='#ECOLI:TU0-14528' orgid='ECOLI' frameid='TU0-14528'/><Transcription-Unit resource='getxml?ECOLI:TU0-3364' orgid='ECOLI' frameid='TU0-3364'/><Transcription-Unit resource='getxml?ECOLI:TU0-1182' orgid='ECOLI' frameid='TU0-1182'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG30071' orgid='ECOLI' frameid='EG30071'/></component>
+<component><Gene resource='getxml?ECOLI:EG30078' orgid='ECOLI' frameid='EG30078'/></component>
+<component><Promoter ID='ECOLI:PM0-9811' orgid='ECOLI' frameid='PM0-9811' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rrlBp</common-name>
+<comment datatype='string'>Zaslaver et al. demonstrated in 2006, by means of a library of fluorescent transcription fusions, that this promoter can be transcribed &lt;i&gt;in vitro&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16862137&quot;&gt;Zaslaver06&lt;/a&gt;]. Based on this, a putative promoter was suggested, but the +1 site of the transcription initiation has not been determined, although there exists promoter activity.
+</comment>
+<citation><Publication ID='ECOLI:PUB-16862137' orgid='ECOLI' frameid='PUB-16862137' detail='full'><source datatype='string'>Nat Methods 3(8);623-8</source>
+<pubmed-id datatype='string'>16862137</pubmed-id>
+<title datatype='string'>A comprehensive library of fluorescent transcriptional reporters for Escherichia coli.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Zaslaver A</author>
+<author datatype='string'>Bren A</author>
+<author datatype='string'>Ronen M</author>
+<author datatype='string'>Itzkovitz S</author>
+<author datatype='string'>Kikoin I</author>
+<author datatype='string'>Shavit S</author>
+<author datatype='string'>Liebermeister W</author>
+<author datatype='string'>Surette MG</author>
+<author datatype='string'>Alon U</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16862137' orgid='ECOLI' frameid='PUB-16862137'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-14528' orgid='ECOLI' frameid='TU0-14528'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

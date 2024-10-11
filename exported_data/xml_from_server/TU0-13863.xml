@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-13863'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-13863</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-13863' orgid='ECOLI' frameid='TU0-13863' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>yqjCDEK</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><Promoter ID='ECOLI:PM0-46639' orgid='ECOLI' frameid='PM0-46639' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>3248872</minus-10-left>
+<common-name datatype='string'>yqjCp</common-name>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:EG11355-MONOMER' orgid='ECOLI' frameid='EG11355-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3248887</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING-PRIMER-EXTENSION-TSS' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING-PRIMER-EXTENSION-TSS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/></parent>
+<common-name datatype='string'>Primer extension assay for transcription start site determination</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0001819</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0001819</dblink-URL>
+</dblink>
+<credits><imported-from-meta><date datatype='date'>2022-10-25</date>
+<Person ID='ECOLI:paley' orgid='ECOLI' frameid='paley' detail='full'><affiliations><Organization ID='ECOLI:SRI' orgid='ECOLI' frameid='SRI' detail='full'><abbrev-name datatype='string'>SRI International</abbrev-name>
+<email datatype='string'>ptools-support@ai.sri.com</email>
+<common-name datatype='string'>SRI International</common-name>
+<url datatype='string'>http://bioinformatics.ai.sri.com/</url>
+</Organization>
+</affiliations>
+<common-name datatype='string'>Suzanne Paley</common-name>
+</Person>
+<Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A type of transcript expression evidence used to determine the 5' end of the mRNA where a labeled synthetic oligonucleotide primer is annealed to mRNA downstream of the presumed transcription start site of a gene. The mRNA is extended with reverse transcriptase, producing cDNA which is electrophoresed, and the band size enables determination of the 5' end of the mRNA (the transcription start site). [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23378648&quot;&gt;1&lt;/a&gt;]</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-37943032' orgid='ECOLI' frameid='PUB-37943032' detail='full'><source datatype='string'>mBio 14(6);e0258523</source>
+<pubmed-id datatype='string'>37943032</pubmed-id>
+<title datatype='string'>CsrA coordinates the expression of ribosome hibernation and anti-&amp;sigma; factor proteins.</title>
+<year datatype='integer'>2023</year>
+<author datatype='string'>Pourciau C</author>
+<author datatype='string'>Yakhnin H</author>
+<author datatype='string'>Pannuri A</author>
+<author datatype='string'>Gorelik MG</author>
+<author datatype='string'>Lai Y-J</author>
+<author datatype='string'>Romeo T</author>
+<author datatype='string'>Babitzke P</author>
+<doi-id datatype='string'>10.1128/mbio.02585-23</doi-id>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-IN-VITRO-TRANSCRIPTION' orgid='ECOLI' frameid='EV-EXP-IDA-IN-VITRO-TRANSCRIPTION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>in vitro transcription reconstitution assay evidence</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0000150</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0000150</dblink-URL>
+</dblink>
+<comment datatype='string'>A type of reconstitution assay evidence resulting from the use of reconstituted polymerase transcription systems to investigate RNA synthesis. [PMID:9237163]</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-37943032' orgid='ECOLI' frameid='PUB-37943032'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-37943032' orgid='ECOLI' frameid='PUB-37943032'/></evidence>
+<citation><Publication resource='#ECOLI:PUB-37943032' orgid='ECOLI' frameid='PUB-37943032'/></citation>
+<minus-10-right datatype='integer'>3248881</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-13863' orgid='ECOLI' frameid='TU0-13863'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:G7614' orgid='ECOLI' frameid='G7614'/></component>
+<component><Gene resource='getxml?ECOLI:G7613' orgid='ECOLI' frameid='G7613'/></component>
+<component><Gene resource='getxml?ECOLI:G7612' orgid='ECOLI' frameid='G7612'/></component>
+<component><Gene resource='getxml?ECOLI:G7611' orgid='ECOLI' frameid='G7611'/></component>
+</Transcription-Unit>
+</ptools-xml>

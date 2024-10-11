@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42684'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42684</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42684' orgid='ECOLI' frameid='TU0-42684' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>argH</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-ND' orgid='ECOLI' frameid='EV-ND' detail='full' class='true'><common-name datatype='string'>No biological data available</common-name>
+<comment datatype='string'>EV-ND is intended for use in GO annotations.
+&lt;p&gt;
+Use of the EV-ND evidence code indicates that the annotator at the contributing database found no information
+that allowed making an annotation to any term indicating specific knowledge from the ontology in question
+(molecular function, biological process, or cellular component) as of the date indicated. This code should be used only
+for annotations to the root terms, molecular function ; GO:0003674, biological process ; GO:0008150, or cellular component ; GO:0005575,
+which, when used in annotations, indicate that no knowledge is available about a gene product in that aspect of GO.</comment>
+</Evidence-Code>
+</evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12941' orgid='ECOLI' frameid='REG0-12941' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Compound resource='getxml?ECOLI:GUANOSINE-5DP-3DP' orgid='ECOLI' frameid='GUANOSINE-5DP-3DP'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-42684' orgid='ECOLI' frameid='TU0-42684'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component><Gene resource='getxml?ECOLI:EG11223' orgid='ECOLI' frameid='EG11223'/></component>
+</Transcription-Unit>
+</ptools-xml>

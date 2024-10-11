@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00287'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00287</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00287' orgid='ECOLI' frameid='TU00287' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>hslVU</common-name>
+<comment datatype='string'>The expression of the &lt;i&gt;hslVU&lt;/i&gt; operon is increased under the stress condition caused by the introduction of the R1-16 plasmid, which encodes the type V secretion system (T4S machinery) in the cell. &lt;i&gt;hslVU&lt;/i&gt; operon expression is &amp;sigma;&lt;sup&gt;32&lt;/sup&gt; dependent, and it was observed that the expression of the &amp;sigma;&lt;sup&gt;32&lt;/sup&gt; gene is enhanced with the R1-16 plasmid in the cell ina CpxR-dependent way [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16952953&quot;&gt;Zahrl06&lt;/a&gt;].
+&lt;p&gt;
+A stem-loop structure (IR) at the 5' end of the unstranslated region (UTR) of &lt;i&gt;hslVU&lt;/i&gt; mRNA is necessary for the stability of the &lt;i&gt;hslVU&lt;/i&gt; message. It contains a 20- bp 5'-CCCCGTACTTTTGTACGGGG-3' sequence, which is unique for the &lt;i&gt;hslVU&lt;/i&gt; operon [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/19440251&quot;&gt;Lien09&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-8244018' orgid='ECOLI' frameid='PUB-8244018' detail='full'><source datatype='string'>Gene 134(1);1-6</source>
+<pubmed-id datatype='string'>8244018</pubmed-id>
+<title datatype='string'>Sequence analysis of four new heat-shock genes constituting the hslTS/ibpAB and hslVU operons in Escherichia coli.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>Chuang SE</author>
+<author datatype='string'>Burland V</author>
+<author datatype='string'>Plunkett G</author>
+<author datatype='string'>Daniels DL</author>
+<author datatype='string'>Blattner FR</author>
+</Publication>
+</citation>
+<component><Terminator ID='ECOLI:TERM60' orgid='ECOLI' frameid='TERM60' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>4120385</right-end-position>
+<left-end-position datatype='integer'>4120368</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-8244018' orgid='ECOLI' frameid='PUB-8244018'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU00287' orgid='ECOLI' frameid='TU00287'/></component-of>
+</Terminator>
+</component>
+<component><Promoter ID='ECOLI:PM00485' orgid='ECOLI' frameid='PM00485' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>4122359</minus-10-left>
+<common-name datatype='string'>hslVp</common-name>
+<minus-35-right datatype='integer'>4122383</minus-35-right>
+<minus-35-left datatype='integer'>4122378</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOH-MONOMER' orgid='ECOLI' frameid='RPOH-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4122354</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-8244018' orgid='ECOLI' frameid='PUB-8244018'/></citation>
+<citation><Publication ID='ECOLI:PUB-16818608' orgid='ECOLI' frameid='PUB-16818608' detail='full'><source datatype='string'>Genes Dev 20(13);1776-89</source>
+<pubmed-id datatype='string'>16818608</pubmed-id>
+<title datatype='string'>Regulon and promoter analysis of the E. coli heat-shock factor, sigma32, reveals a multifaceted cellular response to heat stress.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Nonaka G</author>
+<author datatype='string'>Blankschien M</author>
+<author datatype='string'>Herman C</author>
+<author datatype='string'>Gross CA</author>
+<author datatype='string'>Rhodius VA</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-16892065' orgid='ECOLI' frameid='PUB-16892065' detail='full'><source datatype='string'>Nat Struct Mol Biol 13(9);806-14</source>
+<pubmed-id datatype='string'>16892065</pubmed-id>
+<title datatype='string'>Extensive functional overlap between sigma factors in Escherichia coli.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Wade JT</author>
+<author datatype='string'>Roa DC</author>
+<author datatype='string'>Grainger DC</author>
+<author datatype='string'>Hurd D</author>
+<author datatype='string'>Busby SJ</author>
+<author datatype='string'>Struhl K</author>
+<author datatype='string'>Nudler E</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8244018' orgid='ECOLI' frameid='PUB-8244018'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8244018' orgid='ECOLI' frameid='PUB-8244018'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference of promoter position</common-name>
+<comment datatype='string'>Automated inference of promoter position relative to the -10 and -35 boxes.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16818608' orgid='ECOLI' frameid='PUB-16818608'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from direct assay</common-name>
+<comment datatype='string'>IDA inferred from direct assay.
+
+&lt;br&gt;
+The assertion was inferred from a direct experimental assay such as
+&lt;ul&gt;
+    &lt;li&gt; Enzyme assays
+    &lt;li&gt; In vitro reconstitution (e.g. transcription)
+    &lt;li&gt; Immunofluorescence
+    &lt;li&gt; Cell fractionation
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16892065' orgid='ECOLI' frameid='PUB-16892065'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16892065' orgid='ECOLI' frameid='PUB-16892065'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/><Publication ID='ECOLI:PUB-19114495' orgid='ECOLI' frameid='PUB-19114495' detail='full'><source datatype='string'>J Bacteriol 191(5);1695-702</source>
+<pubmed-id datatype='string'>19114495</pubmed-id>
+<title datatype='string'>Growth phase- and cell division-dependent activation and inactivation of the {sigma}32 regulon in Escherichia coli.</title>
+<year datatype='integer'>2009</year>
+<author datatype='string'>Wagner MA</author>
+<author datatype='string'>Zahrl D</author>
+<author datatype='string'>Rieser G</author>
+<author datatype='string'>Koraimann G</author>
+</Publication>
+</evidence>
+<minus-10-right datatype='integer'>4122364</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00287' orgid='ECOLI' frameid='TU00287'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11881' orgid='ECOLI' frameid='EG11881'/></component>
+<component><Gene resource='getxml?ECOLI:EG11676' orgid='ECOLI' frameid='EG11676'/></component>
+</Transcription-Unit>
+</ptools-xml>

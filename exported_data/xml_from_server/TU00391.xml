@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00391'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00391</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00391' orgid='ECOLI' frameid='TU00391' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>otsA</common-name>
+<comment datatype='string'>The start codon of &lt;i&gt;otsA&lt;/i&gt; is located 23 nt before the end of &lt;i&gt;otsB&lt;/i&gt;,  resulting in an overlap between the &lt;i&gt;ots&lt;/i&gt; genes.</comment>
+<citation><Publication ID='ECOLI:PUB-1310094' orgid='ECOLI' frameid='PUB-1310094' detail='full'><source datatype='string'>J Bacteriol 174(3);889-98</source>
+<pubmed-id datatype='string'>1310094</pubmed-id>
+<title datatype='string'>Molecular cloning and physical mapping of the otsBA genes, which encode the osmoregulatory trehalose pathway of Escherichia coli: evidence that transcription is activated by katF (AppR)</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Kaasen I</author>
+<author datatype='string'>Falkenberg P</author>
+<author datatype='string'>Styrvold OB</author>
+<author datatype='string'>Strom AR</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1310094' orgid='ECOLI' frameid='PUB-1310094'/></evidence>
+<component><Terminator ID='ECOLI:TERM0-1145' orgid='ECOLI' frameid='TERM0-1145' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>1980126</right-end-position>
+<left-end-position datatype='integer'>1980096</left-end-position>
+<citation><Publication ID='ECOLI:PUB-8045430' orgid='ECOLI' frameid='PUB-8045430' detail='full'><source datatype='string'>Gene 145(1);9-15</source>
+<pubmed-id datatype='string'>8045430</pubmed-id>
+<title datatype='string'>Analysis of the otsBA operon for osmoregulatory trehalose synthesis in Escherichia coli and homology of the OtsA and OtsB proteins to the yeast trehalose-6-phosphate synthase/phosphatase complex.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Kaasen I</author>
+<author datatype='string'>McDougall J</author>
+<author datatype='string'>Strom AR</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU00391' orgid='ECOLI' frameid='TU00391'/><Transcription-Unit resource='getxml?ECOLI:TU00312' orgid='ECOLI' frameid='TU00312'/><Transcription-Unit resource='getxml?ECOLI:TU0-7722' orgid='ECOLI' frameid='TU0-7722'/></component-of>
+</Terminator>
+</component>
+<component><Promoter ID='ECOLI:PM00534' orgid='ECOLI' frameid='PM00534' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>1981657</minus-10-left>
+<common-name datatype='string'>otsAp</common-name>
+<minus-35-right datatype='integer'>1981684</minus-35-right>
+<minus-35-left datatype='integer'>1981679</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1981651</absolute-plus-1-pos>
+<comment datatype='string'>The &lt;i&gt;otsA&lt;/i&gt; promoter is an internal weak promoter, and it is within the &lt;i&gt;otsB&lt;/i&gt; gene  and 39 nt upstream from the &lt;i&gt;otsA&lt;/i&gt; start codon. Upstream of &lt;i&gt;otsB&lt;/i&gt; there is an inverted repeat, and a half-site of this repeat is also found in front of &lt;i&gt;otsA&lt;/i&gt;. These may represent binding sites for a regulatory protein. The transcription of the &lt;i&gt;otsBA&lt;/i&gt; operon is reduced when the &lt;i&gt;rpoS&lt;/i&gt; gene is inactivated, but whether there is a &amp;sigma;&lt;sup&gt;S&lt;/sup&gt;-type interaction (direct or indirect) with the &lt;i&gt;otsBA&lt;/i&gt; operon is not known.</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-1744047' orgid='ECOLI' frameid='PUB-1744047' detail='full'><source datatype='string'>J Bacteriol 173(24);7918-24</source>
+<pubmed-id datatype='string'>1744047</pubmed-id>
+<title datatype='string'>Trehalose synthesis genes are controlled by the putative sigma factor encoded by rpoS and are involved in stationary-phase thermotolerance in Escherichia coli.</title>
+<year datatype='integer'>1991</year>
+<author datatype='string'>Hengge-Aronis R</author>
+<author datatype='string'>Klein W</author>
+<author datatype='string'>Lange R</author>
+<author datatype='string'>Rimmele M</author>
+<author datatype='string'>Boos W</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-8045430' orgid='ECOLI' frameid='PUB-8045430'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1744047' orgid='ECOLI' frameid='PUB-1744047'/></evidence>
+<minus-10-right datatype='integer'>1981667</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00391' orgid='ECOLI' frameid='TU00391'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11751' orgid='ECOLI' frameid='EG11751'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-14298'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-14298</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-14298' orgid='ECOLI' frameid='TU0-14298' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>macAB</common-name>
+<citation><Publication ID='ECOLI:PUB-11544226' orgid='ECOLI' frameid='PUB-11544226' detail='full'><source datatype='string'>J Bacteriol 183(19);5639-44</source>
+<pubmed-id datatype='string'>11544226</pubmed-id>
+<title datatype='string'>Novel macrolide-specific ABC-type efflux transporter in Escherichia coli.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Kobayashi N</author>
+<author datatype='string'>Nishino K</author>
+<author datatype='string'>Yamaguchi A</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-11274125' orgid='ECOLI' frameid='PUB-11274125' detail='full'><source datatype='string'>J Bacteriol 183(8);2646-53</source>
+<pubmed-id datatype='string'>11274125</pubmed-id>
+<title datatype='string'>Suppression of hypersensitivity of Escherichia coli acrB mutant to organic solvents by integrational activation of the acrEF operon with the IS1 or IS2 element.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Kobayashi K</author>
+<author datatype='string'>Tsukagoshi N</author>
+<author datatype='string'>Aono R</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-21398637' orgid='ECOLI' frameid='PUB-21398637' detail='full'><source datatype='string'>Nucleic Acids Res 39(13);5338-55</source>
+<pubmed-id datatype='string'>21398637</pubmed-id>
+<title datatype='string'>In vitro transcription profiling of the &amp;sigma;S subunit of bacterial RNA polymerase: re-definition of the &amp;sigma;S regulon and identification of &amp;sigma;S-specific promoter sequence elements.</title>
+<year datatype='integer'>2011</year>
+<author datatype='string'>Maciag A</author>
+<author datatype='string'>Peano C</author>
+<author datatype='string'>Pietrelli A</author>
+<author datatype='string'>Egli T</author>
+<author datatype='string'>De Bellis G</author>
+<author datatype='string'>Landini P</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-IC-ADJ-GENES-SAME-BIO-PROCESS' orgid='ECOLI' frameid='EV-IC-ADJ-GENES-SAME-BIO-PROCESS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' class='true'/></parent>
+<common-name datatype='string'>Products of adjacent genes in the same biological process</common-name>
+<comment datatype='string'>A transcription unit is inferred because there is a set of adjacent genes,
+encoded in the same direction, coding for products that participate in the
+same metabolic pathway or biological process. Sometimes, these genes code
+for subunits of the same protein.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11544226' orgid='ECOLI' frameid='PUB-11544226'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-IC-ADJ-GENES-SAME-BIO-PROCESS' orgid='ECOLI' frameid='EV-IC-ADJ-GENES-SAME-BIO-PROCESS' class='true'/><Publication resource='#ECOLI:PUB-11274125' orgid='ECOLI' frameid='PUB-11274125'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Inferred through co-regulation</common-name>
+<comment datatype='string'>Inferred through co-regulation.  A transcription unit is inferred because a set of 
+adjacent genes that are transcribed in the same direction exhibit similar
+expression patterns under a range of environmental conditions.
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-21398637' orgid='ECOLI' frameid='PUB-21398637'/></evidence>
+<component><Gene resource='getxml?ECOLI:G6462' orgid='ECOLI' frameid='G6462'/></component>
+<component><Gene resource='getxml?ECOLI:G6461' orgid='ECOLI' frameid='G6461'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-4623'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-4623</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-4623' orgid='ECOLI' frameid='TU0-4623' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>zntA</common-name>
+<comment datatype='string'>Zinc induced activation of &lt;i&gt;zntA&lt;/i&gt; transcription in a microarray analysis [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16159766&quot;&gt;Yamamoto05a&lt;/a&gt;].</comment>
+<component><DNA-Binding-Site ID='ECOLI:BS0-3521' orgid='ECOLI' frameid='BS0-3521' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-16115' orgid='ECOLI' frameid='REG0-16115' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7678' orgid='ECOLI' frameid='CPLX0-7678'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-4863' orgid='ECOLI' frameid='PM0-4863' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>3606410</minus-10-left>
+<common-name datatype='string'>zntAp</common-name>
+<minus-35-right datatype='integer'>3606389</minus-35-right>
+<minus-35-left datatype='integer'>3606384</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3606422</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-10608803' orgid='ECOLI' frameid='PUB-10608803' detail='full'><source datatype='string'>J Biol Chem 274(53);37517-24</source>
+<pubmed-id datatype='string'>10608803</pubmed-id>
+<title datatype='string'>DNA distortion mechanism for transcriptional activation by ZntR, a Zn(II)-responsive MerR homologue in Escherichia coli.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>Outten CE</author>
+<author datatype='string'>Outten FW</author>
+<author datatype='string'>O'Halloran TV</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-10048032' orgid='ECOLI' frameid='PUB-10048032' detail='full'><source datatype='string'>Mol Microbiol 31(3);893-902</source>
+<pubmed-id datatype='string'>10048032</pubmed-id>
+<title datatype='string'>ZntR is a Zn(II)-responsive MerR-like transcriptional regulator of zntA in Escherichia coli.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>Brocklehurst KR</author>
+<author datatype='string'>Hobman JL</author>
+<author datatype='string'>Lawley B</author>
+<author datatype='string'>Blank L</author>
+<author datatype='string'>Marshall SJ</author>
+<author datatype='string'>Brown NL</author>
+<author datatype='string'>Morby AP</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10608803' orgid='ECOLI' frameid='PUB-10608803'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+</evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-16115' orgid='ECOLI' frameid='REG0-16115'/><Regulation ID='ECOLI:REG0-16114' orgid='ECOLI' frameid='REG0-16114' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7678' orgid='ECOLI' frameid='CPLX0-7678'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-4863' orgid='ECOLI' frameid='PM0-4863'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>3606415</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4623' orgid='ECOLI' frameid='TU0-4623'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-16114' orgid='ECOLI' frameid='REG0-16114'/></involved-in-regulation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10608803' orgid='ECOLI' frameid='PUB-10608803'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Site mutation</common-name>
+<comment datatype='string'>A cis-mutation in the DNA sequence of the transcription-factor binding site interferes with the operation of the regulatory function. This is considered  strong evidence for the existence and functional role of the DNA binding site.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10048032' orgid='ECOLI' frameid='PUB-10048032'/></evidence>
+<abs-center-pos datatype='float'>3606397.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4623' orgid='ECOLI' frameid='TU0-4623'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG12215' orgid='ECOLI' frameid='EG12215'/></component>
+<component><Promoter resource='#ECOLI:PM0-4863' orgid='ECOLI' frameid='PM0-4863'/></component>
+</Transcription-Unit>
+</ptools-xml>

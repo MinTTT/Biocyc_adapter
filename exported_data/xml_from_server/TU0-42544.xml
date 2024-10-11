@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42544'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42544</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42544' orgid='ECOLI' frameid='TU0-42544' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>nanCMS</common-name>
+<citation><Publication ID='ECOLI:PUB-23935044' orgid='ECOLI' frameid='PUB-23935044' detail='full'><source datatype='string'>J Bacteriol 195(20);4689-701</source>
+<pubmed-id datatype='string'>23935044</pubmed-id>
+<title datatype='string'>Control of the Escherichia coli sialoregulon by transcriptional repressor NanR.</title>
+<year datatype='integer'>2013</year>
+<author datatype='string'>Kalivoda KA</author>
+<author datatype='string'>Steenbergen SM</author>
+<author datatype='string'>Vimr ER</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-IC-ADJ-GENES-SAME-BIO-PROCESS' orgid='ECOLI' frameid='EV-IC-ADJ-GENES-SAME-BIO-PROCESS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' class='true'/></parent>
+<common-name datatype='string'>Products of adjacent genes in the same biological process</common-name>
+<comment datatype='string'>A transcription unit is inferred because there is a set of adjacent genes,
+encoded in the same direction, coding for products that participate in the
+same metabolic pathway or biological process. Sometimes, these genes code
+for subunits of the same protein.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-23935044' orgid='ECOLI' frameid='PUB-23935044'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Inferred through co-regulation</common-name>
+<comment datatype='string'>Inferred through co-regulation.  A transcription unit is inferred because a set of 
+adjacent genes that are transcribed in the same direction exhibit similar
+expression patterns under a range of environmental conditions.
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-23935044' orgid='ECOLI' frameid='PUB-23935044'/></evidence>
+<component><Gene resource='getxml?ECOLI:G7919' orgid='ECOLI' frameid='G7919'/></component>
+<component><Gene resource='getxml?ECOLI:G7920' orgid='ECOLI' frameid='G7920'/></component>
+<component><Gene resource='getxml?ECOLI:G7921' orgid='ECOLI' frameid='G7921'/></component>
+<component><Promoter ID='ECOLI:PM0-7183' orgid='ECOLI' frameid='PM0-7183' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>nanCp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4539928</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-15743943' orgid='ECOLI' frameid='PUB-15743943' detail='full'><source datatype='string'>J Bacteriol 187(6);1959-65</source>
+<pubmed-id datatype='string'>15743943</pubmed-id>
+<title datatype='string'>Function and expression of an N-acetylneuraminic acid-inducible outer membrane channel in Escherichia coli.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Condemine G</author>
+<author datatype='string'>Berrier C</author>
+<author datatype='string'>Plumbridge J</author>
+<author datatype='string'>Ghazi A</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15743943' orgid='ECOLI' frameid='PUB-15743943'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-6132' orgid='ECOLI' frameid='REG0-6132' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8593' orgid='ECOLI' frameid='CPLX0-8593'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-7183' orgid='ECOLI' frameid='PM0-7183'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6131' orgid='ECOLI' frameid='REG0-6131' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8593' orgid='ECOLI' frameid='CPLX0-8593'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-7183' orgid='ECOLI' frameid='PM0-7183'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6130' orgid='ECOLI' frameid='REG0-6130' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8593' orgid='ECOLI' frameid='CPLX0-8593'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-7183' orgid='ECOLI' frameid='PM0-7183'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6129' orgid='ECOLI' frameid='REG0-6129' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00266' orgid='ECOLI' frameid='PD00266'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-7183' orgid='ECOLI' frameid='PM0-7183'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6128' orgid='ECOLI' frameid='REG0-6128' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00266' orgid='ECOLI' frameid='PD00266'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-7183' orgid='ECOLI' frameid='PM0-7183'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6127' orgid='ECOLI' frameid='REG0-6127' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-7183' orgid='ECOLI' frameid='PM0-7183'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42544' orgid='ECOLI' frameid='TU0-42544'/><Transcription-Unit resource='getxml?ECOLI:TU0-6843' orgid='ECOLI' frameid='TU0-6843'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

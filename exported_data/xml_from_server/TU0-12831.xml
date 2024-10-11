@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-12831'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-12831</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-12831' orgid='ECOLI' frameid='TU0-12831' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>dxr-uppS-cdsA</common-name>
+<extent-unknown datatype='boolean'>true</extent-unknown>
+<comment datatype='string'>The transcription unit &lt;i&gt;drx-uppS-cdsA&lt;/i&gt; is transiently induced at low temperature [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31127859&quot;&gt;Sawasato19&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-31127859' orgid='ECOLI' frameid='PUB-31127859' detail='full'><source datatype='string'>FEBS Lett 593(14);1711-1723</source>
+<pubmed-id datatype='string'>31127859</pubmed-id>
+<title datatype='string'>Two-step induction of cdsA promoters leads to upregulation of the glycolipid MPIase at cold temperature.</title>
+<year datatype='integer'>2019</year>
+<author datatype='string'>Sawasato K</author>
+<author datatype='string'>Sekiya Y</author>
+<author datatype='string'>Nishiyama KI</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-31127859' orgid='ECOLI' frameid='PUB-31127859'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG10139' orgid='ECOLI' frameid='EG10139'/></component>
+<component><Gene resource='getxml?ECOLI:G6092' orgid='ECOLI' frameid='G6092'/></component>
+<component><Gene resource='getxml?ECOLI:EG12715' orgid='ECOLI' frameid='EG12715'/></component>
+</Transcription-Unit>
+</ptools-xml>

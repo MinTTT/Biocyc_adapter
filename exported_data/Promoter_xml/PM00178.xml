@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM00178'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM00178</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM00178' orgid='ECOLI' frameid='PM00178' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>2825780</minus-10-left>
+<common-name datatype='string'>srlAp</common-name>
+<minus-35-right datatype='integer'>2825764</minus-35-right>
+<minus-35-left datatype='integer'>2825759</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>gutABDMR</synonym>
+<synonym datatype='string'>srlAABD-gutM-srlR-gutQ</synonym>
+<synonym datatype='string'>srlABDMR</synonym>
+<synonym datatype='string'>gutp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2825791</absolute-plus-1-pos>
+<comment datatype='string'>Based on the one-round PCR product method, a novel site-directed mutagenesis method, it was determined that an &lt;i&gt;srlA&lt;/i&gt;-driven expression system is a tool applicable for strong expression of foreign genes under cultivation conditions in LB medium without induction [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/30269209&quot;&gt;Nakamura18&lt;/a&gt;]. In addition, it was determined that the sequence adjacent to the start codon of the &lt;i&gt;srlA&lt;/i&gt; gene is essential for high expression and that its promoter region is 100 bp. &lt;i&gt;srlA&lt;/i&gt;p is a constitutive promoter in LB medium, and it is a sorbitol-enhanceable and glucose-, fructose-, galactose-, mannose-, xylose-, and arabinose- repressible promoter  [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/30269209&quot;&gt;Nakamura18&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-3062173' orgid='ECOLI' frameid='PUB-3062173' detail='full'><source datatype='string'>J Mol Biol 203(3);569-83</source>
+<pubmed-id datatype='string'>3062173</pubmed-id>
+<title datatype='string'>Positive and negative regulators for glucitol (gut) operon expression in Escherichia coli.</title>
+<year datatype='integer'>1988</year>
+<author datatype='string'>Yamada M</author>
+<author datatype='string'>Saier MH</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3062173' orgid='ECOLI' frameid='PUB-3062173'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-9115' orgid='ECOLI' frameid='REG0-9115' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00288' orgid='ECOLI' frameid='PD00288'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00178' orgid='ECOLI' frameid='PM00178'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5575' orgid='ECOLI' frameid='REG0-5575' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00283' orgid='ECOLI' frameid='PD00283'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00178' orgid='ECOLI' frameid='PM00178'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5574' orgid='ECOLI' frameid='REG0-5574' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00345' orgid='ECOLI' frameid='PD00345'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00178' orgid='ECOLI' frameid='PM00178'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5572' orgid='ECOLI' frameid='REG0-5572' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00178' orgid='ECOLI' frameid='PM00178'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5571' orgid='ECOLI' frameid='REG0-5571' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00178' orgid='ECOLI' frameid='PM00178'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>2825785</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU00133' orgid='ECOLI' frameid='TU00133'/></component-of>
+</Promoter>
+</ptools-xml>

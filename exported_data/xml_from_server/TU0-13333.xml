@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-13333'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-13333</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-13333' orgid='ECOLI' frameid='TU0-13333' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rspA-rspB</common-name>
+<citation><Publication ID='ECOLI:PUB-7545940' orgid='ECOLI' frameid='PUB-7545940' detail='full'><source datatype='string'>Science 265(5171);537-9</source>
+<pubmed-id datatype='string'>7545940</pubmed-id>
+<title datatype='string'>Sensing starvation: a homoserine lactone--dependent signaling pathway in Escherichia coli.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Huisman GW</author>
+<author datatype='string'>Kolter R</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-34220787' orgid='ECOLI' frameid='PUB-34220787' detail='full'><source datatype='string'>Front Microbiol 12;697803</source>
+<pubmed-id datatype='string'>34220787</pubmed-id>
+<title datatype='string'>Single-Target Regulators Constitute the Minority Group of Transcription Factors in  &lt;i&gt;Escherichia coli&lt;/i&gt; K-12.</title>
+<year datatype='integer'>2021</year>
+<author datatype='string'>Shimada T</author>
+<author datatype='string'>Ogasawara H</author>
+<author datatype='string'>Kobayashi I</author>
+<author datatype='string'>Kobayashi N</author>
+<author datatype='string'>Ishihama A</author>
+<doi-id datatype='string'>10.3389/fmicb.2021.697803</doi-id>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-7545940' orgid='ECOLI' frameid='PUB-7545940'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-34220787' orgid='ECOLI' frameid='PUB-34220787'/></evidence>
+<component><Promoter ID='ECOLI:PM0-46594' orgid='ECOLI' frameid='PM0-46594' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>rspAp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1655171</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-34220787' orgid='ECOLI' frameid='PUB-34220787'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-34220787' orgid='ECOLI' frameid='PUB-34220787'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11626' orgid='ECOLI' frameid='REG0-11626' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:G6814-MONOMER' orgid='ECOLI' frameid='G6814-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46594' orgid='ECOLI' frameid='PM0-46594'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-13303' orgid='ECOLI' frameid='REG0-13303' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46594' orgid='ECOLI' frameid='PM0-46594'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-13333' orgid='ECOLI' frameid='TU0-13333'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:G6839' orgid='ECOLI' frameid='G6839'/></component>
+<component><Gene resource='getxml?ECOLI:G6838' orgid='ECOLI' frameid='G6838'/></component>
+</Transcription-Unit>
+</ptools-xml>

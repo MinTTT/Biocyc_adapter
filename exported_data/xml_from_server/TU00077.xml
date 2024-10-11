@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00077'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00077</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00077' orgid='ECOLI' frameid='TU00077' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>cysB</common-name>
+<synonym datatype='string'>OP00105</synonym>
+<synonym datatype='string'>cysGB</synonym>
+<comment datatype='string'>&lt;i&gt;cysB&lt;/i&gt; expression is inhibited by oleanolic and ursolic acid, which in turn affect the expression of the cysteine regulon and the stress response [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/21221969&quot;&gt;Grudniak11&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-2432161' orgid='ECOLI' frameid='PUB-2432161' detail='full'><source datatype='string'>J Gen Microbiol 132(9);2571-6</source>
+<pubmed-id datatype='string'>2432161</pubmed-id>
+<title datatype='string'>Effect of DNA gyrase inhibitors and urea on the expression of cysB, the regulatory gene of the cysteine regulon.</title>
+<year datatype='integer'>1986</year>
+<author datatype='string'>Bielinska A</author>
+<author datatype='string'>Hulanicka D</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8206845' orgid='ECOLI' frameid='PUB-8206845' detail='full'><source datatype='string'>J Bacteriol 176(12);3673-82</source>
+<pubmed-id datatype='string'>8206845</pubmed-id>
+<title datatype='string'>Stoichiometry of binding of CysB to the cysJIH, cysK, and cysP promoter regions of Salmonella typhimurium.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Hryniewicz MM</author>
+<author datatype='string'>Kredich NM</author>
+</Publication>
+</citation>
+<component><Terminator ID='ECOLI:TERM2' orgid='ECOLI' frameid='TERM2' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>1334874</right-end-position>
+<left-end-position datatype='integer'>1334845</left-end-position>
+<citation><Publication ID='ECOLI:PUB-3032952' orgid='ECOLI' frameid='PUB-3032952' detail='full'><source datatype='string'>J Biol Chem 262(13);5999-6005</source>
+<pubmed-id datatype='string'>3032952</pubmed-id>
+<title datatype='string'>DNA sequences of the cysB regions of Salmonella typhimurium and Escherichia coli.</title>
+<year datatype='integer'>1987</year>
+<author datatype='string'>Ostrowski J</author>
+<author datatype='string'>Jagura-Burdzy G</author>
+<author datatype='string'>Kredich NM</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU00077' orgid='ECOLI' frameid='TU00077'/></component-of>
+</Terminator>
+</component>
+<component><Promoter ID='ECOLI:PM00106' orgid='ECOLI' frameid='PM00106' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>1333776</minus-10-left>
+<common-name datatype='string'>cysBp</common-name>
+<minus-35-right datatype='integer'>1333758</minus-35-right>
+<minus-35-left datatype='integer'>1333753</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>cysGB</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1333788</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-3032952' orgid='ECOLI' frameid='PUB-3032952'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3032952' orgid='ECOLI' frameid='PUB-3032952'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-10858' orgid='ECOLI' frameid='REG0-10858' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-PHOP' orgid='ECOLI' frameid='PHOSPHO-PHOP'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00106' orgid='ECOLI' frameid='PM00106'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5366' orgid='ECOLI' frameid='REG0-5366' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PC00040' orgid='ECOLI' frameid='PC00040'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00106' orgid='ECOLI' frameid='PM00106'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>1333781</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00077' orgid='ECOLI' frameid='TU00077'/></component-of>
+</Promoter>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS00223' orgid='ECOLI' frameid='BS00223' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5366' orgid='ECOLI' frameid='REG0-5366'/></involved-in-regulation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-1706701' orgid='ECOLI' frameid='PUB-1706701' detail='full'><source datatype='string'>J Bacteriol 173(7);2212-8</source>
+<pubmed-id datatype='string'>1706701</pubmed-id>
+<title datatype='string'>Negative autoregulation of cysB in Salmonella typhimurium: in vitro interactions of CysB protein with the cysB promoter.</title>
+<year datatype='integer'>1991</year>
+<author datatype='string'>Ostrowski J</author>
+<author datatype='string'>Kredich NM</author>
+</Publication>
+</citation>
+<site-length datatype='integer'>46</site-length>
+<abs-center-pos datatype='integer'>1333774</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00077' orgid='ECOLI' frameid='TU00077'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10184' orgid='ECOLI' frameid='EG10184'/></component>
+</Transcription-Unit>
+</ptools-xml>

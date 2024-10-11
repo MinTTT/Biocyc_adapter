@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8527'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8527</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8527' orgid='ECOLI' frameid='TU0-8527' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>tdk</common-name>
+<comment datatype='string'>J. Oberto in 2010 identified a possible binding site for NagC, ATTTATTGGCGGCACAAAATAAA, in the intergenic region of the divergent genes &lt;i&gt;tdk&lt;/i&gt; and &lt;i&gt;hns&lt;/i&gt;. This demonstration was based on different statistical methods [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/21070640&quot;&gt;Oberto10&lt;/a&gt;], but it is not known if NagC regulates transcription in both directions.</comment>
+<citation><Publication ID='ECOLI:PUB-2041474' orgid='ECOLI' frameid='PUB-2041474' detail='full'><source datatype='string'>Mol Microbiol 5(2);373-9</source>
+<pubmed-id datatype='string'>2041474</pubmed-id>
+<title datatype='string'>Nucleotide sequence of the Escherichia coli thymidine kinase gene provides evidence for conservation of functional domains and quaternary structure.</title>
+<year datatype='integer'>1991</year>
+<author datatype='string'>Black ME</author>
+<author datatype='string'>Hruby DE</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SINGLE-DIRECTON' orgid='ECOLI' frameid='EV-COMP-AINF-SINGLE-DIRECTON' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference that a single-gene directon is a transcription unit </common-name>
+<comment datatype='string'>Automated inference of transcription unit based on single-gene directon.  Existence of a single-gene transcription unit 
+for gene G is inferred computationally by the existence of upstream and downstream genes transcribed in the 
+opposite direction of G.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2041474' orgid='ECOLI' frameid='PUB-2041474'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG10994' orgid='ECOLI' frameid='EG10994'/></component>
+</Transcription-Unit>
+</ptools-xml>

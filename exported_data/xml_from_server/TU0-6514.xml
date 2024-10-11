@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-6514'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-6514</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-6514' orgid='ECOLI' frameid='TU0-6514' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>serB-radA</common-name>
+<citation><Publication ID='ECOLI:PUB-1327967' orgid='ECOLI' frameid='PUB-1327967' detail='full'><source datatype='string'>Gene 1992;120(1);1-9</source>
+<pubmed-id datatype='string'>1327967</pubmed-id>
+<title datatype='string'>Mutational analysis of the Escherichia coli serB promoter region reveals transcriptional linkage to a downstream gene.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Neuwald AF</author>
+<author datatype='string'>Berg DE</author>
+<author datatype='string'>Stauffer GV</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1327967' orgid='ECOLI' frameid='PUB-1327967'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Inferred through co-regulation</common-name>
+<comment datatype='string'>Inferred through co-regulation.  A transcription unit is inferred because a set of 
+adjacent genes that are transcribed in the same direction exhibit similar
+expression patterns under a range of environmental conditions.
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1327967' orgid='ECOLI' frameid='PUB-1327967'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG11296' orgid='ECOLI' frameid='EG11296'/></component>
+<component><Gene resource='getxml?ECOLI:EG10945' orgid='ECOLI' frameid='EG10945'/></component>
+<component><Promoter ID='ECOLI:PM00509' orgid='ECOLI' frameid='PM00509' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>serBp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4624856</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-2684780' orgid='ECOLI' frameid='PUB-2684780' detail='full'><source datatype='string'>Gene 82(2);219-28</source>
+<pubmed-id datatype='string'>2684780</pubmed-id>
+<title datatype='string'>An Escherichia coli membrane protein with a unique signal sequence.</title>
+<year datatype='integer'>1989</year>
+<author datatype='string'>Neuwald AF</author>
+<author datatype='string'>Stauffer GV</author>
+<doi-id datatype='string'>10.1016/0378-1119(89)90047-4</doi-id>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-1327967' orgid='ECOLI' frameid='PUB-1327967'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from mutant phenotype</common-name>
+<comment datatype='string'>IMP inferred from mutant phenotype.
+
+&lt;br&gt;
+The assertion was inferred from a mutant phenotype such as
+&lt;ul&gt;
+    &lt;li&gt; Any gene mutation/knockout
+    &lt;li&gt; Overexpression/ectopic expression of wild-type or mutant genes
+    &lt;li&gt; Anti-sense experiments
+    &lt;li&gt; RNA interference experiments
+    &lt;li&gt; Specific protein inhibitors
+    &lt;li&gt; Complementation
+&lt;/ul&gt;&lt;p class=ecocomment&gt;	
+Comment: Inferences made from examining mutations or
+abnormal levels of only the product(s) of the gene of interest are covered by code EV-IMP
+(compare to code EV-IGI). Use this code for experiments that use antibodies 
+or other specific inhibitors of RNA or protein activity, even though no
+gene may be mutated (the rationale is that EV-IMP is used where an
+abnormal situation prevails in a cell or organism).
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1327967' orgid='ECOLI' frameid='PUB-1327967'/></evidence>
+<citation><Publication ID='ECOLI:PUB-2997734' orgid='ECOLI' frameid='PUB-2997734' detail='full'><source datatype='string'>Nucleic Acids Res 13(19);7025-39</source>
+<pubmed-id datatype='string'>2997734</pubmed-id>
+<title datatype='string'>DNA sequence and characterization of the Escherichia coli serB gene.</title>
+<year datatype='integer'>1985</year>
+<author datatype='string'>Neuwald AF</author>
+<author datatype='string'>Stauffer GV</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-6514' orgid='ECOLI' frameid='TU0-6514'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

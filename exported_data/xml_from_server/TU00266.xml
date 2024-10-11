@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00266'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00266</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00266' orgid='ECOLI' frameid='TU00266' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>fabHDG</common-name>
+<comment datatype='string'>This transcription unit is part of a group of genes (encoding acyl carrier protein and several key fatty acid biosynthetic enzymes) which are not transcribed as a classic operon, but rather multiple promoters are present and each gene is cotranscribed with at least one other gene.
+&lt;p&gt;
+The &lt;i&gt;fabHGD&lt;/i&gt; operon is subject to stringent control [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/8649995&quot;&gt;Podkovyrov96&lt;/a&gt;].
+&lt;p&gt;
+</comment>
+<citation><Publication ID='ECOLI:PUB-8649995' orgid='ECOLI' frameid='PUB-8649995' detail='full'><source datatype='string'>Nucleic Acids Res 24(9);1747-52</source>
+<pubmed-id datatype='string'>8649995</pubmed-id>
+<title datatype='string'>Identification of promoter and stringent regulation of transcription of the fabH, fabD and fabG genes encoding fatty acid biosynthetic enzymes of Escherichia coli.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Podkovyrov SM</author>
+<author datatype='string'>Larson TJ</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-IC-ADJ-GENES-SAME-BIO-PROCESS' orgid='ECOLI' frameid='EV-IC-ADJ-GENES-SAME-BIO-PROCESS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' class='true'/></parent>
+<common-name datatype='string'>Products of adjacent genes in the same biological process</common-name>
+<comment datatype='string'>A transcription unit is inferred because there is a set of adjacent genes,
+encoded in the same direction, coding for products that participate in the
+same metabolic pathway or biological process. Sometimes, these genes code
+for subunits of the same protein.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8649995' orgid='ECOLI' frameid='PUB-8649995'/></evidence>
+<component><Promoter ID='ECOLI:PM0-46277' orgid='ECOLI' frameid='PM0-46277' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>1148504</minus-10-left>
+<common-name datatype='string'>fabHp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1148516</absolute-plus-1-pos>
+<comment datatype='string'>&lt;i&gt;fabH&lt;/i&gt;p is subject to stringent control, and it is responsible for ~40% of all transcripts for &lt;i&gt;fabH&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/8649995&quot;&gt;Podkovyrov96&lt;/a&gt;].
+&lt;i&gt;fabH&lt;/i&gt; has a GC-rich motif discriminator sequence between the -10 region and the start site, which is a characteristic feature of the stringently regulated promoter [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/8649995&quot;&gt;Podkovyrov96&lt;/a&gt;].
+The &lt;i&gt;fabH&lt;/i&gt; promoter is not only a contributor to its expression under all conditions, but also other activators might compensate to activate &lt;i&gt;fabH&lt;/i&gt; expression when FadR is absent, and/or with basal expression of the &lt;i&gt;fabHGD&lt;/i&gt; genes [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23772072&quot;&gt;My13&lt;/a&gt;].
+</comment>
+<citation><Publication resource='#ECOLI:PUB-8649995' orgid='ECOLI' frameid='PUB-8649995'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8649995' orgid='ECOLI' frameid='PUB-8649995'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11947' orgid='ECOLI' frameid='REG0-11947' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8070' orgid='ECOLI' frameid='CPLX0-8070'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46277' orgid='ECOLI' frameid='PM0-46277'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11816' orgid='ECOLI' frameid='REG0-11816' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD01520' orgid='ECOLI' frameid='PD01520'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46277' orgid='ECOLI' frameid='PM0-46277'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>1148509</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00266' orgid='ECOLI' frameid='TU00266'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10277' orgid='ECOLI' frameid='EG10277'/></component>
+<component><Gene resource='getxml?ECOLI:EG11317' orgid='ECOLI' frameid='EG11317'/></component>
+<component><Gene resource='getxml?ECOLI:EG11318' orgid='ECOLI' frameid='EG11318'/></component>
+</Transcription-Unit>
+</ptools-xml>

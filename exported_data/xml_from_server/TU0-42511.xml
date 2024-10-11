@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42511'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42511</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42511' orgid='ECOLI' frameid='TU0-42511' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>hisL</common-name>
+<citation><Publication ID='ECOLI:PUB-6170941' orgid='ECOLI' frameid='PUB-6170941' detail='full'><source datatype='string'>Nucleic Acids Res 9(9);2075-86</source>
+<pubmed-id datatype='string'>6170941</pubmed-id>
+<title datatype='string'>Identification, nucleotide sequence and expression of the regulatory region of the histidine operon of Escherichia coli K-12.</title>
+<year datatype='integer'>1981</year>
+<author datatype='string'>Verde P</author>
+<author datatype='string'>Frunzio R</author>
+<author datatype='string'>di Nocera PP</author>
+<author datatype='string'>Blasi F</author>
+<author datatype='string'>Bruni CB</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-360215' orgid='ECOLI' frameid='PUB-360215' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 75(9);4276-80</source>
+<pubmed-id datatype='string'>360215</pubmed-id>
+<title datatype='string'>Nucleotide sequence of the attenuator region of the histidine operon of Escherichia coli K-12.</title>
+<year datatype='integer'>1978</year>
+<author datatype='string'>Di Nocera PP</author>
+<author datatype='string'>Blasi F</author>
+<author datatype='string'>Di Lauro R</author>
+<author datatype='string'>Frunzio R</author>
+<author datatype='string'>Bruni CB</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6170941' orgid='ECOLI' frameid='PUB-6170941'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' class='true'/><Publication resource='#ECOLI:PUB-360215' orgid='ECOLI' frameid='PUB-360215'/></evidence>
+<component><Terminator ID='ECOLI:TERM0-1058' orgid='ECOLI' frameid='TERM0-1058' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<regulated-by><Regulation ID='ECOLI:REG0-9246' orgid='ECOLI' frameid='REG0-9246' detail='low'><parent><Regulation resource='getxml?ECOLI:Ribosome-Mediated-Attenuation' orgid='ECOLI' frameid='Ribosome-Mediated-Attenuation' class='true'/></parent>
+<regulator><RNA resource='getxml?ECOLI:Charged-HIS-tRNAs' orgid='ECOLI' frameid='Charged-HIS-tRNAs' class='true'/></regulator>
+<regulated-entity><Terminator resource='#ECOLI:TERM0-1058' orgid='ECOLI' frameid='TERM0-1058'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<right-end-position datatype='integer'>2090140</right-end-position>
+<left-end-position datatype='integer'>2090108</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-360215' orgid='ECOLI' frameid='PUB-360215'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42511' orgid='ECOLI' frameid='TU0-42511'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11269' orgid='ECOLI' frameid='EG11269'/></component>
+<component><Promoter ID='ECOLI:PM0-7141' orgid='ECOLI' frameid='PM0-7141' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>hisLp</common-name>
+<synonym datatype='string'>hisGp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2089965</absolute-plus-1-pos>
+<comment datatype='string'>Guanosine tetraphosphate (ppGpp) increases the transcription of the hisLp promoter. In contrast, ppGpp reduces the transcription of other promoters, such as  argTp and rrnBp1.</comment>
+<citation><Publication resource='#ECOLI:PUB-6170941' orgid='ECOLI' frameid='PUB-6170941'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6170941' orgid='ECOLI' frameid='PUB-6170941'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-RNA-POLYMERASE-FOOTPRINTING' orgid='ECOLI' frameid='EV-EXP-IDA-RNA-POLYMERASE-FOOTPRINTING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>RNA polymerase footprinting</common-name>
+<comment datatype='string'>The binding of RNA polymerase to a DNA region (the promoter) is shown by footprinting.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6170941' orgid='ECOLI' frameid='PUB-6170941'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11388' orgid='ECOLI' frameid='REG0-11388' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8070' orgid='ECOLI' frameid='CPLX0-8070'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-7141' orgid='ECOLI' frameid='PM0-7141'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42511' orgid='ECOLI' frameid='TU0-42511'/><Transcription-Unit resource='getxml?ECOLI:TU00285' orgid='ECOLI' frameid='TU00285'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

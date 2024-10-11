@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM0-10418'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM0-10418</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM0-10418' orgid='ECOLI' frameid='PM0-10418' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>4605764</minus-10-left>
+<common-name datatype='string'>yjjZp</common-name>
+<minus-35-right datatype='integer'>4605747</minus-35-right>
+<minus-35-left datatype='integer'>4605742</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4605777</absolute-plus-1-pos>
+<comment datatype='string'>The &lt;i&gt;yjjZ&lt;/i&gt;p promoter is significantly affected by ectopic production of a nanoRNase during stationary-phase growth [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/22751503&quot;&gt;Vvedenskaya12&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-11101675' orgid='ECOLI' frameid='PUB-11101675' detail='full'><source datatype='string'>Microbiology 146 Pt 12;3171-3182</source>
+<pubmed-id datatype='string'>11101675</pubmed-id>
+<title datatype='string'>A method for direct cloning of fur-regulated genes: identification of seven new fur-regulated loci in Escherichia coli.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Vassinova N</author>
+<author datatype='string'>Kozyrev D</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-22751503' orgid='ECOLI' frameid='PUB-22751503' detail='full'><source datatype='string'>Genes Dev 26(13);1498-507</source>
+<pubmed-id datatype='string'>22751503</pubmed-id>
+<title datatype='string'>Growth phase-dependent control of transcription start site selection and gene expression by nanoRNAs.</title>
+<year datatype='integer'>2012</year>
+<author datatype='string'>Vvedenskaya IO</author>
+<author datatype='string'>Sharp JS</author>
+<author datatype='string'>Goldman SR</author>
+<author datatype='string'>Kanabar PN</author>
+<author datatype='string'>Livny J</author>
+<author datatype='string'>Dove SL</author>
+<author datatype='string'>Nickels BE</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11101675' orgid='ECOLI' frameid='PUB-11101675'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-22751503' orgid='ECOLI' frameid='PUB-22751503'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12899' orgid='ECOLI' frameid='REG0-12899' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00214' orgid='ECOLI' frameid='PD00214'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10418' orgid='ECOLI' frameid='PM0-10418'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10789' orgid='ECOLI' frameid='REG0-10789' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7639' orgid='ECOLI' frameid='CPLX0-7639'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10418' orgid='ECOLI' frameid='PM0-10418'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10788' orgid='ECOLI' frameid='REG0-10788' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7639' orgid='ECOLI' frameid='CPLX0-7639'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10418' orgid='ECOLI' frameid='PM0-10418'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>4605769</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-8630' orgid='ECOLI' frameid='TU0-8630'/></component-of>
+</Promoter>
+</ptools-xml>

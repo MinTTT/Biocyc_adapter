@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-13571'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-13571</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-13571' orgid='ECOLI' frameid='TU0-13571' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>elaB</common-name>
+<comment datatype='string'>The transcription of &lt;i&gt;elaB&lt;/i&gt; is induced in the stationary phase when the cells are growing principally in minimal medium rather than LB medium. &lt;i&gt;elaB&lt;/i&gt; expression contributes to cell survival under oxidative and heat shock stress conditions. On the other hand, the deletion of &lt;i&gt;elaB&lt;/i&gt; increased the formation of persister cells [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/28242719&quot;&gt;Guo17a&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-13027' orgid='ECOLI' frameid='REG0-13027' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Compound resource='getxml?ECOLI:GUANOSINE-5DP-3DP' orgid='ECOLI' frameid='GUANOSINE-5DP-3DP'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-13571' orgid='ECOLI' frameid='TU0-13571'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component><Promoter ID='ECOLI:PM0-9756' orgid='ECOLI' frameid='PM0-9756' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>2381059</minus-10-left>
+<common-name datatype='string'>elaBp</common-name>
+<minus-35-right datatype='integer'>2381092</minus-35-right>
+<minus-35-left datatype='integer'>2381087</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2381053</absolute-plus-1-pos>
+<comment datatype='string'>Zaslaver et al. demonstrated in 2006, by means of a library of fluorescent transcription fusions, that this promoter can be transcribed &lt;i&gt;in vitro&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16862137&quot;&gt;Zaslaver06&lt;/a&gt;]. Based on this, a putative promoter was suggested, but the +1 site of the transcription initiation has not been determined, although there exists promoter activity.</comment>
+<citation><Publication ID='ECOLI:PUB-16862137' orgid='ECOLI' frameid='PUB-16862137' detail='full'><source datatype='string'>Nat Methods 3(8);623-8</source>
+<pubmed-id datatype='string'>16862137</pubmed-id>
+<title datatype='string'>A comprehensive library of fluorescent transcriptional reporters for Escherichia coli.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Zaslaver A</author>
+<author datatype='string'>Bren A</author>
+<author datatype='string'>Ronen M</author>
+<author datatype='string'>Itzkovitz S</author>
+<author datatype='string'>Kikoin I</author>
+<author datatype='string'>Shavit S</author>
+<author datatype='string'>Liebermeister W</author>
+<author datatype='string'>Surette MG</author>
+<author datatype='string'>Alon U</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-28242719' orgid='ECOLI' frameid='PUB-28242719' detail='full'><source datatype='string'>J Bacteriol 199(9)</source>
+<pubmed-id datatype='string'>28242719</pubmed-id>
+<title datatype='string'>Tail-Anchored Inner Membrane Protein ElaB Increases Resistance to Stress While Reducing Persistence in Escherichia coli.</title>
+<year datatype='integer'>2017</year>
+<author datatype='string'>Guo Y</author>
+<author datatype='string'>Liu X</author>
+<author datatype='string'>Li B</author>
+<author datatype='string'>Yao J</author>
+<author datatype='string'>Wood TK</author>
+<author datatype='string'>Wang X</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16862137' orgid='ECOLI' frameid='PUB-16862137'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' detail='full' class='true'><common-name datatype='string'>Inferred by computational analysis</common-name>
+<comment datatype='string'>Inferred from computation.  The evidence for an assertion comes from a
+computational analysis.  The assertion itself might have been made
+by a person or by a computer, that is, EV-COMP does not specify whether
+manual interpretation of the computation occurred.
+&lt;p&gt;
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-28242719' orgid='ECOLI' frameid='PUB-28242719'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-30656833' orgid='ECOLI' frameid='PUB-30656833' detail='full'><source datatype='string'>Microb Biotechnol 12(2);392-404</source>
+<pubmed-id datatype='string'>30656833</pubmed-id>
+<title datatype='string'>Resistance to oxidative stress by inner membrane protein ElaB is regulated by OxyR and RpoS.</title>
+<year datatype='integer'>2019</year>
+<author datatype='string'>Guo Y</author>
+<author datatype='string'>Li Y</author>
+<author datatype='string'>Zhan W</author>
+<author datatype='string'>Wood TK</author>
+<author datatype='string'>Wang X</author>
+</Publication>
+</evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-15776' orgid='ECOLI' frameid='REG0-15776' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD04418' orgid='ECOLI' frameid='PD04418'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-9756' orgid='ECOLI' frameid='PM0-9756'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-13297' orgid='ECOLI' frameid='REG0-13297' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00214' orgid='ECOLI' frameid='PD00214'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-9756' orgid='ECOLI' frameid='PM0-9756'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-13296' orgid='ECOLI' frameid='REG0-13296' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00214' orgid='ECOLI' frameid='PD00214'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-9756' orgid='ECOLI' frameid='PM0-9756'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>2381068</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-13571' orgid='ECOLI' frameid='TU0-13571'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:G7173' orgid='ECOLI' frameid='G7173'/></component>
+</Transcription-Unit>
+</ptools-xml>

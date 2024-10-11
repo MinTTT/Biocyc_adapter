@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-14454'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-14454</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-14454' orgid='ECOLI' frameid='TU0-14454' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>yiaKLMNO-lyx-sgbHUE</common-name>
+<comment datatype='string'>Under aerobic conditions, expression of the &lt;i&gt;yiaKMNO&lt;/i&gt; operon, together with the &lt;i&gt;ula&lt;/i&gt; regulon, is necessary for l-ascorbate assimilation. This compound induces transcription of the operon at the end of the exponential phase and at the beginning of the stationary phase.</comment>
+<citation><Publication ID='ECOLI:PUB-10913096' orgid='ECOLI' frameid='PUB-10913096' detail='full'><source datatype='string'>J Bacteriol 182(16);4617-24</source>
+<pubmed-id datatype='string'>10913096</pubmed-id>
+<title datatype='string'>Regulation of expression of the yiaKLMNOPQRS operon for carbohydrate utilization in Escherichia coli: involvement of the main transcriptional factors.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Ibanez E</author>
+<author datatype='string'>Campos E</author>
+<author datatype='string'>Baldoma L</author>
+<author datatype='string'>Aguilar J</author>
+<author datatype='string'>Badia J</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-11741871' orgid='ECOLI' frameid='PUB-11741871' detail='full'><source datatype='string'>J Bacteriol 184(1);302-6</source>
+<pubmed-id datatype='string'>11741871</pubmed-id>
+<title datatype='string'>Utilization of L-ascorbate by Escherichia coli K-12: assignments of functions to products of the yjf-sga and yia-sgb operons.</title>
+<year datatype='integer'>2002</year>
+<author datatype='string'>Yew WS</author>
+<author datatype='string'>Gerlt JA</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-10913097' orgid='ECOLI' frameid='PUB-10913097' detail='full'><source datatype='string'>J Bacteriol 182(16);4625-7</source>
+<pubmed-id datatype='string'>10913097</pubmed-id>
+<title datatype='string'>Role of the yiaR and yiaS genes of Escherichia coli in metabolism of endogenously formed L-xylulose.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Ibanez E</author>
+<author datatype='string'>Gimenez R</author>
+<author datatype='string'>Pedraza T</author>
+<author datatype='string'>Baldoma L</author>
+<author datatype='string'>Aguilar J</author>
+<author datatype='string'>Badia J</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10913096' orgid='ECOLI' frameid='PUB-10913096'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10913096' orgid='ECOLI' frameid='PUB-10913096'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11741871' orgid='ECOLI' frameid='PUB-11741871'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG12287' orgid='ECOLI' frameid='EG12287'/></component>
+<component><Gene resource='getxml?ECOLI:EG12286' orgid='ECOLI' frameid='EG12286'/></component>
+<component><Gene resource='getxml?ECOLI:EG12285' orgid='ECOLI' frameid='EG12285'/></component>
+<component><Gene resource='getxml?ECOLI:EG12284' orgid='ECOLI' frameid='EG12284'/></component>
+<component><Gene resource='getxml?ECOLI:EG12283' orgid='ECOLI' frameid='EG12283'/></component>
+<component><Gene resource='getxml?ECOLI:EG12282' orgid='ECOLI' frameid='EG12282'/></component>
+<component><Gene resource='getxml?ECOLI:EG12281' orgid='ECOLI' frameid='EG12281'/></component>
+<component><Gene resource='getxml?ECOLI:EG12280' orgid='ECOLI' frameid='EG12280'/></component>
+<component><Gene resource='getxml?ECOLI:EG12279' orgid='ECOLI' frameid='EG12279'/></component>
+<component><Promoter ID='ECOLI:PM0-9695' orgid='ECOLI' frameid='PM0-9695' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>3742710</minus-10-left>
+<common-name datatype='string'>yiaKp2</common-name>
+<minus-35-right datatype='integer'>3742692</minus-35-right>
+<minus-35-left datatype='integer'>3742687</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOE-MONOMER' orgid='ECOLI' frameid='RPOE-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3742720</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-16336047' orgid='ECOLI' frameid='PUB-16336047' detail='full'><source datatype='string'>PLoS Biol 4(1);e2</source>
+<pubmed-id datatype='string'>16336047</pubmed-id>
+<title datatype='string'>Conserved and variable functions of the sigmaE stress response in related genomes.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Rhodius VA</author>
+<author datatype='string'>Suh WC</author>
+<author datatype='string'>Nonaka G</author>
+<author datatype='string'>West J</author>
+<author datatype='string'>Gross CA</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16336047' orgid='ECOLI' frameid='PUB-16336047'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference of promoter position</common-name>
+<comment datatype='string'>Automated inference of promoter position relative to the -10 and -35 boxes.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16336047' orgid='ECOLI' frameid='PUB-16336047'/></evidence>
+<minus-10-right datatype='integer'>3742714</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-14454' orgid='ECOLI' frameid='TU0-14454'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

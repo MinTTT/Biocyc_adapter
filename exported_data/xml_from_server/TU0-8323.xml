@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8323'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8323</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8323' orgid='ECOLI' frameid='TU0-8323' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>lolB-ispE-prs</common-name>
+<synonym datatype='string'>lolB-ispE-prsA</synonym>
+<citation><Publication ID='ECOLI:PUB-7679718' orgid='ECOLI' frameid='PUB-7679718' detail='full'><source datatype='string'>J Gen Microbiol 139(2);259-66</source>
+<pubmed-id datatype='string'>7679718</pubmed-id>
+<title datatype='string'>Characterization of the hemA-prs region of the Escherichia coli and Salmonella typhimurium chromosomes: identification of two open reading frames and implications for prs expression.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>Post DA</author>
+<author datatype='string'>Hove-Jensen B</author>
+<author datatype='string'>Switzer RL</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-7679718' orgid='ECOLI' frameid='PUB-7679718'/></evidence>
+<component><Terminator ID='ECOLI:TERM4' orgid='ECOLI' frameid='TERM4' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>1260909</right-end-position>
+<left-end-position datatype='integer'>1260895</left-end-position>
+<citation><Publication ID='ECOLI:PUB-3009477' orgid='ECOLI' frameid='PUB-3009477' detail='full'><source datatype='string'>J Biol Chem 261(15);6765-71</source>
+<pubmed-id datatype='string'>3009477</pubmed-id>
+<title datatype='string'>Phosphoribosylpyrophosphate synthetase of Escherichia coli. Properties of the purified enzyme and primary structure of the prs gene.</title>
+<year datatype='integer'>1986</year>
+<author datatype='string'>Hove-Jensen B</author>
+<author datatype='string'>Harlow KW</author>
+<author datatype='string'>King CJ</author>
+<author datatype='string'>Switzer RL</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8323' orgid='ECOLI' frameid='TU0-8323'/><Transcription-Unit resource='getxml?ECOLI:TU00203' orgid='ECOLI' frameid='TU00203'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10774' orgid='ECOLI' frameid='EG10774'/></component>
+<component><Gene resource='getxml?ECOLI:EG11294' orgid='ECOLI' frameid='EG11294'/></component>
+<component><Gene resource='getxml?ECOLI:EG11293' orgid='ECOLI' frameid='EG11293'/></component>
+<component><Promoter ID='ECOLI:PM0-8703' orgid='ECOLI' frameid='PM0-8703' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>1263563</minus-10-left>
+<common-name datatype='string'>lolBp</common-name>
+<minus-35-right datatype='integer'>1263589</minus-35-right>
+<minus-35-left datatype='integer'>1263585</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:EG11355-MONOMER' orgid='ECOLI' frameid='EG11355-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1263556</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-7679718' orgid='ECOLI' frameid='PUB-7679718'/></citation>
+<citation><Publication ID='ECOLI:PUB-18158297' orgid='ECOLI' frameid='PUB-18158297' detail='full'><source datatype='string'>Nucleic Acids Res 36(Database issue);D120-4</source>
+<pubmed-id datatype='string'>18158297</pubmed-id>
+<title datatype='string'>RegulonDB (version 6.0): gene regulation model of Escherichia coli K-12 beyond transcription, active (experimental) annotated promoters and Textpresso navigation.</title>
+<year datatype='integer'>2008</year>
+<author datatype='string'>Gama-Castro S</author>
+<author datatype='string'>Jimenez-Jacinto V</author>
+<author datatype='string'>Peralta-Gil M</author>
+<author datatype='string'>Santos-Zavaleta A</author>
+<author datatype='string'>Penaloza-Spinola MI</author>
+<author datatype='string'>Contreras-Moreira B</author>
+<author datatype='string'>Segura-Salazar J</author>
+<author datatype='string'>Muniz-Rascado L</author>
+<author datatype='string'>Martinez-Flores I</author>
+<author datatype='string'>Salgado H</author>
+<author datatype='string'>Bonavides-Martinez C</author>
+<author datatype='string'>Abreu-Goodger C</author>
+<author datatype='string'>Rodriguez-Penagos C</author>
+<author datatype='string'>Miranda-Rios J</author>
+<author datatype='string'>Morett E</author>
+<author datatype='string'>Merino E</author>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Trevino-Quintanilla L</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-18158297' orgid='ECOLI' frameid='PUB-18158297'/></evidence>
+<minus-10-right datatype='integer'>1263570</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8323' orgid='ECOLI' frameid='TU0-8323'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8326'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8326</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8326' orgid='ECOLI' frameid='TU0-8326' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>yoeA</common-name>
+<comment datatype='string'>A Fur-binding site, GAAAATAATTATCA, for the &lt;i&gt;yoeA&lt;/i&gt; gene has been identified by its similarity to the consensus sequence (TGATAATnATTATCA); it is centered 21 bp  upstream of the start codon [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/11812853&quot;&gt;Panina01&lt;/a&gt;]. However, its annotation is pending until the +1 position for the &lt;i&gt;yoeA&lt;/i&gt; gene can be determined.</comment>
+<citation><Publication ID='ECOLI:PUB-11812853' orgid='ECOLI' frameid='PUB-11812853' detail='full'><source datatype='string'>Nucleic Acids Res 29(24);5195-206</source>
+<pubmed-id datatype='string'>11812853</pubmed-id>
+<title datatype='string'>Comparative analysis of FUR regulons in gamma-proteobacteria.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Panina EM</author>
+<author datatype='string'>Mironov AA</author>
+<author datatype='string'>Gelfand MS</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SINGLE-DIRECTON' orgid='ECOLI' frameid='EV-COMP-AINF-SINGLE-DIRECTON' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference that a single-gene directon is a transcription unit </common-name>
+<comment datatype='string'>Automated inference of transcription unit based on single-gene directon.  Existence of a single-gene transcription unit 
+for gene G is inferred computationally by the existence of upstream and downstream genes transcribed in the 
+opposite direction of G.</comment>
+</Evidence-Code>
+</evidence>
+<component><Gene resource='getxml?ECOLI:G7075' orgid='ECOLI' frameid='G7075'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-7202'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-7202</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-7202' orgid='ECOLI' frameid='TU0-7202' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>hcaEFCBD</common-name>
+<citation><Publication ID='ECOLI:PUB-15808934' orgid='ECOLI' frameid='PUB-15808934' detail='full'><source datatype='string'>Res Microbiol 156(3);312-21</source>
+<pubmed-id datatype='string'>15808934</pubmed-id>
+<title datatype='string'>3-phenylpropionate catabolism and the Escherichia coli oxidative stress response.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Turlin E</author>
+<author datatype='string'>Sismeiro O</author>
+<author datatype='string'>Le Caer JP</author>
+<author datatype='string'>Labas V</author>
+<author datatype='string'>Danchin A</author>
+<author datatype='string'>Biville F</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Inferred through co-regulation</common-name>
+<comment datatype='string'>Inferred through co-regulation.  A transcription unit is inferred because a set of 
+adjacent genes that are transcribed in the same direction exhibit similar
+expression patterns under a range of environmental conditions.
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15808934' orgid='ECOLI' frameid='PUB-15808934'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15808934' orgid='ECOLI' frameid='PUB-15808934'/></evidence>
+<component><DNA-Binding-Site ID='ECOLI:BS0-5884' orgid='ECOLI' frameid='BS0-5884' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6099' orgid='ECOLI' frameid='REG0-6099' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:MONOMER0-2081' orgid='ECOLI' frameid='MONOMER0-2081'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-7542' orgid='ECOLI' frameid='PM0-7542' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>hcaEp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2668982</absolute-plus-1-pos>
+<comment datatype='string'>The hcaEp promoter has a weak -10 region (CAACAT) and a good -35 region (TTCACA) [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/15808934&quot;&gt;Turlin05&lt;/a&gt;].</comment>
+<citation><Publication resource='#ECOLI:PUB-15808934' orgid='ECOLI' frameid='PUB-15808934'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15808934' orgid='ECOLI' frameid='PUB-15808934'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-6099' orgid='ECOLI' frameid='REG0-6099'/></regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-7202' orgid='ECOLI' frameid='TU0-7202'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6098' orgid='ECOLI' frameid='REG0-6098' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:G7331-MONOMER' orgid='ECOLI' frameid='G7331-MONOMER'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-7541' orgid='ECOLI' frameid='PM0-7541' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>hcaRp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2668964</absolute-plus-1-pos>
+<comment datatype='string'>The hcaRp promoter has a weak -10 region (AAGGAT) and a good -35 region (TTGACC) [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/15808934&quot;&gt;Turlin05&lt;/a&gt;].</comment>
+<citation><Publication resource='#ECOLI:PUB-15808934' orgid='ECOLI' frameid='PUB-15808934'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-15808934' orgid='ECOLI' frameid='PUB-15808934'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-6098' orgid='ECOLI' frameid='REG0-6098'/></regulated-by>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-7201' orgid='ECOLI' frameid='TU0-7201'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-11200225' orgid='ECOLI' frameid='PUB-11200225' detail='full'><source datatype='string'>J Mol Microbiol Biotechnol 3(1);127-33</source>
+<pubmed-id datatype='string'>11200225</pubmed-id>
+<title datatype='string'>Regulation of the early steps of 3-phenylpropionate catabolism in Escherichia coli.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Turlin E</author>
+<author datatype='string'>Perrotte-piquemal M</author>
+<author datatype='string'>Danchin A</author>
+<author datatype='string'>Biville F</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-15808934' orgid='ECOLI' frameid='PUB-15808934'/></citation>
+<citation><Publication ID='ECOLI:PUB-9603882' orgid='ECOLI' frameid='PUB-9603882' detail='full'><source datatype='string'>J Bacteriol 180(11);2915-23</source>
+<pubmed-id datatype='string'>9603882</pubmed-id>
+<title datatype='string'>Characterization of the hca cluster encoding the dioxygenolytic pathway for initial catabolism of 3-phenylpropionic acid in Escherichia coli K-12.</title>
+<year datatype='integer'>1998</year>
+<author datatype='string'>Diaz E</author>
+<author datatype='string'>Ferrandez A</author>
+<author datatype='string'>Garcia JL</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15808934' orgid='ECOLI' frameid='PUB-15808934'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on similarity to consensus sequences</common-name>
+<comment datatype='string'>A DNA sequence similar to previously known consensus sequences is computationally identified.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9603882' orgid='ECOLI' frameid='PUB-9603882'/></evidence>
+<abs-center-pos datatype='integer'>2668940</abs-center-pos>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-7201' orgid='ECOLI' frameid='TU0-7201'/><Transcription-Unit resource='#ECOLI:TU0-7202' orgid='ECOLI' frameid='TU0-7202'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:G7336' orgid='ECOLI' frameid='G7336'/></component>
+<component><Gene resource='getxml?ECOLI:G7335' orgid='ECOLI' frameid='G7335'/></component>
+<component><Gene resource='getxml?ECOLI:G7334' orgid='ECOLI' frameid='G7334'/></component>
+<component><Gene resource='getxml?ECOLI:M015' orgid='ECOLI' frameid='M015'/></component>
+<component><Gene resource='getxml?ECOLI:M009' orgid='ECOLI' frameid='M009'/></component>
+<component><Promoter resource='#ECOLI:PM0-7542' orgid='ECOLI' frameid='PM0-7542'/></component>
+</Transcription-Unit>
+</ptools-xml>

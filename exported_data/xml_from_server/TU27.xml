@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU27'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU27</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU27' orgid='ECOLI' frameid='TU27' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>eda</common-name>
+<comment datatype='string'>Under nitrogen-rich growth conditions, the expression of the &lt;i&gt;eda&lt;/i&gt;  gene was increased in mutants for two genes that encode two terminal oxidases, &lt;i&gt;cyoA&lt;/i&gt; and &lt;i&gt;cydB&lt;/i&gt;, and in a mutant of the transcriptional regulator Fur. However, it is unknown if the effects of the transcriptional regulators act directly on gene expression;  also, it is unknown which of the four promoters that transcribe the gene could  be regulated by the regulators [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/21272324&quot;&gt;Kumar11&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-1624451' orgid='ECOLI' frameid='PUB-1624451' detail='full'><source datatype='string'>J Bacteriol 174(14);4638-46</source>
+<pubmed-id datatype='string'>1624451</pubmed-id>
+<title datatype='string'>Molecular characterization of the Entner-Doudoroff pathway in Escherichia coli: sequence analysis and localization of promoters for the edd-eda operon.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Egan SE</author>
+<author datatype='string'>Fliege R</author>
+<author datatype='string'>Tong S</author>
+<author datatype='string'>Shibata A</author>
+<author datatype='string'>Wolf RE</author>
+<author datatype='string'>Conway T</author>
+</Publication>
+</citation>
+<component><DNA-Binding-Site ID='ECOLI:BS0-5902' orgid='ECOLI' frameid='BS0-5902' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6122' orgid='ECOLI' frameid='REG0-6122' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-PHOB' orgid='ECOLI' frameid='PHOSPHO-PHOB'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM00382' orgid='ECOLI' frameid='PM00382' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>edap3</common-name>
+<synonym datatype='string'>P4</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1932784</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-1624451' orgid='ECOLI' frameid='PUB-1624451'/></citation>
+<citation><Publication ID='ECOLI:PUB-15659677' orgid='ECOLI' frameid='PUB-15659677' detail='full'><source datatype='string'>J Bacteriol 187(3);991-1000</source>
+<pubmed-id datatype='string'>15659677</pubmed-id>
+<title datatype='string'>Multiple regulators control expression of the Entner-Doudoroff aldolase (Eda) of Escherichia coli.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Murray EL</author>
+<author datatype='string'>Conway T</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1624451' orgid='ECOLI' frameid='PUB-1624451'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-6122' orgid='ECOLI' frameid='REG0-6122'/></regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU27' orgid='ECOLI' frameid='TU27'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-15659677' orgid='ECOLI' frameid='PUB-15659677'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15659677' orgid='ECOLI' frameid='PUB-15659677'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15659677' orgid='ECOLI' frameid='PUB-15659677'/></evidence>
+<site-length datatype='integer'>21</site-length>
+<abs-center-pos datatype='integer'>1932837</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU27' orgid='ECOLI' frameid='TU27'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Terminator ID='ECOLI:TERM0461' orgid='ECOLI' frameid='TERM0461' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>1932105</right-end-position>
+<left-end-position datatype='integer'>1932085</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-1624451' orgid='ECOLI' frameid='PUB-1624451'/></citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU00227' orgid='ECOLI' frameid='TU00227'/><Transcription-Unit resource='getxml?ECOLI:TU26' orgid='ECOLI' frameid='TU26'/><Transcription-Unit resource='#ECOLI:TU27' orgid='ECOLI' frameid='TU27'/><Transcription-Unit resource='getxml?ECOLI:TU25' orgid='ECOLI' frameid='TU25'/></component-of>
+</Terminator>
+</component>
+<component><Promoter resource='#ECOLI:PM00382' orgid='ECOLI' frameid='PM00382'/></component>
+<component><Gene resource='getxml?ECOLI:EG10256' orgid='ECOLI' frameid='EG10256'/></component>
+</Transcription-Unit>
+</ptools-xml>

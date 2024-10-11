@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM00192'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM00192</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM00192' orgid='ECOLI' frameid='PM00192' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>2339465</minus-10-left>
+<common-name datatype='string'>gyrAp</common-name>
+<minus-35-right datatype='integer'>2339494</minus-35-right>
+<minus-35-left datatype='integer'>2339489</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2339457</absolute-plus-1-pos>
+<comment datatype='string'>A total of 554 promoter regions from &lt;i&gt;Escherichia coli&lt;/i&gt; were aligned in order to analyze their sequence similarities. Mitchell et al. (2003) [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12907708&quot;&gt;Mitchell03&lt;/a&gt;] focused on conservation, patterns, similarities, and differences between promoters with or without an extended -10 5'-TG-3' element and other conserved elements. They experimentally show that, for several naturally occurring extended -10 promoters, the 5'-TRTG-3' motif is an important determinant for promoter activity. Eleven promoters were selected for further experimental study. Of those, the seven most active (&lt;i&gt;aroF&lt;/i&gt; &gt; &lt;i&gt;ompF&lt;/i&gt; &gt; &lt;i&gt;envA&lt;/i&gt; &gt; &lt;i&gt;purFp1&lt;/i&gt; &gt; &lt;i&gt;purEF&lt;/i&gt; &gt; &lt;i&gt;purMN&lt;/i&gt; &gt; &lt;i&gt;gyrA&lt;/i&gt;) were investigated for the contribution of the extended -10 motif by changing the 5'-TG-3' motif. Promoters with poor matches to the -10 and -35 consensus hexamers are more dependent on the 5'-TG-3' motif, and this plays a similar role on different promoters. The dinucleotide at -17 and -16 in aroFp results in similar patterns of activity, suggesting that these bases play a similar role for different promoters [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12907708&quot;&gt;Mitchell03&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-12907708' orgid='ECOLI' frameid='PUB-12907708' detail='full'><source datatype='string'>Nucleic Acids Res 31(16);4689-95</source>
+<pubmed-id datatype='string'>12907708</pubmed-id>
+<title datatype='string'>Identification and analysis of 'extended -10' promoters in Escherichia coli.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Mitchell JE</author>
+<author datatype='string'>Zheng D</author>
+<author datatype='string'>Busby SJ</author>
+<author datatype='string'>Minchin SD</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-2828631' orgid='ECOLI' frameid='PUB-2828631' detail='full'><source datatype='string'>J Mol Biol 197(4);729-36</source>
+<pubmed-id datatype='string'>2828631</pubmed-id>
+<title datatype='string'>Cloning and sequencing of the Escherichia coli gyrA gene coding for the A subunit of DNA gyrase.</title>
+<year datatype='integer'>1987</year>
+<author datatype='string'>Swanberg SL</author>
+<author datatype='string'>Wang JC</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from mutant phenotype</common-name>
+<comment datatype='string'>IMP inferred from mutant phenotype.
+
+&lt;br&gt;
+The assertion was inferred from a mutant phenotype such as
+&lt;ul&gt;
+    &lt;li&gt; Any gene mutation/knockout
+    &lt;li&gt; Overexpression/ectopic expression of wild-type or mutant genes
+    &lt;li&gt; Anti-sense experiments
+    &lt;li&gt; RNA interference experiments
+    &lt;li&gt; Specific protein inhibitors
+    &lt;li&gt; Complementation
+&lt;/ul&gt;&lt;p class=ecocomment&gt;	
+Comment: Inferences made from examining mutations or
+abnormal levels of only the product(s) of the gene of interest are covered by code EV-IMP
+(compare to code EV-IGI). Use this code for experiments that use antibodies 
+or other specific inhibitors of RNA or protein activity, even though no
+gene may be mutated (the rationale is that EV-IMP is used where an
+abnormal situation prevails in a cell or organism).
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12907708' orgid='ECOLI' frameid='PUB-12907708'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2828631' orgid='ECOLI' frameid='PUB-2828631'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-5714' orgid='ECOLI' frameid='REG0-5714' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00192' orgid='ECOLI' frameid='PM00192'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5713' orgid='ECOLI' frameid='REG0-5713' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD03695' orgid='ECOLI' frameid='PD03695'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00192' orgid='ECOLI' frameid='PM00192'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5712' orgid='ECOLI' frameid='REG0-5712' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD03695' orgid='ECOLI' frameid='PD03695'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00192' orgid='ECOLI' frameid='PM00192'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5711' orgid='ECOLI' frameid='REG0-5711' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD03695' orgid='ECOLI' frameid='PD03695'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00192' orgid='ECOLI' frameid='PM00192'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5710' orgid='ECOLI' frameid='REG0-5710' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00192' orgid='ECOLI' frameid='PM00192'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>2339470</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU00140' orgid='ECOLI' frameid='TU00140'/></component-of>
+</Promoter>
+</ptools-xml>

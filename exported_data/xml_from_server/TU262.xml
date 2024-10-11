@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU262'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU262</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU262' orgid='ECOLI' frameid='TU262' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>mobAB</common-name>
+<comment datatype='string'>The expression of the &lt;i&gt;mobAB&lt;/i&gt; operon is very low and apparently constitutive.
+&lt;p&gt;
+ FNR represses &lt;i&gt;mobB&lt;/i&gt; gene expression under anaerobiosis, but it is not known which of the two promoters transcribing the gene is affected, or even if this regulation is direct or indirect [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12754220&quot;&gt;Salmon03&lt;/a&gt;].
+&lt;p&gt;
+A putative DNA-binding site for NsrR was identified upstream of the &lt;i&gt;mobA&lt;/i&gt; gene [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/33136147&quot;&gt;Fujita21&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Inferred through co-regulation</common-name>
+<comment datatype='string'>Inferred through co-regulation.  A transcription unit is inferred because a set of 
+adjacent genes that are transcribed in the same direction exhibit similar
+expression patterns under a range of environmental conditions.
+</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-7551035' orgid='ECOLI' frameid='PUB-7551035' detail='full'><source datatype='string'>Microbiology 141 ( Pt 7);1663-71</source>
+<pubmed-id datatype='string'>7551035</pubmed-id>
+<title datatype='string'>The mob locus of Escherichia coli K12 required for molybdenum cofactor biosynthesis is expressed at very low levels.</title>
+<year datatype='integer'>1995</year>
+<author datatype='string'>Iobbi-Nivol C</author>
+<author datatype='string'>Palmer T</author>
+<author datatype='string'>Whitty PW</author>
+<author datatype='string'>McNairn E</author>
+<author datatype='string'>Boxer DH</author>
+</Publication>
+</citation>
+<component><Gene resource='getxml?ECOLI:EG11828' orgid='ECOLI' frameid='EG11828'/></component>
+<component><Gene resource='getxml?ECOLI:EG11829' orgid='ECOLI' frameid='EG11829'/></component>
+<component><Promoter ID='ECOLI:PM342' orgid='ECOLI' frameid='PM342' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>mobAp1</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4042030</absolute-plus-1-pos>
+<comment datatype='string'>mobAp1 is a weak  promoter, and it shows a poor match to the -35 and -10 consensus for &amp;sigma;&lt;sup&gt;70&lt;/sup&gt; promoters.</comment>
+<citation><Publication resource='#ECOLI:PUB-7551035' orgid='ECOLI' frameid='PUB-7551035'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-7551035' orgid='ECOLI' frameid='PUB-7551035'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU262' orgid='ECOLI' frameid='TU262'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

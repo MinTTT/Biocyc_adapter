@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM0-9680'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM0-9680</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM0-9680' orgid='ECOLI' frameid='PM0-9680' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>933123</minus-10-left>
+<common-name datatype='string'>ftsKp1</common-name>
+<minus-35-right datatype='integer'>933105</minus-35-right>
+<minus-35-left datatype='integer'>933100</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>dinHp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>933138</absolute-plus-1-pos>
+<comment datatype='string'>ftsKp1 (&lt;i&gt;dinH&lt;/i&gt;) is the main &lt;i&gt;ftsK&lt;/i&gt; promoter during the cellular division process. [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/11065367&quot;&gt;Dorazi00&lt;/a&gt;].
+&lt;p&gt;
+Although a primer extension experiment has been done for this operon, the results indicated a region
+(2-4 nucleotides) rather than a specific start site [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/11065367&quot;&gt;Dorazi00&lt;/a&gt;]. We have decided to place the transcription +1 site in the nucleotide closest to the -10 box.</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-11065367' orgid='ECOLI' frameid='PUB-11065367' detail='full'><source datatype='string'>Microbiology 146 ( Pt 11);2891-9</source>
+<pubmed-id datatype='string'>11065367</pubmed-id>
+<title datatype='string'>The SOS promoter dinH is essential for ftsK transcription during cell division.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Dorazi R</author>
+<author datatype='string'>Dewar SJ</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-1577702' orgid='ECOLI' frameid='PUB-1577702' detail='full'><source datatype='string'>J Bacteriol 174(10);3377-85</source>
+<pubmed-id datatype='string'>1577702</pubmed-id>
+<title datatype='string'>Isolation of DNA damage-inducible promoters in Escherichia coli: regulation of polB (dinA), dinG, and dinH by LexA repressor.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Lewis LK</author>
+<author datatype='string'>Jenkins ME</author>
+<author datatype='string'>Mount DW</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11065367' orgid='ECOLI' frameid='PUB-11065367'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference of promoter position</common-name>
+<comment datatype='string'>Automated inference of promoter position relative to the -10 and -35 boxes.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1577702' orgid='ECOLI' frameid='PUB-1577702'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12932' orgid='ECOLI' frameid='REG0-12932' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Compound resource='getxml?ECOLI:GUANOSINE-5DP-3DP' orgid='ECOLI' frameid='GUANOSINE-5DP-3DP'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-9680' orgid='ECOLI' frameid='PM0-9680'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-9145' orgid='ECOLI' frameid='REG0-9145' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PC00010' orgid='ECOLI' frameid='PC00010'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-9680' orgid='ECOLI' frameid='PM0-9680'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>933128</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-14447' orgid='ECOLI' frameid='TU0-14447'/></component-of>
+</Promoter>
+</ptools-xml>

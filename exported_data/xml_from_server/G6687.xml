@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:G6687'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:G6687</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Gene ID='ECOLI:G6687' orgid='ECOLI' frameid='G6687' detail='full'><parent><Gene resource='getxml?ECOLI:Phantom-Genes' orgid='ECOLI' frameid='Phantom-Genes' class='true'/></parent>
+<replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<knockout-growth-observations><Growth-Observation ID='ECOLI:OBS0-44' orgid='ECOLI' frameid='OBS0-44' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media><growth-media resource='getxml?ECOLI:MIX0-803' orgid='ECOLI' frameid='MIX0-803'/></with-growth-media>
+</Growth-Observation>
+</knockout-growth-observations>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>b1364</common-name>
+<centisome-position datatype='float' units='CENTISOMES'>30.674606</centisome-position>
+<dblink><dblink-db>REGULONDB</dblink-db>
+<dblink-oid>b1364</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>https://regulondb.ccg.unam.mx/search/b1364</dblink-URL>
+</dblink>
+<dblink><dblink-db>OU-MICROARRAY</dblink-db>
+<dblink-oid>b1364</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>https://genexpdb.okstate.edu/databases/genexpdb/?query=b1364</dblink-URL>
+</dblink>
+<right-end-position datatype='integer'>1425459</right-end-position>
+<left-end-position datatype='integer'>1425178</left-end-position>
+<accession-1 datatype='string'>b1364</accession-1>
+<component-of/></Gene>
+</ptools-xml>

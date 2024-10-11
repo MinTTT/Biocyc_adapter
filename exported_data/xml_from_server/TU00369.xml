@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00369'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00369</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00369' orgid='ECOLI' frameid='TU00369' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ubiCA</common-name>
+<comment datatype='string'>UbiCA operon expression is high under aerobiosis  in the presence  of glycerol  and electron acceptors. Quinones and menaquinones also induce its expression, but  glucose and Casamino acids repress it [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/15902464&quot;&gt;Kwon05&lt;/a&gt;].
+&lt;p&gt;
+[&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/9315722&quot;&gt;Soballe97&lt;/a&gt;] reported that the &lt;i&gt;ubiCA&lt;/i&gt; operon is regulated by FNR, and they identified an FNR-binding site; nevertheless [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/15699038&quot;&gt;Salmon05&lt;/a&gt;]  and [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/15902464&quot;&gt;Kwon05&lt;/a&gt;] concluded that there is no site for FNR and that an FNR mutant does not cause an effect on the expression of the &lt;i&gt;ubiCA&lt;/i&gt; operon.</comment>
+<citation><Publication ID='ECOLI:PUB-1644758' orgid='ECOLI' frameid='PUB-1644758' detail='full'><source datatype='string'>J Bacteriol 174(16);5309-16</source>
+<pubmed-id datatype='string'>1644758</pubmed-id>
+<title datatype='string'>Cloning and sequencing of Escherichia coli ubiC and purification of chorismate lyase.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Nichols BP</author>
+<author datatype='string'>Green JM</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8366060' orgid='ECOLI' frameid='PUB-8366060' detail='full'><source datatype='string'>J Bacteriol 175(17);5728-9</source>
+<pubmed-id datatype='string'>8366060</pubmed-id>
+<title datatype='string'>Clarification of the Escherichia coli genetic map in the 92-minute region containing the ubiCA operon and the plsB, dgk, lexA, and dinF genes.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>Heide L</author>
+<author datatype='string'>Melzer M</author>
+<author datatype='string'>Siebert M</author>
+<author datatype='string'>Bechthold A</author>
+<author datatype='string'>Schroder J</author>
+<author datatype='string'>Severin K</author>
+</Publication>
+</citation>
+<component><DNA-Binding-Site ID='ECOLI:BS0-5661' orgid='ECOLI' frameid='BS0-5661' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6167' orgid='ECOLI' frameid='REG0-6167' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-ARCA' orgid='ECOLI' frameid='PHOSPHO-ARCA'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-5862' orgid='ECOLI' frameid='PM0-5862' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>4252432</minus-10-left>
+<common-name datatype='string'>ubiCp</common-name>
+<minus-35-right datatype='integer'>4252415</minus-35-right>
+<minus-35-left datatype='integer'>4252410</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4252443</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-9315722' orgid='ECOLI' frameid='PUB-9315722' detail='full'><source datatype='string'>FEBS Lett 414(2);373-6</source>
+<pubmed-id datatype='string'>9315722</pubmed-id>
+<title datatype='string'>Aerobic and anaerobic regulation of the ubiCA operon, encoding enzymes for the first two committed steps of ubiquinone biosynthesis in Escherichia coli.</title>
+<year datatype='integer'>1997</year>
+<author datatype='string'>Soballe B</author>
+<author datatype='string'>Poole RK</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9315722' orgid='ECOLI' frameid='PUB-9315722'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-6170' orgid='ECOLI' frameid='REG0-6170' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7797' orgid='ECOLI' frameid='CPLX0-7797'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-5862' orgid='ECOLI' frameid='PM0-5862'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6169' orgid='ECOLI' frameid='REG0-6169' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PC00027' orgid='ECOLI' frameid='PC00027'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-5862' orgid='ECOLI' frameid='PM0-5862'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6168' orgid='ECOLI' frameid='REG0-6168' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-NARL' orgid='ECOLI' frameid='PHOSPHO-NARL'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-5862' orgid='ECOLI' frameid='PM0-5862'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-6167' orgid='ECOLI' frameid='REG0-6167'/></regulated-by>
+<minus-10-right datatype='integer'>4252437</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00369' orgid='ECOLI' frameid='TU00369'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<comment datatype='string'>ArcA repressed the  &lt;i&gt;ubiCA&lt;/i&gt; operon under anaerobiosis conditions [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/15902464&quot;&gt;Kwon05&lt;/a&gt;].</comment>
+<component-of><Transcription-Unit resource='#ECOLI:TU00369' orgid='ECOLI' frameid='TU00369'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-4402' orgid='ECOLI' frameid='BS0-4402' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-6169' orgid='ECOLI' frameid='REG0-6169'/></involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-9315722' orgid='ECOLI' frameid='PUB-9315722'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9315722' orgid='ECOLI' frameid='PUB-9315722'/></evidence>
+<abs-center-pos datatype='integer'>4252431</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00369' orgid='ECOLI' frameid='TU00369'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-4401' orgid='ECOLI' frameid='BS0-4401' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-6170' orgid='ECOLI' frameid='REG0-6170'/></involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-9315722' orgid='ECOLI' frameid='PUB-9315722'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-9315722' orgid='ECOLI' frameid='PUB-9315722'/></evidence>
+<abs-center-pos datatype='float'>4252442.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00369' orgid='ECOLI' frameid='TU00369'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Promoter resource='#ECOLI:PM0-5862' orgid='ECOLI' frameid='PM0-5862'/></component>
+<component><Gene resource='getxml?ECOLI:EG11369' orgid='ECOLI' frameid='EG11369'/></component>
+<component><Gene resource='getxml?ECOLI:EG11370' orgid='ECOLI' frameid='EG11370'/></component>
+</Transcription-Unit>
+</ptools-xml>

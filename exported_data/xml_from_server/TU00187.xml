@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00187'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00187</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00187' orgid='ECOLI' frameid='TU00187' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>malI</common-name>
+<synonym datatype='string'>OP00259</synonym>
+<citation><Publication ID='ECOLI:PUB-2670898' orgid='ECOLI' frameid='PUB-2670898' detail='full'><source datatype='string'>J Bacteriol 171(9);4888-99</source>
+<pubmed-id datatype='string'>2670898</pubmed-id>
+<title datatype='string'>MalI, a novel protein involved in regulation of the maltose system of Escherichia coli, is highly homologous to the repressor proteins GalR, CytR, and LacI.</title>
+<year datatype='integer'>1989</year>
+<author datatype='string'>Reidl J</author>
+<author datatype='string'>Romisch K</author>
+<author datatype='string'>Ehrmann M</author>
+<author datatype='string'>Boos W</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2670898' orgid='ECOLI' frameid='PUB-2670898'/></evidence>
+<component><Terminator ID='ECOLI:TERM0-1104' orgid='ECOLI' frameid='TERM0-1104' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>1698163</right-end-position>
+<left-end-position datatype='integer'>1698136</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-2670898' orgid='ECOLI' frameid='PUB-2670898'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU00187' orgid='ECOLI' frameid='TU00187'/></component-of>
+</Terminator>
+</component>
+<component><Promoter ID='ECOLI:PM00260' orgid='ECOLI' frameid='PM00260' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>1699235</minus-10-left>
+<common-name datatype='string'>malIp</common-name>
+<minus-35-right datatype='integer'>1699264</minus-35-right>
+<minus-35-left datatype='integer'>1699259</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1699228</absolute-plus-1-pos>
+<comment datatype='string'>Based on mutations of the -10 and -35 boxes of the &lt;i&gt;malI&lt;/i&gt; promoter, Lloyd et al. (2009) [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/19054084&quot;&gt;Lloyd08&lt;/a&gt;] showed that the promoter activity is decreased by mutations in both boxes. On the other hand, these investigators used site-directed mutagenesis at the -10 element identified by Reidl et al. (1989) and found this mutation had very little effect on &lt;i&gt;malI&lt;/i&gt; promoter activity. All this suggests that the transcription start identified by Lloyd et al. (2009) must be 5 bp upstream from that determined experimentally by Reidl et al. (1989) [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/2670898&quot;&gt;Reidl89&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-2670898' orgid='ECOLI' frameid='PUB-2670898'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2670898' orgid='ECOLI' frameid='PUB-2670898'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication ID='ECOLI:PUB-19054084' orgid='ECOLI' frameid='PUB-19054084' detail='full'><source datatype='string'>FEMS Microbiol Lett 288(2);250-7</source>
+<pubmed-id datatype='string'>19054084</pubmed-id>
+<title datatype='string'>Transcription initiation in the Escherichia coli K-12 malI-malX intergenic region and the role of the cyclic AMP receptor protein.</title>
+<year datatype='integer'>2008</year>
+<author datatype='string'>Lloyd GS</author>
+<author datatype='string'>Hollands K</author>
+<author datatype='string'>Godfrey RE</author>
+<author datatype='string'>Busby SJ</author>
+</Publication>
+</evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-10181' orgid='ECOLI' frameid='REG0-10181' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00260' orgid='ECOLI' frameid='PM00260'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5258' orgid='ECOLI' frameid='REG0-5258' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00260' orgid='ECOLI' frameid='PM00260'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5257' orgid='ECOLI' frameid='REG0-5257' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00361' orgid='ECOLI' frameid='PD00361'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00260' orgid='ECOLI' frameid='PM00260'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>1699240</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00187' orgid='ECOLI' frameid='TU00187'/></component-of>
+</Promoter>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS00719' orgid='ECOLI' frameid='BS00719' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5257' orgid='ECOLI' frameid='REG0-5257'/></involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-8729576' orgid='ECOLI' frameid='PUB-8729576' detail='full'><source datatype='string'>J Theor Biol 178(2);183-204</source>
+<pubmed-id datatype='string'>8729576</pubmed-id>
+<title datatype='string'>Evolution of transcriptional regulation system through promiscuous coupling of regulatory proteins with operons; suggestion from protein sequence similarities in Escherichia coli.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Otsuka J</author>
+<author datatype='string'>Watanabe H</author>
+<author datatype='string'>Mori KT</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-1856179' orgid='ECOLI' frameid='PUB-1856179' detail='full'><source datatype='string'>J Bacteriol 173(15);4862-76</source>
+<pubmed-id datatype='string'>1856179</pubmed-id>
+<title datatype='string'>The malX malY operon of Escherichia coli encodes a novel enzyme II of the phosphotransferase system recognizing glucose and maltose and an enzyme abolishing the endogenous induction of the maltose system.</title>
+<year datatype='integer'>1991</year>
+<author datatype='string'>Reidl J</author>
+<author datatype='string'>Boos W</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-2670898' orgid='ECOLI' frameid='PUB-2670898'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of cellular extracts</common-name>
+<comment datatype='string'>There exists physical evidence of the binding of cellular extracts containing 
+a regulatory protein to its DNA binding site.  This can be either by 
+footprinting or mobility shift assays.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Site mutation</common-name>
+<comment datatype='string'>A cis-mutation in the DNA sequence of the transcription-factor binding site interferes with the operation of the regulatory function. This is considered  strong evidence for the existence and functional role of the DNA binding site.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-20141531' orgid='ECOLI' frameid='PUB-20141531' detail='full'><source datatype='string'>FEMS Microbiol Lett 305(1);28-34</source>
+<pubmed-id datatype='string'>20141531</pubmed-id>
+<title datatype='string'>Targets for the MalI repressor at the divergent Escherichia coli K-12 malX-malI promoters.</title>
+<year datatype='integer'>2010</year>
+<author datatype='string'>Lloyd GS</author>
+<author datatype='string'>Godfrey RE</author>
+<author datatype='string'>Busby SJ</author>
+</Publication>
+</evidence>
+<abs-center-pos datatype='float'>1699218.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00187' orgid='ECOLI' frameid='TU00187'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS00720' orgid='ECOLI' frameid='BS00720' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-5602' orgid='ECOLI' frameid='REG0-5602' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM00177' orgid='ECOLI' frameid='PM00177' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>1699301</minus-10-left>
+<common-name datatype='string'>malXp</common-name>
+<minus-35-right datatype='integer'>1699285</minus-35-right>
+<minus-35-left datatype='integer'>1699280</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1699313</absolute-plus-1-pos>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/><Publication resource='#ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615'/></evidence>
+<citation><Publication resource='#ECOLI:PUB-1856179' orgid='ECOLI' frameid='PUB-1856179'/></citation>
+<citation><Publication resource='#ECOLI:PUB-19054084' orgid='ECOLI' frameid='PUB-19054084'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' detail='full' class='true'><common-name datatype='string'>Inferred by computational analysis</common-name>
+<comment datatype='string'>Inferred from computation.  The evidence for an assertion comes from a
+computational analysis.  The assertion itself might have been made
+by a person or by a computer, that is, EV-COMP does not specify whether
+manual interpretation of the computation occurred.
+&lt;p&gt;
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1856179' orgid='ECOLI' frameid='PUB-1856179'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-19054084' orgid='ECOLI' frameid='PUB-19054084'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-5603' orgid='ECOLI' frameid='REG0-5603' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00361' orgid='ECOLI' frameid='PD00361'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00177' orgid='ECOLI' frameid='PM00177'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-5602' orgid='ECOLI' frameid='REG0-5602'/><Regulation ID='ECOLI:REG0-5599' orgid='ECOLI' frameid='REG0-5599' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00177' orgid='ECOLI' frameid='PM00177'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>1699306</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU00132' orgid='ECOLI' frameid='TU00132'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-5258' orgid='ECOLI' frameid='REG0-5258'/></involved-in-regulation>
+<comment datatype='string'>CRP site 2 (-101.5) plays little or no role in CRP-dependent activation of the &lt;i&gt;malX&lt;/i&gt; promoter. It might function synergistically with the downstream bound CRP, site 1 (-41.5) [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/19054084&quot;&gt;Lloyd08&lt;/a&gt;].</comment>
+<citation><Publication resource='#ECOLI:PUB-1856179' orgid='ECOLI' frameid='PUB-1856179'/></citation>
+<citation><Publication resource='#ECOLI:PUB-2670898' orgid='ECOLI' frameid='PUB-2670898'/></citation>
+<citation><Publication resource='#ECOLI:PUB-19054084' orgid='ECOLI' frameid='PUB-19054084'/></citation>
+<citation><Publication resource='#ECOLI:PUB-20141531' orgid='ECOLI' frameid='PUB-20141531'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS' class='true'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-19054084' orgid='ECOLI' frameid='PUB-19054084'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' class='true'/><Publication resource='#ECOLI:PUB-19054084' orgid='ECOLI' frameid='PUB-19054084'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on similarity to consensus sequences</common-name>
+<comment datatype='string'>A DNA sequence similar to previously known consensus sequences is computationally identified.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-19054084' orgid='ECOLI' frameid='PUB-19054084'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' class='true'/><Publication resource='#ECOLI:PUB-20141531' orgid='ECOLI' frameid='PUB-20141531'/></evidence>
+<abs-center-pos datatype='float'>1699271.5</abs-center-pos>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU00132' orgid='ECOLI' frameid='TU00132'/><Transcription-Unit resource='#ECOLI:TU00187' orgid='ECOLI' frameid='TU00187'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10557' orgid='ECOLI' frameid='EG10557'/></component>
+</Transcription-Unit>
+</ptools-xml>

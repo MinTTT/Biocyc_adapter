@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-14007'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-14007</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-14007' orgid='ECOLI' frameid='TU0-14007' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>selC</common-name>
+<citation><Publication ID='ECOLI:PUB-1650339' orgid='ECOLI' frameid='PUB-1650339' detail='full'><source datatype='string'>J Bacteriol 173(16);4983-93</source>
+<pubmed-id datatype='string'>1650339</pubmed-id>
+<title datatype='string'>Expression and operon structure of the sel genes of Escherichia coli and identification of a third selenium-containing formate dehydrogenase isoenzyme.</title>
+<year datatype='integer'>1991</year>
+<author datatype='string'>Sawers G</author>
+<author datatype='string'>Heider J</author>
+<author datatype='string'>Zehelein E</author>
+<author datatype='string'>Bock A</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-3062578' orgid='ECOLI' frameid='PUB-3062578' detail='full'><source datatype='string'>Nucleic Acids Res 16(24);11617-24</source>
+<pubmed-id datatype='string'>3062578</pubmed-id>
+<title datatype='string'>The unusually long amino acid acceptor stem of Escherichia coli selenocysteine tRNA results from abnormal cleavage by RNase P.</title>
+<year datatype='integer'>1988</year>
+<author datatype='string'>Burkard U</author>
+<author datatype='string'>Soll D</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1650339' orgid='ECOLI' frameid='PUB-1650339'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' class='true'/><Publication resource='#ECOLI:PUB-3062578' orgid='ECOLI' frameid='PUB-3062578'/></evidence>
+<component><Promoter ID='ECOLI:PM0-10514' orgid='ECOLI' frameid='PM0-10514' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>selCp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3836198</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-3062578' orgid='ECOLI' frameid='PUB-3062578'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3062578' orgid='ECOLI' frameid='PUB-3062578'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-14007' orgid='ECOLI' frameid='TU0-14007'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG30092' orgid='ECOLI' frameid='EG30092'/></component>
+</Transcription-Unit>
+</ptools-xml>

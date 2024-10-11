@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8514'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8514</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8514' orgid='ECOLI' frameid='TU0-8514' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>sraA</common-name>
+<citation><Publication ID='ECOLI:PUB-1448770' orgid='ECOLI' frameid='PUB-1448770' detail='full'><source datatype='string'>Thromb Haemost 68(4);400-3</source>
+<pubmed-id datatype='string'>1448770</pubmed-id>
+<title datatype='string'>Enhancement of spontaneous fibrinolytic activity in diabetic retinopathy.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Ostermann H</author>
+<author datatype='string'>Tschope D</author>
+<author datatype='string'>Greber W</author>
+<author datatype='string'>Meyer-Rusenberg HW</author>
+<author datatype='string'>van de Loo J</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SINGLE-DIRECTON' orgid='ECOLI' frameid='EV-COMP-AINF-SINGLE-DIRECTON' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference that a single-gene directon is a transcription unit </common-name>
+<comment datatype='string'>Automated inference of transcription unit based on single-gene directon.  Existence of a single-gene transcription unit 
+for gene G is inferred computationally by the existence of upstream and downstream genes transcribed in the 
+opposite direction of G.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-11448770' orgid='ECOLI' frameid='PUB-11448770' detail='full'><source datatype='string'>Curr Biol 11(12);941-50</source>
+<pubmed-id datatype='string'>11448770</pubmed-id>
+<title datatype='string'>Novel small RNA-encoding genes in the intergenic regions of Escherichia coli.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Argaman L</author>
+<author datatype='string'>Hershberg R</author>
+<author datatype='string'>Vogel J</author>
+<author datatype='string'>Bejerano G</author>
+<author datatype='string'>Wagner EG</author>
+<author datatype='string'>Margalit H</author>
+<author datatype='string'>Altuvia S</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11448770' orgid='ECOLI' frameid='PUB-11448770'/></evidence>
+<component><Gene resource='getxml?ECOLI:G0-8861' orgid='ECOLI' frameid='G0-8861'/></component>
+</Transcription-Unit>
+</ptools-xml>

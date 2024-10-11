@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-14717'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-14717</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-14717' orgid='ECOLI' frameid='TU0-14717' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>sibC</common-name>
+<comment datatype='string'>Based on Northern and 5'-3' RACE analysis, the &lt;i&gt;sibC&lt;/i&gt; gene produces two distinct transcripts. The 3' end shorter transcript could be a result of processing [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/18710431&quot;&gt;Fozo08&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-18710431' orgid='ECOLI' frameid='PUB-18710431' detail='full'><source datatype='string'>Mol Microbiol 70(5);1076-93</source>
+<pubmed-id datatype='string'>18710431</pubmed-id>
+<title datatype='string'>Repression of small toxic protein synthesis by the Sib and OhsC small RNAs.</title>
+<year datatype='integer'>2008</year>
+<author datatype='string'>Fozo EM</author>
+<author datatype='string'>Kawano M</author>
+<author datatype='string'>Fontaine F</author>
+<author datatype='string'>Kaya Y</author>
+<author datatype='string'>Mendieta KS</author>
+<author datatype='string'>Jones KL</author>
+<author datatype='string'>Ocampo A</author>
+<author datatype='string'>Rudd KE</author>
+<author datatype='string'>Storz G</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-18710431' orgid='ECOLI' frameid='PUB-18710431'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-18710431' orgid='ECOLI' frameid='PUB-18710431'/></evidence>
+<component><Terminator ID='ECOLI:TERM0-1251' orgid='ECOLI' frameid='TERM0-1251' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3056991</right-end-position>
+<left-end-position datatype='integer'>3056957</left-end-position>
+<citation><Publication ID='ECOLI:PUB-20453032' orgid='ECOLI' frameid='PUB-20453032' detail='full'><source datatype='string'>Nucleic Acids Res 38(17);5851-66</source>
+<pubmed-id datatype='string'>20453032</pubmed-id>
+<title datatype='string'>Recognition and discrimination of target mRNAs by Sib RNAs, a cis-encoded sRNA family.</title>
+<year datatype='integer'>2010</year>
+<author datatype='string'>Han K</author>
+<author datatype='string'>Kim KS</author>
+<author datatype='string'>Bak G</author>
+<author datatype='string'>Park H</author>
+<author datatype='string'>Lee Y</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-14717' orgid='ECOLI' frameid='TU0-14717'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:G0-8886' orgid='ECOLI' frameid='G0-8886'/></component>
+<component><Promoter ID='ECOLI:PM0-10280' orgid='ECOLI' frameid='PM0-10280' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>3056838</minus-10-left>
+<common-name datatype='string'>sibCp</common-name>
+<minus-35-right datatype='integer'>3056820</minus-35-right>
+<minus-35-left datatype='integer'>3056815</minus-35-left>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3056851</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-18710431' orgid='ECOLI' frameid='PUB-18710431'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-18710431' orgid='ECOLI' frameid='PUB-18710431'/></evidence>
+<minus-10-right datatype='integer'>3056843</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-14717' orgid='ECOLI' frameid='TU0-14717'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='27.0' xml:base='http://BioCyc.org/getxml?ECOLI:G0-10655'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:G0-10655</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='27.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Gene ID='ECOLI:G0-10655' orgid='ECOLI' frameid='G0-10655' detail='full'><parent><Gene resource='getxml?ECOLI:BC-5.5' orgid='ECOLI' frameid='BC-5.5' class='true'/></parent>
+<replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<product><Protein resource='getxml?ECOLI:MONOMER0-2882' orgid='ECOLI' frameid='MONOMER0-2882'/></product>
+<transcription-direction datatype='string'>+</transcription-direction>
+<knockout-growth-observations><Growth-Observation ID='ECOLI:OBS0-438' orgid='ECOLI' frameid='OBS0-438' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NONE</growth-status>
+<with-growth-media>Luria-Bertani broth</with-growth-media>
+</Growth-Observation>
+</knockout-growth-observations>
+<centisome-position datatype='float' units='CENTISOMES'>62.597477</centisome-position>
+<common-name datatype='string'>yqcG</common-name>
+<component-of/><accession-1 datatype='string'>b4682</accession-1>
+<dblink><dblink-db>REGULONDB</dblink-db>
+<dblink-oid>b4682</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://regulondb.ccg.unam.mx/search?term=b4682&amp;organism=ECK12&amp;type=All</dblink-URL>
+</dblink>
+<dblink><dblink-db>STRING</dblink-db>
+<dblink-oid>511145.b4682</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://string-db.org/network/511145.b4682</dblink-URL>
+</dblink>
+<left-end-position datatype='integer'>2905557</left-end-position>
+<right-end-position datatype='integer'>2905697</right-end-position>
+<accession-2 datatype='string'>ECK4497</accession-2>
+</Gene>
+</ptools-xml>

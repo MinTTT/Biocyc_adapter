@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-13964'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-13964</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-13964' orgid='ECOLI' frameid='TU0-13964' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>mdtEF</common-name>
+<comment datatype='string'>&lt;i&gt;mdtE&lt;/i&gt; expression is increased at least 5-fold by indole [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/15686558&quot;&gt;Hirakawa05&lt;/a&gt;].
+&lt;p&gt;
+ZraR activates &lt;i&gt;mdtE&lt;/i&gt; expression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/30389436&quot;&gt;Rome18&lt;/a&gt;].
+&lt;p&gt;
+The &lt;i&gt;mdtEF-tolC&lt;/i&gt;, &lt;i&gt;malEFG&lt;/i&gt;, &lt;i&gt;gadBC&lt;/i&gt;, &lt;i&gt;treBC&lt;/i&gt;, &lt;i&gt;entCEBA-ybdB&lt;/i&gt;, &lt;i&gt;hdeAB-yhiD&lt;/i&gt;, and &lt;i&gt;alaE&lt;/i&gt; operons were differentially regulated after induction of the nonnative organic acid citramalate [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31186337&quot;&gt;Webb19&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-IC-ADJ-GENES-SAME-BIO-PROCESS' orgid='ECOLI' frameid='EV-IC-ADJ-GENES-SAME-BIO-PROCESS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' class='true'/></parent>
+<common-name datatype='string'>Products of adjacent genes in the same biological process</common-name>
+<comment datatype='string'>A transcription unit is inferred because there is a set of adjacent genes,
+encoded in the same direction, coding for products that participate in the
+same metabolic pathway or biological process. Sometimes, these genes code
+for subunits of the same protein.</comment>
+</Evidence-Code>
+</evidence>
+<component><Promoter ID='ECOLI:PM0-10251' orgid='ECOLI' frameid='PM0-10251' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>mdtEp1</common-name>
+<synonym datatype='string'>yhiUp1</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3659084</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-14523115' orgid='ECOLI' frameid='PUB-14523115' detail='full'><source datatype='string'>Microbiology 149(Pt 10);2819-28</source>
+<pubmed-id datatype='string'>14523115</pubmed-id>
+<title datatype='string'>Transcriptional regulation of drug efflux genes by EvgAS, a two-component system in Escherichia coli.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Eguchi Y</author>
+<author datatype='string'>Oshima T</author>
+<author datatype='string'>Mori H</author>
+<author datatype='string'>Aono R</author>
+<author datatype='string'>Yamamoto K</author>
+<author datatype='string'>Ishihama A</author>
+<author datatype='string'>Utsumi R</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-14523115' orgid='ECOLI' frameid='PUB-14523115'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-13964' orgid='ECOLI' frameid='TU0-13964'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG12241' orgid='ECOLI' frameid='EG12241'/></component>
+<component><Gene resource='getxml?ECOLI:EG12240' orgid='ECOLI' frameid='EG12240'/></component>
+</Transcription-Unit>
+</ptools-xml>

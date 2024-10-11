@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-14052'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-14052</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-14052' orgid='ECOLI' frameid='TU0-14052' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>tatABC</common-name>
+<citation><Publication ID='ECOLI:PUB-10747959' orgid='ECOLI' frameid='PUB-10747959' detail='full'><source datatype='string'>J Biol Chem 275(22);16717-22</source>
+<pubmed-id datatype='string'>10747959</pubmed-id>
+<title datatype='string'>TatD is a cytoplasmic protein with DNase activity. No requirement for TatD family proteins in sec-independent protein export.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Wexler M</author>
+<author datatype='string'>Sargent F</author>
+<author datatype='string'>Jack RL</author>
+<author datatype='string'>Stanley NR</author>
+<author datatype='string'>Bogsch EG</author>
+<author datatype='string'>Robinson C</author>
+<author datatype='string'>Berks BC</author>
+<author datatype='string'>Palmer T</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-9546395' orgid='ECOLI' frameid='PUB-9546395' detail='full'><source datatype='string'>Cell 93(1);93-101</source>
+<pubmed-id datatype='string'>9546395</pubmed-id>
+<title datatype='string'>A novel and ubiquitous system for membrane targeting and secretion of cofactor-containing proteins.</title>
+<year datatype='integer'>1998</year>
+<author datatype='string'>Weiner JH</author>
+<author datatype='string'>Bilous PT</author>
+<author datatype='string'>Shaw GM</author>
+<author datatype='string'>Lubitz SP</author>
+<author datatype='string'>Frost L</author>
+<author datatype='string'>Thomas GH</author>
+<author datatype='string'>Cole JA</author>
+<author datatype='string'>Turner RJ</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-9649434' orgid='ECOLI' frameid='PUB-9649434' detail='full'><source datatype='string'>EMBO J 17(13);3640-50</source>
+<pubmed-id datatype='string'>9649434</pubmed-id>
+<title datatype='string'>Overlapping functions of components of a bacterial Sec-independent protein export pathway.</title>
+<year datatype='integer'>1998</year>
+<author datatype='string'>Sargent F</author>
+<author datatype='string'>Bogsch EG</author>
+<author datatype='string'>Stanley NR</author>
+<author datatype='string'>Wexler M</author>
+<author datatype='string'>Robinson C</author>
+<author datatype='string'>Berks BC</author>
+<author datatype='string'>Palmer T</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-16980457' orgid='ECOLI' frameid='PUB-16980457' detail='full'><source datatype='string'>J Bacteriol 188(22);7807-14</source>
+<pubmed-id datatype='string'>16980457</pubmed-id>
+<title datatype='string'>Conservation and variation between Rhodobacter capsulatus and Escherichia coli Tat systems.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Lindenstrauss U</author>
+<author datatype='string'>Bruser T</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10747959' orgid='ECOLI' frameid='PUB-10747959'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' class='true'/><Publication resource='#ECOLI:PUB-9546395' orgid='ECOLI' frameid='PUB-9546395'/></evidence>
+<component><Promoter ID='ECOLI:PM0-45926' orgid='ECOLI' frameid='PM0-45926' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>tatAp1</common-name>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4021909</absolute-plus-1-pos>
+<comment datatype='string'>Similarity to the consensus sequence of the set of known functional promoters for this sigma factor with strong experimental evidence: poor homology.  Score: 2.88.  P-value: 6.705e-5</comment>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/><Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615'/></citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-42519' orgid='ECOLI' frameid='TU0-42519'/><Transcription-Unit resource='#ECOLI:TU0-14052' orgid='ECOLI' frameid='TU0-14052'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11481' orgid='ECOLI' frameid='EG11481'/></component>
+<component><Gene resource='getxml?ECOLI:EG11479' orgid='ECOLI' frameid='EG11479'/></component>
+<component><Gene resource='getxml?ECOLI:G7808' orgid='ECOLI' frameid='G7808'/></component>
+<component><Gene resource='getxml?ECOLI:G7806' orgid='ECOLI' frameid='G7806'/></component>
+</Transcription-Unit>
+</ptools-xml>

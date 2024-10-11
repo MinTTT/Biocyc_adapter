@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42535'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42535</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42535' orgid='ECOLI' frameid='TU0-42535' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ydcSTUV-patD</common-name>
+<comment datatype='string'>The transcription of the &lt;i&gt;ydcSTUV-patD&lt;/i&gt; operon is induced under nitrogen-limited growth [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23531166&quot;&gt;Schneider13&lt;/a&gt;]. It also was demonstrated by &lt;i&gt;in vitro&lt;/i&gt; transcription analysis and gene expression analysis that this operon is activated by the protein Nac and by &amp;sigma;&lt;sup&gt;38&lt;/sup&gt;. Two putative -10 boxes for &amp;sigma;&lt;sup&gt;38&lt;/sup&gt; and two DNA-binding sites similar to the consensus recognized by Nac were found, but it has not been demonstrated which of these sequences are functional; therefore, we linked to the operon only the -10 box, which is more conserved relative to the consensus &amp;sigma;&lt;sup&gt;38&lt;/sup&gt; and the DNA-binding site that is located closer to this promoter [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23531166&quot;&gt;Schneider13&lt;/a&gt;].
+</comment>
+<citation><Publication ID='ECOLI:PUB-23531166' orgid='ECOLI' frameid='PUB-23531166' detail='full'><source datatype='string'>Mol Microbiol 88(3);537-50</source>
+<pubmed-id datatype='string'>23531166</pubmed-id>
+<title datatype='string'>Putrescine catabolism is a metabolic response to several stresses in Escherichia coli.</title>
+<year datatype='integer'>2013</year>
+<author datatype='string'>Schneider BL</author>
+<author datatype='string'>Hernandez VJ</author>
+<author datatype='string'>Reitzer L</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-11121068' orgid='ECOLI' frameid='PUB-11121068' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 97(26);14674-9</source>
+<pubmed-id datatype='string'>11121068</pubmed-id>
+<title datatype='string'>Nitrogen regulatory protein C-controlled genes of Escherichia coli: scavenging as a defense against nitrogen limitation.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Zimmer DP</author>
+<author datatype='string'>Soupene E</author>
+<author datatype='string'>Lee HL</author>
+<author datatype='string'>Wendisch VF</author>
+<author datatype='string'>Khodursky AB</author>
+<author datatype='string'>Peter BJ</author>
+<author datatype='string'>Bender RA</author>
+<author datatype='string'>Kustu S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Inferred through co-regulation</common-name>
+<comment datatype='string'>Inferred through co-regulation.  A transcription unit is inferred because a set of 
+adjacent genes that are transcribed in the same direction exhibit similar
+expression patterns under a range of environmental conditions.
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-23531166' orgid='ECOLI' frameid='PUB-23531166'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' class='true'/><Publication resource='#ECOLI:PUB-11121068' orgid='ECOLI' frameid='PUB-11121068'/></evidence>
+<component><Gene resource='getxml?ECOLI:G6755' orgid='ECOLI' frameid='G6755'/></component>
+<component><Gene resource='getxml?ECOLI:G6754' orgid='ECOLI' frameid='G6754'/></component>
+<component><Gene resource='getxml?ECOLI:G6753' orgid='ECOLI' frameid='G6753'/></component>
+<component><Gene resource='getxml?ECOLI:G6752' orgid='ECOLI' frameid='G6752'/></component>
+<component><Gene resource='getxml?ECOLI:G6751' orgid='ECOLI' frameid='G6751'/></component>
+<component><Promoter ID='ECOLI:PM0-46279' orgid='ECOLI' frameid='PM0-46279' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>1511582</minus-10-left>
+<common-name datatype='string'>ydcSp1</common-name>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1511599</absolute-plus-1-pos>
+<comment datatype='string'>We assigned a putative transcription start site to this promoter based on the observation of which the majority of the promoters, whose transcription start site was determined experimentally, present a distance of 6 nucleotides between the transcription start site  and the -10 box.</comment>
+<citation><Publication resource='#ECOLI:PUB-23531166' orgid='ECOLI' frameid='PUB-23531166'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-23531166' orgid='ECOLI' frameid='PUB-23531166'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11822' orgid='ECOLI' frameid='REG0-11822' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:G7072-MONOMER' orgid='ECOLI' frameid='G7072-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46279' orgid='ECOLI' frameid='PM0-46279'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>1511592</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42535' orgid='ECOLI' frameid='TU0-42535'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

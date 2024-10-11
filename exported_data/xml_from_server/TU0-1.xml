@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-1'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-1</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-1' orgid='ECOLI' frameid='TU0-1' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rpmF-plsX-fabHDG</common-name>
+<comment datatype='string'>The &lt;i&gt;rpmF&lt;/i&gt; and &lt;i&gt;pslX-fab&lt;/i&gt; genes are cotranscribed, and this is the fist example where lipid biosynthetic genes and a ribosomal protein gene comprise an operon [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/7635191&quot;&gt;Podkovyrov95&lt;/a&gt;]. 
+&lt;p&gt;
+It is probable that &lt;i&gt;yceD-rpmF-plsX-fabHDG-acpP-fabF&lt;/i&gt; cluster genes are regulated together, since they are involved in the same functional class. However, a transcript that continues through the entire gene cluster has not been determined by Northern blotting or by experiments with polar mutations.</comment>
+<citation><Publication ID='ECOLI:PUB-7635191' orgid='ECOLI' frameid='PUB-7635191' detail='full'><source datatype='string'>FEBS Lett 368(3);429-31</source>
+<pubmed-id datatype='string'>7635191</pubmed-id>
+<title datatype='string'>Lipid biosynthetic genes and a ribosomal protein gene are cotranscribed.</title>
+<year datatype='integer'>1995</year>
+<author datatype='string'>Podkovyrov S</author>
+<author datatype='string'>Larson TJ</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-7635191' orgid='ECOLI' frameid='PUB-7635191'/></evidence>
+<component><Promoter ID='ECOLI:PM0-10020' orgid='ECOLI' frameid='PM0-10020' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rpmFp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1147338</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' orgid='ECOLI' frameid='EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>High-throughput transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified using a high-throughput experimental modified RACE approach.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-19838305' orgid='ECOLI' frameid='PUB-19838305' detail='full'><source datatype='string'>PLoS One 4(10);e7526</source>
+<pubmed-id datatype='string'>19838305</pubmed-id>
+<title datatype='string'>Genome-wide identification of transcription start sites, promoters and transcription factor binding sites in E. coli.</title>
+<year datatype='integer'>2009</year>
+<author datatype='string'>Mendoza-Vargas A</author>
+<author datatype='string'>Olvera L</author>
+<author datatype='string'>Olvera M</author>
+<author datatype='string'>Grande R</author>
+<author datatype='string'>Vega-Alvarado L</author>
+<author datatype='string'>Taboada B</author>
+<author datatype='string'>Jimenez-Jacinto V</author>
+<author datatype='string'>Salgado H</author>
+<author datatype='string'>Juarez K</author>
+<author datatype='string'>Contreras-Moreira B</author>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+<author datatype='string'>Morett E</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-19838305' orgid='ECOLI' frameid='PUB-19838305'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-1' orgid='ECOLI' frameid='TU0-1'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11318' orgid='ECOLI' frameid='EG11318'/></component>
+<component><Gene resource='getxml?ECOLI:EG11317' orgid='ECOLI' frameid='EG11317'/></component>
+<component><Gene resource='getxml?ECOLI:EG10277' orgid='ECOLI' frameid='EG10277'/></component>
+<component><Gene resource='getxml?ECOLI:EG11437' orgid='ECOLI' frameid='EG11437'/></component>
+<component><Gene resource='getxml?ECOLI:EG10890' orgid='ECOLI' frameid='EG10890'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00178'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00178</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00178' orgid='ECOLI' frameid='TU00178' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>thrLABC</common-name>
+<synonym datatype='string'>OP00248</synonym>
+<synonym datatype='string'>thr</synonym>
+<synonym datatype='string'>thrABC</synonym>
+<comment datatype='string'>The &lt;i&gt;thrLABC&lt;/i&gt; operon codes for four enzymes involved in
+threonine and homoserine biosynthesis.
+&lt;p&gt;
+&lt;i&gt;thrLABC&lt;/i&gt; is regulated in response to the abundance of both
+isoleucine and threonine [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/13959617&quot;&gt;Freundlich63&lt;/a&gt;]. Part of this
+regulation presumably occurs via attenuation, as &lt;i&gt;thrLABC&lt;/i&gt;
+contains a leader sequence rich in threonine and isoleucine codons
+followed immediately by a functional transcriptional terminator that
+acts to prevent transcription of the enzyme-coding genes in the operon [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/6811557&quot;&gt;Lynn82&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/287010&quot;&gt;Gardner79&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/2410621&quot;&gt;Lynn85&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/1709279&quot;&gt;Yang91&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-6316258' orgid='ECOLI' frameid='PUB-6316258' detail='full'><source datatype='string'>Nucleic Acids Res 11(21);7331-45</source>
+<pubmed-id datatype='string'>6316258</pubmed-id>
+<title datatype='string'>Nucleotide sequence of thrC and of the transcription termination region of the threonine operon in Escherichia coli K12.</title>
+<year datatype='integer'>1983</year>
+<author datatype='string'>Parsot C</author>
+<author datatype='string'>Cossart P</author>
+<author datatype='string'>Saint-Girons I</author>
+<author datatype='string'>Cohen GN</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-3112412' orgid='ECOLI' frameid='PUB-3112412' detail='full'><source datatype='string'>J Mol Biol 194(1);59-69</source>
+<pubmed-id datatype='string'>3112412</pubmed-id>
+<title datatype='string'>Specificity of the attenuation response of the threonine operon of Escherichia coli is determined by the threonine and isoleucine codons in the leader transcript.</title>
+<year datatype='integer'>1987</year>
+<author datatype='string'>Lynn SP</author>
+<author datatype='string'>Burton WS</author>
+<author datatype='string'>Donohue TJ</author>
+<author datatype='string'>Gould RM</author>
+<author datatype='string'>Gumport RI</author>
+<author datatype='string'>Gardner JF</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-4364333' orgid='ECOLI' frameid='PUB-4364333' detail='full'><source datatype='string'>J Bacteriol 118(3);990-8</source>
+<pubmed-id datatype='string'>4364333</pubmed-id>
+<title datatype='string'>Threonine locus of Escherichia coli K-12: genetic structure and evidence for an operon.</title>
+<year datatype='integer'>1974</year>
+<author datatype='string'>Theze J</author>
+<author datatype='string'>Saint-Girons I</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-4364333' orgid='ECOLI' frameid='PUB-4364333'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-13070' orgid='ECOLI' frameid='REG0-13070' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Compound resource='getxml?ECOLI:GUANOSINE-5DP-3DP' orgid='ECOLI' frameid='GUANOSINE-5DP-3DP'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU00178' orgid='ECOLI' frameid='TU00178'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component><Terminator ID='ECOLI:TERM0-1288' orgid='ECOLI' frameid='TERM0-1288' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>5086</right-end-position>
+<left-end-position datatype='integer'>5032</left-end-position>
+<citation><Publication ID='ECOLI:PUB-11522828' orgid='ECOLI' frameid='PUB-11522828' detail='full'><source datatype='string'>Nucleic Acids Res 29(17);3583-94</source>
+<pubmed-id datatype='string'>11522828</pubmed-id>
+<title datatype='string'>Prediction of rho-independent transcriptional terminators in Escherichia coli.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Lesnik EA</author>
+<author datatype='string'>Sampath R</author>
+<author datatype='string'>Levene HB</author>
+<author datatype='string'>Henderson TJ</author>
+<author datatype='string'>McNeil JA</author>
+<author datatype='string'>Ecker DJ</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-30247625' orgid='ECOLI' frameid='PUB-30247625' detail='full'><source datatype='string'>Bioinformatics 35(9);1469-1477</source>
+<pubmed-id datatype='string'>30247625</pubmed-id>
+<title datatype='string'>iTerm-PseKNC: a sequence-based tool for predicting bacterial transcriptional terminators.</title>
+<year datatype='integer'>2019</year>
+<author datatype='string'>Feng CQ</author>
+<author datatype='string'>Zhang ZY</author>
+<author datatype='string'>Zhu XJ</author>
+<author datatype='string'>Lin Y</author>
+<author datatype='string'>Chen W</author>
+<author datatype='string'>Tang H</author>
+<author datatype='string'>Lin H</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU00178' orgid='ECOLI' frameid='TU00178'/></component-of>
+</Terminator>
+</component>
+<component><Promoter ID='ECOLI:PM00249' orgid='ECOLI' frameid='PM00249' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>138</minus-10-left>
+<common-name datatype='string'>thrLp</common-name>
+<minus-35-right datatype='integer'>116</minus-35-right>
+<minus-35-left datatype='integer'>111</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>thrAp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>148</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-6277952' orgid='ECOLI' frameid='PUB-6277952' detail='full'><source datatype='string'>J Biol Chem 257(7);3896-904</source>
+<pubmed-id datatype='string'>6277952</pubmed-id>
+<title datatype='string'>Initiation, pausing, and termination of transcription in the threonine operon regulatory region of Escherichia coli.</title>
+<year datatype='integer'>1982</year>
+<author datatype='string'>Gardner JF</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6277952' orgid='ECOLI' frameid='PUB-6277952'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from mutant phenotype</common-name>
+<comment datatype='string'>IMP inferred from mutant phenotype.
+
+&lt;br&gt;
+The assertion was inferred from a mutant phenotype such as
+&lt;ul&gt;
+    &lt;li&gt; Any gene mutation/knockout
+    &lt;li&gt; Overexpression/ectopic expression of wild-type or mutant genes
+    &lt;li&gt; Anti-sense experiments
+    &lt;li&gt; RNA interference experiments
+    &lt;li&gt; Specific protein inhibitors
+    &lt;li&gt; Complementation
+&lt;/ul&gt;&lt;p class=ecocomment&gt;	
+Comment: Inferences made from examining mutations or
+abnormal levels of only the product(s) of the gene of interest are covered by code EV-IMP
+(compare to code EV-IGI). Use this code for experiments that use antibodies 
+or other specific inhibitors of RNA or protein activity, even though no
+gene may be mutated (the rationale is that EV-IMP is used where an
+abnormal situation prevails in a cell or organism).
+</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-6811557' orgid='ECOLI' frameid='PUB-6811557' detail='full'><source datatype='string'>J Bacteriol 152(1);363-71</source>
+<pubmed-id datatype='string'>6811557</pubmed-id>
+<title datatype='string'>Attenuation regulation in the thr operon of Escherichia coli K-12: molecular cloning and transcription of the controlling region.</title>
+<year datatype='integer'>1982</year>
+<author datatype='string'>Lynn SP</author>
+<author datatype='string'>Gardner JF</author>
+<author datatype='string'>Reznikoff WS</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-RNA-SEQ' orgid='ECOLI' frameid='EV-EXP-IEP-RNA-SEQ' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-HTP-HEP' orgid='ECOLI' frameid='EV-HTP-HEP' class='true'/></parent>
+<common-name datatype='string'>High-throughput RNA-seq evidence</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0000295</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0000295</dblink-URL>
+</dblink>
+<credits><imported-from-meta><date datatype='date'>2018-03-05</date>
+<Person ID='ECOLI:paley' orgid='ECOLI' frameid='paley' detail='full'><affiliations><Organization ID='ECOLI:SRI' orgid='ECOLI' frameid='SRI' detail='full'><abbrev-name datatype='string'>SRI International</abbrev-name>
+<email datatype='string'>ptools-support@ai.sri.com</email>
+<common-name datatype='string'>SRI International</common-name>
+<url datatype='string'>http://bioinformatics.ai.sri.com/</url>
+</Organization>
+</affiliations>
+<common-name datatype='string'>Suzanne Paley</common-name>
+</Person>
+<Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A type of transcript evidence based on high-throughput sequencing of fragmented cDNA molecules.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-25266388' orgid='ECOLI' frameid='PUB-25266388' detail='full'><source datatype='string'>J Bacteriol 197(1);18-28</source>
+<pubmed-id datatype='string'>25266388</pubmed-id>
+<title datatype='string'>Global transcriptional start site mapping using differential RNA sequencing reveals novel antisense RNAs in Escherichia coli.</title>
+<year datatype='integer'>2015</year>
+<author datatype='string'>Thomason MK</author>
+<author datatype='string'>Bischler T</author>
+<author datatype='string'>Eisenbart SK</author>
+<author datatype='string'>Forstner KU</author>
+<author datatype='string'>Zhang A</author>
+<author datatype='string'>Herbig A</author>
+<author datatype='string'>Nieselt K</author>
+<author datatype='string'>Sharma CM</author>
+<author datatype='string'>Storz G</author>
+</Publication>
+</evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11386' orgid='ECOLI' frameid='REG0-11386' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8070' orgid='ECOLI' frameid='CPLX0-8070'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00249' orgid='ECOLI' frameid='PM00249'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>143</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-42486' orgid='ECOLI' frameid='TU0-42486'/><Transcription-Unit resource='#ECOLI:TU00178' orgid='ECOLI' frameid='TU00178'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11277' orgid='ECOLI' frameid='EG11277'/></component>
+<component><Gene resource='getxml?ECOLI:EG10998' orgid='ECOLI' frameid='EG10998'/></component>
+<component><Gene resource='getxml?ECOLI:EG10999' orgid='ECOLI' frameid='EG10999'/></component>
+<component><Gene resource='getxml?ECOLI:EG11000' orgid='ECOLI' frameid='EG11000'/></component>
+</Transcription-Unit>
+</ptools-xml>

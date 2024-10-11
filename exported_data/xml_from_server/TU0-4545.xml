@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-4545'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-4545</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-4545' orgid='ECOLI' frameid='TU0-4545' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>galETKM</common-name>
+<comment datatype='string'>Rob is a transcriptional regulator related to the increase in resistance to antibiotics and is expressed constitutively. Bennik et al. have shown that this regulator represses  the transcription of the &lt;i&gt;galT&lt;/i&gt; gene and that it forms multiple complexes in the promoter region, suggesting the existence of multiple Rob-binding sites [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/10850996&quot;&gt;Bennik00&lt;/a&gt;]. 
+&lt;p&gt;
+Based on the combination of the transcriptional network of the galactose regulon obtained from their experiments and data in the published literature, [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/17630975&quot;&gt;Semsey07&lt;/a&gt;] constructed an integrated map of the galactose network.
+&lt;p&gt;
+&lt;i&gt;galETKM&lt;/i&gt;, among other genes involved in carbon source transport and metabolism, were downregulated in two MG1655 lysogens carrying closely related Stx2a phages O104 and PA8 [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31208335&quot;&gt;Berger19&lt;/a&gt;].
+</comment>
+<citation><Publication ID='ECOLI:PUB-11298753' orgid='ECOLI' frameid='PUB-11298753' detail='full'><source datatype='string'>Eur J Biochem 268(8);2344-50</source>
+<pubmed-id datatype='string'>11298753</pubmed-id>
+<title datatype='string'>A novel RNA polymerase binding site upstream of the galactose promoter in Escherichia coli exhibits promoter-like activity.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Sur R</author>
+<author datatype='string'>Debnath D</author>
+<author datatype='string'>Mukhopadhyay J</author>
+<author datatype='string'>Parrack P</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-7023696' orgid='ECOLI' frameid='PUB-7023696' detail='full'><source datatype='string'>Cell 25(1);241-9</source>
+<pubmed-id datatype='string'>7023696</pubmed-id>
+<title datatype='string'>Differential translation efficiency explains discoordinate expression of the galactose operon.</title>
+<year datatype='integer'>1981</year>
+<author datatype='string'>Queen C</author>
+<author datatype='string'>Rosenberg M</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-7023696' orgid='ECOLI' frameid='PUB-7023696'/></evidence>
+<component><Terminator ID='ECOLI:TERM0-1299' orgid='ECOLI' frameid='TERM0-1299' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>787790</right-end-position>
+<left-end-position datatype='integer'>787767</left-end-position>
+<citation><Publication ID='ECOLI:PUB-30782818' orgid='ECOLI' frameid='PUB-30782818' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 116(10);4440-4445</source>
+<pubmed-id datatype='string'>30782818</pubmed-id>
+<title datatype='string'>Processing generates 3' ends of RNA masking transcription termination events in prokaryotes.</title>
+<year datatype='integer'>2019</year>
+<author datatype='string'>Wang X</author>
+<author datatype='string'>N MPA</author>
+<author datatype='string'>Jeon HJ</author>
+<author datatype='string'>Lee Y</author>
+<author datatype='string'>He J</author>
+<author datatype='string'>Adhya S</author>
+<author datatype='string'>Lim HM</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4545' orgid='ECOLI' frameid='TU0-4545'/><Transcription-Unit resource='getxml?ECOLI:TU00026' orgid='ECOLI' frameid='TU00026'/><Transcription-Unit resource='getxml?ECOLI:TU00025' orgid='ECOLI' frameid='TU00025'/></component-of>
+</Terminator>
+</component>
+<component><Terminator ID='ECOLI:TERM0-1301' orgid='ECOLI' frameid='TERM0-1301' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Dependent-Terminators' orgid='ECOLI' frameid='Rho-Dependent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>787766</right-end-position>
+<left-end-position datatype='integer'>787689</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-30782818' orgid='ECOLI' frameid='PUB-30782818'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4545' orgid='ECOLI' frameid='TU0-4545'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11698' orgid='ECOLI' frameid='EG11698'/></component>
+<component><Gene resource='getxml?ECOLI:EG10363' orgid='ECOLI' frameid='EG10363'/></component>
+<component><Gene resource='getxml?ECOLI:EG10366' orgid='ECOLI' frameid='EG10366'/></component>
+<component><Gene resource='getxml?ECOLI:EG10362' orgid='ECOLI' frameid='EG10362'/></component>
+<component><Promoter ID='ECOLI:PM0-4785' orgid='ECOLI' frameid='PM0-4785' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>galEp3</common-name>
+<synonym datatype='string'>galp3</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>792177</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-11298753' orgid='ECOLI' frameid='PUB-11298753'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11298753' orgid='ECOLI' frameid='PUB-11298753'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4545' orgid='ECOLI' frameid='TU0-4545'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-14443'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-14443</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-14443' orgid='ECOLI' frameid='TU0-14443' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ftsLIO-murEF-mraY-murD-ftsW-murGC-ddlB-ftsQAZ-lpxC</common-name>
+<comment datatype='string'>A potential RNA G-quadruplex structure, formed by guanine-rich sequences located in the coding sequence region of the gene, was identified  for &lt;i&gt;ddlB&lt;/i&gt;, &lt;i&gt;ftsZ&lt;/i&gt; and &lt;i&gt;murF&lt;/i&gt; . This structure  could regulate the expression of the genes, as observed for &lt;i&gt;hemL&lt;/i&gt; gene expression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31964733&quot;&gt;Shao20&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-9614967' orgid='ECOLI' frameid='PUB-9614967' detail='full'><source datatype='string'>Cell Mol Life Sci 54(4);317-24</source>
+<pubmed-id datatype='string'>9614967</pubmed-id>
+<title datatype='string'>Regulation of transcription of cell division genes in the Escherichia coli dcw cluster.</title>
+<year datatype='integer'>1998</year>
+<author datatype='string'>Vicente M</author>
+<author datatype='string'>Gomez MJ</author>
+<author datatype='string'>Ayala JA</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-IC-ADJ-GENES-SAME-BIO-PROCESS' orgid='ECOLI' frameid='EV-IC-ADJ-GENES-SAME-BIO-PROCESS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' class='true'/></parent>
+<common-name datatype='string'>Products of adjacent genes in the same biological process</common-name>
+<comment datatype='string'>A transcription unit is inferred because there is a set of adjacent genes,
+encoded in the same direction, coding for products that participate in the
+same metabolic pathway or biological process. Sometimes, these genes code
+for subunits of the same protein.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9614967' orgid='ECOLI' frameid='PUB-9614967'/></evidence>
+<component><Gene resource='getxml?ECOLI:G0-17085' orgid='ECOLI' frameid='G0-17085'/></component>
+<component><Gene resource='getxml?ECOLI:EG10265' orgid='ECOLI' frameid='EG10265'/></component>
+<component><Gene resource='getxml?ECOLI:EG10347' orgid='ECOLI' frameid='EG10347'/></component>
+<component><Gene resource='getxml?ECOLI:EG10339' orgid='ECOLI' frameid='EG10339'/></component>
+<component><Gene resource='getxml?ECOLI:EG10342' orgid='ECOLI' frameid='EG10342'/></component>
+<component><Gene resource='getxml?ECOLI:EG10214' orgid='ECOLI' frameid='EG10214'/></component>
+<component><Gene resource='getxml?ECOLI:EG10619' orgid='ECOLI' frameid='EG10619'/></component>
+<component><Gene resource='getxml?ECOLI:EG10623' orgid='ECOLI' frameid='EG10623'/></component>
+<component><Gene resource='getxml?ECOLI:EG10344' orgid='ECOLI' frameid='EG10344'/></component>
+<component><Gene resource='getxml?ECOLI:EG10620' orgid='ECOLI' frameid='EG10620'/></component>
+<component><Gene resource='getxml?ECOLI:EG10604' orgid='ECOLI' frameid='EG10604'/></component>
+<component><Gene resource='getxml?ECOLI:EG10622' orgid='ECOLI' frameid='EG10622'/></component>
+<component><Gene resource='getxml?ECOLI:EG10621' orgid='ECOLI' frameid='EG10621'/></component>
+<component><Gene resource='getxml?ECOLI:EG10341' orgid='ECOLI' frameid='EG10341'/></component>
+<component><Gene resource='getxml?ECOLI:EG11086' orgid='ECOLI' frameid='EG11086'/></component>
+<component><Promoter ID='ECOLI:PM0-9676' orgid='ECOLI' frameid='PM0-9676' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>ftsLp1</common-name>
+<synonym datatype='string'>mraRp1</synonym>
+<synonym datatype='string'>mraR1p</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>90688</absolute-plus-1-pos>
+<comment datatype='string'>The contribution of the ftsLp1 promoter to the expression level of the downstream genes has not been tested [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/9614967&quot;&gt;Vicente98&lt;/a&gt;]. This promoter is reported to have been identified by S1 mapping; however, the promoter was not shown, nor was its sequence given. There is a position mentioned in the paper in relation with the translational start site of the gene. The &amp;sigma; factor type that controls ftsLp1 expression was not mentioned.</comment>
+<citation><Publication resource='#ECOLI:PUB-9614967' orgid='ECOLI' frameid='PUB-9614967'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9614967' orgid='ECOLI' frameid='PUB-9614967'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-14443' orgid='ECOLI' frameid='TU0-14443'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

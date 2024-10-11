@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU261'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU261</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU261' orgid='ECOLI' frameid='TU261' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>smtA-mukFEB</common-name>
+<comment datatype='string'>A potential RNA G-quadruplex structure, formed by guanine-rich sequences located in the coding sequence region of the gene, was identified  for &lt;i&gt;mukE&lt;/i&gt; . This structure  could regulate the expression of the gene, as observed for &lt;i&gt;hemL&lt;/i&gt; gene expression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31964733&quot;&gt;Shao20&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Inferred through co-regulation</common-name>
+<comment datatype='string'>Inferred through co-regulation.  A transcription unit is inferred because a set of 
+adjacent genes that are transcribed in the same direction exhibit similar
+expression patterns under a range of environmental conditions.
+</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-8566713' orgid='ECOLI' frameid='PUB-8566713' detail='full'><source datatype='string'>FEMS Microbiol Lett 133(1-2);59-63</source>
+<pubmed-id datatype='string'>8566713</pubmed-id>
+<title datatype='string'>Characterization of the smtA gene encoding an S-adenosylmethionine-dependent methyltransferase of Escherichia coli.</title>
+<year datatype='integer'>1995</year>
+<author datatype='string'>Yamanaka K</author>
+<author datatype='string'>Ogura T</author>
+<author datatype='string'>Niki H</author>
+<author datatype='string'>Hiraga S</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8602138' orgid='ECOLI' frameid='PUB-8602138' detail='full'><source datatype='string'>Mol Gen Genet 250(3);241-51</source>
+<pubmed-id datatype='string'>8602138</pubmed-id>
+<title datatype='string'>Identification of two new genes, mukE and mukF, involved in chromosome partitioning in Escherichia coli.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Yamanaka K</author>
+<author datatype='string'>Ogura T</author>
+<author datatype='string'>Niki H</author>
+<author datatype='string'>Hiraga S</author>
+</Publication>
+</citation>
+<component><DNA-Binding-Site ID='ECOLI:BS241' orgid='ECOLI' frameid='BS241' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-5093' orgid='ECOLI' frameid='REG0-5093' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00288' orgid='ECOLI' frameid='PD00288'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM341' orgid='ECOLI' frameid='PM341' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>973392</minus-10-left>
+<common-name datatype='string'>cmoMp</common-name>
+<minus-35-right datatype='integer'>973375</minus-35-right>
+<minus-35-left datatype='integer'>973370</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>smtAp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>973404</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-8566713' orgid='ECOLI' frameid='PUB-8566713'/></citation>
+<regulated-by><Regulation resource='#ECOLI:REG0-5093' orgid='ECOLI' frameid='REG0-5093'/></regulated-by>
+<minus-10-right datatype='integer'>973397</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU261' orgid='ECOLI' frameid='TU261'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-8566713' orgid='ECOLI' frameid='PUB-8566713'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU261' orgid='ECOLI' frameid='TU261'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10618' orgid='ECOLI' frameid='EG10618'/></component>
+<component><Gene resource='getxml?ECOLI:EG11252' orgid='ECOLI' frameid='EG11252'/></component>
+<component><Gene resource='getxml?ECOLI:EG12165' orgid='ECOLI' frameid='EG12165'/></component>
+<component><Gene resource='getxml?ECOLI:EG12167' orgid='ECOLI' frameid='EG12167'/></component>
+<component><Promoter resource='#ECOLI:PM341' orgid='ECOLI' frameid='PM341'/></component>
+</Transcription-Unit>
+</ptools-xml>

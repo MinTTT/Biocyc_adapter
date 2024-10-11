@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM00556'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM00556</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM00556' orgid='ECOLI' frameid='PM00556' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>htgAp1</common-name>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOH-MONOMER' orgid='ECOLI' frameid='RPOH-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>htpYp1</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>10644</absolute-plus-1-pos>
+<comment datatype='string'>This is a heat shock promoter.</comment>
+<citation><Publication ID='ECOLI:PUB-8478327' orgid='ECOLI' frameid='PUB-8478327' detail='full'><source datatype='string'>J Bacteriol 1993;175(9);2613-24</source>
+<pubmed-id datatype='string'>8478327</pubmed-id>
+<title datatype='string'>The Escherichia coli heat shock gene htpY: mutational analysis, cloning, sequencing, and transcriptional regulation.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>Missiakas D</author>
+<author datatype='string'>Georgopoulos C</author>
+<author datatype='string'>Raina S</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8400364' orgid='ECOLI' frameid='PUB-8400364' detail='full'><source datatype='string'>DNA Seq 3(5);327-32</source>
+<pubmed-id datatype='string'>8400364</pubmed-id>
+<title datatype='string'>Five open reading frames upstream of the dnaK gene of E. coli.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>James R</author>
+<author datatype='string'>Dean DO</author>
+<author datatype='string'>Debbage J</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8478327' orgid='ECOLI' frameid='PUB-8478327'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8478327' orgid='ECOLI' frameid='PUB-8478327'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' class='true'/><Publication resource='#ECOLI:PUB-8400364' orgid='ECOLI' frameid='PUB-8400364'/></evidence>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU00405' orgid='ECOLI' frameid='TU00405'/></component-of>
+</Promoter>
+</ptools-xml>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='27.0' xml:base='http://BioCyc.org/getxml?ECOLI:G0-17126'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:G0-17126</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='27.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Gene ID='ECOLI:G0-17126' orgid='ECOLI' frameid='G0-17126' detail='full'><parent><Gene resource='getxml?ECOLI:BC-3.1.2' orgid='ECOLI' frameid='BC-3.1.2' class='true'/></parent>
+<parent><Gene resource='getxml?ECOLI:Unclassified-Genes' orgid='ECOLI' frameid='Unclassified-Genes' class='true'/></parent>
+<replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<product><Protein resource='getxml?ECOLI:MONOMER0-4561' orgid='ECOLI' frameid='MONOMER0-4561'/></product>
+<centisome-position datatype='float' units='CENTISOMES'>7.4381275</centisome-position>
+<common-name datatype='string'>xtpA</common-name>
+<citation><Publication ID='ECOLI:PUB-35081614' orgid='ECOLI' frameid='PUB-35081614' detail='full'><year datatype='integer'>2022</year>
+<source datatype='string'>J Biochem 171(4);459-465</source>
+<doi-id datatype='string'>10.1093/jb/mvac007</doi-id>
+<title datatype='string'>A leaderless mRNA including tRNA-like sequence encodes a small peptide that regulates the expression of GcvB small RNA in Escherichia coli.</title>
+<pubmed-id datatype='string'>35081614</pubmed-id>
+<author datatype='string'>Muto A</author>
+<author datatype='string'>Goto S</author>
+<author datatype='string'>Kurita D</author>
+<author datatype='string'>Ushida C</author>
+<author datatype='string'>Soma A</author>
+<author datatype='string'>Himeno H</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-198695' orgid='ECOLI' frameid='TU0-198695'/></component-of>
+<accession-1 datatype='string'>b4845</accession-1>
+<left-end-position datatype='integer'>345252</left-end-position>
+<right-end-position datatype='integer'>345434</right-end-position>
+<accession-2 datatype='string'>ECK4702</accession-2>
+</Gene>
+</ptools-xml>

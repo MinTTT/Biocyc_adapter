@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-13499'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-13499</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-13499' orgid='ECOLI' frameid='TU0-13499' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>wcaCDEF-gmd-fcl-gmm-wcaI-cpsBG-wcaJ-wzxC</common-name>
+<synonym datatype='string'>wcaCDEF-gmd-fcI-nudD-wcaI-cpsBG-wcaJ-wzxC</synonym>
+<comment datatype='string'>The transcription of the genes &lt;i&gt;cpsB&lt;/i&gt; and &lt;i&gt;cpsG&lt;/i&gt; is enhanced in the absence of cardiolipin , an anionic phospholipid that appears to participate in signaling for biofilm formation [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/30782633&quot;&gt;Nepper19&lt;/a&gt;]. The other genes of the operon were not included in the expression analysis when cardiolipin was not present.</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-IC-ADJ-GENES-SAME-BIO-PROCESS' orgid='ECOLI' frameid='EV-IC-ADJ-GENES-SAME-BIO-PROCESS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' class='true'/></parent>
+<common-name datatype='string'>Products of adjacent genes in the same biological process</common-name>
+<comment datatype='string'>A transcription unit is inferred because there is a set of adjacent genes,
+encoded in the same direction, coding for products that participate in the
+same metabolic pathway or biological process. Sometimes, these genes code
+for subunits of the same protein.</comment>
+</Evidence-Code>
+</evidence>
+<component><Gene resource='getxml?ECOLI:G7102' orgid='ECOLI' frameid='G7102'/></component>
+<component><Gene resource='getxml?ECOLI:G7101' orgid='ECOLI' frameid='G7101'/></component>
+<component><Gene resource='getxml?ECOLI:G7100' orgid='ECOLI' frameid='G7100'/></component>
+<component><Gene resource='getxml?ECOLI:G7099' orgid='ECOLI' frameid='G7099'/></component>
+<component><Gene resource='getxml?ECOLI:EG11787' orgid='ECOLI' frameid='EG11787'/></component>
+<component><Gene resource='getxml?ECOLI:EG11788' orgid='ECOLI' frameid='EG11788'/></component>
+<component><Gene resource='getxml?ECOLI:EG11789' orgid='ECOLI' frameid='EG11789'/></component>
+<component><Gene resource='getxml?ECOLI:EG11790' orgid='ECOLI' frameid='EG11790'/></component>
+<component><Gene resource='getxml?ECOLI:EG10161' orgid='ECOLI' frameid='EG10161'/></component>
+<component><Gene resource='getxml?ECOLI:EG10162' orgid='ECOLI' frameid='EG10162'/></component>
+<component><Gene resource='getxml?ECOLI:G7098' orgid='ECOLI' frameid='G7098'/></component>
+<component><Gene resource='getxml?ECOLI:G7097' orgid='ECOLI' frameid='G7097'/></component>
+</Transcription-Unit>
+</ptools-xml>

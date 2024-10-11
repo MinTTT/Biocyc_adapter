@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-13298'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-13298</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-13298' orgid='ECOLI' frameid='TU0-13298' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>lsrK</common-name>
+<comment datatype='string'>The transcription of  the &lt;i&gt;lsrK&lt;/i&gt; gene is repressed after 24 h of coculture with microcapsules of &lt;i&gt;Lactobacillus rhamnosus&lt;/i&gt;  [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31147809&quot;&gt;Song19a&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-16321939' orgid='ECOLI' frameid='PUB-16321939' detail='full'><source datatype='string'>J Bacteriol 187(24);8350-60</source>
+<pubmed-id datatype='string'>16321939</pubmed-id>
+<title datatype='string'>luxS-dependent gene regulation in Escherichia coli K-12 revealed by genomic expression profiling.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Wang L</author>
+<author datatype='string'>Li J</author>
+<author datatype='string'>March JC</author>
+<author datatype='string'>Valdes JJ</author>
+<author datatype='string'>Bentley WE</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16321939' orgid='ECOLI' frameid='PUB-16321939'/></evidence>
+<component><Gene resource='getxml?ECOLI:G6798' orgid='ECOLI' frameid='G6798'/></component>
+</Transcription-Unit>
+</ptools-xml>

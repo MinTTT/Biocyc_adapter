@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-14792'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-14792</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-14792' orgid='ECOLI' frameid='TU0-14792' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>xdhABC</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><Gene resource='getxml?ECOLI:G7487' orgid='ECOLI' frameid='G7487'/></component>
+<component><Gene resource='getxml?ECOLI:G7486' orgid='ECOLI' frameid='G7486'/></component>
+<component><Gene resource='getxml?ECOLI:G7485' orgid='ECOLI' frameid='G7485'/></component>
+<component><Promoter ID='ECOLI:PM0-10480' orgid='ECOLI' frameid='PM0-10480' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>3000247</minus-10-left>
+<common-name datatype='string'>xdhAp2</common-name>
+<minus-35-right datatype='integer'>3000239</minus-35-right>
+<minus-35-left datatype='integer'>3000235</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPON-MONOMER' orgid='ECOLI' frameid='RPON-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3000265</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-10986234' orgid='ECOLI' frameid='PUB-10986234' detail='full'><source datatype='string'>J Bacteriol 182(19);5332-41</source>
+<pubmed-id datatype='string'>10986234</pubmed-id>
+<title datatype='string'>Purine catabolism in Escherichia coli and function of xanthine dehydrogenase in purine salvage.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Xi H</author>
+<author datatype='string'>Schneider BL</author>
+<author datatype='string'>Reitzer L</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-19969540' orgid='ECOLI' frameid='PUB-19969540' detail='full'><source datatype='string'>Nucleic Acids Res 38(4);1273-83</source>
+<pubmed-id datatype='string'>19969540</pubmed-id>
+<title datatype='string'>Promoter and regulon analysis of nitrogen assimilation factor, sigma54, reveal alternative strategy for E. coli MG1655 flagellar biosynthesis.</title>
+<year datatype='integer'>2010</year>
+<author datatype='string'>Zhao K</author>
+<author datatype='string'>Liu M</author>
+<author datatype='string'>Burgess RR</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10986234' orgid='ECOLI' frameid='PUB-10986234'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-19969540' orgid='ECOLI' frameid='PUB-19969540'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-19969540' orgid='ECOLI' frameid='PUB-19969540'/></evidence>
+<minus-10-right datatype='integer'>3000252</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-14792' orgid='ECOLI' frameid='TU0-14792'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

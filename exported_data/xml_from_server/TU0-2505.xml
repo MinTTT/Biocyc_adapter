@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-2505'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-2505</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-2505' orgid='ECOLI' frameid='TU0-2505' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>topA</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><Gene resource='getxml?ECOLI:EG11013' orgid='ECOLI' frameid='EG11013'/></component>
+<component><Promoter ID='ECOLI:PM00551' orgid='ECOLI' frameid='PM00551' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>1330777</minus-10-left>
+<common-name datatype='string'>topAp5</common-name>
+<minus-35-right datatype='integer'>1330758</minus-35-right>
+<minus-35-left datatype='integer'>1330753</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>PX1</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1330789</absolute-plus-1-pos>
+<comment datatype='string'>It is likely that topAp5 is recognized by both &amp;sigma;&lt;sup&gt;70&lt;/sup&gt; and &amp;sigma;&lt;sup&gt;S&lt;/sup&gt;, because there is a basal level  of topAp5 activity in &lt;i&gt;rpoS&lt;/i&gt;::Tn&lt;i&gt;10&lt;/i&gt; strains.  This promoter shows a decrease in transcription during heat shock [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/9126832&quot;&gt;Qi97&lt;/a&gt;].</comment>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/><Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-9126832' orgid='ECOLI' frameid='PUB-9126832' detail='full'><source datatype='string'>J Mol Biol 267(3);481-9</source>
+<pubmed-id datatype='string'>9126832</pubmed-id>
+<title datatype='string'>Regulation of Escherichia coli topA gene transcription: involvement of a sigmaS-dependent promoter.</title>
+<year datatype='integer'>1997</year>
+<author datatype='string'>Qi H</author>
+<author datatype='string'>Menzel R</author>
+<author datatype='string'>Tse-Dinh YC</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9126832' orgid='ECOLI' frameid='PUB-9126832'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9126832' orgid='ECOLI' frameid='PUB-9126832'/></evidence>
+<minus-10-right datatype='integer'>1330782</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-2505' orgid='ECOLI' frameid='TU0-2505'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

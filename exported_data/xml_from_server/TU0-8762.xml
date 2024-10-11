@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8762'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8762</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8762' orgid='ECOLI' frameid='TU0-8762' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>omrB</common-name>
+<synonym datatype='string'>rygB</synonym>
+<comment datatype='string'>The RNA produced by the  &lt;i&gt;omrB&lt;/i&gt; gene has been observed mainly in the poles of the cell [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31540875&quot;&gt;Kannaiah19&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-14602901' orgid='ECOLI' frameid='PUB-14602901' detail='full'><source datatype='string'>Nucleic Acids Res 31(22);6435-43</source>
+<pubmed-id datatype='string'>14602901</pubmed-id>
+<title datatype='string'>RNomics in Escherichia coli detects new sRNA species and indicates parallel transcriptional output in bacteria.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Vogel J</author>
+<author datatype='string'>Bartels V</author>
+<author datatype='string'>Tang TH</author>
+<author datatype='string'>Churakov G</author>
+<author datatype='string'>Slagter-Jager JG</author>
+<author datatype='string'>Huttenhofer A</author>
+<author datatype='string'>Wagner EG</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-14602901' orgid='ECOLI' frameid='PUB-14602901'/></evidence>
+<component><DNA-Binding-Site ID='ECOLI:BS0-7176' orgid='ECOLI' frameid='BS0-7176' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6605' orgid='ECOLI' frameid='REG0-6605' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-OMPR' orgid='ECOLI' frameid='PHOSPHO-OMPR'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-9198' orgid='ECOLI' frameid='PM0-9198' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>omrBp</common-name>
+<synonym datatype='string'>rygBp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2976385</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-14602901' orgid='ECOLI' frameid='PUB-14602901'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-14602901' orgid='ECOLI' frameid='PUB-14602901'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-6605' orgid='ECOLI' frameid='REG0-6605'/></regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8762' orgid='ECOLI' frameid='TU0-8762'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-16359331' orgid='ECOLI' frameid='PUB-16359331' detail='full'><source datatype='string'>Mol Microbiol 59(1);231-47</source>
+<pubmed-id datatype='string'>16359331</pubmed-id>
+<title datatype='string'>Remodelling of the Escherichia coli outer membrane by two small regulatory RNAs.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Guillier M</author>
+<author datatype='string'>Gottesman S</author>
+</Publication>
+</evidence>
+<abs-center-pos datatype='float'>2976456.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8762' orgid='ECOLI' frameid='TU0-8762'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:G0-8882' orgid='ECOLI' frameid='G0-8882'/></component>
+<component><Promoter resource='#ECOLI:PM0-9198' orgid='ECOLI' frameid='PM0-9198'/></component>
+</Transcription-Unit>
+</ptools-xml>

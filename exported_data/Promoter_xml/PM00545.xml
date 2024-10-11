@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM00545'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM00545</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM00545' orgid='ECOLI' frameid='PM00545' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>1556585</minus-10-left>
+<common-name datatype='string'>osmCp2</common-name>
+<minus-35-right datatype='integer'>1556573</minus-35-right>
+<minus-35-left datatype='integer'>1556568</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1556606</absolute-plus-1-pos>
+<comment datatype='string'>This promoter is induced during the decelerating phase. osmCp1 and osmCp2 overlap, but they appear to be independent of one another. The two promoters are both  growth-phase and osmotically regulated. They are sensitive to the action of the global regulators H-NS and Lrp, but the H-NS negative effect on these promoters could be indirect, because there are no putative binding sites of H-NS in the promoter region.</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-1715407' orgid='ECOLI' frameid='PUB-1715407' detail='full'><source datatype='string'>J Mol Biol 220(4);959-73</source>
+<pubmed-id datatype='string'>1715407</pubmed-id>
+<title datatype='string'>Osmotic induction of gene osmC expression in Escherichia coli K12.</title>
+<year datatype='integer'>1991</year>
+<author datatype='string'>Gutierrez C</author>
+<author datatype='string'>Devedjian JC</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8820643' orgid='ECOLI' frameid='PUB-8820643' detail='full'><source datatype='string'>Mol Microbiol 19(4);729-36</source>
+<pubmed-id datatype='string'>8820643</pubmed-id>
+<title datatype='string'>Growth-phase-dependent expression of the osmotically inducible gene osmC of Escherichia coli K-12.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Gordia S</author>
+<author datatype='string'>Gutierrez C</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-9663683' orgid='ECOLI' frameid='PUB-9663683' detail='full'><source datatype='string'>Mol Microbiol 28(5);971-80</source>
+<pubmed-id datatype='string'>9663683</pubmed-id>
+<title datatype='string'>Interplay between global regulators of Escherichia coli: effect of RpoS, Lrp and H-NS on transcription of the gene osmC.</title>
+<year datatype='integer'>1998</year>
+<author datatype='string'>Bouvier J</author>
+<author datatype='string'>Gordia S</author>
+<author datatype='string'>Kampmann G</author>
+<author datatype='string'>Lange R</author>
+<author datatype='string'>Hengge-Aronis R</author>
+<author datatype='string'>Gutierrez C</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-10692161' orgid='ECOLI' frameid='PUB-10692161' detail='full'><source datatype='string'>Mol Microbiol 35(4);845-53</source>
+<pubmed-id datatype='string'>10692161</pubmed-id>
+<title datatype='string'>Involvement of differential efficiency of transcription by esigmas and esigma70 RNA polymerase holoenzymes in growth phase regulation of the Escherichia coli osmE promoter.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Bordes P</author>
+<author datatype='string'>Repoila F</author>
+<author datatype='string'>Kolb A</author>
+<author datatype='string'>Gutierrez C</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+</evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-5616' orgid='ECOLI' frameid='REG0-5616' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00288' orgid='ECOLI' frameid='PD00288'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00545' orgid='ECOLI' frameid='PM00545'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5615' orgid='ECOLI' frameid='REG0-5615' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00353' orgid='ECOLI' frameid='PD00353'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00545' orgid='ECOLI' frameid='PM00545'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>1556595</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-1762' orgid='ECOLI' frameid='TU0-1762'/></component-of>
+</Promoter>
+</ptools-xml>

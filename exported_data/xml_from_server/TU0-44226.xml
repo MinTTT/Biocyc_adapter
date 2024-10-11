@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-44226'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-44226</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-44226' orgid='ECOLI' frameid='TU0-44226' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>nusA-infB</common-name>
+<comment datatype='string'>This transcription unit was mapped in the strain MRE600; however, the full size of the transcript of the other transcription unit  containing the &lt;i&gt;infB&lt;/i&gt; gene was determined in  a strain derived from K-12, suggesting that the transcription is similar in both strains [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/30916329&quot;&gt;Brandi19&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-30916329' orgid='ECOLI' frameid='PUB-30916329' detail='full'><source datatype='string'>Nucleic Acids Res 47(9);4638-4651</source>
+<pubmed-id datatype='string'>30916329</pubmed-id>
+<title datatype='string'>Transcriptional and post-transcriptional events trigger de novo infB expression in cold stressed Escherichia coli.</title>
+<year datatype='integer'>2019</year>
+<author datatype='string'>Brandi A</author>
+<author datatype='string'>Giangrossi M</author>
+<author datatype='string'>Paoloni S</author>
+<author datatype='string'>Spurio R</author>
+<author datatype='string'>Giuliodori AM</author>
+<author datatype='string'>Pon CL</author>
+<author datatype='string'>Gualerzi CO</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-30916329' orgid='ECOLI' frameid='PUB-30916329'/></evidence>
+<component><Promoter ID='ECOLI:PM0-46446' orgid='ECOLI' frameid='PM0-46446' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>3317608</minus-10-left>
+<common-name datatype='string'>nusAp</common-name>
+<minus-35-right datatype='integer'>3317634</minus-35-right>
+<minus-35-left datatype='integer'>3317629</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3317602</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred by a human based on computational evidence</common-name>
+<comment datatype='string'>Human inference.  A curator or author inferred this assertion after review of one or more possible types 
+of computational evidence such as sequence similarity, recognized motifs or consensus sequence, etc.  
+When the inference was made by a computer in an automated fashion, use EV-AINF.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-30916329' orgid='ECOLI' frameid='PUB-30916329'/></evidence>
+<citation><Publication resource='#ECOLI:PUB-30916329' orgid='ECOLI' frameid='PUB-30916329'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-30916329' orgid='ECOLI' frameid='PUB-30916329'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-30916329' orgid='ECOLI' frameid='PUB-30916329'/></evidence>
+<minus-10-right datatype='integer'>3317613</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-44226' orgid='ECOLI' frameid='TU0-44226'/></component-of>
+</Promoter>
+</component>
+<component><Terminator ID='ECOLI:TERM0-1271' orgid='ECOLI' frameid='TERM0-1271' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3313239</right-end-position>
+<left-end-position datatype='integer'>3313185</left-end-position>
+<citation><Publication ID='ECOLI:PUB-11522828' orgid='ECOLI' frameid='PUB-11522828' detail='full'><source datatype='string'>Nucleic Acids Res 29(17);3583-94</source>
+<pubmed-id datatype='string'>11522828</pubmed-id>
+<title datatype='string'>Prediction of rho-independent transcriptional terminators in Escherichia coli.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Lesnik EA</author>
+<author datatype='string'>Sampath R</author>
+<author datatype='string'>Levene HB</author>
+<author datatype='string'>Henderson TJ</author>
+<author datatype='string'>McNeil JA</author>
+<author datatype='string'>Ecker DJ</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-30247625' orgid='ECOLI' frameid='PUB-30247625' detail='full'><source datatype='string'>Bioinformatics 35(9);1469-1477</source>
+<pubmed-id datatype='string'>30247625</pubmed-id>
+<title datatype='string'>iTerm-PseKNC: a sequence-based tool for predicting bacterial transcriptional terminators.</title>
+<year datatype='integer'>2019</year>
+<author datatype='string'>Feng CQ</author>
+<author datatype='string'>Zhang ZY</author>
+<author datatype='string'>Zhu XJ</author>
+<author datatype='string'>Lin Y</author>
+<author datatype='string'>Chen W</author>
+<author datatype='string'>Tang H</author>
+<author datatype='string'>Lin H</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-44226' orgid='ECOLI' frameid='TU0-44226'/><Transcription-Unit resource='getxml?ECOLI:TU0-44225' orgid='ECOLI' frameid='TU0-44225'/><Transcription-Unit resource='getxml?ECOLI:TU00517' orgid='ECOLI' frameid='TU00517'/><Transcription-Unit resource='getxml?ECOLI:TU00311' orgid='ECOLI' frameid='TU00311'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10505' orgid='ECOLI' frameid='EG10505'/></component>
+<component><Gene resource='getxml?ECOLI:EG10665' orgid='ECOLI' frameid='EG10665'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-198696'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-198696</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-198696' orgid='ECOLI' frameid='TU0-198696' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>sfmAC</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-MICROARRAY' orgid='ECOLI' frameid='EV-EXP-IEP-MICROARRAY' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-HTP-HEP' orgid='ECOLI' frameid='EV-HTP-HEP' class='true'/></parent>
+<common-name datatype='string'>High-throughput expression microarray evidence</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0000058</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0000058</dblink-URL>
+</dblink>
+<credits><imported-from-meta><date datatype='date'>2018-03-05</date>
+<Person ID='ECOLI:paley' orgid='ECOLI' frameid='paley' detail='full'><affiliations><Organization ID='ECOLI:SRI' orgid='ECOLI' frameid='SRI' detail='full'><abbrev-name datatype='string'>SRI International</abbrev-name>
+<email datatype='string'>ptools-support@ai.sri.com</email>
+<common-name datatype='string'>SRI International</common-name>
+<url datatype='string'>http://bioinformatics.ai.sri.com/</url>
+</Organization>
+</affiliations>
+<common-name datatype='string'>Suzanne Paley</common-name>
+</Person>
+<Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A type of transcript expression evidence resulting from simultaneous profiling of the expression levels of thousands of genes in a single experiment allowing analysis of genes and their networks.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-36057789' orgid='ECOLI' frameid='PUB-36057789' detail='full'><source datatype='string'>Genes Cells </source>
+<pubmed-id datatype='string'>36057789</pubmed-id>
+<title datatype='string'>Regulation of constant cell elongation and Sfm pili synthesis in Escherichia coli via two active forms of FimZ orphan response regulator.</title>
+<year datatype='integer'>2022</year>
+<author datatype='string'>Ogawa A</author>
+<author datatype='string'>Kojima F</author>
+<author datatype='string'>Miyake Y</author>
+<author datatype='string'>Yoshimura M</author>
+<author datatype='string'>Ishijima N</author>
+<author datatype='string'>Iyoda S</author>
+<author datatype='string'>Sekine Y</author>
+<author datatype='string'>Yamanaka Y</author>
+<author datatype='string'>Yamamoto K</author>
+<doi-id datatype='string'>10.1111/gtc.12982</doi-id>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-RTPCR' orgid='ECOLI' frameid='EV-EXP-IEP-RTPCR' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Reverse transcription polymerase chain reaction evidence</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0000109</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0000109</dblink-URL>
+</dblink>
+<credits><imported-from-meta><date datatype='date'>2022-10-25</date>
+<Person resource='#ECOLI:paley' orgid='ECOLI' frameid='paley'/><Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A type of RNA detection assay evidence where an RNA transcript is reverse transcribed into cDNA and amplified to qualitatively detect gene expression.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-36057789' orgid='ECOLI' frameid='PUB-36057789'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-16236' orgid='ECOLI' frameid='REG0-16236' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG11103-MONOMER' orgid='ECOLI' frameid='EG11103-MONOMER'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-198696' orgid='ECOLI' frameid='TU0-198696'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component><Gene resource='getxml?ECOLI:G6291' orgid='ECOLI' frameid='G6291'/></component>
+<component><Gene resource='getxml?ECOLI:G6290' orgid='ECOLI' frameid='G6290'/></component>
+</Transcription-Unit>
+</ptools-xml>

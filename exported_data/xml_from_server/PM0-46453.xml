@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM0-46453'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM0-46453</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM0-46453' orgid='ECOLI' frameid='PM0-46453' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>3168405</minus-10-left>
+<common-name datatype='string'>mqsAp2</common-name>
+<minus-35-right datatype='integer'>3168431</minus-35-right>
+<minus-35-left datatype='integer'>3168426</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3168397</absolute-plus-1-pos>
+<comment datatype='string'>The activity of the promoters transcribing the &lt;i&gt;mqsA&lt;/i&gt; gene are not affected by amino acid starvation or oxidative stress [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31848281&quot;&gt;Fraikin19&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-31848281' orgid='ECOLI' frameid='PUB-31848281' detail='full'><source datatype='string'>mBio 10(6)</source>
+<pubmed-id datatype='string'>31848281</pubmed-id>
+<title datatype='string'>Reassessing the Role of the Type II MqsRA Toxin-Antitoxin System in Stress Response and Biofilm Formation:  &lt;i&gt;mqsA&lt;/i&gt; Is Transcriptionally Uncoupled from  &lt;i&gt;mqsR&lt;/i&gt;.</title>
+<year datatype='integer'>2019</year>
+<author datatype='string'>Fraikin N</author>
+<author datatype='string'>Rousseau CJ</author>
+<author datatype='string'>Goeders N</author>
+<author datatype='string'>Van Melderen L</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-25266388' orgid='ECOLI' frameid='PUB-25266388' detail='full'><source datatype='string'>J Bacteriol 197(1);18-28</source>
+<pubmed-id datatype='string'>25266388</pubmed-id>
+<title datatype='string'>Global transcriptional start site mapping using differential RNA sequencing reveals novel antisense RNAs in Escherichia coli.</title>
+<year datatype='integer'>2015</year>
+<author datatype='string'>Thomason MK</author>
+<author datatype='string'>Bischler T</author>
+<author datatype='string'>Eisenbart SK</author>
+<author datatype='string'>Forstner KU</author>
+<author datatype='string'>Zhang A</author>
+<author datatype='string'>Herbig A</author>
+<author datatype='string'>Nieselt K</author>
+<author datatype='string'>Sharma CM</author>
+<author datatype='string'>Storz G</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-31848281' orgid='ECOLI' frameid='PUB-31848281'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-25266388' orgid='ECOLI' frameid='PUB-25266388'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-31848281' orgid='ECOLI' frameid='PUB-31848281'/></evidence>
+<minus-10-right datatype='integer'>3168410</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45153' orgid='ECOLI' frameid='TU0-45153'/></component-of>
+</Promoter>
+</ptools-xml>

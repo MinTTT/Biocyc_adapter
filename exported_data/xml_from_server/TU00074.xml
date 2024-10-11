@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00074'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00074</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00074' orgid='ECOLI' frameid='TU00074' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ahpCF</common-name>
+<synonym datatype='string'>OP00101</synonym>
+<synonym datatype='string'>ahpC</synonym>
+<comment datatype='string'>Expression of &lt;i&gt;ahpC&lt;/i&gt; is activated by OxyR. This is also true for the expression of the divergently transcribed &lt;i&gt;dsbG&lt;/i&gt;. The intergenic region between &lt;i&gt;dsbG&lt;/i&gt; and &lt;i&gt;ahpC&lt;/i&gt; carries two binding sites for OxyR, a &lt;i&gt;dsbG&lt;/i&gt;-proximal site, located 54 bp upstream of the &lt;i&gt;dsbG&lt;/i&gt; start codon, and an &lt;i&gt;ahpC&lt;/i&gt;-proximal site, located 290 bp upstream of the &lt;i&gt;dsbG&lt;/i&gt; start codon [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/11443092&quot;&gt;Zheng01a&lt;/a&gt;].
+&lt;p&gt;
+Northern blotting and primer extension assays showed that OxyR binding to the &lt;i&gt;ahpC&lt;/i&gt;-proximal site leads to the induction of both &lt;i&gt;dsbG&lt;/i&gt; and &lt;i&gt;ahpC&lt;/i&gt; transcripts, while OxyR binding to the &lt;i&gt;dsbG&lt;/i&gt;-proximal site leads to the induction of a second &lt;i&gt;ahpC&lt;/i&gt; transcript. This transcript of &lt;i&gt;ahpC&lt;/i&gt; and the transcript of &lt;i&gt;dsbG&lt;/i&gt; overlap by over 100 nucleotides. [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/11443092&quot;&gt;Zheng01a&lt;/a&gt;].
+&lt;p&gt;
+[&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12589799&quot;&gt;Jung03&lt;/a&gt;] demonstrated that both the &lt;i&gt;oxyR&lt;/i&gt; and &lt;i&gt;ahpC&lt;/i&gt; genes, which codify a transcriptional regulator and a product essential for the detoxification against H&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;2&lt;/sub&gt;-induced stress, respectively, were absolutely dependent on polyamines during entry into the stationary phase. These data suggest that polyamines directly participates in the defense mechanism against oxidative stress.
+&lt;p&gt;
+The OxyR-regulated &lt;i&gt;ahpCF&lt;/i&gt; operon is upregulated by methylglyoxal (MG), based on ChIP-chip analysis with DNA-RNAP occupancy [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23646895&quot;&gt;Ozyamak13&lt;/a&gt;].
+&lt;p&gt;
+The transcription of the gene &lt;i&gt;ahpC&lt;/i&gt; is enhanced under high oxygen saturation (300%) [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23497217&quot;&gt;Baez13a&lt;/a&gt;].
+&lt;p&gt;
+Six RNA processing sites (PSSs) have been identified in the &lt;i&gt;ahpCF&lt;/i&gt; operon by high-throughput screening of PSSs [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31992590&quot;&gt;Lacoux20&lt;/a&gt;].
+</comment>
+<citation><Publication ID='ECOLI:PUB-7644465' orgid='ECOLI' frameid='PUB-7644465' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 92(17);7617-21</source>
+<pubmed-id datatype='string'>7644465</pubmed-id>
+<title datatype='string'>Cloning of an organic solvent-resistance gene in Escherichia coli: the unexpected role of alkylhydroperoxide reductase.</title>
+<year datatype='integer'>1995</year>
+<author datatype='string'>Ferrante AA</author>
+<author datatype='string'>Augliera J</author>
+<author datatype='string'>Lewis K</author>
+<author datatype='string'>Klibanov AM</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-IC-ADJ-GENES-SAME-BIO-PROCESS' orgid='ECOLI' frameid='EV-IC-ADJ-GENES-SAME-BIO-PROCESS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' class='true'/></parent>
+<common-name datatype='string'>Products of adjacent genes in the same biological process</common-name>
+<comment datatype='string'>A transcription unit is inferred because there is a set of adjacent genes,
+encoded in the same direction, coding for products that participate in the
+same metabolic pathway or biological process. Sometimes, these genes code
+for subunits of the same protein.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-7644465' orgid='ECOLI' frameid='PUB-7644465'/></evidence>
+<component><DNA-Binding-Site ID='ECOLI:BS0-2923' orgid='ECOLI' frameid='BS0-2923' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-5552' orgid='ECOLI' frameid='REG0-5552' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7796' orgid='ECOLI' frameid='CPLX0-7796'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM00102' orgid='ECOLI' frameid='PM00102' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>638908</minus-10-left>
+<common-name datatype='string'>ahpCp1</common-name>
+<minus-35-right datatype='integer'>638889</minus-35-right>
+<minus-35-left datatype='integer'>638884</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>ahpCF</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>638921</absolute-plus-1-pos>
+<comment datatype='string'>This promoter appears to be induced in two phases after &amp;sigma;E induction. It is induced during the first 5 minutes following &amp;sigma;E induction, decreased from 5 to 10 minutes, and induced from 10 to 15 minutes [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31992590&quot;&gt;Lacoux20&lt;/a&gt;].
+</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-2693740' orgid='ECOLI' frameid='PUB-2693740' detail='full'><source datatype='string'>J Mol Biol 210(4);709-19</source>
+<pubmed-id datatype='string'>2693740</pubmed-id>
+<title datatype='string'>Identification and molecular analysis of oxyR-regulated promoters important for the bacterial adaptation to oxidative stress.</title>
+<year datatype='integer'>1989</year>
+<author datatype='string'>Tartaglia LA</author>
+<author datatype='string'>Storz G</author>
+<author datatype='string'>Ames BN</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2693740' orgid='ECOLI' frameid='PUB-2693740'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2693740' orgid='ECOLI' frameid='PUB-2693740'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-10673' orgid='ECOLI' frameid='REG0-10673' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00214' orgid='ECOLI' frameid='PD00214'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00102' orgid='ECOLI' frameid='PM00102'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5553' orgid='ECOLI' frameid='REG0-5553' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7796' orgid='ECOLI' frameid='CPLX0-7796'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00102' orgid='ECOLI' frameid='PM00102'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-5552' orgid='ECOLI' frameid='REG0-5552'/><Regulation ID='ECOLI:REG0-5551' orgid='ECOLI' frameid='REG0-5551' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00214' orgid='ECOLI' frameid='PD00214'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00102' orgid='ECOLI' frameid='PM00102'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>638913</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00074' orgid='ECOLI' frameid='TU00074'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-11448880' orgid='ECOLI' frameid='PUB-11448880' detail='full'><source datatype='string'>Bioinformatics 17(7);622-33</source>
+<pubmed-id datatype='string'>11448880</pubmed-id>
+<title datatype='string'>Conformational model for binding site recognition by the E.coli MetJ transcription factor.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Liu R</author>
+<author datatype='string'>Blackwell TW</author>
+<author datatype='string'>States DJ</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on similarity to consensus sequences</common-name>
+<comment datatype='string'>A DNA sequence similar to previously known consensus sequences is computationally identified.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11448880' orgid='ECOLI' frameid='PUB-11448880'/></evidence>
+<abs-center-pos datatype='float'>638947.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00074' orgid='ECOLI' frameid='TU00074'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-2922' orgid='ECOLI' frameid='BS0-2922' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5553' orgid='ECOLI' frameid='REG0-5553'/></involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-11448880' orgid='ECOLI' frameid='PUB-11448880'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-11448880' orgid='ECOLI' frameid='PUB-11448880'/></evidence>
+<abs-center-pos datatype='float'>638937.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00074' orgid='ECOLI' frameid='TU00074'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Promoter resource='#ECOLI:PM00102' orgid='ECOLI' frameid='PM00102'/></component>
+<component><DNA-Binding-Site ID='ECOLI:BS00214' orgid='ECOLI' frameid='BS00214' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-10675' orgid='ECOLI' frameid='REG0-10675' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00214' orgid='ECOLI' frameid='PD00214'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-10406' orgid='ECOLI' frameid='PM0-10406' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>dsbGp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>638800</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-11443092' orgid='ECOLI' frameid='PUB-11443092' detail='full'><source datatype='string'>J Bacteriol 183(15);4571-9</source>
+<pubmed-id datatype='string'>11443092</pubmed-id>
+<title datatype='string'>Computation-directed identification of OxyR DNA binding sites in Escherichia coli.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Zheng M</author>
+<author datatype='string'>Wang X</author>
+<author datatype='string'>Doan B</author>
+<author datatype='string'>Lewis KA</author>
+<author datatype='string'>Schneider TD</author>
+<author datatype='string'>Storz G</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-11443092' orgid='ECOLI' frameid='PUB-11443092'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-10675' orgid='ECOLI' frameid='REG0-10675'/><Regulation ID='ECOLI:REG0-10459' orgid='ECOLI' frameid='REG0-10459' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00214' orgid='ECOLI' frameid='PD00214'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10406' orgid='ECOLI' frameid='PM0-10406'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-12995' orgid='ECOLI' frameid='TU0-12995'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-5551' orgid='ECOLI' frameid='REG0-5551'/></involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-11443092' orgid='ECOLI' frameid='PUB-11443092'/></citation>
+<citation><Publication resource='#ECOLI:PUB-2693740' orgid='ECOLI' frameid='PUB-2693740'/></citation>
+<citation><Publication ID='ECOLI:PUB-8087856' orgid='ECOLI' frameid='PUB-8087856' detail='full'><source datatype='string'>Cell 78(5);897-909</source>
+<pubmed-id datatype='string'>8087856</pubmed-id>
+<title datatype='string'>Redox-dependent shift of OxyR-DNA contacts along an extended DNA-binding site: a mechanism for differential promoter selection.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Toledano MB</author>
+<author datatype='string'>Kullik I</author>
+<author datatype='string'>Trinh F</author>
+<author datatype='string'>Baird PT</author>
+<author datatype='string'>Schneider TD</author>
+<author datatype='string'>Storz G</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11443092' orgid='ECOLI' frameid='PUB-11443092'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11443092' orgid='ECOLI' frameid='PUB-11443092'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication ID='ECOLI:PUB-1730735' orgid='ECOLI' frameid='PUB-1730735' detail='full'><source datatype='string'>J Biol Chem 267(3);2038-45</source>
+<pubmed-id datatype='string'>1730735</pubmed-id>
+<title datatype='string'>Multidegenerate DNA recognition by the OxyR transcriptional regulator.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Tartaglia LA</author>
+<author datatype='string'>Gimeno CJ</author>
+<author datatype='string'>Storz G</author>
+<author datatype='string'>Ames BN</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-1730735' orgid='ECOLI' frameid='PUB-1730735'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-2693740' orgid='ECOLI' frameid='PUB-2693740'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-2693740' orgid='ECOLI' frameid='PUB-2693740'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-8087856' orgid='ECOLI' frameid='PUB-8087856'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-8087856' orgid='ECOLI' frameid='PUB-8087856'/></evidence>
+<abs-center-pos datatype='integer'>638877</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00074' orgid='ECOLI' frameid='TU00074'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11384' orgid='ECOLI' frameid='EG11384'/></component>
+<component><Gene resource='getxml?ECOLI:EG11385' orgid='ECOLI' frameid='EG11385'/></component>
+</Transcription-Unit>
+</ptools-xml>

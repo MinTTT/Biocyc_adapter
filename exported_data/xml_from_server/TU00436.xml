@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00436'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00436</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00436' orgid='ECOLI' frameid='TU00436' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rpoD</common-name>
+<comment datatype='string'>The &lt;i&gt;rpsU-dnaG-rpoD&lt;/i&gt; operon has several promoters which are activated under different conditions. This operon contains two terminators, an internal terminator (T1) at the intergenic region between the &lt;i&gt;rpsU&lt;/i&gt;  and &lt;i&gt;dnaG&lt;/i&gt; genes  and a rho-independent terminator at the end of the operon (T2). The internal terminator might respond to antitermination by the lambda phage N gene product.
+&lt;p&gt;
+The expression of the gene &lt;i&gt;rpoD&lt;/i&gt; is increased under acidic growth conditions [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23274360&quot;&gt;Marzan13&lt;/a&gt;].
+</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-6186393' orgid='ECOLI' frameid='PUB-6186393' detail='full'><source datatype='string'>Cell 32(2);335-49</source>
+<pubmed-id datatype='string'>6186393</pubmed-id>
+<title datatype='string'>The operon that encodes the sigma subunit of RNA polymerase also encodes ribosomal protein S21 and DNA primase in E. coli K12.</title>
+<year datatype='integer'>1983</year>
+<author datatype='string'>Burton ZF</author>
+<author datatype='string'>Gross CA</author>
+<author datatype='string'>Watanabe KK</author>
+<author datatype='string'>Burgess RR</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-6222240' orgid='ECOLI' frameid='PUB-6222240' detail='full'><source datatype='string'>Mol Gen Genet 189(1);48-57</source>
+<pubmed-id datatype='string'>6222240</pubmed-id>
+<title datatype='string'>Regulation of the rpsU-dnaG-rpoD macromolecular synthesis operon and the initiation of DNA replication in Escherichia coli K-12.</title>
+<year datatype='integer'>1983</year>
+<author datatype='string'>Lupski JR</author>
+<author datatype='string'>Smiley BL</author>
+<author datatype='string'>Godson GN</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-6206376' orgid='ECOLI' frameid='PUB-6206376' detail='full'><source datatype='string'>Mol Gen Genet 195(3);391-401</source>
+<pubmed-id datatype='string'>6206376</pubmed-id>
+<title datatype='string'>Promotion, termination, and anti-termination in the rpsU-dnaG-rpoD macromolecular synthesis operon of E. coli K-12.</title>
+<year datatype='integer'>1984</year>
+<author datatype='string'>Lupski JR</author>
+<author datatype='string'>Ruiz AA</author>
+<author datatype='string'>Godson GN</author>
+</Publication>
+</citation>
+<component><Terminator ID='ECOLI:TERM72' orgid='ECOLI' frameid='TERM72' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3214962</right-end-position>
+<left-end-position datatype='integer'>3214943</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-6186393' orgid='ECOLI' frameid='PUB-6186393'/></citation>
+<citation><Publication ID='ECOLI:PUB-6269063' orgid='ECOLI' frameid='PUB-6269063' detail='full'><source datatype='string'>Nucleic Acids Res 9(12);2889-903</source>
+<pubmed-id datatype='string'>6269063</pubmed-id>
+<title datatype='string'>The nucleotide sequence of the cloned rpoD gene for the RNA polymerase sigma subunit from E coli K12.</title>
+<year datatype='integer'>1981</year>
+<author datatype='string'>Burton Z</author>
+<author datatype='string'>Burgess RR</author>
+<author datatype='string'>Lin J</author>
+<author datatype='string'>Moore D</author>
+<author datatype='string'>Holder S</author>
+<author datatype='string'>Gross CA</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-6222240' orgid='ECOLI' frameid='PUB-6222240'/></citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU00438' orgid='ECOLI' frameid='TU00438'/><Transcription-Unit resource='getxml?ECOLI:TU00437' orgid='ECOLI' frameid='TU00437'/><Transcription-Unit resource='#ECOLI:TU00436' orgid='ECOLI' frameid='TU00436'/><Transcription-Unit resource='getxml?ECOLI:TU00435' orgid='ECOLI' frameid='TU00435'/><Transcription-Unit resource='getxml?ECOLI:TU00434' orgid='ECOLI' frameid='TU00434'/><Transcription-Unit resource='getxml?ECOLI:TU00352' orgid='ECOLI' frameid='TU00352'/></component-of>
+</Terminator>
+</component>
+<component><Promoter ID='ECOLI:PM00435' orgid='ECOLI' frameid='PM00435' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>3212462</minus-10-left>
+<common-name datatype='string'>rpoDp1</common-name>
+<minus-35-right datatype='integer'>3212445</minus-35-right>
+<minus-35-left datatype='integer'>3212440</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>rpoDpa</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3212473</absolute-plus-1-pos>
+<comment datatype='string'>The rpoDp1 promoter  is an internal promoter to the &lt;i&gt;rpsU-dnaG-rpoD&lt;/i&gt; operon, and it is located in the C terminus of the &lt;i&gt;dnaG&lt;/i&gt; gene.</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-6380764' orgid='ECOLI' frameid='PUB-6380764' detail='full'><source datatype='string'>Cell 38(2);371-81</source>
+<pubmed-id datatype='string'>6380764</pubmed-id>
+<title datatype='string'>Transcription from a heat-inducible promoter causes heat shock regulation of the sigma subunit of E. coli RNA polymerase.</title>
+<year datatype='integer'>1984</year>
+<author datatype='string'>Taylor WE</author>
+<author datatype='string'>Straus DB</author>
+<author datatype='string'>Grossman AD</author>
+<author datatype='string'>Burton ZF</author>
+<author datatype='string'>Gross CA</author>
+<author datatype='string'>Burgess RR</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6380764' orgid='ECOLI' frameid='PUB-6380764'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6380764' orgid='ECOLI' frameid='PUB-6380764'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from mutant phenotype</common-name>
+<comment datatype='string'>IMP inferred from mutant phenotype.
+
+&lt;br&gt;
+The assertion was inferred from a mutant phenotype such as
+&lt;ul&gt;
+    &lt;li&gt; Any gene mutation/knockout
+    &lt;li&gt; Overexpression/ectopic expression of wild-type or mutant genes
+    &lt;li&gt; Anti-sense experiments
+    &lt;li&gt; RNA interference experiments
+    &lt;li&gt; Specific protein inhibitors
+    &lt;li&gt; Complementation
+&lt;/ul&gt;&lt;p class=ecocomment&gt;	
+Comment: Inferences made from examining mutations or
+abnormal levels of only the product(s) of the gene of interest are covered by code EV-IMP
+(compare to code EV-IGI). Use this code for experiments that use antibodies 
+or other specific inhibitors of RNA or protein activity, even though no
+gene may be mutated (the rationale is that EV-IMP is used where an
+abnormal situation prevails in a cell or organism).
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6380764' orgid='ECOLI' frameid='PUB-6380764'/></evidence>
+<minus-10-right datatype='integer'>3212467</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00436' orgid='ECOLI' frameid='TU00436'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10896' orgid='ECOLI' frameid='EG10896'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-7743'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-7743</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-7743' orgid='ECOLI' frameid='TU0-7743' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ydeO</common-name>
+<comment datatype='string'>[&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12694615&quot;&gt;Masuda03&lt;/a&gt;] proposed a model of the regulatory network of the acid resistance genes, including &lt;i&gt;evgA, ydeP, ydeO, yhiE, gadABC&lt;/i&gt;, and &lt;i&gt;hdeAB&lt;/i&gt;, using a combination of microarray analysis and gene replacement techniques. With these assays, 7 operons were identified as induced by EvgA when overexpressed and when YdeO is absent; on the other hand, 12 operons were identified as induced by YdeO overexpression. To confirm these regulatory interactions, the EvgA consensus site was searched with the ALIGNACE program, and the 18-bp site found was tested by gel shift analysis with the upstream regions of the corresponding operons. As a result, just six operons are regulated by EvgA, among which the &lt;i&gt;ydeO&lt;/i&gt; operon is included. 
+&lt;p&gt;
+The specific position of the EvgA site has not been anotated because the +1 position has not been identified, but the experimental data are quoted as follows: regulator, EvgA; operon, b1500-ydeO; position(s), (-129 to -112)* and 1582103.5**. Evidences: Consensus, Gene Expression Analysis and Purified Protein [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12694615&quot;&gt;Masuda03&lt;/a&gt;].
+&lt;p&gt;
+The expression of the gene &lt;i&gt;ydeO&lt;/i&gt; is increased under acidic growth conditions in either aerobiosis or microaerobiosis [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23274360&quot;&gt;Marzan13&lt;/a&gt;].
+&lt;p&gt;
+ *  Numbers relative to the start codon of the b1500 gene.
+** Absolute position on the &lt;i&gt;E. coli&lt;/i&gt; genome.
+&lt;p&gt;
+Based on microarray and RT-qPCR analyses, it was determined that the &lt;i&gt;asr&lt;/i&gt;, &lt;i&gt;frc&lt;/i&gt;, &lt;i&gt;oxc&lt;/i&gt;, &lt;i&gt;ydeO&lt;/i&gt;, and &lt;i&gt;yegR&lt;/i&gt; acid stress genes are significantly upregulated upon exposure to exogenous glutathione (GSH) [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/29468195&quot;&gt;Goswami18&lt;/a&gt;].
+</comment>
+<citation><Publication ID='ECOLI:PUB-12694615' orgid='ECOLI' frameid='PUB-12694615' detail='full'><source datatype='string'>Mol Microbiol 48(3);699-712</source>
+<pubmed-id datatype='string'>12694615</pubmed-id>
+<title datatype='string'>Regulatory network of acid resistance genes in Escherichia coli.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Masuda N</author>
+<author datatype='string'>Church GM</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Inferred through co-regulation</common-name>
+<comment datatype='string'>Inferred through co-regulation.  A transcription unit is inferred because a set of 
+adjacent genes that are transcribed in the same direction exhibit similar
+expression patterns under a range of environmental conditions.
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12694615' orgid='ECOLI' frameid='PUB-12694615'/></evidence>
+<component><Promoter ID='ECOLI:PM0-9843' orgid='ECOLI' frameid='PM0-9843' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>ydeOp</common-name>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOH-MONOMER' orgid='ECOLI' frameid='RPOH-MONOMER'/></binds-sigma-factor>
+<citation><Publication ID='ECOLI:PUB-16892065' orgid='ECOLI' frameid='PUB-16892065' detail='full'><source datatype='string'>Nat Struct Mol Biol 13(9);806-14</source>
+<pubmed-id datatype='string'>16892065</pubmed-id>
+<title datatype='string'>Extensive functional overlap between sigma factors in Escherichia coli.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Wade JT</author>
+<author datatype='string'>Roa DC</author>
+<author datatype='string'>Grainger DC</author>
+<author datatype='string'>Hurd D</author>
+<author datatype='string'>Busby SJ</author>
+<author datatype='string'>Struhl K</author>
+<author datatype='string'>Nudler E</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from direct assay</common-name>
+<comment datatype='string'>IDA inferred from direct assay.
+
+&lt;br&gt;
+The assertion was inferred from a direct experimental assay such as
+&lt;ul&gt;
+    &lt;li&gt; Enzyme assays
+    &lt;li&gt; In vitro reconstitution (e.g. transcription)
+    &lt;li&gt; Immunofluorescence
+    &lt;li&gt; Cell fractionation
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16892065' orgid='ECOLI' frameid='PUB-16892065'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16892065' orgid='ECOLI' frameid='PUB-16892065'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-10928' orgid='ECOLI' frameid='REG0-10928' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00288' orgid='ECOLI' frameid='PD00288'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-9843' orgid='ECOLI' frameid='PM0-9843'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-7743' orgid='ECOLI' frameid='TU0-7743'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:G6789' orgid='ECOLI' frameid='G6789'/></component>
+</Transcription-Unit>
+</ptools-xml>

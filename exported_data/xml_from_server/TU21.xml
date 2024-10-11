@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU21'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU21</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU21' orgid='ECOLI' frameid='TU21' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>tolB-pal-ybgF</common-name>
+<citation><Publication ID='ECOLI:PUB-8763928' orgid='ECOLI' frameid='PUB-8763928' detail='full'><source datatype='string'>J Bacteriol 178(14);4031-8</source>
+<pubmed-id datatype='string'>8763928</pubmed-id>
+<title datatype='string'>Characterization of the tol-pal region of Escherichia coli K-12: translational control of tolR expression by TolQ and identification of a new open reading frame downstream of pal encoding a periplasmic protein.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Vianney A</author>
+<author datatype='string'>Muller MM</author>
+<author datatype='string'>Clavel T</author>
+<author datatype='string'>Lazzaroni JC</author>
+<author datatype='string'>Portalier R</author>
+<author datatype='string'>Webster RE</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8763928' orgid='ECOLI' frameid='PUB-8763928'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11720' orgid='ECOLI' frameid='REG0-11720' detail='low'><parent><Regulation resource='getxml?ECOLI:RNA-Mediated-Translation-Regulation' orgid='ECOLI' frameid='RNA-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><RNA resource='getxml?ECOLI:SRAD-RNA' orgid='ECOLI' frameid='SRAD-RNA'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU21' orgid='ECOLI' frameid='TU21'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component><Gene resource='getxml?ECOLI:EG12854' orgid='ECOLI' frameid='EG12854'/></component>
+<component><Gene resource='getxml?ECOLI:EG10684' orgid='ECOLI' frameid='EG10684'/></component>
+<component><Gene resource='getxml?ECOLI:EG11008' orgid='ECOLI' frameid='EG11008'/></component>
+</Transcription-Unit>
+</ptools-xml>

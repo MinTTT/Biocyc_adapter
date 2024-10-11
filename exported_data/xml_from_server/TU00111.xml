@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00111'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00111</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00111' orgid='ECOLI' frameid='TU00111' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>argD</common-name>
+<synonym datatype='string'>OP00151</synonym>
+<comment datatype='string'>&lt;i&gt;argD&lt;/i&gt; gene expression is downregulated upon L-valine addition (isoleucine starvation) in the cellular growth medium [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/32211022&quot;&gt;Gummesson20&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-6357954' orgid='ECOLI' frameid='PUB-6357954' detail='full'><source datatype='string'>Gene 24(2-3);335-9</source>
+<pubmed-id datatype='string'>6357954</pubmed-id>
+<title datatype='string'>Cloning the Escherichia coli K-12 argD gene specifying acetylornithine delta-transaminase.</title>
+<year datatype='integer'>1983</year>
+<author datatype='string'>Riley M</author>
+<author datatype='string'>Glansdorff N</author>
+</Publication>
+</citation>
+<component><DNA-Binding-Site ID='ECOLI:BS0-7125' orgid='ECOLI' frameid='BS0-7125' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-5669' orgid='ECOLI' frameid='REG0-5669' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-228' orgid='ECOLI' frameid='CPLX0-228'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM00152' orgid='ECOLI' frameid='PM00152' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>3490228</minus-10-left>
+<common-name datatype='string'>argDp</common-name>
+<minus-35-right datatype='integer'>3490258</minus-35-right>
+<minus-35-left datatype='integer'>3490253</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3490221</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-1640456' orgid='ECOLI' frameid='PUB-1640456' detail='full'><source datatype='string'>J Mol Biol 226(2);367-86</source>
+<pubmed-id datatype='string'>1640456</pubmed-id>
+<title datatype='string'>Arginine regulon of Escherichia coli K-12. A study of repressor-operator interactions and of in vitro binding affinities versus in vivo repression.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Charlier D</author>
+<author datatype='string'>Roovers M</author>
+<author datatype='string'>Van Vliet F</author>
+<author datatype='string'>Boyen A</author>
+<author datatype='string'>Cunin R</author>
+<author datatype='string'>Nakamura Y</author>
+<author datatype='string'>Glansdorff N</author>
+<author datatype='string'>Pierard A</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-AS-TAS' orgid='ECOLI' frameid='EV-AS-TAS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-AS' orgid='ECOLI' frameid='EV-AS' class='true'/></parent>
+<common-name datatype='string'>Traceable author statement</common-name>
+<comment datatype='string'>Traceable author statement.  The assertion was made in a publication -- such as a review or 
+in another database -- that itself did not describe an experiment supporting the
+assertion.  The statement referenced another publication that supported the assertion,
+but it is unclear whether that publication described an experiment that supported
+the assertion.  The difference between the codes EV-EXP-TAS and EV-AS-TAS 
+is that the former code is used when it is certain that experimental evidence supports the
+assertion, and the latter code is used when there is a possibility that an experiment was
+not done to support the assertion.
+In general, references to the primary literature are preferred,
+but this code can be used when the original article is difficult to locate.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1640456' orgid='ECOLI' frameid='PUB-1640456'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-5671' orgid='ECOLI' frameid='REG0-5671' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-228' orgid='ECOLI' frameid='CPLX0-228'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00152' orgid='ECOLI' frameid='PM00152'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5670' orgid='ECOLI' frameid='REG0-5670' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-PHOP' orgid='ECOLI' frameid='PHOSPHO-PHOP'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00152' orgid='ECOLI' frameid='PM00152'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-5669' orgid='ECOLI' frameid='REG0-5669'/></regulated-by>
+<minus-10-right datatype='integer'>3490233</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00111' orgid='ECOLI' frameid='TU00111'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-1640456' orgid='ECOLI' frameid='PUB-1640456'/></citation>
+<citation><Publication ID='ECOLI:PUB-11305941' orgid='ECOLI' frameid='PUB-11305941' detail='full'><source datatype='string'>Genome Biol 2(4);RESEARCH0013</source>
+<pubmed-id datatype='string'>11305941</pubmed-id>
+<title datatype='string'>Conservation of the binding site for the arginine repressor in all bacterial lineages.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Makarova KS</author>
+<author datatype='string'>Mironov AA</author>
+<author datatype='string'>Gelfand MS</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1640456' orgid='ECOLI' frameid='PUB-1640456'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1640456' orgid='ECOLI' frameid='PUB-1640456'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on similarity to consensus sequences</common-name>
+<comment datatype='string'>A DNA sequence similar to previously known consensus sequences is computationally identified.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11305941' orgid='ECOLI' frameid='PUB-11305941'/></evidence>
+<abs-center-pos datatype='float'>3490240.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00111' orgid='ECOLI' frameid='TU00111'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-7008' orgid='ECOLI' frameid='BS0-7008' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5670' orgid='ECOLI' frameid='REG0-5670'/></involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-15883881' orgid='ECOLI' frameid='PUB-15883881' detail='full'><source datatype='string'>J Mol Evol 60(4);462-74</source>
+<pubmed-id datatype='string'>15883881</pubmed-id>
+<title datatype='string'>Comparison of the PhoPQ regulon in Escherichia coli and Salmonella typhimurium.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Monsieurs P</author>
+<author datatype='string'>De Keersmaecker S</author>
+<author datatype='string'>Navarre WW</author>
+<author datatype='string'>Bader MW</author>
+<author datatype='string'>De Smet F</author>
+<author datatype='string'>McClelland M</author>
+<author datatype='string'>Fang FC</author>
+<author datatype='string'>De Moor B</author>
+<author datatype='string'>Vanderleyden J</author>
+<author datatype='string'>Marchal K</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-15883881' orgid='ECOLI' frameid='PUB-15883881'/></evidence>
+<abs-center-pos datatype='integer'>3490211</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00111' orgid='ECOLI' frameid='TU00111'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Promoter resource='#ECOLI:PM00152' orgid='ECOLI' frameid='PM00152'/></component>
+<component><DNA-Binding-Site ID='ECOLI:BS00299' orgid='ECOLI' frameid='BS00299' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5671' orgid='ECOLI' frameid='REG0-5671'/></involved-in-regulation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-PATTERN-DISCOVERY' orgid='ECOLI' frameid='EV-COMP-AINF-PATTERN-DISCOVERY' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on sequence pattern discovery</common-name>
+<credits><imported-from-meta><date datatype='date'>2018-03-07</date>
+<Person ID='ECOLI:paley' orgid='ECOLI' frameid='paley' detail='full'><affiliations><Organization ID='ECOLI:SRI' orgid='ECOLI' frameid='SRI' detail='full'><abbrev-name datatype='string'>SRI International</abbrev-name>
+<email datatype='string'>ptools-support@ai.sri.com</email>
+<common-name datatype='string'>SRI International</common-name>
+<url datatype='string'>http://bioinformatics.ai.sri.com/</url>
+</Organization>
+</affiliations>
+<common-name datatype='string'>Suzanne Paley</common-name>
+</Person>
+<Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A sequence found by pattern discovery using computational methods.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-25735747' orgid='ECOLI' frameid='PUB-25735747' detail='full'><source datatype='string'>Nucleic Acids Res 43(6);3079-88</source>
+<pubmed-id datatype='string'>25735747</pubmed-id>
+<title datatype='string'>The architecture of ArgR-DNA complexes at the genome-scale in Escherichia coli.</title>
+<year datatype='integer'>2015</year>
+<author datatype='string'>Cho S</author>
+<author datatype='string'>Cho YB</author>
+<author datatype='string'>Kang TJ</author>
+<author datatype='string'>Kim SC</author>
+<author datatype='string'>Palsson B</author>
+<author datatype='string'>Cho BK</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-CHIP-EXO' orgid='ECOLI' frameid='EV-EXP-CHIP-EXO' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-HTP-HDA-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-HTP-HDA-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>High-throughput ChIP-exo evidence</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0001806</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0001806</dblink-URL>
+</dblink>
+<credits><imported-from-meta><date datatype='date'>2018-03-05</date>
+<Person resource='#ECOLI:paley' orgid='ECOLI' frameid='paley'/><Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A type of chromatin immunoprecipation evidence that uses gamma-exonuclease to digest transcription-factor-unbound DNA after ChIP for the identification of transcription factor binding site locations with high-resolution data. This evidence can be used to probe the binding of proteins, such as transcription factors or RNA polymerase, to DNA.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-25735747' orgid='ECOLI' frameid='PUB-25735747'/></evidence>
+<citation><Publication resource='#ECOLI:PUB-1640456' orgid='ECOLI' frameid='PUB-1640456'/></citation>
+<citation><Publication resource='#ECOLI:PUB-1640456' orgid='ECOLI' frameid='PUB-1640456'/></citation>
+<citation><Publication resource='#ECOLI:PUB-11305941' orgid='ECOLI' frameid='PUB-11305941'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-1640456' orgid='ECOLI' frameid='PUB-1640456'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-11305941' orgid='ECOLI' frameid='PUB-11305941'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication ID='ECOLI:PUB-17074904' orgid='ECOLI' frameid='PUB-17074904' detail='full'><source datatype='string'>Microbiology 152(Pt 11);3343-54</source>
+<pubmed-id datatype='string'>17074904</pubmed-id>
+<title datatype='string'>The arginine regulon of Escherichia coli: whole-system transcriptome analysis discovers new genes and provides an integrated view of arginine regulation.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Caldara M</author>
+<author datatype='string'>Charlier D</author>
+<author datatype='string'>Cunin R</author>
+</Publication>
+</evidence>
+<abs-center-pos datatype='float'>3490219.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00111' orgid='ECOLI' frameid='TU00111'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10066' orgid='ECOLI' frameid='EG10066'/></component>
+</Transcription-Unit>
+</ptools-xml>

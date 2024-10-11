@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-13725'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-13725</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-13725' orgid='ECOLI' frameid='TU0-13725' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>casABCDE12</common-name>
+<comment datatype='string'>HNS binds in tandem at the &lt;i&gt;casA&lt;/i&gt;-&lt;i&gt;cas3&lt;/i&gt; intergenic region, and it represses the transcription of the &lt;i&gt;casA&lt;/i&gt; gene by inhibiting the RNA polymerase interaction with the &lt;i&gt;casA&lt;/i&gt;p promoter. Analyses for footprinting show that HNS protects two long regions without defining the central positions of the binding sites of the protein HNS; for this reason, we only show the sequence of the hypersensitive site, TCGTTTTATT [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/20126629&quot;&gt;Dyszel10&lt;/a&gt;]. HNS also represses the expression of the anti-Pcas divergent promoter, which is reported to produce an RNA with a length between 150 and 200 bp. There exists the possibility that this divergent promoter affects the transcription or translation of the &lt;i&gt;ygcB&lt;/i&gt; gene.
+&lt;p&gt;
+H-NS and LeuO are antagonistic regulators of &lt;i&gt;casABCDE-cas12&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/20659289&quot;&gt;Westra10&lt;/a&gt;]. LeuO counteracts H-NS-dependent repression of &lt;i&gt;casA&lt;/i&gt;p by reorganizing the DNA-protein contacts within the transcription initiation region [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/20659289&quot;&gt;Westra10&lt;/a&gt;].
+&lt;p&gt;
+Repression of the CRP in the &lt;i&gt;casABCDE-cas1-cas2&lt;/i&gt; operon is H-NS independent [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/24720807&quot;&gt;Yang14&lt;/a&gt;]. In fact, both compete for binding to the &lt;i&gt;casA&lt;/i&gt;p promoter [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/24720807&quot;&gt;Yang14&lt;/a&gt;].
+&lt;p&gt;
+The &lt;i&gt;casABCDE-cas12&lt;/i&gt; operon is repressed by the StpA protein when H-NS is absent [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/32353388&quot;&gt;Mitic20&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-20132443' orgid='ECOLI' frameid='PUB-20132443' detail='full'><source datatype='string'>Mol Microbiol 75(6);1495-512</source>
+<pubmed-id datatype='string'>20132443</pubmed-id>
+<title datatype='string'>Identification and characterization of E. coli CRISPR-cas promoters and their silencing by H-NS.</title>
+<year datatype='integer'>2010</year>
+<author datatype='string'>Pul U</author>
+<author datatype='string'>Wurm R</author>
+<author datatype='string'>Arslan Z</author>
+<author datatype='string'>Geissen R</author>
+<author datatype='string'>Hofmann N</author>
+<author datatype='string'>Wagner R</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-20132443' orgid='ECOLI' frameid='PUB-20132443'/></evidence>
+<component><Promoter ID='ECOLI:PM0-10544' orgid='ECOLI' frameid='PM0-10544' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>2884326</minus-10-left>
+<common-name datatype='string'>casAp</common-name>
+<minus-35-right datatype='integer'>2884354</minus-35-right>
+<minus-35-left datatype='integer'>2884349</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>Pcas</synonym>
+<synonym datatype='string'>casp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2884319</absolute-plus-1-pos>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/><Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-20132443' orgid='ECOLI' frameid='PUB-20132443'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-20132443' orgid='ECOLI' frameid='PUB-20132443'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-13534' orgid='ECOLI' frameid='REG0-13534' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG11554-MONOMER' orgid='ECOLI' frameid='EG11554-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10544' orgid='ECOLI' frameid='PM0-10544'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-12661' orgid='ECOLI' frameid='REG0-12661' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8563' orgid='ECOLI' frameid='CPLX0-8563'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10544' orgid='ECOLI' frameid='PM0-10544'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-12036' orgid='ECOLI' frameid='REG0-12036' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10544' orgid='ECOLI' frameid='PM0-10544'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11478' orgid='ECOLI' frameid='REG0-11478' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00519' orgid='ECOLI' frameid='PD00519'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10544' orgid='ECOLI' frameid='PM0-10544'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11477' orgid='ECOLI' frameid='REG0-11477' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00519' orgid='ECOLI' frameid='PD00519'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10544' orgid='ECOLI' frameid='PM0-10544'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10827' orgid='ECOLI' frameid='REG0-10827' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00519' orgid='ECOLI' frameid='PD00519'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10544' orgid='ECOLI' frameid='PM0-10544'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10826' orgid='ECOLI' frameid='REG0-10826' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00519' orgid='ECOLI' frameid='PD00519'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10544' orgid='ECOLI' frameid='PM0-10544'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10735' orgid='ECOLI' frameid='REG0-10735' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00288' orgid='ECOLI' frameid='PD00288'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10544' orgid='ECOLI' frameid='PM0-10544'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>2884331</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-13725' orgid='ECOLI' frameid='TU0-13725'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:G7430' orgid='ECOLI' frameid='G7430'/></component>
+<component><Gene resource='getxml?ECOLI:G7429' orgid='ECOLI' frameid='G7429'/></component>
+<component><Gene resource='getxml?ECOLI:G7428' orgid='ECOLI' frameid='G7428'/></component>
+<component><Gene resource='getxml?ECOLI:G7427' orgid='ECOLI' frameid='G7427'/></component>
+<component><Gene resource='getxml?ECOLI:G7426' orgid='ECOLI' frameid='G7426'/></component>
+<component><Gene resource='getxml?ECOLI:G7425' orgid='ECOLI' frameid='G7425'/></component>
+<component><Gene resource='getxml?ECOLI:EG12845' orgid='ECOLI' frameid='EG12845'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-6553'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-6553</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-6553' orgid='ECOLI' frameid='TU0-6553' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>lysC</common-name>
+<comment datatype='string'>Repression of &lt;i&gt;lysC&lt;/i&gt; is through a riboswitch mechanism that directs lysine to the 5'-terminal part of the &lt;i&gt;lysC&lt;/i&gt; mRNA [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/18502871&quot;&gt;Bouvier08&lt;/a&gt;].
+&lt;p&gt;
+The riboswitch that senses lysine regulates the terminator located between the promoter and the start of the &lt;i&gt;lysC&lt;/i&gt; gene [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/38253429&quot;&gt;Ghosh24&lt;/a&gt;]. The &lt;i&gt;rut&lt;/i&gt; site of the Rho-dependent terminator overlaps with an RNase E site [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/38253429&quot;&gt;Ghosh24&lt;/a&gt;]. This protein appears to degrade the product of premature transcription termination [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/38253429&quot;&gt;Ghosh24&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-16556' orgid='ECOLI' frameid='REG0-16556' detail='low'><parent><Regulation resource='getxml?ECOLI:Compound-Mediated-Translation-Regulation' orgid='ECOLI' frameid='Compound-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><Compound resource='getxml?ECOLI:CPD-219' orgid='ECOLI' frameid='CPD-219'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-6553' orgid='ECOLI' frameid='TU0-6553'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component><Gene resource='getxml?ECOLI:EG10550' orgid='ECOLI' frameid='EG10550'/></component>
+<component><Promoter ID='ECOLI:PM178' orgid='ECOLI' frameid='PM178' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>4233625</minus-10-left>
+<common-name datatype='string'>lysCp2</common-name>
+<minus-35-right datatype='integer'>4233657</minus-35-right>
+<minus-35-left datatype='integer'>4233652</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4233616</absolute-plus-1-pos>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/><Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-9812360' orgid='ECOLI' frameid='PUB-9812360' detail='full'><source datatype='string'>FEMS Microbiol Lett 1998;168(1);31-6</source>
+<pubmed-id datatype='string'>9812360</pubmed-id>
+<title datatype='string'>Analysis of the regulatory region of the lysC gene of Escherichia coli.</title>
+<year datatype='integer'>1998</year>
+<author datatype='string'>Liao HH</author>
+<author datatype='string'>Hseu TH</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9812360' orgid='ECOLI' frameid='PUB-9812360'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9812360' orgid='ECOLI' frameid='PUB-9812360'/></evidence>
+<minus-10-right datatype='integer'>4233630</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-6553' orgid='ECOLI' frameid='TU0-6553'/></component-of>
+</Promoter>
+</component>
+<component><Terminator ID='ECOLI:TERM0-1304' orgid='ECOLI' frameid='TERM0-1304' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Dependent-Terminators' orgid='ECOLI' frameid='Rho-Dependent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>4233277</right-end-position>
+<left-end-position datatype='integer'>4233239</left-end-position>
+<citation><Publication ID='ECOLI:PUB-38253429' orgid='ECOLI' frameid='PUB-38253429' detail='full'><source datatype='string'>RNA 30(4);381-391</source>
+<pubmed-id datatype='string'>38253429</pubmed-id>
+<title datatype='string'>Direct and indirect control of Rho-dependent transcription termination by the  &lt;i&gt;Escherichia coli lysC&lt;/i&gt; riboswitch.</title>
+<year datatype='integer'>2024</year>
+<author datatype='string'>Ghosh T</author>
+<author datatype='string'>Jahangirnejad S</author>
+<author datatype='string'>Chauvier A</author>
+<author datatype='string'>Stringer AM</author>
+<author datatype='string'>Korepanov AP</author>
+<author datatype='string'>Cote JP</author>
+<author datatype='string'>Wade JT</author>
+<author datatype='string'>Lafontaine DA</author>
+<doi-id datatype='string'>10.1261/rna.079779.123</doi-id>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-6553' orgid='ECOLI' frameid='TU0-6553'/><Transcription-Unit resource='getxml?ECOLI:TU0-6552' orgid='ECOLI' frameid='TU0-6552'/></component-of>
+</Terminator>
+</component>
+</Transcription-Unit>
+</ptools-xml>

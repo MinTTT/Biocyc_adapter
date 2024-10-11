@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-4288'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-4288</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-4288' orgid='ECOLI' frameid='TU0-4288' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>iclR</common-name>
+<citation><Publication ID='ECOLI:PUB-2185227' orgid='ECOLI' frameid='PUB-2185227' detail='full'><source datatype='string'>J Bacteriol 172(5);2642-9</source>
+<pubmed-id datatype='string'>2185227</pubmed-id>
+<title datatype='string'>Regulation of the glyoxylate bypass operon: cloning and characterization of iclR.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>Sunnarborg A</author>
+<author datatype='string'>Klumpp D</author>
+<author datatype='string'>Chung T</author>
+<author datatype='string'>LaPorte DC</author>
+</Publication>
+</citation>
+<component><DNA-Binding-Site ID='ECOLI:BS-7067' orgid='ECOLI' frameid='BS-7067' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6255' orgid='ECOLI' frameid='REG0-6255' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7605' orgid='ECOLI' frameid='CPLX0-7605'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-4528' orgid='ECOLI' frameid='PM0-4528' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>iclRp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4223652</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-8550439' orgid='ECOLI' frameid='PUB-8550439' detail='full'><source datatype='string'>J Bacteriol 178(1);321-4</source>
+<pubmed-id datatype='string'>8550439</pubmed-id>
+<title datatype='string'>Autoregulation of iclR, the gene encoding the repressor of the glyoxylate bypass operon.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Gui L</author>
+<author datatype='string'>Sunnarborg A</author>
+<author datatype='string'>Pan B</author>
+<author datatype='string'>LaPorte DC</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8550439' orgid='ECOLI' frameid='PUB-8550439'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-6255' orgid='ECOLI' frameid='REG0-6255'/><Regulation ID='ECOLI:REG0-6254' orgid='ECOLI' frameid='REG0-6254' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD01520' orgid='ECOLI' frameid='PD01520'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-4528' orgid='ECOLI' frameid='PM0-4528'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4288' orgid='ECOLI' frameid='TU0-4288'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-8682810' orgid='ECOLI' frameid='PUB-8682810' detail='full'><source datatype='string'>J Bacteriol 178(13);3982-4</source>
+<pubmed-id datatype='string'>8682810</pubmed-id>
+<title datatype='string'>The binding site of the IclR repressor protein overlaps the promoter of aceBAK.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Pan B</author>
+<author datatype='string'>Unnikrishnan I</author>
+<author datatype='string'>LaPorte DC</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-12492863' orgid='ECOLI' frameid='PUB-12492863' detail='full'><source datatype='string'>Mol Microbiol 47(1);183-94</source>
+<pubmed-id datatype='string'>12492863</pubmed-id>
+<title datatype='string'>Two different modes of transcription repression of the Escherichia coli acetate operon by IclR.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Yamamoto K</author>
+<author datatype='string'>Ishihama A</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8682810' orgid='ECOLI' frameid='PUB-8682810'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12492863' orgid='ECOLI' frameid='PUB-12492863'/></evidence>
+<site-length datatype='integer'>15</site-length>
+<abs-center-pos datatype='integer'>4223659</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4288' orgid='ECOLI' frameid='TU0-4288'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-3242' orgid='ECOLI' frameid='BS0-3242' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-6254' orgid='ECOLI' frameid='REG0-6254'/></involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-8755903' orgid='ECOLI' frameid='PUB-8755903' detail='full'><source datatype='string'>J Bacteriol 178(15);4704-9</source>
+<pubmed-id datatype='string'>8755903</pubmed-id>
+<title datatype='string'>Regulated expression of a repressor protein: FadR activates iclR.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Gui L</author>
+<author datatype='string'>Sunnarborg A</author>
+<author datatype='string'>LaPorte DC</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-8755903' orgid='ECOLI' frameid='PUB-8755903'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Site mutation</common-name>
+<comment datatype='string'>A cis-mutation in the DNA sequence of the transcription-factor binding site interferes with the operation of the regulatory function. This is considered  strong evidence for the existence and functional role of the DNA binding site.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8755903' orgid='ECOLI' frameid='PUB-8755903'/></evidence>
+<abs-center-pos datatype='integer'>4223706</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4288' orgid='ECOLI' frameid='TU0-4288'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10491' orgid='ECOLI' frameid='EG10491'/></component>
+<component><Promoter resource='#ECOLI:PM0-4528' orgid='ECOLI' frameid='PM0-4528'/></component>
+</Transcription-Unit>
+</ptools-xml>

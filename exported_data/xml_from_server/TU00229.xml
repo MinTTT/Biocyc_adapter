@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00229'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00229</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00229' orgid='ECOLI' frameid='TU00229' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>gntT</common-name>
+<synonym datatype='string'>OP00324</synonym>
+<citation><Publication ID='ECOLI:PUB-9045817' orgid='ECOLI' frameid='PUB-9045817' detail='full'><source datatype='string'>J Bacteriol 179(5);1584-90</source>
+<pubmed-id datatype='string'>9045817</pubmed-id>
+<title datatype='string'>Molecular genetic characterization of the Escherichia coli gntT gene of GntI, the main system for gluconate metabolism.</title>
+<year datatype='integer'>1997</year>
+<author datatype='string'>Porco A</author>
+<author datatype='string'>Peekhaus N</author>
+<author datatype='string'>Bausch C</author>
+<author datatype='string'>Tong S</author>
+<author datatype='string'>Isturiz T</author>
+<author datatype='string'>Conway T</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9045817' orgid='ECOLI' frameid='PUB-9045817'/></evidence>
+<component><Promoter ID='ECOLI:PM00315' orgid='ECOLI' frameid='PM00315' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>3546393</minus-10-left>
+<common-name datatype='string'>gntTp1</common-name>
+<minus-35-right datatype='integer'>3546374</minus-35-right>
+<minus-35-left datatype='integer'>3546369</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3546405</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-9045817' orgid='ECOLI' frameid='PUB-9045817'/></citation>
+<citation><Publication ID='ECOLI:PUB-9358057' orgid='ECOLI' frameid='PUB-9358057' detail='full'><source datatype='string'>Gene 199(1-2);203-10</source>
+<pubmed-id datatype='string'>9358057</pubmed-id>
+<title datatype='string'>Characterization of the gntT gene encoding a high-affinity gluconate permease in Escherichia coli.</title>
+<year datatype='integer'>1997</year>
+<author datatype='string'>Izu H</author>
+<author datatype='string'>Kawai T</author>
+<author datatype='string'>Yamada Y</author>
+<author datatype='string'>Aoshima H</author>
+<author datatype='string'>Adachi O</author>
+<author datatype='string'>Yamada M</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9045817' orgid='ECOLI' frameid='PUB-9045817'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-5919' orgid='ECOLI' frameid='REG0-5919' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD03585' orgid='ECOLI' frameid='PD03585'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00315' orgid='ECOLI' frameid='PM00315'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5918' orgid='ECOLI' frameid='REG0-5918' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD03585' orgid='ECOLI' frameid='PD03585'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00315' orgid='ECOLI' frameid='PM00315'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5917' orgid='ECOLI' frameid='REG0-5917' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00315' orgid='ECOLI' frameid='PM00315'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>3546398</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00229' orgid='ECOLI' frameid='TU00229'/></component-of>
+</Promoter>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-3814' orgid='ECOLI' frameid='BS0-3814' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6216' orgid='ECOLI' frameid='REG0-6216' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD03585' orgid='ECOLI' frameid='PD03585'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-5168' orgid='ECOLI' frameid='PM0-5168' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>gntTp2</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3546446</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-9358057' orgid='ECOLI' frameid='PUB-9358057'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-9358057' orgid='ECOLI' frameid='PUB-9358057'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-6216' orgid='ECOLI' frameid='REG0-6216'/><Regulation ID='ECOLI:REG0-6215' orgid='ECOLI' frameid='REG0-6215' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD03585' orgid='ECOLI' frameid='PD03585'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-5168' orgid='ECOLI' frameid='PM0-5168'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6214' orgid='ECOLI' frameid='REG0-6214' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-5168' orgid='ECOLI' frameid='PM0-5168'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-4928' orgid='ECOLI' frameid='TU0-4928'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6213' orgid='ECOLI' frameid='REG0-6213' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD03585' orgid='ECOLI' frameid='PD03585'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-5167' orgid='ECOLI' frameid='PM0-5167' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>gntTp3</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3546449</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-9358057' orgid='ECOLI' frameid='PUB-9358057'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-9358057' orgid='ECOLI' frameid='PUB-9358057'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-6213' orgid='ECOLI' frameid='REG0-6213'/><Regulation ID='ECOLI:REG0-6212' orgid='ECOLI' frameid='REG0-6212' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD03585' orgid='ECOLI' frameid='PD03585'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-5167' orgid='ECOLI' frameid='PM0-5167'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6211' orgid='ECOLI' frameid='REG0-6211' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-5167' orgid='ECOLI' frameid='PM0-5167'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-4927' orgid='ECOLI' frameid='TU0-4927'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-5918' orgid='ECOLI' frameid='REG0-5918'/></involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-9657988' orgid='ECOLI' frameid='PUB-9657988' detail='full'><source datatype='string'>J Bacteriol 180(14);3495-502</source>
+<pubmed-id datatype='string'>9657988</pubmed-id>
+<title datatype='string'>What's for dinner?: Entner-Doudoroff metabolism in Escherichia coli.</title>
+<year datatype='integer'>1998</year>
+<author datatype='string'>Peekhaus N</author>
+<author datatype='string'>Conway T</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-9358057' orgid='ECOLI' frameid='PUB-9358057'/></citation>
+<citation><Publication ID='ECOLI:PUB-9537375' orgid='ECOLI' frameid='PUB-9537375' detail='full'><source datatype='string'>J Bacteriol 180(7);1777-85</source>
+<pubmed-id datatype='string'>9537375</pubmed-id>
+<title datatype='string'>Positive and negative transcriptional regulation of the Escherichia coli gluconate regulon gene gntT by GntR and the cyclic AMP (cAMP)-cAMP receptor protein complex.</title>
+<year datatype='integer'>1998</year>
+<author datatype='string'>Peekhaus N</author>
+<author datatype='string'>Conway T</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-11115104' orgid='ECOLI' frameid='PUB-11115104' detail='full'><source datatype='string'>Mol Microbiol 38(4);673-83</source>
+<pubmed-id datatype='string'>11115104</pubmed-id>
+<title datatype='string'>Transcriptional regulation of transport and utilization systems for hexuronides, hexuronates and hexonates in gamma purple bacteria.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Rodionov DA</author>
+<author datatype='string'>Mironov AA</author>
+<author datatype='string'>Rakhmaninova AB</author>
+<author datatype='string'>Gelfand MS</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-26151451' orgid='ECOLI' frameid='PUB-26151451' detail='full'><source datatype='string'>PLoS One 10(7);e0132618</source>
+<pubmed-id datatype='string'>26151451</pubmed-id>
+<title datatype='string'>GntR Family of Bacterial Transcription Factors and Their DNA Binding Motifs: Structure, Positioning and Co-Evolution.</title>
+<year datatype='integer'>2015</year>
+<author datatype='string'>Suvorova IA</author>
+<author datatype='string'>Korostelev YD</author>
+<author datatype='string'>Gelfand MS</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9358057' orgid='ECOLI' frameid='PUB-9358057'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on similarity to consensus sequences</common-name>
+<comment datatype='string'>A DNA sequence similar to previously known consensus sequences is computationally identified.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9358057' orgid='ECOLI' frameid='PUB-9358057'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9537375' orgid='ECOLI' frameid='PUB-9537375'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-TAS' orgid='ECOLI' frameid='EV-EXP-TAS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Traceable author statement to experimental support</common-name>
+<comment datatype='string'>Traceable author statement to experimental support.  The assertion was made in a publication -- such as a review or 
+in another database -- that itself did not describe an experiment supporting the
+assertion.  However, the statement did reference another publication describing an experiment 
+that supports the assertion.  The difference between the codes EV-EXP-TAS and EV-AS-TAS 
+is that the former code is used when it is certain that experimental evidence supports the
+assertion, and the latter code is used when there is a possibility that an experiment was
+not done to support the assertion.
+In general, references to the primary literature are preferred,
+but this code can be used when the original article is difficult to locate.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9657988' orgid='ECOLI' frameid='PUB-9657988'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-11115104' orgid='ECOLI' frameid='PUB-11115104'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-26151451' orgid='ECOLI' frameid='PUB-26151451'/></evidence>
+<abs-center-pos datatype='float'>3546390.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00229' orgid='ECOLI' frameid='TU00229'/><Transcription-Unit resource='getxml?ECOLI:TU0-4928' orgid='ECOLI' frameid='TU0-4928'/><Transcription-Unit resource='getxml?ECOLI:TU0-4927' orgid='ECOLI' frameid='TU0-4927'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-4163' orgid='ECOLI' frameid='BS0-4163' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-6215' orgid='ECOLI' frameid='REG0-6215'/><Regulation resource='#ECOLI:REG0-6212' orgid='ECOLI' frameid='REG0-6212'/><Regulation resource='#ECOLI:REG0-5919' orgid='ECOLI' frameid='REG0-5919'/></involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-9657988' orgid='ECOLI' frameid='PUB-9657988'/></citation>
+<citation><Publication resource='#ECOLI:PUB-9537375' orgid='ECOLI' frameid='PUB-9537375'/></citation>
+<citation><Publication resource='#ECOLI:PUB-11115104' orgid='ECOLI' frameid='PUB-11115104'/></citation>
+<citation><Publication resource='#ECOLI:PUB-26151451' orgid='ECOLI' frameid='PUB-26151451'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-9537375' orgid='ECOLI' frameid='PUB-9537375'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-TAS' orgid='ECOLI' frameid='EV-EXP-TAS' class='true'/><Publication resource='#ECOLI:PUB-9657988' orgid='ECOLI' frameid='PUB-9657988'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-11115104' orgid='ECOLI' frameid='PUB-11115104'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-26151451' orgid='ECOLI' frameid='PUB-26151451'/></evidence>
+<abs-center-pos datatype='float'>3546531.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00229' orgid='ECOLI' frameid='TU00229'/><Transcription-Unit resource='getxml?ECOLI:TU0-4928' orgid='ECOLI' frameid='TU0-4928'/><Transcription-Unit resource='getxml?ECOLI:TU0-4927' orgid='ECOLI' frameid='TU0-4927'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-3812' orgid='ECOLI' frameid='BS0-3812' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-6214' orgid='ECOLI' frameid='REG0-6214'/><Regulation resource='#ECOLI:REG0-6211' orgid='ECOLI' frameid='REG0-6211'/><Regulation resource='#ECOLI:REG0-5917' orgid='ECOLI' frameid='REG0-5917'/></involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-9358057' orgid='ECOLI' frameid='PUB-9358057'/></citation>
+<citation><Publication resource='#ECOLI:PUB-9537375' orgid='ECOLI' frameid='PUB-9537375'/></citation>
+<citation><Publication resource='#ECOLI:PUB-11115104' orgid='ECOLI' frameid='PUB-11115104'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Site mutation</common-name>
+<comment datatype='string'>A cis-mutation in the DNA sequence of the transcription-factor binding site interferes with the operation of the regulatory function. This is considered  strong evidence for the existence and functional role of the DNA binding site.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9537375' orgid='ECOLI' frameid='PUB-9537375'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-9358057' orgid='ECOLI' frameid='PUB-9358057'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-TAS' orgid='ECOLI' frameid='EV-EXP-TAS' class='true'/><Publication resource='#ECOLI:PUB-9657988' orgid='ECOLI' frameid='PUB-9657988'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-9537375' orgid='ECOLI' frameid='PUB-9537375'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-11115104' orgid='ECOLI' frameid='PUB-11115104'/></evidence>
+<abs-center-pos datatype='float'>3546333.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00229' orgid='ECOLI' frameid='TU00229'/><Transcription-Unit resource='getxml?ECOLI:TU0-4928' orgid='ECOLI' frameid='TU0-4928'/><Transcription-Unit resource='getxml?ECOLI:TU0-4927' orgid='ECOLI' frameid='TU0-4927'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG12380' orgid='ECOLI' frameid='EG12380'/></component>
+</Transcription-Unit>
+</ptools-xml>

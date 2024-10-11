@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM241'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM241</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM241' orgid='ECOLI' frameid='PM241' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>4542701</minus-10-left>
+<common-name datatype='string'>fimAp</common-name>
+<minus-35-right datatype='integer'>4542730</minus-35-right>
+<minus-35-left datatype='integer'>4542725</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4542694</absolute-plus-1-pos>
+<comment datatype='string'>The fimAp promoter is located in a region that is part of a 314-bp invertible region whose inversion is necessary to activate (&amp;quot;on&amp;quot; orientation) or inactivate (&amp;quot; off&amp;quot; orientation) the transcription of the &lt;i&gt;fimAICDFGH&lt;/i&gt; operon[&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/2863818&quot;&gt;Abraham85&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/7510658&quot;&gt;Olsen94&lt;/a&gt;].  The sequence is shown in the off orientation in the database, and therefore the -10 and -35 boxes are located downstream of the transcriptional start site (TSS), and their sequences are shown in the inverted direction [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/2863818&quot;&gt;Abraham85&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/7510658&quot;&gt;Olsen94&lt;/a&gt;]. When the region is inverted, the boxes are located in the correct position (upstream of the TSS) and correct orientation (-10 box TATGAT, -35 box TTGAGA) to be functional and activate the &lt;i&gt;fim&lt;/i&gt; operon [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/2863818&quot;&gt;Abraham85&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/7510658&quot;&gt;Olsen94&lt;/a&gt;].
+&lt;p&gt;
+&lt;i&gt;fimA&lt;/i&gt; transcription is regulated by the growth phase. and its repression requires the alternative &amp;sigma; factor, RpoS, during entry to stationary phase. Although the mechanism by which RpoS achieves negative control is unknown, it is possible that the effect on &lt;i&gt;fimA&lt;/i&gt; is exerted indirectly [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/9108285&quot;&gt;Dove97&lt;/a&gt;] .</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-7510658' orgid='ECOLI' frameid='PUB-7510658' detail='full'><source datatype='string'>FEMS Microbiol Lett 116(1);95-100</source>
+<pubmed-id datatype='string'>7510658</pubmed-id>
+<title datatype='string'>Localization of promoters in the fim gene cluster and the effect of H-NS on the transcription of fimB and fimE.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Olsen PB</author>
+<author datatype='string'>Klemm P</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-7510658' orgid='ECOLI' frameid='PUB-7510658'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-7510658' orgid='ECOLI' frameid='PUB-7510658'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-16285' orgid='ECOLI' frameid='REG0-16285' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM241' orgid='ECOLI' frameid='PM241'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-13390' orgid='ECOLI' frameid='REG0-13390' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:MONOMER0-2741' orgid='ECOLI' frameid='MONOMER0-2741'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM241' orgid='ECOLI' frameid='PM241'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5134' orgid='ECOLI' frameid='REG0-5134' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PC00027' orgid='ECOLI' frameid='PC00027'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM241' orgid='ECOLI' frameid='PM241'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5133' orgid='ECOLI' frameid='REG0-5133' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00353' orgid='ECOLI' frameid='PD00353'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM241' orgid='ECOLI' frameid='PM241'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5132' orgid='ECOLI' frameid='REG0-5132' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00353' orgid='ECOLI' frameid='PD00353'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM241' orgid='ECOLI' frameid='PM241'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5131' orgid='ECOLI' frameid='REG0-5131' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00353' orgid='ECOLI' frameid='PD00353'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM241' orgid='ECOLI' frameid='PM241'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5130' orgid='ECOLI' frameid='REG0-5130' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PC00027' orgid='ECOLI' frameid='PC00027'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM241' orgid='ECOLI' frameid='PM241'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5129' orgid='ECOLI' frameid='REG0-5129' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00288' orgid='ECOLI' frameid='PD00288'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM241' orgid='ECOLI' frameid='PM241'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>4542706</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU182' orgid='ECOLI' frameid='TU182'/></component-of>
+</Promoter>
+</ptools-xml>

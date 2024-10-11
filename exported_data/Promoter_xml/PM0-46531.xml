@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM0-46531'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM0-46531</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM0-46531' orgid='ECOLI' frameid='PM0-46531' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>2533484</minus-10-left>
+<common-name datatype='string'>ptsHp</common-name>
+<minus-35-right datatype='integer'>2533468</minus-35-right>
+<minus-35-left datatype='integer'>2533456</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOH-MONOMER' orgid='ECOLI' frameid='RPOH-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>ptsP0a</synonym>
+<synonym datatype='string'>ptsPOa</synonym>
+<synonym datatype='string'>ptsHp0a</synonym>
+<synonym datatype='string'>ptsHp1</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2533501</absolute-plus-1-pos>
+<comment datatype='string'>The &lt;i&gt;pts&lt;/i&gt;Hp4 (&lt;i&gt;pts&lt;/i&gt;Oa) promoter is activated during growth in the presence of glucose [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/9856350&quot;&gt;Ryu98&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred by a human based on computational evidence</common-name>
+<comment datatype='string'>Human inference.  A curator or author inferred this assertion after review of one or more possible types 
+of computational evidence such as sequence similarity, recognized motifs or consensus sequence, etc.  
+When the inference was made by a computer in an automated fashion, use EV-AINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-9856350' orgid='ECOLI' frameid='PUB-9856350' detail='full'><source datatype='string'>Mol Cells 8(5);614-7</source>
+<pubmed-id datatype='string'>9856350</pubmed-id>
+<title datatype='string'>CRP.cAMP-dependent transcription activation of the Escherichia coli pts Po promoter by the heat shock RNA polymerase (Esigma32) in vitro.</title>
+<year datatype='integer'>1998</year>
+<author datatype='string'>Ryu S</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-7852310' orgid='ECOLI' frameid='PUB-7852310' detail='full'><source datatype='string'>J Biol Chem 270(6);2489-96</source>
+<pubmed-id datatype='string'>7852310</pubmed-id>
+<title datatype='string'>Effect of the FruR regulator on transcription of the pts operon in Escherichia coli.</title>
+<year datatype='integer'>1995</year>
+<author datatype='string'>Ryu S</author>
+<author datatype='string'>Ramseier TM</author>
+<author datatype='string'>Michotey V</author>
+<author datatype='string'>Saier MH</author>
+<author datatype='string'>Garges S</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-10411743' orgid='ECOLI' frameid='PUB-10411743' detail='full'><source datatype='string'>Mol Microbiol 33(2);260-73</source>
+<pubmed-id datatype='string'>10411743</pubmed-id>
+<title datatype='string'>Expression of the phosphotransferase system both mediates and is mediated by Mlc regulation in Escherichia coli.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>Plumbridge J</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8106445' orgid='ECOLI' frameid='PUB-8106445' detail='full'><source datatype='string'>J Biol Chem 269(7);4767-72</source>
+<pubmed-id datatype='string'>8106445</pubmed-id>
+<title datatype='string'>Promoter switch in the Escherichia coli pts operon.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Ryu S</author>
+<author datatype='string'>Garges S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10411743' orgid='ECOLI' frameid='PUB-10411743'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10411743' orgid='ECOLI' frameid='PUB-10411743'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-8106445' orgid='ECOLI' frameid='PUB-8106445'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-15068' orgid='ECOLI' frameid='REG0-15068' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46531' orgid='ECOLI' frameid='PM0-46531'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15067' orgid='ECOLI' frameid='REG0-15067' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD01896' orgid='ECOLI' frameid='PD01896'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46531' orgid='ECOLI' frameid='PM0-46531'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15066' orgid='ECOLI' frameid='REG0-15066' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00266' orgid='ECOLI' frameid='PD00266'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46531' orgid='ECOLI' frameid='PM0-46531'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>2533492</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45232' orgid='ECOLI' frameid='TU0-45232'/></component-of>
+</Promoter>
+</ptools-xml>

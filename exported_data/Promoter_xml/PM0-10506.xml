@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM0-10506'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM0-10506</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM0-10506' orgid='ECOLI' frameid='PM0-10506' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>3710585</minus-10-left>
+<common-name datatype='string'>eptBp</common-name>
+<minus-35-right datatype='integer'>3710611</minus-35-right>
+<minus-35-left datatype='integer'>3710606</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3710581</absolute-plus-1-pos>
+<comment datatype='string'>The expression of the &lt;i&gt;eptB&lt;/i&gt; gene is induced primarily by &amp;sigma;&lt;sup&gt;70&lt;/sup&gt;, and it is totally repressed by MgrR [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23659637&quot;&gt;Moon13&lt;/a&gt;]. However, when &amp;sigma;&lt;sup&gt;E&lt;/sup&gt; is induced, expression of &lt;i&gt;eptB&lt;/i&gt; is significant even in the presence of MgrR [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23659637&quot;&gt;Moon13&lt;/a&gt;].
+&lt;p&gt;
+This promoter appears to be induced in two phases after &amp;sigma;E induction. It is induced during the first 5 minutes following &amp;sigma;E induction, decreased from 5 to 10 minutes, induced from 10 to 15 minutes, and decreased from 15 to 20 minutes [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31992590&quot;&gt;Lacoux20&lt;/a&gt;].
+&lt;p&gt;
+</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-19889087' orgid='ECOLI' frameid='PUB-19889087' detail='full'><source datatype='string'>Mol Microbiol 74(6);1314-30</source>
+<pubmed-id datatype='string'>19889087</pubmed-id>
+<title datatype='string'>A PhoQ/P-regulated small RNA regulates sensitivity of Escherichia coli to antimicrobial peptides.</title>
+<year datatype='integer'>2009</year>
+<author datatype='string'>Moon K</author>
+<author datatype='string'>Gottesman S</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-23659637' orgid='ECOLI' frameid='PUB-23659637' detail='full'><source datatype='string'>Mol Microbiol 89(1);52-64</source>
+<pubmed-id datatype='string'>23659637</pubmed-id>
+<title datatype='string'>Complex transcriptional and post-transcriptional regulation of an enzyme for lipopolysaccharide modification.</title>
+<year datatype='integer'>2013</year>
+<author datatype='string'>Moon K</author>
+<author datatype='string'>Six DA</author>
+<author datatype='string'>Lee HJ</author>
+<author datatype='string'>Raetz CR</author>
+<author datatype='string'>Gottesman S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-19889087' orgid='ECOLI' frameid='PUB-19889087'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-23659637' orgid='ECOLI' frameid='PUB-23659637'/></evidence>
+<minus-10-right datatype='integer'>3710590</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-13975' orgid='ECOLI' frameid='TU0-13975'/></component-of>
+</Promoter>
+</ptools-xml>

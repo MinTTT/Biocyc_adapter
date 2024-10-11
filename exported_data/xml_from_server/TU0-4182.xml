@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-4182'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-4182</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-4182' orgid='ECOLI' frameid='TU0-4182' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rfaDFCL</common-name>
+<comment datatype='string'>It was experimentally demonstrated that the Rho protein negatively regulates expression of the genes &lt;i&gt;waaF&lt;/i&gt; and &lt;i&gt;waaL&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/33329496&quot;&gt;Hafeezunnisa20&lt;/a&gt;]. Rho loading sites (rut sites) were identified upstream of these two genes [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/33329496&quot;&gt;Hafeezunnisa20&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-1624462' orgid='ECOLI' frameid='PUB-1624462' detail='full'><source datatype='string'>J Bacteriol 174(14);4746-52</source>
+<pubmed-id datatype='string'>1624462</pubmed-id>
+<title datatype='string'>Comparison of lipopolysaccharide biosynthesis genes rfaK, rfaL, rfaY, and rfaZ of Escherichia coli K-12 and Salmonella typhimurium.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Klena JD</author>
+<author datatype='string'>Pradel E</author>
+<author datatype='string'>Schnaitman CA</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-8157607' orgid='ECOLI' frameid='PUB-8157607' detail='full'><source datatype='string'>J Bacteriol 176(8);2379-85</source>
+<pubmed-id datatype='string'>8157607</pubmed-id>
+<title datatype='string'>Molecular analysis of the rfaD gene, for heptose synthesis, and the rfaF gene, for heptose transfer, in lipopolysaccharide synthesis in Salmonella typhimurium.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Sirisena DM</author>
+<author datatype='string'>MacLachlan PR</author>
+<author datatype='string'>Liu SL</author>
+<author datatype='string'>Hessel A</author>
+<author datatype='string'>Sanderson KE</author>
+</Publication>
+</evidence>
+<component><Gene resource='getxml?ECOLI:EG11424' orgid='ECOLI' frameid='EG11424'/></component>
+<component><Gene resource='getxml?ECOLI:EG11189' orgid='ECOLI' frameid='EG11189'/></component>
+<component><Gene resource='getxml?ECOLI:EG12210' orgid='ECOLI' frameid='EG12210'/></component>
+<component><Gene resource='getxml?ECOLI:EG10838' orgid='ECOLI' frameid='EG10838'/></component>
+<component><Promoter ID='ECOLI:PM0-4422' orgid='ECOLI' frameid='PM0-4422' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>rfaDp2</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3793896</absolute-plus-1-pos>
+<comment datatype='string'>This promoter has  a sequence which perfectly matches  a sequence found in &amp;sigma;&lt;sup&gt;54&lt;/sup&gt;-transcribed  promoters, but this resemblance is limited only to the -12 region.</comment>
+<citation><Publication ID='ECOLI:PUB-1861974' orgid='ECOLI' frameid='PUB-1861974' detail='full'><source datatype='string'>Nucleic Acids Res 19(14);3811-9</source>
+<pubmed-id datatype='string'>1861974</pubmed-id>
+<title datatype='string'>The htrM gene, whose product is essential for Escherichia coli viability only at elevated temperatures, is identical to the rfaD gene.</title>
+<year datatype='integer'>1991</year>
+<author datatype='string'>Raina S</author>
+<author datatype='string'>Georgopoulos C</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1861974' orgid='ECOLI' frameid='PUB-1861974'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1861974' orgid='ECOLI' frameid='PUB-1861974'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4182' orgid='ECOLI' frameid='TU0-4182'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

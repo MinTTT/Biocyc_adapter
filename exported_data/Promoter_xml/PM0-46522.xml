@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM0-46522'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM0-46522</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM0-46522' orgid='ECOLI' frameid='PM0-46522' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>1103846</minus-10-left>
+<common-name datatype='string'>csgBp2</common-name>
+<minus-35-right datatype='integer'>1103829</minus-35-right>
+<minus-35-left datatype='integer'>1103824</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>csgBA</synonym>
+<synonym datatype='string'>csgAB</synonym>
+<synonym datatype='string'>pcsgBA</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1103859</absolute-plus-1-pos>
+<comment datatype='string'>Of the transcriptional start site of this promoter, an AT-rich upstream activation sequence was determined that is required for transcriptional activation during entry into stationary phase; it is positioned between -98 and -54 with respect to the transcriptional start point. There are two transcripts in the &lt;i&gt;csgBA&lt;/i&gt; operon; one primary transcript is initiated from the &lt;i&gt;csgB&lt;/i&gt; promoter, which is differentially degraded to give a shorter transcript corresponding to the &lt;i&gt;csgA&lt;/i&gt; gene. Crl is a new thermosensor identified in the &lt;i&gt;Escherichia coli&lt;/i&gt; RpoS regulon which interacts directly with &amp;sigma;&lt;sup&gt;S&lt;/sup&gt;, promoting the binding of E&amp;sigma;&lt;sup&gt;S&lt;/sup&gt; to the csgBp promoter [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/14978043&quot;&gt;Bougdour04&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-COLISALII' orgid='ECOLI' frameid='PUB-COLISALII' detail='full'><source datatype='string'>American Society for Microbiology, Washington, D.C., 1996</source>
+<title datatype='string'>Escherichia coli and Salmonella, Cellular and Molecular Biology, Second Edition</title>
+<author datatype='string'>Neidhardt FC</author>
+<author datatype='string'>Curtiss III R</author>
+<author datatype='string'>Ingraham JL</author>
+<author datatype='string'>Lin ECC</author>
+<author datatype='string'>Low Jr KB</author>
+<author datatype='string'>Magasanik B</author>
+<author datatype='string'>Reznikoff WS</author>
+<author datatype='string'>Riley M</author>
+<author datatype='string'>Schaechter M</author>
+<author datatype='string'>Umbarger HE</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-7854117' orgid='ECOLI' frameid='PUB-7854117' detail='full'><source datatype='string'>Mol Microbiol 13(6);1021-32</source>
+<pubmed-id datatype='string'>7854117</pubmed-id>
+<title datatype='string'>Sigma S-dependent growth-phase induction of the csgBA promoter in Escherichia coli can be achieved in vivo by sigma 70 in the absence of the nucleoid-associated protein H-NS.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Arnqvist A</author>
+<author datatype='string'>Olsen A</author>
+<author datatype='string'>Normark S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-7854117' orgid='ECOLI' frameid='PUB-7854117'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-RNA-POLYMERASE-FOOTPRINTING' orgid='ECOLI' frameid='EV-EXP-IDA-RNA-POLYMERASE-FOOTPRINTING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>RNA polymerase footprinting</common-name>
+<comment datatype='string'>The binding of RNA polymerase to a DNA region (the promoter) is shown by footprinting.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14978043' orgid='ECOLI' frameid='PUB-14978043' detail='full'><source datatype='string'>J Biol Chem 279(19);19540-50</source>
+<pubmed-id datatype='string'>14978043</pubmed-id>
+<title datatype='string'>Crl, a low temperature-induced protein in Escherichia coli that binds directly to the stationary phase sigma subunit of RNA polymerase.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Bougdour A</author>
+<author datatype='string'>Lelong C</author>
+<author datatype='string'>Geiselmann J</author>
+</Publication>
+</evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-15001' orgid='ECOLI' frameid='REG0-15001' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD01379' orgid='ECOLI' frameid='PD01379'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46522' orgid='ECOLI' frameid='PM0-46522'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15000' orgid='ECOLI' frameid='REG0-15000' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7748' orgid='ECOLI' frameid='CPLX0-7748'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46522' orgid='ECOLI' frameid='PM0-46522'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-14999' orgid='ECOLI' frameid='REG0-14999' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD01379' orgid='ECOLI' frameid='PD01379'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46522' orgid='ECOLI' frameid='PM0-46522'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-14998' orgid='ECOLI' frameid='REG0-14998' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD01379' orgid='ECOLI' frameid='PD01379'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46522' orgid='ECOLI' frameid='PM0-46522'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-14997' orgid='ECOLI' frameid='REG0-14997' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD01379' orgid='ECOLI' frameid='PD01379'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46522' orgid='ECOLI' frameid='PM0-46522'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-14996' orgid='ECOLI' frameid='REG0-14996' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7748' orgid='ECOLI' frameid='CPLX0-7748'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46522' orgid='ECOLI' frameid='PM0-46522'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-14995' orgid='ECOLI' frameid='REG0-14995' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7748' orgid='ECOLI' frameid='CPLX0-7748'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46522' orgid='ECOLI' frameid='PM0-46522'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-14994' orgid='ECOLI' frameid='REG0-14994' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG11356-MONOMER' orgid='ECOLI' frameid='EG11356-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46522' orgid='ECOLI' frameid='PM0-46522'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-14993' orgid='ECOLI' frameid='REG0-14993' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:MONOMER0-4276' orgid='ECOLI' frameid='MONOMER0-4276'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46522' orgid='ECOLI' frameid='PM0-46522'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>1103852</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45224' orgid='ECOLI' frameid='TU0-45224'/></component-of>
+</Promoter>
+</ptools-xml>

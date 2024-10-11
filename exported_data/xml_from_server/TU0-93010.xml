@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-93010'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-93010</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-93010' orgid='ECOLI' frameid='TU0-93010' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ytfK</common-name>
+<comment datatype='string'>We inferred that &lt;i&gt;ytfK&lt;/i&gt; is expressed as a monocistronic transcription unit, based on the genomic context of the gene. It is isolated in the forward direction, and the surrounding genes are encoded in the reverse direction.
+&lt;p&gt;
+CRP affects the ytfKp2 promoter and it binds to a sequence close to this promoter. In contrast, although ytfKp1 is also affected by CRP, CRP does not bind close to it, and therefore it was suggested that this effect of CRP is indirect for the p1 promoter [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/34803996&quot;&gt;Meyer21&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' detail='full' class='true'><common-name datatype='string'>Inferred by curator</common-name>
+<comment datatype='string'>Inferred by curator.  An assertion was inferred by a curator from relevant
+information such as other assertions in a database.
+</comment>
+</Evidence-Code>
+</evidence>
+<component><Promoter ID='ECOLI:PM0-46597' orgid='ECOLI' frameid='PM0-46597' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>ytfKp2</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4439413</absolute-plus-1-pos>
+<comment datatype='string'>This promoter was determined based on transcriptional fusion of the region of this promoter and deletion of the ytfKp1 promoter [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/34803996&quot;&gt;Meyer21&lt;/a&gt;]. Transcription activity of the promoter region was observed, but the sequence of the promoter was not shown, and just a putative transcriptional start site was suggested [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/34803996&quot;&gt;Meyer21&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-34803996' orgid='ECOLI' frameid='PUB-34803996' detail='full'><source datatype='string'>Front Microbiol 12;775164</source>
+<pubmed-id datatype='string'>34803996</pubmed-id>
+<title datatype='string'>Regulation of  &lt;i&gt;ytfK&lt;/i&gt; by cAMP-CRP Contributes to SpoT-Dependent Accumulation of (p)ppGpp in Response to Carbon Starvation  &lt;i&gt;YtfK&lt;/i&gt; Responds to Glucose Exhaustion.</title>
+<year datatype='integer'>2021</year>
+<author datatype='string'>Meyer L</author>
+<author datatype='string'>Germain E</author>
+<author datatype='string'>Maisonneuve E</author>
+<doi-id datatype='string'>10.3389/fmicb.2021.775164</doi-id>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-34803996' orgid='ECOLI' frameid='PUB-34803996'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-15985' orgid='ECOLI' frameid='REG0-15985' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46597' orgid='ECOLI' frameid='PM0-46597'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-93010' orgid='ECOLI' frameid='TU0-93010'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:G7872' orgid='ECOLI' frameid='G7872'/></component>
+</Transcription-Unit>
+</ptools-xml>

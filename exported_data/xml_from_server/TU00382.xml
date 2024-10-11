@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00382'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00382</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00382' orgid='ECOLI' frameid='TU00382' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>pflB</common-name>
+<comment datatype='string'>The &lt;i&gt;focA&lt;/i&gt; gene and &lt;i&gt;pflB&lt;/i&gt; gene  are cotranscribed, but &lt;i&gt;pflB&lt;/i&gt; is also transcribed alone.</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-2651404' orgid='ECOLI' frameid='PUB-2651404' detail='full'><source datatype='string'>J Bacteriol 171(5);2485-98</source>
+<pubmed-id datatype='string'>2651404</pubmed-id>
+<title datatype='string'>Novel transcriptional control of the pyruvate formate-lyase gene: upstream regulatory sequences and multiple promoters regulate anaerobic expression.</title>
+<year datatype='integer'>1989</year>
+<author datatype='string'>Sawers G</author>
+<author datatype='string'>Bock A</author>
+</Publication>
+</citation>
+<component><Terminator ID='ECOLI:TERM65' orgid='ECOLI' frameid='TERM65' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>951266</right-end-position>
+<left-end-position datatype='integer'>951207</left-end-position>
+<comment datatype='string'>This terminator presents a double stem-loop structure. </comment>
+<citation><Publication resource='#ECOLI:PUB-2651404' orgid='ECOLI' frameid='PUB-2651404'/></citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU00379' orgid='ECOLI' frameid='TU00379'/><Transcription-Unit resource='getxml?ECOLI:TU00378' orgid='ECOLI' frameid='TU00378'/><Transcription-Unit resource='getxml?ECOLI:TU00377' orgid='ECOLI' frameid='TU00377'/><Transcription-Unit resource='getxml?ECOLI:TU00384' orgid='ECOLI' frameid='TU00384'/><Transcription-Unit resource='getxml?ECOLI:TU00383' orgid='ECOLI' frameid='TU00383'/><Transcription-Unit resource='#ECOLI:TU00382' orgid='ECOLI' frameid='TU00382'/><Transcription-Unit resource='getxml?ECOLI:TU00381' orgid='ECOLI' frameid='TU00381'/><Transcription-Unit resource='getxml?ECOLI:TU00380' orgid='ECOLI' frameid='TU00380'/></component-of>
+</Terminator>
+</component>
+<component><Promoter ID='ECOLI:PM00520' orgid='ECOLI' frameid='PM00520' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>pflBp3</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>953741</absolute-plus-1-pos>
+<comment datatype='string'>This promoter is induced anaerobically, during aerobiosis it exhibits low-level activity.</comment>
+<citation><Publication resource='#ECOLI:PUB-2651404' orgid='ECOLI' frameid='PUB-2651404'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2651404' orgid='ECOLI' frameid='PUB-2651404'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2651404' orgid='ECOLI' frameid='PUB-2651404'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU00382' orgid='ECOLI' frameid='TU00382'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10701' orgid='ECOLI' frameid='EG10701'/></component>
+</Transcription-Unit>
+</ptools-xml>

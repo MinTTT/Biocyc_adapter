@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42526'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42526</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42526' orgid='ECOLI' frameid='TU0-42526' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>leuE</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><Gene resource='getxml?ECOLI:G6984' orgid='ECOLI' frameid='G6984'/></component>
+<component><Promoter ID='ECOLI:PM0-46264' orgid='ECOLI' frameid='PM0-46264' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>1880807</minus-10-left>
+<common-name datatype='string'>leuEp</common-name>
+<minus-35-right datatype='integer'>1880835</minus-35-right>
+<minus-35-left datatype='integer'>1880830</minus-35-left>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1880800</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-16098526' orgid='ECOLI' frameid='PUB-16098526' detail='full'><source datatype='string'>FEBS Lett 579(21);4629-34</source>
+<pubmed-id datatype='string'>16098526</pubmed-id>
+<title datatype='string'>The yeaS (leuE) gene of Escherichia coli encodes an exporter of leucine, and the Lrp protein regulates its expression.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Kutukova EA</author>
+<author datatype='string'>Livshits VA</author>
+<author datatype='string'>Altman IP</author>
+<author datatype='string'>Ptitsyn LR</author>
+<author datatype='string'>Zyiatdinov MH</author>
+<author datatype='string'>Tokmakova IL</author>
+<author datatype='string'>Zakataeva NP</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16098526' orgid='ECOLI' frameid='PUB-16098526'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11754' orgid='ECOLI' frameid='REG0-11754' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:MONOMER0-155' orgid='ECOLI' frameid='MONOMER0-155'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46264' orgid='ECOLI' frameid='PM0-46264'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11753' orgid='ECOLI' frameid='REG0-11753' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:MONOMER0-155' orgid='ECOLI' frameid='MONOMER0-155'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46264' orgid='ECOLI' frameid='PM0-46264'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11752' orgid='ECOLI' frameid='REG0-11752' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:MONOMER0-155' orgid='ECOLI' frameid='MONOMER0-155'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46264' orgid='ECOLI' frameid='PM0-46264'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11751' orgid='ECOLI' frameid='REG0-11751' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:MONOMER0-155' orgid='ECOLI' frameid='MONOMER0-155'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46264' orgid='ECOLI' frameid='PM0-46264'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>1880812</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42526' orgid='ECOLI' frameid='TU0-42526'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

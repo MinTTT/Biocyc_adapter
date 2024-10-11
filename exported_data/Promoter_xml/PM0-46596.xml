@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM0-46596'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM0-46596</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM0-46596' orgid='ECOLI' frameid='PM0-46596' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>1288758</minus-10-left>
+<common-name datatype='string'>purUp</common-name>
+<minus-35-right datatype='integer'>1288787</minus-35-right>
+<minus-35-left datatype='integer'>1288782</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>purUp1</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1288754</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-8226647' orgid='ECOLI' frameid='PUB-8226647' detail='full'><source datatype='string'>J Bacteriol 175(21);7066-73</source>
+<pubmed-id datatype='string'>8226647</pubmed-id>
+<title datatype='string'>purU, a source of formate for purT-dependent phosphoribosyl-N-formylglycinamide synthesis.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>Nagy PL</author>
+<author datatype='string'>McCorkle GM</author>
+<author datatype='string'>Zalkin H</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8226647' orgid='ECOLI' frameid='PUB-8226647'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8226647' orgid='ECOLI' frameid='PUB-8226647'/></evidence>
+<minus-10-right datatype='integer'>1288763</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-13182' orgid='ECOLI' frameid='TU0-13182'/></component-of>
+</Promoter>
+</ptools-xml>

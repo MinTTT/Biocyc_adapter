@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8474'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8474</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8474' orgid='ECOLI' frameid='TU0-8474' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rpsO</common-name>
+<citation><Publication ID='ECOLI:PUB-3007765' orgid='ECOLI' frameid='PUB-3007765' detail='full'><source datatype='string'>J Mol Biol 187(1);23-32</source>
+<pubmed-id datatype='string'>3007765</pubmed-id>
+<title datatype='string'>Initiation, attenuation and RNase III processing of transcripts from the Escherichia coli operon encoding ribosomal protein S15 and polynucleotide phosphorylase.</title>
+<year datatype='integer'>1986</year>
+<author datatype='string'>Regnier P</author>
+<author datatype='string'>Portier C</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3007765' orgid='ECOLI' frameid='PUB-3007765'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-15797' orgid='ECOLI' frameid='REG0-15797' detail='low'><parent><Regulation resource='getxml?ECOLI:Protein-Mediated-Translation-Regulation' orgid='ECOLI' frameid='Protein-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG10900-MONOMER' orgid='ECOLI' frameid='EG10900-MONOMER'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-8474' orgid='ECOLI' frameid='TU0-8474'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-12936' orgid='ECOLI' frameid='REG0-12936' detail='low'><parent><Regulation resource='getxml?ECOLI:Protein-Mediated-Translation-Regulation' orgid='ECOLI' frameid='Protein-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG10914-MONOMER' orgid='ECOLI' frameid='EG10914-MONOMER'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-8474' orgid='ECOLI' frameid='TU0-8474'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component><Terminator ID='ECOLI:RPSOT1' orgid='ECOLI' frameid='RPSOT1' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3311398</right-end-position>
+<left-end-position datatype='integer'>3311372</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-3007765' orgid='ECOLI' frameid='PUB-3007765'/></citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-8516' orgid='ECOLI' frameid='TU0-8516'/><Transcription-Unit resource='#ECOLI:TU0-8474' orgid='ECOLI' frameid='TU0-8474'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10914' orgid='ECOLI' frameid='EG10914'/></component>
+<component><Promoter ID='ECOLI:PM00439' orgid='ECOLI' frameid='PM00439' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rpsOp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3311786</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-3007765' orgid='ECOLI' frameid='PUB-3007765'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3007765' orgid='ECOLI' frameid='PUB-3007765'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12990' orgid='ECOLI' frameid='REG0-12990' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Compound resource='getxml?ECOLI:GUANOSINE-5DP-3DP' orgid='ECOLI' frameid='GUANOSINE-5DP-3DP'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00439' orgid='ECOLI' frameid='PM00439'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8474' orgid='ECOLI' frameid='TU0-8474'/><Transcription-Unit resource='getxml?ECOLI:TU0-6660' orgid='ECOLI' frameid='TU0-6660'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

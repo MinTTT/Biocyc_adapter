@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='27.0' xml:base='http://BioCyc.org/getxml?ECOLI:G7585'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:G7585</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='27.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Gene ID='ECOLI:G7585' orgid='ECOLI' frameid='G7585' detail='full'><parent><Gene resource='getxml?ECOLI:Interrupted-Genes' orgid='ECOLI' frameid='Interrupted-Genes' class='true'/></parent>
+<replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<knockout-growth-observations><Growth-Observation ID='ECOLI:OBS0-439' orgid='ECOLI' frameid='OBS0-439' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>Luria-Bertani broth</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-49' orgid='ECOLI' frameid='OBS0-49' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>LB Lennox</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-37' orgid='ECOLI' frameid='OBS0-37' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>MOPS medium with 0.4% glucose</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-33' orgid='ECOLI' frameid='OBS0-33' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>M9 medium with 1% glycerol</with-growth-media>
+</Growth-Observation>
+</knockout-growth-observations>
+<transcription-direction datatype='string'>+</transcription-direction>
+<product>putative outer membrane usher protein YqiG</product>
+<centisome-position datatype='float' units='CENTISOMES'>68.63989</centisome-position>
+<common-name datatype='string'>yqiG</common-name>
+<comment datatype='string'>The &lt;i&gt;yqiG&lt;/i&gt; gene is interrupted by an IS element.  Sequence similarity suggests that its ancestral product is a member of the Fimbrial Usher Protein (FUP) family [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12192075&quot;&gt;Zhai02&lt;/a&gt;].
+&lt;p&gt;
+The &lt;i&gt;yqiG&lt;/i&gt; null mutant of the Keio collection was reported to produce less hydrogen than wild type under fermentation conditions.  A &lt;i&gt;yqiG&lt;/i&gt; expression clone from the ASKA library complements the phenotype [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/24025676&quot;&gt;Mohd13&lt;/a&gt;]. The BW25113 strain used in these experiments does not contain the IS element which interrupts the gene in MG1655.
+&lt;p&gt;
+&lt;i&gt;E. coli&lt;/i&gt; K-12 contains 12 chaperone-usher fimbrial operons, including &lt;i&gt;ygiLyqiGHI&lt;/i&gt;; a fimbria-lacking mutant - strain WQM026 - created by deleting all 12 operons has been characterised [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/33863704&quot;&gt;Qiao21&lt;/a&gt;].  
+&lt;p&gt;
+Comment in ASAP: The coordinates of yqiG have been changed from those reported in the GenBank entry (GBAN:U00096.3), adding 36 nucleotides to the N-terminus and including the repeat at the end of the N-terminal fragment.</comment>
+<citation><Publication ID='ECOLI:PUB-20345943' orgid='ECOLI' frameid='PUB-20345943' detail='full'><year datatype='integer'>2010</year>
+<source datatype='string'>Environ Microbiol 12(7);1957-77</source>
+<title datatype='string'>Escherichia coli K-12 possesses multiple cryptic but functional chaperone-usher fimbriae with distinct surface specificities.</title>
+<pubmed-id datatype='string'>20345943</pubmed-id>
+<author datatype='string'>Korea CG</author>
+<author datatype='string'>Badouraly R</author>
+<author datatype='string'>Prevost MC</author>
+<author datatype='string'>Ghigo JM</author>
+<author datatype='string'>Beloin C</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-21344461' orgid='ECOLI' frameid='PUB-21344461' detail='full'><year datatype='integer'>2011</year>
+<source datatype='string'>Bioessays 33(4);300-11</source>
+<title datatype='string'>The sweet connection: Solving the riddle of multiple sugar-binding fimbrial adhesins in Escherichia coli: Multiple E. coli fimbriae form a versatile arsenal of sugar-binding lectins potentially involved in surface-colonisation and tissue tropism.</title>
+<pubmed-id datatype='string'>21344461</pubmed-id>
+<author datatype='string'>Korea CG</author>
+<author datatype='string'>Ghigo JM</author>
+<author datatype='string'>Beloin C</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-23382825' orgid='ECOLI' frameid='PUB-23382825' detail='full'><year datatype='integer'>2013</year>
+<source datatype='string'>PLoS One 8(1);e52835</source>
+<title datatype='string'>Chaperone-usher fimbriae of Escherichia coli.</title>
+<pubmed-id datatype='string'>23382825</pubmed-id>
+<author datatype='string'>Wurpel DJ</author>
+<author datatype='string'>Beatson SA</author>
+<author datatype='string'>Totsika M</author>
+<author datatype='string'>Petty NK</author>
+<author datatype='string'>Schembri MA</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-24025676' orgid='ECOLI' frameid='PUB-24025676' detail='full'><year datatype='integer'>2013</year>
+<source datatype='string'>Biochem Biophys Res Commun 439(4);576-9</source>
+<title datatype='string'>Four products from Escherichia coli pseudogenes increase hydrogen production.</title>
+<pubmed-id datatype='string'>24025676</pubmed-id>
+<author datatype='string'>Mohd Yusoff MZ</author>
+<author datatype='string'>Hashiguchi Y</author>
+<author datatype='string'>Maeda T</author>
+<author datatype='string'>Wood TK</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-13843' orgid='ECOLI' frameid='TU0-13843'/></component-of>
+<accession-1 datatype='string'>b3046</accession-1>
+<dblink><dblink-db>UNIPROT</dblink-db>
+<dblink-oid>P76655</dblink-oid>
+<dblink-relationship>RELATED-TO</dblink-relationship>
+<dblink-URL>https://www.uniprot.org/uniprot/P76655</dblink-URL>
+</dblink>
+<dblink><dblink-db>ECOLIWIKI</dblink-db>
+<dblink-oid>b3046</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://ecoliwiki.org/colipedia/index.php/b3046</dblink-URL>
+</dblink>
+<dblink><dblink-db>REGULONDB</dblink-db>
+<dblink-oid>b3046</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://regulondb.ccg.unam.mx/search?term=b3046&amp;organism=ECK12&amp;type=All</dblink-URL>
+</dblink>
+<dblink><dblink-db>STRING</dblink-db>
+<dblink-oid>316407.85675849</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://string-db.org/network/316407.85675849</dblink-URL>
+</dblink>
+<dblink><dblink-db>ASAP</dblink-db>
+<dblink-oid>ABE-0010001</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://asap.ahabs.wisc.edu/asap/feature_info.php?FeatureID=ABE-0010001</dblink-URL>
+</dblink>
+<dblink><dblink-db>ECHOBASE</dblink-db>
+<dblink-oid>EB3979</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.york.ac.uk/res/thomas/Gene.cfm?recordID=EB3979</dblink-URL>
+</dblink>
+<dblink><dblink-db>ECOO157CYC</dblink-db>
+<dblink-oid>Z5222</dblink-oid>
+<dblink-relationship>Homolog</dblink-relationship>
+<dblink-URL>http://BioCyc.org/ECOO157/new-image?object=Z5222</dblink-URL>
+</dblink>
+<dblink><dblink-db>ECOO157CYC</dblink-db>
+<dblink-oid>Z4968</dblink-oid>
+<dblink-relationship>Homolog</dblink-relationship>
+<dblink-URL>http://BioCyc.org/ECOO157/new-image?object=Z4968</dblink-URL>
+</dblink>
+<dblink><dblink-db>ECOO157CYC</dblink-db>
+<dblink-oid>Z4967</dblink-oid>
+<dblink-relationship>Homolog</dblink-relationship>
+<dblink-URL>http://BioCyc.org/ECOO157/new-image?object=Z4967</dblink-URL>
+</dblink>
+<dblink><dblink-db>ECOO157CYC</dblink-db>
+<dblink-oid>Z2203</dblink-oid>
+<dblink-relationship>Homolog</dblink-relationship>
+<dblink-URL>http://BioCyc.org/ECOO157/new-image?object=Z2203</dblink-URL>
+</dblink>
+<dblink><dblink-db>ECOO157CYC</dblink-db>
+<dblink-oid>Z1536</dblink-oid>
+<dblink-relationship>Homolog</dblink-relationship>
+<dblink-URL>http://BioCyc.org/ECOO157/new-image?object=Z1536</dblink-URL>
+</dblink>
+<dblink><dblink-db>ECOO157CYC</dblink-db>
+<dblink-oid>Z0022</dblink-oid>
+<dblink-relationship>Homolog</dblink-relationship>
+<dblink-URL>http://BioCyc.org/ECOO157/new-image?object=Z0022</dblink-URL>
+</dblink>
+<dblink><dblink-db>OU-MICROARRAY</dblink-db>
+<dblink-oid>b3046</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>https://genexpdb.okstate.edu/databases/genexpdb/?query=b3046</dblink-URL>
+</dblink>
+<fragment><Gene-Fragment ID='ECOLI:GFRAG0-18' orgid='ECOLI' frameid='GFRAG0-18' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<centisome-position datatype='float' units='CENTISOMES'>68.63989</centisome-position>
+<common-name datatype='string'>yqiG_1</common-name>
+<fragment-of><Gene resource='#ECOLI:G7585' orgid='ECOLI' frameid='G7585'/></fragment-of>
+<component-of/><left-end-position datatype='integer'>3186025</left-end-position>
+<right-end-position datatype='integer'>3186095</right-end-position>
+</Gene-Fragment>
+<Gene-Fragment ID='ECOLI:GFRAG0-19' orgid='ECOLI' frameid='GFRAG0-19' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<centisome-position datatype='float' units='CENTISOMES'>68.670204</centisome-position>
+<common-name datatype='string'>yqiG_2</common-name>
+<fragment-of><Gene resource='#ECOLI:G7585' orgid='ECOLI' frameid='G7585'/></fragment-of>
+<component-of/><left-end-position datatype='integer'>3187432</left-end-position>
+<right-end-position datatype='integer'>3189865</right-end-position>
+</Gene-Fragment>
+</fragment>
+<accession-2 datatype='string'>ECK3035</accession-2>
+</Gene>
+</ptools-xml>

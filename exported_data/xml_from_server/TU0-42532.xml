@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42532'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42532</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42532' orgid='ECOLI' frameid='TU0-42532' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>cbpA-cbpM</common-name>
+<citation><Publication ID='ECOLI:PUB-15184371' orgid='ECOLI' frameid='PUB-15184371' detail='full'><source datatype='string'>J Biol Chem 279(32);33147-53</source>
+<pubmed-id datatype='string'>15184371</pubmed-id>
+<title datatype='string'>CbpA, a DnaJ homolog, is a DnaK co-chaperone, and its activity is modulated by CbpM.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Chae C</author>
+<author datatype='string'>Sharma S</author>
+<author datatype='string'>Hoskins JR</author>
+<author datatype='string'>Wickner S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-IC-ADJ-GENES-SAME-BIO-PROCESS' orgid='ECOLI' frameid='EV-IC-ADJ-GENES-SAME-BIO-PROCESS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' class='true'/></parent>
+<common-name datatype='string'>Products of adjacent genes in the same biological process</common-name>
+<comment datatype='string'>A transcription unit is inferred because there is a set of adjacent genes,
+encoded in the same direction, coding for products that participate in the
+same metabolic pathway or biological process. Sometimes, these genes code
+for subunits of the same protein.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15184371' orgid='ECOLI' frameid='PUB-15184371'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG12194' orgid='ECOLI' frameid='EG12194'/></component>
+<component><Gene resource='getxml?ECOLI:EG12193' orgid='ECOLI' frameid='EG12193'/></component>
+<component><Promoter ID='ECOLI:PM0-46270' orgid='ECOLI' frameid='PM0-46270' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>1064045</minus-10-left>
+<common-name datatype='string'>cbpAp6</common-name>
+<minus-35-right datatype='integer'>1064073</minus-35-right>
+<minus-35-left datatype='integer'>1064068</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1064037</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-23341772' orgid='ECOLI' frameid='PUB-23341772' detail='full'><source datatype='string'>PLoS Genet 9(1);e1003152</source>
+<pubmed-id datatype='string'>23341772</pubmed-id>
+<title datatype='string'>E. coli Fis protein insulates the cbpA gene from uncontrolled transcription.</title>
+<year datatype='integer'>2013</year>
+<author datatype='string'>Chintakayala K</author>
+<author datatype='string'>Singh SS</author>
+<author datatype='string'>Rossiter AE</author>
+<author datatype='string'>Shahapure R</author>
+<author datatype='string'>Dame RT</author>
+<author datatype='string'>Grainger DC</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-23341772' orgid='ECOLI' frameid='PUB-23341772'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11759' orgid='ECOLI' frameid='REG0-11759' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46270' orgid='ECOLI' frameid='PM0-46270'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>1064050</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42532' orgid='ECOLI' frameid='TU0-42532'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

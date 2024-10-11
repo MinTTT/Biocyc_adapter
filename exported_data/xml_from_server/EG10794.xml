@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='27.0' xml:base='http://BioCyc.org/getxml?ECOLI:EG10794'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:EG10794</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='27.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Gene ID='ECOLI:EG10794' orgid='ECOLI' frameid='EG10794' detail='full'><parent><Gene resource='getxml?ECOLI:BC-1.5.2.1' orgid='ECOLI' frameid='BC-1.5.2.1' class='true'/></parent>
+<replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<knockout-growth-observations><Growth-Observation ID='ECOLI:OBS0-439' orgid='ECOLI' frameid='OBS0-439' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>Luria-Bertani broth</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-49' orgid='ECOLI' frameid='OBS0-49' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>LB Lennox</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-31' orgid='ECOLI' frameid='OBS0-31' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NONE</growth-status>
+<with-growth-media>M9 medium with 1% glycerol</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-50' orgid='ECOLI' frameid='OBS0-50' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NONE</growth-status>
+<with-growth-media>M9 medium with 0.4% glucose</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-32' orgid='ECOLI' frameid='OBS0-32' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NONE</growth-status>
+<with-growth-media>MOPS medium with 0.4% glucose</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-37' orgid='ECOLI' frameid='OBS0-37' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>MOPS medium with 0.4% glucose</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-44' orgid='ECOLI' frameid='OBS0-44' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>LB enriched</with-growth-media>
+</Growth-Observation>
+</knockout-growth-observations>
+<transcription-direction datatype='string'>-</transcription-direction>
+<product><Protein resource='getxml?ECOLI:PRPPAMIDOTRANS-MONOMER' orgid='ECOLI' frameid='PRPPAMIDOTRANS-MONOMER'/></product>
+<centisome-position datatype='float' units='CENTISOMES'>52.324497</centisome-position>
+<common-name datatype='string'>purF</common-name>
+<citation><Publication ID='ECOLI:PUB-2991286' orgid='ECOLI' frameid='PUB-2991286' detail='full'><year datatype='integer'>1985</year>
+<source datatype='string'>J Biol Chem 260(18);10378-87</source>
+<title datatype='string'>Regulation of Escherichia coli purF. Analysis of the control region of a pur regulon gene.</title>
+<pubmed-id datatype='string'>2991286</pubmed-id>
+<author datatype='string'>Makaroff CA</author>
+<author datatype='string'>Zalkin H</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-3058703' orgid='ECOLI' frameid='PUB-3058703' detail='full'><year datatype='integer'>1988</year>
+<source datatype='string'>J Biol Chem 263(36);19649-52</source>
+<title datatype='string'>Regulation of Escherichia coli purF. Mutations that define the promoter, operator, and purine repressor gene.</title>
+<pubmed-id datatype='string'>3058703</pubmed-id>
+<author datatype='string'>Rolfes RJ</author>
+<author datatype='string'>Zalkin H</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-6277938' orgid='ECOLI' frameid='PUB-6277938' detail='full'><year datatype='integer'>1982</year>
+<source datatype='string'>J Biol Chem 257(7);3525-31</source>
+<title datatype='string'>Nucleotide sequence of Escherichia coli purF and deduced amino acid sequence of glutamine phosphoribosylpyrophosphate amidotransferase.</title>
+<pubmed-id datatype='string'>6277938</pubmed-id>
+<author datatype='string'>Tso JY</author>
+<author datatype='string'>Zalkin H</author>
+<author datatype='string'>van Cleemput M</author>
+<author datatype='string'>Yanofsky C</author>
+<author datatype='string'>Smith JM</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-3047685' orgid='ECOLI' frameid='PUB-3047685' detail='full'><year datatype='integer'>1988</year>
+<source datatype='string'>Nucleic Acids Res 16(17);8717</source>
+<title datatype='string'>Nucleotide sequence of the Escherichia coli purF gene encoding amidophosphoribosyltransferase for de novo purine nucleotide synthesis.</title>
+<pubmed-id datatype='string'>3047685</pubmed-id>
+<author datatype='string'>Sampei G</author>
+<author datatype='string'>Mizobuchi K</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU00475' orgid='ECOLI' frameid='TU00475'/><Transcription-Unit resource='getxml?ECOLI:TU00444' orgid='ECOLI' frameid='TU00444'/></component-of>
+<accession-1 datatype='string'>b2312</accession-1>
+<left-end-position datatype='integer'>2428721</left-end-position>
+<right-end-position datatype='integer'>2430238</right-end-position>
+<synonym datatype='string'>ade</synonym>
+<synonym datatype='string'>purC</synonym>
+<accession-2 datatype='string'>ECK2306</accession-2>
+</Gene>
+</ptools-xml>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU442'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU442</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU442' orgid='ECOLI' frameid='TU442' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>fabDG-acpP</common-name>
+<comment datatype='string'>This transcription unit is part of a group of genes (encoding acyl carrier protein and several key fatty acid biosynthetic enzymes) which are not transcribed as a classic operon, but rather multiple promoters are present and each gene is cotranscribed with at least one other gene.</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-8655562' orgid='ECOLI' frameid='PUB-8655562' detail='full'><source datatype='string'>J Bacteriol 178(12);3614-20</source>
+<pubmed-id datatype='string'>8655562</pubmed-id>
+<title datatype='string'>Polar allele duplication for transcriptional analysis of consecutive essential genes: application to a cluster of Escherichia coli fatty acid biosynthetic genes.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Zhang Y</author>
+<author datatype='string'>Cronan JE</author>
+</Publication>
+</citation>
+<component><Gene resource='getxml?ECOLI:EG50003' orgid='ECOLI' frameid='EG50003'/></component>
+<component><Gene resource='getxml?ECOLI:EG11318' orgid='ECOLI' frameid='EG11318'/></component>
+<component><Gene resource='getxml?ECOLI:EG11317' orgid='ECOLI' frameid='EG11317'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='27.0' xml:base='http://BioCyc.org/getxml?ECOLI:G8205'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:G8205</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='27.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Gene ID='ECOLI:G8205' orgid='ECOLI' frameid='G8205' detail='full'><parent><Gene resource='getxml?ECOLI:Interrupted-Genes' orgid='ECOLI' frameid='Interrupted-Genes' class='true'/></parent>
+<replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<knockout-growth-observations><Growth-Observation ID='ECOLI:OBS0-439' orgid='ECOLI' frameid='OBS0-439' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>Luria-Bertani broth</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-49' orgid='ECOLI' frameid='OBS0-49' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>LB Lennox</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-37' orgid='ECOLI' frameid='OBS0-37' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>MOPS medium with 0.4% glucose</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-33' orgid='ECOLI' frameid='OBS0-33' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>M9 medium with 1% glycerol</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-44' orgid='ECOLI' frameid='OBS0-44' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>LB enriched</with-growth-media>
+</Growth-Observation>
+</knockout-growth-observations>
+<transcription-direction datatype='string'>-</transcription-direction>
+<product>glyceraldehyde-3-phosphate dehydrogenase</product>
+<centisome-position datatype='float' units='CENTISOMES'>32.09446</centisome-position>
+<common-name datatype='string'>gapC</common-name>
+<interrupted datatype='boolean'>true</interrupted>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-8359' orgid='ECOLI' frameid='TU0-8359'/></component-of>
+<accession-1 datatype='string'>b4493</accession-1>
+<regulated-by><Regulation ID='ECOLI:REG0-16194' orgid='ECOLI' frameid='REG0-16194' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulated-entity><Gene resource='#ECOLI:G8205' orgid='ECOLI' frameid='G8205'/></regulated-entity>
+<mode datatype='string'>+</mode>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7748' orgid='ECOLI' frameid='CPLX0-7748'/></regulator>
+</Regulation>
+</regulated-by>
+<dblink><dblink-db>OU-MICROARRAY</dblink-db>
+<dblink-oid>b1417</dblink-oid>
+<dblink-relationship>RELATED-TO</dblink-relationship>
+<dblink-URL>https://genexpdb.okstate.edu/databases/genexpdb/?query=b1417</dblink-URL>
+</dblink>
+<dblink><dblink-db>ASAP</dblink-db>
+<dblink-oid>ABE-0004727</dblink-oid>
+<dblink-relationship>RELATED-TO</dblink-relationship>
+<dblink-URL>http://asap.ahabs.wisc.edu/asap/feature_info.php?FeatureID=ABE-0004727</dblink-URL>
+</dblink>
+<dblink><dblink-db>OU-MICROARRAY</dblink-db>
+<dblink-oid>b1416</dblink-oid>
+<dblink-relationship>RELATED-TO</dblink-relationship>
+<dblink-URL>https://genexpdb.okstate.edu/databases/genexpdb/?query=b1416</dblink-URL>
+</dblink>
+<dblink><dblink-db>REGULONDB</dblink-db>
+<dblink-oid>b1416</dblink-oid>
+<dblink-relationship>RELATED-TO</dblink-relationship>
+<dblink-URL>http://regulondb.ccg.unam.mx/search?term=b1416&amp;organism=ECK12&amp;type=All</dblink-URL>
+</dblink>
+<dblink><dblink-db>ASAP</dblink-db>
+<dblink-oid>ABE-0285094</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://asap.ahabs.wisc.edu/asap/feature_info.php?FeatureID=ABE-0285094</dblink-URL>
+</dblink>
+<dblink><dblink-db>REGULONDB</dblink-db>
+<dblink-oid>b1417</dblink-oid>
+<dblink-relationship>RELATED-TO</dblink-relationship>
+<dblink-URL>http://regulondb.ccg.unam.mx/search?term=b1417&amp;organism=ECK12&amp;type=All</dblink-URL>
+</dblink>
+<dblink><dblink-db>ECOO157CYC</dblink-db>
+<dblink-oid>GAPC</dblink-oid>
+<dblink-relationship>Homolog</dblink-relationship>
+<dblink-URL>http://BioCyc.org/ECOO157/new-image?object=GAPC</dblink-URL>
+</dblink>
+<left-end-position datatype='integer'>1489713</left-end-position>
+<ancestral-product-segment><start-bp datatype='integer'>1</start-bp>
+<end-bp datatype='integer'>750</end-bp>
+</ancestral-product-segment>
+<ancestral-product-segment><start-bp datatype='integer'>750</start-bp>
+<end-bp datatype='integer'>1001</end-bp>
+</ancestral-product-segment>
+<right-end-position datatype='integer'>1490713</right-end-position>
+<synonym datatype='string'>b1416</synonym>
+<synonym datatype='string'>b1417</synonym>
+<accession-2 datatype='string'>ECK1409</accession-2>
+</Gene>
+</ptools-xml>

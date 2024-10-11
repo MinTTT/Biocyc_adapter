@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00428'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00428</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00428' orgid='ECOLI' frameid='TU00428' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>lrhA</common-name>
+<citation><Publication ID='ECOLI:PUB-7565112' orgid='ECOLI' frameid='PUB-7565112' detail='full'><source datatype='string'>Mol Microbiol 16(3);521-34</source>
+<pubmed-id datatype='string'>7565112</pubmed-id>
+<title datatype='string'>Transcriptional regulation of the proton translocating NADH dehydrogenase genes (nuoA-N) of Escherichia coli by electron acceptors, electron donors and gene regulators.</title>
+<year datatype='integer'>1995</year>
+<author datatype='string'>Bongaerts J</author>
+<author datatype='string'>Zoske S</author>
+<author datatype='string'>Weidner U</author>
+<author datatype='string'>Unden G</author>
+</Publication>
+</citation>
+<regulated-by><Regulation ID='ECOLI:REG0-16488' orgid='ECOLI' frameid='REG0-16488' detail='low'><parent><Regulation resource='getxml?ECOLI:RNA-Mediated-Translation-Regulation' orgid='ECOLI' frameid='RNA-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><RNA resource='getxml?ECOLI:SRAH-RNA' orgid='ECOLI' frameid='SRAH-RNA'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU00428' orgid='ECOLI' frameid='TU00428'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-16487' orgid='ECOLI' frameid='REG0-16487' detail='low'><parent><Regulation resource='getxml?ECOLI:RNA-Mediated-Translation-Regulation' orgid='ECOLI' frameid='RNA-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><RNA resource='getxml?ECOLI:RPRA-RNA' orgid='ECOLI' frameid='RPRA-RNA'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU00428' orgid='ECOLI' frameid='TU00428'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-16486' orgid='ECOLI' frameid='REG0-16486' detail='low'><parent><Regulation resource='getxml?ECOLI:RNA-Mediated-Translation-Regulation' orgid='ECOLI' frameid='RNA-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><RNA resource='getxml?ECOLI:RNA0-422' orgid='ECOLI' frameid='RNA0-422'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU00428' orgid='ECOLI' frameid='TU00428'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component><DNA-Binding-Site ID='ECOLI:BS0-1282' orgid='ECOLI' frameid='BS0-1282' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6017' orgid='ECOLI' frameid='REG0-6017' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12123-MONOMER' orgid='ECOLI' frameid='EG12123-MONOMER'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM00576' orgid='ECOLI' frameid='PM00576' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>lrhAp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2406656</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-7565112' orgid='ECOLI' frameid='PUB-7565112'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' detail='full' class='true'><common-name datatype='string'>Inferred by computational analysis</common-name>
+<comment datatype='string'>Inferred from computation.  The evidence for an assertion comes from a
+computational analysis.  The assertion itself might have been made
+by a person or by a computer, that is, EV-COMP does not specify whether
+manual interpretation of the computation occurred.
+&lt;p&gt;
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-7565112' orgid='ECOLI' frameid='PUB-7565112'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-6017' orgid='ECOLI' frameid='REG0-6017'/></regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU00428' orgid='ECOLI' frameid='TU00428'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+</evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU00428' orgid='ECOLI' frameid='TU00428'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Promoter resource='#ECOLI:PM00576' orgid='ECOLI' frameid='PM00576'/></component>
+<component><Gene resource='getxml?ECOLI:EG12123' orgid='ECOLI' frameid='EG12123'/></component>
+</Transcription-Unit>
+</ptools-xml>

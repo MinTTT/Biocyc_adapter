@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8456'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8456</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8456' orgid='ECOLI' frameid='TU0-8456' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ydgK-rsxABCDGE-nth</common-name>
+<comment datatype='string'>The transcription of the &lt;i&gt;rsxPABCDGE&lt;/i&gt; operon ends 16 bp downstream of the &lt;i&gt;nth&lt;/i&gt; gene, where there is a putative rho-dependent terminator [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/10637328&quot;&gt;Gifford00&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-10637328' orgid='ECOLI' frameid='PUB-10637328' detail='full'><source datatype='string'>Nucleic Acids Res 28(3);762-9</source>
+<pubmed-id datatype='string'>10637328</pubmed-id>
+<title datatype='string'>The genes encoding endonuclease VIII and endonuclease III in Escherichia coli are transcribed as the terminal genes in operons.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Gifford CM</author>
+<author datatype='string'>Wallace SS</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10637328' orgid='ECOLI' frameid='PUB-10637328'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG10662' orgid='ECOLI' frameid='EG10662'/></component>
+<component><Gene resource='getxml?ECOLI:G6876' orgid='ECOLI' frameid='G6876'/></component>
+<component><Gene resource='getxml?ECOLI:G6875' orgid='ECOLI' frameid='G6875'/></component>
+<component><Gene resource='getxml?ECOLI:G6874' orgid='ECOLI' frameid='G6874'/></component>
+<component><Gene resource='getxml?ECOLI:G6873' orgid='ECOLI' frameid='G6873'/></component>
+<component><Gene resource='getxml?ECOLI:G6872' orgid='ECOLI' frameid='G6872'/></component>
+<component><Gene resource='getxml?ECOLI:G6871' orgid='ECOLI' frameid='G6871'/></component>
+<component><Gene resource='getxml?ECOLI:G6870' orgid='ECOLI' frameid='G6870'/></component>
+<component><Promoter ID='ECOLI:PM0-8843' orgid='ECOLI' frameid='PM0-8843' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>ydgKp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1705207</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-10637328' orgid='ECOLI' frameid='PUB-10637328'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10637328' orgid='ECOLI' frameid='PUB-10637328'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8456' orgid='ECOLI' frameid='TU0-8456'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

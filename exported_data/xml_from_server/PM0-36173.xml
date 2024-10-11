@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM0-36173'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM0-36173</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM0-36173' orgid='ECOLI' frameid='PM0-36173' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>2815073</minus-10-left>
+<common-name datatype='string'>luxSp1</common-name>
+<minus-35-right datatype='integer'>2815100</minus-35-right>
+<minus-35-left datatype='integer'>2815095</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2815065</absolute-plus-1-pos>
+<comment datatype='string'>The activity of the &lt;i&gt;luxS&lt;/i&gt;p1 promoter is increased during entry into stationary phase and appears to depend on &amp;sigma;&lt;sup&gt;38&lt;/sup&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/20976191&quot;&gt;Udekwu10&lt;/a&gt;].
+&lt;p&gt;
+The DNA sequence  of the &lt;i&gt;luxS&lt;/i&gt;p1 promoter of &lt;i&gt;E. coli&lt;/i&gt;  is conserved in &lt;i&gt;Shigella flexneri&lt;/i&gt;, &lt;i&gt;Salmonella typhimurium&lt;/i&gt;, and &lt;i&gt;Photorabdus luminescens&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/20976191&quot;&gt;Udekwu10&lt;/a&gt;].
+</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-20976191' orgid='ECOLI' frameid='PUB-20976191' detail='full'><source datatype='string'>PLoS One 5(10);e13449</source>
+<pubmed-id datatype='string'>20976191</pubmed-id>
+<title datatype='string'>Transcriptional and post-transcriptional regulation of the Escherichia coli luxS mRNA; involvement of the sRNA MicA.</title>
+<year datatype='integer'>2010</year>
+<author datatype='string'>Udekwu KI</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-20976191' orgid='ECOLI' frameid='PUB-20976191'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-20976191' orgid='ECOLI' frameid='PUB-20976191'/></evidence>
+<minus-10-right datatype='integer'>2815083</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-36414' orgid='ECOLI' frameid='TU0-36414'/></component-of>
+</Promoter>
+</ptools-xml>

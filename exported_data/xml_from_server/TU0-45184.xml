@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-45184'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-45184</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-45184' orgid='ECOLI' frameid='TU0-45184' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>cyaR</common-name>
+<comment datatype='string'>A stem-loop of the &amp;rho;-independent terminator for the &lt;i&gt;cyaR&lt;/i&gt; gene was predicted by Johansen et al. (2008). However, the terminator is inside of the &lt;i&gt;cyaR&lt;/i&gt; gene [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/18619465&quot;&gt;Johansen08&lt;/a&gt;].
+&lt;p&gt;
+CRP controls &lt;i&gt;cyaR&lt;/i&gt; expression under conditions in which cAMP levels are high [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/18978044&quot;&gt;De09&lt;/a&gt;].
+&lt;p&gt;
+
+</comment>
+<citation><Publication ID='ECOLI:PUB-18619465' orgid='ECOLI' frameid='PUB-18619465' detail='full'><source datatype='string'>J Mol Biol 383(1):1-9</source>
+<pubmed-id datatype='string'>18619465</pubmed-id>
+<title datatype='string'>Down-regulation of Outer Membrane Proteins by Noncoding RNAs: Unraveling the cAMP-CRP- and sigma(E)-Dependent CyaR-ompX Regulatory Case.</title>
+<year datatype='integer'>2008</year>
+<author datatype='string'>Johansen J</author>
+<author datatype='string'>Eriksen M</author>
+<author datatype='string'>Kallipolitis B</author>
+<author datatype='string'>Valentin-Hansen P</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-11445539' orgid='ECOLI' frameid='PUB-11445539' detail='full'><source datatype='string'>Genes Dev 15(13);1637-51</source>
+<pubmed-id datatype='string'>11445539</pubmed-id>
+<title datatype='string'>Identification of novel small RNAs using comparative genomics and microarrays.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Wassarman KM</author>
+<author datatype='string'>Repoila F</author>
+<author datatype='string'>Rosenow C</author>
+<author datatype='string'>Storz G</author>
+<author datatype='string'>Gottesman S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11445539' orgid='ECOLI' frameid='PUB-11445539'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' class='true'/><Publication resource='#ECOLI:PUB-18619465' orgid='ECOLI' frameid='PUB-18619465'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-18619465' orgid='ECOLI' frameid='PUB-18619465'/></evidence>
+<component><Terminator ID='ECOLI:TERM0-1103' orgid='ECOLI' frameid='TERM0-1103' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>2167200</right-end-position>
+<left-end-position datatype='integer'>2167162</left-end-position>
+<citation><Publication ID='ECOLI:PUB-18978044' orgid='ECOLI' frameid='PUB-18978044' detail='full'><source datatype='string'>J Bacteriol 191(2);461-76</source>
+<pubmed-id datatype='string'>18978044</pubmed-id>
+<title datatype='string'>The Crp-activated small noncoding regulatory RNA CyaR (RyeE) links nutritional status to group behavior.</title>
+<year datatype='integer'>2009</year>
+<author datatype='string'>De Lay N</author>
+<author datatype='string'>Gottesman S</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45185' orgid='ECOLI' frameid='TU0-45185'/><Transcription-Unit resource='#ECOLI:TU0-45184' orgid='ECOLI' frameid='TU0-45184'/><Transcription-Unit resource='getxml?ECOLI:TU0-13506' orgid='ECOLI' frameid='TU0-13506'/></component-of>
+</Terminator>
+</component>
+<component><Promoter ID='ECOLI:PM0-46481' orgid='ECOLI' frameid='PM0-46481' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>2167101</minus-10-left>
+<common-name datatype='string'>cyaRp2</common-name>
+<minus-35-right datatype='integer'>2167084</minus-35-right>
+<minus-35-left datatype='integer'>2167079</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOE-MONOMER' orgid='ECOLI' frameid='RPOE-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2167114</absolute-plus-1-pos>
+<comment datatype='string'>&lt;i&gt;cyaR&lt;/i&gt;p could be transcribed from E&amp;sigma;&lt;sup&gt;E&lt;/sup&gt;, since &lt;i&gt;cyaR&lt;/i&gt; expression is up-regulated in response to an increase in the activity of &amp;sigma;&lt;sup&gt;E&lt;/sup&gt;. Furthermore, a small group of &amp;sigma;&lt;sup&gt;E&lt;/sup&gt;-regulated factors is also regulated by &amp;sigma;&lt;sup&gt;70&lt;/sup&gt;. Another issue is the fact that the -10 and -35 boxes of &lt;i&gt;cyaR&lt;/i&gt; match with the &lt;i&gt;ecfF&lt;/i&gt;p2 boxes, which are under control of &amp;sigma;&lt;sup&gt;E&lt;/sup&gt;. In addition, &lt;i&gt;cyaR&lt;/i&gt;p contains in the upstream region an AU-rich region which may have a role in recognition of the alternative RNA polymerases [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/18619465&quot;&gt;Johansen08&lt;/a&gt;].
+</comment>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/><Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-18619465' orgid='ECOLI' frameid='PUB-18619465'/></citation>
+<citation><Publication resource='#ECOLI:PUB-18978044' orgid='ECOLI' frameid='PUB-18978044'/></citation>
+<citation><Publication ID='ECOLI:PUB-21398637' orgid='ECOLI' frameid='PUB-21398637' detail='full'><source datatype='string'>Nucleic Acids Res 39(13);5338-55</source>
+<pubmed-id datatype='string'>21398637</pubmed-id>
+<title datatype='string'>In vitro transcription profiling of the &amp;sigma;S subunit of bacterial RNA polymerase: re-definition of the &amp;sigma;S regulon and identification of &amp;sigma;S-specific promoter sequence elements.</title>
+<year datatype='integer'>2011</year>
+<author datatype='string'>Maciag A</author>
+<author datatype='string'>Peano C</author>
+<author datatype='string'>Pietrelli A</author>
+<author datatype='string'>Egli T</author>
+<author datatype='string'>De Bellis G</author>
+<author datatype='string'>Landini P</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference of promoter position</common-name>
+<comment datatype='string'>Automated inference of promoter position relative to the -10 and -35 boxes.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-18619465' orgid='ECOLI' frameid='PUB-18619465'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-18619465' orgid='ECOLI' frameid='PUB-18619465'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-18978044' orgid='ECOLI' frameid='PUB-18978044'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' orgid='ECOLI' frameid='EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>High-throughput transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified using a high-throughput experimental modified RACE approach.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-21398637' orgid='ECOLI' frameid='PUB-21398637'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-14907' orgid='ECOLI' frameid='REG0-14907' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46481' orgid='ECOLI' frameid='PM0-46481'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-14906' orgid='ECOLI' frameid='REG0-14906' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7748' orgid='ECOLI' frameid='CPLX0-7748'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46481' orgid='ECOLI' frameid='PM0-46481'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>2167105</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-45184' orgid='ECOLI' frameid='TU0-45184'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:G0-8878' orgid='ECOLI' frameid='G0-8878'/></component>
+</Transcription-Unit>
+</ptools-xml>

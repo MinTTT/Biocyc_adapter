@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM624'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM624</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM624' orgid='ECOLI' frameid='PM624' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>485705</minus-10-left>
+<common-name datatype='string'>acrAp</common-name>
+<minus-35-right datatype='integer'>485734</minus-35-right>
+<minus-35-left datatype='integer'>485729</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>485698</absolute-plus-1-pos>
+<comment datatype='string'>It has been demonstrated that the acrAp promoter is not affected by &amp;sigma;&lt;sup&gt;S&lt;/sup&gt;, the stress response sigma factor [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/11886757&quot;&gt;Rand02&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-10564485' orgid='ECOLI' frameid='PUB-10564485' detail='full'><source datatype='string'>Mol Microbiol 34(3);431-41</source>
+<pubmed-id datatype='string'>10564485</pubmed-id>
+<title datatype='string'>Structural requirements for marbox function in transcriptional activation of mar/sox/rob regulon promoters in Escherichia coli: sequence, orientation and spatial relationship to the core promoter.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>Martin RG</author>
+<author datatype='string'>Gillette WK</author>
+<author datatype='string'>Rhee S</author>
+<author datatype='string'>Rosner JL</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-11886757' orgid='ECOLI' frameid='PUB-11886757' detail='full'><source datatype='string'>FEMS Microbiol Lett 207(1);91-5</source>
+<pubmed-id datatype='string'>11886757</pubmed-id>
+<title datatype='string'>Increased expression of the multidrug efflux genes acrAB occurs during slow growth of Escherichia coli.</title>
+<year datatype='integer'>2002</year>
+<author datatype='string'>Rand JD</author>
+<author datatype='string'>Danby SG</author>
+<author datatype='string'>Greenway DL</author>
+<author datatype='string'>England RR</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-16885437' orgid='ECOLI' frameid='PUB-16885437' detail='full'><source datatype='string'>J Bacteriol 188(16);5693-703</source>
+<pubmed-id datatype='string'>16885437</pubmed-id>
+<title datatype='string'>Growth phase-dependent expression of drug exporters in Escherichia coli and its contribution to drug tolerance.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Kobayashi A</author>
+<author datatype='string'>Hirakawa H</author>
+<author datatype='string'>Hirata T</author>
+<author datatype='string'>Nishino K</author>
+<author datatype='string'>Yamaguchi A</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-14523115' orgid='ECOLI' frameid='PUB-14523115' detail='full'><source datatype='string'>Microbiology 149(Pt 10);2819-28</source>
+<pubmed-id datatype='string'>14523115</pubmed-id>
+<title datatype='string'>Transcriptional regulation of drug efflux genes by EvgAS, a two-component system in Escherichia coli.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Eguchi Y</author>
+<author datatype='string'>Oshima T</author>
+<author datatype='string'>Mori H</author>
+<author datatype='string'>Aono R</author>
+<author datatype='string'>Yamamoto K</author>
+<author datatype='string'>Ishihama A</author>
+<author datatype='string'>Utsumi R</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10564485' orgid='ECOLI' frameid='PUB-10564485'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-14523115' orgid='ECOLI' frameid='PUB-14523115'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-9577' orgid='ECOLI' frameid='REG0-9577' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7418' orgid='ECOLI' frameid='CPLX0-7418'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM624' orgid='ECOLI' frameid='PM624'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-9570' orgid='ECOLI' frameid='REG0-9570' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG11741-MONOMER' orgid='ECOLI' frameid='EG11741-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM624' orgid='ECOLI' frameid='PM624'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4945' orgid='ECOLI' frameid='REG0-4945' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12116-MONOMER' orgid='ECOLI' frameid='EG12116-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM624' orgid='ECOLI' frameid='PM624'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4944' orgid='ECOLI' frameid='REG0-4944' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-PHOP' orgid='ECOLI' frameid='PHOSPHO-PHOP'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM624' orgid='ECOLI' frameid='PM624'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4943' orgid='ECOLI' frameid='REG0-4943' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00365' orgid='ECOLI' frameid='PD00365'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM624' orgid='ECOLI' frameid='PM624'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4942' orgid='ECOLI' frameid='REG0-4942' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00406' orgid='ECOLI' frameid='PD00406'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM624' orgid='ECOLI' frameid='PM624'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4941' orgid='ECOLI' frameid='REG0-4941' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD04418' orgid='ECOLI' frameid='PD04418'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM624' orgid='ECOLI' frameid='PM624'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>485710</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU00233' orgid='ECOLI' frameid='TU00233'/></component-of>
+</Promoter>
+</ptools-xml>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM0-9601'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM0-9601</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM0-9601' orgid='ECOLI' frameid='PM0-9601' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>4278073</minus-10-left>
+<common-name datatype='string'>ryjAp</common-name>
+<minus-35-right datatype='integer'>4278101</minus-35-right>
+<minus-35-left datatype='integer'>4278096</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4278066</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-11448770' orgid='ECOLI' frameid='PUB-11448770' detail='full'><source datatype='string'>Curr Biol 11(12);941-50</source>
+<pubmed-id datatype='string'>11448770</pubmed-id>
+<title datatype='string'>Novel small RNA-encoding genes in the intergenic regions of Escherichia coli.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Argaman L</author>
+<author datatype='string'>Hershberg R</author>
+<author datatype='string'>Vogel J</author>
+<author datatype='string'>Bejerano G</author>
+<author datatype='string'>Wagner EG</author>
+<author datatype='string'>Margalit H</author>
+<author datatype='string'>Altuvia S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11448770' orgid='ECOLI' frameid='PUB-11448770'/></evidence>
+<minus-10-right datatype='integer'>4278078</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-8519' orgid='ECOLI' frameid='TU0-8519'/></component-of>
+</Promoter>
+</ptools-xml>

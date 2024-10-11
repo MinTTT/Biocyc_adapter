@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8865'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8865</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8865' orgid='ECOLI' frameid='TU0-8865' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>tyrS-pdxY</common-name>
+<comment datatype='string'>A potential RNA G-quadruplex structure, formed by guanine-rich sequences located in the coding sequence region of the gene, was identified  for &lt;i&gt;tyrS&lt;/i&gt;. This structure  could regulate the expression of the gene, as observed for &lt;i&gt;hemL&lt;/i&gt; gene expression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31964733&quot;&gt;Shao20&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-9537380' orgid='ECOLI' frameid='PUB-9537380' detail='full'><source datatype='string'>J Bacteriol 180(7);1814-21</source>
+<pubmed-id datatype='string'>9537380</pubmed-id>
+<title datatype='string'>Identification and function of the pdxY gene, which encodes a novel pyridoxal kinase involved in the salvage pathway of pyridoxal 5'-phosphate biosynthesis in Escherichia coli K-12.</title>
+<year datatype='integer'>1998</year>
+<author datatype='string'>Yang Y</author>
+<author datatype='string'>Tsui HC</author>
+<author datatype='string'>Man TK</author>
+<author datatype='string'>Winkler ME</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9537380' orgid='ECOLI' frameid='PUB-9537380'/></evidence>
+<component><Gene resource='getxml?ECOLI:G6879' orgid='ECOLI' frameid='G6879'/></component>
+<component><Gene resource='getxml?ECOLI:EG11043' orgid='ECOLI' frameid='EG11043'/></component>
+<component><Promoter ID='ECOLI:PM0-9301' orgid='ECOLI' frameid='PM0-9301' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>tyrSp1</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1717269</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-9537380' orgid='ECOLI' frameid='PUB-9537380'/></citation>
+<citation><Publication ID='ECOLI:PUB-1356963' orgid='ECOLI' frameid='PUB-1356963' detail='full'><source datatype='string'>J Bacteriol 174(19);6033-45</source>
+<pubmed-id datatype='string'>1356963</pubmed-id>
+<title datatype='string'>Characterization of the complex pdxH-tyrS operon of Escherichia coli K-12 and pleiotropic phenotypes caused by pdxH insertion mutations.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Lam HM</author>
+<author datatype='string'>Winkler ME</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1356963' orgid='ECOLI' frameid='PUB-1356963'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-9537380' orgid='ECOLI' frameid='PUB-9537380'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8865' orgid='ECOLI' frameid='TU0-8865'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

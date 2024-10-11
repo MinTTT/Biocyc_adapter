@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM0-7322'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM0-7322</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM0-7322' orgid='ECOLI' frameid='PM0-7322' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>1641722</minus-10-left>
+<common-name datatype='string'>cspBp</common-name>
+<minus-35-right datatype='integer'>1641750</minus-35-right>
+<minus-35-left datatype='integer'>1641745</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1641715</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-10049393' orgid='ECOLI' frameid='PUB-10049393' detail='full'><source datatype='string'>J Bacteriol 181(5);1603-9</source>
+<pubmed-id datatype='string'>10049393</pubmed-id>
+<title datatype='string'>CspI, the ninth member of the CspA family of Escherichia coli, is induced upon cold shock.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>Wang N</author>
+<author datatype='string'>Yamanaka K</author>
+<author datatype='string'>Inouye M</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-9140061' orgid='ECOLI' frameid='PUB-9140061' detail='full'><source datatype='string'>Genes Cells 1(2);171-8</source>
+<pubmed-id datatype='string'>9140061</pubmed-id>
+<title datatype='string'>Differential thermoregulation of two highly homologous cold-shock genes, cspA and cspB, of Escherichia coli.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Etchegaray JP</author>
+<author datatype='string'>Jones PG</author>
+<author datatype='string'>Inouye M</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference of promoter position</common-name>
+<comment datatype='string'>Automated inference of promoter position relative to the -10 and -35 boxes.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10049393' orgid='ECOLI' frameid='PUB-10049393'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9140061' orgid='ECOLI' frameid='PUB-9140061'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9140061' orgid='ECOLI' frameid='PUB-9140061'/></evidence>
+<minus-10-right datatype='integer'>1641727</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-6982' orgid='ECOLI' frameid='TU0-6982'/></component-of>
+</Promoter>
+</ptools-xml>

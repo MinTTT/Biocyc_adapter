@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8846'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8846</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8846' orgid='ECOLI' frameid='TU0-8846' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ldrD</common-name>
+<comment datatype='string'>Antisense RNA &lt;i&gt;rdlD&lt;/i&gt; controls  &lt;i&gt;ldrD&lt;/i&gt; gene expression, functioning as a &lt;i&gt;trans&lt;/i&gt;-acting regulator at a posttranscriptional level [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12123448&quot;&gt;Kawano02&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-12123448' orgid='ECOLI' frameid='PUB-12123448' detail='full'><source datatype='string'>Mol Microbiol 45(2);333-49</source>
+<pubmed-id datatype='string'>12123448</pubmed-id>
+<title datatype='string'>Molecular characterization of long direct repeat (LDR) sequences expressing a stable mRNA encoding for a 35-amino-acid cell-killing peptide and a cis-encoded small antisense RNA in Escherichia coli.</title>
+<year datatype='integer'>2002</year>
+<author datatype='string'>Kawano M</author>
+<author datatype='string'>Oshima T</author>
+<author datatype='string'>Kasai H</author>
+<author datatype='string'>Mori H</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SINGLE-DIRECTON' orgid='ECOLI' frameid='EV-COMP-AINF-SINGLE-DIRECTON' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference that a single-gene directon is a transcription unit </common-name>
+<comment datatype='string'>Automated inference of transcription unit based on single-gene directon.  Existence of a single-gene transcription unit 
+for gene G is inferred computationally by the existence of upstream and downstream genes transcribed in the 
+opposite direction of G.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12123448' orgid='ECOLI' frameid='PUB-12123448'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12123448' orgid='ECOLI' frameid='PUB-12123448'/></evidence>
+<component><Terminator ID='ECOLI:TERM0-1046' orgid='ECOLI' frameid='TERM0-1046' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3699929</right-end-position>
+<left-end-position datatype='integer'>3699899</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-12123448' orgid='ECOLI' frameid='PUB-12123448'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8846' orgid='ECOLI' frameid='TU0-8846'/></component-of>
+</Terminator>
+</component>
+<component><Promoter ID='ECOLI:PM0-9604' orgid='ECOLI' frameid='PM0-9604' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ldrDp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3700272</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-12123448' orgid='ECOLI' frameid='PUB-12123448'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12123448' orgid='ECOLI' frameid='PUB-12123448'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8846' orgid='ECOLI' frameid='TU0-8846'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:G0-9041' orgid='ECOLI' frameid='G0-9041'/></component>
+</Transcription-Unit>
+</ptools-xml>

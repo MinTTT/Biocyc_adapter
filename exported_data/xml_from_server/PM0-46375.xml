@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM0-46375'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM0-46375</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM0-46375' orgid='ECOLI' frameid='PM0-46375' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>2710173</minus-10-left>
+<common-name datatype='string'>rpoEp5</common-name>
+<minus-35-right datatype='integer'>2710203</minus-35-right>
+<minus-35-left datatype='integer'>2710198</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2710165</absolute-plus-1-pos>
+<comment datatype='string'>With the &lt;i&gt;rpoE&lt;/i&gt;p1b and &lt;i&gt;rpoE&lt;/i&gt;p5 promoters, no specific growth conditions or regulatory factors could be identified that altered their activity [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/27629414&quot;&gt;Klein16&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred by a human based on computational evidence</common-name>
+<comment datatype='string'>Human inference.  A curator or author inferred this assertion after review of one or more possible types 
+of computational evidence such as sequence similarity, recognized motifs or consensus sequence, etc.  
+When the inference was made by a computer in an automated fashion, use EV-AINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-27629414' orgid='ECOLI' frameid='PUB-27629414' detail='full'><source datatype='string'>J Biol Chem 291(44);22999-23019</source>
+<pubmed-id datatype='string'>27629414</pubmed-id>
+<title datatype='string'>Multiple Transcriptional Factors Regulate Transcription of the rpoE Gene in Escherichia coli under Different Growth Conditions and When the Lipopolysaccharide Biosynthesis Is Defective.</title>
+<year datatype='integer'>2016</year>
+<author datatype='string'>Klein G</author>
+<author datatype='string'>Stupak A</author>
+<author datatype='string'>Biernacka D</author>
+<author datatype='string'>Wojtkiewicz P</author>
+<author datatype='string'>Lindner B</author>
+<author datatype='string'>Raina S</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-27629414' orgid='ECOLI' frameid='PUB-27629414'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-27629414' orgid='ECOLI' frameid='PUB-27629414'/></evidence>
+<minus-10-right datatype='integer'>2710178</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-42642' orgid='ECOLI' frameid='TU0-42642'/></component-of>
+</Promoter>
+</ptools-xml>

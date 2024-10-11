@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00002'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00002</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00002' orgid='ECOLI' frameid='TU00002' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>alkA</common-name>
+<synonym datatype='string'>OP00002</synonym>
+<comment datatype='string'>Both the unmethylated and methylated forms of the Ada protein can activate &lt;i&gt;alkA&lt;/i&gt; transcription &lt;i&gt;in vivo&lt;/i&gt; and &lt;i&gt;in vitro&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/10049384&quot;&gt;Landini99a&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-6094528' orgid='ECOLI' frameid='PUB-6094528' detail='full'><source datatype='string'>J Biol Chem 259(22);13730-6</source>
+<pubmed-id datatype='string'>6094528</pubmed-id>
+<title datatype='string'>Structure and expression of the alkA gene of Escherichia coli involved in adaptive response to alkylating agents.</title>
+<year datatype='integer'>1984</year>
+<author datatype='string'>Nakabeppu Y</author>
+<author datatype='string'>Miyata T</author>
+<author datatype='string'>Kondo H</author>
+<author datatype='string'>Iwanaga S</author>
+<author datatype='string'>Sekiguchi M</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-3278898' orgid='ECOLI' frameid='PUB-3278898' detail='full'><source datatype='string'>Environ Mol Mutagen 11(2);241-55</source>
+<pubmed-id datatype='string'>3278898</pubmed-id>
+<title datatype='string'>Adaptive response of Escherichia coli to alkylation damage.</title>
+<year datatype='integer'>1988</year>
+<author datatype='string'>Volkert MR</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SINGLE-DIRECTON' orgid='ECOLI' frameid='EV-COMP-AINF-SINGLE-DIRECTON' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference that a single-gene directon is a transcription unit </common-name>
+<comment datatype='string'>Automated inference of transcription unit based on single-gene directon.  Existence of a single-gene transcription unit 
+for gene G is inferred computationally by the existence of upstream and downstream genes transcribed in the 
+opposite direction of G.</comment>
+</Evidence-Code>
+</evidence>
+<component><Promoter ID='ECOLI:PM00002' orgid='ECOLI' frameid='PM00002' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>2147566</minus-10-left>
+<common-name datatype='string'>alkAp</common-name>
+<minus-35-right datatype='integer'>2147598</minus-35-right>
+<minus-35-left datatype='integer'>2147593</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2147559</absolute-plus-1-pos>
+<comment datatype='string'>&amp;sigma;&lt;sup&gt;70&lt;/sup&gt; is the sigma factor principally responsible for the &lt;i&gt;alkA&lt;/i&gt; transcription. However &lt;i&gt;alkA&lt;/i&gt; is highly dependent on alternative factor &amp;sigma;&lt;sup&gt;38&lt;/sup&gt; (RpoS) during the stationary phase. In contrast, the transcription factor Ada in its methylated state negatively regulates &amp;sigma;&lt;sup&gt;38&lt;/sup&gt;-dependent transcription [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/10542189&quot;&gt;Landini99&lt;/a&gt;]. 
+&lt;p&gt;
+E&amp;sigma;&lt;sup&gt;S&lt;/sup&gt; is more efficient than E&amp;sigma;&lt;sup&gt;70&lt;/sup&gt; in carrying out transcription from the &lt;i&gt;alkA&lt;/i&gt; promoter in the absence of Ada (Ada is a repressor for E&amp;sigma;&lt;sup&gt;S&lt;/sup&gt;) [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/10542189&quot;&gt;Landini99&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-10049384' orgid='ECOLI' frameid='PUB-10049384' detail='full'><source datatype='string'>J Bacteriol 181(5);1524-9</source>
+<pubmed-id datatype='string'>10049384</pubmed-id>
+<title datatype='string'>The Escherichia coli Ada protein can interact with two distinct determinants in the sigma70 subunit of RNA polymerase according to promoter architecture: identification of the target of Ada activation at the alkA promoter.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>Landini P</author>
+<author datatype='string'>Busby SJ</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-RNA-POLYMERASE-FOOTPRINTING' orgid='ECOLI' frameid='EV-EXP-IDA-RNA-POLYMERASE-FOOTPRINTING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>RNA polymerase footprinting</common-name>
+<comment datatype='string'>The binding of RNA polymerase to a DNA region (the promoter) is shown by footprinting.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-10075671' orgid='ECOLI' frameid='PUB-10075671' detail='full'><source datatype='string'>J Biol Chem 274(12);7793-802</source>
+<pubmed-id datatype='string'>10075671</pubmed-id>
+<title datatype='string'>The STAT3-independent signaling pathway by glycoprotein 130 in hepatic cells.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>Lai CF</author>
+<author datatype='string'>Ripperger J</author>
+<author datatype='string'>Wang Y</author>
+<author datatype='string'>Kim H</author>
+<author datatype='string'>Hawley RB</author>
+<author datatype='string'>Baumann H</author>
+</Publication>
+</evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-4758' orgid='ECOLI' frameid='REG0-4758' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00230' orgid='ECOLI' frameid='PD00230'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00002' orgid='ECOLI' frameid='PM00002'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>2147571</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00002' orgid='ECOLI' frameid='TU00002'/></component-of>
+</Promoter>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS00002' orgid='ECOLI' frameid='BS00002' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-15118' orgid='ECOLI' frameid='REG0-15118' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00230' orgid='ECOLI' frameid='PD00230'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-46543' orgid='ECOLI' frameid='PM0-46543' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>2147566</minus-10-left>
+<common-name datatype='string'>alkAp2</common-name>
+<minus-35-right datatype='integer'>2147593</minus-35-right>
+<minus-35-left datatype='integer'>2147588</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2147559</absolute-plus-1-pos>
+<comment datatype='string'>&amp;sigma;&lt;sup&gt;70&lt;/sup&gt; is the sigma factor principally responsible for the &lt;i&gt;alkA&lt;/i&gt; transcription. However &lt;i&gt;alkA&lt;/i&gt; is highly dependent on alternative factor &amp;sigma;&lt;sup&gt;38&lt;/sup&gt; (RpoS) during the stationary phase. In contrast, the transcription factor Ada in its methylated state negatively regulates &amp;sigma;&lt;sup&gt;38&lt;/sup&gt;-dependent transcription [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/10542189&quot;&gt;Landini99&lt;/a&gt;]. 
+&lt;p&gt;
+E&amp;sigma;&lt;sup&gt;S&lt;/sup&gt; is more efficient than E&amp;sigma;&lt;sup&gt;70&lt;/sup&gt; in carrying out transcription from the &lt;i&gt;alkA&lt;/i&gt; promoter in the absence of Ada (Ada is a repressor for E&amp;sigma;&lt;sup&gt;S&lt;/sup&gt;) [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/10542189&quot;&gt;Landini99&lt;/a&gt;].</comment>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/><Publication resource='#ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615'/></evidence>
+<citation><Publication resource='#ECOLI:PUB-10049384' orgid='ECOLI' frameid='PUB-10049384'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-RNA-POLYMERASE-FOOTPRINTING' orgid='ECOLI' frameid='EV-EXP-IDA-RNA-POLYMERASE-FOOTPRINTING' class='true'/><Publication resource='#ECOLI:PUB-10075671' orgid='ECOLI' frameid='PUB-10075671'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-15118' orgid='ECOLI' frameid='REG0-15118'/></regulated-by>
+<minus-10-right datatype='integer'>2147576</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45243' orgid='ECOLI' frameid='TU0-45243'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-4758' orgid='ECOLI' frameid='REG0-4758'/></involved-in-regulation>
+<comment datatype='string'>Ada activates &lt;i&gt;alkA&lt;/i&gt; transcription via direct interaction with &amp;sigma;&lt;sup&gt;70&lt;/sup&gt; region 4 [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/10049384&quot;&gt;Landini99a&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-3009022' orgid='ECOLI' frameid='PUB-3009022' detail='full'><source datatype='string'>Cell 45(2);315-24</source>
+<pubmed-id datatype='string'>3009022</pubmed-id>
+<title datatype='string'>The intracellular signal for induction of resistance to alkylating agents in E. coli.</title>
+<year datatype='integer'>1986</year>
+<author datatype='string'>Teo I</author>
+<author datatype='string'>Sedgwick B</author>
+<author datatype='string'>Kilpatrick MW</author>
+<author datatype='string'>McCarthy TV</author>
+<author datatype='string'>Lindahl T</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-9188491' orgid='ECOLI' frameid='PUB-9188491' detail='full'><source datatype='string'>J Biol Chem 272(25);15914-9</source>
+<pubmed-id datatype='string'>9188491</pubmed-id>
+<title datatype='string'>The RNA polymerase alpha subunit carboxyl-terminal domain is required for both basal and activated transcription from the alkA promoter.</title>
+<year datatype='integer'>1997</year>
+<author datatype='string'>Landini P</author>
+<author datatype='string'>Gaal T</author>
+<author datatype='string'>Ross W</author>
+<author datatype='string'>Volkert MR</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-1494347' orgid='ECOLI' frameid='PUB-1494347' detail='full'><source datatype='string'>Mol Gen Genet 236(1);25-32</source>
+<pubmed-id datatype='string'>1494347</pubmed-id>
+<title datatype='string'>Regulatory elements for expression of the alkA gene in response to alkylating agents.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Furuichi M</author>
+<author datatype='string'>Yu CG</author>
+<author datatype='string'>Anai M</author>
+<author datatype='string'>Sakumi K</author>
+<author datatype='string'>Sekiguchi M</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10049384' orgid='ECOLI' frameid='PUB-10049384'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-3009022' orgid='ECOLI' frameid='PUB-3009022'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3009022' orgid='ECOLI' frameid='PUB-3009022'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-9188491' orgid='ECOLI' frameid='PUB-9188491'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-9188491' orgid='ECOLI' frameid='PUB-9188491'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-1494347' orgid='ECOLI' frameid='PUB-1494347'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Site mutation</common-name>
+<comment datatype='string'>A cis-mutation in the DNA sequence of the transcription-factor binding site interferes with the operation of the regulatory function. This is considered  strong evidence for the existence and functional role of the DNA binding site.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1494347' orgid='ECOLI' frameid='PUB-1494347'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-1494347' orgid='ECOLI' frameid='PUB-1494347'/></evidence>
+<site-length datatype='integer'>24</site-length>
+<abs-center-pos datatype='float'>2147600.5</abs-center-pos>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45243' orgid='ECOLI' frameid='TU0-45243'/><Transcription-Unit resource='#ECOLI:TU00002' orgid='ECOLI' frameid='TU00002'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11222' orgid='ECOLI' frameid='EG11222'/></component>
+</Transcription-Unit>
+</ptools-xml>

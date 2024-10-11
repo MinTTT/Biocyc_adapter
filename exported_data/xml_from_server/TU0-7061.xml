@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-7061'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-7061</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-7061' orgid='ECOLI' frameid='TU0-7061' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>yzfA</common-name>
+<synonym datatype='string'>ileR</synonym>
+<citation><Publication ID='ECOLI:PUB-3525538' orgid='ECOLI' frameid='PUB-3525538' detail='full'><source datatype='string'>J Biol Chem 261(21);9966-71</source>
+<pubmed-id datatype='string'>3525538</pubmed-id>
+<title datatype='string'>Structural analysis of the ileR locus of Escherichia coli K12.</title>
+<year datatype='integer'>1986</year>
+<author datatype='string'>Weiss DL</author>
+<author datatype='string'>Johnson DI</author>
+<author datatype='string'>Weith HL</author>
+<author datatype='string'>Somerville RL</author>
+</Publication>
+</citation>
+<component><Gene resource='getxml?ECOLI:EG11213' orgid='ECOLI' frameid='EG11213'/></component>
+<component><Promoter ID='ECOLI:PM00502' orgid='ECOLI' frameid='PM00502' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>yzfAp2</common-name>
+<synonym datatype='string'>ileRp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4448294</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-3525538' orgid='ECOLI' frameid='PUB-3525538'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3525538' orgid='ECOLI' frameid='PUB-3525538'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3525538' orgid='ECOLI' frameid='PUB-3525538'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-7061' orgid='ECOLI' frameid='TU0-7061'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42594'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42594</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42594' orgid='ECOLI' frameid='TU0-42594' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>gltI-sroC-gltJKL</common-name>
+<citation><Publication ID='ECOLI:PUB-11121068' orgid='ECOLI' frameid='PUB-11121068' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 97(26);14674-9</source>
+<pubmed-id datatype='string'>11121068</pubmed-id>
+<title datatype='string'>Nitrogen regulatory protein C-controlled genes of Escherichia coli: scavenging as a defense against nitrogen limitation.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Zimmer DP</author>
+<author datatype='string'>Soupene E</author>
+<author datatype='string'>Lee HL</author>
+<author datatype='string'>Wendisch VF</author>
+<author datatype='string'>Khodursky AB</author>
+<author datatype='string'>Peter BJ</author>
+<author datatype='string'>Bender RA</author>
+<author datatype='string'>Kustu S</author>
+</Publication>
+</citation>
+<component><Promoter ID='ECOLI:PM0-3843' orgid='ECOLI' frameid='PM0-3843' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>gltIp2</common-name>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPON-MONOMER' orgid='ECOLI' frameid='RPON-MONOMER'/></binds-sigma-factor>
+<citation><Publication ID='ECOLI:PUB-11528004' orgid='ECOLI' frameid='PUB-11528004' detail='full'><source datatype='string'>Microbiol Mol Biol Rev 65(3);422-44, table of contents</source>
+<pubmed-id datatype='string'>11528004</pubmed-id>
+<title datatype='string'>Metabolic context and possible physiological themes of sigma(54)-dependent genes in Escherichia coli.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Reitzer L</author>
+<author datatype='string'>Schneider BL</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference of promoter position</common-name>
+<comment datatype='string'>Automated inference of promoter position relative to the -10 and -35 boxes.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11528004' orgid='ECOLI' frameid='PUB-11528004'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42594' orgid='ECOLI' frameid='TU0-42594'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG12663' orgid='ECOLI' frameid='EG12663'/></component>
+<component><Gene resource='getxml?ECOLI:EG12662' orgid='ECOLI' frameid='EG12662'/></component>
+<component><Gene resource='getxml?ECOLI:EG12661' orgid='ECOLI' frameid='EG12661'/></component>
+<component><Gene resource='getxml?ECOLI:G0-9383' orgid='ECOLI' frameid='G0-9383'/></component>
+<component><Gene resource='getxml?ECOLI:G6359' orgid='ECOLI' frameid='G6359'/></component>
+</Transcription-Unit>
+</ptools-xml>

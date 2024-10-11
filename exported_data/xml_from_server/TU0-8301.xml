@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8301'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8301</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8301' orgid='ECOLI' frameid='TU0-8301' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ackA-pta</common-name>
+<comment datatype='string'>There is a RNase processing sequence in the ackA-pta intergenic region [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/30591570&quot;&gt;De19&lt;/a&gt;].
+&lt;p&gt;
+The &lt;/i&gt;ackA-pta&lt;/i&gt; operon expression is highly induced in the presence of pyruvate [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/33417680&quot;&gt;ElMansi21&lt;/a&gt;].
+</comment>
+<citation><Publication ID='ECOLI:PUB-7883769' orgid='ECOLI' frameid='PUB-7883769' detail='full'><source datatype='string'>J Biochem 116(4);916-22</source>
+<pubmed-id datatype='string'>7883769</pubmed-id>
+<title datatype='string'>Identification and characterization of the ackA (acetate kinase A)-pta (phosphotransacetylase) operon and complementation analysis of acetate utilization by an ackA-pta deletion mutant of Escherichia coli.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Kakuda H</author>
+<author datatype='string'>Hosono K</author>
+<author datatype='string'>Shiroishi K</author>
+<author datatype='string'>Ichihara S</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-30591570' orgid='ECOLI' frameid='PUB-30591570' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 116(3);1043-1052</source>
+<pubmed-id datatype='string'>30591570</pubmed-id>
+<title datatype='string'>Regulation of acetate metabolism and coordination with the TCA cycle via a processed small RNA.</title>
+<year datatype='integer'>2019</year>
+<author datatype='string'>De Mets F</author>
+<author datatype='string'>Van Melderen L</author>
+<author datatype='string'>Gottesman S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-7883769' orgid='ECOLI' frameid='PUB-7883769'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' class='true'/><Publication resource='#ECOLI:PUB-30591570' orgid='ECOLI' frameid='PUB-30591570'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11267' orgid='ECOLI' frameid='REG0-11267' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-CREB' orgid='ECOLI' frameid='PHOSPHO-CREB'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-8301' orgid='ECOLI' frameid='TU0-8301'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component><Gene resource='getxml?ECOLI:EG20173' orgid='ECOLI' frameid='EG20173'/></component>
+<component><Gene resource='getxml?ECOLI:EG10027' orgid='ECOLI' frameid='EG10027'/></component>
+</Transcription-Unit>
+</ptools-xml>

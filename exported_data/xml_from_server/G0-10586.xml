@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:G0-10586'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:G0-10586</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Gene ID='ECOLI:G0-10586' orgid='ECOLI' frameid='G0-10586' detail='full'><parent><Gene resource='getxml?ECOLI:Phantom-Genes' orgid='ECOLI' frameid='Phantom-Genes' class='true'/></parent>
+<replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<knockout-growth-observations><Growth-Observation ID='ECOLI:OBS0-439' orgid='ECOLI' frameid='OBS0-439' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media><growth-media resource='getxml?ECOLI:MIX0-842' orgid='ECOLI' frameid='MIX0-842'/></with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-44' orgid='ECOLI' frameid='OBS0-44' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media><growth-media resource='getxml?ECOLI:MIX0-803' orgid='ECOLI' frameid='MIX0-803'/></with-growth-media>
+</Growth-Observation>
+</knockout-growth-observations>
+<transcription-direction datatype='string'>+</transcription-direction>
+<accession-2 datatype='string'>ECK4400</accession-2>
+<common-name datatype='string'>ybfK</common-name>
+<centisome-position datatype='float' units='CENTISOMES'>15.524279</centisome-position>
+<dblink><dblink-db>REGULONDB</dblink-db>
+<dblink-oid>b4590</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>https://regulondb.ccg.unam.mx/search/b4590</dblink-URL>
+</dblink>
+<dblink><dblink-db>STRING</dblink-db>
+<dblink-oid>511145.b4590</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://string-db.org/network/511145.b4590</dblink-URL>
+</dblink>
+<right-end-position datatype='integer'>720840</right-end-position>
+<left-end-position datatype='integer'>720583</left-end-position>
+<comment datatype='string'>The &lt;i&gt;ybfK&lt;/i&gt; gene has been deaccessioned due to experimental evidence for the SpeFL leader peptide ([&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/32094585&quot;&gt;Herrero20&lt;/a&gt;]) encoded on the opposite strand.
+&lt;p&gt;
+Former UniProt ID:P46121</comment>
+<accession-1 datatype='string'>b4590</accession-1>
+<component-of/></Gene>
+</ptools-xml>

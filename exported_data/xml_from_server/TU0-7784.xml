@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-7784'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-7784</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-7784' orgid='ECOLI' frameid='TU0-7784' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rstAB</common-name>
+<component><Gene resource='getxml?ECOLI:EG11233' orgid='ECOLI' frameid='EG11233'/></component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-6503' orgid='ECOLI' frameid='BS0-6503' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6089' orgid='ECOLI' frameid='REG0-6089' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-PHOP' orgid='ECOLI' frameid='PHOSPHO-PHOP'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-8164' orgid='ECOLI' frameid='PM0-8164' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rstAp</common-name>
+<synonym datatype='string'>P rstA</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1682138</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-12813061' orgid='ECOLI' frameid='PUB-12813061' detail='full'><source datatype='string'>J Bacteriol 185(13);3696-702</source>
+<pubmed-id datatype='string'>12813061</pubmed-id>
+<title datatype='string'>Identification and molecular characterization of the Mg2+ stimulon of Escherichia coli.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Minagawa S</author>
+<author datatype='string'>Ogasawara H</author>
+<author datatype='string'>Kato A</author>
+<author datatype='string'>Yamamoto K</author>
+<author datatype='string'>Eguchi Y</author>
+<author datatype='string'>Oshima T</author>
+<author datatype='string'>Mori H</author>
+<author datatype='string'>Ishihama A</author>
+<author datatype='string'>Utsumi R</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12813061' orgid='ECOLI' frameid='PUB-12813061'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-6089' orgid='ECOLI' frameid='REG0-6089'/></regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-7784' orgid='ECOLI' frameid='TU0-7784'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-12813061' orgid='ECOLI' frameid='PUB-12813061'/></citation>
+<citation><Publication ID='ECOLI:PUB-15883881' orgid='ECOLI' frameid='PUB-15883881' detail='full'><source datatype='string'>J Mol Evol 60(4);462-74</source>
+<pubmed-id datatype='string'>15883881</pubmed-id>
+<title datatype='string'>Comparison of the PhoPQ regulon in Escherichia coli and Salmonella typhimurium.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Monsieurs P</author>
+<author datatype='string'>De Keersmaecker S</author>
+<author datatype='string'>Navarre WW</author>
+<author datatype='string'>Bader MW</author>
+<author datatype='string'>De Smet F</author>
+<author datatype='string'>McClelland M</author>
+<author datatype='string'>Fang FC</author>
+<author datatype='string'>De Moor B</author>
+<author datatype='string'>Vanderleyden J</author>
+<author datatype='string'>Marchal K</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12813061' orgid='ECOLI' frameid='PUB-12813061'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12813061' orgid='ECOLI' frameid='PUB-12813061'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on similarity to consensus sequences</common-name>
+<comment datatype='string'>A DNA sequence similar to previously known consensus sequences is computationally identified.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15883881' orgid='ECOLI' frameid='PUB-15883881'/></evidence>
+<abs-center-pos datatype='integer'>1682094</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-7784' orgid='ECOLI' frameid='TU0-7784'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:G6864' orgid='ECOLI' frameid='G6864'/></component>
+<component><Promoter resource='#ECOLI:PM0-8164' orgid='ECOLI' frameid='PM0-8164'/></component>
+</Transcription-Unit>
+</ptools-xml>

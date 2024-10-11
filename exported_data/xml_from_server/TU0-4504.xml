@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-4504'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-4504</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-4504' orgid='ECOLI' frameid='TU0-4504' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>alsRBACE</common-name>
+<comment datatype='string'>The &lt;i&gt;alsE&lt;/i&gt; gene overlaps with the gene &lt;i&gt;yjcT&lt;/i&gt; (&lt;i&gt;alsK&lt;/i&gt;);  however, [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/10559180&quot;&gt;Poulsen99&lt;/a&gt;] reported that these genes are not coregulated, so they are not in the same operon as  Kim et al. [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/9401019&quot;&gt;Kim97&lt;/a&gt;] proposed. 
+&lt;p&gt;
+Rob is a transcriptional regulator related to the increase in resistance to antibiotics and is expressed constitutively. Bennik et al. have shown that this regulator activates the transcription of the &lt;i&gt;aslB&lt;/i&gt; gene and that it forms two complexes in the promoter region, suggesting the existence of multiple Rob-binding sites [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/10850996&quot;&gt;Bennik00&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-9401019' orgid='ECOLI' frameid='PUB-9401019' detail='full'><source datatype='string'>J Bacteriol 179(24);7631-7</source>
+<pubmed-id datatype='string'>9401019</pubmed-id>
+<title datatype='string'>The D-allose operon of Escherichia coli K-12.</title>
+<year datatype='integer'>1997</year>
+<author datatype='string'>Kim C</author>
+<author datatype='string'>Song S</author>
+<author datatype='string'>Park C</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-10559180' orgid='ECOLI' frameid='PUB-10559180' detail='full'><source datatype='string'>J Bacteriol 181(22);7126-30</source>
+<pubmed-id datatype='string'>10559180</pubmed-id>
+<title datatype='string'>D-Allose catabolism of Escherichia coli: involvement of alsI and regulation of als regulon expression by allose and ribose.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>Poulsen TS</author>
+<author datatype='string'>Chang YY</author>
+<author datatype='string'>Hove-Jensen B</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9401019' orgid='ECOLI' frameid='PUB-9401019'/></evidence>
+<component><DNA-Binding-Site ID='ECOLI:BS0-3401' orgid='ECOLI' frameid='BS0-3401' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6278' orgid='ECOLI' frameid='REG0-6278' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:G7821-MONOMER' orgid='ECOLI' frameid='G7821-MONOMER'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-4744' orgid='ECOLI' frameid='PM0-4744' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>4313142</minus-10-left>
+<common-name datatype='string'>alsRp1</common-name>
+<minus-35-right datatype='integer'>4313172</minus-35-right>
+<minus-35-left datatype='integer'>4313167</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4313132</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-8576032' orgid='ECOLI' frameid='PUB-8576032' detail='full'><source datatype='string'>J Bacteriol 178(4);1003-11</source>
+<pubmed-id datatype='string'>8576032</pubmed-id>
+<title datatype='string'>Ribose catabolism of Escherichia coli: characterization of the rpiB gene encoding ribose phosphate isomerase B and of the rpiR gene, which is involved in regulation of rpiB expression.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Sorensen KI</author>
+<author datatype='string'>Hove-Jensen B</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8576032' orgid='ECOLI' frameid='PUB-8576032'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-6278' orgid='ECOLI' frameid='REG0-6278'/></regulated-by>
+<minus-10-right datatype='integer'>4313147</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4504' orgid='ECOLI' frameid='TU0-4504'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-GSELEX' orgid='ECOLI' frameid='EV-EXP-GSELEX' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-HTP-HDA-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-HTP-HDA-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>High-throughput genomic SELEX-chip evidence</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0001812</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0001812</dblink-URL>
+</dblink>
+<credits><imported-from-meta><date datatype='date'>2018-03-05</date>
+<Person ID='ECOLI:paley' orgid='ECOLI' frameid='paley' detail='full'><affiliations><Organization ID='ECOLI:SRI' orgid='ECOLI' frameid='SRI' detail='full'><abbrev-name datatype='string'>SRI International</abbrev-name>
+<email datatype='string'>ptools-support@ai.sri.com</email>
+<common-name datatype='string'>SRI International</common-name>
+<url datatype='string'>http://bioinformatics.ai.sri.com/</url>
+</Organization>
+</affiliations>
+<common-name datatype='string'>Suzanne Paley</common-name>
+</Person>
+<Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A type of systematic evolution of ligands by exponential amplification evidence based on a restricted genomic DNA library to identify naturally occurring genomic aptamers and RNA-protein interaction networks with RNA-binding protein as bait and high-throughput sequencing. This evidence can be used to probe the binding of proteins, such as transcription factors or RNA polymerase, to DNA.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-29529243' orgid='ECOLI' frameid='PUB-29529243' detail='full'><source datatype='string'>Nucleic Acids Res 46(8);3921-3936</source>
+<pubmed-id datatype='string'>29529243</pubmed-id>
+<title datatype='string'>Single-target regulators form a minor group of transcription factors in Escherichia coli K-12.</title>
+<year datatype='integer'>2018</year>
+<author datatype='string'>Shimada T</author>
+<author datatype='string'>Ogasawara H</author>
+<author datatype='string'>Ishihama A</author>
+</Publication>
+</evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4504' orgid='ECOLI' frameid='TU0-4504'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11957' orgid='ECOLI' frameid='EG11957'/></component>
+<component><Gene resource='getxml?ECOLI:EG11958' orgid='ECOLI' frameid='EG11958'/></component>
+<component><Gene resource='getxml?ECOLI:EG11959' orgid='ECOLI' frameid='EG11959'/></component>
+<component><Gene resource='getxml?ECOLI:EG12458' orgid='ECOLI' frameid='EG12458'/></component>
+<component><Gene resource='getxml?ECOLI:G7821' orgid='ECOLI' frameid='G7821'/></component>
+<component><Promoter resource='#ECOLI:PM0-4744' orgid='ECOLI' frameid='PM0-4744'/></component>
+</Transcription-Unit>
+</ptools-xml>

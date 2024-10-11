@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM0-46217'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM0-46217</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM0-46217' orgid='ECOLI' frameid='PM0-46217' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>2755573</minus-10-left>
+<common-name datatype='string'>ssrAp</common-name>
+<minus-35-right datatype='integer'>2755554</minus-35-right>
+<minus-35-left datatype='integer'>2755549</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2755586</absolute-plus-1-pos>
+<comment datatype='string'>The &lt;i&gt;ssrA&lt;/i&gt;p promoter is significantly affected by ectopic production of a nanoRNase during stationary-phase growth [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/22751503&quot;&gt;Vvedenskaya12&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-22751503' orgid='ECOLI' frameid='PUB-22751503' detail='full'><source datatype='string'>Genes Dev 26(13);1498-507</source>
+<pubmed-id datatype='string'>22751503</pubmed-id>
+<title datatype='string'>Growth phase-dependent control of transcription start site selection and gene expression by nanoRNAs.</title>
+<year datatype='integer'>2012</year>
+<author datatype='string'>Vvedenskaya IO</author>
+<author datatype='string'>Sharp JS</author>
+<author datatype='string'>Goldman SR</author>
+<author datatype='string'>Kanabar PN</author>
+<author datatype='string'>Livny J</author>
+<author datatype='string'>Dove SL</author>
+<author datatype='string'>Nickels BE</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-22751503' orgid='ECOLI' frameid='PUB-22751503'/></evidence>
+<minus-10-right datatype='integer'>2755578</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-42503' orgid='ECOLI' frameid='TU0-42503'/></component-of>
+</Promoter>
+</ptools-xml>

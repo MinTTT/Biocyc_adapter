@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM0-6041'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM0-6041</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM0-6041' orgid='ECOLI' frameid='PM0-6041' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>4262801</minus-10-left>
+<common-name datatype='string'>pspGp</common-name>
+<minus-35-right datatype='integer'>4262794</minus-35-right>
+<minus-35-left datatype='integer'>4262789</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPON-MONOMER' orgid='ECOLI' frameid='RPON-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>yjbOp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4262816</absolute-plus-1-pos>
+<comment datatype='string'>Although the transcriptional start site position was not determined experimentally it was inferred by [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/15485810&quot;&gt;Lloyd04&lt;/a&gt;], based on footprinting with the RNA polymerase and the identification of its -12 and -24 &amp;sigma;&lt;sup&gt;54&lt;/sup&gt; recognition boxes.</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-15485810' orgid='ECOLI' frameid='PUB-15485810' detail='full'><source datatype='string'>J Biol Chem 279(53);55707-14</source>
+<pubmed-id datatype='string'>15485810</pubmed-id>
+<title datatype='string'>Identification of a new member of the phage shock protein response in Escherichia coli, the phage shock protein G (PspG).</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Lloyd LJ</author>
+<author datatype='string'>Jones SE</author>
+<author datatype='string'>Jovanovic G</author>
+<author datatype='string'>Gyaneshwar P</author>
+<author datatype='string'>Rolfe MD</author>
+<author datatype='string'>Thompson A</author>
+<author datatype='string'>Hinton JC</author>
+<author datatype='string'>Buck M</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' detail='full' class='true'><common-name datatype='string'>Inferred by computational analysis</common-name>
+<comment datatype='string'>Inferred from computation.  The evidence for an assertion comes from a
+computational analysis.  The assertion itself might have been made
+by a person or by a computer, that is, EV-COMP does not specify whether
+manual interpretation of the computation occurred.
+&lt;p&gt;
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15485810' orgid='ECOLI' frameid='PUB-15485810'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-RNA-POLYMERASE-FOOTPRINTING' orgid='ECOLI' frameid='EV-EXP-IDA-RNA-POLYMERASE-FOOTPRINTING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>RNA polymerase footprinting</common-name>
+<comment datatype='string'>The binding of RNA polymerase to a DNA region (the promoter) is shown by footprinting.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15485810' orgid='ECOLI' frameid='PUB-15485810'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-6178' orgid='ECOLI' frameid='REG0-6178' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12344-MONOMER' orgid='ECOLI' frameid='EG12344-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-6041' orgid='ECOLI' frameid='PM0-6041'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6177' orgid='ECOLI' frameid='REG0-6177' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PC00027' orgid='ECOLI' frameid='PC00027'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-6041' orgid='ECOLI' frameid='PM0-6041'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>4262805</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-5741' orgid='ECOLI' frameid='TU0-5741'/></component-of>
+</Promoter>
+</ptools-xml>

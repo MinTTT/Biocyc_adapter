@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8182'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8182</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8182' orgid='ECOLI' frameid='TU0-8182' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>gloA</common-name>
+<comment datatype='string'>&lt;i&gt;nemRA&lt;/i&gt; and &lt;i&gt;gloA&lt;/i&gt; transcripts appear to be generated from the processing of the &lt;i&gt;nemRA-gloA&lt;/i&gt; transcript by RNase E CITS:[23506073]|.</comment>
+<citation><Publication ID='ECOLI:PUB-23506073' orgid='ECOLI' frameid='PUB-23506073' detail='full'><source datatype='string'>Mol Microbiol 88(2);395-412</source>
+<pubmed-id datatype='string'>23506073</pubmed-id>
+<title datatype='string'>Novel regulatory system nemRA-gloA for electrophile reduction in Escherichia coli K-12.</title>
+<year datatype='integer'>2013</year>
+<author datatype='string'>Lee C</author>
+<author datatype='string'>Shin J</author>
+<author datatype='string'>Park C</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-23506073' orgid='ECOLI' frameid='PUB-23506073'/></evidence>
+<component><Gene resource='getxml?ECOLI:G6891' orgid='ECOLI' frameid='G6891'/></component>
+<component><Promoter ID='ECOLI:PM0-8562' orgid='ECOLI' frameid='PM0-8562' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>1727788</minus-10-left>
+<common-name datatype='string'>gloAp</common-name>
+<minus-35-right datatype='integer'>1727769</minus-35-right>
+<minus-35-left datatype='integer'>1727764</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1727801</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-9628737' orgid='ECOLI' frameid='PUB-9628737' detail='full'><source datatype='string'>Biochemistry 37(24);8754-63</source>
+<pubmed-id datatype='string'>9628737</pubmed-id>
+<title datatype='string'>Overproduction and characterization of a dimeric non-zinc glyoxalase I from Escherichia coli: evidence for optimal activation by nickel ions.</title>
+<year datatype='integer'>1998</year>
+<author datatype='string'>Clugston SL</author>
+<author datatype='string'>Barnard JF</author>
+<author datatype='string'>Kinach R</author>
+<author datatype='string'>Miedema D</author>
+<author datatype='string'>Ruman R</author>
+<author datatype='string'>Daub E</author>
+<author datatype='string'>Honek JF</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9628737' orgid='ECOLI' frameid='PUB-9628737'/></evidence>
+<minus-10-right datatype='integer'>1727793</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8182' orgid='ECOLI' frameid='TU0-8182'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

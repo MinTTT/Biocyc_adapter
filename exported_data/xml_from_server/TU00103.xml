@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00103'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00103</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00103' orgid='ECOLI' frameid='TU00103' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>sucABCD-sdhX</common-name>
+<synonym datatype='string'>OP00143</synonym>
+<synonym datatype='string'>suc</synonym>
+<comment datatype='string'>The &lt;i&gt;sucAB&lt;/i&gt; genes are flanked by three and four REP sequences.
+&lt;p&gt;
+ArcA appears to repress &lt;i&gt;sucD&lt;/i&gt; gene expression under anaerobiosis.  Two putative ArcA binding sites were  identified 69, 267 and 330 bp upstream of this gene [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/15699038&quot;&gt;Salmon05&lt;/a&gt;], but no promoter upstream of it has been identified.  Instead, &lt;i&gt;sucD&lt;/i&gt; is transcribed from two promoters one of them is located usptream of &lt;i&gt;sdhC&lt;/i&gt; gene and the other one upstream of &lt;i&gt;sucA&lt;/i&gt; gene.  The sdhCp promoter is repressed by ArcA.
+&lt;p&gt;
+Disruption of the &lt;i&gt;sucA&lt;/i&gt; and &lt;i&gt;sucB&lt;/i&gt; genes notably decrease survival under high hydrostatic pressure (HHP). On the other hand, disruption of the &lt;i&gt;sucC&lt;/i&gt; and  &lt;i&gt;sucD&lt;/i&gt; genes increase resistance to high hydrostatic pressure (HHP). This disruption was mediated by increased basal RpoS activity levels, although the activity levels did not correlate with the changes in heat resistance [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/30497599&quot;&gt;Gayan19&lt;/a&gt;]. TCA cycle enzymes can profoundly affect HHP resistance [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/30497599&quot;&gt;Gayan19&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-3543212' orgid='ECOLI' frameid='PUB-3543212' detail='full'><source datatype='string'>J Gen Microbiol 132(6);1753-62</source>
+<pubmed-id datatype='string'>3543212</pubmed-id>
+<title datatype='string'>Cloning and expression of the succinyl-CoA synthetase genes of Escherichia coli K12.</title>
+<year datatype='integer'>1986</year>
+<author datatype='string'>Buck D</author>
+<author datatype='string'>Spencer ME</author>
+<author datatype='string'>Guest JR</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-2548486' orgid='ECOLI' frameid='PUB-2548486' detail='full'><source datatype='string'>Biochem J 260(3);737-47</source>
+<pubmed-id datatype='string'>2548486</pubmed-id>
+<title datatype='string'>Overexpression and site-directed mutagenesis of the succinyl-CoA synthetase of Escherichia coli and nucleotide sequence of a gene (g30) that is adjacent to the suc operon.</title>
+<year datatype='integer'>1989</year>
+<author datatype='string'>Buck D</author>
+<author datatype='string'>Guest JR</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-9720032' orgid='ECOLI' frameid='PUB-9720032' detail='full'><source datatype='string'>Microbiology 144 ( Pt 8);2113-23</source>
+<pubmed-id datatype='string'>9720032</pubmed-id>
+<title datatype='string'>Transcription and transcript processing in the sdhCDAB-sucABCD operon of Escherichia coli.</title>
+<year datatype='integer'>1998</year>
+<author datatype='string'>Cunningham L</author>
+<author datatype='string'>Guest JR</author>
+</Publication>
+</citation>
+<component><Gene resource='getxml?ECOLI:G0-17009' orgid='ECOLI' frameid='G0-17009'/></component>
+<component><DNA-Binding-Site ID='ECOLI:BS187' orgid='ECOLI' frameid='BS187' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-5863' orgid='ECOLI' frameid='REG0-5863' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7797' orgid='ECOLI' frameid='CPLX0-7797'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM00144' orgid='ECOLI' frameid='PM00144' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>758566</minus-10-left>
+<common-name datatype='string'>sucAp</common-name>
+<minus-35-right datatype='integer'>758555</minus-35-right>
+<minus-35-left datatype='integer'>758550</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>Psuc</synonym>
+<synonym datatype='string'>Psucp1</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>758586</absolute-plus-1-pos>
+<comment datatype='string'>There is a single &lt;i&gt;suc&lt;/i&gt; promoter upstream of the &lt;i&gt;sucA&lt;/i&gt; gene, and  transcription continues between the &lt;i&gt;sucAB&lt;/i&gt; and &lt;i&gt;sucCD&lt;/i&gt; genes; no independent transcription of the &lt;i&gt;sucCD&lt;/i&gt; genes has been detected. 
+&lt;p&gt;
+Expression from the &lt;i&gt;suc&lt;/i&gt; promoter was partially activated by &amp;sigma;&lt;sup&gt;38&lt;/sup&gt;. 
+&lt;p&gt;
+sucAp appears to be repressed by CRP, although no CRP site has been found. The significance of this 2-fold repression is obscure.
+</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-9720032' orgid='ECOLI' frameid='PUB-9720032'/></citation>
+<citation><Publication ID='ECOLI:PUB-3897791' orgid='ECOLI' frameid='PUB-3897791' detail='full'><source datatype='string'>Mol Gen Genet 200(1);145-54</source>
+<pubmed-id datatype='string'>3897791</pubmed-id>
+<title datatype='string'>Transcription analysis of the sucAB, aceEF and lpd genes of Escherichia coli.</title>
+<year datatype='integer'>1985</year>
+<author datatype='string'>Spencer ME</author>
+<author datatype='string'>Guest JR</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9720032' orgid='ECOLI' frameid='PUB-9720032'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-3897791' orgid='ECOLI' frameid='PUB-3897791'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-5865' orgid='ECOLI' frameid='REG0-5865' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PC00027' orgid='ECOLI' frameid='PC00027'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00144' orgid='ECOLI' frameid='PM00144'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5864' orgid='ECOLI' frameid='REG0-5864' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-ARCA' orgid='ECOLI' frameid='PHOSPHO-ARCA'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00144' orgid='ECOLI' frameid='PM00144'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-5863' orgid='ECOLI' frameid='REG0-5863'/></regulated-by>
+<minus-10-right datatype='integer'>758576</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-42509' orgid='ECOLI' frameid='TU0-42509'/><Transcription-Unit resource='#ECOLI:TU00103' orgid='ECOLI' frameid='TU00103'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-8892825' orgid='ECOLI' frameid='PUB-8892825' detail='full'><source datatype='string'>J Bacteriol 178(21);6238-49</source>
+<pubmed-id datatype='string'>8892825</pubmed-id>
+<title datatype='string'>Transcriptional control mediated by the ArcA two-component response regulator protein of Escherichia coli: characterization of DNA binding at target promoters.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Lynch AS</author>
+<author datatype='string'>Lin EC</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on similarity to consensus sequences</common-name>
+<comment datatype='string'>A DNA sequence similar to previously known consensus sequences is computationally identified.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8892825' orgid='ECOLI' frameid='PUB-8892825'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU00103' orgid='ECOLI' frameid='TU00103'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Promoter resource='#ECOLI:PM00144' orgid='ECOLI' frameid='PM00144'/></component>
+<component><DNA-Binding-Site ID='ECOLI:BS00289' orgid='ECOLI' frameid='BS00289' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5864' orgid='ECOLI' frameid='REG0-5864'/></involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-1957353' orgid='ECOLI' frameid='PUB-1957353' detail='full'><source datatype='string'>Trends Biochem Sci 16(8);310-4</source>
+<pubmed-id datatype='string'>1957353</pubmed-id>
+<title datatype='string'>Adaptive responses to oxygen limitation in Escherichia coli.</title>
+<year datatype='integer'>1991</year>
+<author datatype='string'>Spiro S</author>
+<author datatype='string'>Guest JR</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-8892825' orgid='ECOLI' frameid='PUB-8892825'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8892825' orgid='ECOLI' frameid='PUB-8892825'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU00103' orgid='ECOLI' frameid='TU00103'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS00797' orgid='ECOLI' frameid='BS00797' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5865' orgid='ECOLI' frameid='REG0-5865'/></involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-9720032' orgid='ECOLI' frameid='PUB-9720032'/></citation>
+<citation><Publication resource='#ECOLI:PUB-8892825' orgid='ECOLI' frameid='PUB-8892825'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-8892825' orgid='ECOLI' frameid='PUB-8892825'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU00103' orgid='ECOLI' frameid='TU00103'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10979' orgid='ECOLI' frameid='EG10979'/></component>
+<component><Gene resource='getxml?ECOLI:EG10980' orgid='ECOLI' frameid='EG10980'/></component>
+<component><Gene resource='getxml?ECOLI:EG10981' orgid='ECOLI' frameid='EG10981'/></component>
+<component><Gene resource='getxml?ECOLI:EG10982' orgid='ECOLI' frameid='EG10982'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM0-7661'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM0-7661</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM0-7661' orgid='ECOLI' frameid='PM0-7661' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>2512742</minus-10-left>
+<common-name datatype='string'>mntHp</common-name>
+<minus-35-right datatype='integer'>2512770</minus-35-right>
+<minus-35-left datatype='integer'>2512765</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2512734</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-12029030' orgid='ECOLI' frameid='PUB-12029030' detail='full'><source datatype='string'>J Bacteriol 184(12);3151-8</source>
+<pubmed-id datatype='string'>12029030</pubmed-id>
+<title datatype='string'>Regulation of Salmonella enterica serovar Typhimurium mntH transcription by H(2)O(2), Fe(2+), and Mn(2+).</title>
+<year datatype='integer'>2002</year>
+<author datatype='string'>Kehres DG</author>
+<author datatype='string'>Janakiraman A</author>
+<author datatype='string'>Slauch JM</author>
+<author datatype='string'>Maguire ME</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-21908668' orgid='ECOLI' frameid='PUB-21908668' detail='full'><source datatype='string'>J Bacteriol 193(21);5887-97</source>
+<pubmed-id datatype='string'>21908668</pubmed-id>
+<title datatype='string'>The Escherichia coli MntR miniregulon includes genes encoding a small protein and an efflux pump required for manganese homeostasis.</title>
+<year datatype='integer'>2011</year>
+<author datatype='string'>Waters LS</author>
+<author datatype='string'>Sandoval M</author>
+<author datatype='string'>Storz G</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12029030' orgid='ECOLI' frameid='PUB-12029030'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-21908668' orgid='ECOLI' frameid='PUB-21908668'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-10681' orgid='ECOLI' frameid='REG0-10681' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00214' orgid='ECOLI' frameid='PD00214'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-7661' orgid='ECOLI' frameid='PM0-7661'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10458' orgid='ECOLI' frameid='REG0-10458' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00214' orgid='ECOLI' frameid='PD00214'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-7661' orgid='ECOLI' frameid='PM0-7661'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6107' orgid='ECOLI' frameid='REG0-6107' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7639' orgid='ECOLI' frameid='CPLX0-7639'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-7661' orgid='ECOLI' frameid='PM0-7661'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6106' orgid='ECOLI' frameid='REG0-6106' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7672' orgid='ECOLI' frameid='CPLX0-7672'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-7661' orgid='ECOLI' frameid='PM0-7661'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>2512747</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-7321' orgid='ECOLI' frameid='TU0-7321'/></component-of>
+</Promoter>
+</ptools-xml>

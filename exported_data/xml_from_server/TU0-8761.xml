@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8761'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8761</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8761' orgid='ECOLI' frameid='TU0-8761' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>dcuD</common-name>
+<extent-unknown datatype='boolean'>false</extent-unknown>
+<comment datatype='string'>In spite of [&lt;a href=&quot;/ECOLI/reference.html?type=CITATION-REFERENCE&amp;object=%5b0010525738%5d&quot;&gt;&lt;/a&gt;] mentioning that the &amp;sigma;&lt;sup&gt;54&lt;/sup&gt; promoter consensus and the putative IHF site in the intergenic region were most likely part of the &lt;i&gt;narR&lt;/i&gt; promoter, we believe that these correspond to the &lt;i&gt;dcuC&lt;/i&gt; gene, based on two points: (1) the orientation of the putative &amp;sigma;&lt;sup&gt;54&lt;/sup&gt; sequence with the +1 site of the transcriptional start site in the &lt;i&gt;dcuC&lt;/i&gt; direction and (2) the way that regulation (with the presence of the &amp;sigma;&lt;sup&gt;54&lt;/sup&gt; promoter type and IHF regulator at almost the same position and acting positively) is very similar to that of other promoters,  such as glnHp2, pspAp, norVp, hycAp, hypAp, pspGp, and ibpBp, which are controlled by both factors.</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SINGLE-DIRECTON' orgid='ECOLI' frameid='EV-COMP-AINF-SINGLE-DIRECTON' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference that a single-gene directon is a transcription unit </common-name>
+<comment datatype='string'>Automated inference of transcription unit based on single-gene directon.  Existence of a single-gene transcription unit 
+for gene G is inferred computationally by the existence of upstream and downstream genes transcribed in the 
+opposite direction of G.</comment>
+</Evidence-Code>
+</evidence>
+<component><DNA-Binding-Site ID='ECOLI:BS0-7175' orgid='ECOLI' frameid='BS0-7175' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6592' orgid='ECOLI' frameid='REG0-6592' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PC00027' orgid='ECOLI' frameid='PC00027'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-9197' orgid='ECOLI' frameid='PM0-9197' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>3374568</minus-10-left>
+<common-name datatype='string'>dcuDp2</common-name>
+<minus-35-right datatype='integer'>3374561</minus-35-right>
+<minus-35-left datatype='integer'>3374556</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPON-MONOMER' orgid='ECOLI' frameid='RPON-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3374583</absolute-plus-1-pos>
+<comment datatype='string'>We assigned a putative transcription start site to this promoter based on the observation that the majority of the &amp;sigma;&lt;sup&gt;54&lt;/sup&gt;-dependent promoters, whose transcription start sites were determined experimentally, present a distance of 11 nucleotides between the transcription start site and the -12 box [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/10536136&quot;&gt;Barrios99&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-10525738' orgid='ECOLI' frameid='PUB-10525738' detail='full'><source datatype='string'>Arch Microbiol 172(4);219-26</source>
+<pubmed-id datatype='string'>10525738</pubmed-id>
+<title datatype='string'>The dcuD (former yhcL) gene product of escherichia coli as a member of the DcuC family of C4-dicarboxylate carriers: lack of evident expression</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>Janausch IG</author>
+<author datatype='string'>Unden G</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10525738' orgid='ECOLI' frameid='PUB-10525738'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-6592' orgid='ECOLI' frameid='REG0-6592'/></regulated-by>
+<minus-10-right datatype='integer'>3374572</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8761' orgid='ECOLI' frameid='TU0-8761'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-10525738' orgid='ECOLI' frameid='PUB-10525738'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10525738' orgid='ECOLI' frameid='PUB-10525738'/></evidence>
+<abs-center-pos datatype='integer'>3374539</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8761' orgid='ECOLI' frameid='TU0-8761'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:G7679' orgid='ECOLI' frameid='G7679'/></component>
+<component><Promoter resource='#ECOLI:PM0-9197' orgid='ECOLI' frameid='PM0-9197'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8824'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8824</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8824' orgid='ECOLI' frameid='TU0-8824' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>micC</common-name>
+<comment datatype='string'>Expression levels of both &lt;i&gt;micC&lt;/i&gt; and &lt;i&gt;ompN&lt;/i&gt; are increased in the presence of &amp;beta;-lactam antibiotics. On the other hand, under conditions when cells were depleted of &amp;sigma;&lt;sup&gt;E&lt;/sup&gt; upon overexpression of its cognate anti-sigma RseA, the activities of both &lt;i&gt;micC&lt;/i&gt; and the &lt;i&gt;ompN-lacZ&lt;/i&gt; fusion were affected. However, the &amp;sigma;&lt;sup&gt;E&lt;/sup&gt; core promoter motif was not found, which suggests an indirect effect [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/29211019&quot;&gt;Dam17&lt;/a&gt;]. Finally, based on gene expression analysis, it was shown that H-NS could be regulating the expression of &lt;i&gt;micC&lt;/i&gt; and &lt;i&gt;ompN&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/29211019&quot;&gt;Dam17&lt;/a&gt;].
+&lt;p&gt;
+MicC sRNA could be acting together with &amp;sigma;&lt;sup&gt;E&lt;/sup&gt; to control OmpC/N levels in response to &amp;beta;-lactam antibiotics [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/29211019&quot;&gt;Dam17&lt;/a&gt;].
+&lt;p&gt;
+Based on studies with an &lt;i&gt;ompR&lt;/i&gt; null mutant, it was confirmed that OmpR is a repressor of &lt;i&gt;micC&lt;/i&gt; expression. However, whether this effect is direct or indirect is still unknown [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/29211019&quot;&gt;Dam17&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-15466019' orgid='ECOLI' frameid='PUB-15466019' detail='full'><source datatype='string'>J Bacteriol 186(20);6689-97</source>
+<pubmed-id datatype='string'>15466019</pubmed-id>
+<title datatype='string'>MicC, a second small-RNA regulator of Omp protein expression in Escherichia coli.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Chen S</author>
+<author datatype='string'>Zhang A</author>
+<author datatype='string'>Blyn LB</author>
+<author datatype='string'>Storz G</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SINGLE-DIRECTON' orgid='ECOLI' frameid='EV-COMP-AINF-SINGLE-DIRECTON' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference that a single-gene directon is a transcription unit </common-name>
+<comment datatype='string'>Automated inference of transcription unit based on single-gene directon.  Existence of a single-gene transcription unit 
+for gene G is inferred computationally by the existence of upstream and downstream genes transcribed in the 
+opposite direction of G.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15466019' orgid='ECOLI' frameid='PUB-15466019'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15466019' orgid='ECOLI' frameid='PUB-15466019'/></evidence>
+<component><Gene resource='getxml?ECOLI:G0-8901' orgid='ECOLI' frameid='G0-8901'/></component>
+<component><Promoter ID='ECOLI:PM0-9260' orgid='ECOLI' frameid='PM0-9260' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>1437109</minus-10-left>
+<common-name datatype='string'>micCp</common-name>
+<minus-35-right datatype='integer'>1437089</minus-35-right>
+<minus-35-left datatype='integer'>1437084</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1437121</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-15466019' orgid='ECOLI' frameid='PUB-15466019'/></citation>
+<citation><Publication ID='ECOLI:PUB-29211019' orgid='ECOLI' frameid='PUB-29211019' detail='full'><source datatype='string'>Antibiotics (Basel) 6(4)</source>
+<pubmed-id datatype='string'>29211019</pubmed-id>
+<title datatype='string'>Dual Regulation of the Small RNA MicC and the Quiescent Porin OmpN in Response to Antibiotic Stress in Escherichia coli.</title>
+<year datatype='integer'>2017</year>
+<author datatype='string'>Dam S</author>
+<author datatype='string'>Pages JM</author>
+<author datatype='string'>Masi M</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-30107543' orgid='ECOLI' frameid='PUB-30107543' detail='full'><source datatype='string'>Nucleic Acids Res 46(21);e129</source>
+<pubmed-id datatype='string'>30107543</pubmed-id>
+<title datatype='string'>Capping-RACE: a simple, accurate, and sensitive 5' RACE method for use in prokaryotes.</title>
+<year datatype='integer'>2018</year>
+<author datatype='string'>Liu F</author>
+<author datatype='string'>Zheng K</author>
+<author datatype='string'>Chen HC</author>
+<author datatype='string'>Liu ZF</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15466019' orgid='ECOLI' frameid='PUB-15466019'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' orgid='ECOLI' frameid='EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>High-throughput transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified using a high-throughput experimental modified RACE approach.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-30107543' orgid='ECOLI' frameid='PUB-30107543'/></evidence>
+<minus-10-right datatype='integer'>1437114</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8824' orgid='ECOLI' frameid='TU0-8824'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

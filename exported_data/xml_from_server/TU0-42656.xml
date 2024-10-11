@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42656'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42656</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42656' orgid='ECOLI' frameid='TU0-42656' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>leuO</common-name>
+<comment datatype='string'>LrhA binds to a region which overlaps with the HNS-binding site and one of the LeuO-binding sites, activating the promoters &lt;i&gt;leuO&lt;/i&gt;p1, &lt;i&gt;leuO&lt;/i&gt;p, and &lt;i&gt;leuO&lt;/i&gt;p3 [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/28252809&quot;&gt;Breddermann17&lt;/a&gt;].
+&lt;p&gt;
+The transcription of  the &lt;i&gt;leuO&lt;/i&gt; gene is induced during the first 24 h after the induction of nitrogen starvation [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/32571968&quot;&gt;Switzer20&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-15582999' orgid='ECOLI' frameid='PUB-15582999' detail='full'><source datatype='string'>J Biol Chem 280(6);5101-12</source>
+<pubmed-id datatype='string'>15582999</pubmed-id>
+<title datatype='string'>A cis-spreading nucleoprotein filament is responsible for the gene silencing activity found in the promoter relay mechanism.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Chen CC</author>
+<author datatype='string'>Chou MY</author>
+<author datatype='string'>Huang CH</author>
+<author datatype='string'>Majumder A</author>
+<author datatype='string'>Wu HY</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15582999' orgid='ECOLI' frameid='PUB-15582999'/></evidence>
+<component><Promoter ID='ECOLI:PM0-46381' orgid='ECOLI' frameid='PM0-46381' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>leuOp3</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>84298</absolute-plus-1-pos>
+<comment datatype='string'>The transcription start site &lt;i&gt;leuO&lt;/i&gt;p3 presents an additional site mapped 4 bp upstream of &lt;i&gt;leuO&lt;/i&gt;p2 [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/28252809&quot;&gt;Breddermann17&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-28252809' orgid='ECOLI' frameid='PUB-28252809' detail='full'><source datatype='string'>Mol Microbiol 104(4);664-676</source>
+<pubmed-id datatype='string'>28252809</pubmed-id>
+<title datatype='string'>Activation of leuO by LrhA in Escherichia coli.</title>
+<year datatype='integer'>2017</year>
+<author datatype='string'>Breddermann H</author>
+<author datatype='string'>Schnetz K</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-28252809' orgid='ECOLI' frameid='PUB-28252809'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12723' orgid='ECOLI' frameid='REG0-12723' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12123-MONOMER' orgid='ECOLI' frameid='EG12123-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46381' orgid='ECOLI' frameid='PM0-46381'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42656' orgid='ECOLI' frameid='TU0-42656'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10531' orgid='ECOLI' frameid='EG10531'/></component>
+</Transcription-Unit>
+</ptools-xml>

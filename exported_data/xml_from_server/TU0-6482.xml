@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-6482'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-6482</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-6482' orgid='ECOLI' frameid='TU0-6482' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>aspC</common-name>
+<comment datatype='string'>Under nitrogen-rich growth conditions, the expression of the &lt;i&gt;icdA&lt;/i&gt; gene increased in mutants for two genes that encode two terminal oxidases, &lt;i&gt;cyoA&lt;/i&gt; and &lt;i&gt;cydB&lt;/i&gt;, and in mutants for two transcriptional regulators, Fnr and Fur. However, under nitrogen-limited growth conditions, gene expression was decreased in the &lt;i&gt;cyoA&lt;/i&gt; and &lt;i&gt;cydB&lt;/i&gt;  and Fnr mutants [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/21272324&quot;&gt;Kumar11&lt;/a&gt;].
+&lt;p&gt;
+The expression of the gene &lt;i&gt;aspC&lt;/i&gt; is enhanced under oxygen limitation [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/30810277&quot;&gt;Kawaguchi19&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><Gene resource='getxml?ECOLI:EG10096' orgid='ECOLI' frameid='EG10096'/></component>
+<component><Promoter ID='ECOLI:PM00356' orgid='ECOLI' frameid='PM00356' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>aspCp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>985743</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-3521591' orgid='ECOLI' frameid='PUB-3521591' detail='full'><source datatype='string'>Biochem J 234(3);593-604</source>
+<pubmed-id datatype='string'>3521591</pubmed-id>
+<title datatype='string'>The cloning and sequence analysis of the aspC and tyrB genes from Escherichia coli K12. Comparison of the primary structures of the aspartate aminotransferase and aromatic aminotransferase of E. coli with those of the pig aspartate aminotransferase isoenzymes.</title>
+<year datatype='integer'>1986</year>
+<author datatype='string'>Fotheringham IG</author>
+<author datatype='string'>Dacey SA</author>
+<author datatype='string'>Taylor PP</author>
+<author datatype='string'>Smith TJ</author>
+<author datatype='string'>Hunter MG</author>
+<author datatype='string'>Finlay ME</author>
+<author datatype='string'>Primrose SB</author>
+<author datatype='string'>Parker DM</author>
+<author datatype='string'>Edwards RM</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-6364040' orgid='ECOLI' frameid='PUB-6364040' detail='full'><source datatype='string'>Nucleic Acids Res 12(1 Pt 2);521-38</source>
+<pubmed-id datatype='string'>6364040</pubmed-id>
+<title datatype='string'>Graphic methods to determine the function of nucleic acid sequences.</title>
+<year datatype='integer'>1984</year>
+<author datatype='string'>Staden R</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-RNA-POLYMERASE-FOOTPRINTING' orgid='ECOLI' frameid='EV-EXP-IDA-RNA-POLYMERASE-FOOTPRINTING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>RNA polymerase footprinting</common-name>
+<comment datatype='string'>The binding of RNA polymerase to a DNA region (the promoter) is shown by footprinting.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3521591' orgid='ECOLI' frameid='PUB-3521591'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference of promoter position</common-name>
+<comment datatype='string'>Automated inference of promoter position relative to the -10 and -35 boxes.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6364040' orgid='ECOLI' frameid='PUB-6364040'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11082' orgid='ECOLI' frameid='REG0-11082' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7797' orgid='ECOLI' frameid='CPLX0-7797'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00356' orgid='ECOLI' frameid='PM00356'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11081' orgid='ECOLI' frameid='REG0-11081' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7797' orgid='ECOLI' frameid='CPLX0-7797'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00356' orgid='ECOLI' frameid='PM00356'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11080' orgid='ECOLI' frameid='REG0-11080' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7639' orgid='ECOLI' frameid='CPLX0-7639'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00356' orgid='ECOLI' frameid='PM00356'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-6482' orgid='ECOLI' frameid='TU0-6482'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-13709'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-13709</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-13709' orgid='ECOLI' frameid='TU0-13709' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>yqaE</common-name>
+<comment datatype='string'>Under NlpE outer membrane lipoprotein overexpression, the transcription of the &lt;i&gt;yqaE&lt;/i&gt; gene is increased by CpxR [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23564175&quot;&gt;Raivio13&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-18978044' orgid='ECOLI' frameid='PUB-18978044' detail='full'><source datatype='string'>J Bacteriol 191(2);461-76</source>
+<pubmed-id datatype='string'>18978044</pubmed-id>
+<title datatype='string'>The Crp-activated small noncoding regulatory RNA CyaR (RyeE) links nutritional status to group behavior.</title>
+<year datatype='integer'>2009</year>
+<author datatype='string'>De Lay N</author>
+<author datatype='string'>Gottesman S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-18978044' orgid='ECOLI' frameid='PUB-18978044'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-13088' orgid='ECOLI' frameid='REG0-13088' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Compound resource='getxml?ECOLI:GUANOSINE-5DP-3DP' orgid='ECOLI' frameid='GUANOSINE-5DP-3DP'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-13709' orgid='ECOLI' frameid='TU0-13709'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10097' orgid='ECOLI' frameid='REG0-10097' detail='low'><parent><Regulation resource='getxml?ECOLI:RNA-Mediated-Translation-Regulation' orgid='ECOLI' frameid='RNA-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><RNA resource='getxml?ECOLI:RYEE-RNA' orgid='ECOLI' frameid='RYEE-RNA'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-13709' orgid='ECOLI' frameid='TU0-13709'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component><Promoter ID='ECOLI:PM0-10299' orgid='ECOLI' frameid='PM0-10299' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>yqaEp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2797085</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-18978044' orgid='ECOLI' frameid='PUB-18978044'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-18978044' orgid='ECOLI' frameid='PUB-18978044'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11811' orgid='ECOLI' frameid='REG0-11811' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7748' orgid='ECOLI' frameid='CPLX0-7748'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10299' orgid='ECOLI' frameid='PM0-10299'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-42608' orgid='ECOLI' frameid='TU0-42608'/><Transcription-Unit resource='#ECOLI:TU0-13709' orgid='ECOLI' frameid='TU0-13709'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:G7396' orgid='ECOLI' frameid='G7396'/></component>
+</Transcription-Unit>
+</ptools-xml>

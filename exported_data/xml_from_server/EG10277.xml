@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='27.0' xml:base='http://BioCyc.org/getxml?ECOLI:EG10277'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:EG10277</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='27.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Gene ID='ECOLI:EG10277' orgid='ECOLI' frameid='EG10277' detail='full'><parent><Gene resource='getxml?ECOLI:BC-1.5.4' orgid='ECOLI' frameid='BC-1.5.4' class='true'/></parent>
+<replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<knockout-growth-observations><Growth-Observation ID='ECOLI:OBS0-43' orgid='ECOLI' frameid='OBS0-43' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NONE</growth-status>
+<with-growth-media>LB enriched</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-438' orgid='ECOLI' frameid='OBS0-438' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NONE</growth-status>
+<with-growth-media>Luria-Bertani broth</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-49' orgid='ECOLI' frameid='OBS0-49' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>LB Lennox</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-40' orgid='ECOLI' frameid='OBS0-40' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>MOPS medium with 0.4% glucose</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-37' orgid='ECOLI' frameid='OBS0-37' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>MOPS medium with 0.4% glucose</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-33' orgid='ECOLI' frameid='OBS0-33' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>M9 medium with 1% glycerol</with-growth-media>
+</Growth-Observation>
+</knockout-growth-observations>
+<transcription-direction datatype='string'>+</transcription-direction>
+<product><Protein resource='getxml?ECOLI:FABH-MONOMER' orgid='ECOLI' frameid='FABH-MONOMER'/></product>
+<centisome-position datatype='float' units='CENTISOMES'>24.748926</centisome-position>
+<common-name datatype='string'>fabH</common-name>
+<citation><Publication ID='ECOLI:PUB-1551888' orgid='ECOLI' frameid='PUB-1551888' detail='full'><year datatype='integer'>1992</year>
+<source datatype='string'>J Biol Chem 267(10);6807-14</source>
+<title datatype='string'>Isolation and characterization of the beta-ketoacyl-acyl carrier protein synthase III gene (fabH) from Escherichia coli K-12.</title>
+<pubmed-id datatype='string'>1551888</pubmed-id>
+<author datatype='string'>Tsay JT</author>
+<author datatype='string'>Oh W</author>
+<author datatype='string'>Larson TJ</author>
+<author datatype='string'>Jackowski S</author>
+<author datatype='string'>Rock CO</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-5' orgid='ECOLI' frameid='TU0-5'/><Transcription-Unit resource='getxml?ECOLI:TU0-1' orgid='ECOLI' frameid='TU0-1'/><Transcription-Unit resource='getxml?ECOLI:TU00266' orgid='ECOLI' frameid='TU00266'/></component-of>
+<accession-1 datatype='string'>b1091</accession-1>
+<dblink><dblink-db>REGULONDB</dblink-db>
+<dblink-oid>b1091</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://regulondb.ccg.unam.mx/search?term=b1091&amp;organism=ECK12&amp;type=All</dblink-URL>
+</dblink>
+<dblink><dblink-db>STRING</dblink-db>
+<dblink-oid>511145.b1091</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://string-db.org/network/511145.b1091</dblink-URL>
+</dblink>
+<dblink><dblink-db>ASAP</dblink-db>
+<dblink-oid>ABE-0003696</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://asap.ahabs.wisc.edu/asap/feature_info.php?FeatureID=ABE-0003696</dblink-URL>
+</dblink>
+<dblink><dblink-db>ECHOBASE</dblink-db>
+<dblink-oid>EB0273</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.york.ac.uk/res/thomas/Gene.cfm?recordID=EB0273</dblink-URL>
+</dblink>
+<dblink><dblink-db>OU-MICROARRAY</dblink-db>
+<dblink-oid>b1091</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>https://genexpdb.okstate.edu/databases/genexpdb/?query=b1091</dblink-URL>
+</dblink>
+<dblink><dblink-db>CGSC</dblink-db>
+<dblink-oid>31860</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://cgsc.biology.yale.edu/Site.php?ID=31860</dblink-URL>
+</dblink>
+<left-end-position datatype='integer'>1148759</left-end-position>
+<right-end-position datatype='integer'>1149712</right-end-position>
+<accession-2 datatype='string'>ECK1077</accession-2>
+</Gene>
+</ptools-xml>

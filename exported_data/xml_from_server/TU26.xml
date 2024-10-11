@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU26'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU26</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU26' orgid='ECOLI' frameid='TU26' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>eda</common-name>
+<comment datatype='string'>Under nitrogen-rich growth conditions, the expression of the &lt;i&gt;eda&lt;/i&gt;  gene was increased in mutants for two genes that encode two terminal oxidases, &lt;i&gt;cyoA&lt;/i&gt; and &lt;i&gt;cydB&lt;/i&gt;, and in a mutant of the transcriptional regulator Fur. However, it is unknown if the effects of the transcriptional regulators act directly on gene expression;  also, it is unknown which of the four promoters that transcribe the gene could  be regulated by the regulators [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/21272324&quot;&gt;Kumar11&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-1624451' orgid='ECOLI' frameid='PUB-1624451' detail='full'><source datatype='string'>J Bacteriol 174(14);4638-46</source>
+<pubmed-id datatype='string'>1624451</pubmed-id>
+<title datatype='string'>Molecular characterization of the Entner-Doudoroff pathway in Escherichia coli: sequence analysis and localization of promoters for the edd-eda operon.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Egan SE</author>
+<author datatype='string'>Fliege R</author>
+<author datatype='string'>Tong S</author>
+<author datatype='string'>Shibata A</author>
+<author datatype='string'>Wolf RE</author>
+<author datatype='string'>Conway T</author>
+</Publication>
+</citation>
+<component><Terminator ID='ECOLI:TERM0461' orgid='ECOLI' frameid='TERM0461' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>1932105</right-end-position>
+<left-end-position datatype='integer'>1932085</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-1624451' orgid='ECOLI' frameid='PUB-1624451'/></citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU00227' orgid='ECOLI' frameid='TU00227'/><Transcription-Unit resource='#ECOLI:TU26' orgid='ECOLI' frameid='TU26'/><Transcription-Unit resource='getxml?ECOLI:TU27' orgid='ECOLI' frameid='TU27'/><Transcription-Unit resource='getxml?ECOLI:TU25' orgid='ECOLI' frameid='TU25'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10256' orgid='ECOLI' frameid='EG10256'/></component>
+<component><Promoter ID='ECOLI:PM00383' orgid='ECOLI' frameid='PM00383' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>edap2</common-name>
+<synonym datatype='string'>P3</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1932799</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-1624451' orgid='ECOLI' frameid='PUB-1624451'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1624451' orgid='ECOLI' frameid='PUB-1624451'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU26' orgid='ECOLI' frameid='TU26'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

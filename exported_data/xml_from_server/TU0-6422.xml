@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-6422'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-6422</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-6422' orgid='ECOLI' frameid='TU0-6422' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>amn</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><Gene resource='getxml?ECOLI:EG10039' orgid='ECOLI' frameid='EG10039'/></component>
+<component><Promoter ID='ECOLI:PM00391' orgid='ECOLI' frameid='PM00391' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>amnp1</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2055031</absolute-plus-1-pos>
+<comment datatype='string'>For the &lt;i&gt;amn&lt;/i&gt; transcription unit, just one promoter has been reported, but six transcription start sites were found. Therefore, here we annotate just one transcription start site, the one closer to 10 bp downstream of the promoter, as we considered it the most appropriate.</comment>
+<citation><Publication ID='ECOLI:PUB-2690948' orgid='ECOLI' frameid='PUB-2690948' detail='full'><source datatype='string'>Biochemistry 28(22);8726-33</source>
+<pubmed-id datatype='string'>2690948</pubmed-id>
+<title datatype='string'>Structure and regulation of the AMP nucleosidase gene (amn) from Escherichia coli.</title>
+<year datatype='integer'>1989</year>
+<author datatype='string'>Leung HB</author>
+<author datatype='string'>Kvalnes-Krick KL</author>
+<author datatype='string'>Meyer SL</author>
+<author datatype='string'>deRiel JK</author>
+<author datatype='string'>Schramm VL</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2690948' orgid='ECOLI' frameid='PUB-2690948'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+</evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-9031' orgid='ECOLI' frameid='REG0-9031' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-PHOB' orgid='ECOLI' frameid='PHOSPHO-PHOB'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00391' orgid='ECOLI' frameid='PM00391'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-6422' orgid='ECOLI' frameid='TU0-6422'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-3145'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-3145</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-3145' orgid='ECOLI' frameid='TU0-3145' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>xdhABC</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><Gene resource='getxml?ECOLI:G7486' orgid='ECOLI' frameid='G7486'/></component>
+<component><Gene resource='getxml?ECOLI:G7487' orgid='ECOLI' frameid='G7487'/></component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-7016' orgid='ECOLI' frameid='BS0-7016' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6321' orgid='ECOLI' frameid='REG0-6321' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7797' orgid='ECOLI' frameid='CPLX0-7797'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-3325' orgid='ECOLI' frameid='PM0-3325' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>xdhAp1</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3000257</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-10986234' orgid='ECOLI' frameid='PUB-10986234' detail='full'><source datatype='string'>J Bacteriol 182(19);5332-41</source>
+<pubmed-id datatype='string'>10986234</pubmed-id>
+<title datatype='string'>Purine catabolism in Escherichia coli and function of xanthine dehydrogenase in purine salvage.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Xi H</author>
+<author datatype='string'>Schneider BL</author>
+<author datatype='string'>Reitzer L</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10986234' orgid='ECOLI' frameid='PUB-10986234'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-6321' orgid='ECOLI' frameid='REG0-6321'/></regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-3145' orgid='ECOLI' frameid='TU0-3145'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-12754220' orgid='ECOLI' frameid='PUB-12754220' detail='full'><source datatype='string'>J Biol Chem 278(32);29837-55</source>
+<pubmed-id datatype='string'>12754220</pubmed-id>
+<title datatype='string'>Global gene expression profiling in Escherichia coli K12. The effects of oxygen availability and FNR.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Salmon K</author>
+<author datatype='string'>Hung SP</author>
+<author datatype='string'>Mekjian K</author>
+<author datatype='string'>Baldi P</author>
+<author datatype='string'>Hatfield GW</author>
+<author datatype='string'>Gunsalus RP</author>
+</Publication>
+</evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-3145' orgid='ECOLI' frameid='TU0-3145'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:G7485' orgid='ECOLI' frameid='G7485'/></component>
+<component><Promoter resource='#ECOLI:PM0-3325' orgid='ECOLI' frameid='PM0-3325'/></component>
+</Transcription-Unit>
+</ptools-xml>

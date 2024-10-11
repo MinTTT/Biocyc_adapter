@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00339'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00339</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00339' orgid='ECOLI' frameid='TU00339' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rpmBG</common-name>
+<comment datatype='string'>There is a strong attenuator downstream of  rpmG gene.
+&lt;p&gt;
+FNR represses rpmB gene expression under anaerobiosis, but it is still not know which of the two promoters (rpmBp, radCp) is affected, or even if this regulation is direct or indirect [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12754220&quot;&gt;Salmon03&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-9098043' orgid='ECOLI' frameid='PUB-9098043' detail='full'><source datatype='string'>J Bacteriol 179(8);2486-93</source>
+<pubmed-id datatype='string'>9098043</pubmed-id>
+<title datatype='string'>Mutations in the rpmBG operon of Escherichia coli that affect ribosome assembly.</title>
+<year datatype='integer'>1997</year>
+<author datatype='string'>Maguire BA</author>
+<author datatype='string'>Wild DG</author>
+</Publication>
+</citation>
+<component><Terminator ID='ECOLI:TERM85' orgid='ECOLI' frameid='TERM85' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3811225</right-end-position>
+<left-end-position datatype='integer'>3811209</left-end-position>
+<citation><Publication ID='ECOLI:PUB-7035835' orgid='ECOLI' frameid='PUB-7035835' detail='full'><source datatype='string'>Mol Gen Genet 184(2);218-23</source>
+<pubmed-id datatype='string'>7035835</pubmed-id>
+<title datatype='string'>Cloning and the nucleotide sequence of the genes for Escherichia coli ribosomal proteins L28 (rpmB) and L33 (rpmG).</title>
+<year datatype='integer'>1981</year>
+<author datatype='string'>Lee JS</author>
+<author datatype='string'>An G</author>
+<author datatype='string'>Friesen JD</author>
+<author datatype='string'>Isono K</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-5601' orgid='ECOLI' frameid='TU0-5601'/><Transcription-Unit resource='#ECOLI:TU00339' orgid='ECOLI' frameid='TU00339'/></component-of>
+</Terminator>
+</component>
+<component><Promoter ID='ECOLI:PM407' orgid='ECOLI' frameid='PM407' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>3812003</minus-10-left>
+<common-name datatype='string'>rpmBp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3811995</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-10400579' orgid='ECOLI' frameid='PUB-10400579' detail='full'><source datatype='string'>J Bacteriol 181(14);4223-36</source>
+<pubmed-id datatype='string'>10400579</pubmed-id>
+<title datatype='string'>The genes encoding formamidopyrimidine and MutY DNA glycosylases in Escherichia coli are transcribed as part of complex operons.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>Gifford CM</author>
+<author datatype='string'>Wallace SS</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-21398637' orgid='ECOLI' frameid='PUB-21398637' detail='full'><source datatype='string'>Nucleic Acids Res 39(13);5338-55</source>
+<pubmed-id datatype='string'>21398637</pubmed-id>
+<title datatype='string'>In vitro transcription profiling of the &amp;sigma;S subunit of bacterial RNA polymerase: re-definition of the &amp;sigma;S regulon and identification of &amp;sigma;S-specific promoter sequence elements.</title>
+<year datatype='integer'>2011</year>
+<author datatype='string'>Maciag A</author>
+<author datatype='string'>Peano C</author>
+<author datatype='string'>Pietrelli A</author>
+<author datatype='string'>Egli T</author>
+<author datatype='string'>De Bellis G</author>
+<author datatype='string'>Landini P</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10400579' orgid='ECOLI' frameid='PUB-10400579'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' orgid='ECOLI' frameid='EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>High-throughput transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified using a high-throughput experimental modified RACE approach.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-21398637' orgid='ECOLI' frameid='PUB-21398637'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12551' orgid='ECOLI' frameid='REG0-12551' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8070' orgid='ECOLI' frameid='CPLX0-8070'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM407' orgid='ECOLI' frameid='PM407'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>3812008</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-5543' orgid='ECOLI' frameid='TU0-5543'/><Transcription-Unit resource='#ECOLI:TU00339' orgid='ECOLI' frameid='TU00339'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10891' orgid='ECOLI' frameid='EG10891'/></component>
+<component><Gene resource='getxml?ECOLI:EG10886' orgid='ECOLI' frameid='EG10886'/></component>
+</Transcription-Unit>
+</ptools-xml>

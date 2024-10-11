@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-4343'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-4343</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-4343' orgid='ECOLI' frameid='TU0-4343' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>secMA-mutT</common-name>
+<citation><Publication ID='ECOLI:PUB-1833384' orgid='ECOLI' frameid='PUB-1833384' detail='full'><source datatype='string'>J Bacteriol 173(20);6605-11</source>
+<pubmed-id datatype='string'>1833384</pubmed-id>
+<title datatype='string'>Regulation of Escherichia coli secA mRNA translation by a secretion-responsive element.</title>
+<year datatype='integer'>1991</year>
+<author datatype='string'>Schmidt MG</author>
+<author datatype='string'>Dolan KM</author>
+<author datatype='string'>Oliver DB</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1833384' orgid='ECOLI' frameid='PUB-1833384'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG10626' orgid='ECOLI' frameid='EG10626'/></component>
+<component><Gene resource='getxml?ECOLI:EG10936' orgid='ECOLI' frameid='EG10936'/></component>
+<component><Gene resource='getxml?ECOLI:EG11087' orgid='ECOLI' frameid='EG11087'/></component>
+</Transcription-Unit>
+</ptools-xml>

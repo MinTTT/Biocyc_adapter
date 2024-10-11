@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00308'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00308</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00308' orgid='ECOLI' frameid='TU00308' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>nikABCDER</common-name>
+<comment datatype='string'>The transcription of the proteins involved in nickel transport (NikABCDE) are essential for hydrogenase activity [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16159764&quot;&gt;Rowe05&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-7934931' orgid='ECOLI' frameid='PUB-7934931' detail='full'><source datatype='string'>Mol Microbiol 9(6);1181-91</source>
+<pubmed-id datatype='string'>7934931</pubmed-id>
+<title datatype='string'>The nik operon of Escherichia coli encodes a periplasmic binding-protein-dependent transport system for nickel.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>Navarro C</author>
+<author datatype='string'>Wu LF</author>
+<author datatype='string'>Mandrand-Berthelot MA</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-9882686' orgid='ECOLI' frameid='PUB-9882686' detail='full'><source datatype='string'>J Bacteriol 181(2);670-4</source>
+<pubmed-id datatype='string'>9882686</pubmed-id>
+<title datatype='string'>Isolation and characterization of the nikR gene encoding a nickel-responsive regulator in Escherichia coli.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>De Pina K</author>
+<author datatype='string'>Desjardin V</author>
+<author datatype='string'>Mandrand-Berthelot MA</author>
+<author datatype='string'>Giordano G</author>
+<author datatype='string'>Wu LF</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-10648098' orgid='ECOLI' frameid='PUB-10648098' detail='full'><source datatype='string'>Arch Microbiol 173(1);1-9</source>
+<pubmed-id datatype='string'>10648098</pubmed-id>
+<title datatype='string'>Nickel transport systems in microorganisms.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Eitinger T</author>
+<author datatype='string'>Mandrand-Berthelot MA</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Inferred through co-regulation</common-name>
+<comment datatype='string'>Inferred through co-regulation.  A transcription unit is inferred because a set of 
+adjacent genes that are transcribed in the same direction exhibit similar
+expression patterns under a range of environmental conditions.
+</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+</evidence>
+<component><DNA-Binding-Site ID='ECOLI:BS0-2721' orgid='ECOLI' frameid='BS0-2721' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-4827' orgid='ECOLI' frameid='REG0-4827' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7707' orgid='ECOLI' frameid='CPLX0-7707'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM881' orgid='ECOLI' frameid='PM881' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>nikAp1</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3613628</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-7934931' orgid='ECOLI' frameid='PUB-7934931'/></citation>
+<citation><Publication ID='ECOLI:PUB-10787413' orgid='ECOLI' frameid='PUB-10787413' detail='full'><source datatype='string'>J Biol Chem 275(26);19735-41</source>
+<pubmed-id datatype='string'>10787413</pubmed-id>
+<title datatype='string'>Regulation of high affinity nickel uptake in bacteria. Ni2+-Dependent interaction of NikR with wild-type and mutant operator sites.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Chivers PT</author>
+<author datatype='string'>Sauer RT</author>
+</Publication>
+</citation>
+<regulated-by><Regulation resource='#ECOLI:REG0-4827' orgid='ECOLI' frameid='REG0-4827'/><Regulation ID='ECOLI:REG0-4826' orgid='ECOLI' frameid='REG0-4826' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-NARL' orgid='ECOLI' frameid='PHOSPHO-NARL'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM881' orgid='ECOLI' frameid='PM881'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4825' orgid='ECOLI' frameid='REG0-4825' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7797' orgid='ECOLI' frameid='CPLX0-7797'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM881' orgid='ECOLI' frameid='PM881'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU00308' orgid='ECOLI' frameid='TU00308'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-10787413' orgid='ECOLI' frameid='PUB-10787413'/></citation>
+<citation><Publication ID='ECOLI:PUB-10595554' orgid='ECOLI' frameid='PUB-10595554' detail='full'><source datatype='string'>Protein Sci 8(11);2494-500</source>
+<pubmed-id datatype='string'>10595554</pubmed-id>
+<title datatype='string'>NikR is a ribbon-helix-helix DNA-binding protein.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>Chivers PT</author>
+<author datatype='string'>Sauer RT</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-22971172' orgid='ECOLI' frameid='PUB-22971172' detail='full'><source datatype='string'>Biochemistry 51(40);7873-9</source>
+<pubmed-id datatype='string'>22971172</pubmed-id>
+<title datatype='string'>Nonspecific interactions between Escherichia coli NikR and DNA are critical for nickel-activated DNA binding.</title>
+<year datatype='integer'>2012</year>
+<author datatype='string'>Krecisz S</author>
+<author datatype='string'>Jones MD</author>
+<author datatype='string'>Zamble DB</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10787413' orgid='ECOLI' frameid='PUB-10787413'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-22971172' orgid='ECOLI' frameid='PUB-22971172'/></evidence>
+<site-length datatype='integer'>28</site-length>
+<abs-center-pos datatype='float'>3613615.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00308' orgid='ECOLI' frameid='TU00308'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS744' orgid='ECOLI' frameid='BS744' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-4825' orgid='ECOLI' frameid='REG0-4825'/></involved-in-regulation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Site mutation</common-name>
+<comment datatype='string'>A cis-mutation in the DNA sequence of the transcription-factor binding site interferes with the operation of the regulatory function. This is considered  strong evidence for the existence and functional role of the DNA binding site.</comment>
+</Evidence-Code>
+</evidence>
+<site-length datatype='integer'>14</site-length>
+<abs-center-pos datatype='float'>3613587.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00308' orgid='ECOLI' frameid='TU00308'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11519' orgid='ECOLI' frameid='EG11519'/></component>
+<component><Promoter resource='#ECOLI:PM881' orgid='ECOLI' frameid='PM881'/></component>
+<component><Gene resource='getxml?ECOLI:EG12075' orgid='ECOLI' frameid='EG12075'/></component>
+<component><Gene resource='getxml?ECOLI:EG12076' orgid='ECOLI' frameid='EG12076'/></component>
+<component><Gene resource='getxml?ECOLI:EG12077' orgid='ECOLI' frameid='EG12077'/></component>
+<component><Gene resource='getxml?ECOLI:EG12078' orgid='ECOLI' frameid='EG12078'/></component>
+<component><Gene resource='getxml?ECOLI:EG12079' orgid='ECOLI' frameid='EG12079'/></component>
+</Transcription-Unit>
+</ptools-xml>

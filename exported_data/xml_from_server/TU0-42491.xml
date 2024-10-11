@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42491'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42491</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42491' orgid='ECOLI' frameid='TU0-42491' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>btsT</common-name>
+<synonym datatype='string'>yjiY</synonym>
+<comment datatype='string'>The &lt;i&gt;btsT&lt;/i&gt; gene belongs to the CstA superfamily of transporters, and it is strongly induced at the onset of the stationary growth phase, which requires cAMP and the cAMP receptor protein CRP [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/22685278&quot;&gt;Kraxenberger12&lt;/a&gt;]. &lt;i&gt;btsT&lt;/i&gt; was expressed after growth on amino acids or peptides as carbon sources [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/22685278&quot;&gt;Kraxenberger12&lt;/a&gt;].
+&lt;p&gt;
+A functional link between the two systems provides positive feedback between YpdA/YhjX and &lt;i&gt;btsT&lt;/i&gt; transcription, while &lt;i&gt;yhjX&lt;/i&gt; is negatively regulated by BtsS/BtsT activity [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/24659770&quot;&gt;Behr14&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/28796832&quot;&gt;Behr17&lt;/a&gt;].
+&lt;p&gt;
+A potential RNA G-quadruplex structure, formed by guanine-rich sequences located in the coding sequence region of the gene, was identified  for &lt;i&gt;btsT&lt;/i&gt;. This structure  could regulate the expression of the gene, as observed for &lt;i&gt;hemL&lt;/i&gt; gene expression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31964733&quot;&gt;Shao20&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><Gene resource='getxml?ECOLI:G7942' orgid='ECOLI' frameid='G7942'/></component>
+<component><Promoter ID='ECOLI:PM0-46197' orgid='ECOLI' frameid='PM0-46197' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>4591374</minus-10-left>
+<common-name datatype='string'>yjiYp</common-name>
+<minus-35-right datatype='integer'>4591401</minus-35-right>
+<minus-35-left datatype='integer'>4591395</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4591367</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-22685278' orgid='ECOLI' frameid='PUB-22685278' detail='full'><source datatype='string'>J Bacteriol 194(16);4272-84</source>
+<pubmed-id datatype='string'>22685278</pubmed-id>
+<title datatype='string'>First insights into the unexplored two-component system YehU/YehT in Escherichia coli.</title>
+<year datatype='integer'>2012</year>
+<author datatype='string'>Kraxenberger T</author>
+<author datatype='string'>Fried L</author>
+<author datatype='string'>Behr S</author>
+<author datatype='string'>Jung K</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-22685278' orgid='ECOLI' frameid='PUB-22685278'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11572' orgid='ECOLI' frameid='REG0-11572' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46197' orgid='ECOLI' frameid='PM0-46197'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11571' orgid='ECOLI' frameid='REG0-11571' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:MONOMER0-4276' orgid='ECOLI' frameid='MONOMER0-4276'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46197' orgid='ECOLI' frameid='PM0-46197'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>4591382</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42491' orgid='ECOLI' frameid='TU0-42491'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

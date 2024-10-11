@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00275'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00275</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00275' orgid='ECOLI' frameid='TU00275' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>fliFGHIJK</common-name>
+<comment datatype='string'>In a study where it was shown that the L-tryptophan eradicated persister cells, it was observed that the exogenous amino acid downregulated the expression of &lt;i&gt; fliGHIJ &lt;/i&gt; as well as other flagellar genes [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31271063&quot;&gt;Li19&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-9226258' orgid='ECOLI' frameid='PUB-9226258' detail='full'><source datatype='string'>J Bacteriol 1997;179(14);4493-500</source>
+<pubmed-id datatype='string'>9226258</pubmed-id>
+<title datatype='string'>Cloning and characterization of the region III flagellar operons of the four Shigella subgroups: genetic defects that cause loss of flagella of Shigella boydii and Shigella sonnei.</title>
+<year datatype='integer'>1997</year>
+<author datatype='string'>Al Mamun AA</author>
+<author datatype='string'>Tominaga A</author>
+<author datatype='string'>Enomoto M</author>
+</Publication>
+</citation>
+<component><Promoter ID='ECOLI:PM-8793' orgid='ECOLI' frameid='PM-8793' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>2013191</minus-10-left>
+<common-name datatype='string'>fliFp2</common-name>
+<minus-35-right datatype='integer'>2013174</minus-35-right>
+<minus-35-left datatype='integer'>2013170</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:EG11355-MONOMER' orgid='ECOLI' frameid='EG11355-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2013205</absolute-plus-1-pos>
+<comment datatype='string'>The sequence of this promoter has been defined, by computational analyses, from the consensus sequence of the &amp;sigma;&lt;sup&gt;28&lt;/sup&gt; (&amp;sigma;&lt;sup&gt;F&lt;/sup&gt;)  promoters: TAAAGTTT in the -35 box and GCCGATAA in the -10 box [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/1551848&quot;&gt;Muller92&lt;/a&gt;]. Therefore, we assigned a putative transcription start site for this promoter based on the observation that the majority of the &amp;sigma;&lt;sup&gt;28&lt;/sup&gt; promoters, determined experimentally, present an important -10 motif (5'-CGA-3') at the positions -12 to -10 and a distance of 6 nucleotides between the transcription start site and the -10 box  [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16855242&quot;&gt;Yu06a&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16997971&quot;&gt;Yu06&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/11520622&quot;&gt;Park01&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-1551848' orgid='ECOLI' frameid='PUB-1551848' detail='full'><source datatype='string'>J Bacteriol 174(7);2298-304</source>
+<pubmed-id datatype='string'>1551848</pubmed-id>
+<title datatype='string'>Characterization of the fliE genes of Escherichia coli and Salmonella typhimurium and identification of the FliE protein as a component of the flagellar hook-basal body complex.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Muller V</author>
+<author datatype='string'>Jones CJ</author>
+<author datatype='string'>Kawagishi I</author>
+<author datatype='string'>Aizawa S</author>
+<author datatype='string'>Macnab RM</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1551848' orgid='ECOLI' frameid='PUB-1551848'/></evidence>
+<minus-10-right datatype='integer'>2013198</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00275' orgid='ECOLI' frameid='TU00275'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11347' orgid='ECOLI' frameid='EG11347'/></component>
+<component><Gene resource='getxml?ECOLI:EG11654' orgid='ECOLI' frameid='EG11654'/></component>
+<component><Gene resource='getxml?ECOLI:EG11656' orgid='ECOLI' frameid='EG11656'/></component>
+<component><Gene resource='getxml?ECOLI:G377' orgid='ECOLI' frameid='G377'/></component>
+<component><Gene resource='getxml?ECOLI:G378' orgid='ECOLI' frameid='G378'/></component>
+<component><Gene resource='getxml?ECOLI:G379' orgid='ECOLI' frameid='G379'/></component>
+</Transcription-Unit>
+</ptools-xml>

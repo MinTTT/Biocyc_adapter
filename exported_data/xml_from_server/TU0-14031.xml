@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-14031'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-14031</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-14031' orgid='ECOLI' frameid='TU0-14031' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ravA-viaA</common-name>
+<comment datatype='string'>The &lt;i&gt;ravA-viaA&lt;/i&gt; operon is induced in stationary phase by &amp;sigma;&lt;sup&gt;S&lt;/sup&gt; under aerobic growth conditions [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16301313&quot;&gt;Snider06&lt;/a&gt;].
+&lt;p&gt;
+&amp;sigma;&lt;sup&gt;S&lt;/sup&gt; differentially modulates the expression of the &lt;i&gt;ravA&lt;/i&gt; and &lt;i&gt;via&lt;/i&gt; genes under oxygen-limiting conditions [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/27979649&quot;&gt;Wong17&lt;/a&gt;].
+&lt;p&gt;
+A 7-nt consensus sequence for the NarL transcription factor (TACTCCT), centered 95 nt  upstream of the &lt;i&gt;ravA-viaA&lt;/i&gt; operon, was identified. However, mutation of this site had an effect on &amp;beta;-galactosidase activity [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/27979649&quot;&gt;Wong17&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-27979649' orgid='ECOLI' frameid='PUB-27979649' detail='full'><source datatype='string'>J Mol Biol 429(2);324-344</source>
+<pubmed-id datatype='string'>27979649</pubmed-id>
+<title datatype='string'>The RavA-ViaA Chaperone-Like System Interacts with and Modulates the Activity of the Fumarate Reductase Respiratory Complex.</title>
+<year datatype='integer'>2017</year>
+<author datatype='string'>Wong KS</author>
+<author datatype='string'>Bhandari V</author>
+<author datatype='string'>Janga SC</author>
+<author datatype='string'>Houry WA</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-16301313' orgid='ECOLI' frameid='PUB-16301313' detail='full'><source datatype='string'>J Biol Chem 281(3);1532-46</source>
+<pubmed-id datatype='string'>16301313</pubmed-id>
+<title datatype='string'>Formation of a distinctive complex between the inducible bacterial lysine decarboxylase and a novel AAA+ ATPase.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Snider J</author>
+<author datatype='string'>Gutsche I</author>
+<author datatype='string'>Lin M</author>
+<author datatype='string'>Baby S</author>
+<author datatype='string'>Cox B</author>
+<author datatype='string'>Butland G</author>
+<author datatype='string'>Greenblatt J</author>
+<author datatype='string'>Emili A</author>
+<author datatype='string'>Houry WA</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Inferred through co-regulation</common-name>
+<comment datatype='string'>Inferred through co-regulation.  A transcription unit is inferred because a set of 
+adjacent genes that are transcribed in the same direction exhibit similar
+expression patterns under a range of environmental conditions.
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-27979649' orgid='ECOLI' frameid='PUB-27979649'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' class='true'/><Publication resource='#ECOLI:PUB-16301313' orgid='ECOLI' frameid='PUB-16301313'/></evidence>
+<component><Promoter ID='ECOLI:PM0-10156' orgid='ECOLI' frameid='PM0-10156' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>3931137</minus-10-left>
+<common-name datatype='string'>ravAp</common-name>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3931128</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-19838305' orgid='ECOLI' frameid='PUB-19838305' detail='full'><source datatype='string'>PLoS One 4(10);e7526</source>
+<pubmed-id datatype='string'>19838305</pubmed-id>
+<title datatype='string'>Genome-wide identification of transcription start sites, promoters and transcription factor binding sites in E. coli.</title>
+<year datatype='integer'>2009</year>
+<author datatype='string'>Mendoza-Vargas A</author>
+<author datatype='string'>Olvera L</author>
+<author datatype='string'>Olvera M</author>
+<author datatype='string'>Grande R</author>
+<author datatype='string'>Vega-Alvarado L</author>
+<author datatype='string'>Taboada B</author>
+<author datatype='string'>Jimenez-Jacinto V</author>
+<author datatype='string'>Salgado H</author>
+<author datatype='string'>Juarez K</author>
+<author datatype='string'>Contreras-Moreira B</author>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+<author datatype='string'>Morett E</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-17302812' orgid='ECOLI' frameid='PUB-17302812' detail='full'><source datatype='string'>Mol Microbiol 63(5);1296-306</source>
+<pubmed-id datatype='string'>17302812</pubmed-id>
+<title datatype='string'>The molecular basis of selective promoter activation by the sigmaS subunit of RNA polymerase.</title>
+<year datatype='integer'>2007</year>
+<author datatype='string'>Typas A</author>
+<author datatype='string'>Becker G</author>
+<author datatype='string'>Hengge R</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' orgid='ECOLI' frameid='EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>High-throughput transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified using a high-throughput experimental modified RACE approach.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-19838305' orgid='ECOLI' frameid='PUB-19838305'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12653' orgid='ECOLI' frameid='REG0-12653' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7797' orgid='ECOLI' frameid='CPLX0-7797'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10156' orgid='ECOLI' frameid='PM0-10156'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-12652' orgid='ECOLI' frameid='REG0-12652' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7797' orgid='ECOLI' frameid='CPLX0-7797'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10156' orgid='ECOLI' frameid='PM0-10156'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>3931143</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-14031' orgid='ECOLI' frameid='TU0-14031'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11731' orgid='ECOLI' frameid='EG11731'/></component>
+<component><Gene resource='getxml?ECOLI:EG11730' orgid='ECOLI' frameid='EG11730'/></component>
+</Transcription-Unit>
+</ptools-xml>

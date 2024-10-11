@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00008'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00008</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00008' orgid='ECOLI' frameid='TU00008' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>aroF-tyrA</common-name>
+<synonym datatype='string'>OP00010</synonym>
+<synonym datatype='string'>aroF</synonym>
+<comment datatype='string'>The &lt;i&gt;aroF-tyrA&lt;/i&gt; operon is repressed by TyrR in the presence of tyrosine and, to a lesser extent, in the presence of high concentrations of phenylalanine. For full repression, the protein binds to three TyrR boxes [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/3041242&quot;&gt;Cobbett88&lt;/a&gt;]. Two of them, located at positions -29.5 and -52.5 bp from the transcriptional start site (TSS), are adjacent to each other and overlap the promoter; the third is located further upstream of the promoter (-104.5 bp from the TSS) [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/3294794&quot;&gt;Cobbett87&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/3001025&quot;&gt;DeFeyter86&lt;/a&gt;]. All three boxes are aligned on the same face of the DNA helix, and it was proposed that they form a repression loop [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/3041242&quot;&gt;Cobbett88&lt;/a&gt;].
+&lt;p&gt;
+A potential RNA G-quadruplex structure, formed by guanine-rich sequences located in the coding sequence region of the gene, was identified  for &lt;i&gt;tyrA&lt;/i&gt;. This structure  could regulate the expression of the gene, as observed for &lt;i&gt;hemL&lt;/i&gt; gene expression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31964733&quot;&gt;Shao20&lt;/a&gt;].
+&lt;p&gt;
+The expression of the gene &lt;i&gt;aroF&lt;/i&gt; is enhanced under oxygen limitation [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/30810277&quot;&gt;Kawaguchi19&lt;/a&gt;].
+</comment>
+<citation><Publication ID='ECOLI:PUB-2857723' orgid='ECOLI' frameid='PUB-2857723' detail='full'><source datatype='string'>J Biol Chem 260(6);3820-5</source>
+<pubmed-id datatype='string'>2857723</pubmed-id>
+<title datatype='string'>Operator mutations of the Escherichia coli aroF gene.</title>
+<year datatype='integer'>1985</year>
+<author datatype='string'>Garner CC</author>
+<author datatype='string'>Herrmann KM</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-IC-ADJ-GENES-SAME-BIO-PROCESS' orgid='ECOLI' frameid='EV-IC-ADJ-GENES-SAME-BIO-PROCESS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' class='true'/></parent>
+<common-name datatype='string'>Products of adjacent genes in the same biological process</common-name>
+<comment datatype='string'>A transcription unit is inferred because there is a set of adjacent genes,
+encoded in the same direction, coding for products that participate in the
+same metabolic pathway or biological process. Sometimes, these genes code
+for subunits of the same protein.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2857723' orgid='ECOLI' frameid='PUB-2857723'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' class='true'/><Publication ID='ECOLI:PUB-6396419' orgid='ECOLI' frameid='PUB-6396419' detail='full'><source datatype='string'>J Mol Biol 180(4);1023-51</source>
+<pubmed-id datatype='string'>6396419</pubmed-id>
+<title datatype='string'>Nucleotide sequence and transcription of the phenylalanine and tyrosine operons of Escherichia coli K12.</title>
+<year datatype='integer'>1984</year>
+<author datatype='string'>Hudson GS</author>
+<author datatype='string'>Davidson BE</author>
+</Publication>
+</evidence>
+<component><Terminator ID='ECOLI:AROF-TYRA-TERMINATOR' orgid='ECOLI' frameid='AROF-TYRA-TERMINATOR' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>2738940</right-end-position>
+<left-end-position datatype='integer'>2738912</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-6396419' orgid='ECOLI' frameid='PUB-6396419'/></citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-6653' orgid='ECOLI' frameid='TU0-6653'/><Transcription-Unit resource='#ECOLI:TU00008' orgid='ECOLI' frameid='TU00008'/></component-of>
+</Terminator>
+</component>
+<component><Promoter ID='ECOLI:PM00010' orgid='ECOLI' frameid='PM00010' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>2741208</minus-10-left>
+<common-name datatype='string'>aroFp</common-name>
+<minus-35-right datatype='integer'>2741235</minus-35-right>
+<minus-35-left datatype='integer'>2741230</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2741201</absolute-plus-1-pos>
+<comment datatype='string'>A total of 554 promoter regions from &lt;i&gt;Escherichia coli&lt;/i&gt; were aligned in order to analyze their sequence similarities.  [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12907708&quot;&gt;Mitchell03&lt;/a&gt;] focused on conservation, patterns, similarities, and differences between promoters with or without an extended -10 5'-TG-3' element and other conserved elements. They experimentally showed that, for several naturally occurring extended -10 promoters, the 5'-TRTG-3' motif is an important determinant for promoter activity. Eleven promoters were selected for further experimental study. Of those, the seven most active (&lt;i&gt;aroF&lt;/i&gt; &gt; &lt;i&gt;ompF&lt;/i&gt; &gt; &lt;i&gt;envA&lt;/i&gt; &gt; &lt;i&gt;purFp1&lt;/i&gt; &gt; &lt;i&gt;purEF&lt;/i&gt; &gt; &lt;i&gt;purMN&lt;/i&gt; &gt; &lt;i&gt;gyrA&lt;/i&gt;) were investigated for the contribution of the extended -10 motif by changing the 5'-TG-3' element. Promoters with poor matches to the -10 and -35 consensus hexamers are more dependent on the 5'-TG-3' motif, and this plays a similar role on different promoters. The dinucleotide at -17 and -16 in &lt;i&gt;aroF&lt;/i&gt;p results in similar patterns of activity, suggesting that these bases play a similar role on different promoters [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12907708&quot;&gt;Mitchell03&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-2857723' orgid='ECOLI' frameid='PUB-2857723'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2857723' orgid='ECOLI' frameid='PUB-2857723'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2857723' orgid='ECOLI' frameid='PUB-2857723'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12900' orgid='ECOLI' frameid='REG0-12900' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD04132' orgid='ECOLI' frameid='PD04132'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00010' orgid='ECOLI' frameid='PM00010'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4785' orgid='ECOLI' frameid='REG0-4785' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:MONOMER0-162' orgid='ECOLI' frameid='MONOMER0-162'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00010' orgid='ECOLI' frameid='PM00010'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4784' orgid='ECOLI' frameid='REG0-4784' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:MONOMER0-162' orgid='ECOLI' frameid='MONOMER0-162'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00010' orgid='ECOLI' frameid='PM00010'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4783' orgid='ECOLI' frameid='REG0-4783' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:MONOMER0-162' orgid='ECOLI' frameid='MONOMER0-162'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00010' orgid='ECOLI' frameid='PM00010'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>2741213</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00008' orgid='ECOLI' frameid='TU00008'/></component-of>
+</Promoter>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS00022' orgid='ECOLI' frameid='BS00022' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-4783' orgid='ECOLI' frameid='REG0-4783'/></involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-3041242' orgid='ECOLI' frameid='PUB-3041242' detail='full'><source datatype='string'>Mol Microbiol 2(3);377-83</source>
+<pubmed-id datatype='string'>3041242</pubmed-id>
+<title datatype='string'>Repression of the aroF promoter by the TyrR repressor in Escherichia coli K-12: role of the 'upstream' operator site.</title>
+<year datatype='integer'>1988</year>
+<author datatype='string'>Cobbett CS</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-2857723' orgid='ECOLI' frameid='PUB-2857723'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Site mutation</common-name>
+<comment datatype='string'>A cis-mutation in the DNA sequence of the transcription-factor binding site interferes with the operation of the regulatory function. This is considered  strong evidence for the existence and functional role of the DNA binding site.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2857723' orgid='ECOLI' frameid='PUB-2857723'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' class='true'/><Publication resource='#ECOLI:PUB-3041242' orgid='ECOLI' frameid='PUB-3041242'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2857723' orgid='ECOLI' frameid='PUB-2857723'/></evidence>
+<abs-center-pos datatype='float'>2741305.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00008' orgid='ECOLI' frameid='TU00008'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS00023' orgid='ECOLI' frameid='BS00023' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-4784' orgid='ECOLI' frameid='REG0-4784'/></involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-3041242' orgid='ECOLI' frameid='PUB-3041242'/></citation>
+<citation><Publication resource='#ECOLI:PUB-2857723' orgid='ECOLI' frameid='PUB-2857723'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' class='true'/><Publication resource='#ECOLI:PUB-2857723' orgid='ECOLI' frameid='PUB-2857723'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' class='true'/><Publication resource='#ECOLI:PUB-3041242' orgid='ECOLI' frameid='PUB-3041242'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-2857723' orgid='ECOLI' frameid='PUB-2857723'/></evidence>
+<abs-center-pos datatype='float'>2741253.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00008' orgid='ECOLI' frameid='TU00008'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS00024' orgid='ECOLI' frameid='BS00024' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-4785' orgid='ECOLI' frameid='REG0-4785'/></involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-3041242' orgid='ECOLI' frameid='PUB-3041242'/></citation>
+<citation><Publication ID='ECOLI:PUB-3001025' orgid='ECOLI' frameid='PUB-3001025' detail='full'><source datatype='string'>J Bacteriol 165(1);233-9</source>
+<pubmed-id datatype='string'>3001025</pubmed-id>
+<title datatype='string'>Nucleotide sequence of the transcription unit containing the aroL and aroM genes from Escherichia coli K-12.</title>
+<year datatype='integer'>1986</year>
+<author datatype='string'>DeFeyter RC</author>
+<author datatype='string'>Davidson BE</author>
+<author datatype='string'>Pittard J</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' class='true'/><Publication resource='#ECOLI:PUB-3041242' orgid='ECOLI' frameid='PUB-3041242'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-3001025' orgid='ECOLI' frameid='PUB-3001025'/></evidence>
+<abs-center-pos datatype='float'>2741230.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00008' orgid='ECOLI' frameid='TU00008'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11039' orgid='ECOLI' frameid='EG11039'/></component>
+<component><Gene resource='getxml?ECOLI:EG10078' orgid='ECOLI' frameid='EG10078'/></component>
+</Transcription-Unit>
+</ptools-xml>

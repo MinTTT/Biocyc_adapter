@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00274'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00274</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00274' orgid='ECOLI' frameid='TU00274' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>fliDST</common-name>
+<comment datatype='string'>In a study where it was shown that the L-tryptophan eradicated persister cells, it was observed that the exogenous amino acid downregulated the expression of &lt;i&gt; fliDS&lt;/i&gt; as well as other flagellar genes [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31271063&quot;&gt;Li19&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-1527488' orgid='ECOLI' frameid='PUB-1527488' detail='full'><source datatype='string'>J Gen Microbiol 1992;138 ( Pt 6);1051-65</source>
+<pubmed-id datatype='string'>1527488</pubmed-id>
+<title datatype='string'>Subdivision of flagellar region III of the Escherichia coli and Salmonella typhimurium chromosomes and identification of two additional flagellar genes.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Kawagishi I</author>
+<author datatype='string'>Muller V</author>
+<author datatype='string'>Williams AW</author>
+<author datatype='string'>Irikura VM</author>
+<author datatype='string'>Macnab RM</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-7551038' orgid='ECOLI' frameid='PUB-7551038' detail='full'><source datatype='string'>Microbiology 1995;141 ( Pt 7);1715-22</source>
+<pubmed-id datatype='string'>7551038</pubmed-id>
+<title datatype='string'>Functional analysis of the flagellar genes in the fliD operon of Salmonella typhimurium.</title>
+<year datatype='integer'>1995</year>
+<author datatype='string'>Yokoseki T</author>
+<author datatype='string'>Kutsukake K</author>
+<author datatype='string'>Ohnishi K</author>
+<author datatype='string'>Iino T</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-15941987' orgid='ECOLI' frameid='PUB-15941987' detail='full'><source datatype='string'>Microbiology 151(Pt 6);1779-88</source>
+<pubmed-id datatype='string'>15941987</pubmed-id>
+<title datatype='string'>Binding and transcriptional activation of non-flagellar genes by the Escherichia coli flagellar master regulator FlhD2C2.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Stafford GP</author>
+<author datatype='string'>Ogi T</author>
+<author datatype='string'>Hughes C</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' class='true'/><Publication resource='#ECOLI:PUB-7551038' orgid='ECOLI' frameid='PUB-7551038'/></evidence>
+<component><DNA-Binding-Site ID='ECOLI:BS-7057' orgid='ECOLI' frameid='BS-7057' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6446' orgid='ECOLI' frameid='REG0-6446' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-3930' orgid='ECOLI' frameid='CPLX0-3930'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM00604' orgid='ECOLI' frameid='PM00604' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>2003802</minus-10-left>
+<common-name datatype='string'>fliDp2</common-name>
+<minus-35-right datatype='integer'>2003786</minus-35-right>
+<minus-35-left datatype='integer'>2003781</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2003817</absolute-plus-1-pos>
+<comment datatype='string'>We assigned a putative transcriptional start site to this promoter based on the observation that the majority of the promoters, whose transcriptional start sites were determined experimentally, present a distance of 6 nucleotides between the transcriptional start site and the -10 box.</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-1527488' orgid='ECOLI' frameid='PUB-1527488'/></citation>
+<citation><Publication resource='#ECOLI:PUB-15941987' orgid='ECOLI' frameid='PUB-15941987'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15941987' orgid='ECOLI' frameid='PUB-15941987'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-6446' orgid='ECOLI' frameid='REG0-6446'/></regulated-by>
+<minus-10-right datatype='integer'>2003807</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00274' orgid='ECOLI' frameid='TU00274'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15941987' orgid='ECOLI' frameid='PUB-15941987'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-CHIP-PCR-MANUAL' orgid='ECOLI' frameid='EV-EXP-CHIP-PCR-MANUAL' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-CHIP-PCR' orgid='ECOLI' frameid='EV-EXP-CHIP-PCR' class='true'/></parent>
+<common-name datatype='string'>ChIP-PCR evidence used in manual assertion</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0005620</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0005620</dblink-URL>
+</dblink>
+<credits><imported-from-meta><date datatype='date'>2018-03-05</date>
+<Person ID='ECOLI:paley' orgid='ECOLI' frameid='paley' detail='full'><affiliations><Organization ID='ECOLI:SRI' orgid='ECOLI' frameid='SRI' detail='full'><abbrev-name datatype='string'>SRI International</abbrev-name>
+<email datatype='string'>ptools-support@ai.sri.com</email>
+<common-name datatype='string'>SRI International</common-name>
+<url datatype='string'>http://bioinformatics.ai.sri.com/</url>
+</Organization>
+</affiliations>
+<common-name datatype='string'>Suzanne Paley</common-name>
+</Person>
+<Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A type of chromatin immunoprecipation-PCR evidence that is used in a manual assertion.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-25275371' orgid='ECOLI' frameid='PUB-25275371' detail='full'><source datatype='string'>PLoS Genet 10(10);e1004649</source>
+<pubmed-id datatype='string'>25275371</pubmed-id>
+<title datatype='string'>Comprehensive mapping of the Escherichia coli flagellar regulatory network.</title>
+<year datatype='integer'>2014</year>
+<author datatype='string'>Fitzgerald DM</author>
+<author datatype='string'>Bonocora RP</author>
+<author datatype='string'>Wade JT</author>
+</Publication>
+</evidence>
+<site-length datatype='integer'>45</site-length>
+<abs-center-pos datatype='integer'>2003762</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00274' orgid='ECOLI' frameid='TU00274'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Terminator ID='ECOLI:TERM46' orgid='ECOLI' frameid='TERM46' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>2006165</right-end-position>
+<left-end-position datatype='integer'>2006111</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-1527488' orgid='ECOLI' frameid='PUB-1527488'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU00274' orgid='ECOLI' frameid='TU00274'/></component-of>
+</Terminator>
+</component>
+<component><Promoter resource='#ECOLI:PM00604' orgid='ECOLI' frameid='PM00604'/></component>
+<component><Gene resource='getxml?ECOLI:EG10841' orgid='ECOLI' frameid='EG10841'/></component>
+<component><Gene resource='getxml?ECOLI:EG11388' orgid='ECOLI' frameid='EG11388'/></component>
+<component><Gene resource='getxml?ECOLI:EG11389' orgid='ECOLI' frameid='EG11389'/></component>
+</Transcription-Unit>
+</ptools-xml>

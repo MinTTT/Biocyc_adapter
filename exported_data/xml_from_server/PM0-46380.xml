@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM0-46380'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM0-46380</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM0-46380' orgid='ECOLI' frameid='PM0-46380' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>2799076</minus-10-left>
+<common-name datatype='string'>alaEp</common-name>
+<minus-35-right datatype='integer'>2799058</minus-35-right>
+<minus-35-left datatype='integer'>2799054</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2799084</absolute-plus-1-pos>
+<comment datatype='string'>A region of 60 bp protected for Lrp transcriptional regulation was identified upstream of the &lt;i&gt;alaE&lt;/i&gt; gene, based on EMSA and footprinting analysis. Two sites for Lrp that were previously identified as regulating the divergent &lt;i&gt;stpA&lt;/i&gt; gene [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/8890170&quot;&gt;Sonden96&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/9006049&quot;&gt;Free97&lt;/a&gt;] were associated with the region protected by Lrp in the &lt;i&gt;alaE&lt;/i&gt; gene at the -58 and -9 positions with respect to the &lt;i&gt;alaE&lt;/i&gt;p promoter [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/28057466&quot;&gt;Ihara17&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred by a human based on computational evidence</common-name>
+<comment datatype='string'>Human inference.  A curator or author inferred this assertion after review of one or more possible types 
+of computational evidence such as sequence similarity, recognized motifs or consensus sequence, etc.  
+When the inference was made by a computer in an automated fashion, use EV-AINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-28057466' orgid='ECOLI' frameid='PUB-28057466' detail='full'><source datatype='string'>J Biosci Bioeng 123(4);444-450</source>
+<pubmed-id datatype='string'>28057466</pubmed-id>
+<title datatype='string'>Expression of the alaE gene is positively regulated by the global regulator Lrp in response to intracellular accumulation of l-alanine in Escherichia coli.</title>
+<year datatype='integer'>2017</year>
+<author datatype='string'>Ihara K</author>
+<author datatype='string'>Sato K</author>
+<author datatype='string'>Hori H</author>
+<author datatype='string'>Makino Y</author>
+<author datatype='string'>Shigenobu S</author>
+<author datatype='string'>Ando T</author>
+<author datatype='string'>Isogai E</author>
+<author datatype='string'>Yoneyama H</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-28057466' orgid='ECOLI' frameid='PUB-28057466'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-28057466' orgid='ECOLI' frameid='PUB-28057466'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12677' orgid='ECOLI' frameid='REG0-12677' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:MONOMER0-155' orgid='ECOLI' frameid='MONOMER0-155'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46380' orgid='ECOLI' frameid='PM0-46380'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-12676' orgid='ECOLI' frameid='REG0-12676' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:MONOMER0-155' orgid='ECOLI' frameid='MONOMER0-155'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46380' orgid='ECOLI' frameid='PM0-46380'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>2799081</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-8745' orgid='ECOLI' frameid='TU0-8745'/></component-of>
+</Promoter>
+</ptools-xml>

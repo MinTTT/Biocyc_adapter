@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='27.0' xml:base='http://BioCyc.org/getxml?ECOLI:EG10671'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:EG10671</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='27.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Gene ID='ECOLI:EG10671' orgid='ECOLI' frameid='EG10671' detail='full'><parent><Gene resource='getxml?ECOLI:BC-4.1.B' orgid='ECOLI' frameid='BC-4.1.B' class='true'/></parent>
+<replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<knockout-growth-observations><Growth-Observation ID='ECOLI:OBS0-439' orgid='ECOLI' frameid='OBS0-439' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>Luria-Bertani broth</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-49' orgid='ECOLI' frameid='OBS0-49' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>LB Lennox</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-40' orgid='ECOLI' frameid='OBS0-40' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>MOPS medium with 0.4% glucose</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-37' orgid='ECOLI' frameid='OBS0-37' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>MOPS medium with 0.4% glucose</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-33' orgid='ECOLI' frameid='OBS0-33' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>M9 medium with 1% glycerol</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-44' orgid='ECOLI' frameid='OBS0-44' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>LB enriched</with-growth-media>
+</Growth-Observation>
+</knockout-growth-observations>
+<product><Protein resource='getxml?ECOLI:EG10671-MONOMER' orgid='ECOLI' frameid='EG10671-MONOMER'/></product>
+<transcription-direction datatype='string'>-</transcription-direction>
+<centisome-position datatype='float' units='CENTISOMES'>21.240154</centisome-position>
+<common-name datatype='string'>ompF</common-name>
+<citation><Publication ID='ECOLI:PUB-6294623' orgid='ECOLI' frameid='PUB-6294623' detail='full'><year datatype='integer'>1982</year>
+<source datatype='string'>Nucleic Acids Res 10(21);6957-68</source>
+<title datatype='string'>Primary structure of the ompF gene that codes for a major outer membrane protein of Escherichia coli K-12.</title>
+<pubmed-id datatype='string'>6294623</pubmed-id>
+<author datatype='string'>Inokuchi K</author>
+<author datatype='string'>Mutoh N</author>
+<author datatype='string'>Matsuyama S</author>
+<author datatype='string'>Mizushima S</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45229' orgid='ECOLI' frameid='TU0-45229'/><Transcription-Unit resource='getxml?ECOLI:TU00050' orgid='ECOLI' frameid='TU00050'/></component-of>
+<accession-1 datatype='string'>b0929</accession-1>
+<regulated-by><Regulation ID='ECOLI:REG0-14602' orgid='ECOLI' frameid='REG0-14602' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulated-entity><Gene resource='#ECOLI:EG10671' orgid='ECOLI' frameid='EG10671'/></regulated-entity>
+<mode datatype='string'>-</mode>
+<regulator><Protein resource='getxml?ECOLI:G7072-MONOMER' orgid='ECOLI' frameid='G7072-MONOMER'/></regulator>
+</Regulation>
+</regulated-by>
+<dblink><dblink-db>REGULONDB</dblink-db>
+<dblink-oid>b0929</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://regulondb.ccg.unam.mx/search?term=b0929&amp;organism=ECK12&amp;type=All</dblink-URL>
+</dblink>
+<dblink><dblink-db>STRING</dblink-db>
+<dblink-oid>511145.b0929</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://string-db.org/network/511145.b0929</dblink-URL>
+</dblink>
+<dblink><dblink-db>ASAP</dblink-db>
+<dblink-oid>ABE-0003153</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://asap.ahabs.wisc.edu/asap/feature_info.php?FeatureID=ABE-0003153</dblink-URL>
+</dblink>
+<dblink><dblink-db>ECHOBASE</dblink-db>
+<dblink-oid>EB0665</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.york.ac.uk/res/thomas/Gene.cfm?recordID=EB0665</dblink-URL>
+</dblink>
+<dblink><dblink-db>OU-MICROARRAY</dblink-db>
+<dblink-oid>b0929</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>https://genexpdb.okstate.edu/databases/genexpdb/?query=b0929</dblink-URL>
+</dblink>
+<dblink><dblink-db>CGSC</dblink-db>
+<dblink-oid>435</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://cgsc.biology.yale.edu/Site.php?ID=435</dblink-URL>
+</dblink>
+<left-end-position datatype='integer'>985894</left-end-position>
+<right-end-position datatype='integer'>986982</right-end-position>
+<synonym datatype='string'>nfxB</synonym>
+<synonym datatype='string'>tolF</synonym>
+<synonym datatype='string'>cmlB</synonym>
+<synonym datatype='string'>cry</synonym>
+<accession-2 datatype='string'>ECK0920</accession-2>
+</Gene>
+</ptools-xml>

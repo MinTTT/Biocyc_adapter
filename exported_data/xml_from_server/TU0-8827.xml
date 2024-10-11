@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8827'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8827</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8827' orgid='ECOLI' frameid='TU0-8827' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>marC</common-name>
+<citation><Publication ID='ECOLI:PUB-8383113' orgid='ECOLI' frameid='PUB-8383113' detail='full'><source datatype='string'>J Bacteriol 175(5);1484-92</source>
+<pubmed-id datatype='string'>8383113</pubmed-id>
+<title datatype='string'>Genetic and functional analysis of the multiple antibiotic resistance (mar) locus in Escherichia coli.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>Cohen SP</author>
+<author datatype='string'>Hachler H</author>
+<author datatype='string'>Levy SB</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SINGLE-DIRECTON' orgid='ECOLI' frameid='EV-COMP-AINF-SINGLE-DIRECTON' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference that a single-gene directon is a transcription unit </common-name>
+<comment datatype='string'>Automated inference of transcription unit based on single-gene directon.  Existence of a single-gene transcription unit 
+for gene G is inferred computationally by the existence of upstream and downstream genes transcribed in the 
+opposite direction of G.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8383113' orgid='ECOLI' frameid='PUB-8383113'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' class='true'/><Publication ID='ECOLI:PUB-17954692' orgid='ECOLI' frameid='PUB-17954692' detail='full'><source datatype='string'>Antimicrob Agents Chemother 52(1);382-3</source>
+<pubmed-id datatype='string'>17954692</pubmed-id>
+<title datatype='string'>The marC gene of Escherichia coli is not involved in multiple antibiotic resistance.</title>
+<year datatype='integer'>2008</year>
+<author datatype='string'>McDermott PF</author>
+<author datatype='string'>McMurry LM</author>
+<author datatype='string'>Podglajen I</author>
+<author datatype='string'>Dzink-Fox JL</author>
+<author datatype='string'>Schneiders T</author>
+<author datatype='string'>Draper MP</author>
+<author datatype='string'>Levy SB</author>
+</Publication>
+</evidence>
+<component><Promoter ID='ECOLI:PM0-9954' orgid='ECOLI' frameid='PM0-9954' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>marCp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1618941</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-17954692' orgid='ECOLI' frameid='PUB-17954692'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-17954692' orgid='ECOLI' frameid='PUB-17954692'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8827' orgid='ECOLI' frameid='TU0-8827'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11637' orgid='ECOLI' frameid='EG11637'/></component>
+</Transcription-Unit>
+</ptools-xml>

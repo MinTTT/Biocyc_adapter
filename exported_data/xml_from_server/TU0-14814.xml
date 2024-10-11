@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-14814'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-14814</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-14814' orgid='ECOLI' frameid='TU0-14814' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>pgk</common-name>
+<citation><Publication ID='ECOLI:PUB-16102000' orgid='ECOLI' frameid='PUB-16102000' detail='full'><source datatype='string'>Mol Microbiol 57(5);1265-87</source>
+<pubmed-id datatype='string'>16102000</pubmed-id>
+<title datatype='string'>Characterization of the molecular mechanisms involved in the differential production of erythrose-4-phosphate dehydrogenase, 3-phosphoglycerate kinase and class II fructose-1,6-bisphosphate aldolase in Escherichia coli.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Bardey V</author>
+<author datatype='string'>Vallet C</author>
+<author datatype='string'>Robas N</author>
+<author datatype='string'>Charpentier B</author>
+<author datatype='string'>Thouvenot B</author>
+<author datatype='string'>Mougin A</author>
+<author datatype='string'>Hajnsdorf E</author>
+<author datatype='string'>Regnier P</author>
+<author datatype='string'>Springer M</author>
+<author datatype='string'>Branlant C</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16102000' orgid='ECOLI' frameid='PUB-16102000'/></evidence>
+<component><Terminator ID='ECOLI:TERM0902' orgid='ECOLI' frameid='TERM0902' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3071450</right-end-position>
+<left-end-position datatype='integer'>3071431</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-16102000' orgid='ECOLI' frameid='PUB-16102000'/></citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45274' orgid='ECOLI' frameid='TU0-45274'/><Transcription-Unit resource='getxml?ECOLI:TU0-14817' orgid='ECOLI' frameid='TU0-14817'/><Transcription-Unit resource='#ECOLI:TU0-14814' orgid='ECOLI' frameid='TU0-14814'/><Transcription-Unit resource='getxml?ECOLI:TU0-8083' orgid='ECOLI' frameid='TU0-8083'/><Transcription-Unit resource='getxml?ECOLI:TU00443' orgid='ECOLI' frameid='TU00443'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10703' orgid='ECOLI' frameid='EG10703'/></component>
+<component><Promoter ID='ECOLI:PM0-10551' orgid='ECOLI' frameid='PM0-10551' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>pgkp2</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3072648</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-19838295' orgid='ECOLI' frameid='PUB-19838295' detail='full'><source datatype='string'>PLoS One 4(10);e7466</source>
+<pubmed-id datatype='string'>19838295</pubmed-id>
+<title datatype='string'>Transcription analysis of central metabolism genes in Escherichia coli. Possible roles of sigma38 in their expression, as a response to carbon limitation.</title>
+<year datatype='integer'>2009</year>
+<author datatype='string'>Olvera L</author>
+<author datatype='string'>Mendoza-Vargas A</author>
+<author datatype='string'>Flores N</author>
+<author datatype='string'>Olvera M</author>
+<author datatype='string'>Sigala JC</author>
+<author datatype='string'>Gosset G</author>
+<author datatype='string'>Morett E</author>
+<author datatype='string'>Bolivar F</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' orgid='ECOLI' frameid='EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>High-throughput transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified using a high-throughput experimental modified RACE approach.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-19838295' orgid='ECOLI' frameid='PUB-19838295'/></evidence>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-14816' orgid='ECOLI' frameid='TU0-14816'/><Transcription-Unit resource='#ECOLI:TU0-14814' orgid='ECOLI' frameid='TU0-14814'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-14696'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-14696</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-14696' orgid='ECOLI' frameid='TU0-14696' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rph</common-name>
+<citation><Publication ID='ECOLI:PUB-6207018' orgid='ECOLI' frameid='PUB-6207018' detail='full'><source datatype='string'>EMBO J 3(8);1783-90</source>
+<pubmed-id datatype='string'>6207018</pubmed-id>
+<title datatype='string'>Structure of the Escherichia coli pyrE operon and control of pyrE expression by a UTP modulated intercistronic attentuation.</title>
+<year datatype='integer'>1984</year>
+<author datatype='string'>Poulsen P</author>
+<author datatype='string'>Bonekamp F</author>
+<author datatype='string'>Jensen KF</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-1375912' orgid='ECOLI' frameid='PUB-1375912' detail='full'><source datatype='string'>Eur J Biochem 206(2);381-90</source>
+<pubmed-id datatype='string'>1375912</pubmed-id>
+<title datatype='string'>Attenuation in the rph-pyrE operon of Escherichia coli and processing of the dicistronic mRNA.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Andersen JT</author>
+<author datatype='string'>Poulsen P</author>
+<author datatype='string'>Jensen KF</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6207018' orgid='ECOLI' frameid='PUB-6207018'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1375912' orgid='ECOLI' frameid='PUB-1375912'/></evidence>
+<component><Terminator ID='ECOLI:TERM0-1095' orgid='ECOLI' frameid='TERM0-1095' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<regulated-by><Regulation ID='ECOLI:REG0-10780' orgid='ECOLI' frameid='REG0-10780' detail='low'><parent><Regulation resource='getxml?ECOLI:Small-Molecule-Mediated-Attenuation' orgid='ECOLI' frameid='Small-Molecule-Mediated-Attenuation' class='true'/></parent>
+<regulator><Compound resource='getxml?ECOLI:UTP' orgid='ECOLI' frameid='UTP'/></regulator>
+<regulated-entity><Terminator resource='#ECOLI:TERM0-1095' orgid='ECOLI' frameid='TERM0-1095'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<right-end-position datatype='integer'>3815828</right-end-position>
+<left-end-position datatype='integer'>3815807</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-6207018' orgid='ECOLI' frameid='PUB-6207018'/></citation>
+<citation><Publication resource='#ECOLI:PUB-1375912' orgid='ECOLI' frameid='PUB-1375912'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-14696' orgid='ECOLI' frameid='TU0-14696'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10863' orgid='ECOLI' frameid='EG10863'/></component>
+<component><Promoter ID='ECOLI:PM00455' orgid='ECOLI' frameid='PM00455' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>rphp</common-name>
+<synonym datatype='string'>pyrEp1</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3816580</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-6207018' orgid='ECOLI' frameid='PUB-6207018'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6207018' orgid='ECOLI' frameid='PUB-6207018'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-14696' orgid='ECOLI' frameid='TU0-14696'/><Transcription-Unit resource='getxml?ECOLI:TU00334' orgid='ECOLI' frameid='TU00334'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

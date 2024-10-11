@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM00571'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM00571</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM00571' orgid='ECOLI' frameid='PM00571' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>3600877</minus-10-left>
+<common-name datatype='string'>rpoHp3</common-name>
+<minus-35-right datatype='integer'>3600903</minus-35-right>
+<minus-35-left datatype='integer'>3600898</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOE-MONOMER' orgid='ECOLI' frameid='RPOE-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3600870</absolute-plus-1-pos>
+<comment datatype='string'>Heat shock seems to induce transcription from this promoter. 
+&lt;p&gt;
+The rpoHp3 promoter was induced by zinc in a microarray analysis [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16159766&quot;&gt;Yamamoto05&lt;/a&gt;].
+&lt;p&gt;
+It was suggested, from high-throughput screening of maps of transcriptional start sites (TSSs),  that the TSS (3600870) assigned for this promoter is an RNA processing site [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31992590&quot;&gt;Lacoux20&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-3315851' orgid='ECOLI' frameid='PUB-3315851' detail='full'><source datatype='string'>Genes Dev 1(5);419-32</source>
+<pubmed-id datatype='string'>3315851</pubmed-id>
+<title datatype='string'>Regulation of the promoters and transcripts of rpoH, the Escherichia coli heat shock regulatory gene.</title>
+<year datatype='integer'>1987</year>
+<author datatype='string'>Erickson JW</author>
+<author datatype='string'>Vaughn V</author>
+<author datatype='string'>Walter WA</author>
+<author datatype='string'>Neidhardt FC</author>
+<author datatype='string'>Gross CA</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-3323832' orgid='ECOLI' frameid='PUB-3323832' detail='full'><source datatype='string'>Mol Gen Genet 210(1);10-5</source>
+<pubmed-id datatype='string'>3323832</pubmed-id>
+<title datatype='string'>Heat-shock induction of RNA polymerase sigma-32 synthesis in Escherichia coli: transcriptional control and a multiple promoter system.</title>
+<year datatype='integer'>1987</year>
+<author datatype='string'>Fujita N</author>
+<author datatype='string'>Ishihama A</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-2139650' orgid='ECOLI' frameid='PUB-2139650' detail='full'><source datatype='string'>J Bacteriol 172(5);2710-5</source>
+<pubmed-id datatype='string'>2139650</pubmed-id>
+<title datatype='string'>Transcriptional regulation of the heat shock regulatory gene rpoH in Escherichia coli: involvement of a novel catabolite-sensitive promoter.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>Nagai H</author>
+<author datatype='string'>Yano R</author>
+<author datatype='string'>Erickson JW</author>
+<author datatype='string'>Yura T</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-9767576' orgid='ECOLI' frameid='PUB-9767576' detail='full'><source datatype='string'>Mol Microbiol 29(4);1091-9</source>
+<pubmed-id datatype='string'>9767576</pubmed-id>
+<title datatype='string'>Transcription of rpoH, encoding the Escherichia coli heat-shock regulator sigma32, is negatively controlled by the cAMP-CRP/CytR nucleoprotein complex.</title>
+<year datatype='integer'>1998</year>
+<author datatype='string'>Kallipolitis BH</author>
+<author datatype='string'>Valentin-Hansen P</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-16159766' orgid='ECOLI' frameid='PUB-16159766' detail='full'><source datatype='string'>J Bacteriol 187(18);6333-40</source>
+<pubmed-id datatype='string'>16159766</pubmed-id>
+<title datatype='string'>Transcriptional response of Escherichia coli to external zinc.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Yamamoto K</author>
+<author datatype='string'>Ishihama A</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-16336047' orgid='ECOLI' frameid='PUB-16336047' detail='full'><source datatype='string'>PLoS Biol 4(1);e2</source>
+<pubmed-id datatype='string'>16336047</pubmed-id>
+<title datatype='string'>Conserved and variable functions of the sigmaE stress response in related genomes.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Rhodius VA</author>
+<author datatype='string'>Suh WC</author>
+<author datatype='string'>Nonaka G</author>
+<author datatype='string'>West J</author>
+<author datatype='string'>Gross CA</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-17185540' orgid='ECOLI' frameid='PUB-17185540' detail='full'><source datatype='string'>Microbiology 153(Pt 1);111-23</source>
+<pubmed-id datatype='string'>17185540</pubmed-id>
+<title datatype='string'>A {sigma}54-dependent promoter in the regulatory region of the Escherichia coli rpoH gene.</title>
+<year datatype='integer'>2007</year>
+<author datatype='string'>Janaszak A</author>
+<author datatype='string'>Majczak W</author>
+<author datatype='string'>Nadratowska B</author>
+<author datatype='string'>Szalewska-Palasz A</author>
+<author datatype='string'>Konopa G</author>
+<author datatype='string'>Taylor A</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3315851' orgid='ECOLI' frameid='PUB-3315851'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3315851' orgid='ECOLI' frameid='PUB-3315851'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-16336047' orgid='ECOLI' frameid='PUB-16336047'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference of promoter position</common-name>
+<comment datatype='string'>Automated inference of promoter position relative to the -10 and -35 boxes.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16336047' orgid='ECOLI' frameid='PUB-16336047'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-3323832' orgid='ECOLI' frameid='PUB-3323832'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' class='true'/><Publication resource='#ECOLI:PUB-3323832' orgid='ECOLI' frameid='PUB-3323832'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-2139650' orgid='ECOLI' frameid='PUB-2139650'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-9767576' orgid='ECOLI' frameid='PUB-9767576'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-16159766' orgid='ECOLI' frameid='PUB-16159766'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-17185540' orgid='ECOLI' frameid='PUB-17185540'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-10560' orgid='ECOLI' frameid='REG0-10560' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7740' orgid='ECOLI' frameid='CPLX0-7740'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00571' orgid='ECOLI' frameid='PM00571'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5660' orgid='ECOLI' frameid='REG0-5660' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7740' orgid='ECOLI' frameid='CPLX0-7740'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00571' orgid='ECOLI' frameid='PM00571'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5659' orgid='ECOLI' frameid='REG0-5659' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00571' orgid='ECOLI' frameid='PM00571'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5658' orgid='ECOLI' frameid='REG0-5658' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00571' orgid='ECOLI' frameid='PM00571'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5657' orgid='ECOLI' frameid='REG0-5657' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:MONOMER0-160' orgid='ECOLI' frameid='MONOMER0-160'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00571' orgid='ECOLI' frameid='PM00571'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>3600881</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU00427' orgid='ECOLI' frameid='TU00427'/></component-of>
+</Promoter>
+</ptools-xml>

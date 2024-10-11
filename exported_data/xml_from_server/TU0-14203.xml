@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-14203'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-14203</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-14203' orgid='ECOLI' frameid='TU0-14203' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>mdtM-yjiN</common-name>
+<comment datatype='string'>Based on DNA microarray analysis, the mechanism of bacterial inactivation by carvacrol and citral was studied [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/28644990&quot;&gt;Chueca17&lt;/a&gt;]. Treatment by both compounds caused membrane damage and activated metabolism through the production of nucleotides required for DNA and RNA synthesis and metabolic processes [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/28644990&quot;&gt;Chueca17&lt;/a&gt;]. A total of 76 and 156 genes demonstrated significant transcriptional differences by carvacrol and citral, respectively. Genes upregulated by carvacrol treatment included the multidrug efflux pump genes &lt;i&gt;acrA&lt;/i&gt; and &lt;i&gt;mdtM&lt;/i&gt;, genes related to the phage shock response, &lt;i&gt;pspA, pspB, pspC, pspD, pspF&lt;/i&gt;, and &lt;i&gt;pspG&lt;/i&gt;, and genes whose products are important for biosynthesis of arginine (&lt;i&gt;argC, argG, artJ&lt;i&gt;) and purine nucleotides (&lt;i&gt;purC, purM&lt;/i&gt;). Genes upregulated by citral treatment included &lt;i&gt;purH&lt;/i&gt;, &lt;i&gt;pyrB&lt;/i&gt;, and &lt;i&gt;pyrI&lt;/i&gt;. On the other hand, mutations in several differentially expressed genes confirmed the roles of &lt;i&gt;ygaV, yjbO, pspC, sdhA, yejG&lt;/i&gt;, and &lt;i&gt;ygaV&lt;/i&gt; in mechanisms of inactivation by carvacrol and citral [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/28644990&quot;&gt;Chueca17&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12668' orgid='ECOLI' frameid='REG0-12668' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8563' orgid='ECOLI' frameid='CPLX0-8563'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-14203' orgid='ECOLI' frameid='TU0-14203'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component><Gene resource='getxml?ECOLI:EG12576' orgid='ECOLI' frameid='EG12576'/></component>
+<component><Gene resource='getxml?ECOLI:G7933' orgid='ECOLI' frameid='G7933'/></component>
+</Transcription-Unit>
+</ptools-xml>

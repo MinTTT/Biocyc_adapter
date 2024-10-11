@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM00633'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM00633</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM00633' orgid='ECOLI' frameid='PM00633' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>ptsHp5</common-name>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOH-MONOMER' orgid='ECOLI' frameid='RPOH-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>ptsp0</synonym>
+<synonym datatype='string'>ptsHp0b</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2533498</absolute-plus-1-pos>
+<comment datatype='string'>The half-life of mRNA produced by ptsHp5 (P0) is 4.4 and 11 min in the presence and absence of oxygen, respectively [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/18402772&quot;&gt;Shin08&lt;/a&gt;].
+&lt;p&gt;
+The &lt;i&gt;pts&lt;/i&gt;Hp5 (&lt;i&gt;pts&lt;/i&gt;Ob) promoter is activated during growth in the presence of glucose [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/9856350&quot;&gt;Ryu98&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-7852310' orgid='ECOLI' frameid='PUB-7852310' detail='full'><source datatype='string'>J Biol Chem 270(6);2489-96</source>
+<pubmed-id datatype='string'>7852310</pubmed-id>
+<title datatype='string'>Effect of the FruR regulator on transcription of the pts operon in Escherichia coli.</title>
+<year datatype='integer'>1995</year>
+<author datatype='string'>Ryu S</author>
+<author datatype='string'>Ramseier TM</author>
+<author datatype='string'>Michotey V</author>
+<author datatype='string'>Saier MH</author>
+<author datatype='string'>Garges S</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-2457575' orgid='ECOLI' frameid='PUB-2457575' detail='full'><source datatype='string'>J Bacteriol 170(9);3827-37</source>
+<pubmed-id datatype='string'>2457575</pubmed-id>
+<title datatype='string'>The ptsH, ptsI, and crr genes of the Escherichia coli phosphoenolpyruvate-dependent phosphotransferase system: a complex operon with several modes of transcription.</title>
+<year datatype='integer'>1988</year>
+<author datatype='string'>De Reuse H</author>
+<author datatype='string'>Danchin A</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-7852310' orgid='ECOLI' frameid='PUB-7852310'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-10904' orgid='ECOLI' frameid='REG0-10904' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00266' orgid='ECOLI' frameid='PD00266'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00633' orgid='ECOLI' frameid='PM00633'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5272' orgid='ECOLI' frameid='REG0-5272' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00633' orgid='ECOLI' frameid='PM00633'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU00480' orgid='ECOLI' frameid='TU00480'/></component-of>
+</Promoter>
+</ptools-xml>

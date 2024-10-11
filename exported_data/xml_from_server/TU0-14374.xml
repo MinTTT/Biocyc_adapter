@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-14374'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-14374</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-14374' orgid='ECOLI' frameid='TU0-14374' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>gspCDEFGHIJKLMO</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><Gene resource='getxml?ECOLI:EG11359' orgid='ECOLI' frameid='EG11359'/></component>
+<component><Gene resource='getxml?ECOLI:EG12173' orgid='ECOLI' frameid='EG12173'/></component>
+<component><Gene resource='getxml?ECOLI:G7711' orgid='ECOLI' frameid='G7711'/></component>
+<component><Gene resource='getxml?ECOLI:G7710' orgid='ECOLI' frameid='G7710'/></component>
+<component><Gene resource='getxml?ECOLI:G7709' orgid='ECOLI' frameid='G7709'/></component>
+<component><Gene resource='getxml?ECOLI:G7708' orgid='ECOLI' frameid='G7708'/></component>
+<component><Gene resource='getxml?ECOLI:G7707' orgid='ECOLI' frameid='G7707'/></component>
+<component><Gene resource='getxml?ECOLI:G7706' orgid='ECOLI' frameid='G7706'/></component>
+<component><Gene resource='getxml?ECOLI:G7705' orgid='ECOLI' frameid='G7705'/></component>
+<component><Gene resource='getxml?ECOLI:G7704' orgid='ECOLI' frameid='G7704'/></component>
+<component><Gene resource='getxml?ECOLI:G7703' orgid='ECOLI' frameid='G7703'/></component>
+<component><Gene resource='getxml?ECOLI:G7702' orgid='ECOLI' frameid='G7702'/></component>
+<component><Promoter ID='ECOLI:PM0-9514' orgid='ECOLI' frameid='PM0-9514' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>gspCp1</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3455482</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-11118204' orgid='ECOLI' frameid='PUB-11118204' detail='full'><source datatype='string'>EMBO J 19(24);6697-703</source>
+<pubmed-id datatype='string'>11118204</pubmed-id>
+<title datatype='string'>Expression of the endogenous type II secretion pathway in Escherichia coli leads to chitinase secretion.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Francetic O</author>
+<author datatype='string'>Belin D</author>
+<author datatype='string'>Badaut C</author>
+<author datatype='string'>Pugsley AP</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11118204' orgid='ECOLI' frameid='PUB-11118204'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-14374' orgid='ECOLI' frameid='TU0-14374'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

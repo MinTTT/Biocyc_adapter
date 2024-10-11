@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-198692'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-198692</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-198692' orgid='ECOLI' frameid='TU0-198692' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ameF</common-name>
+<citation><Publication ID='ECOLI:PUB-35012340' orgid='ECOLI' frameid='PUB-35012340' detail='full'><source datatype='string'>mBio 13(1);e0344321</source>
+<pubmed-id datatype='string'>35012340</pubmed-id>
+<title datatype='string'>An Antisense RNA Fine-Tunes Gene Expression of the Type II MazEF Toxin-Antitoxin System.</title>
+<year datatype='integer'>2022</year>
+<author datatype='string'>Van Gundy T</author>
+<author datatype='string'>Martin E</author>
+<author datatype='string'>Bono J</author>
+<author datatype='string'>Hatton O</author>
+<author datatype='string'>Lybecker MC</author>
+<doi-id datatype='string'>10.1128/mbio.03443-21</doi-id>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION-NORTHERN' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION-NORTHERN' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' class='true'/></parent>
+<common-name datatype='string'>Northern blot for transcription unit length determination evidence</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0000106</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0000106</dblink-URL>
+</dblink>
+<credits><imported-from-meta><date datatype='date'>2022-10-25</date>
+<Person ID='ECOLI:paley' orgid='ECOLI' frameid='paley' detail='full'><affiliations><Organization ID='ECOLI:SRI' orgid='ECOLI' frameid='SRI' detail='full'><abbrev-name datatype='string'>SRI International</abbrev-name>
+<email datatype='string'>ptools-support@ai.sri.com</email>
+<common-name datatype='string'>SRI International</common-name>
+<url datatype='string'>http://bioinformatics.ai.sri.com/</url>
+</Organization>
+</affiliations>
+<common-name datatype='string'>Suzanne Paley</common-name>
+</Person>
+<Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A type of transcript expression evidence based on electrophoresis and probing to determine the length of a transcription unit using a complementary hybridization probe on the separated RNA samples.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-35012340' orgid='ECOLI' frameid='PUB-35012340'/></evidence>
+<component><Promoter ID='ECOLI:PM0-46602' orgid='ECOLI' frameid='PM0-46602' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>ameFp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2911051</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-35012340' orgid='ECOLI' frameid='PUB-35012340'/></citation>
+<citation><Publication ID='ECOLI:PUB-2911051' orgid='ECOLI' frameid='PUB-2911051' detail='full'><source datatype='string'>J Oral Maxillofac Surg 47(1);1</source>
+<pubmed-id datatype='string'>2911051</pubmed-id>
+<title datatype='string'>Choosing your treatments with care.</title>
+<year datatype='integer'>1989</year>
+<author datatype='string'>Laskin DM</author>
+<doi-id datatype='string'>10.1016/0278-2391(89)90111-0</doi-id>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-25266388' orgid='ECOLI' frameid='PUB-25266388' detail='full'><source datatype='string'>J Bacteriol 197(1);18-28</source>
+<pubmed-id datatype='string'>25266388</pubmed-id>
+<title datatype='string'>Global transcriptional start site mapping using differential RNA sequencing reveals novel antisense RNAs in Escherichia coli.</title>
+<year datatype='integer'>2015</year>
+<author datatype='string'>Thomason MK</author>
+<author datatype='string'>Bischler T</author>
+<author datatype='string'>Eisenbart SK</author>
+<author datatype='string'>Forstner KU</author>
+<author datatype='string'>Zhang A</author>
+<author datatype='string'>Herbig A</author>
+<author datatype='string'>Nieselt K</author>
+<author datatype='string'>Sharma CM</author>
+<author datatype='string'>Storz G</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from mutant phenotype</common-name>
+<comment datatype='string'>IMP inferred from mutant phenotype.
+
+&lt;br&gt;
+The assertion was inferred from a mutant phenotype such as
+&lt;ul&gt;
+    &lt;li&gt; Any gene mutation/knockout
+    &lt;li&gt; Overexpression/ectopic expression of wild-type or mutant genes
+    &lt;li&gt; Anti-sense experiments
+    &lt;li&gt; RNA interference experiments
+    &lt;li&gt; Specific protein inhibitors
+    &lt;li&gt; Complementation
+&lt;/ul&gt;&lt;p class=ecocomment&gt;	
+Comment: Inferences made from examining mutations or
+abnormal levels of only the product(s) of the gene of interest are covered by code EV-IMP
+(compare to code EV-IGI). Use this code for experiments that use antibodies 
+or other specific inhibitors of RNA or protein activity, even though no
+gene may be mutated (the rationale is that EV-IMP is used where an
+abnormal situation prevails in a cell or organism).
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-35012340' orgid='ECOLI' frameid='PUB-35012340'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-198692' orgid='ECOLI' frameid='TU0-198692'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:G0-17125' orgid='ECOLI' frameid='G0-17125'/></component>
+</Transcription-Unit>
+</ptools-xml>

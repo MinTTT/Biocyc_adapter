@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00104'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00104</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00104' orgid='ECOLI' frameid='TU00104' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>fumA</common-name>
+<synonym datatype='string'>OP00145</synonym>
+<comment datatype='string'>The &lt;i&gt;fumA&lt;/i&gt; gene is sensitive to oxygen induction, and it is activated under anaerobic conditions [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/22752906&quot;&gt;Chen12&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-3282546' orgid='ECOLI' frameid='PUB-3282546' detail='full'><source datatype='string'>Biochim Biophys Acta 954(1);14-26</source>
+<pubmed-id datatype='string'>3282546</pubmed-id>
+<title datatype='string'>Two biochemically distinct classes of fumarase in Escherichia coli.</title>
+<year datatype='integer'>1988</year>
+<author datatype='string'>Woods SA</author>
+<author datatype='string'>Schwartzbach SD</author>
+<author datatype='string'>Guest JR</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8000525' orgid='ECOLI' frameid='PUB-8000525' detail='full'><source datatype='string'>Microbiology 140 ( Pt 10);2531-41</source>
+<pubmed-id datatype='string'>8000525</pubmed-id>
+<title datatype='string'>Two genetically-distinct and differentially-regulated aconitases (AcnA and AcnB) in Escherichia coli.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Gruer MJ</author>
+<author datatype='string'>Guest JR</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-7592392' orgid='ECOLI' frameid='PUB-7592392' detail='full'><source datatype='string'>J Bacteriol 177(21);6255-62</source>
+<pubmed-id datatype='string'>7592392</pubmed-id>
+<title datatype='string'>Oxygen, iron, carbon, and superoxide control of the fumarase fumA and fumC genes of Escherichia coli: role of the arcA, fnr, and soxR gene products.</title>
+<year datatype='integer'>1995</year>
+<author datatype='string'>Park SJ</author>
+<author datatype='string'>Gunsalus RP</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-6328431' orgid='ECOLI' frameid='PUB-6328431' detail='full'><source datatype='string'>Nucleic Acids Res 12(8);3631-42</source>
+<pubmed-id datatype='string'>6328431</pubmed-id>
+<title datatype='string'>Complete nucleotide sequence of the fumarase gene fumA, of Escherichia coli.</title>
+<year datatype='integer'>1984</year>
+<author datatype='string'>Miles JS</author>
+<author datatype='string'>Guest JR</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-6397402' orgid='ECOLI' frameid='PUB-6397402' detail='full'><source datatype='string'>Gene 1984;32(1-2);41-8</source>
+<pubmed-id datatype='string'>6397402</pubmed-id>
+<title datatype='string'>Nucleotide sequence and transcriptional start point of the phosphomannose isomerase gene (manA) of Escherichia coli.</title>
+<year datatype='integer'>1984</year>
+<author datatype='string'>Miles JS</author>
+<author datatype='string'>Guest JR</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6328431' orgid='ECOLI' frameid='PUB-6328431'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6397402' orgid='ECOLI' frameid='PUB-6397402'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11396' orgid='ECOLI' frameid='REG0-11396' detail='low'><parent><Regulation resource='getxml?ECOLI:RNA-Mediated-Translation-Regulation' orgid='ECOLI' frameid='RNA-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><RNA resource='getxml?ECOLI:SRAI-RNA' orgid='ECOLI' frameid='SRAI-RNA'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU00104' orgid='ECOLI' frameid='TU00104'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component><Terminator ID='ECOLI:TERM0-1166' orgid='ECOLI' frameid='TERM0-1166' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>1686725</right-end-position>
+<left-end-position datatype='integer'>1686705</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-6328431' orgid='ECOLI' frameid='PUB-6328431'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU00104' orgid='ECOLI' frameid='TU00104'/></component-of>
+</Terminator>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-6960' orgid='ECOLI' frameid='BS0-6960' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-5866' orgid='ECOLI' frameid='REG0-5866' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM00146' orgid='ECOLI' frameid='PM00146' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>1688449</minus-10-left>
+<common-name datatype='string'>fumAp</common-name>
+<minus-35-right datatype='integer'>1688475</minus-35-right>
+<minus-35-left datatype='integer'>1688470</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1688440</absolute-plus-1-pos>
+<comment datatype='string'>Based on gene expression, consensus sequence, EMSA, and footprinting analyses, another site for CRP was determined at -484.5 upstream from the &lt;i&gt;fumC&lt;/i&gt;p promoter [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/22752906&quot;&gt;Chen12&lt;/a&gt;]. However, when CRP was used to complement mutant &lt;i&gt;crp&lt;/i&gt; strains, these were not regulated in wild-type or complemented strains, indicating that this site is not involved in CRP regulation [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/22752906&quot;&gt;Chen12&lt;/a&gt;].</comment>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/><Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-6328431' orgid='ECOLI' frameid='PUB-6328431'/></citation>
+<citation><Publication resource='#ECOLI:PUB-6397402' orgid='ECOLI' frameid='PUB-6397402'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6328431' orgid='ECOLI' frameid='PUB-6328431'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6397402' orgid='ECOLI' frameid='PUB-6397402'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11603' orgid='ECOLI' frameid='REG0-11603' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00146' orgid='ECOLI' frameid='PM00146'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11587' orgid='ECOLI' frameid='REG0-11587' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00146' orgid='ECOLI' frameid='PM00146'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11586' orgid='ECOLI' frameid='REG0-11586' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00146' orgid='ECOLI' frameid='PM00146'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11585' orgid='ECOLI' frameid='REG0-11585' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00146' orgid='ECOLI' frameid='PM00146'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5868' orgid='ECOLI' frameid='REG0-5868' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-ARCA' orgid='ECOLI' frameid='PHOSPHO-ARCA'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00146' orgid='ECOLI' frameid='PM00146'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5867' orgid='ECOLI' frameid='REG0-5867' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7797' orgid='ECOLI' frameid='CPLX0-7797'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00146' orgid='ECOLI' frameid='PM00146'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-5866' orgid='ECOLI' frameid='REG0-5866'/></regulated-by>
+<minus-10-right datatype='integer'>1688454</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-42499' orgid='ECOLI' frameid='TU0-42499'/><Transcription-Unit resource='#ECOLI:TU00104' orgid='ECOLI' frameid='TU00104'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-15659676' orgid='ECOLI' frameid='PUB-15659676' detail='full'><source datatype='string'>J Bacteriol 187(3);980-90</source>
+<pubmed-id datatype='string'>15659676</pubmed-id>
+<title datatype='string'>Functional interactions between the carbon and iron utilization regulators, Crp and Fur, in Escherichia coli.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Zhang Z</author>
+<author datatype='string'>Gosset G</author>
+<author datatype='string'>Barabote R</author>
+<author datatype='string'>Gonzalez CS</author>
+<author datatype='string'>Cuevas WA</author>
+<author datatype='string'>Saier MH</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on similarity to consensus sequences</common-name>
+<comment datatype='string'>A DNA sequence similar to previously known consensus sequences is computationally identified.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15659676' orgid='ECOLI' frameid='PUB-15659676'/></evidence>
+<abs-center-pos datatype='float'>1688842.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00104' orgid='ECOLI' frameid='TU00104'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Promoter resource='#ECOLI:PM00146' orgid='ECOLI' frameid='PM00146'/></component>
+<component><DNA-Binding-Site ID='ECOLI:BS00291' orgid='ECOLI' frameid='BS00291' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5868' orgid='ECOLI' frameid='REG0-5868'/></involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-1957353' orgid='ECOLI' frameid='PUB-1957353' detail='full'><source datatype='string'>Trends Biochem Sci 16(8);310-4</source>
+<pubmed-id datatype='string'>1957353</pubmed-id>
+<title datatype='string'>Adaptive responses to oxygen limitation in Escherichia coli.</title>
+<year datatype='integer'>1991</year>
+<author datatype='string'>Spiro S</author>
+<author datatype='string'>Guest JR</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU00104' orgid='ECOLI' frameid='TU00104'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10356' orgid='ECOLI' frameid='EG10356'/></component>
+</Transcription-Unit>
+</ptools-xml>

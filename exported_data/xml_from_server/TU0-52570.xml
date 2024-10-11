@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-52570'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-52570</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-52570' orgid='ECOLI' frameid='TU0-52570' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>aspX</common-name>
+<citation><Publication ID='ECOLI:PUB-34210798' orgid='ECOLI' frameid='PUB-34210798' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 118(27)</source>
+<pubmed-id datatype='string'>34210798</pubmed-id>
+<title datatype='string'>A fluorescence-based genetic screen reveals diverse mechanisms silencing small RNA signaling in  &lt;i&gt;E. coli&lt;/i&gt;.</title>
+<year datatype='integer'>2021</year>
+<author datatype='string'>Chen J</author>
+<author datatype='string'>To L</author>
+<author datatype='string'>de Mets F</author>
+<author datatype='string'>Luo X</author>
+<author datatype='string'>Majdalani N</author>
+<author datatype='string'>Tai CH</author>
+<author datatype='string'>Gottesman S</author>
+<doi-id datatype='string'>10.1073/pnas.2106964118</doi-id>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from direct assay</common-name>
+<comment datatype='string'>IDA inferred from direct assay.
+
+&lt;br&gt;
+The assertion was inferred from a direct experimental assay such as
+&lt;ul&gt;
+    &lt;li&gt; Enzyme assays
+    &lt;li&gt; In vitro reconstitution (e.g. transcription)
+    &lt;li&gt; Immunofluorescence
+    &lt;li&gt; Cell fractionation
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-34210798' orgid='ECOLI' frameid='PUB-34210798'/></evidence>
+<component><Gene resource='getxml?ECOLI:G0-17100' orgid='ECOLI' frameid='G0-17100'/></component>
+<component><Promoter ID='ECOLI:PM0-46321' orgid='ECOLI' frameid='PM0-46321' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>aspXp2</common-name>
+<synonym datatype='string'>dcuAp2</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4366951</absolute-plus-1-pos>
+<comment datatype='string'>&lt;i&gt;dcuA&lt;/i&gt;p2 was validated experimentally in anaerobic conditions [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/24146601&quot;&gt;Chung13&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-24146601' orgid='ECOLI' frameid='PUB-24146601' detail='full'><source datatype='string'>PLoS Comput Biol 9(10);e1003246</source>
+<pubmed-id datatype='string'>24146601</pubmed-id>
+<title datatype='string'>dPeak: high resolution identification of transcription factor binding sites from PET and SET ChIP-Seq data.</title>
+<year datatype='integer'>2013</year>
+<author datatype='string'>Chung D</author>
+<author datatype='string'>Park D</author>
+<author datatype='string'>Myers K</author>
+<author datatype='string'>Grass J</author>
+<author datatype='string'>Kiley P</author>
+<author datatype='string'>Landick R</author>
+<author datatype='string'>Keles S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-24146601' orgid='ECOLI' frameid='PUB-24146601'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-52570' orgid='ECOLI' frameid='TU0-52570'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

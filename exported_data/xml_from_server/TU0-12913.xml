@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-12913'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-12913</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-12913' orgid='ECOLI' frameid='TU0-12913' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>iraP</common-name>
+<comment datatype='string'>&lt;i&gt;iraP&lt;/i&gt; gene expression is upregulated upon L-valine addition (isoleucine starvation) in the cellular growth medium [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/32211022&quot;&gt;Gummesson20&lt;/a&gt;].
+&lt;p&gt;
+J. Oberto in 2010 identified a possible binding site for NagC, AATAATTACCCACACAAAATATA, in the intergenic region 
+of the divergent genes &lt;i&gt;iraP&lt;/i&gt; and &lt;i&gt;ddlA&lt;/i&gt;. This demonstration was based on different statistical methods [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/21070640&quot;&gt;Oberto10&lt;/a&gt;], but it is not known if NagC regulates transcription in both directions.</comment>
+<citation><Publication ID='ECOLI:PUB-17640895' orgid='ECOLI' frameid='PUB-17640895' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 104(31);12896-901</source>
+<pubmed-id datatype='string'>17640895</pubmed-id>
+<title datatype='string'>ppGpp regulation of RpoS degradation via anti-adaptor protein IraP.</title>
+<year datatype='integer'>2007</year>
+<author datatype='string'>Bougdour A</author>
+<author datatype='string'>Gottesman S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-17640895' orgid='ECOLI' frameid='PUB-17640895'/></evidence>
+<component><Promoter ID='ECOLI:PM0-9521' orgid='ECOLI' frameid='PM0-9521' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>401310</minus-10-left>
+<common-name datatype='string'>iraPp1</common-name>
+<minus-35-right datatype='integer'>401288</minus-35-right>
+<minus-35-left datatype='integer'>401283</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>401319</absolute-plus-1-pos>
+<comment datatype='string'>iraPp, which is sensed by SpoT but not RelA, is a phosphate starvation-induced promoter, and ppGpp is required for its full induction. A discriminatory region of the iraPp promoter is necessary for its ppGpp-mediated induction [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/17640895&quot;&gt;Bougdour07&lt;/a&gt;].</comment>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/><Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-16938894' orgid='ECOLI' frameid='PUB-16938894' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 103(36);13503-8</source>
+<pubmed-id datatype='string'>16938894</pubmed-id>
+<title datatype='string'>The PhoP/PhoQ two-component system stabilizes the alternative sigma factor RpoS in Salmonella enterica.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Tu X</author>
+<author datatype='string'>Latifi T</author>
+<author datatype='string'>Bougdour A</author>
+<author datatype='string'>Gottesman S</author>
+<author datatype='string'>Groisman EA</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-17640895' orgid='ECOLI' frameid='PUB-17640895'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-AS-NAS' orgid='ECOLI' frameid='EV-AS-NAS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-AS' orgid='ECOLI' frameid='EV-AS' class='true'/></parent>
+<common-name datatype='string'>Non-traceable author statement</common-name>
+<comment datatype='string'>Non-traceable author statement.  The assertion was made in a publication such as a review, a meeting abstract, 
+or another database without a reference to a publication describing an experiment that supports the assertion.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16938894' orgid='ECOLI' frameid='PUB-16938894'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-17640895' orgid='ECOLI' frameid='PUB-17640895'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12767' orgid='ECOLI' frameid='REG0-12767' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8070' orgid='ECOLI' frameid='CPLX0-8070'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-9521' orgid='ECOLI' frameid='PM0-9521'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11149' orgid='ECOLI' frameid='REG0-11149' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Compound resource='getxml?ECOLI:GUANOSINE-5DP-3DP' orgid='ECOLI' frameid='GUANOSINE-5DP-3DP'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-9521' orgid='ECOLI' frameid='PM0-9521'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-9431' orgid='ECOLI' frameid='REG0-9431' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD01379' orgid='ECOLI' frameid='PD01379'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-9521' orgid='ECOLI' frameid='PM0-9521'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>401315</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-12913' orgid='ECOLI' frameid='TU0-12913'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11256' orgid='ECOLI' frameid='EG11256'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-3963'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-3963</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-3963' orgid='ECOLI' frameid='TU0-3963' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>fepDGC</common-name>
+<comment datatype='string'>The &lt;i&gt;fepDGC&lt;/i&gt; and &lt;i&gt;entS&lt;/i&gt; genes are divergent operons with overlapping and opposing promoter elements.</comment>
+<citation><Publication ID='ECOLI:PUB-1838574' orgid='ECOLI' frameid='PUB-1838574' detail='full'><source datatype='string'>Mol Microbiol 5(6);1415-28</source>
+<pubmed-id datatype='string'>1838574</pubmed-id>
+<title datatype='string'>Nucleotide sequence and genetic organization of the ferric enterobactin transport system: homology to other periplasmic binding protein-dependent systems in Escherichia coli.</title>
+<year datatype='integer'>1991</year>
+<author datatype='string'>Shea CM</author>
+<author datatype='string'>McIntosh MA</author>
+</Publication>
+</citation>
+<component><Gene resource='getxml?ECOLI:EG10295' orgid='ECOLI' frameid='EG10295'/></component>
+<component><Gene resource='getxml?ECOLI:EG10298' orgid='ECOLI' frameid='EG10298'/></component>
+<component><Gene resource='getxml?ECOLI:EG10296' orgid='ECOLI' frameid='EG10296'/></component>
+<component><Promoter ID='ECOLI:PM0-4203' orgid='ECOLI' frameid='PM0-4203' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>622200</minus-10-left>
+<common-name datatype='string'>fepDp2</common-name>
+<minus-35-right datatype='integer'>622229</minus-35-right>
+<minus-35-left datatype='integer'>622224</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>622192</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-11222606' orgid='ECOLI' frameid='PUB-11222606' detail='full'><source datatype='string'>J Bacteriol 183(6);2059-70</source>
+<pubmed-id datatype='string'>11222606</pubmed-id>
+<title datatype='string'>Regulatory architecture of the iron-regulated fepD-ybdA bidirectional promoter region in Escherichia coli.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Christoffersen CA</author>
+<author datatype='string'>Brickman TJ</author>
+<author datatype='string'>Hook-Barnard I</author>
+<author datatype='string'>McIntosh MA</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11222606' orgid='ECOLI' frameid='PUB-11222606'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11222606' orgid='ECOLI' frameid='PUB-11222606'/></evidence>
+<minus-10-right datatype='integer'>622205</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-3963' orgid='ECOLI' frameid='TU0-3963'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

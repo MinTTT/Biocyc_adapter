@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM00550'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM00550</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM00550' orgid='ECOLI' frameid='PM00550' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>1330807</minus-10-left>
+<common-name datatype='string'>topAp4</common-name>
+<minus-35-right datatype='integer'>1330790</minus-35-right>
+<minus-35-left datatype='integer'>1330785</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1330818</absolute-plus-1-pos>
+<comment datatype='string'>topAp4 shows a decrease in transcription during the stationary phase, probably due to the very small spacing between topAp4  and topAp5, where binding of &amp;sigma;&lt;sup&gt;S&lt;/sup&gt; polymerase to promoter topAp5 might block binding of &amp;sigma;&lt;sup&gt;70&lt;/sup&gt; RNA polymerase.  This promoter shows a decrease in transcription during heat shock.
+&lt;p&gt;
+ Transcription of promoter topAp4 is negatively regulated under the conditions of oxidative stress and high FIS levels. This repressor overlaps the promoter topAp4 and recruits additional FIS molecules to form multiple complexes in the upstream region of &lt;i&gt;topA&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/17233826&quot;&gt;WeinsteinFische07&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-2845101' orgid='ECOLI' frameid='PUB-2845101' detail='full'><source datatype='string'>J Mol Biol 202(4);735-42</source>
+<pubmed-id datatype='string'>2845101</pubmed-id>
+<title datatype='string'>Multiple promoters for transcription of the Escherichia coli DNA topoisomerase I gene and their regulation by DNA supercoiling.</title>
+<year datatype='integer'>1988</year>
+<author datatype='string'>Tse-Dinh YC</author>
+<author datatype='string'>Beran RK</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-2174862' orgid='ECOLI' frameid='PUB-2174862' detail='full'><source datatype='string'>J Bacteriol 172(12);6871-4</source>
+<pubmed-id datatype='string'>2174862</pubmed-id>
+<title datatype='string'>Identification of a heat shock promoter in the topA gene of Escherichia coli.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>Lesley SA</author>
+<author datatype='string'>Jovanovich SB</author>
+<author datatype='string'>Tse-Dinh YC</author>
+<author datatype='string'>Burgess RR</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-9126832' orgid='ECOLI' frameid='PUB-9126832' detail='full'><source datatype='string'>J Mol Biol 267(3);481-9</source>
+<pubmed-id datatype='string'>9126832</pubmed-id>
+<title datatype='string'>Regulation of Escherichia coli topA gene transcription: involvement of a sigmaS-dependent promoter.</title>
+<year datatype='integer'>1997</year>
+<author datatype='string'>Qi H</author>
+<author datatype='string'>Menzel R</author>
+<author datatype='string'>Tse-Dinh YC</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2174862' orgid='ECOLI' frameid='PUB-2174862'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-9126832' orgid='ECOLI' frameid='PUB-9126832'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-2845101' orgid='ECOLI' frameid='PUB-2845101'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference of promoter position</common-name>
+<comment datatype='string'>Automated inference of promoter position relative to the -10 and -35 boxes.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2845101' orgid='ECOLI' frameid='PUB-2845101'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from mutant phenotype</common-name>
+<comment datatype='string'>IMP inferred from mutant phenotype.
+
+&lt;br&gt;
+The assertion was inferred from a mutant phenotype such as
+&lt;ul&gt;
+    &lt;li&gt; Any gene mutation/knockout
+    &lt;li&gt; Overexpression/ectopic expression of wild-type or mutant genes
+    &lt;li&gt; Anti-sense experiments
+    &lt;li&gt; RNA interference experiments
+    &lt;li&gt; Specific protein inhibitors
+    &lt;li&gt; Complementation
+&lt;/ul&gt;&lt;p class=ecocomment&gt;	
+Comment: Inferences made from examining mutations or
+abnormal levels of only the product(s) of the gene of interest are covered by code EV-IMP
+(compare to code EV-IGI). Use this code for experiments that use antibodies 
+or other specific inhibitors of RNA or protein activity, even though no
+gene may be mutated (the rationale is that EV-IMP is used where an
+abnormal situation prevails in a cell or organism).
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2845101' orgid='ECOLI' frameid='PUB-2845101'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2174862' orgid='ECOLI' frameid='PUB-2174862'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-6381' orgid='ECOLI' frameid='REG0-6381' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00550' orgid='ECOLI' frameid='PM00550'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6380' orgid='ECOLI' frameid='REG0-6380' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00550' orgid='ECOLI' frameid='PM00550'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6379' orgid='ECOLI' frameid='REG0-6379' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00550' orgid='ECOLI' frameid='PM00550'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6378' orgid='ECOLI' frameid='REG0-6378' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00550' orgid='ECOLI' frameid='PM00550'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6377' orgid='ECOLI' frameid='REG0-6377' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00550' orgid='ECOLI' frameid='PM00550'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>1330812</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-2504' orgid='ECOLI' frameid='TU0-2504'/></component-of>
+</Promoter>
+</ptools-xml>

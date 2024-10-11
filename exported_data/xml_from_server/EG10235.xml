@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='27.0' xml:base='http://BioCyc.org/getxml?ECOLI:EG10235'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:EG10235</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='27.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Gene ID='ECOLI:EG10235' orgid='ECOLI' frameid='EG10235' detail='full'><parent><Gene resource='getxml?ECOLI:BC-2.1.1' orgid='ECOLI' frameid='BC-2.1.1' class='true'/></parent>
+<parent><Gene resource='getxml?ECOLI:BC-2.2.2' orgid='ECOLI' frameid='BC-2.2.2' class='true'/></parent>
+<parent><Gene resource='getxml?ECOLI:BC-2.3.7' orgid='ECOLI' frameid='BC-2.3.7' class='true'/></parent>
+<parent><Gene resource='getxml?ECOLI:BC-3.1.2.2' orgid='ECOLI' frameid='BC-3.1.2.2' class='true'/></parent>
+<parent><Gene resource='getxml?ECOLI:BC-3.1.2.3' orgid='ECOLI' frameid='BC-3.1.2.3' class='true'/></parent>
+<parent><Gene resource='getxml?ECOLI:BC-3.3.2' orgid='ECOLI' frameid='BC-3.3.2' class='true'/></parent>
+<replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<knockout-growth-observations><Growth-Observation ID='ECOLI:OBS0-43' orgid='ECOLI' frameid='OBS0-43' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NONE</growth-status>
+<with-growth-media>LB enriched</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-438' orgid='ECOLI' frameid='OBS0-438' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NONE</growth-status>
+<with-growth-media>Luria-Bertani broth</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-48' orgid='ECOLI' frameid='OBS0-48' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NONE</growth-status>
+<with-growth-media>LB Lennox</with-growth-media>
+</Growth-Observation>
+</knockout-growth-observations>
+<product><Protein resource='getxml?ECOLI:PD03831' orgid='ECOLI' frameid='PD03831'/></product>
+<transcription-direction datatype='string'>-</transcription-direction>
+<centisome-position datatype='float' units='CENTISOMES'>83.64104</centisome-position>
+<common-name datatype='string'>dnaA</common-name>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU593' orgid='ECOLI' frameid='TU593'/><Transcription-Unit resource='getxml?ECOLI:TU00259' orgid='ECOLI' frameid='TU00259'/></component-of>
+<accession-1 datatype='string'>b3702</accession-1>
+<regulated-by><Regulation ID='ECOLI:REG0-15823' orgid='ECOLI' frameid='REG0-15823' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulated-entity><Gene resource='#ECOLI:EG10235' orgid='ECOLI' frameid='EG10235'/></regulated-entity>
+<mode datatype='string'>-</mode>
+<regulator><Protein resource='getxml?ECOLI:MONOMER0-2741' orgid='ECOLI' frameid='MONOMER0-2741'/></regulator>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15822' orgid='ECOLI' frameid='REG0-15822' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulated-entity><Gene resource='#ECOLI:EG10235' orgid='ECOLI' frameid='EG10235'/></regulated-entity>
+<mode datatype='string'>-</mode>
+<regulator><Protein resource='getxml?ECOLI:MONOMER0-2741' orgid='ECOLI' frameid='MONOMER0-2741'/></regulator>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15821' orgid='ECOLI' frameid='REG0-15821' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulated-entity><Gene resource='#ECOLI:EG10235' orgid='ECOLI' frameid='EG10235'/></regulated-entity>
+<mode datatype='string'>-</mode>
+<regulator><Protein resource='getxml?ECOLI:MONOMER0-2741' orgid='ECOLI' frameid='MONOMER0-2741'/></regulator>
+</Regulation>
+<Regulation ID='ECOLI:REG0-14486' orgid='ECOLI' frameid='REG0-14486' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulated-entity><Gene resource='#ECOLI:EG10235' orgid='ECOLI' frameid='EG10235'/></regulated-entity>
+<mode datatype='string'>-</mode>
+<regulator><Protein resource='getxml?ECOLI:G7072-MONOMER' orgid='ECOLI' frameid='G7072-MONOMER'/></regulator>
+</Regulation>
+</regulated-by>
+<dblink><dblink-db>REGULONDB</dblink-db>
+<dblink-oid>b3702</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://regulondb.ccg.unam.mx/search?term=b3702&amp;organism=ECK12&amp;type=All</dblink-URL>
+</dblink>
+<dblink><dblink-db>STRING</dblink-db>
+<dblink-oid>511145.b3702</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://string-db.org/network/511145.b3702</dblink-URL>
+</dblink>
+<dblink><dblink-db>ASAP</dblink-db>
+<dblink-oid>ABE-0012103</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://asap.ahabs.wisc.edu/asap/feature_info.php?FeatureID=ABE-0012103</dblink-URL>
+</dblink>
+<dblink><dblink-db>ECHOBASE</dblink-db>
+<dblink-oid>EB0231</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.york.ac.uk/res/thomas/Gene.cfm?recordID=EB0231</dblink-URL>
+</dblink>
+<dblink><dblink-db>OU-MICROARRAY</dblink-db>
+<dblink-oid>b3702</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>https://genexpdb.okstate.edu/databases/genexpdb/?query=b3702</dblink-URL>
+</dblink>
+<dblink><dblink-db>CGSC</dblink-db>
+<dblink-oid>851</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://cgsc.biology.yale.edu/Site.php?ID=851</dblink-URL>
+</dblink>
+<left-end-position datatype='integer'>3882326</left-end-position>
+<right-end-position datatype='integer'>3883729</right-end-position>
+<accession-2 datatype='string'>ECK3694</accession-2>
+</Gene>
+</ptools-xml>

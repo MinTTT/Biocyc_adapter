@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:EG11213'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:EG11213</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Gene ID='ECOLI:EG11213' orgid='ECOLI' frameid='EG11213' detail='full'><parent><Gene resource='getxml?ECOLI:Phantom-Genes' orgid='ECOLI' frameid='Phantom-Genes' class='true'/></parent>
+<replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<knockout-growth-observations><Growth-Observation ID='ECOLI:OBS0-49' orgid='ECOLI' frameid='OBS0-49' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media><growth-media resource='getxml?ECOLI:MIX0-806' orgid='ECOLI' frameid='MIX0-806'/></with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-37' orgid='ECOLI' frameid='OBS0-37' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media><growth-media resource='getxml?ECOLI:MIX0-800' orgid='ECOLI' frameid='MIX0-800'/></with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-33' orgid='ECOLI' frameid='OBS0-33' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media><growth-media resource='getxml?ECOLI:MIX0-54' orgid='ECOLI' frameid='MIX0-54'/></with-growth-media>
+</Growth-Observation>
+</knockout-growth-observations>
+<transcription-direction datatype='string'>-</transcription-direction>
+<accession-2 datatype='string'>ECK4219</accession-2>
+<common-name datatype='string'>yzfA</common-name>
+<centisome-position datatype='float' units='CENTISOMES'>95.82744</centisome-position>
+<dblink><dblink-db>ECOLIWIKI</dblink-db>
+<dblink-oid>b4223</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://ecoliwiki.org/colipedia/index.php/b4223</dblink-URL>
+</dblink>
+<dblink><dblink-db>REGULONDB</dblink-db>
+<dblink-oid>b4223</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>https://regulondb.ccg.unam.mx/search/b4223</dblink-URL>
+</dblink>
+<dblink><dblink-db>STRING</dblink-db>
+<dblink-oid>316407.85676974</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://string-db.org/network/316407.85676974</dblink-URL>
+</dblink>
+<dblink><dblink-db>ASAP</dblink-db>
+<dblink-oid>ABE-0013816</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://asap.ahabs.wisc.edu/asap/feature_info.php?FeatureID=ABE-0013816</dblink-URL>
+</dblink>
+<dblink><dblink-db>ECHOBASE</dblink-db>
+<dblink-oid>EB4373</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.york.ac.uk/res/thomas/Gene.cfm?recordID=EB4373</dblink-URL>
+</dblink>
+<dblink><dblink-db>OU-MICROARRAY</dblink-db>
+<dblink-oid>b4223</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>https://genexpdb.okstate.edu/databases/genexpdb/?query=b4223</dblink-URL>
+</dblink>
+<synonym datatype='string'>yjfA</synonym>
+<synonym datatype='string'>ileR</synonym>
+<right-end-position datatype='integer'>4448245</right-end-position>
+<left-end-position datatype='integer'>4447976</left-end-position>
+<comment datatype='string'>&lt;i&gt;yzfA&lt;/i&gt; was originally described as the &lt;i&gt;ileR&lt;/i&gt; locus [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/3525538&quot;&gt;Weiss86&lt;/a&gt;].  However, in a personal communication to Kenn Rudd (see the EcoGene database entry), Ron Somerville stated that &lt;i&gt;yzfA&lt;/i&gt; is not the IleR structural gene.
+&lt;p&gt;
+&lt;i&gt;yfzA&lt;/i&gt; was deaccessioned in ASAP in 2007.  Comment in ASAP: &quot;yzfA (b4223) is no longer thought to be an actual gene and has been deaccessioned; this reading frame is on the opposite strand of ytfP&quot;
+&lt;p&gt;
+Eric Neeno-Eckwall, personal communication 11/7/2018: YtfP is highly conserved among the enterobacteria, with conservation of genome context as far out as Vibrio. I looked at a couple of examples, and the coding sequence of yzfA is not conserved. It would be a pseudogene in Dickeya, and would have a long C-terminal extension in Salmonella (and is not predicted by GeneMark). A version in Escherichia albertii (87% nucleotide identity for ytfP) would require a different start codon and is also not predicted by GeneMark.
+&lt;p&gt;
+Previous UniProt ID: P08339</comment>
+<accession-1 datatype='string'>b4223</accession-1>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-7061' orgid='ECOLI' frameid='TU0-7061'/></component-of>
+</Gene>
+</ptools-xml>

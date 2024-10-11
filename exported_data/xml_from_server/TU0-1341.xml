@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-1341'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-1341</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-1341' orgid='ECOLI' frameid='TU0-1341' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>argP</common-name>
+<synonym datatype='string'>iciA</synonym>
+<comment datatype='string'>In 1999 Celis proposed that ArgP binds to a region of 15 bp (GTCATAGTGCAGGAA) in the intergenic region of &lt;i&gt;argP&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/10600368&quot;&gt;Celis99&lt;/a&gt;]. In contrast, the curator identified two contiguous conserved regions, an inverted repeat of 20 bp which may be the target sequence of ArgP, located at -36.5 (TATATGCAACCTGACACAAA) and -16.5 (ATTGTGTCATAGTGCAGGAA). The sequence proposed by Celis is included in the binding site located at -16.5. The curator identified the consensus sequence of ArgP and assigned the possible central position of these binding sites, based on similarity to consensus sequences.
+&lt;p&gt;
+ArgP has been identified as binding as a dimer of dimers in the intergenic region of &lt;i&gt;dnaA&lt;/i&gt; in &lt;i&gt;E. coli&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/9254708&quot;&gt;Lee97a&lt;/a&gt;] and also in the regulatory region of &lt;i&gt;gdhA&lt;/i&gt; of &lt;i&gt;Klebsiella pneumoniae&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/18424527&quot;&gt;Goss08&lt;/a&gt;]. For this reason, there is a possibility that this regulator transcriptionally regulates itself as a dimer of dimers.</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-2034653' orgid='ECOLI' frameid='PUB-2034653' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 88(10);4066-70</source>
+<pubmed-id datatype='string'>2034653</pubmed-id>
+<title datatype='string'>iciA, an Escherichia coli gene encoding a specific inhibitor of chromosomal initiation of replication in vitro.</title>
+<year datatype='integer'>1991</year>
+<author datatype='string'>Thony B</author>
+<author datatype='string'>Hwang DS</author>
+<author datatype='string'>Fradkin L</author>
+<author datatype='string'>Kornberg A</author>
+</Publication>
+</evidence>
+<component><Terminator ID='ECOLI:TERM0-1067' orgid='ECOLI' frameid='TERM0-1067' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Dependent-Terminators' orgid='ECOLI' frameid='Rho-Dependent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3060680</right-end-position>
+<left-end-position datatype='integer'>3060660</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-2034653' orgid='ECOLI' frameid='PUB-2034653'/></citation>
+<citation><Publication ID='ECOLI:PUB-29669055' orgid='ECOLI' frameid='PUB-29669055' detail='full'><source datatype='string'>Nucleic Acids Res 46(13);6797-6805</source>
+<pubmed-id datatype='string'>29669055</pubmed-id>
+<title datatype='string'>High-resolution RNA 3'-ends mapping of bacterial Rho-dependent transcripts.</title>
+<year datatype='integer'>2018</year>
+<author datatype='string'>Dar D</author>
+<author datatype='string'>Sorek R</author>
+<doi-id datatype='string'>10.1093/nar/gky274</doi-id>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-1341' orgid='ECOLI' frameid='TU0-1341'/></component-of>
+</Terminator>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-1201' orgid='ECOLI' frameid='BS0-1201' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6432' orgid='ECOLI' frameid='REG0-6432' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-PHOB' orgid='ECOLI' frameid='PHOSPHO-PHOB'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-1501' orgid='ECOLI' frameid='PM0-1501' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>argPp</common-name>
+<synonym datatype='string'>iciAp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3059730</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-10589831' orgid='ECOLI' frameid='PUB-10589831' detail='full'><source datatype='string'>Mol Gen Genet 262(3);448-52</source>
+<pubmed-id datatype='string'>10589831</pubmed-id>
+<title datatype='string'>PhoB-dependent transcriptional activation of the iciA gene during starvation for phosphate in Escherichia coli.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>Han JS</author>
+<author datatype='string'>Park JY</author>
+<author datatype='string'>Lee YS</author>
+<author datatype='string'>Thony B</author>
+<author datatype='string'>Hwang DS</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10589831' orgid='ECOLI' frameid='PUB-10589831'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11318' orgid='ECOLI' frameid='REG0-11318' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7671' orgid='ECOLI' frameid='CPLX0-7671'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-1501' orgid='ECOLI' frameid='PM0-1501'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11317' orgid='ECOLI' frameid='REG0-11317' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7671' orgid='ECOLI' frameid='CPLX0-7671'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-1501' orgid='ECOLI' frameid='PM0-1501'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-6432' orgid='ECOLI' frameid='REG0-6432'/></regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-1341' orgid='ECOLI' frameid='TU0-1341'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-10589831' orgid='ECOLI' frameid='PUB-10589831'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10589831' orgid='ECOLI' frameid='PUB-10589831'/></evidence>
+<abs-center-pos datatype='integer'>3059703</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-1341' orgid='ECOLI' frameid='TU0-1341'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10490' orgid='ECOLI' frameid='EG10490'/></component>
+<component><Promoter resource='#ECOLI:PM0-1501' orgid='ECOLI' frameid='PM0-1501'/></component>
+</Transcription-Unit>
+</ptools-xml>

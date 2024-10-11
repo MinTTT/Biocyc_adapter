@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00171'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00171</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00171' orgid='ECOLI' frameid='TU00171' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>gcvA</common-name>
+<synonym datatype='string'>OP00233</synonym>
+<comment datatype='string'>The protein H-NS positively regulates &lt;i&gt;gcv&lt;/i&gt; operon expression, but this regulation seems to be indirect [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/11114904&quot;&gt;Sardesai01&lt;/a&gt;]. Overproduction of BglG in stationary phase brings about downregulation of both &lt;i&gt;gcvA&lt;/i&gt; and &lt;i&gt;gcvB&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31063124&quot;&gt;Shukla19&lt;/a&gt;].
+&lt;p&gt;
+The half-life of the &lt;i&gt;gcvA&lt;/i&gt; mRNA is reduced by the RNA-binding protein BglG during stationary phase [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/22020646&quot;&gt;Harwani12&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-8522138' orgid='ECOLI' frameid='PUB-8522138' detail='full'><source datatype='string'>FEMS Microbiol Lett 133(3);225-31</source>
+<pubmed-id datatype='string'>8522138</pubmed-id>
+<title datatype='string'>Identification of the genes in multicopy plasmids affecting ompC and ompF expression in Escherichia coli.</title>
+<year datatype='integer'>1995</year>
+<author datatype='string'>Jin T</author>
+<author datatype='string'>Inouye M</author>
+</Publication>
+</citation>
+<component><Promoter ID='ECOLI:PM00234' orgid='ECOLI' frameid='PM00234' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>2942646</minus-10-left>
+<common-name datatype='string'>gcvAp</common-name>
+<minus-35-right datatype='integer'>2942678</minus-35-right>
+<minus-35-left datatype='integer'>2942673</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2942639</absolute-plus-1-pos>
+<comment datatype='string'>This promoter has another putative transcription start site. The two transcription start sites are spaced only 1 nt apart.</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-8188587' orgid='ECOLI' frameid='PUB-8188587' detail='full'><source datatype='string'>J Bacteriol 176(10);2862-8</source>
+<pubmed-id datatype='string'>8188587</pubmed-id>
+<title datatype='string'>DNA sequence and characterization of GcvA, a LysR family regulatory protein for the Escherichia coli glycine cleavage enzyme system.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Wilson RL</author>
+<author datatype='string'>Stauffer GV</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8188587' orgid='ECOLI' frameid='PUB-8188587'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8188587' orgid='ECOLI' frameid='PUB-8188587'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11430' orgid='ECOLI' frameid='REG0-11430' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00339' orgid='ECOLI' frameid='PD00339'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00234' orgid='ECOLI' frameid='PM00234'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5748' orgid='ECOLI' frameid='REG0-5748' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00339' orgid='ECOLI' frameid='PD00339'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00234' orgid='ECOLI' frameid='PM00234'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>2942651</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00171' orgid='ECOLI' frameid='TU00171'/></component-of>
+</Promoter>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS00408' orgid='ECOLI' frameid='BS00408' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<dblink><dblink-db>UNIPROT</dblink-db>
+<dblink-oid>P32064</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>https://www.uniprot.org/uniprot/P32064</dblink-URL>
+</dblink>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6179' orgid='ECOLI' frameid='REG0-6179' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00339' orgid='ECOLI' frameid='PD00339'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-6484' orgid='ECOLI' frameid='PM0-6484' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>2942684</minus-10-left>
+<common-name datatype='string'>gcvBp</common-name>
+<minus-35-right datatype='integer'>2942666</minus-35-right>
+<minus-35-left datatype='integer'>2942661</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2942696</absolute-plus-1-pos>
+<comment datatype='string'>gcvBp is a class II activator-dependent promoter (where activators bind to sites that are adjacent to or overlap the RNA polymerase-binding site) [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/15621456&quot;&gt;Stauffer05&lt;/a&gt;].</comment>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/><Publication resource='#ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615'/></evidence>
+<citation><Publication ID='ECOLI:PUB-10972807' orgid='ECOLI' frameid='PUB-10972807' detail='full'><source datatype='string'>Mol Microbiol 37(4);856-68</source>
+<pubmed-id datatype='string'>10972807</pubmed-id>
+<title datatype='string'>The gcvB gene encodes a small untranslated RNA involved in expression of the dipeptide and oligopeptide transport systems in Escherichia coli.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Urbanowski ML</author>
+<author datatype='string'>Stauffer LT</author>
+<author datatype='string'>Stauffer GV</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-15621456' orgid='ECOLI' frameid='PUB-15621456' detail='full'><source datatype='string'>FEMS Microbiol Lett 242(2);333-8</source>
+<pubmed-id datatype='string'>15621456</pubmed-id>
+<title datatype='string'>GcvA interacts with both the alpha and sigma subunits of RNA polymerase to activate the Escherichia coli gcvB gene and the gcvTHP operon.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Stauffer LT</author>
+<author datatype='string'>Stauffer GV</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-11448770' orgid='ECOLI' frameid='PUB-11448770' detail='full'><source datatype='string'>Curr Biol 11(12);941-50</source>
+<pubmed-id datatype='string'>11448770</pubmed-id>
+<title datatype='string'>Novel small RNA-encoding genes in the intergenic regions of Escherichia coli.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Argaman L</author>
+<author datatype='string'>Hershberg R</author>
+<author datatype='string'>Vogel J</author>
+<author datatype='string'>Bejerano G</author>
+<author datatype='string'>Wagner EG</author>
+<author datatype='string'>Margalit H</author>
+<author datatype='string'>Altuvia S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-10972807' orgid='ECOLI' frameid='PUB-10972807'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-11448770' orgid='ECOLI' frameid='PUB-11448770'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11429' orgid='ECOLI' frameid='REG0-11429' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00339' orgid='ECOLI' frameid='PD00339'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-6484' orgid='ECOLI' frameid='PM0-6484'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-6179' orgid='ECOLI' frameid='REG0-6179'/></regulated-by>
+<minus-10-right datatype='integer'>2942689</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-6184' orgid='ECOLI' frameid='TU0-6184'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-5748' orgid='ECOLI' frameid='REG0-5748'/></involved-in-regulation>
+<comment datatype='string'>The precise position and the length of this binding site were identified by the curator, who used a new predictive methodology, PhyPIR (Phylogenetic Profile of Inverted Repeated patterns), which was developed in the laboratory of Dr. Enrique Merino of the Institute of Biotechnology, UNAM. GcvA interacts with the RNA polymerase &amp;sigma; subunit to activate gcvBp [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/15621456&quot;&gt;Stauffer05&lt;/a&gt;].</comment>
+<citation><Publication resource='#ECOLI:PUB-10972807' orgid='ECOLI' frameid='PUB-10972807'/></citation>
+<citation><Publication ID='ECOLI:PUB-10463182' orgid='ECOLI' frameid='PUB-10463182' detail='full'><source datatype='string'>Microbiology 145 ( Pt 8);2153-62</source>
+<pubmed-id datatype='string'>10463182</pubmed-id>
+<title datatype='string'>Genetic analysis of the GcvA binding site in the gcvA control region.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>Jourdan AD</author>
+<author datatype='string'>Stauffer GV</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-16768793' orgid='ECOLI' frameid='PUB-16768793' detail='full'><source datatype='string'>BMC Microbiol 6;52</source>
+<pubmed-id datatype='string'>16768793</pubmed-id>
+<title datatype='string'>The Yersinia pestis gcvB gene encodes two small regulatory RNA molecules.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>McArthur SD</author>
+<author datatype='string'>Pulvermacher SC</author>
+<author datatype='string'>Stauffer GV</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on similarity to consensus sequences</common-name>
+<comment datatype='string'>A DNA sequence similar to previously known consensus sequences is computationally identified.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10972807' orgid='ECOLI' frameid='PUB-10972807'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of cellular extracts</common-name>
+<comment datatype='string'>There exists physical evidence of the binding of cellular extracts containing 
+a regulatory protein to its DNA binding site.  This can be either by 
+footprinting or mobility shift assays.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-7665470' orgid='ECOLI' frameid='PUB-7665470' detail='full'><source datatype='string'>J Bacteriol 177(17);4940-6</source>
+<pubmed-id datatype='string'>7665470</pubmed-id>
+<title datatype='string'>DNA binding sites of the LysR-type regulator GcvA in the gcv and gcvA control regions of Escherichia coli.</title>
+<year datatype='integer'>1995</year>
+<author datatype='string'>Wilson RL</author>
+<author datatype='string'>Urbanowski ML</author>
+<author datatype='string'>Stauffer GV</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' detail='full' class='true'><common-name datatype='string'>Inferred by curator</common-name>
+<comment datatype='string'>Inferred by curator.  An assertion was inferred by a curator from relevant
+information such as other assertions in a database.
+</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10463182' orgid='ECOLI' frameid='PUB-10463182'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16768793' orgid='ECOLI' frameid='PUB-16768793'/></evidence>
+<abs-center-pos datatype='integer'>2942653</abs-center-pos>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-6184' orgid='ECOLI' frameid='TU0-6184'/><Transcription-Unit resource='#ECOLI:TU00171' orgid='ECOLI' frameid='TU00171'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11795' orgid='ECOLI' frameid='EG11795'/></component>
+</Transcription-Unit>
+</ptools-xml>

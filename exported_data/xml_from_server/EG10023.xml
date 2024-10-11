@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='27.0' xml:base='http://BioCyc.org/getxml?ECOLI:EG10023'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:EG10023</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='27.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Gene ID='ECOLI:EG10023' orgid='ECOLI' frameid='EG10023' detail='full'><parent><Gene resource='getxml?ECOLI:BC-1.7.2' orgid='ECOLI' frameid='BC-1.7.2' class='true'/></parent>
+<replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<knockout-growth-observations><Growth-Observation ID='ECOLI:OBS0-439' orgid='ECOLI' frameid='OBS0-439' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>Luria-Bertani broth</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-49' orgid='ECOLI' frameid='OBS0-49' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>LB Lennox</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-40' orgid='ECOLI' frameid='OBS0-40' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>MOPS medium with 0.4% glucose</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-37' orgid='ECOLI' frameid='OBS0-37' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>MOPS medium with 0.4% glucose</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-33' orgid='ECOLI' frameid='OBS0-33' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>M9 medium with 1% glycerol</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-44' orgid='ECOLI' frameid='OBS0-44' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>LB enriched</with-growth-media>
+</Growth-Observation>
+</knockout-growth-observations>
+<transcription-direction datatype='string'>+</transcription-direction>
+<product><Protein resource='getxml?ECOLI:MALATE-SYNTHASE' orgid='ECOLI' frameid='MALATE-SYNTHASE'/></product>
+<centisome-position datatype='float' units='CENTISOMES'>90.81848</centisome-position>
+<common-name datatype='string'>aceB</common-name>
+<citation><Publication ID='ECOLI:PUB-3060852' orgid='ECOLI' frameid='PUB-3060852' detail='full'><year datatype='integer'>1988</year>
+<source datatype='string'>Nucleic Acids Res 16(22);10924</source>
+<title datatype='string'>Nucleotide sequence of the aceB gene encoding malate synthase A in Escherichia coli.</title>
+<pubmed-id datatype='string'>3060852</pubmed-id>
+<author datatype='string'>Byrne C</author>
+<author datatype='string'>Stokes HW</author>
+<author datatype='string'>Ward KA</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-3050899' orgid='ECOLI' frameid='PUB-3050899' detail='full'><year datatype='integer'>1988</year>
+<source datatype='string'>Nucleic Acids Res 16(19);9342</source>
+<title datatype='string'>Nucleotide sequence of the aceB gene encoding malate synthase A in Escherichia coli.</title>
+<pubmed-id datatype='string'>3050899</pubmed-id>
+<author datatype='string'>Byrne C</author>
+<author datatype='string'>Stokes HW</author>
+<author datatype='string'>Ward KA</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU00001' orgid='ECOLI' frameid='TU00001'/></component-of>
+<accession-1 datatype='string'>b4014</accession-1>
+<regulated-by><Regulation ID='ECOLI:REG0-16298' orgid='ECOLI' frameid='REG0-16298' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulated-entity><Gene resource='#ECOLI:EG10023' orgid='ECOLI' frameid='EG10023'/></regulated-entity>
+<mode datatype='string'>+</mode>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-3930' orgid='ECOLI' frameid='CPLX0-3930'/></regulator>
+</Regulation>
+<Regulation ID='ECOLI:REG0-14425' orgid='ECOLI' frameid='REG0-14425' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulated-entity><Gene resource='#ECOLI:EG10023' orgid='ECOLI' frameid='EG10023'/></regulated-entity>
+<mode datatype='string'>-</mode>
+<regulator><Protein resource='getxml?ECOLI:G7072-MONOMER' orgid='ECOLI' frameid='G7072-MONOMER'/></regulator>
+</Regulation>
+<Regulation ID='ECOLI:REG0-14365' orgid='ECOLI' frameid='REG0-14365' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulated-entity><Gene resource='#ECOLI:EG10023' orgid='ECOLI' frameid='EG10023'/></regulated-entity>
+<mode datatype='string'>+</mode>
+<regulator><Protein resource='getxml?ECOLI:PD00353' orgid='ECOLI' frameid='PD00353'/></regulator>
+</Regulation>
+<Regulation ID='ECOLI:REG0-14364' orgid='ECOLI' frameid='REG0-14364' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulated-entity><Gene resource='#ECOLI:EG10023' orgid='ECOLI' frameid='EG10023'/></regulated-entity>
+<mode datatype='string'>+</mode>
+<regulator><Protein resource='getxml?ECOLI:PD00353' orgid='ECOLI' frameid='PD00353'/></regulator>
+</Regulation>
+</regulated-by>
+<dblink><dblink-db>REGULONDB</dblink-db>
+<dblink-oid>b4014</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://regulondb.ccg.unam.mx/search?term=b4014&amp;organism=ECK12&amp;type=All</dblink-URL>
+</dblink>
+<dblink><dblink-db>STRING</dblink-db>
+<dblink-oid>511145.b4014</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://string-db.org/network/511145.b4014</dblink-URL>
+</dblink>
+<dblink><dblink-db>ASAP</dblink-db>
+<dblink-oid>ABE-0013125</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://asap.ahabs.wisc.edu/asap/feature_info.php?FeatureID=ABE-0013125</dblink-URL>
+</dblink>
+<dblink><dblink-db>ECHOBASE</dblink-db>
+<dblink-oid>EB0022</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.york.ac.uk/res/thomas/Gene.cfm?recordID=EB0022</dblink-URL>
+</dblink>
+<dblink><dblink-db>OU-MICROARRAY</dblink-db>
+<dblink-oid>b4014</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>https://genexpdb.okstate.edu/databases/genexpdb/?query=b4014</dblink-URL>
+</dblink>
+<dblink><dblink-db>CGSC</dblink-db>
+<dblink-oid>1051</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://cgsc.biology.yale.edu/Site.php?ID=1051</dblink-URL>
+</dblink>
+<left-end-position datatype='integer'>4215478</left-end-position>
+<right-end-position datatype='integer'>4217079</right-end-position>
+<synonym datatype='string'>mas</synonym>
+<accession-2 datatype='string'>ECK4006</accession-2>
+</Gene>
+</ptools-xml>

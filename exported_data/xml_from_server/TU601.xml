@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU601'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU601</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU601' orgid='ECOLI' frameid='TU601' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>yceD-rpmF</common-name>
+<comment datatype='string'>FNR represses &lt;i&gt;yceD&lt;/i&gt; gene expression under anaerobiosis, but it is not known which of the two promoters transcribing the gene is affected, or even if this regulation is direct or indirect [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12754220&quot;&gt;Salmon03&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-2477362' orgid='ECOLI' frameid='PUB-2477362' detail='full'><source datatype='string'>J Bacteriol 171(10);5707-12</source>
+<pubmed-id datatype='string'>2477362</pubmed-id>
+<title datatype='string'>Cloning and analysis of an Escherichia coli operon containing the rpmF gene for ribosomal protein L32 and the gene for a 30-kilodalton protein.</title>
+<year datatype='integer'>1989</year>
+<author datatype='string'>Tanaka Y</author>
+<author datatype='string'>Tsujimura A</author>
+<author datatype='string'>Fujita N</author>
+<author datatype='string'>Isono S</author>
+<author datatype='string'>Isono K</author>
+</Publication>
+</citation>
+<component><Gene resource='getxml?ECOLI:EG10890' orgid='ECOLI' frameid='EG10890'/></component>
+<component><Gene resource='getxml?ECOLI:EG11119' orgid='ECOLI' frameid='EG11119'/></component>
+<component><Promoter ID='ECOLI:PM00363' orgid='ECOLI' frameid='PM00363' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>1146637</minus-10-left>
+<common-name datatype='string'>yceDp1</common-name>
+<minus-35-right datatype='integer'>1146619</minus-35-right>
+<minus-35-left datatype='integer'>1146614</minus-35-left>
+<synonym datatype='string'>g30k_rpmFp1</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1146649</absolute-plus-1-pos>
+<comment datatype='string'>This promoter appears to have more transcriptional sites at positions 1146648/49/50 , as determined by high-throughput screening of maps of promoters [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31992590&quot;&gt;Lacoux20&lt;/a&gt;].
+</comment>
+<citation><Publication resource='#ECOLI:PUB-2477362' orgid='ECOLI' frameid='PUB-2477362'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2477362' orgid='ECOLI' frameid='PUB-2477362'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2477362' orgid='ECOLI' frameid='PUB-2477362'/></evidence>
+<minus-10-right datatype='integer'>1146642</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU601' orgid='ECOLI' frameid='TU601'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

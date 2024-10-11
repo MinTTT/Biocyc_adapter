@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00344'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00344</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00344' orgid='ECOLI' frameid='TU00344' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rpoZ-spoT-trmH-recG</common-name>
+<synonym datatype='string'>rpoZ-spoTU-recG</synonym>
+<citation><Publication ID='ECOLI:PUB-1544582' orgid='ECOLI' frameid='PUB-1544582' detail='full'><source datatype='string'>Gene 110(1);95-9</source>
+<pubmed-id datatype='string'>1544582</pubmed-id>
+<title datatype='string'>The nucleotide sequence of recG, the distal spo operon gene in Escherichia coli K-12.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Kalman M</author>
+<author datatype='string'>Murphy H</author>
+<author datatype='string'>Cashel M</author>
+</Publication>
+</citation>
+<component><Promoter ID='ECOLI:PM0-10343' orgid='ECOLI' frameid='PM0-10343' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>3822064</minus-10-left>
+<common-name datatype='string'>rpoZp</common-name>
+<minus-35-right datatype='integer'>3822045</minus-35-right>
+<minus-35-left datatype='integer'>3822040</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3822077</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-8390989' orgid='ECOLI' frameid='PUB-8390989' detail='full'><source datatype='string'>J Biol Chem 268(19);14316-21</source>
+<pubmed-id datatype='string'>8390989</pubmed-id>
+<title datatype='string'>Guanylate kinase of Escherichia coli K-12.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>Gentry D</author>
+<author datatype='string'>Bengra C</author>
+<author datatype='string'>Ikehara K</author>
+<author datatype='string'>Cashel M</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-AS-TAS' orgid='ECOLI' frameid='EV-AS-TAS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-AS' orgid='ECOLI' frameid='EV-AS' class='true'/></parent>
+<common-name datatype='string'>Traceable author statement</common-name>
+<comment datatype='string'>Traceable author statement.  The assertion was made in a publication -- such as a review or 
+in another database -- that itself did not describe an experiment supporting the
+assertion.  The statement referenced another publication that supported the assertion,
+but it is unclear whether that publication described an experiment that supported
+the assertion.  The difference between the codes EV-EXP-TAS and EV-AS-TAS 
+is that the former code is used when it is certain that experimental evidence supports the
+assertion, and the latter code is used when there is a possibility that an experiment was
+not done to support the assertion.
+In general, references to the primary literature are preferred,
+but this code can be used when the original article is difficult to locate.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8390989' orgid='ECOLI' frameid='PUB-8390989'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11179' orgid='ECOLI' frameid='REG0-11179' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8070' orgid='ECOLI' frameid='CPLX0-8070'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10343' orgid='ECOLI' frameid='PM0-10343'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>3822069</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00344' orgid='ECOLI' frameid='TU00344'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10899' orgid='ECOLI' frameid='EG10899'/></component>
+<component><Gene resource='getxml?ECOLI:EG10966' orgid='ECOLI' frameid='EG10966'/></component>
+<component><Gene resource='getxml?ECOLI:EG10967' orgid='ECOLI' frameid='EG10967'/></component>
+<component><Gene resource='getxml?ECOLI:EG10829' orgid='ECOLI' frameid='EG10829'/></component>
+</Transcription-Unit>
+</ptools-xml>

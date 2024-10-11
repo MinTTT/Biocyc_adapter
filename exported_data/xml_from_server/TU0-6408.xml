@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-6408'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-6408</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-6408' orgid='ECOLI' frameid='TU0-6408' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>pfkB</common-name>
+<comment datatype='string'>The end of the &lt;i&gt;pfkB&lt;/i&gt; transcription unit has not been proved. The &lt;i&gt;pfkB&lt;/i&gt; gene studies only focused on obtaining its complete sequence and transcription start region, which are reported at [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/6310120&quot;&gt;Daldal83&lt;/a&gt;].
+&lt;p&gt;
+The transcription of  the &lt;i&gt;pfkB&lt;/i&gt; gene is repressed during the first 24 h after the induction of nitrogen starvation [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/32571968&quot;&gt;Switzer20&lt;/a&gt;].
+&lt;p&gt;
+The expression of the gene &lt;i&gt;pfkB&lt;/i&gt; is enhanced under oxygen limitation [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/30810277&quot;&gt;Kawaguchi19&lt;/a&gt;].
+</comment>
+<citation><Publication ID='ECOLI:PUB-6310120' orgid='ECOLI' frameid='PUB-6310120' detail='full'><source datatype='string'>J Mol Biol 168(2);285-305</source>
+<pubmed-id datatype='string'>6310120</pubmed-id>
+<title datatype='string'>Molecular cloning of the gene for phosphofructokinase-2 of Escherichia coli and the nature of a mutation, pfkB1, causing a high level of the enzyme.</title>
+<year datatype='integer'>1983</year>
+<author datatype='string'>Daldal F</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-6235149' orgid='ECOLI' frameid='PUB-6235149' detail='full'><source datatype='string'>Gene 28(3);337-42</source>
+<pubmed-id datatype='string'>6235149</pubmed-id>
+<title datatype='string'>Nucleotide sequence of gene pfkB encoding the minor phosphofructokinase of Escherichia coli K-12.</title>
+<year datatype='integer'>1984</year>
+<author datatype='string'>Daldal F</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6310120' orgid='ECOLI' frameid='PUB-6310120'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG10700' orgid='ECOLI' frameid='EG10700'/></component>
+<component><Promoter ID='ECOLI:PM00377' orgid='ECOLI' frameid='PM00377' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>1806335</minus-10-left>
+<common-name datatype='string'>pfkBp1</common-name>
+<minus-35-right datatype='integer'>1806322</minus-35-right>
+<minus-35-left datatype='integer'>1806317</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>P1</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1806351</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-6310120' orgid='ECOLI' frameid='PUB-6310120'/></citation>
+<citation><Publication resource='#ECOLI:PUB-6235149' orgid='ECOLI' frameid='PUB-6235149'/></citation>
+<citation><Publication ID='ECOLI:PUB-15489429' orgid='ECOLI' frameid='PUB-15489429' detail='full'><source datatype='string'>J Bacteriol 186(21);7186-95</source>
+<pubmed-id datatype='string'>15489429</pubmed-id>
+<title datatype='string'>SigmaS-dependent gene expression at the onset of stationary phase in Escherichia coli: function of sigmaS-dependent genes and identification of their promoter sequences.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Lacour S</author>
+<author datatype='string'>Landini P</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15489429' orgid='ECOLI' frameid='PUB-15489429'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6310120' orgid='ECOLI' frameid='PUB-6310120'/></evidence>
+<minus-10-right datatype='integer'>1806345</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-6408' orgid='ECOLI' frameid='TU0-6408'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

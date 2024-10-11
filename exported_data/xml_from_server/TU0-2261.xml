@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-2261'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-2261</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-2261' orgid='ECOLI' frameid='TU0-2261' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>gadX</common-name>
+<comment datatype='string'>&lt;i&gt;gadX&lt;/i&gt; gene expression is induced under exposure to hydrogen peroxide [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/20209085&quot;&gt;Hodges10&lt;/a&gt;].
+&lt;p&gt;
+UspE regulates positively the transcription of the &lt;i&gt;gadX&lt;/i&gt; gene in an unknown way, and GadX induces the transcription of &lt;i&gt;uspE&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/20209085&quot;&gt;Hodges10&lt;/a&gt;].
+&lt;p&gt;
+The expression of the gene &lt;i&gt;gadX&lt;/i&gt; is increased by PhoB under acidic growth conditions [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23274360&quot;&gt;Marzan13&lt;/a&gt;].
+&lt;p&gt;
+The mRNA produced by the  &lt;i&gt;gadX&lt;/i&gt; gene has been observed mainly in the poles of the cell [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31540875&quot;&gt;Kannaiah19&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-11976288' orgid='ECOLI' frameid='PUB-11976288' detail='full'><source datatype='string'>J Bacteriol 184(10);2603-13</source>
+<pubmed-id datatype='string'>11976288</pubmed-id>
+<title datatype='string'>Functional characterization and regulation of gadX, a gene encoding an AraC/XylS-like transcriptional activator of the Escherichia coli glutamic acid decarboxylase system.</title>
+<year datatype='integer'>2002</year>
+<author datatype='string'>Tramonti A</author>
+<author datatype='string'>Visca P</author>
+<author datatype='string'>De Canio M</author>
+<author datatype='string'>Falconi M</author>
+<author datatype='string'>De Biase D</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11976288' orgid='ECOLI' frameid='PUB-11976288'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-13061' orgid='ECOLI' frameid='REG0-13061' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Compound resource='getxml?ECOLI:GUANOSINE-5DP-3DP' orgid='ECOLI' frameid='GUANOSINE-5DP-3DP'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-2261' orgid='ECOLI' frameid='TU0-2261'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component><DNA-Binding-Site ID='ECOLI:BS0-7161' orgid='ECOLI' frameid='BS0-7161' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6364' orgid='ECOLI' frameid='REG0-6364' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7797' orgid='ECOLI' frameid='CPLX0-7797'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-2441' orgid='ECOLI' frameid='PM0-2441' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>3665849</minus-10-left>
+<common-name datatype='string'>gadXp</common-name>
+<minus-35-right datatype='integer'>3665876</minus-35-right>
+<minus-35-left datatype='integer'>3665871</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3665839</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-11976288' orgid='ECOLI' frameid='PUB-11976288'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11976288' orgid='ECOLI' frameid='PUB-11976288'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11976288' orgid='ECOLI' frameid='PUB-11976288'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11747' orgid='ECOLI' frameid='REG0-11747' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-PHOB' orgid='ECOLI' frameid='PHOSPHO-PHOB'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-2441' orgid='ECOLI' frameid='PM0-2441'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10993' orgid='ECOLI' frameid='REG0-10993' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12243-MONOMER' orgid='ECOLI' frameid='EG12243-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-2441' orgid='ECOLI' frameid='PM0-2441'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-9264' orgid='ECOLI' frameid='REG0-9264' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-11745' orgid='ECOLI' frameid='CPLX0-11745'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-2441' orgid='ECOLI' frameid='PM0-2441'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6366' orgid='ECOLI' frameid='REG0-6366' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12242-MONOMER' orgid='ECOLI' frameid='EG12242-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-2441' orgid='ECOLI' frameid='PM0-2441'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6365' orgid='ECOLI' frameid='REG0-6365' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00288' orgid='ECOLI' frameid='PD00288'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-2441' orgid='ECOLI' frameid='PM0-2441'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-6364' orgid='ECOLI' frameid='REG0-6364'/><Regulation ID='ECOLI:REG0-6363' orgid='ECOLI' frameid='REG0-6363' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG11544-MONOMER' orgid='ECOLI' frameid='EG11544-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-2441' orgid='ECOLI' frameid='PM0-2441'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>3665859</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-14433' orgid='ECOLI' frameid='TU0-14433'/><Transcription-Unit resource='#ECOLI:TU0-2261' orgid='ECOLI' frameid='TU0-2261'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-16377617' orgid='ECOLI' frameid='PUB-16377617' detail='full'><source datatype='string'>J Biol Chem 281(8);4802-15</source>
+<pubmed-id datatype='string'>16377617</pubmed-id>
+<title datatype='string'>A reassessment of the FNR regulon and transcriptomic analysis of the effects of nitrate, nitrite, NarXL, and NarQP as Escherichia coli K12 adapts from aerobic to anaerobic growth.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Constantinidou C</author>
+<author datatype='string'>Hobman JL</author>
+<author datatype='string'>Griffiths L</author>
+<author datatype='string'>Patel MD</author>
+<author datatype='string'>Penn CW</author>
+<author datatype='string'>Cole JA</author>
+<author datatype='string'>Overton TW</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on similarity to consensus sequences</common-name>
+<comment datatype='string'>A DNA sequence similar to previously known consensus sequences is computationally identified.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16377617' orgid='ECOLI' frameid='PUB-16377617'/></evidence>
+<abs-center-pos datatype='float'>3665998.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-2261' orgid='ECOLI' frameid='TU0-2261'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-6483' orgid='ECOLI' frameid='BS0-6483' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-6365' orgid='ECOLI' frameid='REG0-6365'/></involved-in-regulation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-15795232' orgid='ECOLI' frameid='PUB-15795232' detail='full'><source datatype='string'>J Biol Chem 280(22);21498-505</source>
+<pubmed-id datatype='string'>15795232</pubmed-id>
+<title datatype='string'>Antagonistic role of H-NS and GadX in the regulation of the glutamate decarboxylase-dependent acid resistance system in Escherichia coli.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Giangrossi M</author>
+<author datatype='string'>Zattoni S</author>
+<author datatype='string'>Tramonti A</author>
+<author datatype='string'>De Biase D</author>
+<author datatype='string'>Falconi M</author>
+</Publication>
+</evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-2261' orgid='ECOLI' frameid='TU0-2261'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-3963' orgid='ECOLI' frameid='BS0-3963' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-6363' orgid='ECOLI' frameid='REG0-6363'/></involved-in-regulation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication ID='ECOLI:PUB-14702398' orgid='ECOLI' frameid='PUB-14702398' detail='full'><source datatype='string'>Microbiology 150(Pt 1);61-72</source>
+<pubmed-id datatype='string'>14702398</pubmed-id>
+<title datatype='string'>GadE (YhiE): a novel activator involved in the response to acid environment in Escherichia coli.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Hommais F</author>
+<author datatype='string'>Krin E</author>
+<author datatype='string'>Coppee JY</author>
+<author datatype='string'>Lacroix C</author>
+<author datatype='string'>Yeramian E</author>
+<author datatype='string'>Danchin A</author>
+<author datatype='string'>Bertin P</author>
+</Publication>
+</evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-2261' orgid='ECOLI' frameid='TU0-2261'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Terminator ID='ECOLI:TERM061' orgid='ECOLI' frameid='TERM061' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3664935</right-end-position>
+<left-end-position datatype='integer'>3664915</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-11976288' orgid='ECOLI' frameid='PUB-11976288'/></citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45268' orgid='ECOLI' frameid='TU0-45268'/><Transcription-Unit resource='getxml?ECOLI:TU586' orgid='ECOLI' frameid='TU586'/><Transcription-Unit resource='#ECOLI:TU0-2261' orgid='ECOLI' frameid='TU0-2261'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG12243' orgid='ECOLI' frameid='EG12243'/></component>
+<component><Promoter resource='#ECOLI:PM0-2441' orgid='ECOLI' frameid='PM0-2441'/></component>
+</Transcription-Unit>
+</ptools-xml>

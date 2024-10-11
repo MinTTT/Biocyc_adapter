@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU526'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU526</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU526' orgid='ECOLI' frameid='TU526' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ilvEDA</common-name>
+<comment datatype='string'>A potential RNA G-quadruplex structure, formed by guanine-rich sequences located in the coding sequence region of the gene, was identified  for &lt;i&gt;ilvE&lt;/i&gt; . This structure  could regulate the expression of the gene, as observed for &lt;i&gt;hemL&lt;/i&gt; gene expression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31964733&quot;&gt;Shao20&lt;/a&gt;].
+</comment>
+<citation><Publication ID='ECOLI:PUB-2642900' orgid='ECOLI' frameid='PUB-2642900' detail='full'><source datatype='string'>J Biol Chem 264(2);1224-31</source>
+<pubmed-id datatype='string'>2642900</pubmed-id>
+<title datatype='string'>Overlapping transcription and termination of the convergent ilvA and ilvY genes of Escherichia coli.</title>
+<year datatype='integer'>1989</year>
+<author datatype='string'>Sameshima JH</author>
+<author datatype='string'>Wek RC</author>
+<author datatype='string'>Hatfield GW</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-3917997' orgid='ECOLI' frameid='PUB-3917997' detail='full'><source datatype='string'>J Bacteriol 161(1);128-32</source>
+<pubmed-id datatype='string'>3917997</pubmed-id>
+<title datatype='string'>Internal promoter in the ilvGEDA transcription unit of Escherichia coli K-12.</title>
+<year datatype='integer'>1985</year>
+<author datatype='string'>Calhoun DH</author>
+<author datatype='string'>Wallen JW</author>
+<author datatype='string'>Traub L</author>
+<author datatype='string'>Gray JE</author>
+<author datatype='string'>Kung HF</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-2985538' orgid='ECOLI' frameid='PUB-2985538' detail='full'><source datatype='string'>J Bacteriol 162(2);598-606</source>
+<pubmed-id datatype='string'>2985538</pubmed-id>
+<title datatype='string'>Physical analysis of deletion mutations in the ilvGEDA operon of Escherichia coli K-12.</title>
+<year datatype='integer'>1985</year>
+<author datatype='string'>Driver RP</author>
+<author datatype='string'>Lawther RP</author>
+</Publication>
+</evidence>
+<component><Terminator ID='ECOLI:ILVA-RHO-TERMINATOR' orgid='ECOLI' frameid='ILVA-RHO-TERMINATOR' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Dependent-Terminators' orgid='ECOLI' frameid='Rho-Dependent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3957123</right-end-position>
+<left-end-position datatype='integer'>3957062</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-2642900' orgid='ECOLI' frameid='PUB-2642900'/></citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-6651' orgid='ECOLI' frameid='TU0-6651'/><Transcription-Unit resource='#ECOLI:TU526' orgid='ECOLI' frameid='TU526'/><Transcription-Unit resource='getxml?ECOLI:TU524' orgid='ECOLI' frameid='TU524'/><Transcription-Unit resource='getxml?ECOLI:TU525' orgid='ECOLI' frameid='TU525'/></component-of>
+</Terminator>
+</component>
+<component><Terminator ID='ECOLI:TERM165' orgid='ECOLI' frameid='TERM165' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3956985</right-end-position>
+<left-end-position datatype='integer'>3956967</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-2642900' orgid='ECOLI' frameid='PUB-2642900'/></citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-6651' orgid='ECOLI' frameid='TU0-6651'/><Transcription-Unit resource='getxml?ECOLI:TU524' orgid='ECOLI' frameid='TU524'/><Transcription-Unit resource='getxml?ECOLI:TU525' orgid='ECOLI' frameid='TU525'/><Transcription-Unit resource='#ECOLI:TU526' orgid='ECOLI' frameid='TU526'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10493' orgid='ECOLI' frameid='EG10493'/></component>
+<component><Gene resource='getxml?ECOLI:EG10496' orgid='ECOLI' frameid='EG10496'/></component>
+<component><Gene resource='getxml?ECOLI:EG10497' orgid='ECOLI' frameid='EG10497'/></component>
+<component><Promoter ID='ECOLI:PM00476' orgid='ECOLI' frameid='PM00476' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>ilvEp3</common-name>
+<synonym datatype='string'>ilvEDApe</synonym>
+<synonym datatype='string'>ilvGp3</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3952388</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-2421252' orgid='ECOLI' frameid='PUB-2421252' detail='full'><source datatype='string'>Nucleic Acids Res 14(6);2763-77</source>
+<pubmed-id datatype='string'>2421252</pubmed-id>
+<title datatype='string'>Examination of the internal promoter, PE, in the ilvGMEDA operon of E. coli K-12.</title>
+<year datatype='integer'>1986</year>
+<author datatype='string'>Wek RC</author>
+<author datatype='string'>Hatfield GW</author>
+<doi-id datatype='string'>10.1093/nar/14.6.2763</doi-id>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8479900' orgid='ECOLI' frameid='PUB-8479900' detail='full'><source datatype='string'>Nucleic Acids Res 21(7);1507-16</source>
+<pubmed-id datatype='string'>8479900</pubmed-id>
+<title datatype='string'>Compilation of E. coli mRNA promoter sequences.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>Lisser S</author>
+<author datatype='string'>Margalit H</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-3917997' orgid='ECOLI' frameid='PUB-3917997'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3917997' orgid='ECOLI' frameid='PUB-3917997'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU526' orgid='ECOLI' frameid='TU526'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

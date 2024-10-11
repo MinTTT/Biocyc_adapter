@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8586'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8586</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8586' orgid='ECOLI' frameid='TU0-8586' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>yhiM</common-name>
+<comment datatype='string'>Microarray analyses have shown that the &lt;i&gt;yhiM&lt;/i&gt;  gene is activated by the transcriptional regulator GadX, but it is not known if the effect of the regulator on the operon is direct or indirect. The positive regulation of the &lt;i&gt;yhiM&lt;/i&gt; gene by GadX is positively influenced by the transcriptional regulator GadW  [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12730179&quot;&gt;Tucker03&lt;/a&gt;] .</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SINGLE-DIRECTON' orgid='ECOLI' frameid='EV-COMP-AINF-SINGLE-DIRECTON' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference that a single-gene directon is a transcription unit </common-name>
+<comment datatype='string'>Automated inference of transcription unit based on single-gene directon.  Existence of a single-gene transcription unit 
+for gene G is inferred computationally by the existence of upstream and downstream genes transcribed in the 
+opposite direction of G.</comment>
+</Evidence-Code>
+</evidence>
+<component><Promoter ID='ECOLI:PM0-36192' orgid='ECOLI' frameid='PM0-36192' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>3634725</minus-10-left>
+<common-name datatype='string'>yhiMp</common-name>
+<minus-35-right datatype='integer'>3634710</minus-35-right>
+<minus-35-left datatype='integer'>3634705</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3634743</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-18158297' orgid='ECOLI' frameid='PUB-18158297' detail='full'><source datatype='string'>Nucleic Acids Res 36(Database issue);D120-4</source>
+<pubmed-id datatype='string'>18158297</pubmed-id>
+<title datatype='string'>RegulonDB (version 6.0): gene regulation model of Escherichia coli K-12 beyond transcription, active (experimental) annotated promoters and Textpresso navigation.</title>
+<year datatype='integer'>2008</year>
+<author datatype='string'>Gama-Castro S</author>
+<author datatype='string'>Jimenez-Jacinto V</author>
+<author datatype='string'>Peralta-Gil M</author>
+<author datatype='string'>Santos-Zavaleta A</author>
+<author datatype='string'>Penaloza-Spinola MI</author>
+<author datatype='string'>Contreras-Moreira B</author>
+<author datatype='string'>Segura-Salazar J</author>
+<author datatype='string'>Muniz-Rascado L</author>
+<author datatype='string'>Martinez-Flores I</author>
+<author datatype='string'>Salgado H</author>
+<author datatype='string'>Bonavides-Martinez C</author>
+<author datatype='string'>Abreu-Goodger C</author>
+<author datatype='string'>Rodriguez-Penagos C</author>
+<author datatype='string'>Miranda-Rios J</author>
+<author datatype='string'>Morett E</author>
+<author datatype='string'>Merino E</author>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Trevino-Quintanilla L</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-26258987' orgid='ECOLI' frameid='PUB-26258987' detail='full'><source datatype='string'>Nat Commun 6;7970</source>
+<pubmed-id datatype='string'>26258987</pubmed-id>
+<title datatype='string'>Decoding genome-wide GadEWX-transcriptional regulatory networks reveals multifaceted cellular responses to acid stress in Escherichia coli.</title>
+<year datatype='integer'>2015</year>
+<author datatype='string'>Seo SW</author>
+<author datatype='string'>Kim D</author>
+<author datatype='string'>O'Brien EJ</author>
+<author datatype='string'>Szubin R</author>
+<author datatype='string'>Palsson BO</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference of promoter position</common-name>
+<comment datatype='string'>Automated inference of promoter position relative to the -10 and -35 boxes.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-18158297' orgid='ECOLI' frameid='PUB-18158297'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12869' orgid='ECOLI' frameid='REG0-12869' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG11544-MONOMER' orgid='ECOLI' frameid='EG11544-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-36192' orgid='ECOLI' frameid='PM0-36192'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10930' orgid='ECOLI' frameid='REG0-10930' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00288' orgid='ECOLI' frameid='PD00288'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-36192' orgid='ECOLI' frameid='PM0-36192'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10918' orgid='ECOLI' frameid='REG0-10918' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7852' orgid='ECOLI' frameid='CPLX0-7852'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-36192' orgid='ECOLI' frameid='PM0-36192'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>3634735</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8586' orgid='ECOLI' frameid='TU0-8586'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG12228' orgid='ECOLI' frameid='EG12228'/></component>
+</Transcription-Unit>
+</ptools-xml>

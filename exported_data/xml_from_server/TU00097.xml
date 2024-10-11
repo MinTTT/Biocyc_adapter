@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00097'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00097</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00097' orgid='ECOLI' frameid='TU00097' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>appCBA-yccB</common-name>
+<synonym datatype='string'>OP00137</synonym>
+<synonym datatype='string'>cyx-appA</synonym>
+<synonym datatype='string'>cyxAB-appA</synonym>
+<synonym datatype='string'>appCBA</synonym>
+<citation><Publication ID='ECOLI:PUB-1658595' orgid='ECOLI' frameid='PUB-1658595' detail='full'><source datatype='string'>Mol Gen Genet 229(3);341-52</source>
+<pubmed-id datatype='string'>1658595</pubmed-id>
+<title datatype='string'>A new oxygen-regulated operon in Escherichia coli comprises the genes for a putative third cytochrome oxidase and for pH 2.5 acid phosphatase (appA)</title>
+<year datatype='integer'>1991</year>
+<author datatype='string'>Dassa J</author>
+<author datatype='string'>Fsihi H</author>
+<author datatype='string'>Marck C</author>
+<author datatype='string'>Dion M</author>
+<author datatype='string'>Kieffer-Bontemps M</author>
+<author datatype='string'>Boquet PL</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8071219' orgid='ECOLI' frameid='PUB-8071219' detail='full'><source datatype='string'>J Bacteriol 176(17);5414-22</source>
+<pubmed-id datatype='string'>8071219</pubmed-id>
+<title datatype='string'>Role of the transcriptional activator AppY in regulation of the cyx appA operon of Escherichia coli by anaerobiosis, phosphate starvation, and growth phase.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Atlung T</author>
+<author datatype='string'>Brondsted L</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8071219' orgid='ECOLI' frameid='PUB-8071219'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Inferred through co-regulation</common-name>
+<comment datatype='string'>Inferred through co-regulation.  A transcription unit is inferred because a set of 
+adjacent genes that are transcribed in the same direction exhibit similar
+expression patterns under a range of environmental conditions.
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1658595' orgid='ECOLI' frameid='PUB-1658595'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' class='true'/><Publication resource='#ECOLI:PUB-1658595' orgid='ECOLI' frameid='PUB-1658595'/></evidence>
+<component><Gene resource='getxml?ECOLI:G0-10588' orgid='ECOLI' frameid='G0-10588'/></component>
+<component><Promoter ID='ECOLI:PM00138' orgid='ECOLI' frameid='PM00138' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>1037695</minus-10-left>
+<common-name datatype='string'>appCp</common-name>
+<minus-35-right datatype='integer'>1037678</minus-35-right>
+<minus-35-left datatype='integer'>1037673</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>Pcyx</synonym>
+<synonym datatype='string'>appCBAp</synonym>
+<synonym datatype='string'>cixAp</synonym>
+<synonym datatype='string'>cyx-appA</synonym>
+<synonym datatype='string'>cyxp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1037710</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-1658595' orgid='ECOLI' frameid='PUB-1658595'/></citation>
+<citation><Publication resource='#ECOLI:PUB-8071219' orgid='ECOLI' frameid='PUB-8071219'/></citation>
+<citation><Publication ID='ECOLI:PUB-9079897' orgid='ECOLI' frameid='PUB-9079897' detail='full'><source datatype='string'>J Bacteriol 179(7);2141-6</source>
+<pubmed-id datatype='string'>9079897</pubmed-id>
+<title datatype='string'>Effects of sigmaS and the transcriptional activator AppY on induction of the Escherichia coli hya and cbdAB-appA operons in response to carbon and phosphate starvation.</title>
+<year datatype='integer'>1997</year>
+<author datatype='string'>Atlung T</author>
+<author datatype='string'>Knudsen K</author>
+<author datatype='string'>Heerfordt L</author>
+<author datatype='string'>Brondsted L</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1658595' orgid='ECOLI' frameid='PUB-1658595'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12189' orgid='ECOLI' frameid='REG0-12189' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:G6789-MONOMER' orgid='ECOLI' frameid='G6789-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00138' orgid='ECOLI' frameid='PM00138'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5488' orgid='ECOLI' frameid='REG0-5488' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00967' orgid='ECOLI' frameid='PD00967'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00138' orgid='ECOLI' frameid='PM00138'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5487' orgid='ECOLI' frameid='REG0-5487' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-ARCA' orgid='ECOLI' frameid='PHOSPHO-ARCA'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00138' orgid='ECOLI' frameid='PM00138'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>1037700</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00097' orgid='ECOLI' frameid='TU00097'/></component-of>
+</Promoter>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS00279' orgid='ECOLI' frameid='BS00279' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-15187' orgid='ECOLI' frameid='REG0-15187' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00967' orgid='ECOLI' frameid='PD00967'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-46567' orgid='ECOLI' frameid='PM0-46567' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>1037690</minus-10-left>
+<common-name datatype='string'>appCp2</common-name>
+<minus-35-right datatype='integer'>1037678</minus-35-right>
+<minus-35-left datatype='integer'>1037673</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>Pcyx</synonym>
+<synonym datatype='string'>appCBAp</synonym>
+<synonym datatype='string'>cixAp</synonym>
+<synonym datatype='string'>cyx-appA</synonym>
+<synonym datatype='string'>cyxp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1037710</absolute-plus-1-pos>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/><Publication resource='#ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615'/></evidence>
+<citation><Publication resource='#ECOLI:PUB-1658595' orgid='ECOLI' frameid='PUB-1658595'/></citation>
+<citation><Publication resource='#ECOLI:PUB-8071219' orgid='ECOLI' frameid='PUB-8071219'/></citation>
+<citation><Publication resource='#ECOLI:PUB-9079897' orgid='ECOLI' frameid='PUB-9079897'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' class='true'/><Publication resource='#ECOLI:PUB-1658595' orgid='ECOLI' frameid='PUB-1658595'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-15188' orgid='ECOLI' frameid='REG0-15188' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-ARCA' orgid='ECOLI' frameid='PHOSPHO-ARCA'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46567' orgid='ECOLI' frameid='PM0-46567'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-15187' orgid='ECOLI' frameid='REG0-15187'/><Regulation ID='ECOLI:REG0-15186' orgid='ECOLI' frameid='REG0-15186' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:G6789-MONOMER' orgid='ECOLI' frameid='G6789-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46567' orgid='ECOLI' frameid='PM0-46567'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>1037700</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45265' orgid='ECOLI' frameid='TU0-45265'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-5488' orgid='ECOLI' frameid='REG0-5488'/></involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-8071219' orgid='ECOLI' frameid='PUB-8071219'/></citation>
+<citation><Publication ID='ECOLI:PUB-8626281' orgid='ECOLI' frameid='PUB-8626281' detail='full'><source datatype='string'>J Bacteriol 178(6);1556-64</source>
+<pubmed-id datatype='string'>8626281</pubmed-id>
+<title datatype='string'>Effect of growth conditions on expression of the acid phosphatase (cyx-appA) operon and the appY gene, which encodes a transcriptional activator of Escherichia coli.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Brondsted L</author>
+<author datatype='string'>Atlung T</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45265' orgid='ECOLI' frameid='TU0-45265'/><Transcription-Unit resource='#ECOLI:TU00097' orgid='ECOLI' frameid='TU00097'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11380' orgid='ECOLI' frameid='EG11380'/></component>
+<component><Gene resource='getxml?ECOLI:EG11379' orgid='ECOLI' frameid='EG11379'/></component>
+<component><Gene resource='getxml?ECOLI:EG10049' orgid='ECOLI' frameid='EG10049'/></component>
+</Transcription-Unit>
+</ptools-xml>

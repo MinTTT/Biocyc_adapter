@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42576'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42576</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42576' orgid='ECOLI' frameid='TU0-42576' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>micL</common-name>
+<synonym datatype='string'>slrA</synonym>
+<citation><Publication ID='ECOLI:PUB-25030700' orgid='ECOLI' frameid='PUB-25030700' detail='full'><source datatype='string'>Genes Dev 28(14);1620-34</source>
+<pubmed-id datatype='string'>25030700</pubmed-id>
+<title datatype='string'>MicL, a new &amp;sigma;E-dependent sRNA, combats envelope stress by repressing synthesis of Lpp, the major outer membrane lipoprotein.</title>
+<year datatype='integer'>2014</year>
+<author datatype='string'>Guo MS</author>
+<author datatype='string'>Updegrove TB</author>
+<author datatype='string'>Gogol EB</author>
+<author datatype='string'>Shabalina SA</author>
+<author datatype='string'>Gross CA</author>
+<author datatype='string'>Storz G</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-30462307' orgid='ECOLI' frameid='PUB-30462307' detail='full'><source datatype='string'>Nucleic Acids Res 47(3);1482-1492</source>
+<pubmed-id datatype='string'>30462307</pubmed-id>
+<title datatype='string'>Stem-loops direct precise processing of 3' UTR-derived small RNA MicL.</title>
+<year datatype='integer'>2019</year>
+<author datatype='string'>Updegrove TB</author>
+<author datatype='string'>Kouse AB</author>
+<author datatype='string'>Bandyra KJ</author>
+<author datatype='string'>Storz G</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-25030700' orgid='ECOLI' frameid='PUB-25030700'/></evidence>
+<component><Promoter ID='ECOLI:PM0-46327' orgid='ECOLI' frameid='PM0-46327' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>1958753</minus-10-left>
+<common-name datatype='string'>micLp1</common-name>
+<minus-35-right datatype='integer'>1958780</minus-35-right>
+<minus-35-left datatype='integer'>1958775</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOE-MONOMER' orgid='ECOLI' frameid='RPOE-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>slrAp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1958747</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred by a human based on computational evidence</common-name>
+<comment datatype='string'>Human inference.  A curator or author inferred this assertion after review of one or more possible types 
+of computational evidence such as sequence similarity, recognized motifs or consensus sequence, etc.  
+When the inference was made by a computer in an automated fashion, use EV-AINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-24722986' orgid='ECOLI' frameid='PUB-24722986' detail='full'><source datatype='string'>J Biol Chem 289(21);14829-53</source>
+<pubmed-id datatype='string'>24722986</pubmed-id>
+<title datatype='string'>Assembly of lipopolysaccharide in Escherichia coli requires the essential LapB heat shock protein.</title>
+<year datatype='integer'>2014</year>
+<author datatype='string'>Klein G</author>
+<author datatype='string'>Kobylak N</author>
+<author datatype='string'>Lindner B</author>
+<author datatype='string'>Stupak A</author>
+<author datatype='string'>Raina S</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-24722986' orgid='ECOLI' frameid='PUB-24722986'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-24722986' orgid='ECOLI' frameid='PUB-24722986'/></evidence>
+<minus-10-right datatype='integer'>1958757</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42576' orgid='ECOLI' frameid='TU0-42576'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:G0-16601' orgid='ECOLI' frameid='G0-16601'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-13240'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-13240</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-13240' orgid='ECOLI' frameid='TU0-13240' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ompN</common-name>
+<comment datatype='string'>Expression levels of both &lt;i&gt;micC&lt;/i&gt; and &lt;i&gt;ompN&lt;/i&gt; are increased in the presence of -lactam antibiotics. On the other hand, under conditions when cells were depleted of &amp;sigma;&lt;sup&gt;E&lt;/sup&gt; upon overexpression of its cognate anti-sigma RseA, the activities of both &lt;i&gt;micC&lt;/i&gt; and the &lt;i&gt;ompN-lacZ&lt;/i&gt; fusion were affected. However, the &amp;sigma;&lt;sup&gt;E&lt;/sup&gt; core promoter motif was not found, which suggests an indirect effect [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/29211019&quot;&gt;Dam17&lt;/a&gt;]. Finally, based on gene expression analysis, it was shown that H-NS could be regulating the expression of &lt;i&gt;micC&lt;/i&gt; and &lt;i&gt;ompN&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/29211019&quot;&gt;Dam17&lt;/a&gt;].
+&lt;p&gt;
+MicC sRNA could be acting together with &amp;sigma;&lt;sup&gt;E&lt;/sup&gt; to control OmpC/N levels in response to -lactam antibiotics [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/29211019&quot;&gt;Dam17&lt;/a&gt;].
+&lt;p&gt;
+The transcription of  the &lt;i&gt;ompN&lt;/i&gt; gene is induced during the first 24 h after the induction of nitrogen starvation [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/32571968&quot;&gt;Switzer20&lt;/a&gt;].
+</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><Promoter ID='ECOLI:PM0-46393' orgid='ECOLI' frameid='PM0-46393' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>1437020</minus-10-left>
+<common-name datatype='string'>ompNp</common-name>
+<minus-35-right datatype='integer'>1437053</minus-35-right>
+<minus-35-left datatype='integer'>1437048</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1437013</absolute-plus-1-pos>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/><Publication ID='ECOLI:PUB-29211019' orgid='ECOLI' frameid='PUB-29211019' detail='full'><source datatype='string'>Antibiotics (Basel) 6(4)</source>
+<pubmed-id datatype='string'>29211019</pubmed-id>
+<title datatype='string'>Dual Regulation of the Small RNA MicC and the Quiescent Porin OmpN in Response to Antibiotic Stress in Escherichia coli.</title>
+<year datatype='integer'>2017</year>
+<author datatype='string'>Dam S</author>
+<author datatype='string'>Pages JM</author>
+<author datatype='string'>Masi M</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-29211019' orgid='ECOLI' frameid='PUB-29211019'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' detail='full' class='true'><common-name datatype='string'>Inferred by curator</common-name>
+<comment datatype='string'>Inferred by curator.  An assertion was inferred by a curator from relevant
+information such as other assertions in a database.
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-29211019' orgid='ECOLI' frameid='PUB-29211019'/></evidence>
+<minus-10-right datatype='integer'>1437028</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-13240' orgid='ECOLI' frameid='TU0-13240'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:G6700' orgid='ECOLI' frameid='G6700'/></component>
+</Transcription-Unit>
+</ptools-xml>

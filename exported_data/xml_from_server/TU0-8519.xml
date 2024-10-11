@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8519'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8519</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8519' orgid='ECOLI' frameid='TU0-8519' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ryjA</common-name>
+<citation><Publication ID='ECOLI:PUB-11448770' orgid='ECOLI' frameid='PUB-11448770' detail='full'><source datatype='string'>Curr Biol 11(12);941-50</source>
+<pubmed-id datatype='string'>11448770</pubmed-id>
+<title datatype='string'>Novel small RNA-encoding genes in the intergenic regions of Escherichia coli.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Argaman L</author>
+<author datatype='string'>Hershberg R</author>
+<author datatype='string'>Vogel J</author>
+<author datatype='string'>Bejerano G</author>
+<author datatype='string'>Wagner EG</author>
+<author datatype='string'>Margalit H</author>
+<author datatype='string'>Altuvia S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SINGLE-DIRECTON' orgid='ECOLI' frameid='EV-COMP-AINF-SINGLE-DIRECTON' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference that a single-gene directon is a transcription unit </common-name>
+<comment datatype='string'>Automated inference of transcription unit based on single-gene directon.  Existence of a single-gene transcription unit 
+for gene G is inferred computationally by the existence of upstream and downstream genes transcribed in the 
+opposite direction of G.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11448770' orgid='ECOLI' frameid='PUB-11448770'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11448770' orgid='ECOLI' frameid='PUB-11448770'/></evidence>
+<component><Terminator ID='ECOLI:TERM45' orgid='ECOLI' frameid='TERM45' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>4277957</right-end-position>
+<left-end-position datatype='integer'>4277927</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-11448770' orgid='ECOLI' frameid='PUB-11448770'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8519' orgid='ECOLI' frameid='TU0-8519'/><Transcription-Unit resource='getxml?ECOLI:TU00456' orgid='ECOLI' frameid='TU00456'/></component-of>
+</Terminator>
+</component>
+<component><Promoter ID='ECOLI:PM0-9601' orgid='ECOLI' frameid='PM0-9601' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>4278073</minus-10-left>
+<common-name datatype='string'>ryjAp</common-name>
+<minus-35-right datatype='integer'>4278101</minus-35-right>
+<minus-35-left datatype='integer'>4278096</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4278066</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-11448770' orgid='ECOLI' frameid='PUB-11448770'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11448770' orgid='ECOLI' frameid='PUB-11448770'/></evidence>
+<minus-10-right datatype='integer'>4278078</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8519' orgid='ECOLI' frameid='TU0-8519'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:G0-8875' orgid='ECOLI' frameid='G0-8875'/></component>
+</Transcription-Unit>
+</ptools-xml>

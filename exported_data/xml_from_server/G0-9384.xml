@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:G0-9384'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:G0-9384</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Gene ID='ECOLI:G0-9384' orgid='ECOLI' frameid='G0-9384' detail='full'><parent><Gene resource='getxml?ECOLI:Phantom-Genes' orgid='ECOLI' frameid='Phantom-Genes' class='true'/></parent>
+<replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>sroD</common-name>
+<centisome-position datatype='float' units='CENTISOMES'>40.675537</centisome-position>
+<dblink><dblink-db>REGULONDB</dblink-db>
+<dblink-oid>sroD</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>https://regulondb.ccg.unam.mx/search/sroD</dblink-URL>
+</dblink>
+<synonym datatype='string'>p24</synonym>
+<right-end-position datatype='integer'>1888102</right-end-position>
+<left-end-position datatype='integer'>1888017</left-end-position>
+<comment datatype='string'>The 5' end of the putative small RNA SroD was mapped by RACE; the data suggest that &lt;i&gt;sroD&lt;/i&gt; is processed from the &lt;i&gt;fadD&lt;/i&gt; mRNA.  SroD overlaps the 3' region of &lt;i&gt;fadD&lt;/i&gt; and extends into the promoter and 5' UTR of the downstream &lt;i&gt;rnd&lt;/i&gt; gene.  SroD is expressed in a narrow window at the onset of stationary phase; its half life is 8 minutes [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/14602901&quot;&gt;Vogel03&lt;/a&gt;].
+&lt;p&gt;
+SroD: &lt;b&gt;s&lt;/b&gt;mall &lt;b&gt;R&lt;/b&gt;N&lt;b&gt;o&lt;/b&gt;mics RNA &lt;b&gt;D&lt;/b&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/14602901&quot;&gt;Vogel03&lt;/a&gt;]</comment>
+<citation><Publication ID='ECOLI:PUB-11553332' orgid='ECOLI' frameid='PUB-11553332' detail='full'><source datatype='string'>Curr Biol 11(17);1369-73</source>
+<pubmed-id datatype='string'>11553332</pubmed-id>
+<title datatype='string'>Computational identification of noncoding RNAs in E. coli by comparative genomics.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Rivas E</author>
+<author datatype='string'>Klein RJ</author>
+<author datatype='string'>Jones TA</author>
+<author datatype='string'>Eddy SR</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-4187' orgid='ECOLI' frameid='TU0-4187'/></component-of>
+</Gene>
+</ptools-xml>

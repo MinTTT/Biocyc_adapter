@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00481'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00481</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00481' orgid='ECOLI' frameid='TU00481' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ptsHI-crr</common-name>
+<comment datatype='string'>By making use of microarray analyses, it was concluded that FNR represses &lt;i&gt;crr&lt;/i&gt; gene expression under anaerobiosis, although it is still not known which promoter is affected by FNR. Two putative FNR-binding sites were  found: one of them is located upstream of  the &lt;i&gt;crr&lt;/i&gt;  gene and the other one is located upstream of the &lt;i&gt;ptsH&lt;/i&gt; gene, which is the first  gene of the operon [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12754220&quot;&gt;Salmon03&lt;/a&gt;]. 
+&lt;p&gt;
+Jeong et al. (2004) demonstrated experimentally that ArcA as well CRP regulate &lt;i&gt;ptsH&lt;/i&gt; expression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/15252051&quot;&gt;Jeong04&lt;/a&gt;]. However, the authors did not mention the promoter that these regulators regulate (&lt;i&gt;ptsH&lt;/i&gt; has five promoters). In addition, they did not mention the position or the effect exerted by these regulators.
+&lt;p&gt;
+Under nitrogen-rich growth conditions, the expression of the &lt;i&gt;ptsH&lt;/i&gt; gene increased in mutants for two genes that encode two terminal oxidases, &lt;i&gt;cyoA&lt;/i&gt; and &lt;i&gt;cydB&lt;/i&gt;, and in mutants for two transcriptional regulators, Fnr and Fur. However, under nitrogen-limited growth conditions, gene expression was decreased.  It is unknown if the effects of the transcriptional regulators act directly on gene expression;  also, it is unknown which of the five promoters that transcribe the gene could  be regulated by the regulators [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/21272324&quot;&gt;Kumar11&lt;/a&gt;].
+&lt;p&gt;
+The expression of the gene &lt;i&gt;ptsH&lt;/i&gt; is increased under acidic growth conditions in aerobiosis but not in microaerobiosis [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23274360&quot;&gt;Marzan13&lt;/a&gt;]. The increased expression of this gene is in agreement with the increased specific glucose consumption rate observed under acidic conditions [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23274360&quot;&gt;Marzan13&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-7852310' orgid='ECOLI' frameid='PUB-7852310' detail='full'><source datatype='string'>J Biol Chem 270(6);2489-96</source>
+<pubmed-id datatype='string'>7852310</pubmed-id>
+<title datatype='string'>Effect of the FruR regulator on transcription of the pts operon in Escherichia coli.</title>
+<year datatype='integer'>1995</year>
+<author datatype='string'>Ryu S</author>
+<author datatype='string'>Ramseier TM</author>
+<author datatype='string'>Michotey V</author>
+<author datatype='string'>Saier MH</author>
+<author datatype='string'>Garges S</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-2457575' orgid='ECOLI' frameid='PUB-2457575' detail='full'><source datatype='string'>J Bacteriol 170(9);3827-37</source>
+<pubmed-id datatype='string'>2457575</pubmed-id>
+<title datatype='string'>The ptsH, ptsI, and crr genes of the Escherichia coli phosphoenolpyruvate-dependent phosphotransferase system: a complex operon with several modes of transcription.</title>
+<year datatype='integer'>1988</year>
+<author datatype='string'>De Reuse H</author>
+<author datatype='string'>Danchin A</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-2960675' orgid='ECOLI' frameid='PUB-2960675' detail='full'><source datatype='string'>J Biol Chem 262(33);16241-53</source>
+<pubmed-id datatype='string'>2960675</pubmed-id>
+<title datatype='string'>Sugar transport by the bacterial phosphotransferase system. Molecular cloning and structural analysis of the Escherichia coli ptsH, ptsI, and crr genes.</title>
+<year datatype='integer'>1987</year>
+<author datatype='string'>Saffen DW</author>
+<author datatype='string'>Presper KA</author>
+<author datatype='string'>Doering TL</author>
+<author datatype='string'>Roseman S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2457575' orgid='ECOLI' frameid='PUB-2457575'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2457575' orgid='ECOLI' frameid='PUB-2457575'/></evidence>
+<component><Terminator ID='ECOLI:TERM0322' orgid='ECOLI' frameid='TERM0322' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>2536380</right-end-position>
+<left-end-position datatype='integer'>2536363</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-2457575' orgid='ECOLI' frameid='PUB-2457575'/></citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45232' orgid='ECOLI' frameid='TU0-45232'/><Transcription-Unit resource='getxml?ECOLI:TU00483' orgid='ECOLI' frameid='TU00483'/><Transcription-Unit resource='#ECOLI:TU00481' orgid='ECOLI' frameid='TU00481'/><Transcription-Unit resource='getxml?ECOLI:TU00479' orgid='ECOLI' frameid='TU00479'/><Transcription-Unit resource='getxml?ECOLI:TU00480' orgid='ECOLI' frameid='TU00480'/><Transcription-Unit resource='getxml?ECOLI:TU0-4786' orgid='ECOLI' frameid='TU0-4786'/><Transcription-Unit resource='getxml?ECOLI:TU0-4782' orgid='ECOLI' frameid='TU0-4782'/><Transcription-Unit resource='getxml?ECOLI:TU00482' orgid='ECOLI' frameid='TU00482'/></component-of>
+</Terminator>
+</component>
+<component><Promoter ID='ECOLI:PM00634' orgid='ECOLI' frameid='PM00634' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>ptsHp3</common-name>
+<synonym datatype='string'>ptsPx</synonym>
+<synonym datatype='string'>ptsHpx</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2533507</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-8106445' orgid='ECOLI' frameid='PUB-8106445' detail='full'><source datatype='string'>J Biol Chem 269(7);4767-72</source>
+<pubmed-id datatype='string'>8106445</pubmed-id>
+<title datatype='string'>Promoter switch in the Escherichia coli pts operon.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Ryu S</author>
+<author datatype='string'>Garges S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8106445' orgid='ECOLI' frameid='PUB-8106445'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-10909' orgid='ECOLI' frameid='REG0-10909' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00266' orgid='ECOLI' frameid='PD00266'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00634' orgid='ECOLI' frameid='PM00634'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU00481' orgid='ECOLI' frameid='TU00481'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10788' orgid='ECOLI' frameid='EG10788'/></component>
+<component><Gene resource='getxml?ECOLI:EG10789' orgid='ECOLI' frameid='EG10789'/></component>
+<component><Gene resource='getxml?ECOLI:EG10165' orgid='ECOLI' frameid='EG10165'/></component>
+</Transcription-Unit>
+</ptools-xml>

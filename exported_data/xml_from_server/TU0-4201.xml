@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-4201'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-4201</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-4201' orgid='ECOLI' frameid='TU0-4201' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>hemA-prfA-prmC</common-name>
+<comment datatype='string'>A potential RNA G-quadruplex structure, formed by guanine-rich sequences located in the coding sequence region of the gene, was identified  for &lt;i&gt;prmC&lt;/i&gt; . This structure  could regulate the expression of the gene, as observed for &lt;i&gt;hemL&lt;/i&gt; gene expression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31964733&quot;&gt;Shao20&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-2548996' orgid='ECOLI' frameid='PUB-2548996' detail='full'><source datatype='string'>J Bacteriol 171(9);4728-35</source>
+<pubmed-id datatype='string'>2548996</pubmed-id>
+<title datatype='string'>Isolation, nucleotide sequence, and preliminary characterization of the Escherichia coli K-12 hemA gene.</title>
+<year datatype='integer'>1989</year>
+<author datatype='string'>Verkamp E</author>
+<author datatype='string'>Chelm BK</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-15308332' orgid='ECOLI' frameid='PUB-15308332' detail='full'><source datatype='string'>Biochimie 86(7);431-8</source>
+<pubmed-id datatype='string'>15308332</pubmed-id>
+<title datatype='string'>Effects of two cis-acting mutations on the regulation and expression of release factor one in Escherichia coli.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Dahlgren A</author>
+<author datatype='string'>Ryden-Aulin M</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2548996' orgid='ECOLI' frameid='PUB-2548996'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG12424' orgid='ECOLI' frameid='EG12424'/></component>
+<component><Gene resource='getxml?ECOLI:EG10761' orgid='ECOLI' frameid='EG10761'/></component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-3161' orgid='ECOLI' frameid='BS0-3161' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-5831' orgid='ECOLI' frameid='REG0-5831' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7797' orgid='ECOLI' frameid='CPLX0-7797'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM00367' orgid='ECOLI' frameid='PM00367' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>1263663</minus-10-left>
+<common-name datatype='string'>hemAp1</common-name>
+<minus-35-right datatype='integer'>1263646</minus-35-right>
+<minus-35-left datatype='integer'>1263641</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1263676</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-8550494' orgid='ECOLI' frameid='PUB-8550494' detail='full'><source datatype='string'>J Bacteriol 178(3);638-46</source>
+<pubmed-id datatype='string'>8550494</pubmed-id>
+<title datatype='string'>Transcription of the glutamyl-tRNA reductase (hemA) gene in Salmonella typhimurium and Escherichia coli: role of the hemA P1 promoter and the arcA gene product.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Choi P</author>
+<author datatype='string'>Wang L</author>
+<author datatype='string'>Archer CD</author>
+<author datatype='string'>Elliott T</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-2548996' orgid='ECOLI' frameid='PUB-2548996'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2548996' orgid='ECOLI' frameid='PUB-2548996'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-5831' orgid='ECOLI' frameid='REG0-5831'/><Regulation ID='ECOLI:REG0-5830' orgid='ECOLI' frameid='REG0-5830' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-ARCA' orgid='ECOLI' frameid='PHOSPHO-ARCA'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00367' orgid='ECOLI' frameid='PM00367'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5829' orgid='ECOLI' frameid='REG0-5829' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PC00027' orgid='ECOLI' frameid='PC00027'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00367' orgid='ECOLI' frameid='PM00367'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>1263668</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4201' orgid='ECOLI' frameid='TU0-4201'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<comment datatype='string'>The FNR repressor site at hemA consist of a single consensus half-site, TTGAT.</comment>
+<citation><Publication ID='ECOLI:PUB-8071201' orgid='ECOLI' frameid='PUB-8071201' detail='full'><source datatype='string'>J Bacteriol 176(17);5270-6</source>
+<pubmed-id datatype='string'>8071201</pubmed-id>
+<title datatype='string'>Effect of heme and oxygen availability on hemA gene expression in Escherichia coli: role of the fnr, arcA, and himA gene products.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Darie S</author>
+<author datatype='string'>Gunsalus RP</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8577745' orgid='ECOLI' frameid='PUB-8577745' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 93(3);1226-31</source>
+<pubmed-id datatype='string'>8577745</pubmed-id>
+<title datatype='string'>Isolation of an oxygen-sensitive FNR protein of Escherichia coli: interaction at activator and repressor sites of FNR-controlled genes.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Melville SB</author>
+<author datatype='string'>Gunsalus RP</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-8550494' orgid='ECOLI' frameid='PUB-8550494'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8577745' orgid='ECOLI' frameid='PUB-8577745'/></evidence>
+<abs-center-pos datatype='float'>1263651.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4201' orgid='ECOLI' frameid='TU0-4201'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10427' orgid='ECOLI' frameid='EG10427'/></component>
+<component><Promoter resource='#ECOLI:PM00367' orgid='ECOLI' frameid='PM00367'/></component>
+</Transcription-Unit>
+</ptools-xml>

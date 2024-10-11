@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM0-8643'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM0-8643</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM0-8643' orgid='ECOLI' frameid='PM0-8643' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>3647988</minus-10-left>
+<common-name datatype='string'>dinQp</common-name>
+<minus-35-right datatype='integer'>3648017</minus-35-right>
+<minus-35-left datatype='integer'>3648011</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3647982</absolute-plus-1-pos>
+<comment datatype='string'>Five &lt;i&gt;dinQ&lt;/i&gt; transcripts were identified by primer extension assay [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/22829598&quot;&gt;Lima12&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-23408903' orgid='ECOLI' frameid='PUB-23408903' detail='full'><source datatype='string'>PLoS Genet 9(2);e1003260</source>
+<pubmed-id datatype='string'>23408903</pubmed-id>
+<title datatype='string'>Single Transmembrane Peptide DinQ Modulates Membrane-Dependent Activities.</title>
+<year datatype='integer'>2013</year>
+<author datatype='string'>Weel-Sneve R</author>
+<author datatype='string'>Kristiansen KI</author>
+<author datatype='string'>Odsbu I</author>
+<author datatype='string'>Dalhus B</author>
+<author datatype='string'>Booth J</author>
+<author datatype='string'>Rognes T</author>
+<author datatype='string'>Skarstad K</author>
+<author datatype='string'>Bjoras M</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-23408903' orgid='ECOLI' frameid='PUB-23408903'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11757' orgid='ECOLI' frameid='REG0-11757' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PC00010' orgid='ECOLI' frameid='PC00010'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-8643' orgid='ECOLI' frameid='PM0-8643'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6023' orgid='ECOLI' frameid='REG0-6023' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PC00010' orgid='ECOLI' frameid='PC00010'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-8643' orgid='ECOLI' frameid='PM0-8643'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>3647993</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-8263' orgid='ECOLI' frameid='TU0-8263'/></component-of>
+</Promoter>
+</ptools-xml>

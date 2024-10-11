@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-14801'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-14801</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-14801' orgid='ECOLI' frameid='TU0-14801' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rdcAB</common-name>
+<synonym datatype='string'>yjdA-yjcZ</synonym>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><Gene resource='getxml?ECOLI:G7823' orgid='ECOLI' frameid='G7823'/></component>
+<component><Gene resource='getxml?ECOLI:EG11210' orgid='ECOLI' frameid='EG11210'/></component>
+<component><Promoter ID='ECOLI:PM0-10519' orgid='ECOLI' frameid='PM0-10519' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>4327065</minus-10-left>
+<common-name datatype='string'>rdcAp1</common-name>
+<minus-35-right datatype='integer'>4327050</minus-35-right>
+<minus-35-left datatype='integer'>4327046</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:EG11355-MONOMER' orgid='ECOLI' frameid='EG11355-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>yjdAp</synonym>
+<synonym datatype='string'>yjdAp1</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4327079</absolute-plus-1-pos>
+<comment datatype='string'>The sequence of this promoter has been defined, by computational analyses, from the consensus sequence of the &amp;sigma;&lt;sup&gt;28&lt;/sup&gt; (&amp;sigma;&lt;sup&gt;F&lt;/sup&gt;)  promoters: TAAAGTTT in the -35 box and GCCGATAA in the -10 box [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16997971&quot;&gt;Yu06&lt;/a&gt;]. Thus, we assigned a putative transcription start site for this promoter based on the observation that the majority of the &amp;sigma;&lt;sup&gt;28&lt;/sup&gt; promoters, determined experimentally, present an important -10 motif (5'-CGA-3') at the positions -12 to -10 and a distance of 6 nucleotides between the transcription start site and the -10 box  [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16855242&quot;&gt;Yu06a&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16997971&quot;&gt;Yu06&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/11520622&quot;&gt;Park01&lt;/a&gt;].</comment>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/><Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-17576668' orgid='ECOLI' frameid='PUB-17576668' detail='full'><source datatype='string'>Nucleic Acids Res 35(13);4441-52</source>
+<pubmed-id datatype='string'>17576668</pubmed-id>
+<title datatype='string'>Adaptation in bacterial flagellar and motility systems: from regulon members to 'foraging'-like behavior in E. coli.</title>
+<year datatype='integer'>2007</year>
+<author datatype='string'>Zhao K</author>
+<author datatype='string'>Liu M</author>
+<author datatype='string'>Burgess RR</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-17576668' orgid='ECOLI' frameid='PUB-17576668'/></evidence>
+<minus-10-right datatype='integer'>4327072</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-14801' orgid='ECOLI' frameid='TU0-14801'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

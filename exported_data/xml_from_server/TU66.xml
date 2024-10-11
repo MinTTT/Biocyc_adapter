@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU66'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU66</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU66' orgid='ECOLI' frameid='TU66' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>phoPQ</common-name>
+<comment datatype='string'>The expression of the gene &lt;i&gt;phoP&lt;/i&gt; is increased under acidic growth conditions in either aerobiosis or microaerobiosis [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23274360&quot;&gt;Marzan13&lt;/a&gt;]. &lt;i&gt;phoP&lt;/i&gt; expression is also induced under  low-Mg&lt;sup&gt;2+&lt;/sup&gt; conditions and to a greater extent  by the antimicrobial peptide C18G, in a PhoP-dependent manner [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/27471053&quot;&gt;Yadavalli16&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-1729240' orgid='ECOLI' frameid='PUB-1729240' detail='full'><source datatype='string'>J Bacteriol 174(2);492-8</source>
+<pubmed-id datatype='string'>1729240</pubmed-id>
+<title datatype='string'>Molecular analysis of the Escherichia coli phoP-phoQ operon.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Kasahara M</author>
+<author datatype='string'>Nakata A</author>
+<author datatype='string'>Shinagawa H</author>
+</Publication>
+</citation>
+<component><DNA-Binding-Site ID='ECOLI:BS0-1902' orgid='ECOLI' frameid='BS0-1902' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-5092' orgid='ECOLI' frameid='REG0-5092' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-PHOP' orgid='ECOLI' frameid='PHOSPHO-PHOP'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM66' orgid='ECOLI' frameid='PM66' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>phoPp1</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1190483</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-10464230' orgid='ECOLI' frameid='PUB-10464230' detail='full'><source datatype='string'>J Bacteriol 181(17);5516-20</source>
+<pubmed-id datatype='string'>10464230</pubmed-id>
+<title datatype='string'>Molecular characterization of the PhoP-PhoQ two-component system in Escherichia coli K-12: identification of extracellular Mg2+-responsive promoters.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>Kato A</author>
+<author datatype='string'>Tanabe H</author>
+<author datatype='string'>Utsumi R</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-12813061' orgid='ECOLI' frameid='PUB-12813061' detail='full'><source datatype='string'>J Bacteriol 185(13);3696-702</source>
+<pubmed-id datatype='string'>12813061</pubmed-id>
+<title datatype='string'>Identification and molecular characterization of the Mg2+ stimulon of Escherichia coli.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Minagawa S</author>
+<author datatype='string'>Ogasawara H</author>
+<author datatype='string'>Kato A</author>
+<author datatype='string'>Yamamoto K</author>
+<author datatype='string'>Eguchi Y</author>
+<author datatype='string'>Oshima T</author>
+<author datatype='string'>Mori H</author>
+<author datatype='string'>Ishihama A</author>
+<author datatype='string'>Utsumi R</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-15126461' orgid='ECOLI' frameid='PUB-15126461' detail='full'><source datatype='string'>J Bacteriol 186(10);3006-14</source>
+<pubmed-id datatype='string'>15126461</pubmed-id>
+<title datatype='string'>Signal transduction cascade between EvgA/EvgS and PhoP/PhoQ two-component systems of Escherichia coli.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Eguchi Y</author>
+<author datatype='string'>Okada T</author>
+<author datatype='string'>Minagawa S</author>
+<author datatype='string'>Oshima T</author>
+<author datatype='string'>Mori H</author>
+<author datatype='string'>Yamamoto K</author>
+<author datatype='string'>Ishihama A</author>
+<author datatype='string'>Utsumi R</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12813061' orgid='ECOLI' frameid='PUB-12813061'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-5092' orgid='ECOLI' frameid='REG0-5092'/></regulated-by>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU00319' orgid='ECOLI' frameid='TU00319'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5039' orgid='ECOLI' frameid='REG0-5039' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-PHOP' orgid='ECOLI' frameid='PHOSPHO-PHOP'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM67' orgid='ECOLI' frameid='PM67' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>phoPp2</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1190508</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-10464230' orgid='ECOLI' frameid='PUB-10464230'/></citation>
+<citation><Publication resource='#ECOLI:PUB-12813061' orgid='ECOLI' frameid='PUB-12813061'/></citation>
+<citation><Publication resource='#ECOLI:PUB-15126461' orgid='ECOLI' frameid='PUB-15126461'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-12813061' orgid='ECOLI' frameid='PUB-12813061'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-5039' orgid='ECOLI' frameid='REG0-5039'/></regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU66' orgid='ECOLI' frameid='TU66'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-10464230' orgid='ECOLI' frameid='PUB-10464230'/></citation>
+<citation><Publication resource='#ECOLI:PUB-12813061' orgid='ECOLI' frameid='PUB-12813061'/></citation>
+<citation><Publication resource='#ECOLI:PUB-15126461' orgid='ECOLI' frameid='PUB-15126461'/></citation>
+<citation><Publication ID='ECOLI:PUB-15883881' orgid='ECOLI' frameid='PUB-15883881' detail='full'><source datatype='string'>J Mol Evol 60(4);462-74</source>
+<pubmed-id datatype='string'>15883881</pubmed-id>
+<title datatype='string'>Comparison of the PhoPQ regulon in Escherichia coli and Salmonella typhimurium.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Monsieurs P</author>
+<author datatype='string'>De Keersmaecker S</author>
+<author datatype='string'>Navarre WW</author>
+<author datatype='string'>Bader MW</author>
+<author datatype='string'>De Smet F</author>
+<author datatype='string'>McClelland M</author>
+<author datatype='string'>Fang FC</author>
+<author datatype='string'>De Moor B</author>
+<author datatype='string'>Vanderleyden J</author>
+<author datatype='string'>Marchal K</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10464230' orgid='ECOLI' frameid='PUB-10464230'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12813061' orgid='ECOLI' frameid='PUB-12813061'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-12813061' orgid='ECOLI' frameid='PUB-12813061'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on similarity to consensus sequences</common-name>
+<comment datatype='string'>A DNA sequence similar to previously known consensus sequences is computationally identified.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15883881' orgid='ECOLI' frameid='PUB-15883881'/></evidence>
+<abs-center-pos datatype='float'>1190516.0</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU66' orgid='ECOLI' frameid='TU66'/><Transcription-Unit resource='getxml?ECOLI:TU00319' orgid='ECOLI' frameid='TU00319'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10732' orgid='ECOLI' frameid='EG10732'/></component>
+<component><Gene resource='getxml?ECOLI:EG10731' orgid='ECOLI' frameid='EG10731'/></component>
+<component><Promoter resource='#ECOLI:PM67' orgid='ECOLI' frameid='PM67'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-4501'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-4501</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-4501' orgid='ECOLI' frameid='TU0-4501' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>cdaR</common-name>
+<synonym datatype='string'>sdaR</synonym>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-10762278' orgid='ECOLI' frameid='PUB-10762278' detail='full'><source datatype='string'>J Bacteriol 182(9);2672-4</source>
+<pubmed-id datatype='string'>10762278</pubmed-id>
+<title datatype='string'>A common regulator for the operons encoding the enzymes involved in D-galactarate, D-glucarate, and D-glycerate utilization in Escherichia coli.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Monterrubio R</author>
+<author datatype='string'>Baldoma L</author>
+<author datatype='string'>Obradors N</author>
+<author datatype='string'>Aguilar J</author>
+<author datatype='string'>Badia J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-14645248' orgid='ECOLI' frameid='PUB-14645248' detail='full'><source datatype='string'>J Biol Chem 279(7);5537-48</source>
+<pubmed-id datatype='string'>14645248</pubmed-id>
+<title datatype='string'>Phosphotransferase-mediated transport of the osmolyte 2-O-alpha-mannosyl-D-glycerate in Escherichia coli occurs by the product of the mngA (hrsA) gene and is regulated by the mngR (farR) gene product acting as repressor.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Sampaio MM</author>
+<author datatype='string'>Chevance F</author>
+<author datatype='string'>Dippel R</author>
+<author datatype='string'>Eppler T</author>
+<author datatype='string'>Schlegel A</author>
+<author datatype='string'>Boos W</author>
+<author datatype='string'>Lu YJ</author>
+<author datatype='string'>Rock CO</author>
+</Publication>
+</citation>
+<component><Gene resource='getxml?ECOLI:EG12335' orgid='ECOLI' frameid='EG12335'/></component>
+<component><Promoter ID='ECOLI:PM0-4741' orgid='ECOLI' frameid='PM0-4741' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>cdaRp</common-name>
+<synonym datatype='string'>sdaRp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>182447</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-19838305' orgid='ECOLI' frameid='PUB-19838305' detail='full'><source datatype='string'>PLoS One 4(10);e7526</source>
+<pubmed-id datatype='string'>19838305</pubmed-id>
+<title datatype='string'>Genome-wide identification of transcription start sites, promoters and transcription factor binding sites in E. coli.</title>
+<year datatype='integer'>2009</year>
+<author datatype='string'>Mendoza-Vargas A</author>
+<author datatype='string'>Olvera L</author>
+<author datatype='string'>Olvera M</author>
+<author datatype='string'>Grande R</author>
+<author datatype='string'>Vega-Alvarado L</author>
+<author datatype='string'>Taboada B</author>
+<author datatype='string'>Jimenez-Jacinto V</author>
+<author datatype='string'>Salgado H</author>
+<author datatype='string'>Juarez K</author>
+<author datatype='string'>Contreras-Moreira B</author>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+<author datatype='string'>Morett E</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' orgid='ECOLI' frameid='EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>High-throughput transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified using a high-throughput experimental modified RACE approach.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-19838305' orgid='ECOLI' frameid='PUB-19838305'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-6276' orgid='ECOLI' frameid='REG0-6276' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12335-MONOMER' orgid='ECOLI' frameid='EG12335-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-4741' orgid='ECOLI' frameid='PM0-4741'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-4501' orgid='ECOLI' frameid='TU0-4501'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

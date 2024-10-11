@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:CPLX0-8578'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:CPLX0-8578</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Protein ID='ECOLI:CPLX0-8578' orgid='ECOLI' frameid='CPLX0-8578' detail='full'><parent><Protein resource='getxml?ECOLI:Protein-Complexes' orgid='ECOLI' frameid='Protein-Complexes' class='true'/></parent>
+<appears-in-left-side-of><Reaction resource='getxml?ECOLI:RXN0-7315' orgid='ECOLI' frameid='RXN0-7315'/></appears-in-left-side-of>
+<symmetry>INVERTED-REPEAT</symmetry>
+<common-name datatype='string'>DNA-binding transcriptional repressor DgoR</common-name>
+<regulates><Regulation ID='ECOLI:REG0-13129' orgid='ECOLI' frameid='REG0-13129' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='#ECOLI:CPLX0-8578' orgid='ECOLI' frameid='CPLX0-8578'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-46406' orgid='ECOLI' frameid='PM0-46406' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>dgoRp</common-name>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3875185</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-29728462' orgid='ECOLI' frameid='PUB-29728462' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 115(21);E4796-E4805</source>
+<pubmed-id datatype='string'>29728462</pubmed-id>
+<title datatype='string'>Systematic approach for dissecting the molecular mechanisms of transcriptional regulation in bacteria.</title>
+<year datatype='integer'>2018</year>
+<author datatype='string'>Belliveau NM</author>
+<author datatype='string'>Barnes SL</author>
+<author datatype='string'>Ireland WT</author>
+<author datatype='string'>Jones DL</author>
+<author datatype='string'>Sweredoski MJ</author>
+<author datatype='string'>Moradian A</author>
+<author datatype='string'>Hess S</author>
+<author datatype='string'>Kinney JB</author>
+<author datatype='string'>Phillips R</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from direct assay</common-name>
+<comment datatype='string'>IDA inferred from direct assay.
+
+&lt;br&gt;
+The assertion was inferred from a direct experimental assay such as
+&lt;ul&gt;
+    &lt;li&gt; Enzyme assays
+    &lt;li&gt; In vitro reconstitution (e.g. transcription)
+    &lt;li&gt; Immunofluorescence
+    &lt;li&gt; Cell fractionation
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-29728462' orgid='ECOLI' frameid='PUB-29728462'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference of promoter position</common-name>
+<comment datatype='string'>Automated inference of promoter position relative to the -10 and -35 boxes.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-29728462' orgid='ECOLI' frameid='PUB-29728462'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-13182' orgid='ECOLI' frameid='REG0-13182' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='#ECOLI:CPLX0-8578' orgid='ECOLI' frameid='CPLX0-8578'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46406' orgid='ECOLI' frameid='PM0-46406'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-13130' orgid='ECOLI' frameid='REG0-13130' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46406' orgid='ECOLI' frameid='PM0-46406'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-13129' orgid='ECOLI' frameid='REG0-13129'/></regulated-by>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-14018' orgid='ECOLI' frameid='TU0-14018'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-13182' orgid='ECOLI' frameid='REG0-13182'/></regulates>
+<credits><created><date datatype='date'>2021-01-11</date>
+<Person ID='ECOLI:sgama' orgid='ECOLI' frameid='sgama' detail='full'><affiliations><Organization ID='ECOLI:O0-9' orgid='ECOLI' frameid='O0-9' detail='full'><abbrev-name datatype='string'>UNAM</abbrev-name>
+<common-name datatype='string'>Centro de Ciencias Genomicas, Universidad Nacional Autonoma de Mexico</common-name>
+</Organization>
+</affiliations>
+<common-name datatype='string'>Socorro Gama-Castro</common-name>
+<comment datatype='string'>From UNAM.</comment>
+</Person>
+<Organization resource='#ECOLI:O0-9' orgid='ECOLI' frameid='O0-9'/></created>
+</credits>
+<comment datatype='string'>DgoR belongs to the FadR subfamily within the GntR family of transcriptional regulators, and its DNA-binding operator sequence is [5'-TTGTA(G/C)TACA(A/T)-3'] [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/30455279&quot;&gt;Singh19&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/11756427&quot;&gt;Rigali02&lt;/a&gt;]. The signature of GntR family regulators that also bind inverted repeats is [5'-(N)yGT(N)xAC(N)y-3'] [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/26151451&quot;&gt;Suvorova15&lt;/a&gt;]. As with the the other members of the family, the oligomeric form of DgoR is a dimer [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/33068046&quot;&gt;Arya21&lt;/a&gt;].
+&lt;p&gt;
+There are three IRs (inverted repeats) in the regulation regions of the &lt;i&gt;dgo&lt;/i&gt; genes. DgoR binds the IR1 and IR2 sites in the cis-acting element for repressing the &lt;i&gt;dgoRKADT&lt;/i&gt; operon, and IR1 is essential for DgoR activity. The D7, L34, T40, R42, R46, and S51 amino acid residues are important for DgoR to bind its cis-acting element. On the other hand, the IR3 site is not critical for the interaction of DgoR with its cis-acting element [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/30455279&quot;&gt;Singh19&lt;/a&gt;].
+&lt;p&gt;
+The DgoR binding sites overlap with the promoter, repressing the transcription of the &lt;i&gt;dgoRKADT&lt;/i&gt; operon by occluding the binding of RNA polymerase [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/30455279&quot;&gt;Singh19&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/10321997&quot;&gt;Rojo99&lt;/a&gt;].
+&lt;p&gt;
+Based on a bioinformatics study, DgoR exists together with its binding sites in 13 genomes of different bacterial species, with the majority of members belonging to the family Enterobacteriaceae [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/26151451&quot;&gt;Suvorova15&lt;/a&gt;].
+&lt;p&gt;
+Production of the enzymes involved in D-galactonate degradation are induced by growth on galactonate [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/324806&quot;&gt;Deacon77&lt;/a&gt;]. The inducer is most likely D-galactonate itself; thus, DgoR may bind D-galactonate [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/211976&quot;&gt;Cooper78&lt;/a&gt;].
+&lt;p&gt;
+D-galactonate is a specific effector of DgoR; it induces a conformational change in DgoR to derepress thedgoRKADToperon [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/30455279&quot;&gt;Singh19&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/33224125&quot;&gt;Lin20&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/33068046&quot;&gt;Arya21&lt;/a&gt;]. D-galactonate binds to a specific cavity in DgoR located in the C-terminal domain. The cavity contains amino acids (R102, E106, D146, H150, Q173, W181, T191, L192, H195, S221, and R224 ) that are involved in effector binding [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/33068046&quot;&gt;Arya21&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/33224125&quot;&gt;Lin20&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/33068046&quot;&gt;Arya21&lt;/a&gt;]. The amino acids that bind the effector of DgoR appear to be conserved in other members of the FadR subfamily of transcriptional regulators, and the GntR protein of B. subtilis has a similar cavity to bind its effector [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/33068046&quot;&gt;Arya21&lt;/a&gt;].The cavity also binds a divalent metal (Zn&lt;sup&gt;2+&lt;/sup&gt;, Mg&lt;sup&gt;2+&lt;/sup&gt;, or Ca&lt;sup&gt;2+&lt;/sup&gt;) that is required to bind the D-galactonate [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/33224125&quot;&gt;Lin20&lt;/a&gt;].
+&lt;p&gt;
+It appears that the &lt;i&gt;dgoR&lt;/i&gt; gene undergoes adaptive mutations when &lt;i&gt;E. coli&lt;/i&gt; invades a mammalian host [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/36153389&quot;&gt;Frazao22&lt;/a&gt;].
+&lt;p&gt;
+
+DgoR: &quot;&lt;b&gt;D&lt;/b&gt;-&lt;b&gt;g&lt;/b&gt;alact&lt;b&gt;o&lt;/b&gt;nate&quot; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/211976&quot;&gt;Cooper78&lt;/a&gt;].
+&lt;p&gt;
+Additional Citations: [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/29728462&quot;&gt;Belliveau18&lt;/a&gt;].</comment>
+<citation><Publication resource='#ECOLI:PUB-29728462' orgid='ECOLI' frameid='PUB-29728462'/></citation>
+<citation><Publication ID='ECOLI:PUB-33068046' orgid='ECOLI' frameid='PUB-33068046' detail='full'><source datatype='string'>Mol Microbiol 115(4);591-609</source>
+<pubmed-id datatype='string'>33068046</pubmed-id>
+<title datatype='string'>Molecular insights into effector binding by DgoR, a GntR/FadR family transcriptional repressor of D-galactonate metabolism in Escherichia coli.</title>
+<year datatype='integer'>2021</year>
+<author datatype='string'>Arya G</author>
+<author datatype='string'>Pal M</author>
+<author datatype='string'>Sharma M</author>
+<author datatype='string'>Singh B</author>
+<author datatype='string'>Singh S</author>
+<author datatype='string'>Agrawal V</author>
+<author datatype='string'>Chaba R</author>
+<doi-id datatype='string'>10.1111/mmi.14625</doi-id>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-FN-FROM-SEQ' orgid='ECOLI' frameid='EV-COMP-HINF-FN-FROM-SEQ' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of function from sequence</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, gene function based 
+on sequence,  profile, or structural similarity (as computed from sequence) to 
+one or more other sequences.
+</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-11756427' orgid='ECOLI' frameid='PUB-11756427' detail='full'><source datatype='string'>J Biol Chem 277(15);12507-15</source>
+<pubmed-id datatype='string'>11756427</pubmed-id>
+<title datatype='string'>Subdivision of the helix-turn-helix GntR family of bacterial regulators in the FadR, HutC, MocR, and YtrA subfamilies.</title>
+<year datatype='integer'>2002</year>
+<author datatype='string'>Rigali S</author>
+<author datatype='string'>Derouaux A</author>
+<author datatype='string'>Giannotta F</author>
+<author datatype='string'>Dusart J</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-FN-FROM-SEQ' orgid='ECOLI' frameid='EV-COMP-HINF-FN-FROM-SEQ' class='true'/><Publication ID='ECOLI:PUB-15556475' orgid='ECOLI' frameid='PUB-15556475' detail='full'><source datatype='string'>Comput Biol Chem 28(5-6);341-50</source>
+<pubmed-id datatype='string'>15556475</pubmed-id>
+<title datatype='string'>Phylogenetic distribution of DNA-binding transcription factors in bacteria and archaea.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Perez-Rueda E</author>
+<author datatype='string'>Collado-Vides J</author>
+<author datatype='string'>Segovia L</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/><Publication resource='#ECOLI:PUB-29728462' orgid='ECOLI' frameid='PUB-29728462'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IPI' orgid='ECOLI' frameid='EV-EXP-IPI' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from physical interaction</common-name>
+<comment datatype='string'>IPI inferred from physical interaction
+
+&lt;br&gt;
+The assertion was inferred from a physical interaction such as
+&lt;ul&gt;
+    &lt;li&gt; 2-hybrid interactions
+    &lt;li&gt; Co-purification
+    &lt;li&gt; Co-immunoprecipitation
+    &lt;li&gt; Ion/protein binding experiments
+&lt;/ul&gt;&lt;p class=ecocomment&gt;
+This code covers physical interactions between the gene product of
+interest and another molecule (or ion, or complex). For functions such
+as protein binding or nucleic acid binding, a binding assay is
+simultaneously IPI and IDA; IDA is preferred because the assay
+directly detects the binding. For both IPI and IGI, it would be good
+practice to qualify them with the gene/protein/ion. 
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-29728462' orgid='ECOLI' frameid='PUB-29728462'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-29728462' orgid='ECOLI' frameid='PUB-29728462'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-PART-PURIFIED-PROTEIN-NH' orgid='ECOLI' frameid='EV-EXP-IDA-PART-PURIFIED-PROTEIN-NH' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA-PART-PURIFIED-PROTEIN' orgid='ECOLI' frameid='EV-EXP-IDA-PART-PURIFIED-PROTEIN' class='true'/></parent>
+<common-name datatype='string'>Assay of protein partially-purified from its native host</common-name>
+<comment datatype='string'>Direct assay of protein partially purified from its native
+host. Protein partially purified from its
+native host, and activity measured using an in vitro assay.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-30455279' orgid='ECOLI' frameid='PUB-30455279' detail='full'><source datatype='string'>J Bacteriol 201(4)</source>
+<pubmed-id datatype='string'>30455279</pubmed-id>
+<title datatype='string'>Molecular and Functional Insights into the Regulation of d-Galactonate Metabolism by the Transcriptional Regulator DgoR in  &lt;i&gt;Escherichia coli&lt;/i&gt;.</title>
+<year datatype='integer'>2019</year>
+<author datatype='string'>Singh B</author>
+<author datatype='string'>Arya G</author>
+<author datatype='string'>Kundu N</author>
+<author datatype='string'>Sangwan A</author>
+<author datatype='string'>Nongthombam S</author>
+<author datatype='string'>Chaba R</author>
+</Publication>
+</evidence>
+<component><Protein resource='getxml?ECOLI:G7790-MONOMER' orgid='ECOLI' frameid='G7790-MONOMER'/><coefficient datatype='integer'>2</coefficient>
+</component>
+<species><Organism ID='ECOLI:ECOLI' orgid='ECOLI' frameid='ECOLI' detail='full'><parent><Organism resource='getxml?ECOLI:TAX-511145' orgid='ECOLI' frameid='TAX-511145' class='true'/></parent>
+<common-name datatype='string'>Escherichia coli</common-name>
+<pgdb-tier datatype='integer'>1</pgdb-tier>
+<pgdb-name datatype='string'>EcoCyc</pgdb-name>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+<dblink><dblink-db>GOLD</dblink-db>
+<dblink-oid>Gp0072557</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://genomesonline.org/projects?id=Gp0072557</dblink-URL>
+</dblink>
+<synonym datatype='string'>Escherichia coli K-12 substr. MG1655</synonym>
+<genome><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></genome>
+<rank>strain</rank>
+<comment datatype='string'>EcoCyc is a model-organism database for &lt;i&gt;Escherichia coli&lt;/i&gt; K-12 MG1655. For more information, see URL EcoCyc.org.
+&lt;p&gt;
+The &lt;i&gt;E. coli&lt;/i&gt; genome sequence used in EcoCyc has been updated from version 2 to version 3, GenBank accession number U00096.3, for release 20.0 of EcoCyc. Despite the involvement of EcoCyc staff in ongoing updates to the U00096 record, some annotation differences may be found between U00096 and EcoCyc, such as due to recent updates to EcoCyc.
+</comment>
+<strain-name datatype='string'>K-12 substr. MG1655</strain-name>
+<citation><Publication ID='ECOLI:PUB-34394059' orgid='ECOLI' frameid='PUB-34394059' detail='full'><source datatype='string'>Front Microbiol 12;711077</source>
+<pubmed-id datatype='string'>34394059</pubmed-id>
+<title datatype='string'>The EcoCyc Database in 2021.</title>
+<year datatype='integer'>2021</year>
+<author datatype='string'>Keseler IM</author>
+<author datatype='string'>Gama-Castro S</author>
+<author datatype='string'>Mackie A</author>
+<author datatype='string'>Billington R</author>
+<author datatype='string'>Bonavides-Martinez C</author>
+<author datatype='string'>Caspi R</author>
+<author datatype='string'>Kothari A</author>
+<author datatype='string'>Krummenacker M</author>
+<author datatype='string'>Midford PE</author>
+<author datatype='string'>Muniz-Rascado L</author>
+<author datatype='string'>Ong WK</author>
+<author datatype='string'>Paley S</author>
+<author datatype='string'>Santos-Zavaleta A</author>
+<author datatype='string'>Subhraveti P</author>
+<author datatype='string'>Tierrafria VH</author>
+<author datatype='string'>Wolfe AJ</author>
+<author datatype='string'>Collado-Vides J</author>
+<author datatype='string'>Paulsen IT</author>
+<author datatype='string'>Karp PD</author>
+<doi-id datatype='string'>10.3389/fmicb.2021.711077</doi-id>
+</Publication>
+</citation>
+<pgdb-copyright datatype='string'>Copyright SRI International 1999-2023, Marine Biological Laboratory 1998-2001, DoubleTwist Inc 1998-1999.  All Rights Reserved.</pgdb-copyright>
+<pgdb-author><Person ID='ECOLI:pkarp' orgid='ECOLI' frameid='pkarp' detail='full'><affiliations><Organization ID='ECOLI:SRI' orgid='ECOLI' frameid='SRI' detail='full'><abbrev-name datatype='string'>SRI International</abbrev-name>
+<email datatype='string'>ptools-support@ai.sri.com</email>
+<common-name datatype='string'>SRI International</common-name>
+<url datatype='string'>http://bioinformatics.ai.sri.com/</url>
+</Organization>
+</affiliations>
+<common-name datatype='string'>Peter Karp</common-name>
+<middle-name datatype='string'>D.</middle-name>
+</Person>
+</pgdb-author>
+<pgdb-author><Person ID='ECOLI:kothari' orgid='ECOLI' frameid='kothari' detail='full'><email datatype='string'>kothari@ai.sri.com</email>
+<affiliations><Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></affiliations>
+<common-name datatype='string'>Anamika Kothari</common-name>
+</Person>
+</pgdb-author>
+<pgdb-author><Person ID='ECOLI:paley' orgid='ECOLI' frameid='paley' detail='full'><affiliations><Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></affiliations>
+<common-name datatype='string'>Suzanne Paley</common-name>
+</Person>
+</pgdb-author>
+<pgdb-author><Person ID='ECOLI:kr' orgid='ECOLI' frameid='kr' detail='full'><email datatype='string'>kr@ai.sri.com</email>
+<affiliations><Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></affiliations>
+<common-name datatype='string'>Markus Krummenacker</common-name>
+</Person>
+</pgdb-author>
+<pgdb-author><Person ID='ECOLI:ipaulsen' orgid='ECOLI' frameid='ipaulsen' detail='full'><affiliations><Organization ID='ECOLI:O0-13' orgid='ECOLI' frameid='O0-13' detail='full'><common-name datatype='string'>Macquarie University</common-name>
+</Organization>
+</affiliations>
+<common-name datatype='string'>Ian Paulsen</common-name>
+</Person>
+</pgdb-author>
+<pgdb-author><Person ID='ECOLI:amackie' orgid='ECOLI' frameid='amackie' detail='full'><email datatype='string'>amanda.mackie@mq.edu.au</email>
+<affiliations><Organization resource='#ECOLI:O0-13' orgid='ECOLI' frameid='O0-13'/></affiliations>
+</Person>
+</pgdb-author>
+<pgdb-author><Person ID='ECOLI:moore' orgid='ECOLI' frameid='moore' detail='full'><email datatype='string'>lisa.moore@mq.edu.au</email>
+<affiliations><Organization resource='#ECOLI:O0-13' orgid='ECOLI' frameid='O0-13'/><Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></affiliations>
+</Person>
+</pgdb-author>
+<pgdb-author><Person ID='ECOLI:collado' orgid='ECOLI' frameid='collado' detail='full'><email datatype='string'>collado@ccg.unam.mx</email>
+<affiliations><Organization resource='#ECOLI:O0-9' orgid='ECOLI' frameid='O0-9'/></affiliations>
+</Person>
+</pgdb-author>
+<pgdb-author><Person ID='ECOLI:cesar' orgid='ECOLI' frameid='cesar' detail='full'><email datatype='string'>cbona18@ccg.unam.mx</email>
+<affiliations><Organization resource='#ECOLI:O0-9' orgid='ECOLI' frameid='O0-9'/></affiliations>
+</Person>
+</pgdb-author>
+<pgdb-author><Person resource='#ECOLI:sgama' orgid='ECOLI' frameid='sgama'/></pgdb-author>
+<pgdb-author><Person ID='ECOLI:santos-zavaleta' orgid='ECOLI' frameid='santos-zavaleta' detail='full'><affiliations><Organization resource='#ECOLI:O0-9' orgid='ECOLI' frameid='O0-9'/></affiliations>
+<common-name datatype='string'>Alberto Santos-Zavaleta</common-name>
+</Person>
+</pgdb-author>
+<pgdb-author><Person ID='ECOLI:tierrafria' orgid='ECOLI' frameid='tierrafria' detail='full'><email datatype='string'>vhugotp@ccg.unam.mx</email>
+<affiliations><Organization resource='#ECOLI:O0-9' orgid='ECOLI' frameid='O0-9'/></affiliations>
+<middle-name datatype='string'>H</middle-name>
+</Person>
+</pgdb-author>
+<pgdb-author><Person ID='ECOLI:figueroa' orgid='ECOLI' frameid='figueroa' detail='full'><email datatype='string'>palomalf@ccg.unam.mx</email>
+<affiliations><Organization resource='#ECOLI:O0-9' orgid='ECOLI' frameid='O0-9'/></affiliations>
+<middle-name datatype='string'>Lara</middle-name>
+</Person>
+</pgdb-author>
+<pgdb-footer-citation datatype='string'>&lt;a href=&quot;https://www.frontiersin.org/articles/10.3389/fmicb.2021.711077/full&quot;&gt;Frontiers in Microbiology 2021&lt;/a&gt;</pgdb-footer-citation>
+</Organism>
+</species>
+<component-of><Protein resource='getxml?ECOLI:CPLX0-8287' orgid='ECOLI' frameid='CPLX0-8287'/></component-of>
+</Protein>
+</ptools-xml>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42518'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42518</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42518' orgid='ECOLI' frameid='TU0-42518' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rhoL</common-name>
+<citation><Publication ID='ECOLI:PUB-6219230' orgid='ECOLI' frameid='PUB-6219230' detail='full'><source datatype='string'>J Mol Biol 162(2);283-98</source>
+<pubmed-id datatype='string'>6219230</pubmed-id>
+<title datatype='string'>Localization and regulation of the structural gene for transcription-termination factor rho of Escherichia coli.</title>
+<year datatype='integer'>1982</year>
+<author datatype='string'>Brown S</author>
+<author datatype='string'>Albrechtsen B</author>
+<author datatype='string'>Pedersen S</author>
+<author datatype='string'>Klemm P</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-2423505' orgid='ECOLI' frameid='PUB-2423505' detail='full'><source datatype='string'>J Bacteriol 166(3);945-58</source>
+<pubmed-id datatype='string'>2423505</pubmed-id>
+<title datatype='string'>Autogenous regulation of the gene for transcription termination factor rho in Escherichia coli: localization and function of its attenuators.</title>
+<year datatype='integer'>1986</year>
+<author datatype='string'>Matsumoto Y</author>
+<author datatype='string'>Shigesada K</author>
+<author datatype='string'>Hirano M</author>
+<author datatype='string'>Imai M</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6219230' orgid='ECOLI' frameid='PUB-6219230'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' class='true'/><Publication resource='#ECOLI:PUB-2423505' orgid='ECOLI' frameid='PUB-2423505'/></evidence>
+<component><Terminator ID='ECOLI:TERM0-1086' orgid='ECOLI' frameid='TERM0-1086' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3966876</right-end-position>
+<left-end-position datatype='integer'>3966856</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-2423505' orgid='ECOLI' frameid='PUB-2423505'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42518' orgid='ECOLI' frameid='TU0-42518'/></component-of>
+</Terminator>
+</component>
+<component><Terminator ID='ECOLI:TERM0-1085' orgid='ECOLI' frameid='TERM0-1085' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3966740</right-end-position>
+<left-end-position datatype='integer'>3966718</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-2423505' orgid='ECOLI' frameid='PUB-2423505'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42518' orgid='ECOLI' frameid='TU0-42518'/></component-of>
+</Terminator>
+</component>
+<component><Terminator ID='ECOLI:TERM0-1084' orgid='ECOLI' frameid='TERM0-1084' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3966513</right-end-position>
+<left-end-position datatype='integer'>3966491</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-2423505' orgid='ECOLI' frameid='PUB-2423505'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42518' orgid='ECOLI' frameid='TU0-42518'/></component-of>
+</Terminator>
+</component>
+<component><Terminator ID='ECOLI:TERM0-1083' orgid='ECOLI' frameid='TERM0-1083' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Dependent-Terminators' orgid='ECOLI' frameid='Rho-Dependent-Terminators' class='true'/></parent>
+<regulated-by><Regulation ID='ECOLI:REG0-9568' orgid='ECOLI' frameid='REG0-9568' detail='low'><parent><Regulation resource='getxml?ECOLI:Protein-Mediated-Attenuation' orgid='ECOLI' frameid='Protein-Mediated-Attenuation' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG10845-MONOMER' orgid='ECOLI' frameid='EG10845-MONOMER'/></regulator>
+<regulated-entity><Terminator resource='#ECOLI:TERM0-1083' orgid='ECOLI' frameid='TERM0-1083'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<right-end-position datatype='integer'>3966359</right-end-position>
+<left-end-position datatype='integer'>3966342</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-2423505' orgid='ECOLI' frameid='PUB-2423505'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42518' orgid='ECOLI' frameid='TU0-42518'/></component-of>
+</Terminator>
+</component>
+<component><Terminator ID='ECOLI:TERM0-1082' orgid='ECOLI' frameid='TERM0-1082' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Dependent-Terminators' orgid='ECOLI' frameid='Rho-Dependent-Terminators' class='true'/></parent>
+<regulated-by><Regulation ID='ECOLI:REG0-9567' orgid='ECOLI' frameid='REG0-9567' detail='low'><parent><Regulation resource='getxml?ECOLI:Protein-Mediated-Attenuation' orgid='ECOLI' frameid='Protein-Mediated-Attenuation' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG10845-MONOMER' orgid='ECOLI' frameid='EG10845-MONOMER'/></regulator>
+<regulated-entity><Terminator resource='#ECOLI:TERM0-1082' orgid='ECOLI' frameid='TERM0-1082'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<right-end-position datatype='integer'>3966335</right-end-position>
+<left-end-position datatype='integer'>3966305</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-2423505' orgid='ECOLI' frameid='PUB-2423505'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42518' orgid='ECOLI' frameid='TU0-42518'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG12428' orgid='ECOLI' frameid='EG12428'/></component>
+<component><Promoter ID='ECOLI:PM00481' orgid='ECOLI' frameid='PM00481' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rhoLp</common-name>
+<synonym datatype='string'>rhop</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3966162</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-2423505' orgid='ECOLI' frameid='PUB-2423505'/></citation>
+<citation><Publication resource='#ECOLI:PUB-6219230' orgid='ECOLI' frameid='PUB-6219230'/></citation>
+<citation><Publication resource='#ECOLI:PUB-2423505' orgid='ECOLI' frameid='PUB-2423505'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from mutant phenotype</common-name>
+<comment datatype='string'>IMP inferred from mutant phenotype.
+
+&lt;br&gt;
+The assertion was inferred from a mutant phenotype such as
+&lt;ul&gt;
+    &lt;li&gt; Any gene mutation/knockout
+    &lt;li&gt; Overexpression/ectopic expression of wild-type or mutant genes
+    &lt;li&gt; Anti-sense experiments
+    &lt;li&gt; RNA interference experiments
+    &lt;li&gt; Specific protein inhibitors
+    &lt;li&gt; Complementation
+&lt;/ul&gt;&lt;p class=ecocomment&gt;	
+Comment: Inferences made from examining mutations or
+abnormal levels of only the product(s) of the gene of interest are covered by code EV-IMP
+(compare to code EV-IGI). Use this code for experiments that use antibodies 
+or other specific inhibitors of RNA or protein activity, even though no
+gene may be mutated (the rationale is that EV-IMP is used where an
+abnormal situation prevails in a cell or organism).
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2423505' orgid='ECOLI' frameid='PUB-2423505'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6219230' orgid='ECOLI' frameid='PUB-6219230'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42518' orgid='ECOLI' frameid='TU0-42518'/><Transcription-Unit resource='getxml?ECOLI:TU0-6941' orgid='ECOLI' frameid='TU0-6941'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

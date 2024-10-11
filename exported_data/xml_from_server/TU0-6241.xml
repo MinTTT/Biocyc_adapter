@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-6241'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-6241</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-6241' orgid='ECOLI' frameid='TU0-6241' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>tisB</common-name>
+<synonym datatype='string'>ysdAB</synonym>
+<synonym datatype='string'>tisAB</synonym>
+<comment datatype='string'>The &lt;i&gt;tisAB&lt;/i&gt; operon, which codes for toxic peptides induced by SOS, seems to be transcriptionally  regulated by LexA [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/10760155&quot;&gt;Fernandez00&lt;/a&gt;]. On the other hand,  it is regulated during translation by the  IstR-1 antisense RNA and the subsequent RNase III-dependent cleavage of both RNAs, induced by the SOS cell answer [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/15620655&quot;&gt;Vogel04&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-10760155' orgid='ECOLI' frameid='PUB-10760155' detail='full'><source datatype='string'>Mol Microbiol 35(6);1560-72</source>
+<pubmed-id datatype='string'>10760155</pubmed-id>
+<title datatype='string'>Identification of additional genes belonging to the LexA regulon in Escherichia coli.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Fernandez De Henestrosa AR</author>
+<author datatype='string'>Ogi T</author>
+<author datatype='string'>Aoyagi S</author>
+<author datatype='string'>Chafin D</author>
+<author datatype='string'>Hayes JJ</author>
+<author datatype='string'>Ohmori H</author>
+<author datatype='string'>Woodgate R</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10760155' orgid='ECOLI' frameid='PUB-10760155'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' class='true'/><Publication ID='ECOLI:PUB-15620655' orgid='ECOLI' frameid='PUB-15620655' detail='full'><source datatype='string'>Curr Biol 14(24);2271-6</source>
+<pubmed-id datatype='string'>15620655</pubmed-id>
+<title datatype='string'>The small RNA IstR inhibits synthesis of an SOS-induced toxic peptide.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Vogel J</author>
+<author datatype='string'>Argaman L</author>
+<author datatype='string'>Wagner EG</author>
+<author datatype='string'>Altuvia S</author>
+</Publication>
+</evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-9531' orgid='ECOLI' frameid='REG0-9531' detail='low'><parent><Regulation resource='getxml?ECOLI:RNA-Mediated-Translation-Regulation' orgid='ECOLI' frameid='RNA-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><RNA resource='getxml?ECOLI:RNA0-282' orgid='ECOLI' frameid='RNA0-282'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-6241' orgid='ECOLI' frameid='TU0-6241'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component><Terminator ID='ECOLI:TERM0-1099' orgid='ECOLI' frameid='TERM0-1099' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3853689</right-end-position>
+<left-end-position datatype='integer'>3853662</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-15620655' orgid='ECOLI' frameid='PUB-15620655'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-6241' orgid='ECOLI' frameid='TU0-6241'/></component-of>
+</Terminator>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-5841' orgid='ECOLI' frameid='BS0-5841' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6180' orgid='ECOLI' frameid='REG0-6180' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PC00010' orgid='ECOLI' frameid='PC00010'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-6541' orgid='ECOLI' frameid='PM0-6541' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>3853325</minus-10-left>
+<common-name datatype='string'>tisBp</common-name>
+<synonym datatype='string'>tisAB</synonym>
+<synonym datatype='string'>tisAp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3853337</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-15620655' orgid='ECOLI' frameid='PUB-15620655'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15620655' orgid='ECOLI' frameid='PUB-15620655'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15620655' orgid='ECOLI' frameid='PUB-15620655'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-6180' orgid='ECOLI' frameid='REG0-6180'/></regulated-by>
+<minus-10-right datatype='integer'>3853330</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-6241' orgid='ECOLI' frameid='TU0-6241'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' detail='full' class='true'><common-name datatype='string'>Inferred by computational analysis</common-name>
+<comment datatype='string'>Inferred from computation.  The evidence for an assertion comes from a
+computational analysis.  The assertion itself might have been made
+by a person or by a computer, that is, EV-COMP does not specify whether
+manual interpretation of the computation occurred.
+&lt;p&gt;
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15620655' orgid='ECOLI' frameid='PUB-15620655'/></evidence>
+<abs-center-pos datatype='integer'>3853309</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-6241' orgid='ECOLI' frameid='TU0-6241'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:G0-9962' orgid='ECOLI' frameid='G0-9962'/></component>
+<component><Promoter resource='#ECOLI:PM0-6541' orgid='ECOLI' frameid='PM0-6541'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM0-46350'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM0-46350</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM0-46350' orgid='ECOLI' frameid='PM0-46350' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>2741811</minus-10-left>
+<common-name datatype='string'>yfiRp</common-name>
+<minus-35-right datatype='integer'>2741793</minus-35-right>
+<minus-35-left datatype='integer'>2741788</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2741824</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred by a human based on computational evidence</common-name>
+<comment datatype='string'>Human inference.  A curator or author inferred this assertion after review of one or more possible types 
+of computational evidence such as sequence similarity, recognized motifs or consensus sequence, etc.  
+When the inference was made by a computer in an automated fashion, use EV-AINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-26078445' orgid='ECOLI' frameid='PUB-26078445' detail='full'><source datatype='string'>J Bacteriol 197(16);2713-20</source>
+<pubmed-id datatype='string'>26078445</pubmed-id>
+<title datatype='string'>YjjQ Represses Transcription of flhDC and Additional Loci in Escherichia coli.</title>
+<year datatype='integer'>2015</year>
+<author datatype='string'>Wiebe H</author>
+<author datatype='string'>Gurlebeck D</author>
+<author datatype='string'>Gross J</author>
+<author datatype='string'>Dreck K</author>
+<author datatype='string'>Pannen D</author>
+<author datatype='string'>Ewers C</author>
+<author datatype='string'>Wieler LH</author>
+<author datatype='string'>Schnetz K</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-26078445' orgid='ECOLI' frameid='PUB-26078445'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-26078445' orgid='ECOLI' frameid='PUB-26078445'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12293' orgid='ECOLI' frameid='REG0-12293' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:G7947-MONOMER' orgid='ECOLI' frameid='G7947-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46350' orgid='ECOLI' frameid='PM0-46350'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>2741816</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-13679' orgid='ECOLI' frameid='TU0-13679'/></component-of>
+</Promoter>
+</ptools-xml>

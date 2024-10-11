@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-1803'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-1803</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-1803' orgid='ECOLI' frameid='TU0-1803' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>pspF</common-name>
+<comment datatype='string'>An integrated transcriptomic study of the extracytoplasmic stress response, which detects and responds to alterations of the bacterial envelope, was performed by Bury-Mor&#xe9; et al. (2009). They investigated the interconnections and dynamics between Bae, Cpx, Psp, Rcs, and &amp;sigma;&lt;sup&gt;E&lt;/sup&gt; pathways and showed that these pathways can be activated simultaneously in response to exogenous or endogenous stimulation, while natural environmental stimuli provoke bacterial modifications that lead to multiple pathway responses [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/19763168&quot;&gt;BuryMone09&lt;/a&gt;]. 
+&lt;p&gt;
+Each of these responses might be specialized to ensure a specific aspect of envelope biogenesis and maintenance; on the other hand, CpxR could have a role as a modulator of the response by integrating other endogenous signals. Bury-Mor&#xe9; et al. concluded that all five pathways are needed to mount a full response to extracytoplasmic stress [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/19763168&quot;&gt;BuryMone09&lt;/a&gt;].
+</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SINGLE-DIRECTON' orgid='ECOLI' frameid='EV-COMP-AINF-SINGLE-DIRECTON' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference that a single-gene directon is a transcription unit </common-name>
+<comment datatype='string'>Automated inference of transcription unit based on single-gene directon.  Existence of a single-gene transcription unit 
+for gene G is inferred computationally by the existence of upstream and downstream genes transcribed in the 
+opposite direction of G.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-8606168' orgid='ECOLI' frameid='PUB-8606168' detail='full'><source datatype='string'>J Bacteriol 178(7);1936-45</source>
+<pubmed-id datatype='string'>8606168</pubmed-id>
+<title datatype='string'>Identification, nucleotide sequence, and characterization of PspF, the transcriptional activator of the Escherichia coli stress-induced psp operon.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Jovanovic G</author>
+<author datatype='string'>Weiner L</author>
+<author datatype='string'>Model P</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' class='true'/><Publication ID='ECOLI:PUB-9260970' orgid='ECOLI' frameid='PUB-9260970' detail='full'><source datatype='string'>J Bacteriol 179(16);5232-7</source>
+<pubmed-id datatype='string'>9260970</pubmed-id>
+<title datatype='string'>Autogenous control of PspF, a constitutively active enhancer-binding protein of Escherichia coli.</title>
+<year datatype='integer'>1997</year>
+<author datatype='string'>Jovanovic G</author>
+<author datatype='string'>Dworkin J</author>
+<author datatype='string'>Model P</author>
+</Publication>
+</evidence>
+<component><Terminator ID='ECOLI:PSPF' orgid='ECOLI' frameid='PSPF' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>1366913</right-end-position>
+<left-end-position datatype='integer'>1366818</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-8606168' orgid='ECOLI' frameid='PUB-8606168'/></citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-1805' orgid='ECOLI' frameid='TU0-1805'/><Transcription-Unit resource='#ECOLI:TU0-1803' orgid='ECOLI' frameid='TU0-1803'/><Transcription-Unit resource='getxml?ECOLI:TU0-1802' orgid='ECOLI' frameid='TU0-1802'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG12344' orgid='ECOLI' frameid='EG12344'/></component>
+<component><Promoter ID='ECOLI:PM0-1984' orgid='ECOLI' frameid='PM0-1984' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>1367933</minus-10-left>
+<common-name datatype='string'>pspFp2</common-name>
+<minus-35-right datatype='integer'>1367960</minus-35-right>
+<minus-35-left datatype='integer'>1367955</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1367929</absolute-plus-1-pos>
+<comment datatype='string'>Evolutionary studies have shown that none of the three promoters transcribing the gene &lt;i&gt;pspF&lt;/i&gt; reveal a conserved profile beyond enterobacteria [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/21059793&quot;&gt;Huvet11&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-8606168' orgid='ECOLI' frameid='PUB-8606168'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8606168' orgid='ECOLI' frameid='PUB-8606168'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8606168' orgid='ECOLI' frameid='PUB-8606168'/></evidence>
+<minus-10-right datatype='integer'>1367938</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-1803' orgid='ECOLI' frameid='TU0-1803'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

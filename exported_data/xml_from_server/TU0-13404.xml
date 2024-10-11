@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-13404'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-13404</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-13404' orgid='ECOLI' frameid='TU0-13404' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>nimT</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><Promoter ID='ECOLI:PM0-46339' orgid='ECOLI' frameid='PM0-46339' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>nimTp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1875657</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-25790494' orgid='ECOLI' frameid='PUB-25790494' detail='full'><source datatype='string'>FEMS Microbiol Lett 362(1);1-8</source>
+<pubmed-id datatype='string'>25790494</pubmed-id>
+<title datatype='string'>Role of transcription factor NimR (YeaM) in sensitivity control of Escherichia coli to 2-nitroimidazole.</title>
+<year datatype='integer'>2015</year>
+<author datatype='string'>Ogasawara H</author>
+<author datatype='string'>Ohe S</author>
+<author datatype='string'>Ishihama A</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-AS-NAS' orgid='ECOLI' frameid='EV-AS-NAS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-AS' orgid='ECOLI' frameid='EV-AS' class='true'/></parent>
+<common-name datatype='string'>Non-traceable author statement</common-name>
+<comment datatype='string'>Non-traceable author statement.  The assertion was made in a publication such as a review, a meeting abstract, 
+or another database without a reference to a publication describing an experiment that supports the assertion.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-25790494' orgid='ECOLI' frameid='PUB-25790494'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12221' orgid='ECOLI' frameid='REG0-12221' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:G6976-MONOMER' orgid='ECOLI' frameid='G6976-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46339' orgid='ECOLI' frameid='PM0-46339'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-12220' orgid='ECOLI' frameid='REG0-12220' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:G6976-MONOMER' orgid='ECOLI' frameid='G6976-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46339' orgid='ECOLI' frameid='PM0-46339'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-12219' orgid='ECOLI' frameid='REG0-12219' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:G6976-MONOMER' orgid='ECOLI' frameid='G6976-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46339' orgid='ECOLI' frameid='PM0-46339'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-13404' orgid='ECOLI' frameid='TU0-13404'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:G6977' orgid='ECOLI' frameid='G6977'/></component>
+</Transcription-Unit>
+</ptools-xml>

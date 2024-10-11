@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8478'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8478</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8478' orgid='ECOLI' frameid='TU0-8478' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>dosCP</common-name>
+<synonym datatype='string'>yddV-dos</synonym>
+<comment datatype='string'>The &lt;i&gt;dosCP&lt;/i&gt; operon is highly expressed at low growth temperatures and in the stationary phase, and it plays an important role in the expression of curli-encoding genes in aerobically growing cells [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/20553324&quot;&gt;Tagliabue10&lt;/a&gt;].
+&lt;p&gt;
+The products of the &lt;i&gt;dosCP&lt;/i&gt; operon, diguanylate cyclase (DGC) and c-di-GMP phosphodiesterase, heme-regulated (c-PDE), act as an oxygen sensor protein complex and regulate the transcription of the &lt;i&gt;csgBAC&lt;/i&gt; operon in response to oxygen availability [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/20553324&quot;&gt;Tagliabue10&lt;/a&gt;].
+&lt;p&gt;
+The &lt;i&gt;dosCP&lt;/i&gt; operon is the most highly expressed among &amp;sigma;&lt;sup&gt;S&lt;/sup&gt;-dependent genes encoding enzymes related to c-di-GMP metabolism [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/17010156&quot;&gt;Weber06a&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/19332833&quot;&gt;Sommerfeldt09&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-16418169' orgid='ECOLI' frameid='PUB-16418169' detail='full'><source datatype='string'>J Biol Chem 281(12);8090-9</source>
+<pubmed-id datatype='string'>16418169</pubmed-id>
+<title datatype='string'>Genome-wide transcriptional profile of Escherichia coli in response to high levels of the second messenger 3',5'-cyclic diguanylic acid.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Mendez-Ortiz MM</author>
+<author datatype='string'>Hyodo M</author>
+<author datatype='string'>Hayakawa Y</author>
+<author datatype='string'>Membrillo-Hernandez J</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-18713317' orgid='ECOLI' frameid='PUB-18713317' detail='full'><source datatype='string'>Mol Microbiol 70(1);236-57</source>
+<pubmed-id datatype='string'>18713317</pubmed-id>
+<title datatype='string'>The RNA binding protein CsrA controls cyclic di-GMP metabolism by directly regulating the expression of GGDEF proteins.</title>
+<year datatype='integer'>2008</year>
+<author datatype='string'>Jonas K</author>
+<author datatype='string'>Edwards AN</author>
+<author datatype='string'>Simm R</author>
+<author datatype='string'>Romeo T</author>
+<author datatype='string'>Romling U</author>
+<author datatype='string'>Melefors O</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-16418169' orgid='ECOLI' frameid='PUB-16418169'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Inferred through co-regulation</common-name>
+<comment datatype='string'>Inferred through co-regulation.  A transcription unit is inferred because a set of 
+adjacent genes that are transcribed in the same direction exhibit similar
+expression patterns under a range of environmental conditions.
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-18713317' orgid='ECOLI' frameid='PUB-18713317'/></evidence>
+<component><Terminator ID='ECOLI:TERM0-1161' orgid='ECOLI' frameid='TERM0-1161' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>1563301</right-end-position>
+<left-end-position datatype='integer'>1563276</left-end-position>
+<citation><Publication ID='ECOLI:PUB-9751644' orgid='ECOLI' frameid='PUB-9751644' detail='full'><source datatype='string'>Chem Biol 5(9);489-504</source>
+<pubmed-id datatype='string'>9751644</pubmed-id>
+<title datatype='string'>Homologs of the vancomycin resistance D-Ala-D-Ala dipeptidase VanX in Streptomyces toyocaensis, Escherichia coli and Synechocystis: attributes of catalytic efficiency, stereoselectivity and regulation with implications for function.</title>
+<year datatype='integer'>1998</year>
+<author datatype='string'>Lessard IA</author>
+<author datatype='string'>Pratt SD</author>
+<author datatype='string'>McCafferty DG</author>
+<author datatype='string'>Bussiere DE</author>
+<author datatype='string'>Hutchins C</author>
+<author datatype='string'>Wanner BL</author>
+<author datatype='string'>Katz L</author>
+<author datatype='string'>Walsh CT</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8478' orgid='ECOLI' frameid='TU0-8478'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:G6783' orgid='ECOLI' frameid='G6783'/></component>
+<component><Gene resource='getxml?ECOLI:G6784' orgid='ECOLI' frameid='G6784'/></component>
+</Transcription-Unit>
+</ptools-xml>

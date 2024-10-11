@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM0-46166'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM0-46166</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM0-46166' orgid='ECOLI' frameid='PM0-46166' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>sdiAp4</common-name>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1996857</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-21908661' orgid='ECOLI' frameid='PUB-21908661' detail='full'><source datatype='string'>J Bacteriol 193(22);6162-70</source>
+<pubmed-id datatype='string'>21908661</pubmed-id>
+<title datatype='string'>CsrA represses translation of sdiA, which encodes the N-acylhomoserine-L-lactone receptor of Escherichia coli, by binding exclusively within the coding region of sdiA mRNA.</title>
+<year datatype='integer'>2011</year>
+<author datatype='string'>Yakhnin H</author>
+<author datatype='string'>Baker CS</author>
+<author datatype='string'>Berezin I</author>
+<author datatype='string'>Evangelista MA</author>
+<author datatype='string'>Rassin A</author>
+<author datatype='string'>Romeo T</author>
+<author datatype='string'>Babitzke P</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-21908661' orgid='ECOLI' frameid='PUB-21908661'/></evidence>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-42467' orgid='ECOLI' frameid='TU0-42467'/></component-of>
+</Promoter>
+</ptools-xml>

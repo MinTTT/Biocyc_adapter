@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='27.0' xml:base='http://BioCyc.org/getxml?ECOLI:G0-10543'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:G0-10543</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='27.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Gene ID='ECOLI:G0-10543' orgid='ECOLI' frameid='G0-10543' detail='full'><parent><Gene resource='getxml?ECOLI:BC-8.3' orgid='ECOLI' frameid='BC-8.3' class='true'/></parent>
+<replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<product><Protein resource='getxml?ECOLI:MONOMER0-4256' orgid='ECOLI' frameid='MONOMER0-4256'/></product>
+<transcription-direction datatype='string'>-</transcription-direction>
+<centisome-position datatype='float' units='CENTISOMES'>44.573612</centisome-position>
+<common-name datatype='string'>insCD3</common-name>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-13480' orgid='ECOLI' frameid='TU0-13480'/></component-of>
+<dblink><dblink-db>REGULONDB</dblink-db>
+<dblink-oid>insCD-3</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://regulondb.ccg.unam.mx/search?term=insCD-3&amp;organism=ECK12&amp;type=All</dblink-URL>
+</dblink>
+<left-end-position datatype='integer'>2068952</left-end-position>
+<right-end-position datatype='integer'>2070180</right-end-position>
+</Gene>
+</ptools-xml>

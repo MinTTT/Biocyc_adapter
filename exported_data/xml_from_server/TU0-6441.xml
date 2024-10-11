@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-6441'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-6441</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-6441' orgid='ECOLI' frameid='TU0-6441' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>alaS</common-name>
+<comment datatype='string'>A potential RNA G-quadruplex structure, formed by guanine-rich sequences located in the coding sequence region of the gene, was identified  for &lt;i&gt;alaS&lt;/i&gt; . This structure  could regulate the expression of the gene, as observed for &lt;i&gt;hemL&lt;/i&gt; gene expression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31964733&quot;&gt;Shao20&lt;/a&gt;].
+</comment>
+<citation><Publication ID='ECOLI:PUB-6264314' orgid='ECOLI' frameid='PUB-6264314' detail='full'><source datatype='string'>Nature 291(5817);632-5</source>
+<pubmed-id datatype='string'>6264314</pubmed-id>
+<title datatype='string'>An aminoacyl tRNA synthetase binds to a specific DNA sequence and regulates its gene transcription.</title>
+<year datatype='integer'>1981</year>
+<author datatype='string'>Putney SD</author>
+<author datatype='string'>Schimmel P</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6264314' orgid='ECOLI' frameid='PUB-6264314'/></evidence>
+<component><DNA-Binding-Site ID='ECOLI:BS0-7293' orgid='ECOLI' frameid='BS0-7293' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6157' orgid='ECOLI' frameid='REG0-6157' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7541' orgid='ECOLI' frameid='CPLX0-7541'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM00424' orgid='ECOLI' frameid='PM00424' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>alaSp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2822090</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-6256345' orgid='ECOLI' frameid='PUB-6256345' detail='full'><source datatype='string'>J Biol Chem 1981;256(1);205-11</source>
+<pubmed-id datatype='string'>6256345</pubmed-id>
+<title datatype='string'>Cloning, partial sequencing, and in vitro transcription of the gene for alanine tRNA synthetase.</title>
+<year datatype='integer'>1981</year>
+<author datatype='string'>Putney SD</author>
+<author datatype='string'>Melendez DL</author>
+<author datatype='string'>Schimmel PR</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-6264314' orgid='ECOLI' frameid='PUB-6264314'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6264314' orgid='ECOLI' frameid='PUB-6264314'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-6157' orgid='ECOLI' frameid='REG0-6157'/></regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-6441' orgid='ECOLI' frameid='TU0-6441'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-6264314' orgid='ECOLI' frameid='PUB-6264314'/></citation>
+<citation><Publication ID='ECOLI:PUB-31686635' orgid='ECOLI' frameid='PUB-31686635' detail='full'><source datatype='string'>Protein Pept Lett </source>
+<pubmed-id datatype='string'>31686635</pubmed-id>
+<title datatype='string'>Biophysical characterization of interaction between E. coli alanyl-tRNA synethase with its promoter DNA.</title>
+<year datatype='integer'>2019</year>
+<author datatype='string'>Banerjee B</author>
+<author datatype='string'>Ganguli S</author>
+<author datatype='string'>Banerjee R</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6264314' orgid='ECOLI' frameid='PUB-6264314'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-31686635' orgid='ECOLI' frameid='PUB-31686635'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Site mutation</common-name>
+<comment datatype='string'>A cis-mutation in the DNA sequence of the transcription-factor binding site interferes with the operation of the regulatory function. This is considered  strong evidence for the existence and functional role of the DNA binding site.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-31686635' orgid='ECOLI' frameid='PUB-31686635'/></evidence>
+<site-length datatype='integer'>34</site-length>
+<abs-center-pos datatype='float'>2822096.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-6441' orgid='ECOLI' frameid='TU0-6441'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10034' orgid='ECOLI' frameid='EG10034'/></component>
+<component><Promoter resource='#ECOLI:PM00424' orgid='ECOLI' frameid='PM00424'/></component>
+</Transcription-Unit>
+</ptools-xml>

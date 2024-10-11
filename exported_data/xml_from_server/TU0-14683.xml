@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-14683'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-14683</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-14683' orgid='ECOLI' frameid='TU0-14683' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>creD</common-name>
+<comment datatype='string'>The expression of the gene &lt;i&gt;creD&lt;/i&gt; is increased when colicin (at 30 ng/ml) is added to the medium [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23421615&quot;&gt;Kamensek13&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-18375564' orgid='ECOLI' frameid='PUB-18375564' detail='full'><source datatype='string'>J Bacteriol 190(11);3930-9</source>
+<pubmed-id datatype='string'>18375564</pubmed-id>
+<title datatype='string'>Defining the growth conditions and promoter-proximal DNA sequences required for activation of gene expression by CreBC in Escherichia coli.</title>
+<year datatype='integer'>2008</year>
+<author datatype='string'>Cariss SJ</author>
+<author datatype='string'>Tayler AE</author>
+<author datatype='string'>Avison MB</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-18375564' orgid='ECOLI' frameid='PUB-18375564'/></evidence>
+<component><Terminator ID='ECOLI:TERM89' orgid='ECOLI' frameid='TERM89' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>4639572</right-end-position>
+<left-end-position datatype='integer'>4639538</left-end-position>
+<citation><Publication ID='ECOLI:PUB-3531171' orgid='ECOLI' frameid='PUB-3531171' detail='full'><source datatype='string'>J Bacteriol 168(1);294-302</source>
+<pubmed-id datatype='string'>3531171</pubmed-id>
+<title datatype='string'>Nucleotide sequence of the phoM region of Escherichia coli: four open reading frames may constitute an operon.</title>
+<year datatype='integer'>1986</year>
+<author datatype='string'>Amemura M</author>
+<author datatype='string'>Makino K</author>
+<author datatype='string'>Shinagawa H</author>
+<author datatype='string'>Nakata A</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-14683' orgid='ECOLI' frameid='TU0-14683'/><Transcription-Unit resource='getxml?ECOLI:TU00253' orgid='ECOLI' frameid='TU00253'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10145' orgid='ECOLI' frameid='EG10145'/></component>
+<component><Promoter ID='ECOLI:PM0-10215' orgid='ECOLI' frameid='PM0-10215' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>creDp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4638160</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-18375564' orgid='ECOLI' frameid='PUB-18375564'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-18375564' orgid='ECOLI' frameid='PUB-18375564'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-9532' orgid='ECOLI' frameid='REG0-9532' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-CREB' orgid='ECOLI' frameid='PHOSPHO-CREB'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10215' orgid='ECOLI' frameid='PM0-10215'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-14683' orgid='ECOLI' frameid='TU0-14683'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

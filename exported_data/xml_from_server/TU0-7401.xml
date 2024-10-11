@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-7401'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-7401</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-7401' orgid='ECOLI' frameid='TU0-7401' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>agp</common-name>
+<citation><Publication ID='ECOLI:PUB-2153660' orgid='ECOLI' frameid='PUB-2153660' detail='full'><source datatype='string'>J Bacteriol 1990;172(2);802-7</source>
+<pubmed-id datatype='string'>2153660</pubmed-id>
+<title datatype='string'>Nucleotide sequence and transcriptional analysis of the Escherichia coli agp gene encoding periplasmic acid glucose-1-phosphatase.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>Pradel E</author>
+<author datatype='string'>Marck C</author>
+<author datatype='string'>Boquet PL</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-2844729' orgid='ECOLI' frameid='PUB-2844729' detail='full'><source datatype='string'>J Bacteriol 170(10);4916-23</source>
+<pubmed-id datatype='string'>2844729</pubmed-id>
+<title datatype='string'>Acid phosphatases of Escherichia coli: molecular cloning and analysis of agp, the structural gene for a periplasmic acid glucose phosphatase.</title>
+<year datatype='integer'>1988</year>
+<author datatype='string'>Pradel E</author>
+<author datatype='string'>Boquet PL</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2153660' orgid='ECOLI' frameid='PUB-2153660'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-13073' orgid='ECOLI' frameid='REG0-13073' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Compound resource='getxml?ECOLI:GUANOSINE-5DP-3DP' orgid='ECOLI' frameid='GUANOSINE-5DP-3DP'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-7401' orgid='ECOLI' frameid='TU0-7401'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component><DNA-Binding-Site ID='ECOLI:BS0-6083' orgid='ECOLI' frameid='BS0-6083' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6092' orgid='ECOLI' frameid='REG0-6092' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-7741' orgid='ECOLI' frameid='PM0-7741' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>agpp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1065559</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-2153660' orgid='ECOLI' frameid='PUB-2153660'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2153660' orgid='ECOLI' frameid='PUB-2153660'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-6092' orgid='ECOLI' frameid='REG0-6092'/></regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-7401' orgid='ECOLI' frameid='TU0-7401'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<comment datatype='string'>The sequence of this binding site corresponds to a prediction that was generated using the matrices of RegulonDB [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/20923783&quot;&gt;MedinaRivera11&lt;/a&gt;]. The central position of its binding site was assigned by the curator according to the distance from the +1 position, and its function was assigned according to the mechanism of action of this regulator. The following computational evidence was assigned to the regulatory interaction: Automated inference based on similarity to consensus sequences.</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on similarity to consensus sequences</common-name>
+<comment datatype='string'>A DNA sequence similar to previously known consensus sequences is computationally identified.</comment>
+</Evidence-Code>
+</evidence>
+<site-length datatype='integer'>22</site-length>
+<abs-center-pos datatype='float'>1065326.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-7401' orgid='ECOLI' frameid='TU0-7401'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Terminator ID='ECOLI:TERM0702' orgid='ECOLI' frameid='TERM0702' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>1066857</right-end-position>
+<left-end-position datatype='integer'>1066833</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-2153660' orgid='ECOLI' frameid='PUB-2153660'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-7401' orgid='ECOLI' frameid='TU0-7401'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10033' orgid='ECOLI' frameid='EG10033'/></component>
+<component><Promoter resource='#ECOLI:PM0-7741' orgid='ECOLI' frameid='PM0-7741'/></component>
+</Transcription-Unit>
+</ptools-xml>

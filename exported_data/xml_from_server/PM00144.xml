@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM00144'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM00144</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM00144' orgid='ECOLI' frameid='PM00144' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>758566</minus-10-left>
+<common-name datatype='string'>sucAp</common-name>
+<minus-35-right datatype='integer'>758555</minus-35-right>
+<minus-35-left datatype='integer'>758550</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>Psuc</synonym>
+<synonym datatype='string'>Psucp1</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>758586</absolute-plus-1-pos>
+<comment datatype='string'>There is a single &lt;i&gt;suc&lt;/i&gt; promoter upstream of the &lt;i&gt;sucA&lt;/i&gt; gene, and  transcription continues between the &lt;i&gt;sucAB&lt;/i&gt; and &lt;i&gt;sucCD&lt;/i&gt; genes; no independent transcription of the &lt;i&gt;sucCD&lt;/i&gt; genes has been detected. 
+&lt;p&gt;
+Expression from the &lt;i&gt;suc&lt;/i&gt; promoter was partially activated by &amp;sigma;&lt;sup&gt;38&lt;/sup&gt;. 
+&lt;p&gt;
+sucAp appears to be repressed by CRP, although no CRP site has been found. The significance of this 2-fold repression is obscure.
+</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-9720032' orgid='ECOLI' frameid='PUB-9720032' detail='full'><source datatype='string'>Microbiology 144 ( Pt 8);2113-23</source>
+<pubmed-id datatype='string'>9720032</pubmed-id>
+<title datatype='string'>Transcription and transcript processing in the sdhCDAB-sucABCD operon of Escherichia coli.</title>
+<year datatype='integer'>1998</year>
+<author datatype='string'>Cunningham L</author>
+<author datatype='string'>Guest JR</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-3897791' orgid='ECOLI' frameid='PUB-3897791' detail='full'><source datatype='string'>Mol Gen Genet 200(1);145-54</source>
+<pubmed-id datatype='string'>3897791</pubmed-id>
+<title datatype='string'>Transcription analysis of the sucAB, aceEF and lpd genes of Escherichia coli.</title>
+<year datatype='integer'>1985</year>
+<author datatype='string'>Spencer ME</author>
+<author datatype='string'>Guest JR</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9720032' orgid='ECOLI' frameid='PUB-9720032'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-3897791' orgid='ECOLI' frameid='PUB-3897791'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-5865' orgid='ECOLI' frameid='REG0-5865' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PC00027' orgid='ECOLI' frameid='PC00027'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00144' orgid='ECOLI' frameid='PM00144'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5864' orgid='ECOLI' frameid='REG0-5864' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-ARCA' orgid='ECOLI' frameid='PHOSPHO-ARCA'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00144' orgid='ECOLI' frameid='PM00144'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5863' orgid='ECOLI' frameid='REG0-5863' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7797' orgid='ECOLI' frameid='CPLX0-7797'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00144' orgid='ECOLI' frameid='PM00144'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>758576</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-42509' orgid='ECOLI' frameid='TU0-42509'/><Transcription-Unit resource='getxml?ECOLI:TU00103' orgid='ECOLI' frameid='TU00103'/></component-of>
+</Promoter>
+</ptools-xml>

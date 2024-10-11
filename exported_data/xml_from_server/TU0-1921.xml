@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-1921'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-1921</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-1921' orgid='ECOLI' frameid='TU0-1921' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>gabDTP</common-name>
+<comment datatype='string'>This transcription unit is part of a complex operon that contains three promoters, two of which are internal. 
+&lt;p&gt;
+Although [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12446648&quot;&gt;Schneider02&lt;/a&gt;] et al. suggested that the &lt;i&gt;csiR&lt;/i&gt; gene is part of the &lt;i&gt;gabDTP&lt;/i&gt; operon because they saw a polar effect of an insertion in &lt;i&gt;gabT&lt;/i&gt; on &lt;i&gt;gabC&lt;/i&gt;, [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/14731280&quot;&gt;Metzner04&lt;/a&gt;] et al. saw that the presence or absence of the &lt;i&gt;gabD&lt;/i&gt; promoters did not affect the &lt;i&gt;csiR&lt;/i&gt; expression and therefore concluded that the &lt;i&gt;csiR&lt;/i&gt; gene is transcribed in another transcription unit. For this reason, this gene was not included in the operon.
+&lt;p&gt;
+The &lt;i&gt;gabDTP&lt;/i&gt; operon is induced in response to nitrogen starvation [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/30498244&quot;&gt;Knorr18&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-12446648' orgid='ECOLI' frameid='PUB-12446648' detail='full'><source datatype='string'>J Bacteriol 184(24);6976-86</source>
+<pubmed-id datatype='string'>12446648</pubmed-id>
+<title datatype='string'>The Escherichia coli gabDTPC operon: specific gamma-aminobutyrate catabolism and nonspecific induction.</title>
+<year datatype='integer'>2002</year>
+<author datatype='string'>Schneider BL</author>
+<author datatype='string'>Ruback S</author>
+<author datatype='string'>Kiupakis AK</author>
+<author datatype='string'>Kasbarian H</author>
+<author datatype='string'>Pybus C</author>
+<author datatype='string'>Reitzer L</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-14731280' orgid='ECOLI' frameid='PUB-14731280' detail='full'><source datatype='string'>Mol Microbiol 51(3);799-811</source>
+<pubmed-id datatype='string'>14731280</pubmed-id>
+<title datatype='string'>Multiple stress signal integration in the regulation of the complex sigma S-dependent csiD-ygaF-gabDTP operon in Escherichia coli.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Metzner M</author>
+<author datatype='string'>Germer J</author>
+<author datatype='string'>Hengge R</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Inferred through co-regulation</common-name>
+<comment datatype='string'>Inferred through co-regulation.  A transcription unit is inferred because a set of 
+adjacent genes that are transcribed in the same direction exhibit similar
+expression patterns under a range of environmental conditions.
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-14731280' orgid='ECOLI' frameid='PUB-14731280'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-14731280' orgid='ECOLI' frameid='PUB-14731280'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' class='true'/><Publication resource='#ECOLI:PUB-12446648' orgid='ECOLI' frameid='PUB-12446648'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' class='true'/><Publication resource='#ECOLI:PUB-12446648' orgid='ECOLI' frameid='PUB-12446648'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-13056' orgid='ECOLI' frameid='REG0-13056' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Compound resource='getxml?ECOLI:GUANOSINE-5DP-3DP' orgid='ECOLI' frameid='GUANOSINE-5DP-3DP'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-1921' orgid='ECOLI' frameid='TU0-1921'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component><DNA-Binding-Site ID='ECOLI:BS0-1621' orgid='ECOLI' frameid='BS0-1621' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-15082' orgid='ECOLI' frameid='REG0-15082' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:G7072-MONOMER' orgid='ECOLI' frameid='G7072-MONOMER'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-46538' orgid='ECOLI' frameid='PM0-46538' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>2791154</minus-10-left>
+<common-name datatype='string'>gabDp</common-name>
+<minus-35-right datatype='integer'>2791140</minus-35-right>
+<minus-35-left datatype='integer'>2791135</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2791172</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-12446648' orgid='ECOLI' frameid='PUB-12446648'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12446648' orgid='ECOLI' frameid='PUB-12446648'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12446648' orgid='ECOLI' frameid='PUB-12446648'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-15082' orgid='ECOLI' frameid='REG0-15082'/></regulated-by>
+<minus-10-right datatype='integer'>2791164</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45238' orgid='ECOLI' frameid='TU0-45238'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6406' orgid='ECOLI' frameid='REG0-6406' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:G7072-MONOMER' orgid='ECOLI' frameid='G7072-MONOMER'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-2101' orgid='ECOLI' frameid='PM0-2101' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>2791159</minus-10-left>
+<common-name datatype='string'>gabDp1</common-name>
+<minus-35-right datatype='integer'>2791140</minus-35-right>
+<minus-35-left datatype='integer'>2791135</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2791172</absolute-plus-1-pos>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/><Publication resource='#ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615'/></evidence>
+<citation><Publication resource='#ECOLI:PUB-12446648' orgid='ECOLI' frameid='PUB-12446648'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-12446648' orgid='ECOLI' frameid='PUB-12446648'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' class='true'/><Publication resource='#ECOLI:PUB-12446648' orgid='ECOLI' frameid='PUB-12446648'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-6406' orgid='ECOLI' frameid='REG0-6406'/></regulated-by>
+<minus-10-right datatype='integer'>2791164</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-1921' orgid='ECOLI' frameid='TU0-1921'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-PATTERN-DISCOVERY' orgid='ECOLI' frameid='EV-COMP-AINF-PATTERN-DISCOVERY' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on sequence pattern discovery</common-name>
+<credits><imported-from-meta><date datatype='date'>2018-03-07</date>
+<Person ID='ECOLI:paley' orgid='ECOLI' frameid='paley' detail='full'><affiliations><Organization ID='ECOLI:SRI' orgid='ECOLI' frameid='SRI' detail='full'><abbrev-name datatype='string'>SRI International</abbrev-name>
+<email datatype='string'>ptools-support@ai.sri.com</email>
+<common-name datatype='string'>SRI International</common-name>
+<url datatype='string'>http://bioinformatics.ai.sri.com/</url>
+</Organization>
+</affiliations>
+<common-name datatype='string'>Suzanne Paley</common-name>
+</Person>
+<Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A sequence found by pattern discovery using computational methods.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-28061857' orgid='ECOLI' frameid='PUB-28061857' detail='full'><source datatype='string'>BMC Syst Biol 11(1);1</source>
+<pubmed-id datatype='string'>28061857</pubmed-id>
+<title datatype='string'>Coordinated regulation of acid resistance in Escherichia coli.</title>
+<year datatype='integer'>2017</year>
+<author datatype='string'>Aquino P</author>
+<author datatype='string'>Honda B</author>
+<author datatype='string'>Jaini S</author>
+<author datatype='string'>Lyubetskaya A</author>
+<author datatype='string'>Hosur K</author>
+<author datatype='string'>Chiu JG</author>
+<author datatype='string'>Ekladious I</author>
+<author datatype='string'>Hu D</author>
+<author datatype='string'>Jin L</author>
+<author datatype='string'>Sayeg MK</author>
+<author datatype='string'>Stettner AI</author>
+<author datatype='string'>Wang J</author>
+<author datatype='string'>Wong BG</author>
+<author datatype='string'>Wong WS</author>
+<author datatype='string'>Alexander SL</author>
+<author datatype='string'>Ba C</author>
+<author datatype='string'>Bensussen SI</author>
+<author datatype='string'>Bernstein DB</author>
+<author datatype='string'>Braff D</author>
+<author datatype='string'>Cha S</author>
+<author datatype='string'>Cheng DI</author>
+<author datatype='string'>Cho JH</author>
+<author datatype='string'>Chou K</author>
+<author datatype='string'>Chuang J</author>
+<author datatype='string'>Gastler DE</author>
+<author datatype='string'>Grasso DJ</author>
+<author datatype='string'>Greifenberger JS</author>
+<author datatype='string'>Guo C</author>
+<author datatype='string'>Hawes AK</author>
+<author datatype='string'>Israni DV</author>
+<author datatype='string'>Jain SR</author>
+<author datatype='string'>Kim J</author>
+<author datatype='string'>Lei J</author>
+<author datatype='string'>Li H</author>
+<author datatype='string'>Li D</author>
+<author datatype='string'>Li Q</author>
+<author datatype='string'>Mancuso CP</author>
+<author datatype='string'>Mao N</author>
+<author datatype='string'>Masud SF</author>
+<author datatype='string'>Meisel CL</author>
+<author datatype='string'>Mi J</author>
+<author datatype='string'>Nykyforchyn CS</author>
+<author datatype='string'>Park M</author>
+<author datatype='string'>Peterson HM</author>
+<author datatype='string'>Ramirez AK</author>
+<author datatype='string'>Reynolds DS</author>
+<author datatype='string'>Rim NG</author>
+<author datatype='string'>Saffie JC</author>
+<author datatype='string'>Su H</author>
+<author datatype='string'>Su WR</author>
+<author datatype='string'>Su Y</author>
+<author datatype='string'>Sun M</author>
+<author datatype='string'>Thommes MM</author>
+<author datatype='string'>Tu T</author>
+<author datatype='string'>Varongchayakul N</author>
+<author datatype='string'>Wagner TE</author>
+<author datatype='string'>Weinberg BH</author>
+<author datatype='string'>Yang R</author>
+<author datatype='string'>Yaroslavsky A</author>
+<author datatype='string'>Yoon C</author>
+<author datatype='string'>Zhao Y</author>
+<author datatype='string'>Zollinger AJ</author>
+<author datatype='string'>Stringer AM</author>
+<author datatype='string'>Foster JW</author>
+<author datatype='string'>Wade J</author>
+<author datatype='string'>Raman S</author>
+<author datatype='string'>Broude N</author>
+<author datatype='string'>Wong WW</author>
+<author datatype='string'>Galagan JE</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-CHIP-SEQ' orgid='ECOLI' frameid='EV-EXP-CHIP-SEQ' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-HTP-HDA-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-HTP-HDA-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>High-throughput ChIP-seq evidence</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0000229</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0000229</dblink-URL>
+</dblink>
+<comment datatype='string'>A type of chromatin immunoprecipation evidence that uses high-throughput sequencing where immunoprecipitated DNA fragments are funnelled into a massively parallel sequencer to produce multiple short reads for locating binding sites of DNA-associated proteins. This evidence can be used to probe the binding of proteins, such as transcription factors or RNA polymerase, to DNA.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-28061857' orgid='ECOLI' frameid='PUB-28061857'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+</evidence>
+<abs-center-pos datatype='integer'>2791128</abs-center-pos>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45238' orgid='ECOLI' frameid='TU0-45238'/><Transcription-Unit resource='#ECOLI:TU0-1921' orgid='ECOLI' frameid='TU0-1921'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11330' orgid='ECOLI' frameid='EG11330'/></component>
+<component><Gene resource='getxml?ECOLI:EG10361' orgid='ECOLI' frameid='EG10361'/></component>
+<component><Gene resource='getxml?ECOLI:EG11329' orgid='ECOLI' frameid='EG11329'/></component>
+<component><Promoter resource='#ECOLI:PM0-2101' orgid='ECOLI' frameid='PM0-2101'/></component>
+</Transcription-Unit>
+</ptools-xml>

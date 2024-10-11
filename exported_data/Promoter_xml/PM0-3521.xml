@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM0-3521'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM0-3521</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM0-3521' orgid='ECOLI' frameid='PM0-3521' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>patAp</common-name>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>ygjGp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3219458</absolute-plus-1-pos>
+<comment datatype='string'>Besides the &amp;sigma;&lt;sup&gt;54&lt;/sup&gt;-dependent promoter that directs transcription, another &amp;sigma;&lt;sup&gt;38&lt;/sup&gt;-dependent promoter seems to activate &lt;i&gt;patA&lt;/i&gt; transcription. Both promoters initiate transcription at the same nucleotide. Apparently, there is competition between the two sigma factors to bind the promoter. Under nitrogen-limited conditions, &amp;sigma;&lt;sup&gt;54&lt;/sup&gt; appears be dominant, and &amp;sigma;&lt;sup&gt;38&lt;/sup&gt; dominates in nitrogen excess [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23531166&quot;&gt;Schneider13&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-12617754' orgid='ECOLI' frameid='PUB-12617754' detail='full'><source datatype='string'>BMC Microbiol 3(1);2</source>
+<pubmed-id datatype='string'>12617754</pubmed-id>
+<title datatype='string'>Molecular cloning and characterization of Escherichia coli K12 ygjG gene.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Samsonova NN</author>
+<author datatype='string'>Smirnov SV</author>
+<author datatype='string'>Altman IB</author>
+<author datatype='string'>Ptitsyn LR</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12617754' orgid='ECOLI' frameid='PUB-12617754'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference of promoter position</common-name>
+<comment datatype='string'>Automated inference of promoter position relative to the -10 and -35 boxes.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12617754' orgid='ECOLI' frameid='PUB-12617754'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12106' orgid='ECOLI' frameid='REG0-12106' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PROTEIN-NRIP' orgid='ECOLI' frameid='PROTEIN-NRIP'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-3521' orgid='ECOLI' frameid='PM0-3521'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6336' orgid='ECOLI' frameid='REG0-6336' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PROTEIN-NRIP' orgid='ECOLI' frameid='PROTEIN-NRIP'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-3521' orgid='ECOLI' frameid='PM0-3521'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6335' orgid='ECOLI' frameid='REG0-6335' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PROTEIN-NRIP' orgid='ECOLI' frameid='PROTEIN-NRIP'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-3521' orgid='ECOLI' frameid='PM0-3521'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6334' orgid='ECOLI' frameid='REG0-6334' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-3521' orgid='ECOLI' frameid='PM0-3521'/></regulated-entity>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6333' orgid='ECOLI' frameid='REG0-6333' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PC00027' orgid='ECOLI' frameid='PC00027'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-3521' orgid='ECOLI' frameid='PM0-3521'/></regulated-entity>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-3341' orgid='ECOLI' frameid='TU0-3341'/></component-of>
+</Promoter>
+</ptools-xml>

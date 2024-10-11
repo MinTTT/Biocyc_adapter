@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM0-9630'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM0-9630</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM0-9630' orgid='ECOLI' frameid='PM0-9630' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>1923213</minus-10-left>
+<common-name datatype='string'>sdsRp</common-name>
+<minus-35-right datatype='integer'>1923241</minus-35-right>
+<minus-35-left datatype='integer'>1923236</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>ryeBp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1923207</absolute-plus-1-pos>
+<comment datatype='string'>J. Choi et al. [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31270363&quot;&gt;Choi19&lt;/a&gt;] mapped the transcriptional start site of this promoter 1 nt downstream of the one mapped by Vogel et al. [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/14602901&quot;&gt;Vogel03&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred by a human based on computational evidence</common-name>
+<comment datatype='string'>Human inference.  A curator or author inferred this assertion after review of one or more possible types 
+of computational evidence such as sequence similarity, recognized motifs or consensus sequence, etc.  
+When the inference was made by a computer in an automated fashion, use EV-AINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-27166377' orgid='ECOLI' frameid='PUB-27166377' detail='full'><source datatype='string'>Nucleic Acids Res 44(14);6935-48</source>
+<pubmed-id datatype='string'>27166377</pubmed-id>
+<title datatype='string'>Protection against deleterious nitrogen compounds: role of &amp;sigma;S-dependent small RNAs encoded adjacent to sdiA.</title>
+<year datatype='integer'>2016</year>
+<author datatype='string'>Hao Y</author>
+<author datatype='string'>Updegrove TB</author>
+<author datatype='string'>Livingston NN</author>
+<author datatype='string'>Storz G</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-14602901' orgid='ECOLI' frameid='PUB-14602901' detail='full'><source datatype='string'>Nucleic Acids Res 31(22);6435-43</source>
+<pubmed-id datatype='string'>14602901</pubmed-id>
+<title datatype='string'>RNomics in Escherichia coli detects new sRNA species and indicates parallel transcriptional output in bacteria.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Vogel J</author>
+<author datatype='string'>Bartels V</author>
+<author datatype='string'>Tang TH</author>
+<author datatype='string'>Churakov G</author>
+<author datatype='string'>Slagter-Jager JG</author>
+<author datatype='string'>Huttenhofer A</author>
+<author datatype='string'>Wagner EG</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-31270363' orgid='ECOLI' frameid='PUB-31270363' detail='full'><source datatype='string'>Sci Rep 9(1);9627</source>
+<pubmed-id datatype='string'>31270363</pubmed-id>
+<title datatype='string'>Coordinate regulation of the expression of SdsR toxin and its downstream pphA gene by RyeA antitoxin in Escherichia coli.</title>
+<year datatype='integer'>2019</year>
+<author datatype='string'>Choi JS</author>
+<author datatype='string'>Park H</author>
+<author datatype='string'>Kim W</author>
+<author datatype='string'>Lee Y</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-14602901' orgid='ECOLI' frameid='PUB-14602901'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-27166377' orgid='ECOLI' frameid='PUB-27166377'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-31270363' orgid='ECOLI' frameid='PUB-31270363'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from mutant phenotype</common-name>
+<comment datatype='string'>IMP inferred from mutant phenotype.
+
+&lt;br&gt;
+The assertion was inferred from a mutant phenotype such as
+&lt;ul&gt;
+    &lt;li&gt; Any gene mutation/knockout
+    &lt;li&gt; Overexpression/ectopic expression of wild-type or mutant genes
+    &lt;li&gt; Anti-sense experiments
+    &lt;li&gt; RNA interference experiments
+    &lt;li&gt; Specific protein inhibitors
+    &lt;li&gt; Complementation
+&lt;/ul&gt;&lt;p class=ecocomment&gt;	
+Comment: Inferences made from examining mutations or
+abnormal levels of only the product(s) of the gene of interest are covered by code EV-IMP
+(compare to code EV-IGI). Use this code for experiments that use antibodies 
+or other specific inhibitors of RNA or protein activity, even though no
+gene may be mutated (the rationale is that EV-IMP is used where an
+abnormal situation prevails in a cell or organism).
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-31270363' orgid='ECOLI' frameid='PUB-31270363'/></evidence>
+<minus-10-right datatype='integer'>1923218</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45144' orgid='ECOLI' frameid='TU0-45144'/><Transcription-Unit resource='getxml?ECOLI:TU0-13431' orgid='ECOLI' frameid='TU0-13431'/></component-of>
+</Promoter>
+</ptools-xml>

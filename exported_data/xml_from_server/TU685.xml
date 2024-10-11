@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU685'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU685</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU685' orgid='ECOLI' frameid='TU685' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>nikR</common-name>
+<extent-unknown datatype='boolean'>true</extent-unknown>
+<component><Gene resource='getxml?ECOLI:EG11519' orgid='ECOLI' frameid='EG11519'/></component>
+<component><Promoter ID='ECOLI:PM786' orgid='ECOLI' frameid='PM786' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>nikRp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3618537</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-9882686' orgid='ECOLI' frameid='PUB-9882686' detail='full'><source datatype='string'>J Bacteriol 181(2);670-4</source>
+<pubmed-id datatype='string'>9882686</pubmed-id>
+<title datatype='string'>Isolation and characterization of the nikR gene encoding a nickel-responsive regulator in Escherichia coli.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>De Pina K</author>
+<author datatype='string'>Desjardin V</author>
+<author datatype='string'>Mandrand-Berthelot MA</author>
+<author datatype='string'>Giordano G</author>
+<author datatype='string'>Wu LF</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9882686' orgid='ECOLI' frameid='PUB-9882686'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU685' orgid='ECOLI' frameid='TU685'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

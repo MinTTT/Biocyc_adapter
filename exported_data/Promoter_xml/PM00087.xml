@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM00087'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM00087</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM00087' orgid='ECOLI' frameid='PM00087' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>4097699</minus-10-left>
+<common-name datatype='string'>rhaSp</common-name>
+<minus-35-right datatype='integer'>4097677</minus-35-right>
+<minus-35-left datatype='integer'>4097672</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>rha</synonym>
+<synonym datatype='string'>rhaSR</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4097711</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-3316663' orgid='ECOLI' frameid='PUB-3316663' detail='full'><source datatype='string'>J Mol Biol 196(4);789-99</source>
+<pubmed-id datatype='string'>3316663</pubmed-id>
+<title datatype='string'>Positive regulation of the Escherichia coli L-rhamnose operon is mediated by the products of tandemly repeated regulatory genes.</title>
+<year datatype='integer'>1987</year>
+<author datatype='string'>Tobin JF</author>
+<author datatype='string'>Schleif RF</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-1688950' orgid='ECOLI' frameid='PUB-1688950' detail='full'><source datatype='string'>J Mol Biol 211(1);1-4</source>
+<pubmed-id datatype='string'>1688950</pubmed-id>
+<title datatype='string'>Transcription from the rha operon psr promoter.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>Tobin JF</author>
+<author datatype='string'>Schleif RF</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-2405166' orgid='ECOLI' frameid='PUB-2405166' detail='full'><source datatype='string'>J Mol Biol 211(1);75-89</source>
+<pubmed-id datatype='string'>2405166</pubmed-id>
+<title datatype='string'>Purification and properties of RhaR, the positive regulator of the L-rhamnose operons of Escherichia coli.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>Tobin JF</author>
+<author datatype='string'>Schleif RF</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8230210' orgid='ECOLI' frameid='PUB-8230210' detail='full'><source datatype='string'>J Mol Biol 234(1);87-98</source>
+<pubmed-id datatype='string'>8230210</pubmed-id>
+<title datatype='string'>A regulatory cascade in the induction of rhaBAD.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>Egan SM</author>
+<author datatype='string'>Schleif RF</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8230210' orgid='ECOLI' frameid='PUB-8230210'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11469' orgid='ECOLI' frameid='REG0-11469' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00221' orgid='ECOLI' frameid='PD00221'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00087' orgid='ECOLI' frameid='PM00087'/></regulated-entity>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10576' orgid='ECOLI' frameid='REG0-10576' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX-124' orgid='ECOLI' frameid='CPLX-124'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00087' orgid='ECOLI' frameid='PM00087'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10575' orgid='ECOLI' frameid='REG0-10575' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX-124' orgid='ECOLI' frameid='CPLX-124'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00087' orgid='ECOLI' frameid='PM00087'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5511' orgid='ECOLI' frameid='REG0-5511' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:MONOMER-47' orgid='ECOLI' frameid='MONOMER-47'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00087' orgid='ECOLI' frameid='PM00087'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5510' orgid='ECOLI' frameid='REG0-5510' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:MONOMER-47' orgid='ECOLI' frameid='MONOMER-47'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00087' orgid='ECOLI' frameid='PM00087'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5509' orgid='ECOLI' frameid='REG0-5509' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00087' orgid='ECOLI' frameid='PM00087'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5508' orgid='ECOLI' frameid='REG0-5508' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00087' orgid='ECOLI' frameid='PM00087'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>4097704</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU00063' orgid='ECOLI' frameid='TU00063'/></component-of>
+</Promoter>
+</ptools-xml>

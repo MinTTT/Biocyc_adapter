@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-44219'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-44219</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-44219' orgid='ECOLI' frameid='TU0-44219' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>lpxT</common-name>
+<comment datatype='string'>The &lt;i&gt;lpxT&lt;/i&gt; transcript is more abundant and stable at low temperatures (28&lt;sup&gt; o&lt;/sup&gt; C) than at 37-42 &lt;sup&gt;o&lt;/sup&gt; C [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31299227&quot;&gt;Sciandrone19&lt;/a&gt;]. The RNase E appears to degrade the transcript at high temperatures.
+&lt;p&gt;
+In &lt;i&gt;Salmonella&lt;/i&gt;, the transcription of &lt;i&gt;lpxT&lt;/i&gt; is induced by PhoP at low Mg&lt;sup&gt;2+&lt;/sup&gt; concentrations [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/29739882&quot;&gt;Hong18&lt;/a&gt;].
+</comment>
+<citation><Publication ID='ECOLI:PUB-30536863' orgid='ECOLI' frameid='PUB-30536863' detail='full'><source datatype='string'>Microb Biotechnol 12(2);360-376</source>
+<pubmed-id datatype='string'>30536863</pubmed-id>
+<title datatype='string'>Deciphering global gene expression and regulation strategy in Escherichia coli during carbon limitation.</title>
+<year datatype='integer'>2019</year>
+<author datatype='string'>Li Z</author>
+<author datatype='string'>Pan Q</author>
+<author datatype='string'>Xiao Y</author>
+<author datatype='string'>Fang X</author>
+<author datatype='string'>Shi R</author>
+<author datatype='string'>Fu C</author>
+<author datatype='string'>Danchin A</author>
+<author datatype='string'>You C</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-30536863' orgid='ECOLI' frameid='PUB-30536863'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-31299227' orgid='ECOLI' frameid='PUB-31299227' detail='full'><source datatype='string'>Biochim Biophys Acta Gene Regul Mech 1862(8);786-795</source>
+<pubmed-id datatype='string'>31299227</pubmed-id>
+<title datatype='string'>Temperature-dependent regulation of the Escherichia coli lpxT gene.</title>
+<year datatype='integer'>2019</year>
+<author datatype='string'>Sciandrone B</author>
+<author datatype='string'>Forti F</author>
+<author datatype='string'>Perego S</author>
+<author datatype='string'>Falchi F</author>
+<author datatype='string'>Briani F</author>
+</Publication>
+</evidence>
+<component><Promoter ID='ECOLI:PM0-46441' orgid='ECOLI' frameid='PM0-46441' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>2268813</minus-10-left>
+<common-name datatype='string'>lpxTp</common-name>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2268826</absolute-plus-1-pos>
+<comment datatype='string'>The lpxTp promoter is active in exponential phase and at low temperatures, and it is inactive during stationary phase [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31299227&quot;&gt;Sciandrone19&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-30536863' orgid='ECOLI' frameid='PUB-30536863'/></evidence>
+<citation><Publication resource='#ECOLI:PUB-30536863' orgid='ECOLI' frameid='PUB-30536863'/></citation>
+<citation><Publication resource='#ECOLI:PUB-31299227' orgid='ECOLI' frameid='PUB-31299227'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-30536863' orgid='ECOLI' frameid='PUB-30536863'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-RNA-SEQ' orgid='ECOLI' frameid='EV-EXP-IEP-RNA-SEQ' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-HTP-HEP' orgid='ECOLI' frameid='EV-HTP-HEP' class='true'/></parent>
+<common-name datatype='string'>High-throughput RNA-seq evidence</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0000295</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0000295</dblink-URL>
+</dblink>
+<credits><imported-from-meta><date datatype='date'>2018-03-05</date>
+<Person ID='ECOLI:paley' orgid='ECOLI' frameid='paley' detail='full'><affiliations><Organization ID='ECOLI:SRI' orgid='ECOLI' frameid='SRI' detail='full'><abbrev-name datatype='string'>SRI International</abbrev-name>
+<email datatype='string'>ptools-support@ai.sri.com</email>
+<common-name datatype='string'>SRI International</common-name>
+<url datatype='string'>http://bioinformatics.ai.sri.com/</url>
+</Organization>
+</affiliations>
+<common-name datatype='string'>Suzanne Paley</common-name>
+</Person>
+<Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A type of transcript evidence based on high-throughput sequencing of fragmented cDNA molecules.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-30536863' orgid='ECOLI' frameid='PUB-30536863'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-31299227' orgid='ECOLI' frameid='PUB-31299227'/></evidence>
+<minus-10-right datatype='integer'>2268818</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-44219' orgid='ECOLI' frameid='TU0-44219'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:G7146' orgid='ECOLI' frameid='G7146'/></component>
+</Transcription-Unit>
+</ptools-xml>

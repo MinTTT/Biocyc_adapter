@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00206'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00206</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00206' orgid='ECOLI' frameid='TU00206' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rbsDACBZKR</common-name>
+<synonym datatype='string'>OP00289</synonym>
+<comment datatype='string'>A site for the RbsR transcriptional regulator was also identified in the &lt;i&gt;rbsDACBKR&lt;/i&gt; operon based on genomic Selex analysis [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23651393&quot;&gt;Shimada13a&lt;/a&gt;].
+&lt;p&gt;
+Disruption of the &lt;i&gt;rbsK&lt;/i&gt;, &lt;i&gt;rbsR&lt;/i&gt;, &lt;i&gt;hdfR&lt;/i&gt;, and &lt;i&gt;crl&lt;/i&gt; genes decrease resistance to high hydrostatic pressure (HHP) [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/30497599&quot;&gt;Gayan19&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-3011793' orgid='ECOLI' frameid='PUB-3011793' detail='full'><source datatype='string'>J Biol Chem 261(17);7652-8</source>
+<pubmed-id datatype='string'>3011793</pubmed-id>
+<title datatype='string'>The nucleotide sequences of the rbsD, rbsA, and rbsC genes of Escherichia coli K12.</title>
+<year datatype='integer'>1986</year>
+<author datatype='string'>Bell AW</author>
+<author datatype='string'>Buckel SD</author>
+<author datatype='string'>Groarke JM</author>
+<author datatype='string'>Hope JN</author>
+<author datatype='string'>Kingsley DH</author>
+<author datatype='string'>Hermodson MA</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-7686882' orgid='ECOLI' frameid='PUB-7686882' detail='full'><source datatype='string'>Genomics 16(3);551-61</source>
+<pubmed-id datatype='string'>7686882</pubmed-id>
+<title datatype='string'>DNA sequence and analysis of 136 kilobases of the Escherichia coli genome: organizational symmetry around the origin of replication.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>Burland V</author>
+<author datatype='string'>Plunkett G</author>
+<author datatype='string'>Daniels DL</author>
+<author datatype='string'>Blattner FR</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3011793' orgid='ECOLI' frameid='PUB-3011793'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-15928' orgid='ECOLI' frameid='REG0-15928' detail='low'><parent><Regulation resource='getxml?ECOLI:RNA-Mediated-Translation-Regulation' orgid='ECOLI' frameid='RNA-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><RNA resource='getxml?ECOLI:GCVB-RNA' orgid='ECOLI' frameid='GCVB-RNA'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU00206' orgid='ECOLI' frameid='TU00206'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-13430' orgid='ECOLI' frameid='REG0-13430' detail='low'><parent><Regulation resource='getxml?ECOLI:RNA-Mediated-Translation-Regulation' orgid='ECOLI' frameid='RNA-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><RNA resource='getxml?ECOLI:DSRA-RNA' orgid='ECOLI' frameid='DSRA-RNA'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU00206' orgid='ECOLI' frameid='TU00206'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component><Gene resource='getxml?ECOLI:G0-17077' orgid='ECOLI' frameid='G0-17077'/></component>
+<component><Gene resource='getxml?ECOLI:EG10819' orgid='ECOLI' frameid='EG10819'/></component>
+<component><DNA-Binding-Site ID='ECOLI:BS84' orgid='ECOLI' frameid='BS84' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-5370' orgid='ECOLI' frameid='REG0-5370' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM00290' orgid='ECOLI' frameid='PM00290' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>3933309</minus-10-left>
+<common-name datatype='string'>rbsDp</common-name>
+<minus-35-right datatype='integer'>3933293</minus-35-right>
+<minus-35-left datatype='integer'>3933288</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3933322</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-3011793' orgid='ECOLI' frameid='PUB-3011793'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3011793' orgid='ECOLI' frameid='PUB-3011793'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-5371' orgid='ECOLI' frameid='REG0-5371' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD03867' orgid='ECOLI' frameid='PD03867'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00290' orgid='ECOLI' frameid='PM00290'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-5370' orgid='ECOLI' frameid='REG0-5370'/></regulated-by>
+<minus-10-right datatype='integer'>3933314</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00206' orgid='ECOLI' frameid='TU00206'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-3011793' orgid='ECOLI' frameid='PUB-3011793'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on similarity to consensus sequences</common-name>
+<comment datatype='string'>A DNA sequence similar to previously known consensus sequences is computationally identified.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3011793' orgid='ECOLI' frameid='PUB-3011793'/></evidence>
+<citation><Publication ID='ECOLI:PUB-15520470' orgid='ECOLI' frameid='PUB-15520470' detail='full'><source datatype='string'>Nucleic Acids Res 32(19);5874-93</source>
+<pubmed-id datatype='string'>15520470</pubmed-id>
+<title datatype='string'>Identification of the CRP regulon using in vitro and in vivo transcriptional profiling.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Zheng D</author>
+<author datatype='string'>Constantinidou C</author>
+<author datatype='string'>Hobman JL</author>
+<author datatype='string'>Minchin SD</author>
+</Publication>
+</citation>
+<abs-center-pos datatype='float'>3933259.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00206' orgid='ECOLI' frameid='TU00206'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Promoter resource='#ECOLI:PM00290' orgid='ECOLI' frameid='PM00290'/></component>
+<component><DNA-Binding-Site ID='ECOLI:BS00493' orgid='ECOLI' frameid='BS00493' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5371' orgid='ECOLI' frameid='REG0-5371'/></involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-1304369' orgid='ECOLI' frameid='PUB-1304369' detail='full'><source datatype='string'>Protein Sci 1(7);831-42</source>
+<pubmed-id datatype='string'>1304369</pubmed-id>
+<title datatype='string'>Structural and functional analyses of the repressor, RbsR, of the ribose operon of Escherichia coli.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Mauzy CA</author>
+<author datatype='string'>Hermodson MA</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-23651393' orgid='ECOLI' frameid='PUB-23651393' detail='full'><source datatype='string'>FEMS Microbiol Lett 344(2);159-65</source>
+<pubmed-id datatype='string'>23651393</pubmed-id>
+<title datatype='string'>Involvement of the ribose operon repressor RbsR in regulation of purine nucleotide synthesis in Escherichia coli.</title>
+<year datatype='integer'>2013</year>
+<author datatype='string'>Shimada T</author>
+<author datatype='string'>Kori A</author>
+<author datatype='string'>Ishihama A</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1304369' orgid='ECOLI' frameid='PUB-1304369'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-23651393' orgid='ECOLI' frameid='PUB-23651393'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-23651393' orgid='ECOLI' frameid='PUB-23651393'/></evidence>
+<abs-center-pos datatype='float'>3933329.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00206' orgid='ECOLI' frameid='TU00206'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10817' orgid='ECOLI' frameid='EG10817'/></component>
+<component><Gene resource='getxml?ECOLI:EG10814' orgid='ECOLI' frameid='EG10814'/></component>
+<component><Gene resource='getxml?ECOLI:EG10816' orgid='ECOLI' frameid='EG10816'/></component>
+<component><Gene resource='getxml?ECOLI:EG10815' orgid='ECOLI' frameid='EG10815'/></component>
+<component><Gene resource='getxml?ECOLI:EG10818' orgid='ECOLI' frameid='EG10818'/></component>
+</Transcription-Unit>
+</ptools-xml>

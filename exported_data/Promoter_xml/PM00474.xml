@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM00474'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM00474</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM00474' orgid='ECOLI' frameid='PM00474' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>3950206</minus-10-left>
+<common-name datatype='string'>ilvLp1</common-name>
+<minus-35-right datatype='integer'>3950188</minus-35-right>
+<minus-35-left datatype='integer'>3950183</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>ilvGp1</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3950218</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-1703160' orgid='ECOLI' frameid='PUB-1703160' detail='full'><source datatype='string'>J Biol Chem 266(3);1985-96</source>
+<pubmed-id datatype='string'>1703160</pubmed-id>
+<title datatype='string'>Integration host factor-mediated expression of the ilvGMEDA operon of Escherichia coli.</title>
+<year datatype='integer'>1991</year>
+<author datatype='string'>Pagel JM</author>
+<author datatype='string'>Hatfield GW</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-2409090' orgid='ECOLI' frameid='PUB-2409090' detail='full'><source datatype='string'>J Biol Chem 260(14);8538-44</source>
+<pubmed-id datatype='string'>2409090</pubmed-id>
+<title datatype='string'>Analysis of in vivo RNA transcription products of the ilvGEDA attenuator region of Escherichia coli K12.</title>
+<year datatype='integer'>1985</year>
+<author datatype='string'>Adams CW</author>
+<author datatype='string'>Rosenberg M</author>
+<author datatype='string'>Hatfield GW</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-3550695' orgid='ECOLI' frameid='PUB-3550695' detail='full'><source datatype='string'>Nucleic Acids Res 15(5);2137-55</source>
+<pubmed-id datatype='string'>3550695</pubmed-id>
+<title datatype='string'>The complete nucleotide sequence of the ilvGMEDA operon of Escherichia coli K-12.</title>
+<year datatype='integer'>1987</year>
+<author datatype='string'>Lawther RP</author>
+<author datatype='string'>Wek RC</author>
+<author datatype='string'>Lopes JM</author>
+<author datatype='string'>Pereira R</author>
+<author datatype='string'>Taillon BE</author>
+<author datatype='string'>Hatfield GW</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3550695' orgid='ECOLI' frameid='PUB-3550695'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-4952' orgid='ECOLI' frameid='REG0-4952' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PC00027' orgid='ECOLI' frameid='PC00027'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00474' orgid='ECOLI' frameid='PM00474'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4951' orgid='ECOLI' frameid='REG0-4951' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PC00027' orgid='ECOLI' frameid='PC00027'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00474' orgid='ECOLI' frameid='PM00474'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>3950211</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-42516' orgid='ECOLI' frameid='TU0-42516'/><Transcription-Unit resource='getxml?ECOLI:TU524' orgid='ECOLI' frameid='TU524'/></component-of>
+</Promoter>
+</ptools-xml>

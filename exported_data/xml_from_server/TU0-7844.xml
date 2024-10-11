@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-7844'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-7844</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-7844' orgid='ECOLI' frameid='TU0-7844' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rpsT</common-name>
+<citation><Publication ID='ECOLI:PUB-1370457' orgid='ECOLI' frameid='PUB-1370457' detail='full'><source datatype='string'>J Biol Chem 267(2);1054-61</source>
+<pubmed-id datatype='string'>1370457</pubmed-id>
+<title datatype='string'>Secondary structure of the mRNA for ribosomal protein S20. Implications for cleavage by ribonuclease E.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Mackie GA</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-9642084' orgid='ECOLI' frameid='PUB-9642084' detail='full'><source datatype='string'>J Mol Biol 279(5);1061-74</source>
+<pubmed-id datatype='string'>9642084</pubmed-id>
+<title datatype='string'>Reconstitution of the degradation of the mRNA for ribosomal protein S20 with purified enzymes.</title>
+<year datatype='integer'>1998</year>
+<author datatype='string'>Coburn GA</author>
+<author datatype='string'>Mackie GA</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-2429258' orgid='ECOLI' frameid='PUB-2429258' detail='full'><source datatype='string'>Nucleic Acids Res 14(17);6965-81</source>
+<pubmed-id datatype='string'>2429258</pubmed-id>
+<title datatype='string'>Structure of the DNA distal to the gene for ribosomal protein S20 in Escherichia coli K12: presence of a strong terminator and an IS1 element.</title>
+<year datatype='integer'>1986</year>
+<author datatype='string'>Mackie GA</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9642084' orgid='ECOLI' frameid='PUB-9642084'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1370457' orgid='ECOLI' frameid='PUB-1370457'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' class='true'/><Publication resource='#ECOLI:PUB-2429258' orgid='ECOLI' frameid='PUB-2429258'/></evidence>
+<component><Terminator ID='ECOLI:TERM-RPST' orgid='ECOLI' frameid='TERM-RPST' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>20784</right-end-position>
+<left-end-position datatype='integer'>20771</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-2429258' orgid='ECOLI' frameid='PUB-2429258'/></citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-7842' orgid='ECOLI' frameid='TU0-7842'/><Transcription-Unit resource='#ECOLI:TU0-7844' orgid='ECOLI' frameid='TU0-7844'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10919' orgid='ECOLI' frameid='EG10919'/></component>
+<component><Promoter ID='ECOLI:PM0-8224' orgid='ECOLI' frameid='PM0-8224' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rpsTp2</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>21120</absolute-plus-1-pos>
+<comment datatype='string'>The &lt;i&gt;rpsT&lt;/i&gt; gene is transcribed by two promoters (rpsTp1 and rpsTp2) that can function independently  and additively [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/6305958&quot;&gt;Mackie83&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-6305958' orgid='ECOLI' frameid='PUB-6305958' detail='full'><source datatype='string'>J Biol Chem 258(12);7840-6</source>
+<pubmed-id datatype='string'>6305958</pubmed-id>
+<title datatype='string'>Tandem promoters in the gene for ribosomal protein S20.</title>
+<year datatype='integer'>1983</year>
+<author datatype='string'>Mackie GA</author>
+<author datatype='string'>Parsons GD</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-6267039' orgid='ECOLI' frameid='PUB-6267039' detail='full'><source datatype='string'>J Biol Chem 256(15);8177-82</source>
+<pubmed-id datatype='string'>6267039</pubmed-id>
+<title datatype='string'>Nucleotide sequence of the gene for ribosomal protein S20 and its flanking regions.</title>
+<year datatype='integer'>1981</year>
+<author datatype='string'>Mackie GA</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6305958' orgid='ECOLI' frameid='PUB-6305958'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-RNA-POLYMERASE-FOOTPRINTING' orgid='ECOLI' frameid='EV-EXP-IDA-RNA-POLYMERASE-FOOTPRINTING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>RNA polymerase footprinting</common-name>
+<comment datatype='string'>The binding of RNA polymerase to a DNA region (the promoter) is shown by footprinting.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6267039' orgid='ECOLI' frameid='PUB-6267039'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6267039' orgid='ECOLI' frameid='PUB-6267039'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11174' orgid='ECOLI' frameid='REG0-11174' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8070' orgid='ECOLI' frameid='CPLX0-8070'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-8224' orgid='ECOLI' frameid='PM0-8224'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-7844' orgid='ECOLI' frameid='TU0-7844'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00303'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00303</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00303' orgid='ECOLI' frameid='TU00303' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>motRAB-cheAW</common-name>
+<comment datatype='string'>The CpxR-dependent expression of the &lt;i&gt;motAB-cheAW&lt;/i&gt; operon is diminished under the stress condition caused by the introduction of the R1-16 plasmid, which encodes the type IV secretion system (T4S machinery) in the cell [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16952953&quot;&gt;Zahrl06&lt;/a&gt;].
+&lt;p&gt;
+The mRNA produced by the  &lt;i&gt; motAB-cheAW &lt;/i&gt; operon has been observed mainly in the poles of the cell [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31540875&quot;&gt;Kannaiah19&lt;/a&gt;].
+&lt;p&gt;
+In a study where it was shown that the L-tryptophan eradicated persister cells, it was observed that the exogenous amino acid downregulated the expression of &lt;i&gt; motAB&lt;/i&gt; as well as other flagellar genes [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31271063&quot;&gt;Li19&lt;/a&gt;].
+&lt;p&gt;
+The &lt;i&gt;motA&lt;/i&gt; gene is downregulated by long-term (8 to 12 h) exposure of &lt;i&gt;E. coli&lt;/i&gt; to some biocides [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/32385082&quot;&gt;Merchel20&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-324984' orgid='ECOLI' frameid='PUB-324984' detail='full'><source datatype='string'>J Bacteriol 130(3);1317-25</source>
+<pubmed-id datatype='string'>324984</pubmed-id>
+<title datatype='string'>Identification of polypeptides necessary for chemotaxis in Escherichia coli.</title>
+<year datatype='integer'>1977</year>
+<author datatype='string'>Silverman M</author>
+<author datatype='string'>Simon M</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-1624413' orgid='ECOLI' frameid='PUB-1624413' detail='full'><source datatype='string'>J Bacteriol 174(13);4197-204</source>
+<pubmed-id datatype='string'>1624413</pubmed-id>
+<title datatype='string'>An operon of Bacillus subtilis motility genes transcribed by the sigma D form of RNA polymerase.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Mirel DB</author>
+<author datatype='string'>Lustre VM</author>
+<author datatype='string'>Chamberlin MJ</author>
+</Publication>
+</citation>
+<component><Gene resource='getxml?ECOLI:G0-17103' orgid='ECOLI' frameid='G0-17103'/></component>
+<component><Terminator ID='ECOLI:TERM0-1261' orgid='ECOLI' frameid='TERM0-1261' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>1972825</right-end-position>
+<left-end-position datatype='integer'>1972771</left-end-position>
+<citation><Publication ID='ECOLI:PUB-11522828' orgid='ECOLI' frameid='PUB-11522828' detail='full'><source datatype='string'>Nucleic Acids Res 29(17);3583-94</source>
+<pubmed-id datatype='string'>11522828</pubmed-id>
+<title datatype='string'>Prediction of rho-independent transcriptional terminators in Escherichia coli.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Lesnik EA</author>
+<author datatype='string'>Sampath R</author>
+<author datatype='string'>Levene HB</author>
+<author datatype='string'>Henderson TJ</author>
+<author datatype='string'>McNeil JA</author>
+<author datatype='string'>Ecker DJ</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-30247625' orgid='ECOLI' frameid='PUB-30247625' detail='full'><source datatype='string'>Bioinformatics 35(9);1469-1477</source>
+<pubmed-id datatype='string'>30247625</pubmed-id>
+<title datatype='string'>iTerm-PseKNC: a sequence-based tool for predicting bacterial transcriptional terminators.</title>
+<year datatype='integer'>2019</year>
+<author datatype='string'>Feng CQ</author>
+<author datatype='string'>Zhang ZY</author>
+<author datatype='string'>Zhu XJ</author>
+<author datatype='string'>Lin Y</author>
+<author datatype='string'>Chen W</author>
+<author datatype='string'>Tang H</author>
+<author datatype='string'>Lin H</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU00303' orgid='ECOLI' frameid='TU00303'/></component-of>
+</Terminator>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-31' orgid='ECOLI' frameid='BS0-31' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6414' orgid='ECOLI' frameid='REG0-6414' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7748' orgid='ECOLI' frameid='CPLX0-7748'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-1701' orgid='ECOLI' frameid='PM0-1701' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>1977309</minus-10-left>
+<common-name datatype='string'>motRp</common-name>
+<minus-35-right datatype='integer'>1977335</minus-35-right>
+<minus-35-left datatype='integer'>1977331</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:EG11355-MONOMER' orgid='ECOLI' frameid='EG11355-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>motAp</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1977302</absolute-plus-1-pos>
+<comment datatype='string'>The sequence of this promoter has been defined, by computational analyses, from the consensus sequence of the &amp;sigma;&lt;sup&gt;28&lt;/sup&gt; (&amp;sigma;&lt;sup&gt;F&lt;/sup&gt;) promoters  TAAAGTTT in the -35 box and GCCGATAA in the -10 box [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/11520622&quot;&gt;Park01&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/11031114&quot;&gt;Ko00&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/10586520&quot;&gt;Ide99&lt;/a&gt;]. Therefore, we assigned a putative transcription start site for this promoter based on the observation that the majority of the &amp;sigma;&lt;sup&gt;28&lt;/sup&gt; promoters, determined experimentally, present an important -10 motif (5'-CGA-3') at the positions -12 to -10 and a distance of 6 nucleotides between the transcription start site and the -10 box  [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16855242&quot;&gt;Yu06a&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16997971&quot;&gt;Yu06&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/11520622&quot;&gt;Park01&lt;/a&gt;].
+&lt;p&gt;
+The &lt;i&gt;motA&lt;/i&gt;p promoter is an intragenic promoter controlled by FliA, which is inside the &lt;i&gt;flhC&lt;/i&gt; gene. The FliA promoter within the &lt;i&gt;flhC&lt;/i&gt; gene constrains evolution of the FlhC amino acid sequence. [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/29476659&quot;&gt;Fitzgerald18&lt;/a&gt;].  Although FlhC has two amino acids (Ala177 and Asp178) overlapping the -10 region, which are highly conserved among &amp;gamma;-proteobacteria, Asp178 is not required for FlhC function [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/29476659&quot;&gt;Fitzgerald18&lt;/a&gt;].  The Ala-Asp motif is conserved due to selective pressure on the &lt;i&gt;motA&lt;/i&gt; promoter, rather than on the amino acids themselves [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/29476659&quot;&gt;Fitzgerald18&lt;/a&gt;].
+&lt;p&gt;
+&lt;i&gt;motA&lt;/i&gt;p, the promoter within the &lt;i&gt;flhC&lt;/i&gt; gene, is the most highly conserved of all FliA promoters [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/29476659&quot;&gt;Fitzgerald18&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-11520622' orgid='ECOLI' frameid='PUB-11520622' detail='full'><source datatype='string'>FEMS Microbiol Lett 202(2);243-50</source>
+<pubmed-id datatype='string'>11520622</pubmed-id>
+<title datatype='string'>Novel sigmaF-dependent genes of Escherichia coli found using a specified promoter consensus.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Park K</author>
+<author datatype='string'>Choi S</author>
+<author datatype='string'>Ko M</author>
+<author datatype='string'>Park C</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-11031114' orgid='ECOLI' frameid='PUB-11031114' detail='full'><source datatype='string'>J Mol Biol 303(3);371-82</source>
+<pubmed-id datatype='string'>11031114</pubmed-id>
+<title datatype='string'>Two novel flagellar components and H-NS are involved in the motor function of Escherichia coli.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Ko M</author>
+<author datatype='string'>Park C</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-10586520' orgid='ECOLI' frameid='PUB-10586520' detail='full'><source datatype='string'>Genes Genet Syst 74(3);113-6</source>
+<pubmed-id datatype='string'>10586520</pubmed-id>
+<title datatype='string'>Reevaluation of the promoter structure of the class 3 flagellar operons of Escherichia coli and Salmonella.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>Ide N</author>
+<author datatype='string'>Ikebe T</author>
+<author datatype='string'>Kutsukake K</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10586520' orgid='ECOLI' frameid='PUB-10586520'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' class='true'/><Publication resource='#ECOLI:PUB-11031114' orgid='ECOLI' frameid='PUB-11031114'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' class='true'/><Publication resource='#ECOLI:PUB-11520622' orgid='ECOLI' frameid='PUB-11520622'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-6414' orgid='ECOLI' frameid='REG0-6414'/></regulated-by>
+<minus-10-right datatype='integer'>1977316</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00303' orgid='ECOLI' frameid='TU00303'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-10542180' orgid='ECOLI' frameid='PUB-10542180' detail='full'><source datatype='string'>J Bacteriol 181(21);6772-8</source>
+<pubmed-id datatype='string'>10542180</pubmed-id>
+<title datatype='string'>The CpxRA signal transduction system of Escherichia coli: growth-related autoactivation and control of unanticipated target operons.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>De Wulf P</author>
+<author datatype='string'>Kwon O</author>
+<author datatype='string'>Lin EC</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication ID='ECOLI:PUB-11953442' orgid='ECOLI' frameid='PUB-11953442' detail='full'><source datatype='string'>J Biol Chem 277(29);26652-61</source>
+<pubmed-id datatype='string'>11953442</pubmed-id>
+<title datatype='string'>Genome-wide profiling of promoter recognition by the two-component response regulator CpxR-P in Escherichia coli.</title>
+<year datatype='integer'>2002</year>
+<author datatype='string'>De Wulf P</author>
+<author datatype='string'>McGuire AM</author>
+<author datatype='string'>Liu X</author>
+<author datatype='string'>Lin EC</author>
+</Publication>
+</evidence>
+<site-length datatype='integer'>15</site-length>
+<abs-center-pos datatype='integer'>1977339</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00303' orgid='ECOLI' frameid='TU00303'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Promoter resource='#ECOLI:PM0-1701' orgid='ECOLI' frameid='PM0-1701'/></component>
+<component><Gene resource='getxml?ECOLI:EG10149' orgid='ECOLI' frameid='EG10149'/></component>
+<component><Gene resource='getxml?ECOLI:EG10146' orgid='ECOLI' frameid='EG10146'/></component>
+<component><Gene resource='getxml?ECOLI:EG10602' orgid='ECOLI' frameid='EG10602'/></component>
+<component><Gene resource='getxml?ECOLI:EG10601' orgid='ECOLI' frameid='EG10601'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42497'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42497</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42497' orgid='ECOLI' frameid='TU0-42497' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>dksA-gluQ</common-name>
+<citation><Publication ID='ECOLI:PUB-15096594' orgid='ECOLI' frameid='PUB-15096594' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 101(20);7530-5</source>
+<pubmed-id datatype='string'>15096594</pubmed-id>
+<title datatype='string'>An aminoacyl-tRNA synthetase-like protein encoded by the Escherichia coli yadB gene glutamylates specifically tRNAAsp.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Dubois DY</author>
+<author datatype='string'>Blaise M</author>
+<author datatype='string'>Becker HD</author>
+<author datatype='string'>Campanacci V</author>
+<author datatype='string'>Keith G</author>
+<author datatype='string'>Giege R</author>
+<author datatype='string'>Cambillau C</author>
+<author datatype='string'>Lapointe J</author>
+<author datatype='string'>Kern D</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-2180916' orgid='ECOLI' frameid='PUB-2180916' detail='full'><source datatype='string'>J Bacteriol 172(4);2055-64</source>
+<pubmed-id datatype='string'>2180916</pubmed-id>
+<title datatype='string'>Identification and characterization of a new Escherichia coli gene that is a dosage-dependent suppressor of a dnaK deletion mutation.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>Kang PJ</author>
+<author datatype='string'>Craig EA</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15096594' orgid='ECOLI' frameid='PUB-15096594'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' class='true'/><Publication resource='#ECOLI:PUB-2180916' orgid='ECOLI' frameid='PUB-2180916'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG11362' orgid='ECOLI' frameid='EG11362'/></component>
+<component><Gene resource='getxml?ECOLI:EG10230' orgid='ECOLI' frameid='EG10230'/></component>
+<component><Promoter ID='ECOLI:PM0-46206' orgid='ECOLI' frameid='PM0-46206' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>160759</minus-10-left>
+<common-name datatype='string'>dksAp3</common-name>
+<minus-35-right datatype='integer'>160787</minus-35-right>
+<minus-35-left datatype='integer'>160782</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>160751</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-22267514' orgid='ECOLI' frameid='PUB-22267514' detail='full'><source datatype='string'>J Bacteriol 194(6);1437-46</source>
+<pubmed-id datatype='string'>22267514</pubmed-id>
+<title datatype='string'>Suppression of a dnaKJ deletion by multicopy dksA results from non-feedback-regulated transcripts that originate upstream of the major dksA promoter.</title>
+<year datatype='integer'>2012</year>
+<author datatype='string'>Chandrangsu P</author>
+<author datatype='string'>Wang L</author>
+<author datatype='string'>Choi SH</author>
+<author datatype='string'>Gourse RL</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-22267514' orgid='ECOLI' frameid='PUB-22267514'/></evidence>
+<minus-10-right datatype='integer'>160764</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42497' orgid='ECOLI' frameid='TU0-42497'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

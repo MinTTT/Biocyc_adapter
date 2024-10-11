@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-6649'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-6649</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-6649' orgid='ECOLI' frameid='TU0-6649' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>glnHPQ</common-name>
+<extent-unknown datatype='boolean'>true</extent-unknown>
+<citation><Publication ID='ECOLI:PUB-3550701' orgid='ECOLI' frameid='PUB-3550701' detail='full'><source datatype='string'>Nucleic Acids Res 15(6);2777</source>
+<pubmed-id datatype='string'>3550701</pubmed-id>
+<title datatype='string'>Two transcriptional start sites found in the promoter region of Escherichia coli glutamine permease operon, glnHPQ.</title>
+<year datatype='integer'>1987</year>
+<author datatype='string'>Nohno T</author>
+<author datatype='string'>Saito T</author>
+</Publication>
+</citation>
+<component><Gene resource='getxml?ECOLI:EG10389' orgid='ECOLI' frameid='EG10389'/></component>
+<component><Gene resource='getxml?ECOLI:EG10388' orgid='ECOLI' frameid='EG10388'/></component>
+<component><Gene resource='getxml?ECOLI:EG10386' orgid='ECOLI' frameid='EG10386'/></component>
+<component><Promoter ID='ECOLI:PM00352' orgid='ECOLI' frameid='PM00352' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>glnHp1</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>848198</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-3550701' orgid='ECOLI' frameid='PUB-3550701'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3550701' orgid='ECOLI' frameid='PUB-3550701'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-6649' orgid='ECOLI' frameid='TU0-6649'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

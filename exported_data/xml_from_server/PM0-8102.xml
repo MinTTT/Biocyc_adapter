@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM0-8102'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM0-8102</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM0-8102' orgid='ECOLI' frameid='PM0-8102' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>1982448</minus-10-left>
+<common-name datatype='string'>otsBp2</common-name>
+<minus-35-right datatype='integer'>1982476</minus-35-right>
+<minus-35-left datatype='integer'>1982471</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1982442</absolute-plus-1-pos>
+<comment datatype='string'>The operon &lt;i&gt;otsAB&lt;/i&gt; is positively regulated by RpoS in stationary phase and is mainly controlled at the transcription level [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/1744047&quot;&gt;HenggeAronis91&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/8391102&quot;&gt;Strom93&lt;/a&gt;]. It is also osmotically regulated. Region 4 of the &amp;sigma;&lt;sup&gt;38&lt;/sup&gt; protein and the elements near the -35 DNA region are involved in triggering the response to high salt concentrations, which ensures the transcriptional activation of the otsBp2 promoter to counteract  this physiological challenge [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16420371&quot;&gt;Rosenthal06&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-11251833' orgid='ECOLI' frameid='PUB-11251833' detail='full'><source datatype='string'>Mol Microbiol 39(5);1153-65</source>
+<pubmed-id datatype='string'>11251833</pubmed-id>
+<title datatype='string'>What makes an Escherichia coli promoter sigma(S) dependent? Role of the -13/-14 nucleotide promoter positions and region 2.5 of sigma(S).</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Becker G</author>
+<author datatype='string'>Hengge-Aronis R</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8045430' orgid='ECOLI' frameid='PUB-8045430' detail='full'><source datatype='string'>Gene 145(1);9-15</source>
+<pubmed-id datatype='string'>8045430</pubmed-id>
+<title datatype='string'>Analysis of the otsBA operon for osmoregulatory trehalose synthesis in Escherichia coli and homology of the OtsA and OtsB proteins to the yeast trehalose-6-phosphate synthase/phosphatase complex.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Kaasen I</author>
+<author datatype='string'>McDougall J</author>
+<author datatype='string'>Strom AR</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-16420371' orgid='ECOLI' frameid='PUB-16420371' detail='full'><source datatype='string'>Mol Microbiol 59(3);1052-61</source>
+<pubmed-id datatype='string'>16420371</pubmed-id>
+<title datatype='string'>Osmolyte-induced transcription: -35 region elements and recognition by sigma38 (rpoS).</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Rosenthal AZ</author>
+<author datatype='string'>Hu M</author>
+<author datatype='string'>Gralla JD</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8045430' orgid='ECOLI' frameid='PUB-8045430'/></evidence>
+<minus-10-right datatype='integer'>1982458</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-7722' orgid='ECOLI' frameid='TU0-7722'/></component-of>
+</Promoter>
+</ptools-xml>

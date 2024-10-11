@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM0-46501'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM0-46501</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM0-46501' orgid='ECOLI' frameid='PM0-46501' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>1103344</minus-10-left>
+<common-name datatype='string'>csgDp</common-name>
+<minus-35-right datatype='integer'>1103377</minus-35-right>
+<minus-35-left datatype='integer'>1103372</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1103335</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-17468243' orgid='ECOLI' frameid='PUB-17468243' detail='full'><source datatype='string'>J Bacteriol 189(13);4791-9</source>
+<pubmed-id datatype='string'>17468243</pubmed-id>
+<title datatype='string'>Genomic SELEX search for target promoters under the control of the PhoQP-RstBA signal relay cascade.</title>
+<year datatype='integer'>2007</year>
+<author datatype='string'>Ogasawara H</author>
+<author datatype='string'>Hasegawa A</author>
+<author datatype='string'>Kanda E</author>
+<author datatype='string'>Miki T</author>
+<author datatype='string'>Yamamoto K</author>
+<author datatype='string'>Ishihama A</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-17468243' orgid='ECOLI' frameid='PUB-17468243'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-14943' orgid='ECOLI' frameid='REG0-14943' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-RSTA' orgid='ECOLI' frameid='PHOSPHO-RSTA'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46501' orgid='ECOLI' frameid='PM0-46501'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-14942' orgid='ECOLI' frameid='REG0-14942' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG11356-MONOMER' orgid='ECOLI' frameid='EG11356-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46501' orgid='ECOLI' frameid='PM0-46501'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>1103355</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45201' orgid='ECOLI' frameid='TU0-45201'/></component-of>
+</Promoter>
+</ptools-xml>

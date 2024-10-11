@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-2701'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-2701</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-2701' orgid='ECOLI' frameid='TU0-2701' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>isrC-flu</common-name>
+<synonym datatype='string'>agn43</synonym>
+<comment datatype='string'>The OxyR-binding site in the regulatory region of the &lt;i&gt;flu&lt;/i&gt; gene contains three GATC sequences that are recognized by the protein Dam for methylation. When this DNA region is methylated, OxyR cannot bind it to repress the expression of the &lt;i&gt;flu&lt;/i&gt; gene. Conversely, when OxyR is bound to this region, the Dam protein cannot methylate the DNA in this region [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/11972788&quot;&gt;Correnti02&lt;/a&gt;].
+&lt;p&gt;
+Both oxidized and reduced forms of OxyR bind to hemimethylated DNA with lower affinity than the unmethylated DNA [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/11972788&quot;&gt;Correnti02&lt;/a&gt;].
+&lt;p&gt;
+Expression of &lt;i&gt;flu&lt;/i&gt; is phase variable and is characterized by its ON phase (OxyR impedes &lt;i&gt;flu&lt;/i&gt; transcription) and OFF phase (Dam methylates GATC sites at the OxyR-binding site, and &lt;i&gt;flu&lt;/i&gt; can be expressed) [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/24039985&quot;&gt;Chauhan13&lt;/a&gt;]. &lt;i&gt;flu&lt;/i&gt; ON/OFF phases strongly induce autoagregation and biofilm formation [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/24039985&quot;&gt;Chauhan13&lt;/a&gt;]. Based on transcriptomic analysis, it has been shown that &lt;i&gt;flu&lt;/i&gt; is regulated by both MqsR [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/16352847&quot;&gt;Gonzalez06&lt;/a&gt;] and Lrp [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12374860&quot;&gt;Tani02&lt;/a&gt;]. However, it was shown that these regulators do not control &lt;i&gt;flu&lt;/i&gt; expression or the ON/OFF switch frequency [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/24039985&quot;&gt;Chauhan13&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-11972787' orgid='ECOLI' frameid='PUB-11972787' detail='full'><source datatype='string'>Mol Microbiol 44(2);509-20</source>
+<pubmed-id datatype='string'>11972787</pubmed-id>
+<title datatype='string'>Competitive interaction of the OxyR DNA-binding protein and the Dam methylase at the antigen 43 gene regulatory region in Escherichia coli.</title>
+<year datatype='integer'>2002</year>
+<author datatype='string'>Waldron DE</author>
+<author datatype='string'>Owen P</author>
+<author datatype='string'>Dorman CJ</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-10094691' orgid='ECOLI' frameid='PUB-10094691' detail='full'><source datatype='string'>J Bacteriol 181(7);2132-41</source>
+<pubmed-id datatype='string'>10094691</pubmed-id>
+<title datatype='string'>The major phase-variable outer membrane protein of Escherichia coli structurally resembles the immunoglobulin A1 protease class of exported protein and is regulated by a novel mechanism involving Dam and oxyR.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>Henderson IR</author>
+<author datatype='string'>Owen P</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11972787' orgid='ECOLI' frameid='PUB-11972787'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' class='true'/><Publication resource='#ECOLI:PUB-10094691' orgid='ECOLI' frameid='PUB-10094691'/></evidence>
+<component><Terminator ID='ECOLI:TERM0-1294' orgid='ECOLI' frameid='TERM0-1294' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>2071511</right-end-position>
+<left-end-position datatype='integer'>2071478</left-end-position>
+<citation><Publication ID='ECOLI:PUB-24837285' orgid='ECOLI' frameid='PUB-24837285' detail='full'><source datatype='string'>J Bacteriol 196(15);2728-35</source>
+<pubmed-id datatype='string'>24837285</pubmed-id>
+<title datatype='string'>Control of Gene Expression at a Bacterial Leader RNA, the agn43 Gene Encoding Outer Membrane Protein Ag43 of Escherichia coli.</title>
+<year datatype='integer'>2014</year>
+<author datatype='string'>Wallecha A</author>
+<author datatype='string'>Oreh H</author>
+<author datatype='string'>van der Woude MW</author>
+<author datatype='string'>deHaseth PL</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-2701' orgid='ECOLI' frameid='TU0-2701'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:G0-8905' orgid='ECOLI' frameid='G0-8905'/></component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-2061' orgid='ECOLI' frameid='BS0-2061' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6351' orgid='ECOLI' frameid='REG0-6351' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00214' orgid='ECOLI' frameid='PD00214'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-2881' orgid='ECOLI' frameid='PM0-2881' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>2071306</minus-10-left>
+<common-name datatype='string'>flup</common-name>
+<minus-35-right datatype='integer'>2071288</minus-35-right>
+<minus-35-left datatype='integer'>2071283</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>agn43p</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2071317</absolute-plus-1-pos>
+<comment datatype='string'>The activity of the flup promoter is increased by a mutation in the &lt;i&gt;rpoA&lt;/i&gt; gene, which codes for a subunit of the RNA polymerase. On the other hand, the activity of the promoter is depressed in the presence of deoxycholate and lactose [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/11988528&quot;&gt;Gabig02&lt;/a&gt;].
+&lt;p&gt;
+RpoS does not regulate the &lt;i&gt;flu&lt;/i&gt;p promoter [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/32548953&quot;&gt;CabrerPanes20&lt;/a&gt;].
+&lt;p&gt;
+</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-11972787' orgid='ECOLI' frameid='PUB-11972787'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11972787' orgid='ECOLI' frameid='PUB-11972787'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11972787' orgid='ECOLI' frameid='PUB-11972787'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-15734' orgid='ECOLI' frameid='REG0-15734' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Compound resource='getxml?ECOLI:GUANOSINE-5DP-3DP' orgid='ECOLI' frameid='GUANOSINE-5DP-3DP'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-2881' orgid='ECOLI' frameid='PM0-2881'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15733' orgid='ECOLI' frameid='REG0-15733' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG10230-MONOMER' orgid='ECOLI' frameid='EG10230-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-2881' orgid='ECOLI' frameid='PM0-2881'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15660' orgid='ECOLI' frameid='REG0-15660' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:G6737-MONOMER' orgid='ECOLI' frameid='G6737-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-2881' orgid='ECOLI' frameid='PM0-2881'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-12893' orgid='ECOLI' frameid='REG0-12893' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00214' orgid='ECOLI' frameid='PD00214'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-2881' orgid='ECOLI' frameid='PM0-2881'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10680' orgid='ECOLI' frameid='REG0-10680' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PD00214' orgid='ECOLI' frameid='PD00214'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-2881' orgid='ECOLI' frameid='PM0-2881'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-6351' orgid='ECOLI' frameid='REG0-6351'/></regulated-by>
+<minus-10-right datatype='integer'>2071311</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-2701' orgid='ECOLI' frameid='TU0-2701'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-12029051' orgid='ECOLI' frameid='PUB-12029051' detail='full'><source datatype='string'>J Bacteriol 184(12);3338-47</source>
+<pubmed-id datatype='string'>12029051</pubmed-id>
+<title datatype='string'>Dam- and OxyR-dependent phase variation of agn43: essential elements and evidence for a new role of DNA methylation.</title>
+<year datatype='integer'>2002</year>
+<author datatype='string'>Wallecha A</author>
+<author datatype='string'>Munster V</author>
+<author datatype='string'>Correnti J</author>
+<author datatype='string'>Chan T</author>
+<author datatype='string'>van der Woude M</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-11972787' orgid='ECOLI' frameid='PUB-11972787'/></citation>
+<citation><Publication ID='ECOLI:PUB-12644490' orgid='ECOLI' frameid='PUB-12644490' detail='full'><source datatype='string'>J Bacteriol 185(7);2203-9</source>
+<pubmed-id datatype='string'>12644490</pubmed-id>
+<title datatype='string'>Phase variation of Ag43 is independent of the oxidation state of OxyR.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Wallecha A</author>
+<author datatype='string'>Correnti J</author>
+<author datatype='string'>Munster V</author>
+<author datatype='string'>van der Woude M</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-10094691' orgid='ECOLI' frameid='PUB-10094691'/></citation>
+<citation><Publication ID='ECOLI:PUB-26279566' orgid='ECOLI' frameid='PUB-26279566' detail='full'><source datatype='string'>Cell Rep 12(8);1289-99</source>
+<pubmed-id datatype='string'>26279566</pubmed-id>
+<title datatype='string'>Genome-wide Reconstruction of OxyR and SoxRS Transcriptional Regulatory Networks under Oxidative Stress in Escherichia coli K-12 MG1655.</title>
+<year datatype='integer'>2015</year>
+<author datatype='string'>Seo SW</author>
+<author datatype='string'>Kim D</author>
+<author datatype='string'>Szubin R</author>
+<author datatype='string'>Palsson BO</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12029051' orgid='ECOLI' frameid='PUB-12029051'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12029051' orgid='ECOLI' frameid='PUB-12029051'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-12644490' orgid='ECOLI' frameid='PUB-12644490'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-11972787' orgid='ECOLI' frameid='PUB-11972787'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Site mutation</common-name>
+<comment datatype='string'>A cis-mutation in the DNA sequence of the transcription-factor binding site interferes with the operation of the regulatory function. This is considered  strong evidence for the existence and functional role of the DNA binding site.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11972787' orgid='ECOLI' frameid='PUB-11972787'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication ID='ECOLI:PUB-10692164' orgid='ECOLI' frameid='PUB-10692164' detail='full'><source datatype='string'>Mol Microbiol 35(4);877-87</source>
+<pubmed-id datatype='string'>10692164</pubmed-id>
+<title datatype='string'>Phase variation of Ag43 in Escherichia coli: Dam-dependent methylation abrogates OxyR binding and OxyR-mediated repression of transcription.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Haagmans W</author>
+<author datatype='string'>van der Woude M</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-CHIP-EXO-MANUAL' orgid='ECOLI' frameid='EV-EXP-CHIP-EXO-MANUAL' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-CHIP-EXO' orgid='ECOLI' frameid='EV-EXP-CHIP-EXO' class='true'/></parent>
+<common-name datatype='string'>ChIP-exo evidence used in manual assertion</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0006008</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0006008</dblink-URL>
+</dblink>
+<credits><imported-from-meta><date datatype='date'>2018-03-05</date>
+<Person ID='ECOLI:paley' orgid='ECOLI' frameid='paley' detail='full'><affiliations><Organization ID='ECOLI:SRI' orgid='ECOLI' frameid='SRI' detail='full'><abbrev-name datatype='string'>SRI International</abbrev-name>
+<email datatype='string'>ptools-support@ai.sri.com</email>
+<common-name datatype='string'>SRI International</common-name>
+<url datatype='string'>http://bioinformatics.ai.sri.com/</url>
+</Organization>
+</affiliations>
+<common-name datatype='string'>Suzanne Paley</common-name>
+</Person>
+<Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A type of chromatin immunoprecipation-exonuclease evidence that is used in a manual assertion.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-26279566' orgid='ECOLI' frameid='PUB-26279566'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred by a human based on computational evidence</common-name>
+<comment datatype='string'>Human inference.  A curator or author inferred this assertion after review of one or more possible types 
+of computational evidence such as sequence similarity, recognized motifs or consensus sequence, etc.  
+When the inference was made by a computer in an automated fashion, use EV-AINF.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-26279566' orgid='ECOLI' frameid='PUB-26279566'/></evidence>
+<abs-center-pos datatype='integer'>2071340</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-2701' orgid='ECOLI' frameid='TU0-2701'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:G7080' orgid='ECOLI' frameid='G7080'/></component>
+<component><Promoter resource='#ECOLI:PM0-2881' orgid='ECOLI' frameid='PM0-2881'/></component>
+</Transcription-Unit>
+</ptools-xml>

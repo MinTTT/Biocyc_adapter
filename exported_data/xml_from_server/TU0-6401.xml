@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-6401'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-6401</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-6401' orgid='ECOLI' frameid='TU0-6401' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>folA</common-name>
+<comment datatype='string'>Both TyrR sites, together with the IHF site present in the &lt;i&gt;folA&lt;/i&gt; upstream region, form a complex that is designed to respond primarily to the increased levels of tyrosine by activating the expression of &lt;i&gt;folA&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/17557822&quot;&gt;Yang07&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-3031429' orgid='ECOLI' frameid='PUB-3031429' detail='full'><source datatype='string'>Mol Gen Genet 205(3);515-22</source>
+<pubmed-id datatype='string'>3031429</pubmed-id>
+<title datatype='string'>The gene for Escherichia coli diadenosine tetraphosphatase is located immediately clockwise to folA and forms an operon with ksgA.</title>
+<year datatype='integer'>1986</year>
+<author datatype='string'>Blanchin-Roland S</author>
+<author datatype='string'>Blanquet S</author>
+<author datatype='string'>Schmitter JM</author>
+<author datatype='string'>Fayat G</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3031429' orgid='ECOLI' frameid='PUB-3031429'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG10326' orgid='ECOLI' frameid='EG10326'/></component>
+<component><Promoter ID='ECOLI:PM00320' orgid='ECOLI' frameid='PM00320' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>49787</minus-10-left>
+<common-name datatype='string'>folAp</common-name>
+<minus-35-right datatype='integer'>49768</minus-35-right>
+<minus-35-left datatype='integer'>49763</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>49799</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-3031429' orgid='ECOLI' frameid='PUB-3031429'/></citation>
+<citation><Publication ID='ECOLI:PUB-7047532' orgid='ECOLI' frameid='PUB-7047532' detail='full'><source datatype='string'>J Biol Chem 257(15);9043-8</source>
+<pubmed-id datatype='string'>7047532</pubmed-id>
+<title datatype='string'>Amplification and modification of dihydrofolate reductase in Escherichia coli. Nucleotide sequence of fol genes from mutationally altered plasmids.</title>
+<year datatype='integer'>1982</year>
+<author datatype='string'>Smith DR</author>
+<author datatype='string'>Rood JI</author>
+<author datatype='string'>Bird PI</author>
+<author datatype='string'>Sneddon MK</author>
+<author datatype='string'>Calvo JM</author>
+<author datatype='string'>Morrison JF</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3031429' orgid='ECOLI' frameid='PUB-3031429'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' class='true'/><Publication resource='#ECOLI:PUB-7047532' orgid='ECOLI' frameid='PUB-7047532'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-9037' orgid='ECOLI' frameid='REG0-9037' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PC00027' orgid='ECOLI' frameid='PC00027'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00320' orgid='ECOLI' frameid='PM00320'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-9036' orgid='ECOLI' frameid='REG0-9036' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:MONOMER0-162' orgid='ECOLI' frameid='MONOMER0-162'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00320' orgid='ECOLI' frameid='PM00320'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-9035' orgid='ECOLI' frameid='REG0-9035' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:MONOMER0-162' orgid='ECOLI' frameid='MONOMER0-162'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00320' orgid='ECOLI' frameid='PM00320'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>49792</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-6401' orgid='ECOLI' frameid='TU0-6401'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

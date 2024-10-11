@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-6657'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-6657</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-6657' orgid='ECOLI' frameid='TU0-6657' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rplT</common-name>
+<comment datatype='string'>The &lt;i&gt;rplT&lt;/i&gt; gene codes for the L20 ribosomal protein. Its gene expression is corelated with the downstream operon &lt;i&gt;pheMST&lt;/i&gt;, which codes for the phenylalanine-tRNA synthetase. Sometimes transcription stops at the end of &lt;i&gt;rplT&lt;/i&gt;, and other times it continues downstream to the &lt;i&gt;pheST&lt;/i&gt; attenuation control region ( composed of the &lt;i&gt;pheM&lt;/i&gt; ORF that codes for the leader peptide and the secondary structure regions) [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/6317865&quot;&gt;Fayat83&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-6317865' orgid='ECOLI' frameid='PUB-6317865' detail='full'><source datatype='string'>J Mol Biol 171(3);239-61</source>
+<pubmed-id datatype='string'>6317865</pubmed-id>
+<title datatype='string'>Escherichia coli phenylalanyl-tRNA synthetase operon region. Evidence for an attenuation mechanism. Identification of the gene for the ribosomal protein L20.</title>
+<year datatype='integer'>1983</year>
+<author datatype='string'>Fayat G</author>
+<author datatype='string'>Mayaux JF</author>
+<author datatype='string'>Sacerdot C</author>
+<author datatype='string'>Fromant M</author>
+<author datatype='string'>Springer M</author>
+<author datatype='string'>Grunberg-Manago M</author>
+<author datatype='string'>Blanquet S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6317865' orgid='ECOLI' frameid='PUB-6317865'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6317865' orgid='ECOLI' frameid='PUB-6317865'/></evidence>
+<component><Terminator ID='ECOLI:RPLT-T2' orgid='ECOLI' frameid='RPLT-T2' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>1799382</right-end-position>
+<left-end-position datatype='integer'>1799363</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-6317865' orgid='ECOLI' frameid='PUB-6317865'/></citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-3305' orgid='ECOLI' frameid='TU0-3305'/><Transcription-Unit resource='getxml?ECOLI:TU0-14255' orgid='ECOLI' frameid='TU0-14255'/><Transcription-Unit resource='#ECOLI:TU0-6657' orgid='ECOLI' frameid='TU0-6657'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10881' orgid='ECOLI' frameid='EG10881'/></component>
+<component><Promoter ID='ECOLI:PM00375' orgid='ECOLI' frameid='PM00375' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rplTp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1799763</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-6317865' orgid='ECOLI' frameid='PUB-6317865'/></citation>
+<citation><Publication ID='ECOLI:PUB-6368838' orgid='ECOLI' frameid='PUB-6368838' detail='full'><source datatype='string'>J Mol Biol 173(2);177-209</source>
+<pubmed-id datatype='string'>6368838</pubmed-id>
+<title datatype='string'>Transcription of a gene cluster coding for two aminoacyl-tRNA synthetases and an initiation factor in Escherichia coli.</title>
+<year datatype='integer'>1984</year>
+<author datatype='string'>Wu TH</author>
+<author datatype='string'>Wood DL</author>
+<author datatype='string'>Stein PL</author>
+<author datatype='string'>Comer MM</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6317865' orgid='ECOLI' frameid='PUB-6317865'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6368838' orgid='ECOLI' frameid='PUB-6368838'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-6135' orgid='ECOLI' frameid='REG0-6135' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7797' orgid='ECOLI' frameid='CPLX0-7797'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00375' orgid='ECOLI' frameid='PM00375'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-8855' orgid='ECOLI' frameid='TU0-8855'/><Transcription-Unit resource='#ECOLI:TU0-6657' orgid='ECOLI' frameid='TU0-6657'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

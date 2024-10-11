@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM0-3582'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM0-3582</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM0-3582' orgid='ECOLI' frameid='PM0-3582' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>787636</minus-10-left>
+<common-name datatype='string'>gpmAp</common-name>
+<minus-35-right datatype='integer'>787666</minus-35-right>
+<minus-35-left datatype='integer'>787658</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>gpmAP1-P2</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>787632</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-11101675' orgid='ECOLI' frameid='PUB-11101675' detail='full'><source datatype='string'>Microbiology 146 Pt 12;3171-3182</source>
+<pubmed-id datatype='string'>11101675</pubmed-id>
+<title datatype='string'>A method for direct cloning of fur-regulated genes: identification of seven new fur-regulated loci in Escherichia coli.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Vassinova N</author>
+<author datatype='string'>Kozyrev D</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-19838295' orgid='ECOLI' frameid='PUB-19838295' detail='full'><source datatype='string'>PLoS One 4(10);e7466</source>
+<pubmed-id datatype='string'>19838295</pubmed-id>
+<title datatype='string'>Transcription analysis of central metabolism genes in Escherichia coli. Possible roles of sigma38 in their expression, as a response to carbon limitation.</title>
+<year datatype='integer'>2009</year>
+<author datatype='string'>Olvera L</author>
+<author datatype='string'>Mendoza-Vargas A</author>
+<author datatype='string'>Flores N</author>
+<author datatype='string'>Olvera M</author>
+<author datatype='string'>Sigala JC</author>
+<author datatype='string'>Gosset G</author>
+<author datatype='string'>Morett E</author>
+<author datatype='string'>Bolivar F</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference of promoter position</common-name>
+<comment datatype='string'>Automated inference of promoter position relative to the -10 and -35 boxes.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11101675' orgid='ECOLI' frameid='PUB-11101675'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' orgid='ECOLI' frameid='EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>High-throughput transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified using a high-throughput experimental modified RACE approach.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-19838295' orgid='ECOLI' frameid='PUB-19838295'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-6339' orgid='ECOLI' frameid='REG0-6339' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7639' orgid='ECOLI' frameid='CPLX0-7639'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-3582' orgid='ECOLI' frameid='PM0-3582'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-6338' orgid='ECOLI' frameid='REG0-6338' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7639' orgid='ECOLI' frameid='CPLX0-7639'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-3582' orgid='ECOLI' frameid='PM0-3582'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>787643</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-3382' orgid='ECOLI' frameid='TU0-3382'/></component-of>
+</Promoter>
+</ptools-xml>

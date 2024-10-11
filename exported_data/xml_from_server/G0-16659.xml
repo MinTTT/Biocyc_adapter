@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='27.0' xml:base='http://BioCyc.org/getxml?ECOLI:G0-16659'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:G0-16659</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='27.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Gene ID='ECOLI:G0-16659' orgid='ECOLI' frameid='G0-16659' detail='full'><parent><Gene resource='getxml?ECOLI:Pseudo-Genes' orgid='ECOLI' frameid='Pseudo-Genes' class='true'/></parent>
+<replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<product>putative tRNA 2-thiocytidine (s(2)C32) synthase</product>
+<knockout-growth-observations><Growth-Observation ID='ECOLI:OBS0-438' orgid='ECOLI' frameid='OBS0-438' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NONE</growth-status>
+<with-growth-media>Luria-Bertani broth</with-growth-media>
+</Growth-Observation>
+</knockout-growth-observations>
+<centisome-position datatype='float' units='CENTISOMES'>30.914814</centisome-position>
+<common-name datatype='string'>ttcC</common-name>
+<comment datatype='string'>ttcC: &quot;&lt;b&gt;t&lt;/b&gt;wo-&lt;b&gt;t&lt;/b&gt;hio&lt;b&gt;c&lt;/b&gt;ytidine&quot; (Chromosomal remnant)
+&lt;p&gt;
+Comment in EcoGene: &quot;Pseudogene, prophage Rac integration site ttcA duplication.  The attachment site of Rac is a 26 bp repeat region flanking Rac: 1409923-1409948 and 1432983-1433008 (A J. Clark, pers. comm., 1998). The ends of Rac are marked at the left end of these repeat regions to delineate attB and attP. This Rac integration event is within the ttcA gene; the first 17 aa of TtcA are Rac-derived. The ttcC' pseudogene is a remnant 17 aa displaced from the original chromosomal ttcA gene. 25 bp encoding four mismatches immediately preceed the 26 bp exact repeat. Representative of both alleles are found in sequenced E. coli and Shigella genomes.&quot;</comment>
+<component-of/><accession-1 datatype='string'>b4638</accession-1>
+<dblink><dblink-db>ASAP</dblink-db>
+<dblink-oid>ABE-0285236</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://asap.ahabs.wisc.edu/asap/feature_info.php?FeatureID=ABE-0285236</dblink-URL>
+</dblink>
+<left-end-position datatype='integer'>1434958</left-end-position>
+<right-end-position datatype='integer'>1435008</right-end-position>
+<accession-2 datatype='string'>ECK4447</accession-2>
+</Gene>
+</ptools-xml>

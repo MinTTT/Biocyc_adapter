@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-6504'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-6504</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-6504' orgid='ECOLI' frameid='TU0-6504' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>glnS</common-name>
+<citation><Publication ID='ECOLI:PUB-6086662' orgid='ECOLI' frameid='PUB-6086662' detail='full'><source datatype='string'>J Biol Chem 1984;259(15);9953-8</source>
+<pubmed-id datatype='string'>6086662</pubmed-id>
+<title datatype='string'>In vivo and in vitro transcription of the Escherichia coli glutaminyl-tRNA synthetase gene.</title>
+<year datatype='integer'>1984</year>
+<author datatype='string'>Cheung AY</author>
+<author datatype='string'>Soll D</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-6288695' orgid='ECOLI' frameid='PUB-6288695' detail='full'><source datatype='string'>J Biol Chem 257(19);11639-43</source>
+<pubmed-id datatype='string'>6288695</pubmed-id>
+<title datatype='string'>Escherichia coli glutaminyl-tRNA synthetase. I. Isolation and DNA sequence of the glnS gene.</title>
+<year datatype='integer'>1982</year>
+<author datatype='string'>Yamao F</author>
+<author datatype='string'>Inokuchi H</author>
+<author datatype='string'>Cheung A</author>
+<author datatype='string'>Ozeki H</author>
+<author datatype='string'>Soll D</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6086662' orgid='ECOLI' frameid='PUB-6086662'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6086662' orgid='ECOLI' frameid='PUB-6086662'/></evidence>
+<component><Terminator ID='ECOLI:TERM0862' orgid='ECOLI' frameid='TERM0862' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>707978</right-end-position>
+<left-end-position datatype='integer'>707954</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-6086662' orgid='ECOLI' frameid='PUB-6086662'/></citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45210' orgid='ECOLI' frameid='TU0-45210'/><Transcription-Unit resource='getxml?ECOLI:TU0-14467' orgid='ECOLI' frameid='TU0-14467'/><Transcription-Unit resource='#ECOLI:TU0-6504' orgid='ECOLI' frameid='TU0-6504'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10390' orgid='ECOLI' frameid='EG10390'/></component>
+<component><Promoter ID='ECOLI:PM00347' orgid='ECOLI' frameid='PM00347' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>glnSp1</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>706060</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-6086662' orgid='ECOLI' frameid='PUB-6086662'/></citation>
+<citation><Publication ID='ECOLI:PUB-2471922' orgid='ECOLI' frameid='PUB-2471922' detail='full'><source datatype='string'>Mol Gen Genet 216(1);113-9</source>
+<pubmed-id datatype='string'>2471922</pubmed-id>
+<title datatype='string'>Characterization of cis-acting mutations which increase expression of a glnS-lacZ fusion in Escherichia coli.</title>
+<year datatype='integer'>1989</year>
+<author datatype='string'>Plumbridge J</author>
+<author datatype='string'>Soll D</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6086662' orgid='ECOLI' frameid='PUB-6086662'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from mutant phenotype</common-name>
+<comment datatype='string'>IMP inferred from mutant phenotype.
+
+&lt;br&gt;
+The assertion was inferred from a mutant phenotype such as
+&lt;ul&gt;
+    &lt;li&gt; Any gene mutation/knockout
+    &lt;li&gt; Overexpression/ectopic expression of wild-type or mutant genes
+    &lt;li&gt; Anti-sense experiments
+    &lt;li&gt; RNA interference experiments
+    &lt;li&gt; Specific protein inhibitors
+    &lt;li&gt; Complementation
+&lt;/ul&gt;&lt;p class=ecocomment&gt;	
+Comment: Inferences made from examining mutations or
+abnormal levels of only the product(s) of the gene of interest are covered by code EV-IMP
+(compare to code EV-IGI). Use this code for experiments that use antibodies 
+or other specific inhibitors of RNA or protein activity, even though no
+gene may be mutated (the rationale is that EV-IMP is used where an
+abnormal situation prevails in a cell or organism).
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2471922' orgid='ECOLI' frameid='PUB-2471922'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-6504' orgid='ECOLI' frameid='TU0-6504'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00406'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00406</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00406' orgid='ECOLI' frameid='TU00406' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>htgA</common-name>
+<synonym datatype='string'>htpY</synonym>
+<comment datatype='string'>An ORF, ORF-div, completely overlaps the &lt;i&gt;htgA&lt;/i&gt; gene.</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-8478327' orgid='ECOLI' frameid='PUB-8478327' detail='full'><source datatype='string'>J Bacteriol 1993;175(9);2613-24</source>
+<pubmed-id datatype='string'>8478327</pubmed-id>
+<title datatype='string'>The Escherichia coli heat shock gene htpY: mutational analysis, cloning, sequencing, and transcriptional regulation.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>Missiakas D</author>
+<author datatype='string'>Georgopoulos C</author>
+<author datatype='string'>Raina S</author>
+</Publication>
+</citation>
+<component><Promoter ID='ECOLI:PM00557' orgid='ECOLI' frameid='PM00557' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>htgAp2</common-name>
+<synonym datatype='string'>htpYp2</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>10643</absolute-plus-1-pos>
+<comment datatype='string'>This is not  a heat shock promoter.</comment>
+<citation><Publication resource='#ECOLI:PUB-8478327' orgid='ECOLI' frameid='PUB-8478327'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8478327' orgid='ECOLI' frameid='PUB-8478327'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU00406' orgid='ECOLI' frameid='TU00406'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11509' orgid='ECOLI' frameid='EG11509'/></component>
+</Transcription-Unit>
+</ptools-xml>

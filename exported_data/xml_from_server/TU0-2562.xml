@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-2562'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-2562</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-2562' orgid='ECOLI' frameid='TU0-2562' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>exbD</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-2670903' orgid='ECOLI' frameid='PUB-2670903' detail='full'><source datatype='string'>J Bacteriol 171(9);5117-26</source>
+<pubmed-id datatype='string'>2670903</pubmed-id>
+<title datatype='string'>Import of biopolymers into Escherichia coli: nucleotide sequences of the exbB and exbD genes are homologous to those of the tolQ and tolR genes, respectively.</title>
+<year datatype='integer'>1989</year>
+<author datatype='string'>Eick-Helmerich K</author>
+<author datatype='string'>Braun V</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-7642501' orgid='ECOLI' frameid='PUB-7642501' detail='full'><source datatype='string'>J Bacteriol 177(16);4742-7</source>
+<pubmed-id datatype='string'>7642501</pubmed-id>
+<title datatype='string'>Characterization of the exbBD operon of Escherichia coli and the role of ExbB and ExbD in TonB function and stability.</title>
+<year datatype='integer'>1995</year>
+<author datatype='string'>Ahmer BM</author>
+<author datatype='string'>Thomas MG</author>
+<author datatype='string'>Larsen RA</author>
+<author datatype='string'>Postle K</author>
+</Publication>
+</citation>
+<component><Terminator ID='ECOLI:TERM081' orgid='ECOLI' frameid='TERM081' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>3150576</right-end-position>
+<left-end-position datatype='integer'>3150552</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-2670903' orgid='ECOLI' frameid='PUB-2670903'/></citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU00265' orgid='ECOLI' frameid='TU00265'/><Transcription-Unit resource='#ECOLI:TU0-2562' orgid='ECOLI' frameid='TU0-2562'/></component-of>
+</Terminator>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-2004' orgid='ECOLI' frameid='BS0-2004' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6389' orgid='ECOLI' frameid='REG0-6389' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7639' orgid='ECOLI' frameid='CPLX0-7639'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-2743' orgid='ECOLI' frameid='PM0-2743' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>exbDp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3151390</absolute-plus-1-pos>
+<comment datatype='string'>We assigned a putative transcription start site to this promoter based on  the observation that the majority of the promoters, whose transcription start sites were determined experimentally, present a distance of 6 nucleotides between the transcription start site  and the -10 box.
+</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-2670903' orgid='ECOLI' frameid='PUB-2670903'/></citation>
+<regulated-by><Regulation resource='#ECOLI:REG0-6389' orgid='ECOLI' frameid='REG0-6389'/></regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-2562' orgid='ECOLI' frameid='TU0-2562'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-2670903' orgid='ECOLI' frameid='PUB-2670903'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-10411720' orgid='ECOLI' frameid='PUB-10411720' detail='full'><source datatype='string'>Mol Microbiol 33(1);18-32</source>
+<pubmed-id datatype='string'>10411720</pubmed-id>
+<title datatype='string'>Differential fiu-lacZ fusion regulation linked to Escherichia coli colony development.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>Newman DL</author>
+<author datatype='string'>Shapiro JA</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-10411720' orgid='ECOLI' frameid='PUB-10411720'/></citation>
+<abs-center-pos datatype='integer'>3151436</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-2562' orgid='ECOLI' frameid='TU0-2562'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10272' orgid='ECOLI' frameid='EG10272'/></component>
+<component><Promoter resource='#ECOLI:PM0-2743' orgid='ECOLI' frameid='PM0-2743'/></component>
+</Transcription-Unit>
+</ptools-xml>

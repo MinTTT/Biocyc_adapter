@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU281'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU281</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU281' orgid='ECOLI' frameid='TU281' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rseD-rpoE-rseABC</common-name>
+<comment datatype='string'>Further genetic characterization and sequence analysis showed that &lt;i&gt;rpoE&lt;/i&gt; is part of a four-gene operon (&lt;i&gt;rpoE-rseA-rseB-rseC&lt;/i&gt;).
+&lt;p&gt;
+An integrated transcriptomic study of the extracytoplasmic stress response, which detects and responds to alterations of the bacterial envelope, was performed by Bury-Mor&#xc3;&#xa9; et al. (2009). They investigated the interconnections and dynamics between Bae, Cpx, Psp, Rcs, and &amp;sigma;&lt;sup&gt;E&lt;/sup&gt; pathways and showed that these pathways can be activated simultaneously in response to exogenous or endogenous stimulation, while natural environmental stimuli provoke bacterial modifications that lead to multiple pathway responses [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/19763168&quot;&gt;BuryMone09&lt;/a&gt;]. 
+&lt;p&gt;
+Each of these responses might be specialized to ensure a specific aspect of envelope biogenesis and maintenance; on the other hand, CpxR could have a role as a modulator of the response by integrating other endogenous signals. Bury-Mor&#xc3;&#xa9; et al. concluded that all five pathways are needed to mount a full response to extracytoplasmic stress [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/19763168&quot;&gt;BuryMone09&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-9159522' orgid='ECOLI' frameid='PUB-9159522' detail='full'><source datatype='string'>Mol Microbiol 24(2);355-71</source>
+<pubmed-id datatype='string'>9159522</pubmed-id>
+<title datatype='string'>Modulation of the Escherichia coli sigmaE (RpoE) heat-shock transcription-factor activity by the RseA, RseB and RseC proteins.</title>
+<year datatype='integer'>1997</year>
+<author datatype='string'>Missiakas D</author>
+<author datatype='string'>Mayer MP</author>
+<author datatype='string'>Lemaire M</author>
+<author datatype='string'>Georgopoulos C</author>
+<author datatype='string'>Raina S</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-7889935' orgid='ECOLI' frameid='PUB-7889935' detail='full'><source datatype='string'>EMBO J 14(5);1043-55</source>
+<pubmed-id datatype='string'>7889935</pubmed-id>
+<title datatype='string'>The rpoE gene encoding the sigma E (sigma 24) heat shock sigma factor of Escherichia coli.</title>
+<year datatype='integer'>1995</year>
+<author datatype='string'>Raina S</author>
+<author datatype='string'>Missiakas D</author>
+<author datatype='string'>Georgopoulos C</author>
+</Publication>
+</citation>
+<component><Gene resource='getxml?ECOLI:G0-16690' orgid='ECOLI' frameid='G0-16690'/></component>
+<component><DNA-Binding-Site ID='ECOLI:BS-7076' orgid='ECOLI' frameid='BS-7076' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-5043' orgid='ECOLI' frameid='REG0-5043' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7748' orgid='ECOLI' frameid='CPLX0-7748'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM361' orgid='ECOLI' frameid='PM361' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>rseDp4</common-name>
+<synonym datatype='string'>rpoEp1</synonym>
+<synonym datatype='string'>rpoEp1a</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2710186</absolute-plus-1-pos>
+<comment datatype='string'>There are no obvious &amp;sigma;&lt;sup&gt;70&lt;/sup&gt; consensus promoter sequences upstream of this promoter.</comment>
+<citation><Publication resource='#ECOLI:PUB-7889935' orgid='ECOLI' frameid='PUB-7889935'/></citation>
+<citation><Publication ID='ECOLI:PUB-16159766' orgid='ECOLI' frameid='PUB-16159766' detail='full'><source datatype='string'>J Bacteriol 187(18);6333-40</source>
+<pubmed-id datatype='string'>16159766</pubmed-id>
+<title datatype='string'>Transcriptional response of Escherichia coli to external zinc.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Yamamoto K</author>
+<author datatype='string'>Ishihama A</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-7889935' orgid='ECOLI' frameid='PUB-7889935'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-16159766' orgid='ECOLI' frameid='PUB-16159766'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-5043' orgid='ECOLI' frameid='REG0-5043'/></regulated-by>
+<component-of><Transcription-Unit resource='#ECOLI:TU281' orgid='ECOLI' frameid='TU281'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on similarity to consensus sequences</common-name>
+<comment datatype='string'>A DNA sequence similar to previously known consensus sequences is computationally identified.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-11953442' orgid='ECOLI' frameid='PUB-11953442' detail='full'><source datatype='string'>J Biol Chem 277(29);26652-61</source>
+<pubmed-id datatype='string'>11953442</pubmed-id>
+<title datatype='string'>Genome-wide profiling of promoter recognition by the two-component response regulator CpxR-P in Escherichia coli.</title>
+<year datatype='integer'>2002</year>
+<author datatype='string'>De Wulf P</author>
+<author datatype='string'>McGuire AM</author>
+<author datatype='string'>Liu X</author>
+<author datatype='string'>Lin EC</author>
+</Publication>
+</evidence>
+<site-length datatype='integer'>15</site-length>
+<abs-center-pos datatype='integer'>2710120</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU281' orgid='ECOLI' frameid='TU281'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:G7347' orgid='ECOLI' frameid='G7347'/></component>
+<component><Gene resource='getxml?ECOLI:G7348' orgid='ECOLI' frameid='G7348'/></component>
+<component><Gene resource='getxml?ECOLI:EG12341' orgid='ECOLI' frameid='EG12341'/></component>
+<component><Gene resource='getxml?ECOLI:EG11897' orgid='ECOLI' frameid='EG11897'/></component>
+<component><Promoter resource='#ECOLI:PM361' orgid='ECOLI' frameid='PM361'/></component>
+</Transcription-Unit>
+</ptools-xml>

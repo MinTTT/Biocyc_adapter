@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-14759'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-14759</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-14759' orgid='ECOLI' frameid='TU0-14759' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>tsaE-amiB-mutL-miaA-hfq-hflXKC</common-name>
+<synonym datatype='string'>yjeE-amiB-mutL-miaA-hfq-hflXKC</synonym>
+<component><Gene resource='getxml?ECOLI:EG10435' orgid='ECOLI' frameid='EG10435'/></component>
+<component><Gene resource='getxml?ECOLI:EG10436' orgid='ECOLI' frameid='EG10436'/></component>
+<component><Gene resource='getxml?ECOLI:EG10437' orgid='ECOLI' frameid='EG10437'/></component>
+<component><Gene resource='getxml?ECOLI:EG10438' orgid='ECOLI' frameid='EG10438'/></component>
+<component><Gene resource='getxml?ECOLI:EG10595' orgid='ECOLI' frameid='EG10595'/></component>
+<component><Gene resource='getxml?ECOLI:EG11281' orgid='ECOLI' frameid='EG11281'/></component>
+<component><Gene resource='getxml?ECOLI:EG11363' orgid='ECOLI' frameid='EG11363'/></component>
+<component><Gene resource='getxml?ECOLI:EG11757' orgid='ECOLI' frameid='EG11757'/></component>
+<component><Promoter ID='ECOLI:PM0-10404' orgid='ECOLI' frameid='PM0-10404' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>tsaEp</common-name>
+<synonym datatype='string'>yjeEp</synonym>
+<comment datatype='string'>Promoter activity for the &lt;i&gt;yjeE&lt;/i&gt; gene was described by Mangat and Brown (2008) [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/19101473&quot;&gt;Mangat08&lt;/a&gt;] and was based on gene expression analysis. The transcriptional start site for the &lt;i&gt;yjeE&lt;/i&gt; gene has not been determined experimentally.</comment>
+<citation><Publication ID='ECOLI:PUB-19101473' orgid='ECOLI' frameid='PUB-19101473' detail='full'><source datatype='string'>Chem Biol 15(12);1287-95</source>
+<pubmed-id datatype='string'>19101473</pubmed-id>
+<title datatype='string'>Known bioactive small molecules probe the function of a widely conserved but enigmatic bacterial ATPase, YjeE.</title>
+<year datatype='integer'>2008</year>
+<author datatype='string'>Mangat CS</author>
+<author datatype='string'>Brown ED</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-19101473' orgid='ECOLI' frameid='PUB-19101473'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-14759' orgid='ECOLI' frameid='TU0-14759'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

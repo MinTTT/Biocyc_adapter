@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-6885'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-6885</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-6885' orgid='ECOLI' frameid='TU0-6885' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>yhfG-fic-pabA</common-name>
+<comment datatype='string'>It has been observed that the transcriptional regulator IHF binds near the start gene of &lt;i&gt;fic&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/34475859&quot;&gt;Kasho21&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-2403545' orgid='ECOLI' frameid='PUB-2403545' detail='full'><source datatype='string'>J Bacteriol 172(1);397-410</source>
+<pubmed-id datatype='string'>2403545</pubmed-id>
+<title datatype='string'>Chromosomal organization and expression of Escherichia coli pabA.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>Tran PV</author>
+<author datatype='string'>Bannor TA</author>
+<author datatype='string'>Doktor SZ</author>
+<author datatype='string'>Nichols BP</author>
+<doi-id datatype='string'>10.1128/jb.172.1.397-410.1990</doi-id>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2403545' orgid='ECOLI' frameid='PUB-2403545'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><Gene resource='getxml?ECOLI:EG10682' orgid='ECOLI' frameid='EG10682'/></component>
+<component><Gene resource='getxml?ECOLI:EG10307' orgid='ECOLI' frameid='EG10307'/></component>
+<component><Gene resource='getxml?ECOLI:EG12374' orgid='ECOLI' frameid='EG12374'/></component>
+<component><Promoter ID='ECOLI:PM00447' orgid='ECOLI' frameid='PM00447' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>3491654</minus-10-left>
+<common-name datatype='string'>yhfGp</common-name>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>pabAp2</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3491648</absolute-plus-1-pos>
+<comment datatype='string'>The -35 region of this promoter is not essential to  &lt;i&gt;fic&lt;/i&gt; gene transcription [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/8825088&quot;&gt;Hiratsu95&lt;/a&gt;]</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred by a human based on computational evidence</common-name>
+<comment datatype='string'>Human inference.  A curator or author inferred this assertion after review of one or more possible types 
+of computational evidence such as sequence similarity, recognized motifs or consensus sequence, etc.  
+When the inference was made by a computer in an automated fashion, use EV-AINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-8270191' orgid='ECOLI' frameid='PUB-8270191' detail='full'><source datatype='string'>FEMS Microbiol Lett 113(3);273-8</source>
+<pubmed-id datatype='string'>8270191</pubmed-id>
+<title datatype='string'>Stationary phase-specific expression of the fic gene in Escherichia coli K-12 is controlled by the rpoS gene product (sigma 38).</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>Utsumi R</author>
+<author datatype='string'>Kusafuka S</author>
+<author datatype='string'>Nakayama T</author>
+<author datatype='string'>Tanaka K</author>
+<author datatype='string'>Takayanagi Y</author>
+<author datatype='string'>Takahashi H</author>
+<author datatype='string'>Noda M</author>
+<author datatype='string'>Kawamukai M</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/><Publication resource='#ECOLI:PUB-2403545' orgid='ECOLI' frameid='PUB-2403545'/></evidence>
+<citation><Publication resource='#ECOLI:PUB-2403545' orgid='ECOLI' frameid='PUB-2403545'/></citation>
+<citation><Publication ID='ECOLI:PUB-8825088' orgid='ECOLI' frameid='PUB-8825088' detail='full'><source datatype='string'>Mol Microbiol 18(5);841-50</source>
+<pubmed-id datatype='string'>8825088</pubmed-id>
+<title datatype='string'>Mode of promoter recognition by the Escherichia coli RNA polymerase holoenzyme containing the sigma S subunit: identification of the recognition sequence of the fic promoter.</title>
+<year datatype='integer'>1995</year>
+<author datatype='string'>Hiratsu K</author>
+<author datatype='string'>Shinagawa H</author>
+<author datatype='string'>Makino K</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-10692161' orgid='ECOLI' frameid='PUB-10692161' detail='full'><source datatype='string'>Mol Microbiol 35(4);845-53</source>
+<pubmed-id datatype='string'>10692161</pubmed-id>
+<title datatype='string'>Involvement of differential efficiency of transcription by esigmas and esigma70 RNA polymerase holoenzymes in growth phase regulation of the Escherichia coli osmE promoter.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Bordes P</author>
+<author datatype='string'>Repoila F</author>
+<author datatype='string'>Kolb A</author>
+<author datatype='string'>Gutierrez C</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-8270191' orgid='ECOLI' frameid='PUB-8270191'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2403545' orgid='ECOLI' frameid='PUB-2403545'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-8270191' orgid='ECOLI' frameid='PUB-8270191'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10692161' orgid='ECOLI' frameid='PUB-10692161'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-RNA-POLYMERASE-FOOTPRINTING' orgid='ECOLI' frameid='EV-EXP-IDA-RNA-POLYMERASE-FOOTPRINTING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>RNA polymerase footprinting</common-name>
+<comment datatype='string'>The binding of RNA polymerase to a DNA region (the promoter) is shown by footprinting.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8825088' orgid='ECOLI' frameid='PUB-8825088'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from mutant phenotype</common-name>
+<comment datatype='string'>IMP inferred from mutant phenotype.
+
+&lt;br&gt;
+The assertion was inferred from a mutant phenotype such as
+&lt;ul&gt;
+    &lt;li&gt; Any gene mutation/knockout
+    &lt;li&gt; Overexpression/ectopic expression of wild-type or mutant genes
+    &lt;li&gt; Anti-sense experiments
+    &lt;li&gt; RNA interference experiments
+    &lt;li&gt; Specific protein inhibitors
+    &lt;li&gt; Complementation
+&lt;/ul&gt;&lt;p class=ecocomment&gt;	
+Comment: Inferences made from examining mutations or
+abnormal levels of only the product(s) of the gene of interest are covered by code EV-IMP
+(compare to code EV-IGI). Use this code for experiments that use antibodies 
+or other specific inhibitors of RNA or protein activity, even though no
+gene may be mutated (the rationale is that EV-IMP is used where an
+abnormal situation prevails in a cell or organism).
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8825088' orgid='ECOLI' frameid='PUB-8825088'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8270191' orgid='ECOLI' frameid='PUB-8270191'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' class='true'/><Publication resource='#ECOLI:PUB-2403545' orgid='ECOLI' frameid='PUB-2403545'/></evidence>
+<minus-10-right datatype='integer'>3491659</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-6885' orgid='ECOLI' frameid='TU0-6885'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

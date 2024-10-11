@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42686'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42686</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42686' orgid='ECOLI' frameid='TU0-42686' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>yihUTS</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><Promoter ID='ECOLI:PM0-46398' orgid='ECOLI' frameid='PM0-46398' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>yihUp2</common-name>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4073596</absolute-plus-1-pos>
+<comment datatype='string'>The sequence for the &lt;i&gt;yihU&lt;/i&gt;p2 promoter was not shown. Only the position with respect to its ATG is mentioned in the article [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/29453395&quot;&gt;Kaznadzey18&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-29453395' orgid='ECOLI' frameid='PUB-29453395' detail='full'><source datatype='string'>Sci Rep 8(1);3177</source>
+<pubmed-id datatype='string'>29453395</pubmed-id>
+<title datatype='string'>The genes of the sulphoquinovose catabolism in Escherichia coli are also associated with a previously unknown pathway of lactose degradation.</title>
+<year datatype='integer'>2018</year>
+<author datatype='string'>Kaznadzey A</author>
+<author datatype='string'>Shelyakin P</author>
+<author datatype='string'>Belousova E</author>
+<author datatype='string'>Eremina A</author>
+<author datatype='string'>Shvyreva U</author>
+<author datatype='string'>Bykova D</author>
+<author datatype='string'>Emelianenko V</author>
+<author datatype='string'>Korosteleva A</author>
+<author datatype='string'>Tutukina M</author>
+<author datatype='string'>Gelfand MS</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-20689751' orgid='ECOLI' frameid='PUB-20689751' detail='full'><source datatype='string'>MBio 1(1)</source>
+<pubmed-id datatype='string'>20689751</pubmed-id>
+<title datatype='string'>Widespread antisense transcription in Escherichia coli.</title>
+<year datatype='integer'>2010</year>
+<author datatype='string'>Dornenburg JE</author>
+<author datatype='string'>Devita AM</author>
+<author datatype='string'>Palumbo MJ</author>
+<author datatype='string'>Wade JT</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-RNA-SEQ' orgid='ECOLI' frameid='EV-EXP-IEP-RNA-SEQ' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-HTP-HEP' orgid='ECOLI' frameid='EV-HTP-HEP' class='true'/></parent>
+<common-name datatype='string'>High-throughput RNA-seq evidence</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0000295</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0000295</dblink-URL>
+</dblink>
+<credits><imported-from-meta><date datatype='date'>2018-03-05</date>
+<Person ID='ECOLI:paley' orgid='ECOLI' frameid='paley' detail='full'><affiliations><Organization ID='ECOLI:SRI' orgid='ECOLI' frameid='SRI' detail='full'><abbrev-name datatype='string'>SRI International</abbrev-name>
+<email datatype='string'>ptools-support@ai.sri.com</email>
+<common-name datatype='string'>SRI International</common-name>
+<url datatype='string'>http://bioinformatics.ai.sri.com/</url>
+</Organization>
+</affiliations>
+<common-name datatype='string'>Suzanne Paley</common-name>
+</Person>
+<Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A type of transcript evidence based on high-throughput sequencing of fragmented cDNA molecules.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-20689751' orgid='ECOLI' frameid='PUB-20689751'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-29453395' orgid='ECOLI' frameid='PUB-29453395'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference of promoter position</common-name>
+<comment datatype='string'>Automated inference of promoter position relative to the -10 and -35 boxes.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-29453395' orgid='ECOLI' frameid='PUB-29453395'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42686' orgid='ECOLI' frameid='TU0-42686'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11845' orgid='ECOLI' frameid='EG11845'/></component>
+<component><Gene resource='getxml?ECOLI:EG11846' orgid='ECOLI' frameid='EG11846'/></component>
+<component><Gene resource='getxml?ECOLI:EG11847' orgid='ECOLI' frameid='EG11847'/></component>
+</Transcription-Unit>
+</ptools-xml>

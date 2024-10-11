@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00059'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00059</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00059' orgid='ECOLI' frameid='TU00059' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>purR</common-name>
+<synonym datatype='string'>OP00081</synonym>
+<citation><Publication ID='ECOLI:PUB-2404765' orgid='ECOLI' frameid='PUB-2404765' detail='full'><source datatype='string'>Eur J Biochem 187(2);373-9</source>
+<pubmed-id datatype='string'>2404765</pubmed-id>
+<title datatype='string'>Autoregulation of PurR repressor synthesis and involvement of purR in the regulation of purB, purC, purL, purMN and guaBA expression in Escherichia coli.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>Meng LM</author>
+<author datatype='string'>Kilstrup M</author>
+<author datatype='string'>Nygaard P</author>
+</Publication>
+</citation>
+<regulated-by><Regulation ID='ECOLI:REG0-12341' orgid='ECOLI' frameid='REG0-12341' detail='low'><parent><Regulation resource='getxml?ECOLI:RNA-Mediated-Translation-Regulation' orgid='ECOLI' frameid='RNA-Mediated-Translation-Regulation' class='true'/></parent>
+<regulator><RNA resource='getxml?ECOLI:RNA0-241' orgid='ECOLI' frameid='RNA0-241'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU00059' orgid='ECOLI' frameid='TU00059'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<component><DNA-Binding-Site ID='ECOLI:BS0-6943' orgid='ECOLI' frameid='BS0-6943' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-5642' orgid='ECOLI' frameid='REG0-5642' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7639' orgid='ECOLI' frameid='CPLX0-7639'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM00081' orgid='ECOLI' frameid='PM00081' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>1737675</minus-10-left>
+<common-name datatype='string'>purRp</common-name>
+<minus-35-right datatype='integer'>1737657</minus-35-right>
+<minus-35-left datatype='integer'>1737652</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1737689</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-3058704' orgid='ECOLI' frameid='PUB-3058704' detail='full'><source datatype='string'>J Biol Chem 263(36);19653-61</source>
+<pubmed-id datatype='string'>3058704</pubmed-id>
+<title datatype='string'>Escherichia coli gene purR encoding a repressor protein for purine nucleotide synthesis. Cloning, nucleotide sequence, and interaction with the purF operator.</title>
+<year datatype='integer'>1988</year>
+<author datatype='string'>Rolfes RJ</author>
+<author datatype='string'>Zalkin H</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-2198266' orgid='ECOLI' frameid='PUB-2198266' detail='full'><source datatype='string'>J Bacteriol 172(8);4555-62</source>
+<pubmed-id datatype='string'>2198266</pubmed-id>
+<title datatype='string'>Genes of the Escherichia coli pur regulon are negatively controlled by a repressor-operator interaction.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>He B</author>
+<author datatype='string'>Shiau A</author>
+<author datatype='string'>Choi KY</author>
+<author datatype='string'>Zalkin H</author>
+<author datatype='string'>Smith JM</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3058704' orgid='ECOLI' frameid='PUB-3058704'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-5644' orgid='ECOLI' frameid='REG0-5644' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX-123' orgid='ECOLI' frameid='CPLX-123'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00081' orgid='ECOLI' frameid='PM00081'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5643' orgid='ECOLI' frameid='REG0-5643' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX-123' orgid='ECOLI' frameid='CPLX-123'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00081' orgid='ECOLI' frameid='PM00081'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-5642' orgid='ECOLI' frameid='REG0-5642'/></regulated-by>
+<minus-10-right datatype='integer'>1737680</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00059' orgid='ECOLI' frameid='TU00059'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-8107138' orgid='ECOLI' frameid='PUB-8107138' detail='full'><source datatype='string'>J Mol Biol 236(2);531-45</source>
+<pubmed-id datatype='string'>8107138</pubmed-id>
+<title datatype='string'>Fur regulon in gram-negative bacteria. Identification and characterization of new iron-regulated Escherichia coli genes by a fur titration assay.</title>
+<year datatype='integer'>1994</year>
+<author datatype='string'>Stojiljkovic I</author>
+<author datatype='string'>Baumler AJ</author>
+<author datatype='string'>Hantke K</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on similarity to consensus sequences</common-name>
+<comment datatype='string'>A DNA sequence similar to previously known consensus sequences is computationally identified.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8107138' orgid='ECOLI' frameid='PUB-8107138'/></evidence>
+<abs-center-pos datatype='integer'>1737640</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00059' orgid='ECOLI' frameid='TU00059'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Promoter resource='#ECOLI:PM00081' orgid='ECOLI' frameid='PM00081'/></component>
+<component><DNA-Binding-Site ID='ECOLI:BS00182' orgid='ECOLI' frameid='BS00182' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5643' orgid='ECOLI' frameid='REG0-5643'/></involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-2404765' orgid='ECOLI' frameid='PUB-2404765'/></citation>
+<citation><Publication ID='ECOLI:PUB-2211510' orgid='ECOLI' frameid='PUB-2211510' detail='full'><source datatype='string'>J Bacteriol 172(10);5758-66</source>
+<pubmed-id datatype='string'>2211510</pubmed-id>
+<title datatype='string'>Autoregulation of Escherichia coli purR requires two control sites downstream of the promoter.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>Rolfes RJ</author>
+<author datatype='string'>Zalkin H</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-21572102' orgid='ECOLI' frameid='PUB-21572102' detail='full'><source datatype='string'>Nucleic Acids Res 39(15);6456-64</source>
+<pubmed-id datatype='string'>21572102</pubmed-id>
+<title datatype='string'>The PurR regulon in Escherichia coli K-12 MG1655.</title>
+<year datatype='integer'>2011</year>
+<author datatype='string'>Cho BK</author>
+<author datatype='string'>Federowicz SA</author>
+<author datatype='string'>Embree M</author>
+<author datatype='string'>Park YS</author>
+<author datatype='string'>Kim D</author>
+<author datatype='string'>Palsson BO</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2404765' orgid='ECOLI' frameid='PUB-2404765'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2404765' orgid='ECOLI' frameid='PUB-2404765'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Site mutation</common-name>
+<comment datatype='string'>A cis-mutation in the DNA sequence of the transcription-factor binding site interferes with the operation of the regulatory function. This is considered  strong evidence for the existence and functional role of the DNA binding site.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2211510' orgid='ECOLI' frameid='PUB-2211510'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-21572102' orgid='ECOLI' frameid='PUB-21572102'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-2211510' orgid='ECOLI' frameid='PUB-2211510'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of cellular extracts</common-name>
+<comment datatype='string'>There exists physical evidence of the binding of cellular extracts containing 
+a regulatory protein to its DNA binding site.  This can be either by 
+footprinting or mobility shift assays.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2211510' orgid='ECOLI' frameid='PUB-2211510'/></evidence>
+<abs-center-pos datatype='float'>1737791.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00059' orgid='ECOLI' frameid='TU00059'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS00183' orgid='ECOLI' frameid='BS00183' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-5644' orgid='ECOLI' frameid='REG0-5644'/></involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-2404765' orgid='ECOLI' frameid='PUB-2404765'/></citation>
+<citation><Publication resource='#ECOLI:PUB-2211510' orgid='ECOLI' frameid='PUB-2211510'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-2404765' orgid='ECOLI' frameid='PUB-2404765'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-2211510' orgid='ECOLI' frameid='PUB-2211510'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' class='true'/><Publication resource='#ECOLI:PUB-2211510' orgid='ECOLI' frameid='PUB-2211510'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS' class='true'/><Publication resource='#ECOLI:PUB-2211510' orgid='ECOLI' frameid='PUB-2211510'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-2404765' orgid='ECOLI' frameid='PUB-2404765'/></evidence>
+<abs-center-pos datatype='float'>1737879.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU00059' orgid='ECOLI' frameid='TU00059'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10800' orgid='ECOLI' frameid='EG10800'/></component>
+</Transcription-Unit>
+</ptools-xml>

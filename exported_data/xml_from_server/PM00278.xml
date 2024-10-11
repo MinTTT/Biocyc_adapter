@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM00278'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM00278</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM00278' orgid='ECOLI' frameid='PM00278' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>354872</minus-10-left>
+<common-name datatype='string'>codBp</common-name>
+<minus-35-right datatype='integer'>354855</minus-35-right>
+<minus-35-left datatype='integer'>354850</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>354884</absolute-plus-1-pos>
+<comment datatype='string'>There are two &lt;i&gt;codBA&lt;/i&gt; transcriptional start positions, G7 and A8, relative to the -10 box. A8 always leads to reiterative transcription and the synthesis of transcripts with sequence AUUUUn, which are not extended downstream to include the &lt;i&gt;codBA&lt;/i&gt; structural gene sequences. The G7 does not engage in reiterative transcription, which permits them to be extended downstream to generate productive &lt;i&gt;codBA&lt;/i&gt; mRNA [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/7500333&quot;&gt;Qi95&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-7500333' orgid='ECOLI' frameid='PUB-7500333' detail='full'><source datatype='string'>J Mol Biol 254(4);552-65</source>
+<pubmed-id datatype='string'>7500333</pubmed-id>
+<title datatype='string'>Regulation of codBA operon expression in Escherichia coli by UTP-dependent reiterative transcription and UTP-sensitive transcriptional start site switching.</title>
+<year datatype='integer'>1995</year>
+<author datatype='string'>Qi F</author>
+<author datatype='string'>Turnbough CL</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-32916947' orgid='ECOLI' frameid='PUB-32916947' detail='full'><source datatype='string'>Biomolecules 10(9)</source>
+<pubmed-id datatype='string'>32916947</pubmed-id>
+<title datatype='string'>Control of Transcription Initiation by Biased Thermal Fluctuations on Repetitive Genomic Sequences.</title>
+<year datatype='integer'>2020</year>
+<author datatype='string'>Imashimizu M</author>
+<author datatype='string'>Tokunaga Y</author>
+<author datatype='string'>Afek A</author>
+<author datatype='string'>Takahashi H</author>
+<author datatype='string'>Shimamoto N</author>
+<author datatype='string'>Lukatsky DB</author>
+<doi-id datatype='string'>10.3390/biom10091299</doi-id>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-7500333' orgid='ECOLI' frameid='PUB-7500333'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-7500333' orgid='ECOLI' frameid='PUB-7500333'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from direct assay</common-name>
+<comment datatype='string'>IDA inferred from direct assay.
+
+&lt;br&gt;
+The assertion was inferred from a direct experimental assay such as
+&lt;ul&gt;
+    &lt;li&gt; Enzyme assays
+    &lt;li&gt; In vitro reconstitution (e.g. transcription)
+    &lt;li&gt; Immunofluorescence
+    &lt;li&gt; Cell fractionation
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-32916947' orgid='ECOLI' frameid='PUB-32916947'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-5735' orgid='ECOLI' frameid='REG0-5735' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX-123' orgid='ECOLI' frameid='CPLX-123'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00278' orgid='ECOLI' frameid='PM00278'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5734' orgid='ECOLI' frameid='REG0-5734' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:G7072-MONOMER' orgid='ECOLI' frameid='G7072-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00278' orgid='ECOLI' frameid='PM00278'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>354877</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU00197' orgid='ECOLI' frameid='TU00197'/></component-of>
+</Promoter>
+</ptools-xml>

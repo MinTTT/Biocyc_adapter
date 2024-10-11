@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU682'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU682</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU682' orgid='ECOLI' frameid='TU682' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rpmH-rnpA</common-name>
+<citation><Publication ID='ECOLI:PUB-2415431' orgid='ECOLI' frameid='PUB-2415431' detail='full'><source datatype='string'>Gene 38(1-3);85-93</source>
+<pubmed-id datatype='string'>2415431</pubmed-id>
+<title datatype='string'>Physical mapping and nucleotide sequence of the rnpA gene that encodes the protein component of ribonuclease P in Escherichia coli.</title>
+<year datatype='integer'>1985</year>
+<author datatype='string'>Hansen FG</author>
+<author datatype='string'>Hansen EB</author>
+<author datatype='string'>Atlung T</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-6329723' orgid='ECOLI' frameid='PUB-6329723' detail='full'><source datatype='string'>EMBO J 1(9);1043-8</source>
+<pubmed-id datatype='string'>6329723</pubmed-id>
+<title datatype='string'>The nucleotide sequence of the dnaA gene promoter and of the adjacent rpmH gene, coding for the ribosomal protein L34, of Escherichia coli.</title>
+<year datatype='integer'>1982</year>
+<author datatype='string'>Hansen FG</author>
+<author datatype='string'>Hansen EB</author>
+<author datatype='string'>Atlung T</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2415431' orgid='ECOLI' frameid='PUB-2415431'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG10862' orgid='ECOLI' frameid='EG10862'/></component>
+<component><Gene resource='getxml?ECOLI:EG10892' orgid='ECOLI' frameid='EG10892'/></component>
+<component><Promoter ID='ECOLI:PM00469' orgid='ECOLI' frameid='PM00469' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<common-name datatype='string'>rpmHp2</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3884237</absolute-plus-1-pos>
+<comment datatype='string'>This promoter appears to be induced in two phases after &amp;sigma;E induction. It is induced during the first 5 minutes following &amp;sigma;E induction, decreased from 5 to 10 minutes, induced from 10 to 15 minutes, and decreased from 15 to 20 minutes [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31992590&quot;&gt;Lacoux20&lt;/a&gt;].
+</comment>
+<citation><Publication resource='#ECOLI:PUB-6329723' orgid='ECOLI' frameid='PUB-6329723'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-6329723' orgid='ECOLI' frameid='PUB-6329723'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU682' orgid='ECOLI' frameid='TU682'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

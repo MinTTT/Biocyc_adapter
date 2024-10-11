@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-3581'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-3581</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-3581' orgid='ECOLI' frameid='TU0-3581' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>argT-hisJQMP</common-name>
+<citation><Publication ID='ECOLI:PUB-11121068' orgid='ECOLI' frameid='PUB-11121068' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 97(26);14674-9</source>
+<pubmed-id datatype='string'>11121068</pubmed-id>
+<title datatype='string'>Nitrogen regulatory protein C-controlled genes of Escherichia coli: scavenging as a defense against nitrogen limitation.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Zimmer DP</author>
+<author datatype='string'>Soupene E</author>
+<author datatype='string'>Lee HL</author>
+<author datatype='string'>Wendisch VF</author>
+<author datatype='string'>Khodursky AB</author>
+<author datatype='string'>Peter BJ</author>
+<author datatype='string'>Bender RA</author>
+<author datatype='string'>Kustu S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-IC-ADJ-GENES-SAME-BIO-PROCESS' orgid='ECOLI' frameid='EV-IC-ADJ-GENES-SAME-BIO-PROCESS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' class='true'/></parent>
+<common-name datatype='string'>Products of adjacent genes in the same biological process</common-name>
+<comment datatype='string'>A transcription unit is inferred because there is a set of adjacent genes,
+encoded in the same direction, coding for products that participate in the
+same metabolic pathway or biological process. Sometimes, these genes code
+for subunits of the same protein.</comment>
+</Evidence-Code>
+</evidence>
+<component><Gene resource='getxml?ECOLI:EG10452' orgid='ECOLI' frameid='EG10452'/></component>
+<component><Gene resource='getxml?ECOLI:EG10007' orgid='ECOLI' frameid='EG10007'/></component>
+<component><Gene resource='getxml?ECOLI:EG12125' orgid='ECOLI' frameid='EG12125'/></component>
+<component><Gene resource='getxml?ECOLI:EG12124' orgid='ECOLI' frameid='EG12124'/></component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-2661' orgid='ECOLI' frameid='BS0-2661' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6314' orgid='ECOLI' frameid='REG0-6314' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8566' orgid='ECOLI' frameid='CPLX0-8566'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-3781' orgid='ECOLI' frameid='PM0-3781' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>2427859</minus-10-left>
+<common-name datatype='string'>argTp</common-name>
+<minus-35-right datatype='integer'>2427875</minus-35-right>
+<minus-35-left datatype='integer'>2427870</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPON-MONOMER' orgid='ECOLI' frameid='RPON-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2427849</absolute-plus-1-pos>
+<comment datatype='string'>We assigned a putative transcription start site to this promoter based on the observation that the majority of the &amp;sigma;&lt;sup&gt;54&lt;/sup&gt;-dependent promoters, whose transcription start sites were determined experimentally, present a distance of 11 nucleotides between the transcription start site and the -12 box [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/10536136&quot;&gt;Barrios99&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-11528004' orgid='ECOLI' frameid='PUB-11528004' detail='full'><source datatype='string'>Microbiol Mol Biol Rev 65(3);422-44, table of contents</source>
+<pubmed-id datatype='string'>11528004</pubmed-id>
+<title datatype='string'>Metabolic context and possible physiological themes of sigma(54)-dependent genes in Escherichia coli.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Reitzer L</author>
+<author datatype='string'>Schneider BL</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-10536136' orgid='ECOLI' frameid='PUB-10536136' detail='full'><source datatype='string'>Nucleic Acids Res 27(22);4305-13</source>
+<pubmed-id datatype='string'>10536136</pubmed-id>
+<title datatype='string'>Compilation and analysis of sigma(54)-dependent promoter sequences.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>Barrios H</author>
+<author datatype='string'>Valderrama B</author>
+<author datatype='string'>Morett E</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-3118148' orgid='ECOLI' frameid='PUB-3118148' detail='full'><source datatype='string'>Mol Gen Genet 209(2);403-7</source>
+<pubmed-id datatype='string'>3118148</pubmed-id>
+<title datatype='string'>Nitrogen regulation of transport operons: analysis of promoters argTr and dhuA.</title>
+<year datatype='integer'>1987</year>
+<author datatype='string'>Schmitz G</author>
+<author datatype='string'>Durre P</author>
+<author datatype='string'>Mullenbach G</author>
+<author datatype='string'>Ames GF</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference of promoter position</common-name>
+<comment datatype='string'>Automated inference of promoter position relative to the -10 and -35 boxes.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11528004' orgid='ECOLI' frameid='PUB-11528004'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' class='true'/><Publication resource='#ECOLI:PUB-10536136' orgid='ECOLI' frameid='PUB-10536136'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' class='true'/><Publication resource='#ECOLI:PUB-3118148' orgid='ECOLI' frameid='PUB-3118148'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12687' orgid='ECOLI' frameid='REG0-12687' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Compound resource='getxml?ECOLI:GUANOSINE-5DP-3DP' orgid='ECOLI' frameid='GUANOSINE-5DP-3DP'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-3781' orgid='ECOLI' frameid='PM0-3781'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11533' orgid='ECOLI' frameid='REG0-11533' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8566' orgid='ECOLI' frameid='CPLX0-8566'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-3781' orgid='ECOLI' frameid='PM0-3781'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-6314' orgid='ECOLI' frameid='REG0-6314'/></regulated-by>
+<minus-10-right datatype='integer'>2427863</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-3581' orgid='ECOLI' frameid='TU0-3581'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</involved-in-regulation>
+<comment datatype='string'>The sequence of this binding site corresponds to a prediction that was generated using the matrices of RegulonDB [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/20923783&quot;&gt;MedinaRivera11&lt;/a&gt;]. The central position of its binding site was assigned by the curator according to the distance from the +1 position, and its function was assigned according to the mechanism of action of this regulator. The following computational evidence was assigned to the regulatory interaction: Automated inference based on similarity to consensus sequences.</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on similarity to consensus sequences</common-name>
+<comment datatype='string'>A DNA sequence similar to previously known consensus sequences is computationally identified.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-HTP-HDA-3D-SEQ' orgid='ECOLI' frameid='EV-HTP-HDA-3D-SEQ' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-HTP-HDA-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-HTP-HDA-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>High-throughput 3D-seq DNA-protein interaction mapping evidence</common-name>
+<credits><imported-from-meta><date datatype='date'>2022-12-15</date>
+<Person ID='ECOLI:paley' orgid='ECOLI' frameid='paley' detail='full'><affiliations><Organization ID='ECOLI:SRI' orgid='ECOLI' frameid='SRI' detail='full'><abbrev-name datatype='string'>SRI International</abbrev-name>
+<email datatype='string'>ptools-support@ai.sri.com</email>
+<common-name datatype='string'>SRI International</common-name>
+<url datatype='string'>http://bioinformatics.ai.sri.com/</url>
+</Organization>
+</affiliations>
+<common-name datatype='string'>Suzanne Paley</common-name>
+</Person>
+<Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>3D-seq (DddA-sequencing) mapping of DNA-protein interaction sites &lt;i&gt;in vivo&lt;/i&gt; using the double-stranded DNA-specific cytosine deaminase toxin DddA followed by genomic DNA sequencing.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-35650286' orgid='ECOLI' frameid='PUB-35650286' detail='full'><source datatype='string'>Nat Microbiol 7(6);844-855</source>
+<pubmed-id datatype='string'>35650286</pubmed-id>
+<title datatype='string'>Genome-wide protein-DNA interaction site mapping in bacteria using a double-stranded DNA-specific cytosine deaminase.</title>
+<year datatype='integer'>2022</year>
+<author datatype='string'>Gallagher LA</author>
+<author datatype='string'>Velazquez E</author>
+<author datatype='string'>Peterson SB</author>
+<author datatype='string'>Charity JC</author>
+<author datatype='string'>Radey MC</author>
+<author datatype='string'>Gebhardt MJ</author>
+<author datatype='string'>Hsu F</author>
+<author datatype='string'>Shull LM</author>
+<author datatype='string'>Cutler KJ</author>
+<author datatype='string'>Macareno K</author>
+<author datatype='string'>de Moraes MH</author>
+<author datatype='string'>Penewit KM</author>
+<author datatype='string'>Kim J</author>
+<author datatype='string'>Andrade PA</author>
+<author datatype='string'>LaFramboise T</author>
+<author datatype='string'>Salipante SJ</author>
+<author datatype='string'>Reniere ML</author>
+<author datatype='string'>de Lorenzo V</author>
+<author datatype='string'>Wiggins PA</author>
+<author datatype='string'>Dove SL</author>
+<author datatype='string'>Mougous JD</author>
+<doi-id datatype='string'>10.1038/s41564-022-01133-9</doi-id>
+</Publication>
+</evidence>
+<abs-center-pos datatype='integer'>2428039</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-3581' orgid='ECOLI' frameid='TU0-3581'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10072' orgid='ECOLI' frameid='EG10072'/></component>
+<component><Promoter resource='#ECOLI:PM0-3781' orgid='ECOLI' frameid='PM0-3781'/></component>
+</Transcription-Unit>
+</ptools-xml>

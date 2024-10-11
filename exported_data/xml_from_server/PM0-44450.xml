@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM0-44450'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM0-44450</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM0-44450' orgid='ECOLI' frameid='PM0-44450' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>345240</minus-10-left>
+<common-name datatype='string'>xtpAp</common-name>
+<minus-35-right datatype='integer'>345223</minus-35-right>
+<minus-35-left datatype='integer'>345218</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>yahMp4</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>345252</absolute-plus-1-pos>
+<comment datatype='string'>Similarity to the consensus sequence of the set of known functional promoters for this sigma factor with strong experimental evidence: high homology.  Score: 4.263.  P-value: 1.131e-5</comment>
+<citation><Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-35081614' orgid='ECOLI' frameid='PUB-35081614' detail='full'><source datatype='string'>J Biochem 171(4);459-465</source>
+<pubmed-id datatype='string'>35081614</pubmed-id>
+<title datatype='string'>A leaderless mRNA including tRNA-like sequence encodes a small peptide that regulates the expression of GcvB small RNA in Escherichia coli.</title>
+<year datatype='integer'>2022</year>
+<author datatype='string'>Muto A</author>
+<author datatype='string'>Goto S</author>
+<author datatype='string'>Kurita D</author>
+<author datatype='string'>Ushida C</author>
+<author datatype='string'>Soma A</author>
+<author datatype='string'>Himeno H</author>
+<doi-id datatype='string'>10.1093/jb/mvac007</doi-id>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING-PRIMER-EXTENSION-TSS' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING-PRIMER-EXTENSION-TSS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/></parent>
+<common-name datatype='string'>Primer extension assay for transcription start site determination</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0001819</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0001819</dblink-URL>
+</dblink>
+<credits><imported-from-meta><date datatype='date'>2022-10-25</date>
+<Person ID='ECOLI:paley' orgid='ECOLI' frameid='paley' detail='full'><affiliations><Organization ID='ECOLI:SRI' orgid='ECOLI' frameid='SRI' detail='full'><abbrev-name datatype='string'>SRI International</abbrev-name>
+<email datatype='string'>ptools-support@ai.sri.com</email>
+<common-name datatype='string'>SRI International</common-name>
+<url datatype='string'>http://bioinformatics.ai.sri.com/</url>
+</Organization>
+</affiliations>
+<common-name datatype='string'>Suzanne Paley</common-name>
+</Person>
+<Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A type of transcript expression evidence used to determine the 5' end of the mRNA where a labeled synthetic oligonucleotide primer is annealed to mRNA downstream of the presumed transcription start site of a gene. The mRNA is extended with reverse transcriptase, producing cDNA which is electrophoresed, and the band size enables determination of the 5' end of the mRNA (the transcription start site). [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/23378648&quot;&gt;1&lt;/a&gt;]</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-35081614' orgid='ECOLI' frameid='PUB-35081614'/></evidence>
+<minus-10-right datatype='integer'>345245</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-198695' orgid='ECOLI' frameid='TU0-198695'/></component-of>
+</Promoter>
+</ptools-xml>

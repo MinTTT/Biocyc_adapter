@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42674'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42674</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42674' orgid='ECOLI' frameid='TU0-42674' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>mlaFEDCB</common-name>
+<citation><Publication ID='ECOLI:PUB-19383799' orgid='ECOLI' frameid='PUB-19383799' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 106(19);8009-14</source>
+<pubmed-id datatype='string'>19383799</pubmed-id>
+<title datatype='string'>An ABC transport system that maintains lipid asymmetry in the gram-negative outer membrane.</title>
+<year datatype='integer'>2009</year>
+<author datatype='string'>Malinverni JC</author>
+<author datatype='string'>Silhavy TJ</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-IC-ADJ-GENES-SAME-BIO-PROCESS' orgid='ECOLI' frameid='EV-IC-ADJ-GENES-SAME-BIO-PROCESS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-IC' orgid='ECOLI' frameid='EV-IC' class='true'/></parent>
+<common-name datatype='string'>Products of adjacent genes in the same biological process</common-name>
+<comment datatype='string'>A transcription unit is inferred because there is a set of adjacent genes,
+encoded in the same direction, coding for products that participate in the
+same metabolic pathway or biological process. Sometimes, these genes code
+for subunits of the same protein.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-19383799' orgid='ECOLI' frameid='PUB-19383799'/></evidence>
+<component><Promoter ID='ECOLI:PM0-46388' orgid='ECOLI' frameid='PM0-46388' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>mlaFp3</common-name>
+<synonym datatype='string'>P3mlaF</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>3340102</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-29133912' orgid='ECOLI' frameid='PUB-29133912' detail='full'><source datatype='string'>Nat Commun 8(1);1444</source>
+<pubmed-id datatype='string'>29133912</pubmed-id>
+<title datatype='string'>The multiple antibiotic resistance operon of enteric bacteria controls DNA repair and outer membrane integrity.</title>
+<year datatype='integer'>2017</year>
+<author datatype='string'>Sharma P</author>
+<author datatype='string'>Haycocks JRJ</author>
+<author datatype='string'>Middlemiss AD</author>
+<author datatype='string'>Kettles RA</author>
+<author datatype='string'>Sellars LE</author>
+<author datatype='string'>Ricci V</author>
+<author datatype='string'>Piddock LJV</author>
+<author datatype='string'>Grainger DC</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-29133912' orgid='ECOLI' frameid='PUB-29133912'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42674' orgid='ECOLI' frameid='TU0-42674'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:G7658' orgid='ECOLI' frameid='G7658'/></component>
+<component><Gene resource='getxml?ECOLI:G7659' orgid='ECOLI' frameid='G7659'/></component>
+<component><Gene resource='getxml?ECOLI:EG12799' orgid='ECOLI' frameid='EG12799'/></component>
+<component><Gene resource='getxml?ECOLI:EG12800' orgid='ECOLI' frameid='EG12800'/></component>
+<component><Gene resource='getxml?ECOLI:EG12801' orgid='ECOLI' frameid='EG12801'/></component>
+</Transcription-Unit>
+</ptools-xml>

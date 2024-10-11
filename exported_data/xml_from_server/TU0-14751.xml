@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-14751'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-14751</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-14751' orgid='ECOLI' frameid='TU0-14751' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>dpiBA</common-name>
+<citation><Publication ID='ECOLI:PUB-15308764' orgid='ECOLI' frameid='PUB-15308764' detail='full'><source datatype='string'>Science 305(5690);1629-31</source>
+<pubmed-id datatype='string'>15308764</pubmed-id>
+<title datatype='string'>SOS response induction by beta-lactams and bacterial defense against antibiotic lethality.</title>
+<year datatype='integer'>2004</year>
+<author datatype='string'>Miller C</author>
+<author datatype='string'>Thomsen LE</author>
+<author datatype='string'>Gaggero C</author>
+<author datatype='string'>Mosseri R</author>
+<author datatype='string'>Ingmer H</author>
+<author datatype='string'>Cohen SN</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15308764' orgid='ECOLI' frameid='PUB-15308764'/></evidence>
+<component><Gene resource='getxml?ECOLI:G6346' orgid='ECOLI' frameid='G6346'/></component>
+<component><Gene resource='getxml?ECOLI:G6345' orgid='ECOLI' frameid='G6345'/></component>
+<component><Promoter ID='ECOLI:PM0-10381' orgid='ECOLI' frameid='PM0-10381' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>652160</minus-10-left>
+<common-name datatype='string'>dpiBp2</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>652172</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-19426207' orgid='ECOLI' frameid='PUB-19426207' detail='full'><source datatype='string'>Mol Microbiol 72(3);551-65</source>
+<pubmed-id datatype='string'>19426207</pubmed-id>
+<title datatype='string'>A genetic approach for finding small RNAs regulators of genes of interest identifies RybC as regulating the DpiA/DpiB two-component system.</title>
+<year datatype='integer'>2009</year>
+<author datatype='string'>Mandin P</author>
+<author datatype='string'>Gottesman S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-19426207' orgid='ECOLI' frameid='PUB-19426207'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11381' orgid='ECOLI' frameid='REG0-11381' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7721' orgid='ECOLI' frameid='CPLX0-7721'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10381' orgid='ECOLI' frameid='PM0-10381'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11380' orgid='ECOLI' frameid='REG0-11380' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7721' orgid='ECOLI' frameid='CPLX0-7721'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10381' orgid='ECOLI' frameid='PM0-10381'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11354' orgid='ECOLI' frameid='REG0-11354' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-NARL' orgid='ECOLI' frameid='PHOSPHO-NARL'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-10381' orgid='ECOLI' frameid='PM0-10381'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>652165</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-14751' orgid='ECOLI' frameid='TU0-14751'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

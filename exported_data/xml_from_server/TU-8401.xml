@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU-8401'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU-8401</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU-8401' orgid='ECOLI' frameid='TU-8401' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>yejO</common-name>
+<component><Gene resource='getxml?ECOLI:EG12051' orgid='ECOLI' frameid='EG12051'/></component>
+<component><Promoter ID='ECOLI:PM-8786' orgid='ECOLI' frameid='PM-8786' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>yejOp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2289176</absolute-plus-1-pos>
+<citation><Publication ID='ECOLI:PUB-15941987' orgid='ECOLI' frameid='PUB-15941987' detail='full'><source datatype='string'>Microbiology 151(Pt 6);1779-88</source>
+<pubmed-id datatype='string'>15941987</pubmed-id>
+<title datatype='string'>Binding and transcriptional activation of non-flagellar genes by the Escherichia coli flagellar master regulator FlhD2C2.</title>
+<year datatype='integer'>2005</year>
+<author datatype='string'>Stafford GP</author>
+<author datatype='string'>Ogi T</author>
+<author datatype='string'>Hughes C</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-15941987' orgid='ECOLI' frameid='PUB-15941987'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU-8401' orgid='ECOLI' frameid='TU-8401'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

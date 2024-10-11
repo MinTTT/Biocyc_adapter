@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00332'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00332</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00332' orgid='ECOLI' frameid='TU00332' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rnc-era</common-name>
+<comment datatype='string'>The stability of the mRNA containing &lt;i&gt;rnc&lt;/i&gt; and &lt;i&gt;era&lt;/i&gt; genes is negatively affected by RNAse III [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/8971718&quot;&gt;Matsunaga96&lt;/a&gt;].
+&lt;p&gt;
+A potential RNA G-quadruplex structure, formed by guanine-rich sequences located in the coding sequence region of the gene, was identified  for &lt;i&gt;rnc&lt;/i&gt;. This structure  could regulate the expression of the gene, as observed for &lt;i&gt;hemL&lt;/i&gt; gene expression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31964733&quot;&gt;Shao20&lt;/a&gt;].
+</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-2085545' orgid='ECOLI' frameid='PUB-2085545' detail='full'><source datatype='string'>Biochimie 72(11);825-34</source>
+<pubmed-id datatype='string'>2085545</pubmed-id>
+<title datatype='string'>RNase III cleavages in non-coding leaders of Escherichia coli transcripts control mRNA stability and genetic expression.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>Regnier P</author>
+<author datatype='string'>Grunberg-Manago M</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8971718' orgid='ECOLI' frameid='PUB-8971718' detail='full'><source datatype='string'>Mol Microbiol 22(5);977-89</source>
+<pubmed-id datatype='string'>8971718</pubmed-id>
+<title datatype='string'>Expression and regulation of the rnc and pdxJ operons of Escherichia coli.</title>
+<year datatype='integer'>1996</year>
+<author datatype='string'>Matsunaga J</author>
+<author datatype='string'>Dyer M</author>
+<author datatype='string'>Simons EL</author>
+<author datatype='string'>Simons RW</author>
+</Publication>
+</citation>
+<component><Promoter ID='ECOLI:PM583' orgid='ECOLI' frameid='PM583' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>2704232</minus-10-left>
+<common-name datatype='string'>rncp</common-name>
+<minus-35-right datatype='integer'>2704263</minus-35-right>
+<minus-35-left datatype='integer'>2704258</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<synonym datatype='string'>rnc</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2704223</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-8971718' orgid='ECOLI' frameid='PUB-8971718'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8971718' orgid='ECOLI' frameid='PUB-8971718'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-8971718' orgid='ECOLI' frameid='PUB-8971718'/></evidence>
+<minus-10-right datatype='integer'>2704237</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00332' orgid='ECOLI' frameid='TU00332'/><Transcription-Unit resource='getxml?ECOLI:TU483' orgid='ECOLI' frameid='TU483'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10270' orgid='ECOLI' frameid='EG10270'/></component>
+<component><Gene resource='getxml?ECOLI:EG10857' orgid='ECOLI' frameid='EG10857'/></component>
+</Transcription-Unit>
+</ptools-xml>

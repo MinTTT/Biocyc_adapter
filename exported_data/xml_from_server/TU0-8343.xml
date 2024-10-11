@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8343'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8343</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8343' orgid='ECOLI' frameid='TU0-8343' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>scpA-argK-scpBC</common-name>
+<synonym datatype='string'>scpA-argK-ygfGH</synonym>
+<citation><Publication ID='ECOLI:PUB-10769117' orgid='ECOLI' frameid='PUB-10769117' detail='full'><source datatype='string'>Biochemistry 39(16);4622-9</source>
+<pubmed-id datatype='string'>10769117</pubmed-id>
+<title datatype='string'>Discovering new enzymes and metabolic pathways: conversion of succinate to propionate by Escherichia coli.</title>
+<year datatype='integer'>2000</year>
+<author datatype='string'>Haller T</author>
+<author datatype='string'>Buckel T</author>
+<author datatype='string'>Retey J</author>
+<author datatype='string'>Gerlt JA</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-AS-NAS' orgid='ECOLI' frameid='EV-AS-NAS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-AS' orgid='ECOLI' frameid='EV-AS' class='true'/></parent>
+<common-name datatype='string'>Non-traceable author statement</common-name>
+<comment datatype='string'>Non-traceable author statement.  The assertion was made in a publication such as a review, a meeting abstract, 
+or another database without a reference to a publication describing an experiment that supports the assertion.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10769117' orgid='ECOLI' frameid='PUB-10769117'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-11116' orgid='ECOLI' frameid='REG0-11116' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7797' orgid='ECOLI' frameid='CPLX0-7797'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU0-8343' orgid='ECOLI' frameid='TU0-8343'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component><Gene resource='getxml?ECOLI:G7517' orgid='ECOLI' frameid='G7517'/></component>
+<component><Gene resource='getxml?ECOLI:G7516' orgid='ECOLI' frameid='G7516'/></component>
+<component><Gene resource='getxml?ECOLI:EG11445' orgid='ECOLI' frameid='EG11445'/></component>
+<component><Gene resource='getxml?ECOLI:EG11444' orgid='ECOLI' frameid='EG11444'/></component>
+</Transcription-Unit>
+</ptools-xml>

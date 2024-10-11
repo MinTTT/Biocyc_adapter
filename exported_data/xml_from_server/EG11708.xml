@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='27.0' xml:base='http://BioCyc.org/getxml?ECOLI:EG11708'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:EG11708</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='27.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Gene ID='ECOLI:EG11708' orgid='ECOLI' frameid='EG11708' detail='full'><parent><Gene resource='getxml?ECOLI:Pseudo-Genes' orgid='ECOLI' frameid='Pseudo-Genes' class='true'/></parent>
+<replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<knockout-growth-observations><Growth-Observation ID='ECOLI:OBS0-439' orgid='ECOLI' frameid='OBS0-439' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>Luria-Bertani broth</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-49' orgid='ECOLI' frameid='OBS0-49' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>LB Lennox</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-37' orgid='ECOLI' frameid='OBS0-37' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>MOPS medium with 0.4% glucose</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-33' orgid='ECOLI' frameid='OBS0-33' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>M9 medium with 1% glycerol</with-growth-media>
+</Growth-Observation>
+</knockout-growth-observations>
+<transcription-direction datatype='string'>-</transcription-direction>
+<centisome-position datatype='float' units='CENTISOMES'>83.18532</centisome-position>
+<common-name datatype='string'>glvG</common-name>
+<comment datatype='string'>&lt;i&gt;glvG&lt;/i&gt; is designated a pseudogene that encodes the N-terminal half of a 6-phospho-&amp;alpha;-glucosidase.
+&lt;p&gt;
+The &lt;i&gt;glvG&lt;/i&gt; ORF in &lt;i&gt;E. coli&lt;/i&gt; K-12 MG1655 has suffered a 508 bp deletion between 8 bp direct repeats (GAACCACT), which would be located between nucleotides 3861387 and 3861388 in the current genome sequence.  The formerly annotated &lt;i&gt;ysdC&lt;/i&gt; ORF represents the C terminus of the ancestral gene.  An intact version of &lt;i&gt;glvG&lt;/i&gt; is present in &lt;i&gt;E. coli&lt;/i&gt; HS; see &lt;a href=&quot;https://biocyc.org/gene?orgid=GCF_000017765&amp;id=ECHS_RS19180&quot;&gt;6-phospho-alpha-glucosidase&lt;/a&gt;.
+&lt;p&gt;
+UniProt ID of the truncated GlvG ORF: P31450
+&lt;p&gt;
+glvG: &quot;&lt;b&gt;gl&lt;/b&gt;ucoside-like&quot; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/8019415&quot;&gt;Reizer94b&lt;/a&gt;]
+</comment>
+<citation><Publication ID='ECOLI:PUB-7730284' orgid='ECOLI' frameid='PUB-7730284' detail='full'><year datatype='integer'>1995</year>
+<source datatype='string'>J Bacteriol 177(9);2505-12</source>
+<title datatype='string'>Purification from Fusobacterium mortiferum ATCC 25557 of a 6-phosphoryl-O-alpha-D-glucopyranosyl:6-phosphoglucohydrolase that hydrolyzes maltose 6-phosphate and related phospho-alpha-D-glucosides.</title>
+<pubmed-id datatype='string'>7730284</pubmed-id>
+<author datatype='string'>Thompson J</author>
+<author datatype='string'>Gentry-Weeks CR</author>
+<author datatype='string'>Nguyen NY</author>
+<author datatype='string'>Folk JE</author>
+<author datatype='string'>Robrish SA</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-14016' orgid='ECOLI' frameid='TU0-14016'/></component-of>
+<accession-1 datatype='string'>b4556</accession-1>
+<dblink><dblink-db>ASAP</dblink-db>
+<dblink-oid>ABE-0285077</dblink-oid>
+<dblink-relationship>PART-OF</dblink-relationship>
+<dblink-URL>http://asap.ahabs.wisc.edu/asap/feature_info.php?FeatureID=ABE-0285077</dblink-URL>
+</dblink>
+<dblink><dblink-db>ASAP</dblink-db>
+<dblink-oid>ABE-0012036</dblink-oid>
+<dblink-relationship>PART-OF</dblink-relationship>
+<dblink-URL>http://asap.ahabs.wisc.edu/asap/feature_info.php?FeatureID=ABE-0012036</dblink-URL>
+</dblink>
+<dblink><dblink-db>REGULONDB</dblink-db>
+<dblink-oid>b4556</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://regulondb.ccg.unam.mx/search?term=b4556&amp;organism=ECK12&amp;type=All</dblink-URL>
+</dblink>
+<dblink><dblink-db>REGULONDB</dblink-db>
+<dblink-oid>b3681</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://regulondb.ccg.unam.mx/search?term=b3681&amp;organism=ECK12&amp;type=All</dblink-URL>
+</dblink>
+<dblink><dblink-db>ECHOBASE</dblink-db>
+<dblink-oid>EB1659</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.york.ac.uk/res/thomas/Gene.cfm?recordID=EB1659</dblink-URL>
+</dblink>
+<dblink><dblink-db>OU-MICROARRAY</dblink-db>
+<dblink-oid>b3681</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>https://genexpdb.okstate.edu/databases/genexpdb/?query=b3681</dblink-URL>
+</dblink>
+<left-end-position datatype='integer'>3861173</left-end-position>
+<right-end-position datatype='integer'>3861987</right-end-position>
+<synonym datatype='string'>b3681 (obsolete)</synonym>
+<synonym datatype='string'>ECK3672 (obsolete)</synonym>
+<synonym datatype='string'>ysdC</synonym>
+<synonym datatype='string'>yidM</synonym>
+<accession-2 datatype='string'>ECK3673</accession-2>
+</Gene>
+</ptools-xml>

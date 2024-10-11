@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-7603'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-7603</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-7603' orgid='ECOLI' frameid='TU0-7603' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>gcl-hyi-glxR-ybbVW-allB-ybbY-glxK</common-name>
+<citation><Publication ID='ECOLI:PUB-10601204' orgid='ECOLI' frameid='PUB-10601204' detail='full'><source datatype='string'>J Bacteriol 181(24);7479-84</source>
+<pubmed-id datatype='string'>10601204</pubmed-id>
+<title datatype='string'>Genetic analysis of a chromosomal region containing genes required for assimilation of allantoin nitrogen and linked glyoxylate metabolism in Escherichia coli.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>Cusa E</author>
+<author datatype='string'>Obradors N</author>
+<author datatype='string'>Baldoma L</author>
+<author datatype='string'>Badia J</author>
+<author datatype='string'>Aguilar J</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP-COREGULATION' orgid='ECOLI' frameid='EV-EXP-IEP-COREGULATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' class='true'/></parent>
+<common-name datatype='string'>Inferred through co-regulation</common-name>
+<comment datatype='string'>Inferred through co-regulation.  A transcription unit is inferred because a set of 
+adjacent genes that are transcribed in the same direction exhibit similar
+expression patterns under a range of environmental conditions.
+</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-10601204' orgid='ECOLI' frameid='PUB-10601204'/></evidence>
+<component><DNA-Binding-Site ID='ECOLI:BS0-6382' orgid='ECOLI' frameid='BS0-6382' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6080' orgid='ECOLI' frameid='REG0-6080' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-8071' orgid='ECOLI' frameid='CPLX0-8071'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-7983' orgid='ECOLI' frameid='PM0-7983' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>533896</minus-10-left>
+<common-name datatype='string'>gclp</common-name>
+<minus-35-right datatype='integer'>533877</minus-35-right>
+<minus-35-left datatype='integer'>533872</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>533907</absolute-plus-1-pos>
+<comment datatype='string'>The &lt;i&gt;gcl&lt;/i&gt;p promoter is activated in the presence of glyoxylate and repressed in the presence of allantoin [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/20964794&quot;&gt;Teramoto10&lt;/a&gt;]. Single-cell assays show that this promoter is heterogeneously activated by glyoxylate in the cells within the same culture. In some cells the promoter is activated to a greater extent than in others;  in approximately 30% of the cells in a given culture the promoter is not activated [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/20964794&quot;&gt;Teramoto10&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference of promoter position</common-name>
+<comment datatype='string'>Automated inference of promoter position relative to the -10 and -35 boxes.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-6080' orgid='ECOLI' frameid='REG0-6080'/></regulated-by>
+<minus-10-right datatype='integer'>533901</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-7603' orgid='ECOLI' frameid='TU0-7603'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-12460564' orgid='ECOLI' frameid='PUB-12460564' detail='full'><source datatype='string'>J Mol Biol 324(4);599-610</source>
+<pubmed-id datatype='string'>12460564</pubmed-id>
+<title datatype='string'>Regulation of the Escherichia coli allantoin regulon: coordinated function of the repressor AllR and the activator AllS.</title>
+<year datatype='integer'>2002</year>
+<author datatype='string'>Rintoul MR</author>
+<author datatype='string'>Cusa E</author>
+<author datatype='string'>Baldoma L</author>
+<author datatype='string'>Badia J</author>
+<author datatype='string'>Reitzer L</author>
+<author datatype='string'>Aguilar J</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-18957590' orgid='ECOLI' frameid='PUB-18957590' detail='full'><source datatype='string'>Microbiology 154(Pt 11);3366-78</source>
+<pubmed-id datatype='string'>18957590</pubmed-id>
+<title datatype='string'>The transcription regulator AllR senses both allantoin and glyoxylate and controls a set of genes for degradation and reutilization of purines.</title>
+<year datatype='integer'>2008</year>
+<author datatype='string'>Hasegawa A</author>
+<author datatype='string'>Ogasawara H</author>
+<author datatype='string'>Kori A</author>
+<author datatype='string'>Teramoto J</author>
+<author datatype='string'>Ishihama A</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of cellular extracts</common-name>
+<comment datatype='string'>There exists physical evidence of the binding of cellular extracts containing 
+a regulatory protein to its DNA binding site.  This can be either by 
+footprinting or mobility shift assays.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12460564' orgid='ECOLI' frameid='PUB-12460564'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-SITE-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-SITE-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Site mutation</common-name>
+<comment datatype='string'>A cis-mutation in the DNA sequence of the transcription-factor binding site interferes with the operation of the regulatory function. This is considered  strong evidence for the existence and functional role of the DNA binding site.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12460564' orgid='ECOLI' frameid='PUB-12460564'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-18957590' orgid='ECOLI' frameid='PUB-18957590'/></evidence>
+<abs-center-pos datatype='integer'>533887</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-7603' orgid='ECOLI' frameid='TU0-7603'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:G6283' orgid='ECOLI' frameid='G6283'/></component>
+<component><Gene resource='getxml?ECOLI:G6282' orgid='ECOLI' frameid='G6282'/></component>
+<component><Gene resource='getxml?ECOLI:G6281' orgid='ECOLI' frameid='G6281'/></component>
+<component><Gene resource='getxml?ECOLI:G6280' orgid='ECOLI' frameid='G6280'/></component>
+<component><Gene resource='getxml?ECOLI:G6278' orgid='ECOLI' frameid='G6278'/></component>
+<component><Gene resource='getxml?ECOLI:G6277' orgid='ECOLI' frameid='G6277'/></component>
+<component><Gene resource='getxml?ECOLI:EG11583' orgid='ECOLI' frameid='EG11583'/></component>
+<component><Promoter resource='#ECOLI:PM0-7983' orgid='ECOLI' frameid='PM0-7983'/></component>
+</Transcription-Unit>
+</ptools-xml>

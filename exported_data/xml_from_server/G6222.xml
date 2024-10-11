@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='27.0' xml:base='http://BioCyc.org/getxml?ECOLI:G6222'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:G6222</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='27.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Gene ID='ECOLI:G6222' orgid='ECOLI' frameid='G6222' detail='full'><parent><Gene resource='getxml?ECOLI:Interrupted-Genes' orgid='ECOLI' frameid='Interrupted-Genes' class='true'/></parent>
+<replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<knockout-growth-observations><Growth-Observation ID='ECOLI:OBS0-439' orgid='ECOLI' frameid='OBS0-439' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>Luria-Bertani broth</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-49' orgid='ECOLI' frameid='OBS0-49' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>LB Lennox</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-37' orgid='ECOLI' frameid='OBS0-37' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>MOPS medium with 0.4% glucose</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-33' orgid='ECOLI' frameid='OBS0-33' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>M9 medium with 1% glycerol</with-growth-media>
+</Growth-Observation>
+<Growth-Observation ID='ECOLI:OBS0-44' orgid='ECOLI' frameid='OBS0-44' detail='low'><parent><Growth-Observation resource='getxml?ECOLI:Primary-Growth-Observations' orgid='ECOLI' frameid='Primary-Growth-Observations' class='true'/></parent>
+<growth-status>NORMAL</growth-status>
+<with-growth-media>LB enriched</with-growth-media>
+</Growth-Observation>
+</knockout-growth-observations>
+<product>putative autotransporter YaiT</product>
+<transcription-direction datatype='string'>+</transcription-direction>
+<centisome-position datatype='float' units='CENTISOMES'>8.407588</centisome-position>
+<common-name datatype='string'>yaiT</common-name>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-8550' orgid='ECOLI' frameid='TU0-8550'/></component-of>
+<accession-1 datatype='string'>b4580</accession-1>
+<dblink><dblink-db>UNIPROT</dblink-db>
+<dblink-oid>P77199</dblink-oid>
+<dblink-relationship>RELATED-TO</dblink-relationship>
+<dblink-URL>https://www.uniprot.org/uniprot/P77199</dblink-URL>
+</dblink>
+<dblink><dblink-db>ECOLIWIKI</dblink-db>
+<dblink-oid>b0374</dblink-oid>
+<dblink-relationship>RELATED-TO</dblink-relationship>
+<dblink-URL>http://ecoliwiki.org/colipedia/index.php/b0374</dblink-URL>
+</dblink>
+<dblink><dblink-db>OU-MICROARRAY</dblink-db>
+<dblink-oid>b0374</dblink-oid>
+<dblink-relationship>RELATED-TO</dblink-relationship>
+<dblink-URL>https://genexpdb.okstate.edu/databases/genexpdb/?query=b0374</dblink-URL>
+</dblink>
+<dblink><dblink-db>ECHOBASE</dblink-db>
+<dblink-oid>EB4319</dblink-oid>
+<dblink-relationship>RELATED-TO</dblink-relationship>
+<dblink-URL>http://www.york.ac.uk/res/thomas/Gene.cfm?recordID=EB4319</dblink-URL>
+</dblink>
+<dblink><dblink-db>ASAP</dblink-db>
+<dblink-oid>ABE-0001288</dblink-oid>
+<dblink-relationship>RELATED-TO</dblink-relationship>
+<dblink-URL>http://asap.ahabs.wisc.edu/asap/feature_info.php?FeatureID=ABE-0001288</dblink-URL>
+</dblink>
+<dblink><dblink-db>ASAP</dblink-db>
+<dblink-oid>ABE-0001274</dblink-oid>
+<dblink-relationship>RELATED-TO</dblink-relationship>
+<dblink-URL>http://asap.ahabs.wisc.edu/asap/feature_info.php?FeatureID=ABE-0001274</dblink-URL>
+</dblink>
+<dblink><dblink-db>OU-MICROARRAY</dblink-db>
+<dblink-oid>b0371</dblink-oid>
+<dblink-relationship>RELATED-TO</dblink-relationship>
+<dblink-URL>https://genexpdb.okstate.edu/databases/genexpdb/?query=b0371</dblink-URL>
+</dblink>
+<dblink><dblink-db>REGULONDB</dblink-db>
+<dblink-oid>b0374</dblink-oid>
+<dblink-relationship>RELATED-TO</dblink-relationship>
+<dblink-URL>http://regulondb.ccg.unam.mx/search?term=b0374&amp;organism=ECK12&amp;type=All</dblink-URL>
+</dblink>
+<dblink><dblink-db>ECHOBASE</dblink-db>
+<dblink-oid>EB3373</dblink-oid>
+<dblink-relationship>RELATED-TO</dblink-relationship>
+<dblink-URL>http://www.york.ac.uk/res/thomas/Gene.cfm?recordID=EB3373</dblink-URL>
+</dblink>
+<dblink><dblink-db>REGULONDB</dblink-db>
+<dblink-oid>b0371</dblink-oid>
+<dblink-relationship>RELATED-TO</dblink-relationship>
+<dblink-URL>http://regulondb.ccg.unam.mx/search?term=b0371&amp;organism=ECK12&amp;type=All</dblink-URL>
+</dblink>
+<dblink><dblink-db>STRING</dblink-db>
+<dblink-oid>316407.85674512</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://string-db.org/network/316407.85674512</dblink-URL>
+</dblink>
+<dblink><dblink-db>ASAP</dblink-db>
+<dblink-oid>ABE-0285112</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://asap.ahabs.wisc.edu/asap/feature_info.php?FeatureID=ABE-0285112</dblink-URL>
+</dblink>
+<fragment><Gene-Fragment ID='ECOLI:GFRAG0-22' orgid='ECOLI' frameid='GFRAG0-22' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<centisome-position datatype='float' units='CENTISOMES'>8.407588</centisome-position>
+<common-name datatype='string'>yaiT</common-name>
+<fragment-of><Gene resource='#ECOLI:G6222' orgid='ECOLI' frameid='G6222'/></fragment-of>
+<component-of/><accession-1 datatype='string'>b0371</accession-1>
+<left-end-position datatype='integer'>390251</left-end-position>
+<right-end-position datatype='integer'>391708</right-end-position>
+<accession-2 datatype='string'>ECK0368</accession-2>
+</Gene-Fragment>
+<Gene-Fragment ID='ECOLI:G6225' orgid='ECOLI' frameid='G6225' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<centisome-position datatype='float' units='CENTISOMES'>8.466167</centisome-position>
+<common-name datatype='string'>yaiU</common-name>
+<fragment-of><Gene resource='#ECOLI:G6222' orgid='ECOLI' frameid='G6222'/></fragment-of>
+<component-of/><accession-1 datatype='string'>b0374</accession-1>
+<left-end-position datatype='integer'>392970</left-end-position>
+<right-end-position datatype='integer'>394418</right-end-position>
+<accession-2 datatype='string'>ECK0369</accession-2>
+</Gene-Fragment>
+</fragment>
+<synonym datatype='string'>yaiU</synonym>
+<synonym datatype='string'>b0371</synonym>
+<synonym datatype='string'>b0374</synonym>
+<synonym datatype='string'>ECK0369</synonym>
+<accession-2 datatype='string'>ECK0368</accession-2>
+</Gene>
+</ptools-xml>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU123'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU123</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU123' orgid='ECOLI' frameid='TU123' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>putP</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-3302614' orgid='ECOLI' frameid='PUB-3302614' detail='full'><source datatype='string'>Mol Gen Genet 208(1-2);70-5</source>
+<pubmed-id datatype='string'>3302614</pubmed-id>
+<title datatype='string'>Nucleotide sequence of putP, the proline carrier gene of Escherichia coli K12.</title>
+<year datatype='integer'>1987</year>
+<author datatype='string'>Nakao T</author>
+<author datatype='string'>Yamato I</author>
+<author datatype='string'>Anraku Y</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-3325781' orgid='ECOLI' frameid='PUB-3325781' detail='full'><source datatype='string'>Mol Gen Genet 210(2);364-8</source>
+<pubmed-id datatype='string'>3325781</pubmed-id>
+<title datatype='string'>Nucleotide sequence of putC, the regulatory region for the put regulon of Escherichia coli K12.</title>
+<year datatype='integer'>1987</year>
+<author datatype='string'>Nakao T</author>
+<author datatype='string'>Yamato I</author>
+<author datatype='string'>Anraku Y</author>
+</Publication>
+</citation>
+<component><Terminator ID='ECOLI:TERM7' orgid='ECOLI' frameid='TERM7' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>1080838</right-end-position>
+<left-end-position datatype='integer'>1080794</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-3302614' orgid='ECOLI' frameid='PUB-3302614'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU123' orgid='ECOLI' frameid='TU123'/><Transcription-Unit resource='getxml?ECOLI:TU122' orgid='ECOLI' frameid='TU122'/><Transcription-Unit resource='getxml?ECOLI:TU121' orgid='ECOLI' frameid='TU121'/><Transcription-Unit resource='getxml?ECOLI:TU104' orgid='ECOLI' frameid='TU104'/><Transcription-Unit resource='getxml?ECOLI:TU103' orgid='ECOLI' frameid='TU103'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10802' orgid='ECOLI' frameid='EG10802'/></component>
+<component><Promoter ID='ECOLI:PM00361' orgid='ECOLI' frameid='PM00361' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>putPp5</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1079291</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-3325781' orgid='ECOLI' frameid='PUB-3325781'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-3325781' orgid='ECOLI' frameid='PUB-3325781'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU123' orgid='ECOLI' frameid='TU123'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

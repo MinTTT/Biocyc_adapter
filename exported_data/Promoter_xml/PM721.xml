@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM721'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM721</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM721' orgid='ECOLI' frameid='PM721' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>4366853</minus-10-left>
+<common-name datatype='string'>dcuAp1</common-name>
+<minus-35-right datatype='integer'>4366880</minus-35-right>
+<minus-35-left datatype='integer'>4366875</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4366843</absolute-plus-1-pos>
+<comment datatype='string'>&lt;i&gt;dcuA&lt;/i&gt;p was validated experimentally in anaerobic conditions [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/24146601&quot;&gt;Chung13&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-9852003' orgid='ECOLI' frameid='PUB-9852003' detail='full'><source datatype='string'>J Bacteriol 180(24);6586-96</source>
+<pubmed-id datatype='string'>9852003</pubmed-id>
+<title datatype='string'>Transcriptional regulation and organization of the dcuA and dcuB genes, encoding homologous anaerobic C4-dicarboxylate transporters in Escherichia coli.</title>
+<year datatype='integer'>1998</year>
+<author datatype='string'>Golby P</author>
+<author datatype='string'>Kelly DJ</author>
+<author datatype='string'>Guest JR</author>
+<author datatype='string'>Andrews SC</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-24146601' orgid='ECOLI' frameid='PUB-24146601' detail='full'><source datatype='string'>PLoS Comput Biol 9(10);e1003246</source>
+<pubmed-id datatype='string'>24146601</pubmed-id>
+<title datatype='string'>dPeak: high resolution identification of transcription factor binding sites from PET and SET ChIP-Seq data.</title>
+<year datatype='integer'>2013</year>
+<author datatype='string'>Chung D</author>
+<author datatype='string'>Park D</author>
+<author datatype='string'>Myers K</author>
+<author datatype='string'>Grass J</author>
+<author datatype='string'>Kiley P</author>
+<author datatype='string'>Landick R</author>
+<author datatype='string'>Keles S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9852003' orgid='ECOLI' frameid='PUB-9852003'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-24146601' orgid='ECOLI' frameid='PUB-24146601'/></evidence>
+<minus-10-right datatype='integer'>4366858</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU621' orgid='ECOLI' frameid='TU621'/></component-of>
+</Promoter>
+</ptools-xml>

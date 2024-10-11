@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU369'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU369</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU369' orgid='ECOLI' frameid='TU369' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>gadBC</common-name>
+<comment datatype='string'>[&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/10383761&quot;&gt;De99b&lt;/a&gt;] and [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/8455549&quot;&gt;Yoshida93&lt;/a&gt;] have reported evidence of a negative effect of Hns protein on the &lt;i&gt;gadBC&lt;/i&gt; operon. However, [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/15795232&quot;&gt;Giangrossi05&lt;/a&gt;] demonstrated that Hns does not bind the regulatory region of the operon. Therefore, the HNS effect on &lt;i&gt;gadBC&lt;/i&gt; is indirect.
+&lt;p&gt;
+Genes involved in the &lt;i&gt;gad&lt;/i&gt; (&lt;i&gt;gadABCDEWX&lt;/i&gt;) system are common under many adverse conditions, as determined by microarray analyses and Fourier transform-infrared spectroscopy. Although they are known to be important for the acid stress response, it has also been shown that part of this system is also upregulated by NaCl, cold stress, ethanol, and heat stress [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/19767843&quot;&gt;Moen09&lt;/a&gt;].
+&lt;p&gt;
+Basal GadE activity is required for activation of &lt;i&gt;gadA&lt;/i&gt; and &lt;i&gt;gadBC&lt;/i&gt; expression during stationary-phase growth [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/17185552&quot;&gt;CastanieCornet07&lt;/a&gt;].
+&lt;p&gt;
+The &lt;i&gt;gadBC&lt;/i&gt; operon is upregulated by long-term (8 to 12 h) exposure of &lt;i&gt;E. coli&lt;/i&gt;  to some biocides [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/32385082&quot;&gt;Merchel20&lt;/a&gt;].
+&lt;p&gt;
+The transcription of &lt;i&gt; gadB &lt;/i&gt; appears to be increased under acidic growth conditions during the exponential phase in a RcsB-dependent manner, but not during stationary phase  [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/21571995&quot;&gt;Johnson11&lt;/a&gt;]. &lt;i&gt;gadB&lt;/i&gt; is induced during biofilm formation [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/15795232&quot;&gt;Giangrossi05&lt;/a&gt;, &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12657059&quot;&gt;Schembri03a&lt;/a&gt;].
+&lt;p&gt;
+RcsB activity through both the RcsCD phosphorelay pathway and the RcsA pathway lowers the acid resistance [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/17185552&quot;&gt;CastanieCornet07&lt;/a&gt;]. The role of this negative regulation might be to prevent costly runaway expression of the &lt;i&gt;gad&lt;/i&gt; genes or to shut off the response, once the acid stress is over [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/17185552&quot;&gt;CastanieCornet07&lt;/a&gt;].
+&lt;p&gt;
+Indole enhances the expression of several genes related to acid resistance, such as &lt;i&gt;gadA, gadB, gadC, hdeA, hdeB, hdeD, slp,&lt;/i&gt; and &lt;i&gt;gadE&lt;/i&gt; [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/20470880&quot;&gt;Hirakawa10&lt;/a&gt;]. The acid resistance phenotype induced by indoles is mainly due to increased expression of the glutamine decarboxylase system [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/20470880&quot;&gt;Hirakawa10&lt;/a&gt;].
+&lt;p&gt;
+The &lt;i&gt;mdtEF-tolC&lt;/i&gt;, &lt;i&gt;malEFG&lt;/i&gt;, &lt;i&gt;gadBC&lt;/i&gt;, &lt;i&gt;treBC&lt;/i&gt;, &lt;i&gt;entCEBA-ybdB&lt;/i&gt;, &lt;i&gt;hdeAB-yhiD&lt;/i&gt;, and &lt;i&gt;alaE&lt;/i&gt; operons were differentially regulated after induction of the nonnative organic acid citramalate [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31186337&quot;&gt;Webb19&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-10383761' orgid='ECOLI' frameid='PUB-10383761' detail='full'><source datatype='string'>Mol Microbiol 32(6);1198-211</source>
+<pubmed-id datatype='string'>10383761</pubmed-id>
+<title datatype='string'>The response to stationary-phase stress conditions in Escherichia coli: role and regulation of the glutamic acid decarboxylase system.</title>
+<year datatype='integer'>1999</year>
+<author datatype='string'>De Biase D</author>
+<author datatype='string'>Tramonti A</author>
+<author datatype='string'>Bossa F</author>
+<author datatype='string'>Visca P</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-11238978' orgid='ECOLI' frameid='PUB-11238978' detail='full'><source datatype='string'>Microbiology 147(Pt 3);709-15</source>
+<pubmed-id datatype='string'>11238978</pubmed-id>
+<title datatype='string'>Escherichia coli acid resistance: cAMP receptor protein and a 20 bp cis-acting sequence control pH and stationary phase expression of the gadA and gadBC glutamate decarboxylase genes.</title>
+<year datatype='integer'>2001</year>
+<author datatype='string'>Castanie-Cornet MP</author>
+<author datatype='string'>Foster JW</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-12867478' orgid='ECOLI' frameid='PUB-12867478' detail='full'><source datatype='string'>J Bacteriol 185(15);4644-7</source>
+<pubmed-id datatype='string'>12867478</pubmed-id>
+<title datatype='string'>Transcriptional expression of Escherichia coli glutamate-dependent acid resistance genes gadA and gadBC in an hns rpoS mutant.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Waterman SR</author>
+<author datatype='string'>Small PL</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-17919280' orgid='ECOLI' frameid='PUB-17919280' detail='full'><source datatype='string'>Mol Microbiol 66(3);744-57</source>
+<pubmed-id datatype='string'>17919280</pubmed-id>
+<title datatype='string'>RutR is the uracil/thymine-sensing master regulator of a set of genes for synthesis and degradation of pyrimidines.</title>
+<year datatype='integer'>2007</year>
+<author datatype='string'>Shimada T</author>
+<author datatype='string'>Hirao K</author>
+<author datatype='string'>Kori A</author>
+<author datatype='string'>Yamamoto K</author>
+<author datatype='string'>Ishihama A</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12867478' orgid='ECOLI' frameid='PUB-12867478'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' class='true'/><Publication resource='#ECOLI:PUB-17919280' orgid='ECOLI' frameid='PUB-17919280'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-13096' orgid='ECOLI' frameid='REG0-13096' detail='low'><parent><Regulation resource='getxml?ECOLI:Allosteric-Regulation-of-RNAP' orgid='ECOLI' frameid='Allosteric-Regulation-of-RNAP' class='true'/></parent>
+<regulator><Compound resource='getxml?ECOLI:GUANOSINE-5DP-3DP' orgid='ECOLI' frameid='GUANOSINE-5DP-3DP'/></regulator>
+<regulated-entity><Transcription-Unit resource='#ECOLI:TU369' orgid='ECOLI' frameid='TU369'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<component><DNA-Binding-Site ID='ECOLI:BS0-6582' orgid='ECOLI' frameid='BS0-6582' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-15062' orgid='ECOLI' frameid='REG0-15062' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-46530' orgid='ECOLI' frameid='PM0-46530' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>1572080</minus-10-left>
+<common-name datatype='string'>gadBp2</common-name>
+<minus-35-right datatype='integer'>1572109</minus-35-right>
+<minus-35-left datatype='integer'>1572104</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOS-MONOMER' orgid='ECOLI' frameid='RPOS-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1572072</absolute-plus-1-pos>
+<comment datatype='string'>The &amp;sigma;&lt;sup&gt;38&lt;/sup&gt; factor is required for stationary-phase induction but not  acid induction of the &lt;i&gt;gadB&lt;/i&gt; promoter [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/11238978&quot;&gt;CastanieCornet01&lt;/a&gt;]. [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12867478&quot;&gt;Waterman03&lt;/a&gt;] were able to detect transcripts of &lt;i&gt;gadBC&lt;/i&gt; in an &lt;i&gt;hns rpoS&lt;/i&gt; double mutant, suggesting that the gadBp promoter is also recognized by &amp;sigma;&lt;sup&gt;70&lt;/sup&gt;.</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-11238978' orgid='ECOLI' frameid='PUB-11238978'/></citation>
+<citation><Publication resource='#ECOLI:PUB-12867478' orgid='ECOLI' frameid='PUB-12867478'/></citation>
+<citation><Publication ID='ECOLI:PUB-19352034' orgid='ECOLI' frameid='PUB-19352034' detail='full'><source datatype='string'>Biosci Biotechnol Biochem 73(4);870-8</source>
+<pubmed-id datatype='string'>19352034</pubmed-id>
+<title datatype='string'>Molecular mechanism of transcriptional cascade initiated by the EvgS/EvgA system in Escherichia coli K-12.</title>
+<year datatype='integer'>2009</year>
+<author datatype='string'>Itou J</author>
+<author datatype='string'>Eguchi Y</author>
+<author datatype='string'>Utsumi R</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11238978' orgid='ECOLI' frameid='PUB-11238978'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-19352034' orgid='ECOLI' frameid='PUB-19352034'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-19352034' orgid='ECOLI' frameid='PUB-19352034'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-15065' orgid='ECOLI' frameid='REG0-15065' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG11544-MONOMER' orgid='ECOLI' frameid='EG11544-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46530' orgid='ECOLI' frameid='PM0-46530'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15064' orgid='ECOLI' frameid='REG0-15064' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12243-MONOMER' orgid='ECOLI' frameid='EG12243-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46530' orgid='ECOLI' frameid='PM0-46530'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15063' orgid='ECOLI' frameid='REG0-15063' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12243-MONOMER' orgid='ECOLI' frameid='EG12243-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46530' orgid='ECOLI' frameid='PM0-46530'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-15062' orgid='ECOLI' frameid='REG0-15062'/><Regulation ID='ECOLI:REG0-15061' orgid='ECOLI' frameid='REG0-15061' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46530' orgid='ECOLI' frameid='PM0-46530'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15060' orgid='ECOLI' frameid='REG0-15060' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46530' orgid='ECOLI' frameid='PM0-46530'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15059' orgid='ECOLI' frameid='REG0-15059' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46530' orgid='ECOLI' frameid='PM0-46530'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15058' orgid='ECOLI' frameid='REG0-15058' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46530' orgid='ECOLI' frameid='PM0-46530'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15057' orgid='ECOLI' frameid='REG0-15057' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-RCSB' orgid='ECOLI' frameid='PHOSPHO-RCSB'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46530' orgid='ECOLI' frameid='PM0-46530'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15056' orgid='ECOLI' frameid='REG0-15056' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG11966-MONOMER' orgid='ECOLI' frameid='EG11966-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46530' orgid='ECOLI' frameid='PM0-46530'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15055' orgid='ECOLI' frameid='REG0-15055' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12243-MONOMER' orgid='ECOLI' frameid='EG12243-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46530' orgid='ECOLI' frameid='PM0-46530'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15054' orgid='ECOLI' frameid='REG0-15054' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12243-MONOMER' orgid='ECOLI' frameid='EG12243-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46530' orgid='ECOLI' frameid='PM0-46530'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15053' orgid='ECOLI' frameid='REG0-15053' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12243-MONOMER' orgid='ECOLI' frameid='EG12243-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46530' orgid='ECOLI' frameid='PM0-46530'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15052' orgid='ECOLI' frameid='REG0-15052' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12243-MONOMER' orgid='ECOLI' frameid='EG12243-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46530' orgid='ECOLI' frameid='PM0-46530'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15051' orgid='ECOLI' frameid='REG0-15051' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12242-MONOMER' orgid='ECOLI' frameid='EG12242-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46530' orgid='ECOLI' frameid='PM0-46530'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15050' orgid='ECOLI' frameid='REG0-15050' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12242-MONOMER' orgid='ECOLI' frameid='EG12242-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46530' orgid='ECOLI' frameid='PM0-46530'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15049' orgid='ECOLI' frameid='REG0-15049' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12242-MONOMER' orgid='ECOLI' frameid='EG12242-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46530' orgid='ECOLI' frameid='PM0-46530'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15048' orgid='ECOLI' frameid='REG0-15048' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12242-MONOMER' orgid='ECOLI' frameid='EG12242-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46530' orgid='ECOLI' frameid='PM0-46530'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15047' orgid='ECOLI' frameid='REG0-15047' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12242-MONOMER' orgid='ECOLI' frameid='EG12242-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46530' orgid='ECOLI' frameid='PM0-46530'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15046' orgid='ECOLI' frameid='REG0-15046' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12242-MONOMER' orgid='ECOLI' frameid='EG12242-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46530' orgid='ECOLI' frameid='PM0-46530'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15045' orgid='ECOLI' frameid='REG0-15045' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12242-MONOMER' orgid='ECOLI' frameid='EG12242-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46530' orgid='ECOLI' frameid='PM0-46530'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15044' orgid='ECOLI' frameid='REG0-15044' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12242-MONOMER' orgid='ECOLI' frameid='EG12242-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46530' orgid='ECOLI' frameid='PM0-46530'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15043' orgid='ECOLI' frameid='REG0-15043' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG11356-MONOMER' orgid='ECOLI' frameid='EG11356-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46530' orgid='ECOLI' frameid='PM0-46530'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15042' orgid='ECOLI' frameid='REG0-15042' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12243-MONOMER' orgid='ECOLI' frameid='EG12243-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46530' orgid='ECOLI' frameid='PM0-46530'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-15041' orgid='ECOLI' frameid='REG0-15041' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12243-MONOMER' orgid='ECOLI' frameid='EG12243-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM0-46530' orgid='ECOLI' frameid='PM0-46530'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>1572090</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45231' orgid='ECOLI' frameid='TU0-45231'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4991' orgid='ECOLI' frameid='REG0-4991' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-226' orgid='ECOLI' frameid='CPLX0-226'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM450' orgid='ECOLI' frameid='PM450' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<minus-10-left datatype='integer'>1572080</minus-10-left>
+<common-name datatype='string'>gadBp</common-name>
+<minus-35-right datatype='integer'>1572108</minus-35-right>
+<minus-35-left datatype='integer'>1572103</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>1572072</absolute-plus-1-pos>
+<comment datatype='string'>The &amp;sigma;&lt;sup&gt;38&lt;/sup&gt; factor is required for stationary-phase induction but not  acid induction of the &lt;i&gt;gadB&lt;/i&gt; promoter [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/11238978&quot;&gt;CastanieCornet01&lt;/a&gt;]. [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/12867478&quot;&gt;Waterman03&lt;/a&gt;] were able to detect transcripts of &lt;i&gt;gadBC&lt;/i&gt; in an &lt;i&gt;hns rpoS&lt;/i&gt; double mutant, suggesting that the gadBp promoter is also recognized by &amp;sigma;&lt;sup&gt;70&lt;/sup&gt;.</comment>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/><Publication resource='#ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615'/></evidence>
+<citation><Publication resource='#ECOLI:PUB-11238978' orgid='ECOLI' frameid='PUB-11238978'/></citation>
+<citation><Publication resource='#ECOLI:PUB-12867478' orgid='ECOLI' frameid='PUB-12867478'/></citation>
+<citation><Publication resource='#ECOLI:PUB-19352034' orgid='ECOLI' frameid='PUB-19352034'/></citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-11238978' orgid='ECOLI' frameid='PUB-11238978'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' class='true'/><Publication resource='#ECOLI:PUB-19352034' orgid='ECOLI' frameid='PUB-19352034'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' class='true'/><Publication resource='#ECOLI:PUB-19352034' orgid='ECOLI' frameid='PUB-19352034'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-12876' orgid='ECOLI' frameid='REG0-12876' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12243-MONOMER' orgid='ECOLI' frameid='EG12243-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM450' orgid='ECOLI' frameid='PM450'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-12872' orgid='ECOLI' frameid='REG0-12872' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12243-MONOMER' orgid='ECOLI' frameid='EG12243-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM450' orgid='ECOLI' frameid='PM450'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-11492' orgid='ECOLI' frameid='REG0-11492' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG11356-MONOMER' orgid='ECOLI' frameid='EG11356-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM450' orgid='ECOLI' frameid='PM450'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10986' orgid='ECOLI' frameid='REG0-10986' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12242-MONOMER' orgid='ECOLI' frameid='EG12242-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM450' orgid='ECOLI' frameid='PM450'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10985' orgid='ECOLI' frameid='REG0-10985' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12242-MONOMER' orgid='ECOLI' frameid='EG12242-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM450' orgid='ECOLI' frameid='PM450'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10984' orgid='ECOLI' frameid='REG0-10984' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12242-MONOMER' orgid='ECOLI' frameid='EG12242-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM450' orgid='ECOLI' frameid='PM450'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10983' orgid='ECOLI' frameid='REG0-10983' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12242-MONOMER' orgid='ECOLI' frameid='EG12242-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM450' orgid='ECOLI' frameid='PM450'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10982' orgid='ECOLI' frameid='REG0-10982' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12242-MONOMER' orgid='ECOLI' frameid='EG12242-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM450' orgid='ECOLI' frameid='PM450'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10981' orgid='ECOLI' frameid='REG0-10981' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12242-MONOMER' orgid='ECOLI' frameid='EG12242-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM450' orgid='ECOLI' frameid='PM450'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10980' orgid='ECOLI' frameid='REG0-10980' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12242-MONOMER' orgid='ECOLI' frameid='EG12242-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM450' orgid='ECOLI' frameid='PM450'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10979' orgid='ECOLI' frameid='REG0-10979' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12242-MONOMER' orgid='ECOLI' frameid='EG12242-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM450' orgid='ECOLI' frameid='PM450'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10956' orgid='ECOLI' frameid='REG0-10956' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12243-MONOMER' orgid='ECOLI' frameid='EG12243-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM450' orgid='ECOLI' frameid='PM450'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10955' orgid='ECOLI' frameid='REG0-10955' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12243-MONOMER' orgid='ECOLI' frameid='EG12243-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM450' orgid='ECOLI' frameid='PM450'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10954' orgid='ECOLI' frameid='REG0-10954' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12243-MONOMER' orgid='ECOLI' frameid='EG12243-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM450' orgid='ECOLI' frameid='PM450'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10953' orgid='ECOLI' frameid='REG0-10953' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12243-MONOMER' orgid='ECOLI' frameid='EG12243-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM450' orgid='ECOLI' frameid='PM450'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10921' orgid='ECOLI' frameid='REG0-10921' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG11966-MONOMER' orgid='ECOLI' frameid='EG11966-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM450' orgid='ECOLI' frameid='PM450'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-10701' orgid='ECOLI' frameid='REG0-10701' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-RCSB' orgid='ECOLI' frameid='PHOSPHO-RCSB'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM450' orgid='ECOLI' frameid='PM450'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-9366' orgid='ECOLI' frameid='REG0-9366' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM450' orgid='ECOLI' frameid='PM450'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-9365' orgid='ECOLI' frameid='REG0-9365' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM450' orgid='ECOLI' frameid='PM450'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-9364' orgid='ECOLI' frameid='REG0-9364' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM450' orgid='ECOLI' frameid='PM450'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-9363' orgid='ECOLI' frameid='REG0-9363' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7705' orgid='ECOLI' frameid='CPLX0-7705'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM450' orgid='ECOLI' frameid='PM450'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation resource='#ECOLI:REG0-4991' orgid='ECOLI' frameid='REG0-4991'/><Regulation ID='ECOLI:REG0-4990' orgid='ECOLI' frameid='REG0-4990' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12243-MONOMER' orgid='ECOLI' frameid='EG12243-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM450' orgid='ECOLI' frameid='PM450'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4989' orgid='ECOLI' frameid='REG0-4989' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG12243-MONOMER' orgid='ECOLI' frameid='EG12243-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM450' orgid='ECOLI' frameid='PM450'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-4988' orgid='ECOLI' frameid='REG0-4988' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:EG11544-MONOMER' orgid='ECOLI' frameid='EG11544-MONOMER'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM450' orgid='ECOLI' frameid='PM450'/></regulated-entity>
+<mode datatype='string'>+</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>1572085</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU369' orgid='ECOLI' frameid='TU369'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-11238978' orgid='ECOLI' frameid='PUB-11238978'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>A person inferred or reviewed a computer inference of sequence function based on similarity to a consensus sequence.</common-name>
+<comment datatype='string'>Human inference based on similarity to consensus sequences</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-11238978' orgid='ECOLI' frameid='PUB-11238978'/></evidence>
+<abs-center-pos datatype='float'>1572135.5</abs-center-pos>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45231' orgid='ECOLI' frameid='TU0-45231'/><Transcription-Unit resource='#ECOLI:TU369' orgid='ECOLI' frameid='TU369'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-6581' orgid='ECOLI' frameid='BS0-6581' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-15065' orgid='ECOLI' frameid='REG0-15065'/><Regulation resource='#ECOLI:REG0-4988' orgid='ECOLI' frameid='REG0-4988'/></involved-in-regulation>
+<citation><Publication resource='#ECOLI:PUB-11238978' orgid='ECOLI' frameid='PUB-11238978'/></citation>
+<citation><Publication ID='ECOLI:PUB-12940989' orgid='ECOLI' frameid='PUB-12940989' detail='full'><source datatype='string'>Mol Microbiol 49(5);1309-20</source>
+<pubmed-id datatype='string'>12940989</pubmed-id>
+<title datatype='string'>GadE (YhiE) activates glutamate decarboxylase-dependent acid resistance in Escherichia coli K-12.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Ma Z</author>
+<author datatype='string'>Gong S</author>
+<author datatype='string'>Richard H</author>
+<author datatype='string'>Tucker DL</author>
+<author datatype='string'>Conway T</author>
+<author datatype='string'>Foster JW</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-19352034' orgid='ECOLI' frameid='PUB-19352034'/></citation>
+<citation><Publication ID='ECOLI:PUB-12730179' orgid='ECOLI' frameid='PUB-12730179' detail='full'><source datatype='string'>J Bacteriol 185(10);3190-201</source>
+<pubmed-id datatype='string'>12730179</pubmed-id>
+<title datatype='string'>Genes of the GadX-GadW regulon in Escherichia coli.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Tucker DL</author>
+<author datatype='string'>Tucker N</author>
+<author datatype='string'>Ma Z</author>
+<author datatype='string'>Foster JW</author>
+<author datatype='string'>Miranda RL</author>
+<author datatype='string'>Cohen PS</author>
+<author datatype='string'>Conway T</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-12940989' orgid='ECOLI' frameid='PUB-12940989'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-11238978' orgid='ECOLI' frameid='PUB-11238978'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-19352034' orgid='ECOLI' frameid='PUB-19352034'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-19352034' orgid='ECOLI' frameid='PUB-19352034'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-COMP-HINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-HINF-SIMILAR-TO-CONSENSUS' class='true'/><Publication resource='#ECOLI:PUB-12730179' orgid='ECOLI' frameid='PUB-12730179'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-CHIP-EXO-MANUAL' orgid='ECOLI' frameid='EV-EXP-CHIP-EXO-MANUAL' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-CHIP-EXO' orgid='ECOLI' frameid='EV-EXP-CHIP-EXO' class='true'/></parent>
+<common-name datatype='string'>ChIP-exo evidence used in manual assertion</common-name>
+<dblink><dblink-db>ECO</dblink-db>
+<dblink-oid>0006008</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>/ECO/NEW-IMAGE?object=0006008</dblink-URL>
+</dblink>
+<credits><imported-from-meta><date datatype='date'>2018-03-05</date>
+<Person ID='ECOLI:paley' orgid='ECOLI' frameid='paley' detail='full'><affiliations><Organization ID='ECOLI:SRI' orgid='ECOLI' frameid='SRI' detail='full'><abbrev-name datatype='string'>SRI International</abbrev-name>
+<email datatype='string'>ptools-support@ai.sri.com</email>
+<common-name datatype='string'>SRI International</common-name>
+<url datatype='string'>http://bioinformatics.ai.sri.com/</url>
+</Organization>
+</affiliations>
+<common-name datatype='string'>Suzanne Paley</common-name>
+</Person>
+<Organization resource='#ECOLI:SRI' orgid='ECOLI' frameid='SRI'/></imported-from-meta>
+</credits>
+<comment datatype='string'>A type of chromatin immunoprecipation-exonuclease evidence that is used in a manual assertion.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-26258987' orgid='ECOLI' frameid='PUB-26258987' detail='full'><source datatype='string'>Nat Commun 6;7970</source>
+<pubmed-id datatype='string'>26258987</pubmed-id>
+<title datatype='string'>Decoding genome-wide GadEWX-transcriptional regulatory networks reveals multifaceted cellular responses to acid stress in Escherichia coli.</title>
+<year datatype='integer'>2015</year>
+<author datatype='string'>Seo SW</author>
+<author datatype='string'>Kim D</author>
+<author datatype='string'>O'Brien EJ</author>
+<author datatype='string'>Szubin R</author>
+<author datatype='string'>Palsson BO</author>
+</Publication>
+</evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred by a human based on computational evidence</common-name>
+<comment datatype='string'>Human inference.  A curator or author inferred this assertion after review of one or more possible types 
+of computational evidence such as sequence similarity, recognized motifs or consensus sequence, etc.  
+When the inference was made by a computer in an automated fashion, use EV-AINF.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-26258987' orgid='ECOLI' frameid='PUB-26258987'/></evidence>
+<abs-center-pos datatype='float'>1572134.5</abs-center-pos>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45231' orgid='ECOLI' frameid='TU0-45231'/><Transcription-Unit resource='#ECOLI:TU369' orgid='ECOLI' frameid='TU369'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-1762' orgid='ECOLI' frameid='BS0-1762' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-15064' orgid='ECOLI' frameid='REG0-15064'/><Regulation resource='#ECOLI:REG0-4989' orgid='ECOLI' frameid='REG0-4989'/></involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-11976288' orgid='ECOLI' frameid='PUB-11976288' detail='full'><source datatype='string'>J Bacteriol 184(10);2603-13</source>
+<pubmed-id datatype='string'>11976288</pubmed-id>
+<title datatype='string'>Functional characterization and regulation of gadX, a gene encoding an AraC/XylS-like transcriptional activator of the Escherichia coli glutamic acid decarboxylase system.</title>
+<year datatype='integer'>2002</year>
+<author datatype='string'>Tramonti A</author>
+<author datatype='string'>Visca P</author>
+<author datatype='string'>De Canio M</author>
+<author datatype='string'>Falconi M</author>
+<author datatype='string'>De Biase D</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication resource='#ECOLI:PUB-11976288' orgid='ECOLI' frameid='PUB-11976288'/></evidence>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/><Publication ID='ECOLI:PUB-16980449' orgid='ECOLI' frameid='PUB-16980449' detail='full'><source datatype='string'>J Bacteriol 188(23);8118-27</source>
+<pubmed-id datatype='string'>16980449</pubmed-id>
+<title datatype='string'>Mechanisms of transcription activation exerted by GadX and GadW at the gadA and gadBC gene promoters of the glutamate-based acid resistance system in Escherichia coli.</title>
+<year datatype='integer'>2006</year>
+<author datatype='string'>Tramonti A</author>
+<author datatype='string'>De Canio M</author>
+<author datatype='string'>Delany I</author>
+<author datatype='string'>Scarlato V</author>
+<author datatype='string'>De Biase D</author>
+</Publication>
+</evidence>
+<abs-center-pos datatype='float'>1572170.5</abs-center-pos>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45231' orgid='ECOLI' frameid='TU0-45231'/><Transcription-Unit resource='#ECOLI:TU369' orgid='ECOLI' frameid='TU369'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-1761' orgid='ECOLI' frameid='BS0-1761' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation resource='#ECOLI:REG0-15063' orgid='ECOLI' frameid='REG0-15063'/><Regulation resource='#ECOLI:REG0-4990' orgid='ECOLI' frameid='REG0-4990'/></involved-in-regulation>
+<evidence><Evidence-Code resource='#ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' class='true'/></evidence>
+<abs-center-pos datatype='float'>1572089.5</abs-center-pos>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45231' orgid='ECOLI' frameid='TU0-45231'/><Transcription-Unit resource='#ECOLI:TU369' orgid='ECOLI' frameid='TU369'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Terminator ID='ECOLI:TERM102' orgid='ECOLI' frameid='TERM102' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>1568930</right-end-position>
+<left-end-position datatype='integer'>1568904</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-10383761' orgid='ECOLI' frameid='PUB-10383761'/></citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45231' orgid='ECOLI' frameid='TU0-45231'/><Transcription-Unit resource='getxml?ECOLI:TU0-41793' orgid='ECOLI' frameid='TU0-41793'/><Transcription-Unit resource='#ECOLI:TU369' orgid='ECOLI' frameid='TU369'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:G6786' orgid='ECOLI' frameid='G6786'/></component>
+<component><Gene resource='getxml?ECOLI:EG11490' orgid='ECOLI' frameid='EG11490'/></component>
+<component><Promoter resource='#ECOLI:PM450' orgid='ECOLI' frameid='PM450'/></component>
+</Transcription-Unit>
+</ptools-xml>

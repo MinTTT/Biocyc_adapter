@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-13036'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-13036</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-13036' orgid='ECOLI' frameid='TU0-13036' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>lysQ</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><Terminator ID='ECOLI:TERM0-1234' orgid='ECOLI' frameid='TERM0-1234' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>781843</right-end-position>
+<left-end-position datatype='integer'>781809</left-end-position>
+<citation><Publication ID='ECOLI:PUB-12824337' orgid='ECOLI' frameid='PUB-12824337' detail='full'><source datatype='string'>Nucleic Acids Res 31(13);3406-15</source>
+<pubmed-id datatype='string'>12824337</pubmed-id>
+<title datatype='string'>Mfold web server for nucleic acid folding and hybridization prediction.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Zuker M</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-19706412' orgid='ECOLI' frameid='PUB-19706412' detail='full'><source datatype='string'>Proc Natl Acad Sci U S A 106(36);15406-11</source>
+<pubmed-id datatype='string'>19706412</pubmed-id>
+<title datatype='string'>Rho directs widespread termination of intragenic and stable RNA transcription.</title>
+<year datatype='integer'>2009</year>
+<author datatype='string'>Peters JM</author>
+<author datatype='string'>Mooney RA</author>
+<author datatype='string'>Kuan PF</author>
+<author datatype='string'>Rowland JL</author>
+<author datatype='string'>Keles S</author>
+<author datatype='string'>Landick R</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-13036' orgid='ECOLI' frameid='TU0-13036'/></component-of>
+</Terminator>
+</component>
+<component><Terminator ID='ECOLI:TERM0-1233' orgid='ECOLI' frameid='TERM0-1233' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>781687</right-end-position>
+<left-end-position datatype='integer'>781653</left-end-position>
+<citation><Publication resource='#ECOLI:PUB-12824337' orgid='ECOLI' frameid='PUB-12824337'/></citation>
+<citation><Publication resource='#ECOLI:PUB-19706412' orgid='ECOLI' frameid='PUB-19706412'/></citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-13036' orgid='ECOLI' frameid='TU0-13036'/></component-of>
+</Terminator>
+</component>
+<component><Gene resource='getxml?ECOLI:G6392' orgid='ECOLI' frameid='G6392'/></component>
+</Transcription-Unit>
+</ptools-xml>

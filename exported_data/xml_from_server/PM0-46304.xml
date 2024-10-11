@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:PM0-46304'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:PM0-46304</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Promoter ID='ECOLI:PM0-46304' orgid='ECOLI' frameid='PM0-46304' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>2599795</minus-10-left>
+<common-name datatype='string'>gcvRp2</common-name>
+<minus-35-right datatype='integer'>2599777</minus-35-right>
+<minus-35-left datatype='integer'>2599772</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2599806</absolute-plus-1-pos>
+<comment datatype='string'>&lt;i&gt;gcvR&lt;/i&gt;p2 is the minor transcription start site for the &lt;i&gt;gcvR&lt;/i&gt; gene, since it has been shown that nearly all of the &lt;i&gt;gcvR&lt;/i&gt; mRNA transcript initiates from the primary promoter &lt;i&gt;gcvR&lt;/i&gt;p1 [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/9537378&quot;&gt;Ghrist98&lt;/a&gt;]. Its importance is still unclear, and if this promoter functions &lt;i&gt;in vivo&lt;/i&gt;, it is at very low levels [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/9537378&quot;&gt;Ghrist98&lt;/a&gt;].</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred by a human based on computational evidence</common-name>
+<comment datatype='string'>Human inference.  A curator or author inferred this assertion after review of one or more possible types 
+of computational evidence such as sequence similarity, recognized motifs or consensus sequence, etc.  
+When the inference was made by a computer in an automated fashion, use EV-AINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-9537378' orgid='ECOLI' frameid='PUB-9537378' detail='full'><source datatype='string'>J Bacteriol 180(7);1803-7</source>
+<pubmed-id datatype='string'>9537378</pubmed-id>
+<title datatype='string'>Promoter characterization and constitutive expression of the Escherichia coli gcvR gene.</title>
+<year datatype='integer'>1998</year>
+<author datatype='string'>Ghrist AC</author>
+<author datatype='string'>Stauffer GV</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-9537378' orgid='ECOLI' frameid='PUB-9537378'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9537378' orgid='ECOLI' frameid='PUB-9537378'/></evidence>
+<minus-10-right datatype='integer'>2599800</minus-10-right>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-42559' orgid='ECOLI' frameid='TU0-42559'/></component-of>
+</Promoter>
+</ptools-xml>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00429'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00429</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00429' orgid='ECOLI' frameid='TU00429' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>lysU</common-name>
+<comment datatype='string'>It is probable that &lt;i&gt;lysU&lt;/i&gt; constitutes an operon with the gene immediately 5' upstream.  Further study is needed to clarify the nature of the transcripts containing the LysU message and to define their regulation. The &lt;i&gt;lysU&lt;/i&gt; gene is usually silently expressed.</comment>
+<citation><Publication ID='ECOLI:PUB-2188953' orgid='ECOLI' frameid='PUB-2188953' detail='full'><source datatype='string'>J Bacteriol 172(6);3237-43</source>
+<pubmed-id datatype='string'>2188953</pubmed-id>
+<title datatype='string'>Roles of the two lysyl-tRNA synthetases of Escherichia coli: analysis of nucleotide sequences and mutant behavior.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>Clark RL</author>
+<author datatype='string'>Neidhardt FC</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-1744045' orgid='ECOLI' frameid='PUB-1744045' detail='full'><source datatype='string'>J Bacteriol 173(24);7903-10</source>
+<pubmed-id datatype='string'>1744045</pubmed-id>
+<title datatype='string'>Control of Escherichia coli lysyl-tRNA synthetase expression by anaerobiosis.</title>
+<year datatype='integer'>1991</year>
+<author datatype='string'>Leveque F</author>
+<author datatype='string'>Gazeau M</author>
+<author datatype='string'>Fromant M</author>
+<author datatype='string'>Blanquet S</author>
+<author datatype='string'>Plateau P</author>
+</Publication>
+</citation>
+<component><Promoter ID='ECOLI:PM00580' orgid='ECOLI' frameid='PM00580' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>lysUp2</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>4354797</absolute-plus-1-pos>
+<comment datatype='string'>There are other &amp;sigma;&lt;sup&gt;70&lt;/sup&gt;-like sequences in the 215 bp 5' to the &lt;i&gt;lysU&lt;/i&gt; gene.</comment>
+<citation><Publication resource='#ECOLI:PUB-2188953' orgid='ECOLI' frameid='PUB-2188953'/></citation>
+<citation><Publication resource='#ECOLI:PUB-1744045' orgid='ECOLI' frameid='PUB-1744045'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2188953' orgid='ECOLI' frameid='PUB-2188953'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1744045' orgid='ECOLI' frameid='PUB-1744045'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU00429' orgid='ECOLI' frameid='TU00429'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG10553' orgid='ECOLI' frameid='EG10553'/></component>
+</Transcription-Unit>
+</ptools-xml>

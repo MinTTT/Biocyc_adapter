@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-42565'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-42565</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-42565' orgid='ECOLI' frameid='TU0-42565' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>yejG</common-name>
+<citation><Publication ID='ECOLI:PUB-24146601' orgid='ECOLI' frameid='PUB-24146601' detail='full'><source datatype='string'>PLoS Comput Biol 9(10);e1003246</source>
+<pubmed-id datatype='string'>24146601</pubmed-id>
+<title datatype='string'>dPeak: high resolution identification of transcription factor binding sites from PET and SET ChIP-Seq data.</title>
+<year datatype='integer'>2013</year>
+<author datatype='string'>Chung D</author>
+<author datatype='string'>Park D</author>
+<author datatype='string'>Myers K</author>
+<author datatype='string'>Grass J</author>
+<author datatype='string'>Kiley P</author>
+<author datatype='string'>Landick R</author>
+<author datatype='string'>Keles S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-24146601' orgid='ECOLI' frameid='PUB-24146601'/></evidence>
+<component><Promoter ID='ECOLI:PM0-46319' orgid='ECOLI' frameid='PM0-46319' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>yejGp2</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2278397</absolute-plus-1-pos>
+<comment datatype='string'>&lt;i&gt;yejG&lt;/i&gt;p2 was validated experimentally in aerobic conditions [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/24146601&quot;&gt;Chung13&lt;/a&gt;].</comment>
+<citation><Publication resource='#ECOLI:PUB-24146601' orgid='ECOLI' frameid='PUB-24146601'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-24146601' orgid='ECOLI' frameid='PUB-24146601'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-42565' orgid='ECOLI' frameid='TU0-42565'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG12042' orgid='ECOLI' frameid='EG12042'/></component>
+</Transcription-Unit>
+</ptools-xml>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='27.0' xml:base='http://BioCyc.org/getxml?ECOLI:EG30063'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:EG30063</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='27.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Gene ID='ECOLI:EG30063' orgid='ECOLI' frameid='EG30063' detail='full'><parent><Gene resource='getxml?ECOLI:BC-2.2.7' orgid='ECOLI' frameid='BC-2.2.7' class='true'/></parent>
+<parent><Gene resource='getxml?ECOLI:BC-3.1.3.1' orgid='ECOLI' frameid='BC-3.1.3.1' class='true'/></parent>
+<parent><Gene resource='getxml?ECOLI:BC-3.1.3.6' orgid='ECOLI' frameid='BC-3.1.3.6' class='true'/></parent>
+<parent><Gene resource='getxml?ECOLI:BC-5.10' orgid='ECOLI' frameid='BC-5.10' class='true'/></parent>
+<parent><Gene resource='getxml?ECOLI:BC-5.5' orgid='ECOLI' frameid='BC-5.5' class='true'/></parent>
+<parent><Gene resource='getxml?ECOLI:BC-5.6.4' orgid='ECOLI' frameid='BC-5.6.4' class='true'/></parent>
+<replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<product><RNA resource='getxml?ECOLI:MICF-RNA' orgid='ECOLI' frameid='MICF-RNA'/></product>
+<centisome-position datatype='float' units='CENTISOMES'>49.833206</centisome-position>
+<common-name datatype='string'>micF</common-name>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-45164' orgid='ECOLI' frameid='TU0-45164'/><Transcription-Unit resource='getxml?ECOLI:TU0-2644' orgid='ECOLI' frameid='TU0-2644'/></component-of>
+<accession-1 datatype='string'>b4439</accession-1>
+<regulated-by><Regulation ID='ECOLI:REG0-14071' orgid='ECOLI' frameid='REG0-14071' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulated-entity><Gene resource='#ECOLI:EG30063' orgid='ECOLI' frameid='EG30063'/></regulated-entity>
+<mode datatype='string'>+</mode>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-ARCA' orgid='ECOLI' frameid='PHOSPHO-ARCA'/></regulator>
+</Regulation>
+<Regulation ID='ECOLI:REG0-14070' orgid='ECOLI' frameid='REG0-14070' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulated-entity><Gene resource='#ECOLI:EG30063' orgid='ECOLI' frameid='EG30063'/></regulated-entity>
+<mode datatype='string'>+</mode>
+<regulator><Protein resource='getxml?ECOLI:PHOSPHO-ARCA' orgid='ECOLI' frameid='PHOSPHO-ARCA'/></regulator>
+</Regulation>
+</regulated-by>
+<dblink><dblink-db>REGULONDB</dblink-db>
+<dblink-oid>b4439</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://regulondb.ccg.unam.mx/search?term=b4439&amp;organism=ECK12&amp;type=All</dblink-URL>
+</dblink>
+<dblink><dblink-db>ASAP</dblink-db>
+<dblink-oid>ABE-0047259</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://asap.ahabs.wisc.edu/asap/feature_info.php?FeatureID=ABE-0047259</dblink-URL>
+</dblink>
+<dblink><dblink-db>ECHOBASE</dblink-db>
+<dblink-oid>EB4226</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.york.ac.uk/res/thomas/Gene.cfm?recordID=EB4226</dblink-URL>
+</dblink>
+<dblink><dblink-db>CGSC</dblink-db>
+<dblink-oid>18157</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://cgsc.biology.yale.edu/Site.php?ID=18157</dblink-URL>
+</dblink>
+<left-end-position datatype='integer'>2313084</left-end-position>
+<right-end-position datatype='integer'>2313176</right-end-position>
+<synonym datatype='string'>stc</synonym>
+<accession-2 datatype='string'>ECK2208</accession-2>
+</Gene>
+</ptools-xml>

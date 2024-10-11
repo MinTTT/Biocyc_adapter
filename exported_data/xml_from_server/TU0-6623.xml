@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-6623'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-6623</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-6623' orgid='ECOLI' frameid='TU0-6623' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>tesA-ybbO</common-name>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+</evidence>
+<component><Gene resource='getxml?ECOLI:G6269' orgid='ECOLI' frameid='G6269'/></component>
+<component><Gene resource='getxml?ECOLI:EG11542' orgid='ECOLI' frameid='EG11542'/></component>
+<component><Promoter ID='ECOLI:PM00584' orgid='ECOLI' frameid='PM00584' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>tesAp</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>519949</absolute-plus-1-pos>
+<comment datatype='string'>There are two putative promoter regions that were identified by different research groups.</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-8432696' orgid='ECOLI' frameid='PUB-8432696' detail='full'><source datatype='string'>J Bacteriol 175(4);1032-7</source>
+<pubmed-id datatype='string'>8432696</pubmed-id>
+<title datatype='string'>Molecular cloning, sequencing, and mapping of the gene encoding protease I and characterization of proteinase and proteinase-defective Escherichia coli mutants.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>Ichihara S</author>
+<author datatype='string'>Matsubara Y</author>
+<author datatype='string'>Kato C</author>
+<author datatype='string'>Akasaka K</author>
+<author datatype='string'>Mizushima S</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-8098033' orgid='ECOLI' frameid='PUB-8098033' detail='full'><source datatype='string'>J Biol Chem 268(13);9238-45</source>
+<pubmed-id datatype='string'>8098033</pubmed-id>
+<title datatype='string'>Escherichia coli thioesterase I, molecular cloning and sequencing of the structural gene and identification as a periplasmic enzyme.</title>
+<year datatype='integer'>1993</year>
+<author datatype='string'>Cho H</author>
+<author datatype='string'>Cronan JE</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-6623' orgid='ECOLI' frameid='TU0-6623'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

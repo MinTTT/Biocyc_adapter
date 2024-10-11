@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00444'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00444</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00444' orgid='ECOLI' frameid='TU00444' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>cvpA-purF-ubiX</common-name>
+<citation><Publication ID='ECOLI:PUB-2991286' orgid='ECOLI' frameid='PUB-2991286' detail='full'><source datatype='string'>J Biol Chem 260(18);10378-87</source>
+<pubmed-id datatype='string'>2991286</pubmed-id>
+<title datatype='string'>Regulation of Escherichia coli purF. Analysis of the control region of a pur regulon gene.</title>
+<year datatype='integer'>1985</year>
+<author datatype='string'>Makaroff CA</author>
+<author datatype='string'>Zalkin H</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IMP-POLAR-MUTATION' orgid='ECOLI' frameid='EV-EXP-IMP-POLAR-MUTATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IMP' orgid='ECOLI' frameid='EV-EXP-IMP' class='true'/></parent>
+<common-name datatype='string'>Polar mutation</common-name>
+<comment datatype='string'>If a mutation in a gene or promoter prevents expression of the downstream genes due to a polar effect, the mutated gene is clearly part of the transcription unit.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2991286' orgid='ECOLI' frameid='PUB-2991286'/></evidence>
+<component><Terminator ID='ECOLI:TERM53' orgid='ECOLI' frameid='TERM53' detail='full'><parent><Terminator resource='getxml?ECOLI:Rho-Independent-Terminators' orgid='ECOLI' frameid='Rho-Independent-Terminators' class='true'/></parent>
+<right-end-position datatype='integer'>2428048</right-end-position>
+<left-end-position datatype='integer'>2428030</left-end-position>
+<citation><Publication ID='ECOLI:PUB-3040734' orgid='ECOLI' frameid='PUB-3040734' detail='full'><source datatype='string'>J Biol Chem 262(25);12209-17</source>
+<pubmed-id datatype='string'>3040734</pubmed-id>
+<title datatype='string'>The hisT-purF region of the Escherichia coli K-12 chromosome. Identification of additional genes of the hisT and purF operons.</title>
+<year datatype='integer'>1987</year>
+<author datatype='string'>Nonet ML</author>
+<author datatype='string'>Marvel CC</author>
+<author datatype='string'>Tolan DR</author>
+</Publication>
+</citation>
+<component-of><Transcription-Unit resource='getxml?ECOLI:TU0-14520' orgid='ECOLI' frameid='TU0-14520'/><Transcription-Unit resource='getxml?ECOLI:TU00475' orgid='ECOLI' frameid='TU00475'/><Transcription-Unit resource='#ECOLI:TU00444' orgid='ECOLI' frameid='TU00444'/></component-of>
+</Terminator>
+</component>
+<component><Promoter ID='ECOLI:PM00403' orgid='ECOLI' frameid='PM00403' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>2430776</minus-10-left>
+<common-name datatype='string'>cvpAp2</common-name>
+<synonym datatype='string'>cvpA</synonym>
+<synonym datatype='string'>purFp2</synonym>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2430770</absolute-plus-1-pos>
+<citation><Publication resource='#ECOLI:PUB-2991286' orgid='ECOLI' frameid='PUB-2991286'/></citation>
+<citation><Publication ID='ECOLI:PUB-21398637' orgid='ECOLI' frameid='PUB-21398637' detail='full'><source datatype='string'>Nucleic Acids Res 39(13);5338-55</source>
+<pubmed-id datatype='string'>21398637</pubmed-id>
+<title datatype='string'>In vitro transcription profiling of the &amp;sigma;S subunit of bacterial RNA polymerase: re-definition of the &amp;sigma;S regulon and identification of &amp;sigma;S-specific promoter sequence elements.</title>
+<year datatype='integer'>2011</year>
+<author datatype='string'>Maciag A</author>
+<author datatype='string'>Peano C</author>
+<author datatype='string'>Pietrelli A</author>
+<author datatype='string'>Egli T</author>
+<author datatype='string'>De Bellis G</author>
+<author datatype='string'>Landini P</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-2991286' orgid='ECOLI' frameid='PUB-2991286'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' orgid='ECOLI' frameid='EV-EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>High-throughput transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified using a high-throughput experimental modified RACE approach.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-21398637' orgid='ECOLI' frameid='PUB-21398637'/></evidence>
+<minus-10-right datatype='integer'>2430781</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00444' orgid='ECOLI' frameid='TU00444'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11044' orgid='ECOLI' frameid='EG11044'/></component>
+<component><Gene resource='getxml?ECOLI:EG10794' orgid='ECOLI' frameid='EG10794'/></component>
+<component><Gene resource='getxml?ECOLI:EG10169' orgid='ECOLI' frameid='EG10169'/></component>
+</Transcription-Unit>
+</ptools-xml>

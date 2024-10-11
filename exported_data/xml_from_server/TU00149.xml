@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU00149'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU00149</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU00149' orgid='ECOLI' frameid='TU00149' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>dsdC</common-name>
+<synonym datatype='string'>OP00200</synonym>
+<citation><Publication ID='ECOLI:PUB-6246062' orgid='ECOLI' frameid='PUB-6246062' detail='full'><source datatype='string'>J Bacteriol 142(1);174-84</source>
+<pubmed-id datatype='string'>6246062</pubmed-id>
+<title datatype='string'>Physical mapping of the Escherichia coli D-serine deaminase region: contiguity of the dsd structural and regulatory genes.</title>
+<year datatype='integer'>1980</year>
+<author datatype='string'>Carothers AM</author>
+<author datatype='string'>McFall E</author>
+<author datatype='string'>Palchaudhuri S</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-3029015' orgid='ECOLI' frameid='PUB-3029015' detail='full'><source datatype='string'>J Bacteriol 169(3);1056-60</source>
+<pubmed-id datatype='string'>3029015</pubmed-id>
+<title datatype='string'>In vivo D-serine deaminase transcription start sites in wild-type Escherichia coli and in dsdA promoter mutants.</title>
+<year datatype='integer'>1987</year>
+<author datatype='string'>Bornstein-Forst SM</author>
+<author datatype='string'>McFall E</author>
+<author datatype='string'>Palchaudhuri S</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-7592420' orgid='ECOLI' frameid='PUB-7592420' detail='full'><source datatype='string'>J Bacteriol 177(22);6456-61</source>
+<pubmed-id datatype='string'>7592420</pubmed-id>
+<title datatype='string'>Organization and transcriptional regulation of the Escherichia coli K-12 D-serine tolerance locus.</title>
+<year datatype='integer'>1995</year>
+<author datatype='string'>Norregaard-Madsen M</author>
+<author datatype='string'>McFall E</author>
+<author datatype='string'>Valentin-Hansen P</author>
+</Publication>
+</citation>
+<component><Promoter ID='ECOLI:PM00201' orgid='ECOLI' frameid='PM00201' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<minus-10-left datatype='integer'>2477752</minus-10-left>
+<common-name datatype='string'>dsdCp</common-name>
+<minus-35-right datatype='integer'>2477781</minus-35-right>
+<minus-35-left datatype='integer'>2477776</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>2477746</absolute-plus-1-pos>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication resource='#ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference of promoter position</common-name>
+<comment datatype='string'>Automated inference of promoter position relative to the -10 and -35 boxes.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615'/></evidence>
+<regulated-by><Regulation ID='ECOLI:REG0-10502' orgid='ECOLI' frameid='REG0-10502' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7756' orgid='ECOLI' frameid='CPLX0-7756'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00201' orgid='ECOLI' frameid='PM00201'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+<Regulation ID='ECOLI:REG0-5688' orgid='ECOLI' frameid='REG0-5688' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:CPLX0-7714' orgid='ECOLI' frameid='CPLX0-7714'/></regulator>
+<regulated-entity><Promoter resource='#ECOLI:PM00201' orgid='ECOLI' frameid='PM00201'/></regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</regulated-by>
+<minus-10-right datatype='integer'>2477757</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU00149' orgid='ECOLI' frameid='TU00149'/></component-of>
+</Promoter>
+</component>
+<component><Gene resource='getxml?ECOLI:EG13161' orgid='ECOLI' frameid='EG13161'/></component>
+</Transcription-Unit>
+</ptools-xml>

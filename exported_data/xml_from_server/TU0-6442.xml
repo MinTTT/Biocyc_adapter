@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-6442'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-6442</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-6442' orgid='ECOLI' frameid='TU0-6442' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>pepD</common-name>
+<comment datatype='string'>A potential RNA G-quadruplex structure, formed by guanine-rich sequences located in the coding sequence region of the gene, was identified  for &lt;i&gt;pepD&lt;/i&gt; . This structure  could regulate the expression of the gene, as observed for &lt;i&gt;hemL&lt;/i&gt; gene expression [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/31964733&quot;&gt;Shao20&lt;/a&gt;].</comment>
+<citation><Publication ID='ECOLI:PUB-1695895' orgid='ECOLI' frameid='PUB-1695895' detail='full'><source datatype='string'>J Bacteriol 1990;172(8);4641-51</source>
+<pubmed-id datatype='string'>1695895</pubmed-id>
+<title datatype='string'>Peptidase D gene (pepD) of Escherichia coli K-12: nucleotide sequence, transcript mapping, and comparison with other peptidase genes.</title>
+<year datatype='integer'>1990</year>
+<author datatype='string'>Henrich B</author>
+<author datatype='string'>Monnerjahn U</author>
+<author datatype='string'>Plapp R</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1695895' orgid='ECOLI' frameid='PUB-1695895'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1695895' orgid='ECOLI' frameid='PUB-1695895'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG10695' orgid='ECOLI' frameid='EG10695'/></component>
+<component><Promoter ID='ECOLI:PM00333' orgid='ECOLI' frameid='PM00333' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>-</transcription-direction>
+<common-name datatype='string'>pepDp2</common-name>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>255776</absolute-plus-1-pos>
+<comment datatype='string'>[&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/14523117&quot;&gt;Brombacher03&lt;/a&gt;] could not identify  the transcriptional start site of  the pepDp2 promoter in the stationary phase of growth, but 39 bp downstream of  this promoter, he found another promoter  (pepDp3)  that was not identified by [&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/1695895&quot;&gt;Henrich90&lt;/a&gt;].</comment>
+<citation><Publication resource='#ECOLI:PUB-1695895' orgid='ECOLI' frameid='PUB-1695895'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPTION-INIT-MAPPING' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Transcription initiation mapping</common-name>
+<comment datatype='string'>The transcription start site is identified by primer extension.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1695895' orgid='ECOLI' frameid='PUB-1695895'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-6442' orgid='ECOLI' frameid='TU0-6442'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

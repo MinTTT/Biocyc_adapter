@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-8341'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-8341</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-8341' orgid='ECOLI' frameid='TU0-8341' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rtcR</common-name>
+<citation><Publication ID='ECOLI:PUB-9738023' orgid='ECOLI' frameid='PUB-9738023' detail='full'><source datatype='string'>J Biol Chem 273(39);25516-26</source>
+<pubmed-id datatype='string'>9738023</pubmed-id>
+<title datatype='string'>Characterization of the Escherichia coli RNA 3'-terminal phosphate cyclase and its sigma54-regulated operon.</title>
+<year datatype='integer'>1998</year>
+<author datatype='string'>Genschik P</author>
+<author datatype='string'>Drabikowski K</author>
+<author datatype='string'>Filipowicz W</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BOUNDARIES-DEFINED' orgid='ECOLI' frameid='EV-EXP-IDA-BOUNDARIES-DEFINED' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Boundaries of transcription experimentally identified</common-name>
+<comment datatype='string'>Sites or genes bounding the transcription unit are experimentally identified.  Several possible cases exist, such as defining the boundaries of a transcription unit with an experimentally identified promoter and terminator, or with a promoter and a downstream gene that is transcribed in the opposite direction, or with a terminator and an upstream gene that is transcribed in the opposite direction.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9738023' orgid='ECOLI' frameid='PUB-9738023'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG12356' orgid='ECOLI' frameid='EG12356'/></component>
+<component><Promoter ID='ECOLI:PM0-8721' orgid='ECOLI' frameid='PM0-8721' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>rtcRp</common-name>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPON-MONOMER' orgid='ECOLI' frameid='RPON-MONOMER'/></binds-sigma-factor>
+<citation><Publication resource='#ECOLI:PUB-9738023' orgid='ECOLI' frameid='PUB-9738023'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-9738023' orgid='ECOLI' frameid='PUB-9738023'/></evidence>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-8341' orgid='ECOLI' frameid='TU0-8341'/></component-of>
+</Promoter>
+</component>
+</Transcription-Unit>
+</ptools-xml>

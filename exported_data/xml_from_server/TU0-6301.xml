@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ptools-xml ptools-version='28.0' xml:base='http://BioCyc.org/getxml?ECOLI:TU0-6301'><metadata><url>http://BioCyc.org/</url>
+<service_name>getxml</service_name>
+<query>ECOLI:TU0-6301</query>
+<num_results>1</num_results>
+<PGDB orgid='ECOLI' version='28.1'><species datatype='string'>Escherichia coli</species>
+<strain datatype='string'>K-12 substr. MG1655</strain>
+<dblink><dblink-db>NCBI-TAXONOMY-DB</dblink-db>
+<dblink-oid>511145</dblink-oid>
+<dblink-relationship>unification</dblink-relationship>
+<dblink-URL>http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=511145</dblink-URL>
+</dblink>
+</PGDB>
+</metadata>
+<Transcription-Unit ID='ECOLI:TU0-6301' orgid='ECOLI' frameid='TU0-6301' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<common-name datatype='string'>dinG-ybiB</common-name>
+<citation><Publication ID='ECOLI:PUB-26063803' orgid='ECOLI' frameid='PUB-26063803' detail='full'><source datatype='string'>J Biol Chem 290(32);19527-39</source>
+<pubmed-id datatype='string'>26063803</pubmed-id>
+<title datatype='string'>YbiB from Escherichia coli, the Defining Member of the Novel TrpD2 Family of Prokaryotic DNA-binding Proteins.</title>
+<year datatype='integer'>2015</year>
+<author datatype='string'>Schneider D</author>
+<author datatype='string'>Kaiser W</author>
+<author datatype='string'>Stutz C</author>
+<author datatype='string'>Holinski A</author>
+<author datatype='string'>Mayans O</author>
+<author datatype='string'>Babinger P</author>
+</Publication>
+</citation>
+<citation><Publication ID='ECOLI:PUB-20718955' orgid='ECOLI' frameid='PUB-20718955' detail='full'><source datatype='string'>BMC Syst Biol 4;116</source>
+<pubmed-id datatype='string'>20718955</pubmed-id>
+<title datatype='string'>Integrative inference of gene-regulatory networks in Escherichia coli using information theoretic concepts and sequence analysis.</title>
+<year datatype='integer'>2010</year>
+<author datatype='string'>Kaleta C</author>
+<author datatype='string'>Gohler A</author>
+<author datatype='string'>Schuster S</author>
+<author datatype='string'>Jahreis K</author>
+<author datatype='string'>Guthke R</author>
+<author datatype='string'>Nikolajewa S</author>
+</Publication>
+</citation>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' orgid='ECOLI' frameid='EV-EXP-IDA-TRANSCRIPT-LEN-DETERMINATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-IDA' orgid='ECOLI' frameid='EV-EXP-IDA' class='true'/></parent>
+<common-name datatype='string'>Length of transcript experimentally determined</common-name>
+<comment datatype='string'>The length of the (transcribed) RNA is experimentally determined.  The length of the mRNA is compared with that of the DNA sequence and by this means the number of genes transcribed are established.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-26063803' orgid='ECOLI' frameid='PUB-26063803'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IEP' orgid='ECOLI' frameid='EV-EXP-IEP' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP' orgid='ECOLI' frameid='EV-EXP' class='true'/></parent>
+<common-name datatype='string'>Inferred from expression pattern</common-name>
+<comment datatype='string'>IEP inferred from expression pattern.
+
+&lt;br&gt;
+The assertion was inferred from a pattern of expression data such as
+&lt;ul&gt;
+    &lt;li&gt; Transcript levels (e.g. Northerns, microarray data)
+    &lt;li&gt; Protein levels (e.g. Western blots)
+&lt;/ul&gt;</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-20718955' orgid='ECOLI' frameid='PUB-20718955'/></evidence>
+<component><Gene resource='getxml?ECOLI:EG11580' orgid='ECOLI' frameid='EG11580'/></component>
+<component><DNA-Binding-Site ID='ECOLI:BS0-6321' orgid='ECOLI' frameid='BS0-6321' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<involved-in-regulation><Regulation ID='ECOLI:REG0-6158' orgid='ECOLI' frameid='REG0-6158' detail='low'><parent><Regulation resource='getxml?ECOLI:Transcription-Factor-Binding' orgid='ECOLI' frameid='Transcription-Factor-Binding' class='true'/></parent>
+<regulator><Protein resource='getxml?ECOLI:PC00010' orgid='ECOLI' frameid='PC00010'/></regulator>
+<regulated-entity><Promoter ID='ECOLI:PM0-6601' orgid='ECOLI' frameid='PM0-6601' detail='full'><replicon><Genetic-Element resource='getxml?ECOLI:COLI-K12' orgid='ECOLI' frameid='COLI-K12'/></replicon>
+<transcription-direction datatype='string'>+</transcription-direction>
+<minus-10-left datatype='integer'>833059</minus-10-left>
+<common-name datatype='string'>dinGp</common-name>
+<minus-35-right datatype='integer'>833043</minus-35-right>
+<minus-35-left datatype='integer'>833038</minus-35-left>
+<binds-sigma-factor><Protein resource='getxml?ECOLI:RPOD-MONOMER' orgid='ECOLI' frameid='RPOD-MONOMER'/></binds-sigma-factor>
+<absolute-plus-1-pos datatype='integer' units='base pairs'>833073</absolute-plus-1-pos>
+<comment datatype='string'>We assigned a putative transcription start site to this promoter based on the observation that the majority of the promoters, whose transcription start sites were determined experimentally, present a distance of 6 nucleotides between the transcription start site and the -10 box. 
+&lt;p&gt;
+[&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/1577702&quot;&gt;Lewis92&lt;/a&gt;] predicted a potential &lt;i&gt;dinG&lt;/i&gt; promoter site (-35 and -10 regions) by using three different computational search programs. The putative transcription start site of this promoter overlaps the &lt;i&gt;dinG&lt;/i&gt; gene, but the start of the translation of this gene has not been determined.</comment>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP' orgid='ECOLI' frameid='EV-COMP' class='true'/></parent>
+<common-name datatype='string'>Inferred computationally without human oversight</common-name>
+<comment datatype='string'>Automated inference.  A computer inferred this assertion through one of many possible methods such as 
+sequence similarity, recognized motifs or consensus sequence, etc.  When a person made the inference 
+from computational evidence, use EV-COMP-HINF.</comment>
+</Evidence-Code>
+<Publication ID='ECOLI:PUB-14529615' orgid='ECOLI' frameid='PUB-14529615' detail='full'><source datatype='string'>J Mol Biol 333(2);261-78</source>
+<pubmed-id datatype='string'>14529615</pubmed-id>
+<title datatype='string'>Sigma70 promoters in Escherichia coli: specific transcription in dense regions of overlapping promoter-like signals.</title>
+<year datatype='integer'>2003</year>
+<author datatype='string'>Huerta AM</author>
+<author datatype='string'>Collado-Vides J</author>
+</Publication>
+</evidence>
+<citation><Publication ID='ECOLI:PUB-1577702' orgid='ECOLI' frameid='PUB-1577702' detail='full'><source datatype='string'>J Bacteriol 174(10);3377-85</source>
+<pubmed-id datatype='string'>1577702</pubmed-id>
+<title datatype='string'>Isolation of DNA damage-inducible promoters in Escherichia coli: regulation of polB (dinA), dinG, and dinH by LexA repressor.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Lewis LK</author>
+<author datatype='string'>Jenkins ME</author>
+<author datatype='string'>Mount DW</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-1577702' orgid='ECOLI' frameid='PUB-1577702'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-HINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-HINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-COMP-HINF' orgid='ECOLI' frameid='EV-COMP-HINF' class='true'/></parent>
+<common-name datatype='string'>Human inference of promoter position</common-name>
+<comment datatype='string'>A person inferred, or reviewed a computer inference of, promoter position relative to the -10 and -35 boxes. </comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1577702' orgid='ECOLI' frameid='PUB-1577702'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-POSITIONAL-IDENTIFICATION' orgid='ECOLI' frameid='EV-COMP-AINF-POSITIONAL-IDENTIFICATION' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference of promoter position</common-name>
+<comment datatype='string'>Automated inference of promoter position relative to the -10 and -35 boxes.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1577702' orgid='ECOLI' frameid='PUB-1577702'/></evidence>
+<regulated-by><Regulation resource='#ECOLI:REG0-6158' orgid='ECOLI' frameid='REG0-6158'/></regulated-by>
+<minus-10-right datatype='integer'>833064</minus-10-right>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-6301' orgid='ECOLI' frameid='TU0-6301'/></component-of>
+</Promoter>
+</regulated-entity>
+<mode datatype='string'>-</mode>
+</Regulation>
+</involved-in-regulation>
+<citation><Publication ID='ECOLI:PUB-1629168' orgid='ECOLI' frameid='PUB-1629168' detail='full'><source datatype='string'>J Bacteriol 174(15);5110-6</source>
+<pubmed-id datatype='string'>1629168</pubmed-id>
+<title datatype='string'>Interaction of LexA repressor with the asymmetric dinG operator and complete nucleotide sequence of the gene.</title>
+<year datatype='integer'>1992</year>
+<author datatype='string'>Lewis LK</author>
+<author datatype='string'>Mount DW</author>
+</Publication>
+</citation>
+<citation><Publication resource='#ECOLI:PUB-1577702' orgid='ECOLI' frameid='PUB-1577702'/></citation>
+<evidence><Evidence-Code ID='ECOLI:EV-COMP-AINF-SIMILAR-TO-CONSENSUS' orgid='ECOLI' frameid='EV-COMP-AINF-SIMILAR-TO-CONSENSUS' detail='full' class='true'><parent><Evidence-Code resource='#ECOLI:EV-COMP-AINF' orgid='ECOLI' frameid='EV-COMP-AINF' class='true'/></parent>
+<common-name datatype='string'>Automated inference based on similarity to consensus sequences</common-name>
+<comment datatype='string'>A DNA sequence similar to previously known consensus sequences is computationally identified.</comment>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1629168' orgid='ECOLI' frameid='PUB-1629168'/></evidence>
+<evidence><Evidence-Code ID='ECOLI:EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' orgid='ECOLI' frameid='EV-EXP-IDA-BINDING-OF-PURIFIED-PROTEINS' detail='full' class='true'><parent><Evidence-Code resource='getxml?ECOLI:EV-EXP-NUC-ACID-BINDING' orgid='ECOLI' frameid='EV-EXP-NUC-ACID-BINDING' class='true'/></parent>
+<common-name datatype='string'>Binding of purified proteins</common-name>
+</Evidence-Code>
+<Publication resource='#ECOLI:PUB-1629168' orgid='ECOLI' frameid='PUB-1629168'/></evidence>
+<abs-center-pos datatype='float'>833045.5</abs-center-pos>
+<component-of><Transcription-Unit resource='#ECOLI:TU0-6301' orgid='ECOLI' frameid='TU0-6301'/></component-of>
+</DNA-Binding-Site>
+</component>
+<component><Gene resource='getxml?ECOLI:EG11357' orgid='ECOLI' frameid='EG11357'/></component>
+<component><Promoter resource='#ECOLI:PM0-6601' orgid='ECOLI' frameid='PM0-6601'/></component>
+</Transcription-Unit>
+</ptools-xml>
