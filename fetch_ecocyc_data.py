@@ -25,7 +25,7 @@ command_lib = {
 
 
 account = 'pan.chu@siat.ac.cn'
-psw = 'nXqxWN7DTtnCaDP'
+psw = 'cp12369874'
 
 webServer = 'https://websvc.biocyc.org'
 biocyc_web = 'https://biocyc.org'
@@ -56,7 +56,7 @@ class BioCycQuery:
         xml_text = self.s.get(url).text
         return xml_text
 
-    def query_by_ID(self, ID, detail='full', force_from_server=False):
+    def query_by_ID(self, ID, detail='full', force_from_server=False, save=False):
         if force_from_server:
             url = f'{self.webServer}/getxml?id=ECOLI:{ID}&detail={detail}'
             xml_text = self._get_from_server(url)
@@ -68,12 +68,13 @@ class BioCycQuery:
                 url = f'{self.webServer}/getxml?id=ECOLI:{ID}&detail={detail}'
                 xml_text = self._get_from_server(url)
                 #save it to local
-                with open(f'./exported_data/xml_from_server/{ID}.xml', 'w', encoding='utf-8') as g_xml:
-                    g_xml.write(xml_text)
+                if save:
+                    with open(f'./exported_data/xml_from_server/{ID}.xml', 'w', encoding='utf-8') as g_xml:
+                        g_xml.write(xml_text)
 
         id_soup = BeautifulSoup(xml_text, 'xml')
         return id_soup
-    def query_by_IDs(self, IDs, detail='full', force_from_server=False):
+    def query_by_IDs(self, IDs, detail='full', force_from_server=True):
         all_soup = []
         if not isinstance(IDs, list):
             IDs = [IDs]
@@ -81,7 +82,7 @@ class BioCycQuery:
             all_soup.append(self.query_by_ID(ID, detail, force_from_server))
         return all_soup
 
-    def query_info_by_ID(self, ID, force_from_server=False):
+    def query_info_by_ID(self, ID, force_from_server=True, save=False):
         if force_from_server:
             url = f'https://ecocyc.org/ajax-tooltip-as-json?orgid=ECOLI&objs={id}'
             json_text = self._get_from_server(url)
@@ -93,18 +94,40 @@ class BioCycQuery:
                 url = f'https://ecocyc.org/ajax-tooltip-as-json?orgid=ECOLI&objs={ID}'
                 json_text = self._get_from_server(url)
                 # save it to local
-                with open(f'./exported_data/json_from_server/{ID}.json', 'w', encoding='utf-8') as g_json:
-                    g_json.write(json_text)
+                if save:
+                    with open(f'./exported_data/json_from_server/{ID}.json', 'w', encoding='utf-8') as g_json:
+                        g_json.write(json_text)
         json_info = json.loads(json_text)
         return json_info
 
-    def query_info_by_IDs(self, IDs, force_from_server=False):
+    def query_info_by_IDs(self, IDs, force_from_server=True):
         all_json = []
         if not isinstance(IDs, list):
             IDs = [IDs]
         for ID in tqdm(IDs):
             all_json.append(self.query_info_by_ID(ID, force_from_server))
         return all_json
+
+    def query_info_by_any(self, query, force_from_server=False, save=False):
+        """
+        https://ecocyc.org/ECOLI/substring-search?type=NIL&object=allD
+        """
+        if force_from_server:
+            url = f'https://ecocyc.org/ECOLI/substring-search?type=NIL&object={query}'
+            json_text = self._get_from_server(url)
+        else:
+            try:
+                with open(f'./exported_data/json_from_server/{query}.json', 'r') as g_json:
+                    json_text = g_json.read()
+            except FileNotFoundError:
+                url = f'https://ecocyc.org/ECOLI/substring-search?type=NIL&object={query}'
+                json_text = self._get_from_server(url)
+                # save it to local
+                if save:
+                    with open(f'./exported_data/json_from_server/{query}.json', 'w', encoding='utf-8') as g_json:
+                        g_json.write(json_text)
+        json_info = json.loads(json_text)
+        return json_info
 
     def _post(self, url, data):
         return self.s.post(url, data=data)

@@ -151,4 +151,10 @@ if __name__ == '__main__':
     psi_stat = pd.DataFrame(data=np.hstack(psi_stat), columns=sector, index=sample_list)
 
 
-
+#%%
+str = "cysC cysD cysE cysH cysI cysJ cysK cysM cysN"
+gene_list = str.split(' ')
+eco_number = name2ecoid(gene_list)
+print(eco_number)
+for gene in gene_list:
+    print(f'''"{gene}", ''')
